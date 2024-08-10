@@ -38,7 +38,45 @@ D-II-XXIVaBasso = {
 }
 
 D-II-XXIVaBassoLyrics = \lyricmode {
-  % Mi -- se -- re -- re me -- i, De -- us, se -- cun -- dum ma -- gnam mi -- se -- ri -- cor -- di -- am tu -- am,
-  % et se -- cun -- dum mul -- ti -- tu -- di -- nem mi -- se -- ra -- ti -- o -- num tu -- a -- rum
-  % de -- le in -- i -- qui -- ta -- tem me -- am.
+  Mi -- se -- %5
+  re -- re,
+  mi -- se -- re -- re,
+  mi -- se --
+  re -- re me -- i,
+  De -- _ _ %10
+  _ us,
+
+  se -- cun -- dum
+  ma -- gnam, se -- cun -- dum
+  ma -- gnam, se -- cun -- dum %15
+  ma -- gnam mi -- se -- ri --
+  cor -- di -- am tu --
+  am,
+  et se -- cun -- dum mul -- ti --
+  tu -- di -- nem %20
+  mi -- se -- ra --
+  ti -- o -- num __
+  tu -- a --
+  rum de --
+  le, de -- le, de -- %25
+  le, de -- le, de --
+  le in -- i -- qui --
+  ta -- tem, in -- i -- qui --
+  ta -- tem me --
+  am, me -- %30
+
+  am, in -- i -- qui -- ta -- tem
+  me -- am. %33 finis
+}
+
+D-II-XXIVcBasso = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \autoBeamOff \tempoD-II-XXIVca
+    % \tempoD-II-XXIVcb
+  }
+}
+
+D-II-XXIVcBassoLyrics = \lyricmode {
+
 }
