@@ -73,40 +73,83 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2" "Amplius lava me"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #20
+  %     system-system-spacing.minimum-distance = #20
+  %     systems-per-page = #4
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "vl" "1, 2" }
+  %           \D-II-XXIVbViolinoIeII
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T 1"
+  %           \new Voice = "Tenore" { \dynamicUp \D-II-XXIVbTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \D-II-XXIVbTenoreLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \D-II-XXIVbOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \D-II-XXIVbBassFigures }
+  %     >>
+  %     \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "2" "Amplius lava me"
+    \section "3" "Tibi soli peccavi"
     \addTocEntry
     \paper {
-      system-system-spacing.basic-distance = #20
-      system-system-spacing.minimum-distance = #20
-      systems-per-page = #4
+      system-system-spacing.basic-distance = #22
+      system-system-spacing.minimum-distance = #22
+      systems-per-page = #3
     }
     \score { %\articulate
       <<
-        \new StaffGroup \with { \smallGroupDistance } <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "vl" "1, 2" }
-            \D-II-XXIVbViolinoIeII
-          }
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \D-II-XXIVcViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \D-II-XXIVcViolinoII
+            }
+          >>
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "T 1"
-            \new Voice = "Tenore" { \dynamicUp \D-II-XXIVbTenore }
+            \set Staff.instrumentName = "B 1"
+            \new Voice = "Basso" { \dynamicUp \D-II-XXIVcBasso }
           }
-          \new Lyrics \lyricsto Tenore \D-II-XXIVbTenoreLyrics
+          \new Lyrics \lyricsto Basso \D-II-XXIVcBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \D-II-XXIVbOrgano
+            \D-II-XXIVcOrgano
           }
         >>
-        \new FiguredBass { \D-II-XXIVbBassFigures }
+        \new FiguredBass { \D-II-XXIVcBassFigures }
       >>
-      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
-      \midi { \tempo 4 = 60 }
+      \layout { }
+      \midi { \tempo 4 = 60 } % 80
     }
   }
 }

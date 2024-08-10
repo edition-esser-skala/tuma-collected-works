@@ -4,6 +4,8 @@ pianoOForte = \markup { \larger \bold p \remark "o" \larger \bold f }
 
 tempoD-II-XXIVa = \tempoMarkup "Adagio ô grave"
 tempoD-II-XXIVb = \tempoMarkup "Adagio"
+tempoD-II-XXIVca = \tempoMarkup "Adagio"
+  tempoD-II-XXIVcb = \tempoMarkup "Andante"
 
 \include "notes/trb1.ly"
 \include "notes/trb2.ly"

@@ -80,7 +80,7 @@ D-II-XXIVbTenore = {
     b as c([ des16)] d d8. es16 f8 as,
     as g es'8. es16 es([ c)] c([ e)] f4~ %10
     f16[ d d( fis)] g4~ g32([ f es d)] es([ d c h)] c([ b as g)] \hA as([ g f es)]
-    d8 b' es4~ es16.[^\critnote d64( c)] \tuplet 3/2 8 { b16[ c as] } f4
+    d8 b' es4~ es16.[ d64( c)] \tuplet 3/2 8 { b16[ c as] } f4
     es r r2
     R1
     r2 r8 g g g %15

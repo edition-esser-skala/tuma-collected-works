@@ -73,10 +73,68 @@ D-II-XXIVcBasso = {
   \relative c {
     \clef bass
     \key f \major \time 4/4 \autoBeamOff \tempoD-II-XXIVca
-    % \tempoD-II-XXIVcb
+    r4 \mvTr c8\pE^\soloE c f2~
+    f~ f4 f8 g
+    as2 b~
+    b4 as g2
+    r4 g2 f4~ %5
+    f es d2
+    c4 r r2
+    r4 c fis fis
+    r8 fis g a a[ h,] g'4
+    fis2 e4 \appoggiatura f8 e4\trill %10
+    d r r2
+    r \tempoD-II-XXIVcb f8 a g c
+    a f r4 r2
+    c8 e d g16 f e8 c r4
+    r2 r8 g' c16([ a)] g([ f)] %15
+    e([ d)] c8 r4 r8 c f16([ d)] c([ b)]
+    a8 f r4 r8 f' g a
+    b4. g8 e4. d16([ c)]
+    a'4. f8 d4. c16([ b)]
+    g'4. e8 cis[ b' a g] %20
+    f[ e16( d)] a4 d r
+    R1
+    r2 r8 a' b c
+    d4. b8 g4. f16[ e]
+    c'4. a8 fis4. e16[ d] %25
+    b'4. g8 e4. d16([ c)]
+    a'4. g16[ f!] e[ c d e] f[ g a b]
+    c8[ e, f f,] c'2
+    f,4 r r2
+    R1*2 %31
+    R1\fermata \bar "||" %32 finis
   }
 }
 
 D-II-XXIVcBassoLyrics = \lyricmode {
+  Ti -- bi so --
+  li pec --
+  ca -- _
+  _ vi,
+  pec -- ca -- %5
+  _ _
+  vi,
+  et ma -- lum
+  co -- ram te fe -- _
+  _ _ _ %10
+  ci,
+  ut iu -- sti -- fi --
+  ce -- ris
+  in ser -- mo -- ni -- bus tu -- is,
+  et vin -- cas, %15
+  vin -- cas, et vin -- cas,
+  vin -- cas cum iu -- di --
+  ca -- _ _ _
+  _ _ _ _
+  _ _ _ %20
+  _ _ ris,
 
+  cum iu -- di --
+  ca -- _ _ _
+  _ _ _ _ %25
+  _ _ _ _
+  _ _ _ _
+  _ _
+  ris. %29 finis
 }

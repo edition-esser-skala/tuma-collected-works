@@ -39,3 +39,42 @@ D-II-XXIVaViolinoII = {
     g8 fis16 e \hA fis4\trill g2\fermata \bar "||"
   }
 }
+
+D-II-XXIVcViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoD-II-XXIVca
+    a4\p r r8 a c16( a) a8
+    r b d16( b) b8 a4 r
+    r8 as c16( \hA as) as8 r b des16( b) b8
+    r c as16( c) c8 h2
+    r4 es( e) f %5
+    g,1~
+    g8 es'(\p es es) f( f f f)
+    es4 r d( fis)~
+    fis2~ fis4 e
+    h2~ h4 a~ %10
+    a8 f'( f a) a( a gis gis)
+    a4 r \tempoD-II-XXIVcb r2
+    r4 f~\f f g~
+    g r r c,~
+    c d e r %15
+    r8 e'16( c) c( g) g( e) e( c) c8 r4
+    r8 f'16( c) c( a) a( f) f( a,) a8 r4
+    d'2\p c~
+    c b~
+    b e,4 r %20
+    r2 r4 a(\f
+    b) b16(\p g) d( b) b8 g g'4\f
+    a \slurDashed a16(\p f) c( a) \slurSolid a4 r
+    r8 d'16( b) b( f) d'8 r c16( g) g( e) c'8
+    r c16( a) a( f) a8 r a16( fis) fis( d) a'8 %25
+    r b16( g) g( d) g8 r e'16( c) g( e) e( e')
+    r8 c16( a) a( f) a( c) c4 r
+    r f,~ f e\trill
+    f8 a\f b( c) f, d16(\p es) es( c) c( d)
+    d8 h'\f c( d) g, e16(\p f) f( d) d( e) %30
+    e4 f8(\f g) c, c16( d) d( e) e( f)
+    f4~ f8 e f4 r\fermata \bar "||" %32 finis
+  }
+}
