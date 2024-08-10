@@ -68,3 +68,80 @@ D-II-XXIVaTenoreLyrics = \lyricmode {
   am, in -- i -- qui -- ta -- tem
   me -- am. %33 finis
 }
+
+D-II-XXIVbTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \dorian \time 4/4 \autoBeamOff \tempoD-II-XXIVb
+    R1*5 %5
+    r2 \mvTr c8\pE^\soloE g16 g g'([ d)] es([ h)]
+    c4 r f8 c16 c f([ es)] d([ c)]
+    h8 d~ d16[ es] es([ e)] e8. f16 g8 b,
+    b as c([ des16)] d d8. es16 f8 as,
+    as g es'8. es16 es([ c)] c([ e)] f4~ %10
+    f16[ d d( fis)] g4~ g32([ f es d)] es([ d c h)] c([ b as g)] \hA as([ g f es)]
+    d8 b' es4~ es16.[^\critnote d64( c)] \tuplet 3/2 8 { b16[ c as] } f4
+    es r r2
+    R1
+    r2 r8 g g g %15
+    g16([ fis)] a es' \appoggiatura es8 d8. c16 b([ a!)] g8 b16([ a)] a([ g)]
+    d'1~
+    d4 d16([ b)] a([ g)] g'([ f!)] es([ d)] c([ es)] d([ c)]
+    h4 c16([ d)] es8 d h c16([ d)] es8
+    d4 c8 c des c16 c f([ d?)] c([ h)] %20
+    es([ d)] c([ b)] as8. g16 fis([ a?)] c([ es)] d([ fis)] a([ c,)]
+    b([ g')] es([ c)] a8. a16 g4 r
+    R1
+    r2 r8 d'4 d8
+    h h a g c4( des8) c16([ b?)] %25
+    as([ g)] f8 c'8.([ d16)] d([ es)] es([ c)] \appoggiatura b8 as4
+    g r r8 es'16 c f8 f,
+    r16 f' d f g8 g, g'32([ f es d)] es([ d c h)] c4
+    f32[( es d c)] d([ c b a)] b8. d16 es2~
+    es4 d es r %30
+    R1
+    r8 b4 b8 e4. e8
+    f f, f' f, des'4 es8 es,
+    c'4 c8 d h c16([ d)] d4
+    c c~ \once \tieDashed c2~ %35
+    c8.[ d32( e)] f16[ es d c] h([ g) c( d)] d4\trill
+    c r r2
+    R1
+    R\fermata \bar "||" %39 finis
+  }
+}
+
+D-II-XXIVbTenoreLyrics = \lyricmode {
+  Am -- pli -- us la -- va %6
+  me, am -- pli -- us la -- va
+  me ab __ in -- i -- qui -- ta -- te
+  me -- a, ab __ in -- i -- qui -- ta -- te
+  me -- a, ab in -- i -- qui -- ta -- %10
+  _ _ _ _
+  _ te me -- _ _
+  a,
+
+  et a pec -- %15
+  ca -- to, pec -- ca -- to me -- o mun -- da
+  me, __
+  mun -- da, mun -- da, mun -- da
+  me, mun -- da, mun -- da, mun -- da
+  me, a pec -- ca -- to, pec -- ca -- to %20
+  me -- o mun -- da, mun -- da, mun -- da,
+  mun -- da, mun -- da me.
+
+  Quo -- ni --
+  am in -- i -- qui -- ta -- tem %25
+  me -- am e -- go co -- gno --
+  sco, et pec -- ca -- tum,
+  pec -- ca -- tum me -- um con -- tra __ me,
+  con -- tra __ me est sem --
+  _ per, %30
+
+  et pec -- ca -- tum
+  me -- um con -- tra me, con -- tra
+  me, con -- tra me est sem --
+  per, sem -- %35
+  _ _ _
+  per. %37 finis
+}

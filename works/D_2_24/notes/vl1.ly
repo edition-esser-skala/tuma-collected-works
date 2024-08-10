@@ -39,3 +39,49 @@ D-II-XXIVaViolinoI = {
     b4 a\trill g2\fermata \bar "||" %33 finis
   }
 }
+
+D-II-XXIVbViolinoIeII = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoD-II-XXIVb
+    c'4\fE g'32([ f es d)] es( d c h) c4 g'32([ f es d)] es( d c h)
+    c4 g'32([ f es d)] es( d c h) c16. as'32 as8 d,32([ c h as)] g( f es d)
+    es8 c es'8. f32( g) f8. g32( as) g8. as32( b)
+    \appoggiatura as8 a8. h32( c) h8 g,, g''2~
+    \appoggiatura as8 g4~\trill g8. a32( h) c16 c, b' as32( g) as16 f des c32( h) %5
+    g'16 g, as g32( f) es16 d32( c) d8\trill c4 r
+    f8\p f' c'32([ b as g)] as( g f e) f4 as,32([ g f g)] f( es d es)
+    d8 g, r4 b''32([ as g f)] g( f e d!) c4
+    c32([ b as g)] \hA as( g f e) f4 as'32([ g f es?)] f( es d c) b4
+    r b32([ as g f)] g( f es des) c4 c'32([ b a g)] a( g f es) %10
+    d4 d'32([ c h a)] h( as g f) es4 r
+    r r8 ges f4 r
+    es8\f es' b8. c32( des) c8. d32( es) d8. es32( f)
+    es8. f32( g) f16 b,, as' g32( f) g16 es des c32( b) c16 as es'' d32( c)
+    d!16 b c b32( as) g16 f32( es) f8\trill es4 r %15
+    R1
+    r8 d''\p b16 d g, d' fis, d' d, c' b d g, d'
+    fis, d' d, c' b8 g,, r2
+    r4 g''~ g2~
+    \appoggiatura as8 g2\trill r %20
+    R1
+    r2 g4\f d'32([ c b a)] b( a g fis)
+    g4 g32([ f es d)] es( d c h) c4 c'32([ b? a g)] a( g fis e)
+    fis4 a32([ g fis es)] d( c b a) b8 g, r4
+    as'4\p d, g,8 c'( b!4) %25
+    c, r r2
+    es8\f es' b'32([ as g f)] g( f es des) c4 c'32([\p b a g)] a( g f es)
+    d4 d'32([ c h a)] h( as g f) es4~ es8 as
+    b,4~ b8 g' as, g f4~
+    f r b'32([\f as g f)] g( f es d) es8. f32( g) %30
+    as([ g f es)] f( es d c) d8. es32( f) g8 es~ es16 f,-! d'8\trill
+    es,4 r b'8([\p g)] as( b)
+    c,4 r f'32([ es des c)] \hA des([ c b as)] g8 r
+    es'32([ des c b)] c( b as g) f8 r r2
+    r8 e' f8. g32( as) g8 e f8. g32( as) %35
+    g8 c, r4 r2
+    es!8.\f f32( g) f8. g32( as) g8. as32( b) \hA as8. g32( f)
+    c'16 c, b' as32( g) \hA as16 f des c32( h) g'16 g, as g32( f) es16 d32( c) d8\trill
+    c4 r r2\fermata \bar "||"
+  }
+}

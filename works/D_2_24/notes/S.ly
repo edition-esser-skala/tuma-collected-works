@@ -69,10 +69,7 @@ D-II-XXIVaSopranoLyrics = \lyricmode {
   _ _ am. %33 finis
 }
 
-% Am -- pli -- us la -- va me ab in -- i -- qui -- ta -- te me -- a,
-% et a pec -- ca -- to me -- o mun -- da me.
-% Quo -- ni -- am in -- i -- qui -- ta -- tem me -- am e -- go co -- gno -- sco,
-% et pec -- ca -- tum me -- um con -- tra me est sem -- per.
+
 % Ti -- bi so -- li pec -- ca -- vi, et ma -- lum co -- ram te fe -- ci;
 % ut iu -- sti -- fi -- ce -- ris in ser -- mo -- ni -- bus tu -- is, et vin -- cas cum iu -- di -- ca -- ris.
 % Ec -- ce e -- nim in in -- i -- qui -- ta -- ti -- bus con -- cep -- tus sum,
