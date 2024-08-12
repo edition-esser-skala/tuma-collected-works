@@ -78,3 +78,52 @@ D-II-XXIVcViolinoII = {
     f4~ f8 e f4 r\fermata \bar "||" %32 finis
   }
 }
+
+D-II-XXIVdViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/4 \tempoD-II-XXIVd
+    f4\fE f r
+    r e e
+    f2 a4
+    d b g
+    c! a f
+    b es, c
+    f f f
+    fis2.
+    g4 g g
+    gis2.
+    a2 c,4
+    f!2.
+    e
+    d
+    c4 h2
+    a4 r c(\p
+    h) r c(
+    h) r r
+    e2\f r4
+    f a g!
+    g e d8( c)
+    g'2.~
+    g~
+    g
+    f4 e r
+    r f2~
+    f fis4
+    fis2.
+    e2 e4
+    r e e
+    e2 e4
+    f!2 e8( d)
+    c4 d e
+    f2.
+    g~
+    g4 f8 e f4
+    e2 r4
+    d r f(\p
+    e) r f(
+    e) r e
+    d d cis
+    d r r\fermata \bar "||"
+  }
+}

@@ -124,3 +124,52 @@ D-II-XXIVcViolinoI = {
     a8. g32( f) g4\trill f r\fermata \bar "|." %32 finis
   }
 }
+
+D-II-XXIVdViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/4 \tempoD-II-XXIVd
+    d'4\fE d r
+    r d cis
+    d2 a4
+    d b g
+    c! a f %5
+    b2 a4
+    b r r
+    r c c
+    b2 r4
+    r d d %10
+    c2 e4~
+    e d2~
+    d4 c2~
+    c4 h2
+    a4 a gis %15
+    a f(\p e)
+    r f( e)
+    r h'( e,)
+    c'\f r b(
+    a) a h %20
+    c2 r4
+    r c c
+    d2.
+    a~
+    a4 a a %25
+    a2.~
+    a~
+    a4 a g8 fis
+    h2 h4
+    r h2~ %30
+    h4 a2
+    b4 a gis
+    a h cis
+    d2.~
+    d4 es d %35
+    cis2 d4~
+    d cis2
+    d4 \slurDashed b!(\p a)
+    r b( a) \slurSolid
+    r b a8 g %40
+    \tuplet 3/2 4 { f8 e d } e2
+    d4 r r\fermata \bar "||" %42 finis
+  }
+}

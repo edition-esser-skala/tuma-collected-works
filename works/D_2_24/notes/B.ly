@@ -138,3 +138,87 @@ D-II-XXIVcBassoLyrics = \lyricmode {
   _ _
   ris. %29 finis
 }
+
+D-II-XXIVdBasso = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 3/4 \autoBeamOff \tempoD-II-XXIVd
+    \mvTr d4\fE^\tuttiE b r
+    r g a
+    d d r
+    d g es
+    c f d %5
+    b8 es c4. c8
+    b4 r r
+    r a a'
+    g g, r
+    r h h' %10
+    a c, a
+    d f d
+    a' c a
+    fis gis e
+    a e2 %15
+    a,4 r r
+    R2.*2
+    a'4 e r
+    r f g! %20
+    c c, r
+    r c c
+    h2 h4
+    cis2 cis4
+    d a r %25
+    R2.*2
+    r4 h h
+    gis2 gis4
+    r gis' gis %30
+    a4. a8 a4
+    d, d e
+    f e2
+    d4 b! a
+    g2 g4 %35
+    a2.~
+    a
+    d4 r r
+    R2.*3 %41
+    R2.\fermata \bar "||" %42 finis
+  }
+}
+
+D-II-XXIVdBassoLyrics = \lyricmode {
+  Ec -- ce,
+  ec -- ce
+  e -- nim
+  in in -- i --
+  qui -- ta -- ti -- %5
+  bus con -- cep -- tus
+  sum,
+  in pec --
+  ca -- tis,
+  in pec -- %10
+  ca -- tis con --
+  ce -- pit me
+  ma -- _ _
+  _ _ _
+  ter me -- %15
+  a.
+
+  Ec -- ce, %19
+  ec -- ce %20
+  e -- nim
+  ve -- ri --
+  ta -- tem
+  di -- le --
+  xi -- sti, %25
+
+  et oc -- %28
+  cul -- ta
+  sa -- pi -- %30
+  en -- ti -- ae
+  tu -- ae ma --
+  ni -- fe --
+  sta -- _ _
+  _ sti %35
+  mi --
+
+  hi. %38 finis
+}

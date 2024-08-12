@@ -36,3 +36,11 @@ D-II-XXIVaTromboneI = {
     g8 fis16 e \hA fis4 g2\fermata \bar "||" %33 finis
   }
 }
+
+D-II-XXIVdTromboneI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/4 \tempoD-II-XXIVd
+    
+  }
+}

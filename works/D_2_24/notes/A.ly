@@ -68,3 +68,89 @@ D-II-XXIVaAltoLyrics = \lyricmode {
   am, in -- i -- qui -- ta -- tem me --
   _ am. %33 finis
 }
+
+D-II-XXIVdAlto = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/4 \autoBeamOff \tempoD-II-XXIVd
+    \mvTr a'4\fE^\tuttiE b r
+    r b a
+    a f r
+    a g g8 g
+    g8. g16 f4 f %5
+    f8 es es4 r
+    f f f
+    fis2.
+    g4 g g
+    gis2. %10
+    a4 a2
+    a2.~
+    a2 a4
+    a e2
+    e4 e2 %15
+    e4 r r
+    R2.*2
+    a4 g! r
+    r a g %20
+    r e d8([ c)]
+    g'2.~
+    g2 g4
+    g2 g4
+    f e r %25
+    r f2
+    f fis4
+    fis2 fis4
+    e2 e4
+    r e e %30
+    e4. e8 e4
+    f! f e8([ d)]
+    c4( d) e
+    f2 f4
+    g2.~ %35
+    g4 f8[ e] f4
+    e2.
+    d4 r r
+    R2.*3 %41
+    R2.\fermata \bar "||" %42 finis
+  }
+}
+
+D-II-XXIVdAltoLyrics = \lyricmode {
+  Ec -- ce,
+  ec -- ce
+  e -- nim
+  in in -- i -- qui --
+  ta -- ti -- bus con -- %5
+  cep -- tus sum,
+  et in pec --
+  ca --
+  tis, in pec --
+  ca -- %10
+  tis con --
+  ce --
+  pit
+  me ma --
+  ter me -- %15
+  a.
+
+  Ec -- ce, %19
+  ec -- ce %20
+  ve -- ri --
+  ta --
+  tem
+  di -- le --
+  xi -- sti, %25
+  in --
+  cer -- ta
+  et oc --
+  cul -- ta
+  sa -- pi -- %30
+  en -- ti -- ae
+  tu -- ae ma --
+  ni -- fe --
+  sta -- sti
+  mi -- %35
+  _ _
+  _
+  hi. %38 finis
+}

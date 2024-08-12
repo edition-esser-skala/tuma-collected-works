@@ -6,6 +6,7 @@ tempoD-II-XXIVa = \tempoMarkup "Adagio ô grave"
 tempoD-II-XXIVb = \tempoMarkup "Adagio"
 tempoD-II-XXIVca = \tempoMarkup "Adagio"
   tempoD-II-XXIVcb = \tempoMarkup "Andante"
+tempoD-II-XXIVd = \tempoMarkup "Andante"
 
 \include "notes/trb1.ly"
 \include "notes/trb2.ly"

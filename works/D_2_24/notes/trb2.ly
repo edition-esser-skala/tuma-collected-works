@@ -36,3 +36,11 @@ D-II-XXIVaTromboneII = {
     d2 d\fermata \bar "||" %33 finis
   }
 }
+
+D-II-XXIVdTromboneII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/4 \tempoD-II-XXIVd
+    
+  }
+}

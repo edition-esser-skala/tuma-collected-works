@@ -145,3 +145,89 @@ D-II-XXIVbTenoreLyrics = \lyricmode {
   _ _ _
   per. %37 finis
 }
+
+D-II-XXIVdTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \minor \time 3/4 \autoBeamOff \tempoD-II-XXIVd
+    \mvTr f4\fE^\tuttiE d r
+    r e e
+    f d r
+    f d es
+    es c d %5
+    d8 b es4 es
+    d r r
+    r c c
+    d8([ c)] d4 r
+    r d d %10
+    e!8([ d)] e4 c
+    f2 f4
+    e2.
+    d
+    c4 h2 %15
+    a4 r r
+    R2.*2
+    e'4 e r
+    r d d %20
+    e c r
+    r e e
+    d2 d4
+    e2 e4
+    d cis r %25
+    R2.
+    r4 d2
+    dis2.
+    d
+    r4 d d %30
+    d4. c8 c4
+    d c h
+    a g!2
+    a4( b!) c!
+    d b r %35
+    a2.~
+    a
+    a4 r r
+    R2.*3 %41
+    R2.\fermata \bar "||" %42 finis
+  }
+}
+
+D-II-XXIVdTenoreLyrics = \lyricmode {
+  Ec -- ce,
+  ec -- ce
+  e -- nim
+  in in -- i --
+  qui -- ta -- ti -- %5
+  bus con -- cep -- tus
+  sum,
+  in pec --
+  ca -- tis,
+  in pec -- %10
+  ca -- tis con --
+  ce -- pit
+  me
+  ma --
+  ter me -- %15
+  a.
+
+  Ec -- ce, %19
+  ec -- ce %20
+  e -- nim
+  ve -- ri --
+  ta -- tem
+  di -- le --
+  xi -- sti, %25
+
+  in --
+  cer --
+  ta
+  sa -- pi -- %30
+  en -- ti -- ae
+  tu -- ae ma --
+  ni -- fe --
+  sta -- sti
+  mi -- hi, %35
+  mi --
+
+  hi. %38 finis
+}

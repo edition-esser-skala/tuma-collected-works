@@ -69,12 +69,93 @@ D-II-XXIVaSopranoLyrics = \lyricmode {
   _ _ am. %33 finis
 }
 
+D-II-XXIVdSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/4 \autoBeamOff \tempoD-II-XXIVd
+    \mvTr d'4\fE^\tuttiE d r
+    r d cis
+    d d a
+    d b g
+    c! a f %5
+    b b a
+    b r r
+    r c c
+    b8([ a)] b4 r
+    r d d %10
+    c8([ h)] c4 e~
+    e d2~
+    d4 c2~
+    c4 h h
+    a a( gis) %15
+    a r r
+    R2.*2
+    c4 c r
+    r c h %20
+    c c r
+    r c c
+    d2 d4
+    a2 a4
+    a a a %25
+    a2.~
+    a
+    a4 a g8([ fis)]
+    h2 h4
+    r h h %30
+    h4. a8 a4
+    b a gis
+    a( h) cis
+    d2.~
+    d4 es d %35
+    cis2 d4~
+    d cis2
+    d4 r r
+    R2.*3 %41
+    R2.\fermata \bar "||" %42 finis
+  }
+}
+
+D-II-XXIVdSopranoLyrics = \lyricmode {
+  Ec -- ce,
+  ec -- ce
+  e -- nim in
+  in -- i -- qui --
+  ta -- ti -- bus %5
+  con -- cep -- tus
+  sum,
+  in pec --
+  ca -- tis,
+  in pec -- %10
+  ca -- tis con --
+  ce --
+  pit __
+  me ma --
+  ter me -- %15
+  a.
+
+  Ec -- ce, %19
+  ec -- ce %20
+  e -- nim
+  ve -- ri --
+  ta -- tem
+  di -- le --
+  xi -- sti, in -- %25
+  cer --
+
+  ta et oc --
+  cul -- ta
+  sa -- pi -- %30
+  en -- ti -- ae
+  tu -- ae ma --
+  ni -- fe --
+  sta --
+  _ _ %35
+  _ sti __
+  mi --
+  hi. %38 finis
+}
 
 
-% Ec -- ce e -- nim in in -- i -- qui -- ta -- ti -- bus con -- cep -- tus sum,
-% et in pec -- ca -- tis con -- ce -- pit me ma -- ter me -- a.
-% Ec -- ce e -- nim ve -- ri -- ta -- tem di -- le -- xi -- sti;
-% in -- cer -- ta et oc -- cul -- ta sa -- pi -- en -- ti -- ae tu -- ae ma -- ni -- fe -- sta -- sti mi -- hi.
 % A -- sper -- ges me hys -- so -- po, et mun -- da -- bor;
 % la -- va -- bis me, et su -- per ni -- vem de -- al -- ba -- bor.
 % Au -- di -- tu -- i me -- o da -- bis gau -- di -- um et lae -- ti -- ti -- am,
