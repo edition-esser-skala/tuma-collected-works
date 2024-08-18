@@ -157,8 +157,7 @@ D-II-XXIVdSopranoLyrics = \lyricmode {
 
 
 
-% Au -- di -- tu -- i me -- o da -- bis gau -- di -- um et lae -- ti -- ti -- am,
-% et ex -- sul -- ta -- bunt os -- sa hu -- mi -- li -- a -- ta.
+
 % A -- ver -- te fa -- ci -- em tu -- am a pec -- ca -- tis me -- is,
 % et o -- mnes in -- i -- qui -- ta -- tes me -- as de -- le.
 % Cor mun -- dum cre -- a in me, De -- us, et spi -- ri -- tum re -- ctum in -- no -- va in vi -- sce -- ri -- bus me -- is.

@@ -293,3 +293,161 @@ D-II-XXIVeTenoreLyrics = \lyricmode {
   _ _ _ %25
   _ _ bor. %26 finis
 }
+
+D-II-XXIVfTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key es \major \time 3/4 \autoBeamOff \tempoD-II-XXIVf
+    \partial 4 \mvTr es4\pE^\soloE d4. es8 c4
+    c b es8 b
+    c8.[ \tuplet 3/2 16 { des32( c b)] } c8[ e] f8.[ g32( as)]
+    b,8.[ \tuplet 3/2 16 { c32( b a)] } b8[ d] es8.[ f32( g)]
+    as,4 g8 f f' as, %5
+    g8. f16 es4 r
+    R2.*14 %20
+    r4 r es'
+    d4. es8 c4
+    c b es8 b
+    c8.[ \tuplet 3/2 16 { des32( c b)] } c8[ e] f8.[ g32( as)]
+    b,8.[ \tuplet 3/2 16 { c32( b a)] } b8[ d] es8.[ f32( g)] %25
+    as,4 g8 f f' as,
+    g8. f16 es4 r
+    R2.
+    r8 b' es16([ b)] b8\trill g'16[ es es8]\trill
+    f16[ d b8]\trill~ b16[ c d es] f[ g as f] %30
+    g[ es b8]~\trill b[ c16 d] es[ f g a]
+    b4 b, r
+    R2.
+    r8 f b16([ f)] f8\trillE d'16([ b) b8]\trill
+    c16[ a f8]~\trill f16[ g a b] c[ d es c] %35
+    d[ b f8]~\trill f[ g16 a] b[ c d e]
+    f4 f, r
+    r8 \tuplet 3/2 8 { f'16([ es f)] } b,8 \tuplet 3/2 8 { f'16([ es f)] } as,!8 \tuplet 3/2 8 { f'16[ es f] }
+    g,8 \tuplet 3/2 8 { g'16[ f g] } c,8 \tuplet 3/2 8 { g'16[ f g] } b,!8 \tuplet 3/2 8 { g'16[ f g] }
+    a,[ f g \hA a] b[ \hA a b c] d[ c d es] %40
+    f[ b, c d] es[ d es f] g[ f g a]
+    b8 b, r4 r
+    f' des b
+    ges2 f4
+    e e r %45
+    c' a ges
+    f2 es!4
+    d! d r
+    b'\p b b
+    b2.~ %50
+    b4 a2
+    b4 r r
+    R2.*5 %57
+    r8 b es16([ d)] es([ b)] g'([ f g) es]
+    des([ c \hA des) b] g'([ f g) es] b'([ as b) des,]
+    c([ b)] as8 r4 r %60
+    r8 as c16([ b)] c([ as)] es'([ d es) c]
+    f([ e f) c] as([ g as) f] f'[ g as c,]
+    h[ a] g8 r4 r
+    g' es c
+    as!2 g4 %65
+    fis fis r
+    d' h as!
+    g2 f!4
+    e e r
+    f f f %70
+    es!2.~
+    es4 d2
+    c4 r r
+    R2.*3 %76
+    r8 \tuplet 3/2 8 { es'16([ d es)] } b8 \tuplet 3/2 8 { es16([ d es)] } es,8 \tuplet 3/2 8 { des'16[ c \hA des] }
+    c4( des8[) d]( es16)[ b c des?]
+    c8[ d]( es[) e]( f16[) c d es]
+    d8[ \tuplet 3/2 8 { b'16 a b] } f[ g f es] d[ es d c] %80
+    b8[ \tuplet 3/2 8 { b'16 a b] } f[ g f es] d[ es d c]
+    b8.([\trill a16)] b4 r
+    b b b
+    ces2 ces4
+    ces b r %85
+    b b b
+    b as! r
+    R2.
+    f4 f f
+    f2 ges4 %90
+    f2.
+    es4 r r
+    R2.*14 %106
+    R2.\fermata \bar "||" %107 finis
+  }
+}
+
+D-II-XXIVfTenoreLyrics = \lyricmode {
+  Au -- di -- tu -- i
+  me -- o da -- bis
+  gau -- _ _
+  _ _ _
+  _ di -- um et lae -- %5
+  ti -- ti -- am,
+
+  au -- %21
+  di -- tu -- i
+  me -- o da -- bis
+  gau -- _ _
+  _ _ _ %25
+  _ di -- um et lae --
+  ti -- ti -- am,
+
+  et ex -- ul -- ta --
+  _ _ %30
+  _ _
+  _ bunt,
+
+  et ex -- ul -- ta --
+  _ _ %35
+  _ _
+  _ bunt
+  et __ ex -- ul -- ta -- _
+  _ _ _ _ _ _
+  _ _ _ %40
+  _ _ _
+  _ bunt
+  os -- sa hu --
+  mi -- li --
+  a -- ta, %45
+  os -- sa hu --
+  mi -- li --
+  a -- ta,
+  hu -- mi -- li --
+  a -- %50
+  _
+  ta,
+
+  et ex -- ul -- ta -- %58
+  _ _ _
+  _ bunt, %60
+  et ex -- ul -- ta --
+  _ _ _
+  _ bunt
+  os -- sa hu --
+  mi -- li -- %65
+  a -- ta,
+  os -- sa hu --
+  mi -- li --
+  a -- ta,
+  hu -- mi -- li -- %70
+  a --
+  _
+  ta,
+
+  et __ ex -- ul -- ta -- _ %77
+  _
+  _
+  _ _ _ %80
+  _ _ _
+  _ bunt
+  os -- sa hu --
+  mi -- li --
+  a -- ta, %85
+  hu -- mi -- li --
+  a -- ta,
+
+  hu -- mi -- li --
+  a -- _ %90
+  _
+  ta. %92 finis
+}

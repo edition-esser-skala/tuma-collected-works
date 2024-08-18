@@ -409,3 +409,227 @@ D-II-XXIVeBassFigures = \figuremode {
   <[6 5]>2 <6 [5]>4. \bo <[6 5]>8
   r4 \bc q2. %28 finis
 }
+
+D-II-XXIVfOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 3/4 \tempoD-II-XXIVf
+    \partial 4 \mvTr es4\pE-\soloE b'2 as4
+    g2 g,4
+    as2 r4
+    g2 r4
+    f2 d'4 %5
+    es2 r4
+    b2\fE d4
+    es r g,
+    as r a
+    b r a %10
+    b r a
+    b r a
+    b c d
+    es r d
+    es r d %15
+    es r g,
+    as! r a
+    b2 r4
+    b2 r4
+    c as! b %20
+    es, r es'\p
+    b'2 as4
+    g2 g,4
+    as2 r4
+    g2 r4 %25
+    f2 d'4
+    es\fE r d
+    es r d
+    es2\pE r4
+    d2 r4 %30
+    es r c
+    b\fE r a
+    b r a
+    b2 r4
+    a2\pE r4 %35
+    b r g
+    f r a
+    b r d
+    es r e
+    f r es %40
+    d r c
+    b2 r4
+    b r r
+    \mvTr b(\p-\senzaOrg b b)
+    b( b b) %45
+    a2 r4
+    as( as as)
+    as( as as)
+    ges r r
+    r r e %50
+    f r r
+    b r \mvTr a\fE-\colOrg
+    b r a
+    b r a
+    b c d %55
+    es r d
+    es r d
+    es2 r4
+    g,2\pE r4
+    as!4\fE r g %60
+    as2 r4
+    f2\pE r4
+    g r h\fE
+    c r r
+    \mvTr c(\p-\senzaOrg c c) %65
+    c( c c)
+    h2 r4
+    b( b b)
+    b( b b)
+    as!2 r4 %70
+    r r fis
+    g r r
+    c r \mvTr e\fE-\colOrgE
+    f r a
+    b r d, %75
+    es! r d
+    es r g,\pE
+    as! r g
+    as r a
+    b r r %80
+    b r r
+    b2 r4
+    es r r
+    \slurDashed \mvTr es(\p-\senzaOrg es es)
+    d( d d) %85
+    des( des des)
+    c!( c c)
+    ces \slurSolid r r
+    as r a
+    b r a %90
+    b r r
+    es, r \mvTr es\fE-\colOrgE
+    b'2 d4
+    es r g,
+    as r a %95
+    b r a
+    b r a
+    b r a
+    b c d
+    es r d %100
+    es r d
+    es r g,
+    as! r a
+    b2 r4
+    b2 r4 %105
+    c as! b
+    es,2 r4\fermata \bar "||" %107 finis
+  }
+}
+
+D-II-XXIVfBassFigures = \figuremode {
+  r4 r2.
+  \bo <[6 4]>4 <\t 3>2
+  r2.
+  <6>
+  <6>2 \bc <[6 5]>4 %5
+  r2.
+  <4>8 <3> r2
+  \bo <[4]>8 \bc <[3]> r2
+  <9>8 <8> r2
+  \bo <[5 4]>8 <\t 3>4. <6 5>4 %10
+  r2 q4
+  r2 q4
+  r <5> <6>
+  r2 <6 5>4
+  r2 q4 %15
+  r2 <5->4
+  r2 <6 5>4
+  <_!>2.
+  r
+  r4 <6 5>2 %20
+  r2.
+  r
+  <6 4>4 <\t 3>2
+  r2.
+  <6> %25
+  q2 <6 5>4
+  r2 q4
+  r2 q4
+  r2.
+  \bc <[6 _]> %30
+  r2 <6!>4
+  r2 \bo <[6 5]>4
+  r2 <6 5>4
+  r2.
+  \bc <[6 _]> %35
+  r2 <6!>4
+  \bo <[_! _]>2 <6 5->4
+  r2 q4
+  r2 q4
+  <_!>2. %40
+  \bc <[6 _]>
+  r
+  <_->
+  r
+  r %45
+  r
+  r
+  r
+  r
+  r %50
+  r
+  r2 \bo <[6 5]>4
+  <_!>2 <6 5>4
+  r2 q4
+  r <5> <6 5-> %55
+  r2 <6 5>4
+  r2 q4
+  r2.
+  <6 5->
+  r2 q4 %60
+  r2.
+  r
+  \bc <[_! _]>2.
+  r
+  r %65
+  r
+  r
+  r
+  r
+  r %70
+  r
+  r
+  r2 \bo <[6 5-]>4
+  <_->2 <6 5->4
+  r2 <6 5>4 %75
+  r2 q4
+  r2 <6 5->4
+  r2 q4
+  r2 <6 5>4
+  \bc <[_! _]>2. %80
+  r
+  r
+  <_->
+  r
+  r %85
+  r
+  r
+  r
+  r
+  r %90
+  r
+  r2 <[_!]>4
+  <4>8 <3> r2
+  r2.
+  <9>8 <8> r2 %95
+  \bo <[5 4]>8 <\t 3>4. <6 5>4
+  r2 q4
+  r2 q4
+  r <5> <6 5->
+  r2 <6 5>4 %100
+  r2 \bc <[6 5]>4
+  r2 <5->4
+  r2 \bo <[6 5]>4
+  <_!>2.
+  r %105
+  r4 \bc <[6 5]>2
+  r2. %107 finis
+}

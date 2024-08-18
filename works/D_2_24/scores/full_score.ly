@@ -219,9 +219,51 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "5" "Asperges me"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #22
+  %     system-system-spacing.minimum-distance = #22
+  %     systems-per-page = #3
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "vl" "1, 2" }
+  %           \D-II-XXIVeViolinoIeII
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T 2"
+  %           \new Voice = "Tenore" { \dynamicUp \D-II-XXIVeTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \D-II-XXIVeTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B 2"
+  %           \new Voice = "Basso" { \dynamicUp \D-II-XXIVeBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \D-II-XXIVeBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \D-II-XXIVeOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \D-II-XXIVeBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "5" "Asperges me"
-    \addTocEntry
+    \section "6" "Auditui meo"
+    % \addTocEntry
     \paper {
       system-system-spacing.basic-distance = #22
       system-system-spacing.minimum-distance = #22
@@ -231,34 +273,32 @@
       <<
         \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "vl" "1, 2" }
-            \D-II-XXIVeViolinoIeII
+            \set Staff.instrumentName = \markup \center-column { "vl" "solo" }
+            \D-II-XXIVfViolinoSolo
+          }
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "vlc" "solo" }
+            \D-II-XXIVfCello
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "T 2"
-            \new Voice = "Tenore" { \dynamicUp \D-II-XXIVeTenore }
+            \set Staff.instrumentName = "T 1"
+            \new Voice = "Tenore" { \dynamicUp \D-II-XXIVfTenore }
           }
-          \new Lyrics \lyricsto Tenore \D-II-XXIVeTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B 2"
-            \new Voice = "Basso" { \dynamicUp \D-II-XXIVeBasso }
-          }
-          \new Lyrics \lyricsto Basso \D-II-XXIVeBassoLyrics
+          \new Lyrics \lyricsto Tenore \D-II-XXIVfTenoreLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \D-II-XXIVeOrgano
+            \D-II-XXIVfOrgano
           }
         >>
-        \new FiguredBass { \D-II-XXIVeBassFigures }
+        \new FiguredBass { \D-II-XXIVfBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 90 }
     }
   }
 }
