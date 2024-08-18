@@ -173,3 +173,35 @@ D-II-XXIVdViolinoI = {
     d4 r r\fermata \bar "||" %42 finis
   }
 }
+
+D-II-XXIVeViolinoIeII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoD-II-XXIVe
+    R1
+    r8 b''16-!\fE d,-! b'-! c,-! a' c, a' b, es16. f64( g) c,16 a f' a,
+    f' g, es' g, es' f, d'16. es64( f) c16\p f, d'16. es64( f) c16\f f, d'16. es64( f)
+    c8 f, r4 r2
+    r8 f'16\pE a, f' g, e' g, \hA e' f, b16. c64( d) g,16 e c' \hA e, %5
+    c' d, b' d, b' c, c8 r2
+    R1*2
+    r2 r8 b''16\fE d, b' c, a' c,
+    a' b, g' b, g' a, fis'16. g64( a) b,8 g, r4 %10
+    d'''16\p d, d' d, d' d, d' d, d' g, r8 r4
+    g16 g, g' g, g' g, g' g, g' g, r8 r4
+    r2 g'16\p g, g' g, g' es c' es,
+    c' d, b'! d, b' c, as' c, \hA as' b, g' b, g' a, fis' a,
+    g4 r r8 d''16\f d, d' es, c' es, %15
+    c' d, g16. a64( b) c,16 a a' a, b8 g r4
+    R1
+    r8 f'16\f f, f' f, f' f, f' f, d'16. es64( f) c16 f, d'16. es64( f)
+    c8 f, r4 r2
+    R1*2 %21
+    r8 b16\fE b, b' b, b' b, b' b, g'16. a64( b) f16 b, g'16. a64( b)
+    f8 b, r4 r2
+    R1*2 %25
+    r2 r8 b''16\fE d, b' c, a' c,
+    a' b, es16. f64( g) a,16 f f' a, f' g, c16. d64( es) a,16 f c' es,
+    d8. c32 b c4\trill b r\fermata \bar "||"
+  }
+}

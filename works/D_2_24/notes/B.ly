@@ -222,3 +222,62 @@ D-II-XXIVdBassoLyrics = \lyricmode {
 
   hi. %38 finis
 }
+
+D-II-XXIVeBasso = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \autoBeamOff \tempoD-II-XXIVe
+    R1*3
+    r8 \mvTr c'\pE^\soloE a b16([ c)] f,8 g16([ a)] b4
+    a8 a g4 f e %5
+    d c r e16([ d)] e([ fis)]
+    g4 f16[ e f g] a4~ a16[ b! a g]
+    f[ a b a] g[e  a g] f[ d g f] e8.[ d32( e)]
+    f16[ c] f4 e8 f4 r
+    R1 %10
+    r2 r8 g g16[ as g f]
+    es[ d c as'] g[ f] es([ d)] es8 es16([ f)] f([ g)] g([ as)]
+    as8. g16 f8 es d g, r c'~
+    c b!4 as( g) fis8
+    g g g([ fis)] g4 r %15
+    r2 r4 r8 h
+    c8. \tuplet 3/2 16 { b32([ a g)] } a8 f f b g16([ a)] b8
+    b a r4 r2
+    r4 a8 a b16([ a)] b8 b f
+    g16[ b c b] a[ f b a] g[ es f es] d[ b d e] %20
+    f4. a8 b16[ f] b4 a8
+    b4 r r2
+    r8 b,16([ d)] d([ f)] f([ b)] b8 b, b' b
+    b as4 g f es8~
+    es[ d16( c)] d[ b b' as] g4. c8 %25
+    a[ b] f4 b, r
+    R1
+    R\fermata \bar "||" %28 finis
+  }
+}
+
+D-II-XXIVeBassoLyrics = \lyricmode {
+  A -- sper -- ges me hys -- so -- %4
+  po, et mun -- da -- _ %5
+  _ bor, et mun --
+  da -- _ _
+  _ _ _ _
+  _ _ _ bor,
+  %10
+  la -- va --
+  _ _ bis me, et su -- per
+  ni -- vem de -- al -- ba -- bor, de --
+  al -- ba -- bor,
+  de -- al -- ba -- bor, %15
+  la --
+  va -- bis me, et su -- per, su -- per
+  ni -- vem,
+  su -- per ni -- vem de -- al --
+  ba -- _ _ _ %20
+  _ _ _ _ _
+  bor,
+  et su -- per ni -- vem de -- al --
+  ba -- _ _ _ _
+  _ _ _ %25
+  _ _ bor. %26 finis
+}

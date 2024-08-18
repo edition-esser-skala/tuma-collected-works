@@ -156,8 +156,7 @@ D-II-XXIVdSopranoLyrics = \lyricmode {
 }
 
 
-% A -- sper -- ges me hys -- so -- po, et mun -- da -- bor;
-% la -- va -- bis me, et su -- per ni -- vem de -- al -- ba -- bor.
+
 % Au -- di -- tu -- i me -- o da -- bis gau -- di -- um et lae -- ti -- ti -- am,
 % et ex -- sul -- ta -- bunt os -- sa hu -- mi -- li -- a -- ta.
 % A -- ver -- te fa -- ci -- em tu -- am a pec -- ca -- tis me -- is,
