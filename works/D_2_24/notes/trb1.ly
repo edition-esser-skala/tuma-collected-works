@@ -39,8 +39,81 @@ D-II-XXIVaTromboneI = {
 
 D-II-XXIVdTromboneI = {
   \relative c' {
-    \clef treble
+    \clef alto
     \key d \minor \time 3/4 \tempoD-II-XXIVd
-    
+    a'4\fE b r
+    r b a
+    a f r
+    a g g8 g
+    g8. g16 f4 f %5
+    f8 es es4 r
+    f f f
+    fis2.
+    g4 g g
+    gis2. %10
+    a4 a2
+    a2.~
+    a2 a4
+    a e2
+    e4 e2 %15
+    e4 r r
+    R2.*2
+    a4 g! r
+    r a g %20
+    r e d8 c
+    g'2.~
+    g2 g4
+    g2 g4
+    f e r %25
+    r f2
+    f fis4
+    fis2 fis4
+    e2 e4
+    r e e %30
+    e4. e8 e4
+    f! f e8 d
+    c4 d e
+    f2 f4
+    g2.~ %35
+    g4 f8 e f4
+    e2.
+    d4 r r
+    R2.*3 %41
+    R2.\fermata \bar "||" %42 finis
+  }
+}
+
+D-II-XXIVgTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \dorian \time 4/4 \tempoD-II-XXIVg
+    r8 g'\fE as as g4 g8 g
+    g4 g r d8 es
+    g,4 es'8 d c4 g'
+    fis4. fis8 g2
+    g4 r r g %5
+    es c f as8 as
+    f4. f8 d4. d8
+    d g g g fis4 g~
+    g fis g r
+    R1 %10
+    r2 r4 b-\solo
+    \appoggiatura b8 a8.\trill g32( a) g4 r b
+    \appoggiatura b8 a8.\trill g32( a) g4 r2
+    r4 g8 f16( es) \sbOn \tuplet 3/2 8 { f g f } es d \sbOff es4
+    d r r2 %15
+    R1
+    r4 b'8 a16( g) a8 d, \appoggiatura a' g4
+    f r r2
+    R1*2 %20
+    r2 r4 a
+    \appoggiatura a8 b4 a r2
+    R1
+    r4 g \appoggiatura g8 as4 g
+    R1*2 %26
+    r2 r4 d
+    \appoggiatura d8 es4 d8 g \appoggiatura g8 as4 g
+    fis8 d g2 fis4
+    g r r2\fermata \bar "||" %30 finis
   }
 }

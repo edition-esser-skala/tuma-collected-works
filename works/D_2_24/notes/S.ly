@@ -155,12 +155,37 @@ D-II-XXIVdSopranoLyrics = \lyricmode {
   hi. %38 finis
 }
 
+D-II-XXIVgSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoD-II-XXIVg
+    r8 \mvDl c'\fE^\tuttiE c c d4 d8 d
+    d4 c r g8 a
+    h4 a8[ \hA h] c4 \hA h8[ c]
+    a4. a8 h4 h8 h
+    d4 h es2 %5
+    c4 r r c
+    as f r8 a a a
+    b!4 b a8([ d,)] b'4
+    a2 g4 r
+    R1*20 %29
+    R1\fermata \bar "||" %30 finis
+  }
+}
+
+D-II-XXIVgSopranoLyrics = \lyricmode {
+  A -- ver -- te fa -- ci -- em
+  tu -- am a pec --
+  ca -- _ _ _
+  _ tis me -- is, et
+  o -- mnes, o -- %5
+  mnes, et
+  o -- mnes in -- i -- qui --
+  ta -- tes me -- as
+  de -- le. %9 finis
+}
 
 
-
-% A -- ver -- te fa -- ci -- em tu -- am a pec -- ca -- tis me -- is,
-% et o -- mnes in -- i -- qui -- ta -- tes me -- as de -- le.
-% Cor mun -- dum cre -- a in me, De -- us, et spi -- ri -- tum re -- ctum in -- no -- va in vi -- sce -- ri -- bus me -- is.
 % Ne pro -- i -- ci -- as me a fa -- ci -- e tu -- a, et spi -- ri -- tum san -- ctum tu -- um ne au -- fe -- ras a me.
 % Red -- de mi -- hi lae -- ti -- ti -- am sa -- lu -- ta -- ris tu -- i,
 % et spi -- ri -- tu prin -- ci -- pa -- li con -- fir -- ma me.

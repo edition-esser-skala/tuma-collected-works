@@ -154,3 +154,33 @@ D-II-XXIVdAltoLyrics = \lyricmode {
   _
   hi. %38 finis
 }
+
+D-II-XXIVgAlto = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoD-II-XXIVg
+    r8 \mvDl g'\fE^\tuttiE as as g4 g8 g
+    g4 g r d8 es
+    g,4( es'8[ d]) c4 g'
+    fis4. fis8 g2
+    g4 r r g %5
+    es c f as8 as
+    f4. f8 d4. d8
+    d g g g fis4 g~
+    g fis g r
+    R1*20 %29
+    R1\fermata \bar "||" %30 finis
+  }
+}
+
+D-II-XXIVgAltoLyrics = \lyricmode {
+  A -- ver -- te fa -- ci -- em
+  tu -- am a pec --
+  ca -- tis, pec --
+  ca -- tis me --
+  is, et
+  o -- mnes, o -- mnes in --
+  i -- qui -- ta -- tes
+  me -- as de -- le, de -- _
+  _ le. %9 finis
+}

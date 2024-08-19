@@ -39,8 +39,81 @@ D-II-XXIVaTromboneII = {
 
 D-II-XXIVdTromboneII = {
   \relative c' {
-    \clef treble
+    \clef tenor
     \key d \minor \time 3/4 \tempoD-II-XXIVd
-    
+    f4\fE d r
+    r e e
+    f d r
+    f d es
+    es c d %5
+    d8 b es4 es
+    d r r
+    r c c
+    d8 c d4 r
+    r d d %10
+    e!8 d e4 c
+    f2 f4
+    e2.
+    d
+    c4 h2 %15
+    a4 r r
+    R2.*2
+    e'4 e r
+    r d d %20
+    e c r
+    r e e
+    d2 d4
+    e2 e4
+    d cis r %25
+    R2.
+    r4 d2
+    dis2.
+    d
+    r4 d d %30
+    d4. c8 c4
+    d c h
+    a g!2
+    a4 b! c!
+    d b r %35
+    a2.~
+    a
+    a4 r r
+    R2.*3 %41
+    R2.\fermata \bar "||" %42 finis
+  }
+}
+
+D-II-XXIVgTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \dorian \time 4/4 \tempoD-II-XXIVg
+    r8 es\fE es f f4 f8 f
+    f4 es r h8 c
+    d4 c8 d es4 d8 es
+    c4. c8 d4 d8 d
+    h4 g c c %5
+    r es c as
+    r8 c c c c4. c8
+    b!4 g d'2~
+    d d4 r
+    R1 %10
+    r2 r4 d-\solo
+    c b r d
+    c b r2
+    r4 b~ b~ b8 a
+    b4 r r2 %15
+    R1
+    r4 d~ d~ d8 cis
+    d4 r r2
+    R1*2 %20
+    r2 r4 f
+    g f r2
+    R1
+    r4 es f es
+    R1*2
+    r2 r4 b
+    c b8 d es4 d8 es
+    a,4 b a2
+    g4 r r2\fermata \bar "||"
   }
 }

@@ -281,3 +281,70 @@ D-II-XXIVeBassoLyrics = \lyricmode {
   _ _ _ %25
   _ _ bor. %26 finis
 }
+
+D-II-XXIVgBasso = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \autoBeamOff \tempoD-II-XXIVg
+    r8 \mvDl c'\fE^\tuttiE as f h,4 h8 h
+    c4 c g4. g8
+    g1~
+    g4 g g g
+    r g' es c %5
+    r c' as f
+    r8 f f f fis4. fis8
+    g4 cis, d2~
+    d g,4 r
+    R1 %10
+    \clef "treble_8" r4 \mvDl b'\pE^\markup \remark "T 2 solo" c b
+    r b c b
+    r b8 b b b b([ a)]
+    b4 r r2
+    r r4 a %15
+    g c8 c c4( b)
+    a r r2
+    r2 a8. a16 a4
+    e'8. e16 e4 a,8. a16 a4
+    f'8 e d c16 d b8 a g f16 g %20
+    e8[ f16( g)] e4 d r
+    r4 r8 a' d c!16 b c8 d
+    b8. a16 g4 h( c8) d
+    g,4 r r2
+    r4 g8 a b!4 b8 b %25
+    b4 a~ a8[ d,] g4~
+    g fis g r
+    R1*2
+    R1\fermata \bar "||" %30 finis
+  }
+}
+
+D-II-XXIVgBassoLyrics = \lyricmode {
+  A -- ver -- te fa -- ci -- em
+  tu -- am a pec --
+  ca --
+  tis me -- is,
+  et o -- mnes, %5
+  et o -- mnes
+  in -- i -- qui -- ta -- tes
+  me -- as de --
+  le.
+  %10
+  Cor mun -- dum,
+  cor mun -- dum
+  cre -- a in me, De --
+  us,
+  et %15
+  spi -- ri -- tum re --
+  ctum
+  in -- no -- va,
+  in -- no -- va, in -- no -- va
+  in vi -- sce -- ri -- bus, in vi -- sce -- ri -- bus %20
+  me -- _ is,
+
+  et spi -- ri -- tum re -- ctum
+  in -- no -- va, in -- no --
+  va
+  in vi -- sce -- ri -- bus %25
+  me -- _ _
+  _ is. %27 finis
+}

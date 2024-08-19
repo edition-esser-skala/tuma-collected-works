@@ -451,3 +451,70 @@ D-II-XXIVfTenoreLyrics = \lyricmode {
   _
   ta. %92 finis
 }
+
+D-II-XXIVgTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \dorian \time 4/4 \autoBeamOff \tempoD-II-XXIVg
+    r8 \mvDl es\fE^\tuttiE es f f4 f8 f
+    f4 es r h8 c
+    d4 c8([ d)] es4 d8([ es)]
+    c4. c8 d4 d8 d
+    h4 g c c %5
+    r es c as
+    r8 c c c c4. c8
+    b!4 g d'2~
+    d d4 r
+    R1 %10
+    \set Staff.forceClef = ##t
+      r4 \mvDl d\pE^\markup \remark "T 1 solo" es d
+    r d es d
+    r g8 f!16([ es)] f8 b, es4
+    d r r2
+    r4 d c f8 f %15
+    f16([ d)] es8 es4 d g8 g
+    g16([ e)] f8 r4 r2
+    a,8. a16 a4 d8. d16 d4
+    a8. a16 a4 e'8. e16 e4
+    r2 g8 f! e d16 \hA e %20
+    cis8[ d16( h)] cis4 d r
+    R1
+    r4 r8 d g f!16 es! f8 g
+    es8. d16 c4 r c8 d
+    es4. es8 d4 d %25
+    c2 b4. a16[ g]
+    a2 g4 r
+    R1*2
+    R1\fermata \bar "||" %30 finis
+  }
+}
+
+D-II-XXIVgTenoreLyrics = \lyricmode {
+  A -- ver -- te fa -- ci -- em
+  tu -- am a pec --
+  ca -- _ _ _
+  _ tis me -- is, et
+  o -- mnes, o -- mnes, %5
+  et o -- mnes
+  in -- i -- qui -- ta -- tes
+  me -- as de --
+  le.
+  %10
+  Cor mun -- dum,
+  cor mun -- dum
+  cre -- a __ in me, De --
+  us,
+  et spi -- ri -- tum %15
+  re -- ctum, et spi -- ri -- tum
+  re -- ctum
+  in -- no -- va, in -- no -- va,
+  in -- no -- va, in -- no -- va
+  in vi -- sce -- ri -- bus %20
+  me -- _ is,
+
+  et spi -- ri -- tum re -- ctum
+  in -- no -- va in vi --
+  sce -- ri -- bus me -- %25
+  _ _ _
+  _ is. %27 finis
+}

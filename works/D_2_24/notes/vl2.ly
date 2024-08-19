@@ -87,43 +87,63 @@ D-II-XXIVdViolinoII = {
     r e e
     f2 a4
     d b g
-    c! a f
+    c! a f %5
     b es, c
     f f f
     fis2.
     g4 g g
-    gis2.
+    gis2. %10
     a2 c,4
     f!2.
     e
     d
-    c4 h2
+    c4 h2 %15
     a4 r c(\p
     h) r c(
     h) r r
     e2\f r4
-    f a g!
+    f a g! %20
     g e d8( c)
     g'2.~
     g~
     g
-    f4 e r
+    f4 e r %25
     r f2~
     f fis4
     fis2.
     e2 e4
-    r e e
+    r e e %30
     e2 e4
     f!2 e8( d)
     c4 d e
     f2.
-    g~
+    g~ %35
     g4 f8 e f4
     e2 r4
     d r f(\p
     e) r f(
-    e) r e
+    e) r e %40
     d d cis
-    d r r\fermata \bar "||"
+    d r r\fermata \bar "||" %42 finis
+  }
+}
+
+D-II-XXIVgViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoD-II-XXIVg
+    r8 g'\fE as4 g2~
+    g r4 d8 es
+    g,4 es'8 d c4 g'
+    fis2 g
+    g4 r r g %5
+    es c f as
+    f2 d
+    d4 e fis g~
+    g fis g g~
+    g2~ g4~ g8 fis %10
+    g4 r r2
+    R1*18 %29
+    R1\fermata \bar "||" %30 finis
   }
 }

@@ -633,3 +633,73 @@ D-II-XXIVfBassFigures = \figuremode {
   r4 \bc <[6 5]>2
   r2. %107 finis
 }
+
+D-II-XXIVgOrgano = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \tempoD-II-XXIVg
+    \mvTr c8\fE-\tutti c' as f h,2
+    c4 c g2~-\tasto
+    g1~
+    g
+    r4 g' es c %5
+    r c' as f
+    r8 f f f fis2
+    g4 cis, d2~
+    d g,4 r8 r16 g'-\solo
+    a,4 b8. g'16 c,4 cis8 d %10
+    g,4 g'\pE fis g
+    d g, fis g
+    d' es d c8 f
+    b,4 es d c8 f
+    b, c d b f'4 r8 f, %15
+    c'4 r8 c g'4 r8 g,
+    d'4 g f e8 a
+    d, f e d r f e d
+    r cis h a r cis h a
+    d c b a g4 r %20
+    a a'8 a, d4 d
+    cis d r8 d e fis
+    g g, b a g4 a8 h
+    c d es c h4 c
+    c' c, g g' %25
+    e fis g es
+    c d g, g
+    fis g c b8 c
+    d2 d,
+    g4 r r2\fermata \bar "||" %30 finis
+  }
+}
+
+D-II-XXIVgBassFigures = \figuremode {
+  r4 <[6]> <6 5>2
+  <9 4>4 <8 3> <_!>2
+  r1
+  r2 <_!>
+  r4 q <6>2 %5
+  r <[6]>4 <_->
+  r8 <\t>4. <6 5 [_!]>2
+  r4 <7 5 [_!]> <[5] _+> <6 4>
+  <5 \t> <\t _+>2.
+  <7>4 <6>2 <6 5 [_!]>8 <[_+]> %10
+  r2 <7 5>
+  <_+> <7 5>
+  <_+>2 <[6 _!]>4 <7>
+  r2 <6>4 <7>8 <[7]>
+  r1 %15
+  <5 4>8 <\t 3>4. <4>4 <3>
+  <4>8 <3>4. <[6]>4 <7>8 <[7 5!] _+>
+  r1
+  r8 <[6 _!]>2..
+  r8 <_!>4 <6\\>8 r2 %20
+  <7 [5!] _+>8 <6 4> \bo <[5!] \t> \bc <[\t] _+> r2
+  <7 5 [_+]> r8 <_+> <6[!]>4
+  r2 \bo <[_!]>4 <6!>8 <6>
+  \bc <[_-]>2 <7- 5>
+  r <[_-]> %25
+  <6 5> <9>4 <[5]>
+  <6 5> <_+>2.
+  <7 5>2 <6->4 <6>
+  <[5!] _+>4 <6 4> <5 \t> <\t _+>
+  r1 %30 finis
+}

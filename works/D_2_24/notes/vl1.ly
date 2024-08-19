@@ -309,3 +309,23 @@ D-II-XXIVfViolinoSolo = {
     \tuplet 3/2 8 { es16 d es } b8 es,4 r\fermata \bar "||" %107 finis
   }
 }
+
+D-II-XXIVgViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoD-II-XXIVg
+    r8 c'\fE c4 d2~
+    d4 c r g8 a
+    h4 a8 h c4 h8 c
+    a2 h
+    d4 h es2 %5
+    c4 r r c
+    as f r8 a a a
+    b!2 a8 d, b'4
+    a2 g4 b8.( c16)
+    c8.( d16) d8.( es16) es8 g,16.( a32) a4\trill %10
+    g r r2
+    R1*18 %29
+    R1\fermata \bar "||" %30 finis
+  }
+}
