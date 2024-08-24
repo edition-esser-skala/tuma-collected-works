@@ -147,3 +147,39 @@ D-II-XXIVgViolinoII = {
     R1\fermata \bar "||" %30 finis
   }
 }
+
+D-II-XXIViViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \lydian \time 4/4 \tempoD-II-XXIVia
+    r2 b''16-!\fE b,-! b8~ b16 c32( d) es16 d32( c)
+    d8 b, r c' d b4 a8
+    b b, r g' a f4 e8
+    f c r d' es4. g8
+    fis16-! d-! d8~ d16 e32( fis) g16 \hA fis32( e) \hA fis16-! d-! \once \slurDashed d8~ d16 e32( fis) g16 \hA fis32( e) %5
+    fis8 g4 \hA fis8 g16 g,-! g8~ g16 g32( a) b?16 a32( g)
+    g'16 g,-! g8~ g16 g32( a) h16 a32( g) g'16 g, g8~ g16 g32( a) h16 a32( g)
+    g'16 g, g8~ g16 c32( d) es16 d32( c) h8 g, r4
+    c'16 c, c8~ c16 c32( d) es16 d32( c) c'16 c, c8~ c16 c32( d) e16 d32( c)
+    f'16 f, f8~ f16 f32( g) as16 g32( f) f'16 f, f8~ f16 f32( g) as16 g32( f) %10
+    h16 g g8~ g16 c32( d) es16 d32( c) d8 g,, h'4
+    c16 c, \once \tieDashed c8~ c16 c32( d) es16 d32( c) f'16 f, f8~ f16 f32( g) a!16 g32( f)
+    f'16 f, f8~ f16 b32( c) d16 c32( b) c16 f, f8~ f16 f32( g) a16 g32( f)
+    g4 r b'16( a g f e! d cis b!)
+    a4 r c'!16( b a g fis es d c) %15
+    b4 b' c, a' \noBreak
+    f2\trill e16( c h a) g( f e d)
+    \tempoD-II-XXIVib c4 r8 c' c16 f e d c f e d
+    c1~
+    c16 a g f c' a g f f'2~ %20
+    f~ f16 d c b d b a g
+    d'1~
+    d16 b a g g' f! e! d e8 f g g,~
+    g4 f e8 e f g
+    a g a h c4. b8 %25
+    a4. g16 f g2
+    f4 c'2 b4~
+    b8 a-! a g16( f) g2
+    f4 r r2\fermata \bar "||" %29 finis
+  }
+}

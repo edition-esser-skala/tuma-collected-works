@@ -185,13 +185,73 @@ D-II-XXIVgSopranoLyrics = \lyricmode {
   de -- le. %9 finis
 }
 
+D-II-XXIViSoprano = {
+  \relative c' {
+    \clef treble
+    \key b \lydian \time 4/4 \autoBeamOff \tempoD-II-XXIVia
+    R1
+    \mvTr b'8\fE^\tuttiE b c b16 a b b b8 r4
+    b8 b c8. b16 a8 a r g
+    a a16 a a8 h c4 c8 c
+    a4 a8 b a4. b8 %5
+    a b a8. a16 g4 b
+    h h8 h c c d d
+    d([ c16 h] c4) \hA h h
+    c8. c16 c8 r r4 r8 c
+    c8. c16 c8 r r4 r8 c %10
+    h4 c8 c c4( h)
+    c r c c8 c
+    b!4 b8 b b8. a16 a4
+    g g r2
+    c!4 c r2 %15
+    b4 b8 b b4 a8 c~ \noBreak
+    c[ h16 a] \hA h4 c r
+    \tempoD-II-XXIVib r r8 c c16([ f)] e([ d)] c[ f e d] \noBreak
+    c1~
+    c16[ a g f] c'[ a g f] f'2~ %20
+    f~ f16[ d c b] d[ b a g]
+    d'1~
+    d16[ b a g] g'[ f! e! d] e8 f g b,
+    a2 g4 r8 c
+    d([ e)] f d e f g4 %25
+    g8 c, f4~ f8[ e16 d] e4
+    f c2 b4~
+    b8 a a([ g16 f)] g2
+    f4 r r2\fermata \bar "||" %29 finis
+  }
+}
 
-% Ne pro -- i -- ci -- as me a fa -- ci -- e tu -- a, et spi -- ri -- tum san -- ctum tu -- um ne au -- fe -- ras a me.
-% Red -- de mi -- hi lae -- ti -- ti -- am sa -- lu -- ta -- ris tu -- i,
-% et spi -- ri -- tu prin -- ci -- pa -- li con -- fir -- ma me.
-% Do -- ce -- bo in -- i -- quos vi -- as tu -- as, et im -- pi -- i ad te con -- ver -- ten -- tur.
-% Li -- be -- ra me de san -- gui -- ni -- bus, De -- us, De -- us sa -- lu -- tis me -- ae,
-% et ex -- sul -- ta -- bit lin -- gu -- a me -- a iu -- sti -- ti -- am tu -- am.
+D-II-XXIViSopranoLyrics = \lyricmode {
+  Red -- de mi -- hi lae -- ti -- ti -- am %2
+  sa -- lu -- ta -- ris tu -- i, et
+  spi -- ri -- tu prin -- ci -- pa -- li con --
+  fir -- ma, con -- fir -- ma %5
+  me, con -- fir -- ma me. Do --
+  ce -- bo in -- i -- quos vi -- as
+  tu -- as, et
+  im -- pi -- i, et
+  im -- pi -- i ad %10
+  te con -- ver -- ten --
+  tur. Li -- be -- ra
+  me de san -- gui -- ni -- bus,
+  De -- us!
+  De -- us! %15
+  De -- us sa -- lu -- tis me --
+  _ ae,
+  et ex -- ul -- ta --
+  _
+  _ _ %20
+  _
+  _
+  _ _ bit lin -- gua
+  me -- a iu --
+  sti -- ti -- am tu -- am, iu -- %25
+  sti -- ti -- am __ tu --
+  am, iu -- sti --
+  ti -- am __ tu --
+  am. %29 finis
+}
+
 % Do -- mi -- ne, la -- bi -- a me -- a a -- pe -- ri -- es,
 % et os me -- um an -- nun -- ti -- a -- bit lau -- dem tu -- am.
 % Quo -- ni -- am si vo -- lu -- is -- ses sa -- cri -- fi -- ci -- um, de -- dis -- sem u -- ti -- que;

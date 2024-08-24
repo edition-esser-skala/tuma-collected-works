@@ -121,7 +121,7 @@ D-II-XXIVcViolinoI = {
     f8 c''16\f f, es8.\trill d32( \hA es) d8 f,16(\p g) g( a) a( b)
     b8 d'16\f g, f8.\trill e32( f) e8 g,16(\p a) a( h) h( c) %30
     c8 g'16\f c, b8.\trill a32( b) a8 f r a~
-    a8. g32( f) g4\trill f r\fermata \bar "|." %32 finis
+    a8. g32( f) g4\trill f r\fermata \bar "||" %32 finis
   }
 }
 
@@ -327,5 +327,41 @@ D-II-XXIVgViolinoI = {
     g r r2
     R1*18 %29
     R1\fermata \bar "||" %30 finis
+  }
+}
+
+D-II-XXIViViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \lydian \time 4/4 \tempoD-II-XXIVia
+    b''16-!\fE b,-! b8~ b16 c32( d) es16 d32( c) d8 b4 a8
+    b16 f'-! f8 c16 f, f' g32( a) b16-! b,-! b8~ b16 c32( d) es16 d32( c)
+    d8 b, r b' f'16-! f,-! f8~ f16 g32( a) b16 a32( g)
+    a8 f r h' c16-! c,-! \once \tieDashed c8~ c16 c'32 d \tuplet 3/2 8 { es16[ d \hA es] }
+    d-! fis,-! fis8~ fis16 g32( a) b16 a32( g) d'16 fis,-! \once \tieDashed fis8~ fis16 g32( a) b16 a32( g) %5
+    a8 b a4\trill g16 g,-! g8~ g16 g32( a) b?16 a32( g)
+    g'16 g,-! g8~ g16 g32( a) h16 a32( g) g'16 g, g8~ g16 g32( a) h16 a32( g)
+    g'16 g, g8~ g16 c32( d) es16 d32( c) h8 g, r4
+    c'16 c, c8~ c16 c32( d) es16 d32( c) c'16 c, c8~ c16 c32( d) e16 d32( c)
+    f'16 f, f8~ f16 f32( g) as16 g32( f) f'16 f, f8~ f16 f32( g) as16 g32( f) %10
+    h16 g g8~ g16 c32( d) es16 d32( c) d8 g,, h'4
+    c16 c, \once \tieDashed c8~ c16 c32( d) es16 d32( c) f'16 f, f8~ f16 f32( g) a!16 g32( f)
+    f'16 f, f8~ f16 b32( c) d16 c32( b) c16 f, f8~ f16 f32( g) a16 g32( f)
+    g4 r b'16( a g f e! d cis b!)
+    a4 r c'!16( b a g fis es d c) %15
+    b4 b' c, a' \noBreak
+    f2\trill e16( c h a) g( f e d)
+    \tempoD-II-XXIVib c4 r8 c' c16 f e d c f e d
+    c1~
+    c16 a g f c' a g f f'2~ %20
+    f~ f16 d c b d b a g
+    d'1~
+    d16 b a g g' f! e! d e8 f g b,
+    a2 g4 r8 c
+    d e f d e f g4~ %25
+    g8 c, f4~ f8 e16 d e4\trill
+    f c2 b4~
+    b8 a-! a g16( f) g2
+    f4 r r2\fermata \bar "||" %29 finis
   }
 }

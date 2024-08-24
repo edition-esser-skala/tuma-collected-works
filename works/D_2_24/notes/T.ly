@@ -518,3 +518,70 @@ D-II-XXIVgTenoreLyrics = \lyricmode {
   _ _ _
   _ is. %27 finis
 }
+
+D-II-XXIViTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key b \lydian \time 4/4 \autoBeamOff \tempoD-II-XXIVia
+    R1
+    \mvTr d8\fE^\tuttiE d c c16 c d d d8 r4
+    d8. d16 c8 c c c r c
+    c c16 c c8 d es4 es8 es
+    d4 d d2~ %5
+    d8 d es? d d4 d
+    d d8 d es es d d
+    es2 d4 d
+    es8. es16 es8 r r4 r8 e
+    f8. f16 f8 r r4 r8 f %10
+    d4 es8 es d2
+    c4 r es es8 es
+    d4 d8 d c8. c16 c4
+    cis cis r2
+    d4 d r2 %15
+    d4 d8 d c!4. a8 \noBreak
+    d2 e4 r
+    \tempoD-II-XXIVib R1 \noBreak
+    r8 a, b c d([ c] b4)
+    a r r8 b b b %20
+    b4.( c8) d4 r
+    r8 b c d es([ d] c4)
+    b b8 d c2~
+    c c8 c d e
+    f([ e)] d4 c2~ %25
+    c1
+    r8 a b c d4. d8
+    c4 d8 d d4( c)
+    c r r2\fermata \bar "||" %29 finis
+  }
+}
+
+D-II-XXIViTenoreLyrics = \lyricmode {
+  Red -- de mi -- hi lae -- ti -- ti -- am %2
+  sa -- lu -- ta -- ris tu -- i, et
+  spi -- ri -- tu prin -- ci -- pa -- li con --
+  fir -- ma me, __ %5
+  con -- fir -- ma me. Do --
+  ce -- bo in -- i -- quos vi -- as
+  tu -- as, et
+  im -- pi -- i, et
+  im -- pi -- i ad %10
+  te con -- ver -- ten --
+  tur. Li -- be -- ra
+  me de san -- gui -- ni -- bus,
+  De -- us!
+  De -- us! %15
+  De -- us sa -- lu -- tis
+  me -- ae,
+
+  et ex -- ul -- ta --
+  bit, et ex -- ul -- %20
+  ta -- bit,
+  et ex -- ul -- ta --
+  bit lin -- gua me --
+  a iu -- sti -- ti --
+  am tu -- am, __ %25
+
+  iu -- sti -- ti -- am, iu --
+  sti -- ti -- am tu --
+  am. %29 finis
+}

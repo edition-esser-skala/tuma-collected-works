@@ -117,3 +117,39 @@ D-II-XXIVgTromboneII = {
     g4 r r2\fermata \bar "||"
   }
 }
+
+D-II-XXIViTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key b \lydian \time 4/4 \tempoD-II-XXIVia
+    R1
+    d8\fE d c c16 c d d d8 r4
+    d8. d16 c8 c c c r c
+    c c16 c c8 d es4 es8 es
+    d4 d d2~ %5
+    d8 d es? d d4 d
+    d d8 d es es d d
+    es2 d4 d
+    es8. es16 es8 r r4 r8 e
+    f8. f16 f8 r r4 r8 f %10
+    d4 es8 es d2
+    c4 r es es8 es
+    d4 d8 d c8. c16 c4
+    cis cis r2
+    d4 d r2 %15
+    d4 d8 d c!4. a8 \noBreak
+    d2 e4 r
+    \tempoD-II-XXIVib R1 \noBreak
+    r8 a, b c d c b4
+    a r r8 b b b %20
+    b4. c8 d4 r
+    r8 b c d es d c4
+    b b8 d c2~
+    c c8 c d e
+    f e d4 c2~ %25
+    c1
+    r8 a b c d4. d8
+    c4 d8 d d4 c
+    c r r2\fermata \bar "||" %29 finis
+  }
+}

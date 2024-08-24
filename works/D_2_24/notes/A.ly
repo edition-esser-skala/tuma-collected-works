@@ -184,3 +184,70 @@ D-II-XXIVgAltoLyrics = \lyricmode {
   me -- as de -- le, de -- _
   _ le. %9 finis
 }
+
+D-II-XXIViAlto = {
+  \relative c' {
+    \clef treble
+    \key b \lydian \time 4/4 \autoBeamOff \tempoD-II-XXIVia
+    R1
+    \mvTr f8\fE^\tuttiE f f f16 f f f f8 r4
+    f8. f16 f8 e f f r e
+    f f16 f f8 f g4 g8 g
+    fis4 fis8 g fis4. g8 %5
+    fis g g \hA fis g4 g
+    g g8 g g g g g
+    g2 g4 g
+    g8. g16 g8 r r4 r8 g
+    as8. as16 as8 r r4 r8 as %10
+    g4 g8 g g2
+    g4 r f f8 f
+    f4 f8 f f8. f16 f4
+    e! e r2
+    a4 a r2 %15
+    g4 g8 g g4 f! \noBreak
+    f2 g4 r
+    \tempoD-II-XXIVib R1 \noBreak
+    r8 f f f f4.( e16[ d])
+    c4 r r8 d es f %20
+    g([ f] es4) d r
+    r8 g g g g4.( fis16[ e)]
+    d4 d8 g g f e g
+    g4( f) e8 e f g
+    a[_( g a h] c4.) b8 %25
+    a4. g16 f g2
+    f4 f f2
+    f4 f f( e)
+    f r r2\fermata \bar "||" %29 finis
+  }
+}
+
+D-II-XXIViAltoLyrics = \lyricmode {
+  Red -- de mi -- hi lae -- ti -- ti -- am %2
+  sa -- lu -- ta -- ris tu -- i, et
+  spi -- ri -- tu prin -- ci -- pa -- li con --
+  fir -- ma, con -- fir -- ma %5
+  me, con -- fir -- ma me. Do --
+  ce -- bo in -- i -- quos vi -- as
+  tu -- as, et
+  im -- pi -- i, et
+  im -- pi -- i ad %10
+  te con -- ver -- ten --
+  tur. Li -- be -- ra
+  me de san -- gui -- ni -- bus,
+  De -- us!
+  De -- us! %15
+  De -- us sa -- lu -- tis
+  me -- ae,
+
+  et ex -- ul -- ta --
+  bit, et ex -- ul -- %20
+  ta -- bit,
+  et ex -- ul -- ta --
+  bit, ex -- ul -- ta -- bit lin -- gua
+  me -- a iu -- sti -- ti --
+  am, __ iu -- %25
+  sti -- ti -- am tu --
+  am, iu -- sti --
+  ti -- am tu --
+  am. %29 finis
+}

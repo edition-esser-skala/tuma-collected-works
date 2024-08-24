@@ -1,6 +1,7 @@
 \version "2.24.2"
 
 pianoOForte = \markup { \larger \bold p \remark "o" \larger \bold f }
+voci = \markup \remark "voci"
 
 tempoD-II-XXIVa = \tempoMarkup "Adagio ô grave"
 tempoD-II-XXIVb = \tempoMarkup "Adagio"
@@ -10,6 +11,9 @@ tempoD-II-XXIVd = \tempoMarkup "Andante"
 tempoD-II-XXIVe = \tempoMarkup "Andante"
 tempoD-II-XXIVf = \tempoMarkup "Larghetto"
 tempoD-II-XXIVg = \tempoMarkup "Andante"
+tempoD-II-XXIVh = \tempoMarkup "Andante"
+tempoD-II-XXIVia = \tempoMarkup "Andante"
+  tempoD-II-XXIVib = \tempoMarkup "Allegro"
 
 \include "notes/trb1.ly"
 \include "notes/trb2.ly"

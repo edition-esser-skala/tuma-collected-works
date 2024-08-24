@@ -348,3 +348,228 @@ D-II-XXIVgBassoLyrics = \lyricmode {
   me -- _ _
   _ is. %27 finis
 }
+
+D-II-XXIVhBassoI = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 3/4 \autoBeamOff \tempoD-II-XXIVh
+    R2.*6 %6
+    r4 \mvTr g'\pE^\soloE a
+    b4. h8 h4
+    c r8 g c[ b16( c)]
+    a4. g16([ f)] b8[ c] %10
+    d4. c16([ d)] b8[ as16 b]
+    g4. a16([ b)] c8[ b16 c]
+    a4. g16([ a)] b4
+    c8 g a2\trill
+    b4 r r %15
+    R2.*2
+    r4 b2
+    b4 a8 a a4
+    g c2 %20
+    c4 b8 b b4
+    a d f,
+    f e r
+    r r8 a d[ c!16 d]
+    b8[ g16 a] h4. h8 %25
+    c g c2~
+    c8 b! a4. a8
+    g4 r r
+    R2.
+    r4 a2 %30
+    a4 e8 f g g
+    g4 f a
+    b8[ g16 a] b2~
+    b8[ a16 b] g8[ e16 f] g4
+    a8[ f16 g] a2~ %35
+    a8[ g16 a] f8[ d] g4~
+    g8[ f16 g] e8[ a, a' g]
+    f g e4. e8
+    d4 r r
+    R2.*2 %41
+    R2.\fermata \bar "||" %42 finis
+  }
+}
+
+D-II-XXIVhBassoILyrics = \lyricmode {
+  Ne pro -- %7
+  i -- ci -- as
+  me a fa --
+  _ _ _ %10
+  _ _ _
+  _ _ _
+  _ _ _
+  ci -- e tu --
+  a, %15
+
+  et %18
+  spi -- ri -- tum san --
+  ctum, et %20
+  spi -- ri -- tum san --
+  ctum, san -- ctum
+  tu -- um
+  ne au --
+  _ _ fe -- %25
+  ras, ne au --
+  fe -- ras a
+  me,
+
+  et %30
+  spi -- ri -- tum san -- ctum
+  tu -- um ne
+  au -- _
+  _ _
+  _ _ %35
+  _ _
+  _
+  _ fe -- ras a
+  me. %39 finis
+}
+
+D-II-XXIVhBassoII = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 3/4 \autoBeamOff \tempoD-II-XXIVh
+    R2.*4
+    r4 \mvTr d\pE^\soloE e %5
+    f4. fis8 fis4
+    g2 f8([ es)]
+    d2 g4~
+    g8[ f16 g] es8[ c] \hA es4~
+    es8[ d16 es] c8[ a] f'4~ %10
+    f8[ es16( f)] d8[ b] d4
+    es8[ d16 c] b8[ g] es'4~
+    es8[ d16 es] c8[ a] f'4
+    g8 es f2
+    b,4 r r %15
+    R2.*2
+    r4 d( es?)
+    f c8 c f4~
+    f e! es %20
+    d4. d8 g4
+    g( f!) d
+    d cis a'
+    a8([ g16 a] fis4.) fis8
+    g4 d g8([ f]) %25
+    es4. g8 a[ g16 a]
+    fis8 g g4(^\critnote fis8) fis
+    g4 r r
+    R2.
+    f!4 f e8 d %30
+    cis4.( d8) e4
+    e d f
+    g4. f16[ e] d8[ g]
+    e4. c16[ d] e4
+    f4. e16[ d] c8[ f] %35
+    d4. d8 e d
+    cis2 cis4
+    d8 b a4. a8
+    d,4 r r
+    R2.*2 %41
+    R2.\fermata \bar "||" %42 finis
+  }
+}
+
+D-II-XXIVhBassoIILyrics = \lyricmode {
+  Ne pro -- %5
+  i -- ci -- as
+  me a __
+  fa -- _
+  _ _
+  _ _ %10
+  _ _
+  _ _ _
+  _ _
+  ci -- e tu --
+  a, %15
+
+  et __ %18
+  spi -- ri -- tum san --
+  ctum, et %20
+  spi -- ri -- tum
+  san -- ctum
+  tu -- um ne
+  au -- fe --
+  ras, ne au -- %25
+  _ _ _
+  _ fe -- ras __ a
+  me,
+
+  et spi -- ri -- tum %30
+  san -- ctum
+  tu -- um ne
+  au -- _ _
+  _ _ _
+  _ _ _ %35
+  _ fe -- ras a
+  me, ne
+  au -- fe -- ras a
+  me. %39 finis
+}
+
+D-II-XXIViBasso = {
+  \relative c {
+    \clef bass
+    \key b \lydian \time 4/4 \autoBeamOff \tempoD-II-XXIVia
+    R1
+    \mvTr b'8\fE^\tuttiE d a g16 f b b, b8 r4
+    b'8. b16 a8 g f f, r c'
+    f f16 f es8 d c4 c8 c
+    d4 d d2~ %5
+    d8 b c d g,4 g'
+    f! f8 f es es h h
+    c2 g4 g'
+    es8. d16 c8 r r4 r8 c'
+    as8. g16 f8 r r4 r8 f %10
+    g4 es8 c g2
+    c4 r a! a8 a
+    b!4 b8 b f'8. f16 f4
+    e! e r2
+    fis4 fis r2 %15
+    g4 g8 g e4 f \noBreak
+    d2 c4 r
+    \tempoD-II-XXIVib R1 \noBreak
+    r8 f, g a b_([ c d e]
+    f4) f, r8 b c d %20
+    es([ f g a] b4) b,
+    r8 g a b c([ d e fis]
+    g4) g,8([ b)] c4 c
+    c2 c
+    c c4 c8 c %25
+    c2 c
+    r8 f,([ g)] a b([ c)] d e
+    f4 d8 d b4( c)
+    f, r r2\fermata \bar "||" %29 finis
+  }
+}
+
+D-II-XXIViBassoLyrics = \lyricmode {
+  Red -- de mi -- hi lae -- ti -- ti -- am %2
+  sa -- lu -- ta -- ris tu -- i, et
+  spi -- ri -- tu prin -- ci -- pa -- li con --
+  fir -- ma me, __ %5
+  con -- fir -- ma me. Do --
+  ce -- bo in -- i -- quos vi -- as
+  tu -- as, et
+  im -- pi -- i, et
+  im -- pi -- i ad %10
+  te con -- ver -- ten --
+  tur. Li -- be -- ra
+  me de san -- gui -- ni -- bus,
+  De -- us!
+  De -- us! %15
+  De -- us sa -- lu -- tis
+  me -- ae,
+
+  et ex -- ul -- ta --
+  bit, et ex -- ul -- %20
+  ta -- bit,
+  et ex -- ul -- ta --
+  bit __ lin -- gua
+  me -- a
+  iu -- sti -- ti -- am %25
+  tu -- am,
+  lin -- gua me -- a iu --
+  sti -- ti -- am tu --
+  am. %29 finis
+}

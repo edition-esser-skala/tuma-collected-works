@@ -703,3 +703,165 @@ D-II-XXIVgBassFigures = \figuremode {
   <[5!] _+>4 <6 4> <5 \t> <\t _+>
   r1 %30 finis
 }
+
+D-II-XXIVhOrgano = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 3/4 \tempoD-II-XXIVh
+    \mvTr d8\pE-\soloE ^\tweak TextScript.X-offset #0 ^\org d'-! r d,16-! c-! b8 a
+    g b'-! r e,16 d cis8 h
+    a cis'-! r e16-! d-! cis8-! b!-!
+    a-! d-! b a16 g a8 a,
+    d d, r4^\voci r %5
+    d'8 d' r d,16 c! b8 a
+    g g' r4 r
+    g,8 g' r g16 f! es8 d
+    c c' r c,16 b! a8 g
+    f f' r f16 es? d8 c %10
+    b b' r b16 as g8 f
+    es es' r g,16 f es8 c
+    f, f' r f16 es? d8 b
+    es c f es f f,
+    b b' r b16^\org as g8 f %15
+    es es' r c16 b a8 g
+    f b es, d16 c f8 f,
+    \after 4 ^\voci b2 r4
+    f8 f' r f,16 g a8 h
+    c c' r c,16 d es8 fis %20
+    g g, r g16 a b!8 c
+    d d' r d,16 e! f!8 g
+    a a, r a'16 g f8 e
+    d d' r d,16 c! b8 a
+    g g' r g16 f! es8 d %25
+    c c' r es,16 d c8 a
+    d es c a d d,
+    g g' r g16^\org f! e8 d
+    cis a' r e'16 d cis8 a
+    d^\voci d, r4 r %30
+    a8 a' r e16 d cis8 a
+    d d' r d,16 c! b8 a
+    g b' r g,16 a b8 g
+    c c' r c,16 b a8 g
+    f a' r f,16 g a8 f %35
+    b b' r b,16 a g8 e
+    a a' r a16 g f8 e
+    d g a g a a,
+    d d' r d,16^\org c! b8 a
+    g b' r e16 d cis8 b! %40
+    a d b a16 g a8 a,
+    d4 r r\fermata \bar "||" %42 finis
+  }
+}
+
+D-II-XXIVhBassFigures = \figuremode {
+  r4. <_+>
+  r \bo <[5!] _+>
+  \bc <[_+]> <6\\>
+  r2 <[_+]>4
+  r2. %5
+  r4. <_+>
+  r2.
+  r4. <_!>
+  <[_-]>2.
+  <7[-]>2 <6>4 %10
+  r2.
+  r
+  <7[-]>2 \bo <[6]>4
+  \bc q2.
+  r %15
+  r4. <_!>
+  r2.
+  r
+  <4>4 <3>2
+  <4>4 <3[!]>2 %20
+  <4>4 <3>2
+  <4>4 <3>2
+  <6 4>4 <5 _+>2
+  r4. <_+>8 <\t>4
+  r4. \bo <[_! _]> %25
+  <_->2 \bc <[6 _-]>4
+  <7 _+> <[6 5 _-]> <_+>
+  r2.
+  \bo <[6 _!]>
+  \bc <[_! _]> %30
+  <_+>
+  <9 4>4 <8 3>2
+  r2.
+  <7>8 <6> <5>2
+  r2. %35
+  <7>8 <6> <5>4 <6>8 <[7]>
+  <7 _+> \bassFigureExtendersOn <6 _+> <5 _+>2 \bassFigureExtendersOff
+  r4 <[_+]>2
+  r4. <_+>
+  r <6\\> %40
+  r2 <[_+]>4
+  r2. %42 finis
+}
+
+D-II-XXIViOrgano = {
+  \relative c {
+    \clef bass
+    \key b \lydian \time 4/4 \tempoD-II-XXIVia
+    \mvTr b8\fE-\solo d es f b, d es f
+    b-\tutti d a g16 f b8 b, es-\solo f
+    b,-\tutti b' a g f f, b c
+    f4 es8 d c4. c8
+    d4 d d2 %5
+    d8 b c d g,4 g'
+    f!2 es4 h
+    c2 g4 g'
+    es8. d16 c8 r r4 r8 c'
+    as8. g16 f8 r r4 r8 f %10
+    g4 es8 c g2
+    c4 r a!2
+    b!4. b8 f'4 f,
+    e'!2 r
+    fis r %15
+    g4. g8 e4 f \noBreak
+    d2 c4 r
+    \tempoD-II-XXIVib r2 f4 r \noBreak
+    r8 f, g a b c d e
+    f4 f, r8 b c d %20
+    es f g a b4  b,
+    r8 g a b c d e fis
+    g4 g,8 b c2
+    \after 2. -\tasto c1~
+    c~ %25
+    c
+    r8 f, g a b c d e
+    f4 d b c
+    f, r r2\fermata \bar "||" %29 finis
+  }
+}
+
+D-II-XXIViBassFigures = \figuremode {
+  r4 <6 5>2.
+  r4 <[6]>2.
+  r4 <6>8 <[6]> r2
+  r4. <6!>8 <_->2
+  <5 _+>4 <\t \t>8 <6[-] 4> <5 _+>4. <6 4>8 %5
+  \bo <[5] _+>8 \bc <[6]> <6 5 [_-]> <_+> r2
+  <4! 2> <6>4 <[6]>
+  <9 _-> <8 \t> <_!>2
+  \bo <[6]>4 <_-> r4. \bc <[_!]>8
+  <6>4 <_->2. %10
+  <_!>4 <[6]> <4> <_!>
+  r2 <6 5->
+  r <4>4 <3>
+  <6\\>1
+  <6 5!> %15
+  r2 <6 5>
+  <7>4 <6!>2.
+  r1
+  r
+  r %20
+  r
+  r
+  r
+  <6 5>4 <\t 4> <5 3>2
+  r1 %25
+  r2 <4>4 <3>
+  r2 <9>4 <6>
+  <4>8 <3>4. <[6 5]>2
+  r1 %29 finis
+}
