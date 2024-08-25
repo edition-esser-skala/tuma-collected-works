@@ -68,9 +68,15 @@ D-II-XIIISoprano = {
     as as r as g g r g %110
     f f r d' es es, r4
     r8 c' c c c4( h)
-    c r s2
-    s1*12 %125
-    s2 s4 \mvTr b\fE^\tuttiE
+    c \mvTr c8\pE^\solo es d4 g,
+    c8 c b a b8. a16 g8 d'
+    g,([ a)] b([ c)] d4 r %115
+    r8 d b g es'4 es
+    r8 c f es d4 r
+    r8 b es d c4 d8 c
+    b a16([ g)] a4 g r
+    R1*6 %125
+    s2 s4 \mvTr b\fE^\tutti
     b b8 b b4 a
     b4. b8 b b b b
     b4 a r2
@@ -83,9 +89,35 @@ D-II-XIIISoprano = {
     b4 a8[ g] a2 \noBreak
     b1\fermata \bar "||"
     \key es \major \time 3/4 \tempoD-II-XIIIe \newSpacingSection
-      s2.*90 %227
+      R2.*20 %157
+    r4 r \mvTr es\pE^\solo
+    d4. c8 b4
+    f'8([ e)] f4 c8 d %160
+    es4 d8 c f es
+    d8. c16 b4 r
+    r8 b g es es'4~
+    es8[ d16 c] d2~
+    d8[ c16 b] c2~ %165
+    c8[ b16 a] b8 b b b
+    c4~ c16[ des c b] c[ as b c]
+    b4~ b16[ c b as] b[ g as b]
+    as4~ as16[ b as g] as[ f g as]
+    g8 es es'([ d)] c([ b)] %170
+    a([ g)] f4 r
+    d'2 d4
+    des des des
+    c2.
+    b4 r r %175
+    R2.*45 %220
+    r4 a a
+    b b a
+    b8. b16 b4 r
+    r d d
+    c2 c4 %225
+    d8([ c)] d4 r
+    R2.
     r4 r es
-    c b8 as f' es
+    c b8 as! f' es
     d([ c)] d4 b %230
     c8([ b)] as([ b)] c([ d)]
     es([ d)] es4 es
@@ -257,7 +289,13 @@ D-II-XIIISopranoLyrics = \lyricmode {
   vin -- cas, et vin -- cas, et %110
   vin -- cas, et vin -- cas
   cum iu -- di -- ca --
-  ris.
+  ris. Ec -- ce e -- nim
+  in in -- i -- qui -- ta -- ti -- bus con --
+  cep -- tus sum, %115
+  et in pec -- ca -- tis
+  con -- ce -- pit me,
+  con -- ce -- pit me ma -- ter,
+  ma -- ter me -- a.
 
   A -- %126
   sper -- ges, a -- sper -- ges
@@ -271,6 +309,32 @@ D-II-XIIISopranoLyrics = \lyricmode {
   bor, de -- al -- ba -- %135
   _ _
   bor.
+
+  Au -- %158
+  di -- tu -- i
+  me -- o da -- bis %160
+  gau -- di -- um et lae --
+  ti -- ti -- am,
+  et ex -- ul -- ta --
+  _
+  _ %165
+  bunt, et ex -- ul --
+  ta -- _
+  _ _
+  _ _
+  _ bunt, ex -- ul -- %170
+  ta -- bunt
+  os -- sa
+  hu -- mi -- li --
+  a --
+  ta. %175
+
+  Red -- de %221
+  mi -- hi lae --
+  ti -- ti -- am
+  sa -- lu --
+  ta -- ris %225
+  tu -- i,
 
   et %228
   spi -- ri -- tu prin -- ci --
@@ -376,6 +440,3 @@ D-II-XIIISopranoLyrics = \lyricmode {
   _ men. __
   %368 finis
 }
-
-% Ec -- ce e -- nim in in -- i -- qui -- ta -- ti -- bus con -- cep -- tus sum,
-%   et in pec -- ca -- tis con -- ce -- pit me ma -- ter me -- a.

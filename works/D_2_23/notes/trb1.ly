@@ -15,7 +15,7 @@ D-II-XIIITromboneI = {
     f1.
     g
     g2 g g
-    es4 d es1
+    es!4 d es1
     f1. %20
     f2 f f
     f1.

@@ -117,15 +117,15 @@ D-II-XIIIOrgano = {
     f d r d es c r c %110
     d h r h c4 r
     r8 fis, fis fis g2
-    c4 r8 c-\solo b!2
+    c4 r8 \mvTr c\pE-\solo b!2
     a!4 d g4. f!8
     es2 d4 fis %115
     g g, c2
     f4 as b d,
     es g as8 g fis4
-    g8 es c d g,4 h
+    g8 es c d g,4 h\fE
     c cis d fis %120
-    g8 es c d g,4 g'
+    g8 es c d g,4 g'\pE
     c, f! b,4. c8
     d4 fis g g,
     c a b!2
@@ -580,7 +580,7 @@ D-II-XIIIBassFigures = \figuremode {
   q4 <[6]>2
   r2.
   r
-  <9>4 <8>2
+  \bo <9 [5!]>4 \bc <8 [\t]>2
   <9>4 <8>2 %165
   <9>4 <8> <6>
   r2.
@@ -589,9 +589,9 @@ D-II-XIIIBassFigures = \figuremode {
   r2. %170
   <_!>
   r
-  <7- 5->
+  <7- 5>
   <4>4 <_!>2
-  r2. %175
+  <[_!]>2. %175
   <6>
   r2 <[6 5]>4
   r2 <2>4
