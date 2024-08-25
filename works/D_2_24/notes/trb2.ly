@@ -153,3 +153,60 @@ D-II-XXIViTromboneII = {
     c r r2\fermata \bar "||" %29 finis
   }
 }
+
+D-II-XXIVmTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \dorian \time 4/4 \tempoD-II-XXIVm
+    r2 r4 r8 g\fE
+    c es d c h4. d8
+    c c f f d es f f
+    es g es4 d2
+    c8 c c c c4 c %5
+    c b!8 es d4. d8
+    d b d d d b d d
+    d8. d16 d8 d d8. d16 d8 r
+    r a g d' d4 d8 d
+    c4 a g2 %10
+    a r
+    R1*2
+    r2 d4 d
+    d d, r8 d es!4~ %15
+    es8 e f!4. fis8 g b
+    a4. a8 g h c d
+    es d16 c b8 c d c b g16^\critnote f
+    g8 f e a16 g a8 g f8 d'
+    d4 cis8 d16 e a,4 b %20
+    a4. a8 b4 r8 as16 g
+    as8 g f! b16 a b8 a g4
+    d'4. d8 b4 g
+    r r8 a b4. h8
+    c4. cis8 d d16 c? b8 g %25
+    es' c16 b a8 f f' d16 c b8 g
+    a4 a8 f'! e4 f
+    e4. e8 d4 r
+    r8 a16 g a8 g f a b c
+    d g, r4 r2 %30
+    r a4 a
+    a d, r8 f'16 e f8 \hA e
+    d a4 a8 b4. h8
+    cis4 a r2
+    d4 d d d, %35
+    r8 d'16 c! d8 c b d16 c b8 g
+    es'4 es r r8 g,
+    c4. c8 d4. d8
+    es4 f2 es4~
+    es d es8 c a!4 %40
+    g4. g8 a4 r
+    d d d d,8 d'
+    b b16 a b8 a g b16 a b8 as
+    g4. a16 h c8 c16 b a8 g
+    fis d r4 d' d8 d %45
+    g, c!16 d e4 a,8 fis16 g a8 d~
+    d c g4 a4. b16 c
+    d2. d4
+    d r8 b as4. c8
+    b4. d8 c d c d %50
+    es4. es8 d2\fermata \bar "|." %51 finis
+  }
+}

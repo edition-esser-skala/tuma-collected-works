@@ -252,17 +252,99 @@ D-II-XXIViSopranoLyrics = \lyricmode {
   am. %29 finis
 }
 
-% Do -- mi -- ne, la -- bi -- a me -- a a -- pe -- ri -- es,
-% et os me -- um an -- nun -- ti -- a -- bit lau -- dem tu -- am.
-% Quo -- ni -- am si vo -- lu -- is -- ses sa -- cri -- fi -- ci -- um, de -- dis -- sem u -- ti -- que;
-% ho -- lo -- cau -- stis non de -- le -- cta -- be -- ris.
-% Sa -- cri -- fi -- ci -- um De -- o spi -- ri -- tus con -- tri -- bu -- la -- tus;
-% cor con -- tri -- tum et hu -- mi -- li -- a -- tum, De -- us, non de -- spi -- ci -- es.
-% Be -- ni -- gne fac, Do -- mi -- ne, in bo -- na vo -- lun -- ta -- te tu -- a Si -- on,
-% ut ae -- di -- fi -- cen -- tur mu -- ri Ie -- ru -- sa -- lem.
-% Tunc ac -- cep -- ta -- bis sa -- cri -- fi -- ci -- um iu -- sti -- ti -- ae,
-% ob -- la -- ti -- o -- nes et ho -- lo -- cau -- sta;
-% tunc im -- po -- nent su -- per al -- ta -- re tu -- um vi -- tu -- los.
-% Glo -- ri -- a Pa -- tri et Fi -- li -- o et Spi -- ri -- tu -- i San -- cto,
-% si -- cut e -- rat in prin -- ci -- pi -- o et nunc et sem -- per
-% et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men.
+D-II-XXIVmSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoD-II-XXIVm
+    R1
+    r2 r4 r8 \mvTr g'\fE^\tuttiE
+    c([ es)] d c h c d d
+    es d es c c4 h
+    b8 b b b b4 as %5
+    a b8 a a4. a8
+    g d' d16([ c)] b([ a)] b([ c)] d([ es)] d([ c)] b([ a)]
+    b([ g) b( c)] d8 c16([ b)] a8 a b c
+    d2 d16([ b)] a([ g)] g'([ f!)] es([ d)]
+    es8[ d] d4~ d8[ c16 b] c4 %10
+    d2 r
+    R1*8 %19
+    r2 d4 d %20
+    d d, r8 d es!4~
+    es8 e f!4. fis8 g b
+    a4. a8 g c16([ b)] c8 b
+    a([ d16 c] d8) c b8.([ c16)] d4
+    r r8 a b4. h8 %25
+    c4. cis8 d4 d8 e
+    e4( d cis8[ a]) d4
+    d( cis8.) cis16 d4 r
+    d d d d,8 a'
+    b4. h8 c4. cis8 %30
+    d8. c16 b([ c)] d8 d4( cis8.) cis16
+    d8 f16([ e)] f8([ \hA e)] d4 r
+    r8 d16([ c!)] d8 c b[ es16 d] es8[ d]
+    cis4 d2 c4
+    c b a8. a16 a4 %35
+    b b b4. d8
+    es4 es es es,
+    r8 as16([ g)] \hA as8 g f[ b16 as] b8[ \hA as]
+    g[ c16 b] as8 c b4 b
+    b4. as8 g es' d4~ %40
+    d c d8[ c b] a16([ g)]
+    a4. a8 g4 r
+    d' d d d,
+    r8 c'16([ h)] c8 d es es16([ d)] c8 b?
+    a4. a8 b4. h8 %45
+    c!4. cis8 d4 fis,8 fis
+    g c16([ b)] c8([ b] a[ d16 c] d8) c
+    b4. a16([ g)] a4. a8
+    g4 r8 b c4. c8
+    d4. d8 es([ d)] es([ d)] %50
+    c4. c8 h2\fermata \bar "|." %51 finis
+  }
+}
+
+D-II-XXIVmSopranoLyrics = \lyricmode {
+  Be -- %2
+  ni -- gne fac, Do -- mi -- ne, in
+  vo -- lun -- ta -- te tu -- a,
+  ut ae -- di -- fi -- cen -- tur %5
+  mu -- ri Ie -- ru -- sa --
+  lem. Tunc ac -- cep -- ta -- bis sa -- cri --
+  fi -- _ ci -- um ob -- la -- ti --
+  o -- nes et ho -- lo --
+  cau -- _ _ %10
+  sta.
+
+  Tunc im -- %20
+  po -- nent su -- per __
+  al -- ta -- re tu -- um
+  vi -- tu -- los, su -- per al --
+  ta -- re tu -- um,
+  su -- per al -- %25
+  ta -- re tu -- um, im --
+  po -- nent
+  vi -- tu -- los,
+  tunc im -- po -- nent su --
+  per al -- ta -- re %30
+  tu -- um, tu -- um vi -- tu --
+  los, im -- po -- nent
+  su -- per al -- ta -- _
+  _ _ re
+  tu -- um vi -- tu -- los, %35
+  tunc im -- po -- nent,
+  tunc im -- po -- nent
+  su -- per al -- ta -- _
+  _ _ re tu -- um
+  vi -- tu -- los, im -- po -- %40
+  _ _ nent
+  vi -- tu -- los,
+  tunc im -- po -- nent
+  su -- per al -- ta -- re tu -- um,
+  tunc im -- po -- nent, %45
+  tunc im -- po -- nent su --
+  per al -- ta -- re
+  tu -- um vi -- tu --
+  los, su -- per al --
+  ta -- re tu -- um %50
+  vi -- tu -- los. %51 finis
+}

@@ -183,3 +183,111 @@ D-II-XXIViViolinoII = {
     f4 r r2\fermata \bar "||" %29 finis
   }
 }
+
+D-II-XXIVkViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \mixolydian \time 4/4 \tempoD-II-XXIVk
+    f2\p c~
+    c1
+    fis
+    g
+    f!2~ f4 es %5
+    f2 f4 es
+    d2\trill c\fermata \bar "||" %7 finis
+  }
+}
+
+D-II-XXIVlViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \dorian \time 4/4 \tempoD-II-XXIVl
+    as4\fE r b r
+    b8(\f c) r4 c r
+    des\p r f\f e
+    f8 e'16(\p f) as,8 f'16( as) b,8 des16( b) e8 g16( b)
+    c,8 des16( c) f8 as16( c) des,8 b16( g) c,8 r %5
+    as4 f' d g8 h16( d)
+    as8 f16( d') d,8 h'16( d) es8 ces16( as) b8 g16( es)
+    b'8 \once \slurDashed g16( d) d'8 fis,16( d) f8 d16( f) g,8 es'16( c')
+    g,8 d'16( f) g,8 r es'\p r f r
+    g r as f~ f es d4\trill
+    c2 r-\conSord
+    r c16(\p f) f( as) as( c) c( f)
+    c,( f) f( as) as( c) c( f) f,( a) a( c) c( f) f( c)
+    f,( b) b( des) des( f) f( b) f,( b) b( des) des( f) f( b)
+    f,( b) b( d) d( f) f( b) b,( e) e( g) g( b) b( e,) %15
+    c,( f) f( as) as( f) h( f) g( c,) c( e) e( g) g( c)
+    c( ges) ges( es) es( c) c( c') f,( b,) b( des) des( f) f( b)
+    b,( des) des( f) f( b) b( des) es,( g) g( b) b( des) des( b)
+    es,( as) as( c) c( es) es( c) f,( as) as( b) b( des) ces( as)
+    es( as) as( b) es,( g) g( b) as( c) c( es) es( ges,) ges( e) %20
+    f( a) a( b) f'( as,) as( f) g( b) b( es,) des( b') b( \hA des,)
+    ces( es) es( as) b,( as') as( g) as,( es') es( as) as( c?) c( f,)
+    g( d) d( h) h( d) d( f) es( c) c( es) es( g) g( c)
+    c,( e) e( g) g( \hA e) e( c) c( as') as( c) c( as) as( f)
+    c( f) f( as) as( c) c( f,) des( f) f( g) g( b) b( g) %25
+    c,( e) e( g) d( as') as( d,) \slurDashed e( c) c( \hA e) e( g) g( c) \slurSolid
+    f,( as) as( c) c( f) f( c) f,( b) b( des) des( f) f( b,)
+    c,( e) e( g) g( c) c( g) f( as) as( c) c( f) f( c)
+    des( b) b( \hA des) ges,( \hA des') des( b) g( c,) c( g') as( c,) c( as')
+    g( c,) c( g') g( c) c( g) f( as) as( c) c( f,) f( es!) %30
+    des( b) b'( des) des( g,) g( f) e( c) f( as,)
+    g( f') g,( e')\trill
+    f( as) as( c) c( f) c( as) \appoggiatura g8 f4 r\fermata \bar "||" %32 finis
+  }
+}
+
+D-II-XXIVmViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoD-II-XXIVm
+    r4 c\fE g'8( as) g f
+    es g4 f16( es) d4. d8
+    es( es') d c h c d d
+    es d es c c4 h
+    b4. b8 b4 as %5
+    a b8 a a2\trill
+    g8 d' d16( c) b( a) b( c) d( es) d( c) b( a)
+    b g b c d8 c16( b) a8 a b c
+    d2 d16 b a g g' f! es d
+    es8( d) d4~ d8 c16 b c4\trill %10
+    d2 r
+    R1*5 %16
+    r2 g,4 g
+    g g, r8 a b4~
+    b8 h c4. cis8 d f!
+    e2 d4 d8 g %20
+    a2 g4 r8 c,16 b
+    c8 b a! d16 c d8 c b g'~
+    g4 fis g8 es16 d es8 d
+    c f16 es f8 es d g16 f! g8 f
+    e a16( g) a8 e f4 g~ %25
+    g a2 g4~
+    g f!8. g16 a4 r
+    r2 a4 a
+    a a, r2
+    r8 d es!4. e8 f!4~ %30
+    f8 fis g f e2
+    f8 a16( g) a8 g f a16 g a8 g
+    f f16 e f8 es d g16( f!) g8 f
+    e4 f e4. fis16( g)
+    a4 g a2 %35
+    g4 r g g
+    g g,8 g' g4 g
+    r f~ f8 g g4~
+    g8 as as2 g4
+    f2 es8 g fis4 %40
+    g2 fis4 g~
+    g fis g r
+    r2 g4 g
+    g g,8 g' g2
+    d8 fis4 fis8 g g16( fis) g8 f %45
+    e a16 g a8 g fis4 d
+    es4. e8 f4. fis8
+    g d g2 fis4
+    g8 d es!4. e8 f4~
+    f8 fis g2 g4 %50
+    g2 g\fermata \bar "|." %51 finis
+  }
+}

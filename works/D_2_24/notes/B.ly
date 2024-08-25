@@ -573,3 +573,198 @@ D-II-XXIViBassoLyrics = \lyricmode {
   sti -- ti -- am tu --
   am. %29 finis
 }
+
+D-II-XXIVkBasso = {
+  \relative c {
+    \clef bass
+    \key f \mixolydian \time 4/4 \autoBeamOff \tempoD-II-XXIVk
+    \mvTr c'4.\pE^\soloE c8 a a b c
+    fis,4 fis r fis8 g
+    a8. a16 a4 r8 a a b
+    g8. g16 g4 r g8 g
+    as2 g4 r8 g %5
+    as4. f8 \once \tieDashed g,2~
+    g4. g8 c2\fermata \bar "||" %7 finis
+  }
+}
+
+D-II-XXIVkBassoLyrics = \lyricmode {
+  Quo -- ni -- am si vo -- lu --
+  is -- ses sa -- cri --
+  fi -- ci -- um, de -- dis -- sem
+  u -- ti -- que, ho -- lo --
+  cau -- stis non %5
+  de -- le -- cta --
+  be -- ris. %7 finis
+}
+
+D-II-XXIVlBasso = {
+  \relative c {
+    \clef bass
+    \key f \dorian \time 4/4 \autoBeamOff \tempoD-II-XXIVl
+    R1*3
+    \mvTr c'4.\pE^\soloE f,8 f8. e16 e4
+    f4. f8 f4 e8 e %5
+    f f, r4 g'8. g16 g4
+    r8 as as as as4 g~
+    g fis f es
+    d2 c4 r
+    R1*3 %12
+    as'4. as8 a ges([ f)] es!
+    b'4 b, r2
+    r b'4. b8 %15
+    as!([ g)] f h c4 c,
+    ges'8 ges ges ges f4 f
+    r2 es
+    es4 r as r8 as
+    as4( g8.) g16 as4 r %20
+    R1*2
+    r2 g4. g8
+    e des([ c]) g' as4 f,
+    f'8 f f f f2 %25
+    e4 f e r
+    c'4. as8 f4. f8
+    e4 r f r
+    ges4. f8 e8. e16 f4
+    f8. f16 e8. e16 f4 r %30
+    R1
+    R\fermata \bar "||" %32 finis
+  }
+}
+
+D-II-XXIVlBassoLyrics = \lyricmode {
+  Sa -- cri -- fi -- ci -- um, %4
+  sa -- cri -- fi -- ci -- um %5
+  De -- o spi -- ri -- tus
+  con -- tri -- bu -- la -- _
+  _ _ _
+  _ tus,
+
+  cor con -- tri -- tum, con -- %13
+  tri -- tum,
+  cor con -- %15
+  tri -- tum, con -- tri -- tum
+  et hu -- mi -- li -- a -- tum,
+  De --
+  us! non de --
+  spi -- ci -- es, %20
+
+  cor con -- %23
+  tri -- tum, con -- tri -- tum
+  et hu -- mi -- li -- a -- %25
+  _ _ tum,
+  De -- us, De -- us,
+  non, non,
+  non de -- spi -- ci -- es,
+  non de -- spi -- ci -- es. %30 finis
+}
+
+D-II-XXIVmBasso = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \autoBeamOff \tempoD-II-XXIVm
+    R1
+    r4 r8 \mvTr c\fE^\tuttiE g'([ as)] g f
+    es8. es16 f8 f g es h h
+    c h c f g4 g,
+    e'8 e e e f4 f %5
+    fis g8 c, d4. d8
+    g, g' fis d g b fis d
+    g8. g16 g8 g, d'8. d16 d8 r
+    r d e fis g4 g8 g
+    c,4 d es2 %10
+    d g4 g
+    g g, r8 a b4~
+    b8 h c4. cis8 d f!
+    e4. e8 d4 r
+    r8 d16([ c)] b8([ a)] g4 r8 c16([ b)] %15
+    c8 b a([ d16 c] d8) c b g'
+    g4 f! f8 f es! h
+    c[ d] es[ d16 c] b8[ a] g es'16([ d)]
+    es8 d c[( f16 e] f8[ \hA e]) d4
+    a'4. g8 fis4 g %20
+    g( fis8.) fis16 g4 r
+    R1
+    r4 r8 d es!4. e8
+    f!4. fis8 g g, r4
+    r2 r8 d' es!4~ %25
+    es8 e f!4. fis8 g e
+    cis4 d \once \tieDashed a2~
+    a4. a8 d4 r
+    r8 f16([ e)] f8 \hA e d([ d16 c!] b8[ a)]
+    g4 r r2 %30
+    R1
+    d'4 d' d d,8 d
+    f4. fis8 g4. gis8
+    a g f e16([ d)] a'4. g8
+    fis4 g g8. g16 fis4 %35
+    g g g g,
+    c' c c c,
+    r8 f!16([ es)] f8 es d[ g16 f] g8[ f]
+    es[ as16 g] f8[ es] d4 es
+    b4. h8 c4 d %40
+    es4. es8 d4 r
+    r2 g4 g
+    g g, r8 g'16([ f!)] g8 f
+    es es16([ d)] es8 d c4. cis8
+    d4 d \once \tieDashed d2~ %45
+    d1~
+    d
+    d2 d4. d8
+    g,4 r8 g as4. a8
+    b4. h8 c([ \hA h)] c([ \hA h)] %50
+    c4. c8 g2\fermata \bar "|." %51 finis
+  }
+}
+
+D-II-XXIVmBassoLyrics = \lyricmode {
+  Be -- ni -- gne fac, %2
+  Do -- mi -- ne, in bo -- na vo -- lun --
+  ta -- te tu -- a, Si -- on,
+  ut ae -- di -- fi -- cen -- tur %5
+  mu -- ri Ie -- ru -- sa --
+  lem. Tunc ac -- cep -- ta -- bis sa -- cri --
+  fi -- ci -- um iu -- sti -- ti -- ae
+  ob -- la -- ti -- o -- nes et
+  ho -- lo -- cau -- %10
+  sta. Tunc im --
+  po -- nent su -- per __
+  al -- ta -- re tu -- um
+  vi -- tu -- los,
+  im -- po -- nent su -- %15
+  per al -- ta -- re tu -- um
+  vi -- tu -- los, su -- per al --
+  ta -- _ _ re, su --
+  per al -- ta -- re
+  tu -- um, tu -- um %20
+  vi -- tu -- los,
+
+  su -- per al --
+  ta -- re tu -- um
+  im -- po -- %25
+  nent vi -- tu -- los, im --
+  po -- nent vi --
+  tu -- los,
+  su -- per al -- ta --
+  re, %30
+
+  tunc im -- po -- nent su --
+  per al -- ta -- re
+  tu -- um vi -- tu -- los, im --
+  po -- nent vi -- tu -- los, %35
+  tunc im -- po -- nent,
+  tunc im -- po -- nent
+  su -- per al -- ta -- _
+  _ _ _ _
+  _ re tu -- um %40
+  vi -- tu -- los,
+  tunc im --
+  po -- nent su -- per al --
+  ta -- re tu -- um vi -- tu --
+  los, im -- po -- %45
+
+  nent vi -- tu -- %48
+  los, su -- per al --
+  ta -- re tu -- um %50
+  vi -- tu -- los. %51 finis
+}

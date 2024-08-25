@@ -365,3 +365,108 @@ D-II-XXIViViolinoI = {
     f4 r r2\fermata \bar "||" %29 finis
   }
 }
+
+D-II-XXIVkViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \mixolydian \time 4/4 \tempoD-II-XXIVk
+    a'1~\p
+    a
+    es'!
+    d~
+    d2~ d4 c %5
+    c2 h4 c~
+    c h\trill c2\fermata \bar "||" %7 finis
+  }
+}
+
+D-II-XXIVlViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \dorian \time 4/4 \tempoD-II-XXIVl
+    c8\fE f16( c) \tuplet 3/2 8 { \sbOn as' g f c' b c \sbOff } des,8 a'16( b) \hA des,8\p \hA a'16( b)
+    c,8\f g'16( e) \tuplet 3/2 8 { \sbOn b' as g des' c b \sbOff } as8 e'16( f) \kneeBeam as,,8\p \hA e''16( f)
+    ges,8 a16( b) des,8 \hA a'16( b) \appoggiatura b8 as8.\f g?32( f) g4\trill
+    f8 e'16(\p f) as,8 f'16( as) b,8 des16( b) e8 g16( b)
+    c,8 des16( c) f8 as16( c) des,8 b16( g) c,8 r %5
+    c f16( c) \tuplet 3/2 8 { \sbOn as' g f f' g as \sbOff } h,,8 h'16( d) g,8 \hA h16( d)
+    as8 f16( d') d,8 h'16( d) es8 ces16( as) b8 g16( es)
+    b'8 g16( d) d'8 a16( d,) g,8 d'16( f!) g,8 es'16( c')
+    g,8 d'16( f) g,8 r r g'16(\p as) r8 h16( c)
+    r8 h16( c) r8 f16( as) g,,8 c'4 h8\trill %10
+    c g c,4 r2-\conSord
+    r c16(\p f) f( as) as( c) c( f)
+    c,( f) f( as) as( c) c( f) f,( a) a( c) c( f) f( c)
+    f,( b) b( des) des( f) f( b) f,( b) b( des) des( f) f( b)
+    f,( b) b( d) d( f) f( b) b,( e) e( g) g( b) b( e,) %15
+    c,( f) f( as) as( f) h( f) g( c,) c( e) e( g) g( c)
+    c( ges) ges( es) es( c) c( c') f,( b,) b( des) des( f) f( b)
+    b,( des) des( f) f( b) b( des) es,( g) g( b) b( des) des( b)
+    es,( as) as( c) c( es) es( c) f,( as) as( b) b( des) ces( as)
+    es( as) as( b) es,( g) g( b) as( c) c( es) es( ges,) ges( e) %20
+    f( a) a( b) f'( as,) as( f) g( b) b( es,) des( b') b( \hA des,)
+    ces( es) es( as) b,( as') as( g) as,( es') es( as) as( c?) c( f,)
+    g( d) d( h) h( d) d( f) es( c) c( es) es( g) g( c)
+    c,( e) e( g) g( \hA e) e( c) c( as') as( c) c( as) as( f)
+    c( f) f( as) as( c) c( f,) des( f) f( g) g( b) b( g) %25
+    c,( e) e( g) d( as') as( d,) \slurDashed e( c) c( \hA e) e( g) g( c) \slurSolid
+    f,( as) as( c) c( f) f( c) f,( b) b( des) des( f) f( b,)
+    c,( e) e( g) g( c) c( g) f( as) as( c) c( f) f( c)
+    des( b) b( \hA des) ges,( \hA des') des( b) g( c,) c( g') as( c,) c( as')
+    g( c,) c( g') g( c) c( g) f( as) as( c) c( f,) f( es!) %30
+    des( b) b'( des) des( g,) g( f) e( c) f( as,)
+    g( f') g,( e')\trill
+    f( as) as( c) c( f) c( as) \appoggiatura g8 f4 r\fermata \bar "||" %32 finis
+  }
+}
+
+D-II-XXIVmViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoD-II-XXIVm
+    R1
+    r2 r4 r8 g'\fE
+    c( es) d c h c d d
+    es d es c c4 h
+    b4. b8 b4 as %5
+    a b8 a a2\trill
+    g8 d' d16( c) b( a) b( c) d( es) d( c) b( a)
+    b g b c d8 c16( b) a8 a b c
+    d2 d16 b a g g' f! es d
+    es8( d) d4~ d8 c16 b c4\trill %10
+    d2 r
+    R1*8 %19
+    r2 d4 d %20
+    d d, r8 d es!4~
+    es8 e f!4. fis8 g b
+    a2\trill g8 c16( b) c8 b
+    a d16 c d8 c b8. c16 d4
+    r r8 a b4. h8 %25
+    c4. cis8 d4. e8~
+    e4 d cis8 a d4~
+    d cis8. cis16 d4 r
+    d d d d,8 a'
+    b4. h8 c4. cis8 %30
+    d8. c16 b c d8~ d4 cis
+    d8 f16( e) f8 \hA e d4 r
+    r8 d16( c!) d8 c b es16 d es8 d
+    cis4 d2 c4~
+    c b a2 %35
+    b4 b b4. d8
+    es4 es es es,
+    r8 as16 g \hA as8 g f b16 as b8 \hA as
+    g c16 b as8 c b2
+    b4. as8 g es' d4~ %40
+    d c d8 c b a16 g
+    a2\trill g4 r
+    d' d d d,
+    r8 c'16 h c8 d es es16 d c8 b?
+    a4. a8 b4. h8 %45
+    c!4. cis8 d4 fis,
+    g8 c16 b c8 b a d16( c) d8 c
+    b4. a16 g a2\trill
+    g4 r8 b c4. c8
+    d4. d8 es( d) es( d) %50
+    c2 h\fermata \bar "|." %51 finis
+  }
+}

@@ -585,3 +585,231 @@ D-II-XXIViTenoreLyrics = \lyricmode {
   sti -- ti -- am tu --
   am. %29 finis
 }
+
+D-II-XXIVjTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \minor \time 4/4 \autoBeamOff \tempoD-II-XXIVj
+    R1*6 %6
+    r2 \mvTr e~\pE^\soloE
+    e8.[ f16] e([ d) c( h)] c8 h16 a e'([ cis)] h a
+    f'4 e8 d cis8. d16 e4
+    r a,8 d b16([ a)] \hA b e g([ f g)] \hA b, %10
+    b([ gis)] a8 \hA b a g16([ fis)] g cis e([ d e)] g,
+    g([ e)] f8 d'16[ f32( e) d16 c!]
+    h[ g a g] d'4 c16[ g a g] e'4 d16[ g, a g] f'4
+    e16[ g32( f) e16 d] c[ e32( d) c16 b] a[ a'32( g) f16 e] d[ f32( e) d16 c]
+    h([ g)] c([ d)] \appoggiatura e8 d4\trill c r %15
+    R1*3
+    r4 h8 e e16([ dis)] dis e fis([ dis)] h([ a)]
+    a([ fis)] g8 e' d d16([ cis)] cis d e([ cis)] a([ g)] %20
+    g([ e)] f8 d'16[ f32( e) d16 c] h[ d32( c) h16 a32( gis)] a16[ h c d]
+    e1~
+    e16[ h gis e] d'8.[ c32( h)] c16[ a cis e] g8.[ f32( e)]
+    f8 d r4 r2
+    a8.[ h32( cis)] d[( cis) d( e) f16 d] \appoggiatura c8 h8.[ a32( g)] c([ h) c( d) e16 c] %25
+    \appoggiatura b8 a8.[ g32( f)] h([ a) h( c) d16 h] \appoggiatura a8 gis8.[ fis32( e)] a8. h16
+    h2 a4 r
+    R1*4 %31
+    R1\fermata \bar "||" %32 finis
+  }
+}
+
+D-II-XXIVjTenoreLyrics = \lyricmode {
+  Do -- %7
+  _ _ mi -- ne, la -- bi -- a
+  me -- a a -- pe -- ri -- es,
+  et os me -- um an -- nun -- ci -- %10
+  a -- bit, et os me -- um an -- nun -- ci --
+  a -- bit lau -- _ _
+  _ _ _ _
+  _ _ _ _
+  _ dem tu -- am, %15
+
+  et os me -- um an -- nun -- ci -- %19
+  a -- bit, et os me -- um an -- nun -- ci -- %20
+  a -- bit lau -- _ _
+  _
+  _ _ _
+  _ dem,
+  lau -- _ _ _ %25
+  _ _ _ _ dem
+  tu -- am. %27 finis
+}
+
+D-II-XXIVlTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \dorian \time 4/4 \autoBeamOff \tempoD-II-XXIVl
+    R1*3
+    r2 \mvTr des4.\pE^\soloE b8
+    b8. as16 as4 g8 des' des c16 b %5
+    as([ g)] f8 r4 h8. h16 h4
+    r8 h h h h4 b~
+    b a8[ d16 c] h4 c~
+    c h c r
+    R1 %10
+    r2 es4. es8
+    e des([ c)] b! f'4 f,
+    R1
+    r2 des'4. des8
+    d([ c)] b d e4 e %15
+    f4. f8 f4 e
+    es8 es es es es4 des
+    r2 des
+    c4 r b r8 ces
+    b4. b8 as4 r %20
+    R1
+    r2 c!4. c8
+    h as!([ g)] d' es4 es,
+    R1
+    r2 g8 g g g %25
+    g4( as) g r
+    r2 des'4. b8
+    b4 r as r
+    des r des8 c16([ b)] as8 g16([ f)]
+    g4. g8 f4 r %30
+    R1
+    R\fermata \bar "||" %32 finis
+  }
+}
+
+D-II-XXIVlTenoreLyrics = \lyricmode {
+  Sa -- cri -- %4
+  fi -- ci -- um, sa -- cri -- fi -- ci -- um %5
+  De -- o spi -- ri -- tus
+  con -- tri -- bu -- la -- _
+  _ _ _
+  _ tus,
+  %10
+  cor con --
+  tri -- tum, con -- tri -- tum,
+
+  cor con --
+  tri -- tum, con -- tri -- tum, %15
+  cor con -- tri -- tum
+  et hu -- mi -- li -- a -- tum,
+  De --
+  us! non de --
+  spi ci -- es, %20
+
+  cor con --
+  tri -- tum, con -- tri -- tum
+
+  et hu -- mi -- li -- %25
+  a -- tum,
+  De -- us,
+  non, non,
+  non, De -- us, non de --
+  spi ci -- es. %30 finis
+}
+
+D-II-XXIVmTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \dorian \time 4/4 \autoBeamOff \tempoD-II-XXIVm
+    r2 r4 r8 \mvTr g\fE^\tuttiE
+    c([ es)] d c h4. d8
+    c c f f d es f f
+    es g es4 d2
+    c8 c c c c4 c %5
+    c b!8 es d4. d8
+    d b d d d b d d
+    d8. d16 d8 d d8. d16 d8 r
+    r a g d' d4 d8 d
+    c4 a g2 %10
+    a r
+    R1*2
+    r2 d4 d
+    d d, r8 d es!4~ %15
+    es8 e f!4. fis8 g b
+    a4. a8 g h c[ d]
+    es[ d16 c] b8[ c] d[ c] b g16([^\critnote f)]
+    g8 f e([ a16 g] a8[ g)] f8 d'
+    d4( cis8[ d16 e] a,4) b %20
+    a4. a8 b4 r8 as16([ g)]
+    as8 g f![ b16 a] b8[ a] g4
+    d'4. d8 b4 g
+    r r8 a b4. h8
+    c4. cis8 d d16([ c?)] b8 g %25
+    es'[ c16 b] a8[ f] f'[ d16( c)] b8 g
+    a4 a8 f'! e4 f
+    e4. e8 d4 r
+    r8 a16([ g)] a8 g f([ a)] b([ c)]
+    d g, r4 r2 %30
+    r a4 a
+    a d, r8 f'16([ e)] f8 \hA e
+    d a4 a8 b4. h8
+    cis4 a r2
+    d4 d d d, %35
+    r8 d'16([ c!)] d8 c b([ d16 c] b8) g
+    es'4 es r r8 g,
+    c4. c8 d4. d8
+    es4 f2 es4~
+    es d es8([ c)] a!4 %40
+    g4. g8 a4 r
+    d d d d,8 d'
+    b b16([ a)] b8[ a] g[ b16 a] b8[ as]
+    g4. a16[ h] c8[ c16 b] a8 g
+    fis d r4 d' d8 d %45
+    g,[ c!16 d] e4 a,8[ fis16 g] a8[ d]~
+    d[ c] g4 a4. b16([ c)]
+    d2. d4
+    d r8 b as4. c8
+    b4. d8 c([ d)] c([ d)] %50
+    es4. es8 d2\fermata \bar "|." %51 finis
+  }
+}
+
+D-II-XXIVmTenoreLyrics = \lyricmode {
+  Be --
+  ni -- gne fac, Do -- mi --
+  ne, in bo -- na vo -- lun -- ta -- te
+  tu -- a, Si -- on,
+  ut ae -- di -- fi -- cen -- tur %5
+  mu -- ri Ie -- ru -- sa --
+  lem. Tunc ac -- cep -- ta -- bis sa -- cri --
+  fi -- ci -- um iu -- sti -- ti -- ae
+  ob -- la -- ti -- o -- nes et
+  ho -- lo -- cau -- %10
+  sta.
+
+  Tunc im -- %14
+  po -- nent su -- per __ %15
+  al -- ta -- re tu -- um
+  vi -- tu -- los, im -- po --
+  _ _ _ nent su --
+  per al -- ta -- re, im --
+  po -- nent %20
+  vi -- tu -- los, su --
+  per al -- ta -- _ _
+  _ re tu -- um,
+  im -- po -- nent
+  vi -- tu -- los, su -- per al -- %25
+  ta -- _ _ _ re
+  tu -- um, im -- po -- nent
+  vi -- tu -- los,
+  su -- per al -- ta -- re __
+  tu -- um, %30
+  tunc im --
+  po -- nent su -- per al --
+  ta -- re, al -- ta -- re
+  tu -- um,
+  tunc im -- po -- nent %35
+  su -- per al -- ta -- re
+  tu -- um, im --
+  po -- nent su -- per
+  al -- ta -- _
+  re tu -- um %40
+  vi -- tu -- los,
+  tunc im -- po -- nent su --
+  per al -- ta -- _ _
+  _ _ _ _ re
+  tu -- um, su -- per al -- %45
+  ta -- _ _ _
+  re tu -- um
+  vi -- tu --
+  los, su -- per al --
+  ta -- re tu -- um %50
+  vi -- tu -- los. %51 finis
+}

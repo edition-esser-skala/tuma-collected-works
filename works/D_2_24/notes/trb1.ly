@@ -153,3 +153,94 @@ D-II-XXIViTromboneI = {
     f r r2\fermata \bar "||" %29 finis
   }
 }
+
+D-II-XXIVjTromboneI = {
+  \relative c' {
+    \clef alto
+    \key a \minor \time 4/4 \tempoD-II-XXIVj
+    e2~\fE e8. f16 e( d) c( h)
+    c8 a c e a2~
+    a8. b16 a( g) f( e) f8 d h16-! d g( f)
+    f( dis) e8 a,16-! e'-! a( g) g( e) fis8 h,16-! fis'-! h( a)
+    a( fis) gis8 e8. f16 \appoggiatura f8 e8. f16 \appoggiatura f8 e8. d16 %5
+    gis-! e( f e) a-! a,( h a) f'8 gis,-! a-! d-!
+    \appoggiatura d8 c8. h32( a) h4\trill a8 e'(\pE d) c
+    h4 r r2
+    a'2~ a8. b16 a( g) f( e)
+    f8 d r4 r2 %10
+    R1
+    r2 r4 g
+    g1~
+    g4 r r2
+    r g~\fE %15
+    g8. a16 g( f) e( d) e2~
+    e8. f16 e( d) c( h) c8 a a'16( g!) fis( e)
+    dis-! h( c! h) fis'8.g32( a) \appoggiatura a8 g8. fis32( e) \hA fis4\trill
+    e r r2
+    R1*2 %21
+    r8 c'\pE h a gis c, h a
+    gis4 r r2
+    a'2~\fE a8. b16 a( g) f( e) f8 d r4 r2
+    R1
+    r2 e~\fE
+    e8. f16 e( d) c( h) c8 a a16-! e'-! a( g!)
+    g( e) fis8 h,16 fis' h( a) a( fis) gis8 e8. f?16
+    \appoggiatura f8 e8. f16 \appoggiatura f8 e8. d16 gis-! e( f e) a-! a,( h a)
+    f'8 gis,-! a-! d \appoggiatura d c8.\trill h32( a) h4\trill
+    a r r2\fermata \bar "||"
+  }
+}
+
+D-II-XXIVmTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \dorian \time 4/4 \tempoD-II-XXIVm
+    r4 c\fE g'8 as g f
+    es g4 f16 es d4. d8
+    g4 as g4. g8
+    g g g as g4 g
+    g8 g g g g4 f %5
+    d g8 g g4 fis8. fis16
+    g8 g a fis g g a fis
+    g8. g16 g8 g fis8. fis16 fis8 r
+    r fis g a g4 g8 g
+    g4 fis g2 %10
+    fis r
+    R1*5 %16
+    r2 g4 g
+    g g, r8 a b4~
+    b8 h c4. cis8 d f!
+    e4. e8 d4 d8 g %20
+    a2 g4 r8 c,16 b
+    c8 b a! d16 c d8 c b g'
+    g4 fis8. fis16 g8 es16 d es8 d
+    c f16 es f8 es d g16 f! g8 f
+    e a16 g a8 e f4 g~ %25
+    g8 g a2 g4~
+    g f!8. g16 a4 r
+    r2 a4 a
+    a a, r2
+    r8 d es!4. e8 f!4~ %30
+    f8 fis g f e4. e8
+    f a16 g a8 g f a16 g a8 g
+    f f16 e f8 es d g16 f! g8 f
+    e4 f e4. fis16 g
+    a4 g a2 %35
+    g4 r g g
+    g g,8 g' g4 g
+    r f~ f8 g g4
+    g8 as as2 g4
+    f4. f8 es g fis4 %40
+    g g fis g
+    g fis8. fis16 g4 r
+    r2 g4 g
+    g g,8 g' g4 g
+    d8 fis4 fis8 g g16 fis g8 f %45
+    e a16 g a8 g fis4 d
+    es4. e8 f4. fis8
+    g d g2 fis8. fis16
+    g8 d es!4. e8 f4~
+    f8 fis g2 g4 %50
+    g4. g8 g2\fermata \bar "|." %51 finis
+  }
+}
