@@ -1,5 +1,16 @@
 # Changelog
 
+## 2024.08.0 – 2024-08-31
+
+### Added
+
+- works: TumW D.2.24
+
+### Fixed
+
+- completed S solo in TumW D.2.23
+
+
 ## 2024.07.0 – 2024-07-28
 
 ### Added
