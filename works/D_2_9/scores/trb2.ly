@@ -7,40 +7,11 @@
 
 \book {
   \bookpart {
-    \section "D.2.9" "Dixit Dominus"
-    \addTocEntry
-    \paper { systems-per-page = #6 }
-    \score {
-      <<
-        \new Staff { \D-II-IXDixitTromboneII }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Tecum principium"
+    \section "D.2.7" "De profundis"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-IXTecumTromboneII }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Iuravit Dominus"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \D-II-IXIuravitTromboneII }
-      >>
-    }
-    \tacet "subsection" "De torrente"
-  }
-  \bookpart {
-    \subsection "Gloria Patri"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \D-II-IXGloriaTromboneII }
+        \new Staff { \D-II-IXTromboneII }
       >>
     }
   }

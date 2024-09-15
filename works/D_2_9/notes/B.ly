@@ -1,323 +1,183 @@
 \version "2.24.2"
 
-D-II-IXDixitBasso = {
+D-II-IXBasso = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-IXDixit
-    R1*9 %9
-    r2 \mvTr g'4.\fE^\tutti g8 %10
-    g2.. g8
-    e c r c' h g r h
-    c h r h, c a d4
-    g, r r2
-    R1 %15
-    r4 d''8 d d8.[ h16] g[ h d, g]
-    h,8.[ g'16] d[ g h, d] g,8 g h' h
-    c c, r4 r c8 c
-    f f f4 e r
-    r8 a a a a,4 a8 d %20
-    e4( e,) a r
-    R1*5 %26
-    r2 r4 \mvTr g'8\fE^\tuttiE g
-    g16[ a g a] g[ a g f!] e[ f e f] e[ f e d]
-    c8 c e e f f16 f f8 e
-    f f f8. f16 g4 r %30
-    r8 g f f e e16 f g8([ g,)]
-    c4 r c~ c16[ d] e([ f)]
-    g8 g, r4 r8 d' d16([ e)] f([ g)]
-    a4 r r r8 e
-    f e d g16 g c,([ d e f] g8[ g,)] %35
-    c4 r8 g' c, d e f16 f
-    g4( g,) c2\fermata \bar "||" %37 finis
-  }
-}
-
-D-II-IXDixitBassoLyrics = \lyricmode {
-  Se -- de, %10
-  se -- de,
-  se -- de a dex -- tris, a
-  dex -- tris, a dex -- tris me --
-  is.
-  %15
-  Do -- nec po -- _
-  _ _ _ nam, do -- nec
-  po -- nam in -- i --
-  mi -- cos tu -- os,
-  sca -- bel -- lum pe -- dum tu -- %20
-  o -- rum.
-
-  Do -- mi -- %27
-  na -- _ _ _
-  _ re, do -- mi -- na -- re in me -- di --
-  o, in me -- di -- o %30
-  in -- i -- mi -- co -- rum tu -- o --
-  rum, do -- mi --
-  na -- re in me -- di --
-  o in --
-  i -- mi -- co -- rum tu -- o -- %35
-  rum, in -- i -- mi -- co -- rum tu --
-  o -- rum. %37 finis
-}
-
-D-II-IXTecumBasso = {
-  \relative c {
-    \clef bass
-    \key g \major \time 3/4 \autoBeamOff \tempoD-II-IXTecum
-      \set Score.currentBarNumber = #38
-    R2.*14
-    \mvTr g'2\pE^\solo fis4
-    h g4. g8
-    fis2 r4
-    a a gis
-    a e fis
-    g!2.
-    fis4 fis fis
-    e4. fis16([ gis)] a8 a
-    a4 g g
-    fis4. g16([ a)] h8 h
-    h4 a8[ g] a4~
-    a g8[ fis] g4
-    fis r r
-    R2.*2
-    r4 d g
-    e2.~
-    e16[ g fis e] a8[ g fis e]
-    fis2.~
-    fis16[ a g fis] h8[ a g fis]
-    g2.~
-    g16[ e fis g] a8 g fis fis
-    e4 a16[ fis g a] h[ a g fis]
-    g4 a2
-    d,4 r r
-    R2.*7
-    r4 r a'
-    fis4. e8 d4
-    a'8([ g)] fis([ e)] d([ fis)]
-    g8. g,16 g4 r
-    R2.
-    g'4. e8[ f g]
-    a2.
-    g
-    f
-    e2 a8[ g]
-    f4 g f8 g
-    c,4 r r
-    R2.*8
-    r4 r g'
-    g4. g,8 g4
-    d'8([ g,)] g'([ f)] e([ d)]
-    e8. d16 c4 r
-    g'8[ e a h c a]
-    fis8[ d g a h g]
-    e[ c fis g a fis]
-    g[ d g fis] g4
-    d2 c8 d
-    g,4 r r
-    R2.*11
-    R2.\fermata \bar "||"
-  }
-}
-
-D-II-IXTecumBassoLyrics = \lyricmode {
-  Te -- cum %52
-  prin -- ci -- pi --
-  um
-  in di -- e %55
-  vir -- tu -- tis
-  tu --
-  ae in splen --
-  do -- ri -- bus san --
-  cto -- rum, splen -- %60
-  do -- ri -- bus san --
-  cto -- _ _
-  _ _
-  rum,
-
-  in splen -- %67
-  do --
-  _
-  _ %70
-  _
-  _
-  _ ri -- bus san --
-  cto -- _ _
-  _ _ %75
-  rum.
-
-  Ex %84
-  u -- te -- ro %85
-  an -- te __ lu --
-  ci -- fe -- rum
-
-  ge -- _
-  _ %90
-  _
-  _
-  _ _
-  _ _ nu -- i
-  te, %95
-
-  ex %104
-  u -- te -- ro %105
-  an -- te __ lu --
-  ci -- fe -- rum
-  ge --
-  _
-  _ %110
-  _ _
-  _ nu -- i
-  te. %113 finis
-}
-
-D-II-IXIuravitBasso = {
-  \relative c {
-    \clef bass
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-IXIuravit
-      \set Score.currentBarNumber = #126
-    r2 r4 \mvTr e\fE^\tutti
-    e e dis4. dis8
-    e2 r
-    r r4 e\fE
-    d!2 c %130
-    cis4. cis8 h2
-    R1 \noBreak
-    R1\fermata \bar "||"
-    \tempoD-II-IXEtNon r2 g8\fE g h d \noBreak
-    h g e'4 d r %135
-    r2 d8 d fis a
-    fis d h h c! h a d
-    h g r4 r2
-    r8 g' g g e4 e
-    r8 a a a f!4 f %140
-    r8 g4 g8 c,2
-    g4 r r8 c d e
-    f8. f16 f4 r8 d e f
-    g8. g16 e8 c g4. g8
-    c4 r r2 %145
-    \tempoD-II-IXDominus R1*14 \noBreak %159
-    R1\fermata \bar "||" %160
-    \tempoD-II-IXIudicabit R1 \noBreak
-    \mvTr a4\fE^\tuttiE a a2
-    a r
-    r gis4\fE gis
-    a a8 a e'4 c %165
-    g'8. g16 g4 r2
-    r r4 r8 \tempoD-II-IXImplebit g\fE
-    c([ h16 a)] g8 f e c r e
-    a([ g!16 f)] e8 d c a r4
-    f'4. d8 g e r a~ %170
-    a f b? g r c4 a8
-    a f f d h!4 h
-    c c8 c g2
-    c4 r r8 f f4
-    fis fis g2( %175
-    g,) c\fermata \bar "||" %176 finis
-  }
-}
-
-D-II-IXIuravitBassoLyrics = \lyricmode {
-  Iu -- %126
-  ra -- vit Do -- mi --
-  nus,
-  iu --
-  ra -- vit %130
-  Do -- mi -- nus
-
-  et non poe -- ni -- %134
-  te -- bit e -- um, %135
-  et non poe -- ni --
-  te -- bit, et non poe -- ni -- te -- bit
-  e -- um:
-  Tu es sa --
-  er -- dos, tu es sa -- %140
-  cer -- dos in ae -- ter --
-  num se -- cun -- dum
-  or -- di -- nem, se -- cun -- dum
-  or -- di -- nem Mel -- chi -- se --
-  dech. %145
-
-  Iu -- di -- ca -- %162
-  bit,
-  iu -- di --
-  ca -- bit in na -- ti -- %165
-  o -- ni -- bus,
-  im --
-  ple -- bit ru -- i -- nas, im --
-  ple -- bit ru -- i -- nas,
-  con -- quas -- sa -- bit, con -- %170
-  quas -- sa -- bit, con -- quas --
-  sa -- bit ca -- pi -- ta in
-  ter -- ra mul -- to --
-  rum, in ter --
-  ra mul -- to -- %175
-  rum. %176 finis
-}
-
-D-II-IXGloriaBasso = {
-  \relative c {
-    \clef bass
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-IXGloria
-      \set Score.currentBarNumber = #241
-    \mvTr e4\fE^\tutti e8 e d4 d8 d
-    c8. c16 c4 r2
-    r4 c8 c h4 h8 h
-    c2 g
-    \tempoD-II-IXGloriaB R1*12 %256
-    \mvTr g'4\fE^\tuttiE g g e8 g
-    a4. g16([ f)] g4 c,
-    f2 e8 e([ f g]
-    a) e r d c4 c'~ %260
-    c8[ h16 a] h4~ h8[ a16 g] a[ g fis e]
-    d8 g d4 g, r
-    r8 g([ a h] c) g r4
-    r8 c([ d e] f) c r4
-    r8 f([ g a] b) f r4 %265
+    \key c \dorian \time 4/4 \autoBeamOff \tempoD-II-IXDeProfundis
     R1*2
-    r8 e([ fis gis] a2)
-    a8 a,([ h cis] d2)
-    d8 d([ e fis] g2) %270
-    g8 g,([ a h] c2)
-    g r
-    R1*4 %276
-    g'4 g g e8 g
-    a4 g8([ f)] e4. d8
-    c4 e f2
-    e8 d( c16[ d e f] g4) g, %280
+    r2 \mvTr g4.\fE^\tutti g8
+    c4 c f,4. f8
+    b4 b8 b es4._( c8 %5
+    b2) es4. es8
+    b'2( f)
+    c8 c c'2 c4
+    r b8 c d4( d,8.) d16
+    g4 r r2 %10
+    r d4. d8
+    g,4 g c4. c8
+    f,4 f8 c' f2~
+    f4 f8 f c'4 c8 c,
+    as'2. g8([ f)] %15
+    es4 as g4. g8
+    c,4 r as8. as16 as8 as
+    es'4 es r2
+    r8 e e e f4 b, \noBreak
+    c2 f,\fermata \bar "||" %20
+    \tempoD-II-IXFiant R1*4
+    r2 g'4.\fE g8 %25
+    es f g c, as'([ g)] g4
+    g( f) g g
+    c c r c,
+    f f r f8 d
+    h4 c f2 %30
+    g g,~
+    g1 \noBreak
+    c\fermata \bar "||"
+    \tempoD-II-IXSi r2 \mvTr g'8\pE^\solo es16([ f)] g8 es \noBreak
+    c16([ h)] c8 r4 d8 a'16([ g)] fis([ e)] d c %35
+    b a g8 r b' a4 r8 a
+    g16([ fis)] g8 g4 fis r
+    R1
+    r2 g8 g c16([ b!)] a([ g)]
+    a4 r8 f b a g f16 es %40
+    f4 r r r8 b,
+    es4. c8 f4. d8
+    g4 g8 c a8. a16 b8 b
+    b4( a8.) a16 b4 r
+    R1*22 \noBreak %66
+    R1\fermata \bar "||"
+    \tempoD-II-IXQuia \mvTr es,4.\fE^\tutti es8 es4 es \noBreak
+    es( d8.) d16 es4 r
+    r8 es es es as,8. as16 as4 %70
+    r2 r8 f' f b,
+    as'4. as8 g!4 f
+    f4. f8 es!4 es
+    r c8 b! as4 as8 as
+    g4. g8 g4 r8 \tempoD-II-IXEtIpse c' %75
+    h c g f16 g es8. d16 c8 es
+    f8. f16 f8 d h4 c
+    g' c,8 c g2
+    c4 r \mvTr as'4\pE^\solo g8 f
+    g4 f8 e f8. f,16 f4 %80
+    r2 r4 as'8 as
+    as g g a b4. b8
+    as4 f g g
+    as2 g4 r
+    \mvTr g\fE^\tutti g as4. g16 f %85
+    g8 c, f4. es8 d4
+    c8 as'( g16[ f es d] c8) g' c4~
+    c8 b! a16([ g fis e]) d8 g4 f8~
+    f[ es16 d] es4~ es8[ d16 c] d4
+    es f g8[ as f g] %90
+    e[ f16 es] d8[ g,] c4 r
+    R1
+    g'4 g as4. g16 f
+    g8 c, f4. es8 d4
+    c f2( e4) %95
+    f2 r
+    r c4. d8
+    es4. d16 c d8 g, c4~
+    c b! a!2
+    g4 r r2 %100
+    r r8 b'( a16[ g f es)]
+    d8 g( f16[ es d c)] b8 es_( d16[ c b as]
+    g4) as b2
+    es, g'4 g
+    as4. g16 f g8 c, f4~ %105
+    f8 es16([ d)] es4 f f8([ d)]
+    c4 c'4. b!8 a!16([ g fis e]
+    d8) g d4 g,2
     g1~
-    g2 c
-    c1
-    c\fermata \bar "|." %284 finis
+    g~ %110
+    g~
+    g2 c8 c'( b!16[ as g f]
+    es8) as g([ g,)] c4 r\fermata \bar "|." %113 finis
   }
 }
 
-D-II-IXGloriaBassoLyrics = \lyricmode {
-  Glo -- ri -- a Pa -- tri et %241
-  Fi -- li -- o
-  et Spi -- ri -- tu -- i
-  San -- cto,
+D-II-IXBassoLyrics = \lyricmode {
+  De pro -- %3
+  fun -- dis, de pro --
+  fun -- dis cla -- ma -- %5
+  vi, cla --
+  ma --
+  vi, cla -- ma -- vi
+  ad te, Do -- mi --
+  ne, %10
+  de pro --
+  fun -- dis, de pro --
+  fun -- dis cla -- ma --
+  vi, cla -- ma -- vi, cla --
+  ma -- vi __ %15
+  ad te, Do -- mi --
+  ne; Do -- mi -- ne, ex --
+  au -- di,
+  ex -- au -- di vo -- cem
+  me -- am. %20
 
-  et in sae -- cu -- la %257
-  sae -- cu -- lo -- rum,
-  a -- men, a --
-  men, a -- men, a -- %260
-  _ _
-  _ men, a -- men,
-  a -- men,
-  a -- men,
-  a -- men, %265
+  Fi -- ant %25
+  au -- res tu -- ae in -- ten --
+  den -- tes in
+  vo -- cem, in
+  vo -- cem de -- pre --
+  ca -- ti -- o -- %30
+  nis me --
+  ae.
+  Si in -- i -- qui --
+  ta -- tes ob -- ser -- va -- ve -- ris, %35
+  Do -- mi -- ne, quis, quis, quis
+  su -- sti -- ne -- bit?
 
-  a -- %268
-  men, a --
-  men, a -- %270
-  men, a --
+  Qui -- a a -- pud
+  te pro -- pi -- ti -- a -- ti -- o %40
+  est, et
+  pro -- pter le -- gem
+  tu -- am su -- sti -- nu -- i te,
+  Do -- mi -- ne.
+
+  Qui -- a a -- pud %68
+  Do -- mi -- num
+  mi -- se -- ri -- cor -- di -- a, %70
+  mi -- se -- ri --
+  cor -- di -- a, et
+  co -- pi -- o -- sa
+  a -- pud e -- um re --
+  dem -- pti -- o. Et %75
+  i -- pse re -- di -- met Is -- ra -- el ex
+  o -- mni -- bus in -- i -- qui --
+  ta -- ti -- bus e --
+  ius. Glo -- ri -- a
+  Pa -- tri et Fi -- li -- o, %80
+  si -- cut
+  e -- rat in prin -- ci -- pi --
+  o et nunc et
+  sem -- per
+  et in sae -- cu -- la %85
+  sae -- cu -- lo -- rum, a --
+  men, a -- men, a --
+  men, a -- men, a -- _
+  _ men,
+  a -- men, a -- %90
+  _ _ men,
+
+  et in sae -- cu -- la
+  sae -- cu -- lo -- rum, a --
+  men, a -- %95
   men,
+  et in
+  sae -- cu -- la sae -- cu -- lo --
+  rum, a --
+  men, %100
+  a --
+  men, a -- men, a --
+  men, a --
+  men, et in
+  sae -- cu -- la sae -- cu -- lo -- %105
+  rum, a -- men, a --
+  men, a -- men, a --
+  men, a -- men,
+  a --
 
-  et in sae -- cu -- la %277
-  sae -- cu -- lo -- rum,
-  a -- men, a --
-  men, a -- men, %280
-  a --
-  men,
-  a --
-  men. %284 finis
+  men, a -- %112
+  men, a -- men. %113 finis
 }

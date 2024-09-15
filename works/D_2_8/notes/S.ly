@@ -3,121 +3,73 @@
 D-II-VIIISoprano = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-VIIIDixit
-    \mvDl c'4\fE^\tutti h c8. c16 c4
-    c8 c16 c c8([ h)] c4 r
-    r8 d c h e e d4
-    d r r d8 d
-    d, d d' d d d c4 %5
-    h8 e e e, c'2~
-    c4 c8 c c4( h)
-    c r r2
-    r r8 \mvTr e\pE^\solo c a
-    h e, r h' c16([ h)] c8 d4\trill %10
-    e8 h e d cis4. cis8
-    d a d c h4. h8
-    c d16([ e)] d8([ c)] h4 r
-    \mvTr d8([\fE^\tutti h)] c([ d)] e e r4
-    c8 c c c16 c c8. c16 c8 c %15
-    d4 d d c8 c
-    c4( h) c r
-    R1*11 %28
-    r2 r4 \mvTr h8\fE^\tutti h
-    c h c a h e, h' h %30
-    h a h cis d d fis, g
-    g g g g g4( fis)
-    g2. r4
-    r8 g a h c d e4
-    d4. d8 c h h8. a16 %35
-    a4 r r2
-    R1
-    r2 r8 \mvTr e'\fE^\tutti c a
-    r d h g r c a8. a16
-    a4 h8([ c)] d8 c c([ h)] %40
-    c4 r r8 e d4 \noBreak
-    c r r2\fermata \bar "||"
-    \tempoD-II-VIIIIudicabit r4 \mvTr g8\fE^\tutti g \once \tieDashed es'2~ \noBreak
-    es1
-    es4 es es d8([ c)] %45
-    h!2. h4
-    h4 \tempoD-II-VIIIImplebit r8 h c4 d8 d
-    e! e r4 c h
-    c8 c r4 d cis
-    d8 d r4 h a %50
-    h8 h h8. h16 c4 r8 c
-    c4 c8 c c4( h)
-    c r r2
-    R1*7 %60
-    r2 r8 \mvTr c4\fE^\tutti c8
-    g a16 g a8 h16([ a)] h([ a)] g8 h4
-    c8 c4 h8 c([ e)] e,4~
-    e r r8 d' h([ e)]
-    r c( a[ d16 c] h4) c~ %65
-    c d e8 e( d4)
-    e r r2
-    R1
-    r2 r4 r8 d
-    e([ d)] d4 e r %70
-    r2 e8 e d4
-    e r r2\fermata \bar "|." %72 finis
+    \key g \minor \time 4/4 \autoBeamOff \tempoD-II-VIII
+    r2 \mvTr d4.\fE^\tutti d8
+    es4 d e fis
+    g g8 d' g4.( f!8)
+    es4 r8 es d8. d16 c8 d
+    d4( c8.) c16 d2 %5
+    d8. d16 d8 d d4 c
+    r2 c8. c16 a8 a
+    a4 a r2
+    r8 a b c d4( c8[ d)]
+    es es c b a4 b! %10
+    a2 g4 r
+    R1*3
+    r2 \mvTr a8\pE^\solo a d d %15
+    d4 cis cis8 d e a,16 g
+    f8. e16 d8 r a'8. a16 a4
+    r8 d d g, a4 a
+    R1*3 %21
+    r2 r8 \mvTr a\fE^\tutti a b
+    b8. b16 a4 a4. a8
+    g g d'4.( c16[ b] c8.) c16
+    d8 a d8. d16 b8[ a16 g] c8[ b] %25
+    a[ g16 f!] b8 b16 b b4( a)
+    b r r b8 b
+    h c c h es8. es16 es8 es
+    d4. d8 d4( c)
+    d8 d([ es fis,] g) b a4 %30
+    g r r r8 d'(
+    c) c c([ h)] c4 r
+    r8 c([ es fis,] g[ d]) d4
+    r8 d'( es) c c4 b
+    a2 g4 r %35
+    c2 h\fermata \bar "|." %36 finis
   }
 }
 
 D-II-VIIISopranoLyrics = \lyricmode {
-  Di -- xit Do -- mi -- nus
-  Do -- mi -- no me -- o:
-  Se -- de a dex -- tris me --
-  is, do -- nec
-  po -- nam in -- i -- mi -- cos tu -- %5
-  os, sca -- bel -- lum pe --
-  dum tu -- o --
-  rum.
-  Vir -- gam vir --
-  tu -- tis, vir -- tu -- tis tu -- %10
-  ae e -- mit -- tet Do -- mi --
-  nus, e -- mit -- tet Do -- mi --
-  nus ex Si -- on:
-  Do -- mi -- na -- re,
-  do -- mi -- na -- re in me -- di -- o in -- %15
-  i -- mi -- co -- rum tu --
-  o -- rum.
+  De pro --
+  fun -- dis, de pro --
+  fun -- dis cla -- ma --
+  vi, cla -- ma -- vi ad te,
+  Do -- mi -- ne; %5
+  Do -- mi -- ne, ex -- au -- di,
+  Do -- mi -- ne, ex --
+  au -- di
+  o -- ra -- ti -- o --
+  nem, o -- ra -- ti -- o -- nem %10
+  me -- am.
 
-  Et non %29
-  poe -- ni -- te -- bit e -- um, et non %30
-  poe -- ni -- te -- bit e -- um, et non
-  poe -- ni -- te -- bit e --
-  um:
-  Se -- cun -- dum or -- di -- nem,
-  or -- di -- nem Mel -- chi -- se -- %35
-  dech.
+  Si in -- i -- qui -- %15
+  ta -- tes ob -- ser -- va -- ve -- ris,
+  Do -- mi -- ne, Do -- mi -- ne,
+  quis su -- sti -- ne -- bit?
 
-  Con -- fre -- git,
-  con -- fre -- git in di -- e
-  i -- rae su -- ae re -- %40
-  ges, con -- fre --
-  git.
-  Iu -- di -- ca --
-
-  bit in na -- ti -- %45
-  o -- ni --
-  bus, im -- ple -- bit ru --
-  i -- nas, con -- quas --
-  sa -- bit, con -- quas --
-  sa -- bit, con -- quas -- %50
-  sa -- bit ca -- pi -- ta in
-  ter -- ra mul -- to --
-  rum.
-
-  Et in %61
-  sae -- cu -- la sae -- cu -- lo -- rum, a --
-  men, a -- men, a -- men, __
+  Et i -- pse %22
+  re -- di -- met Is -- ra --
+  el ex o -- mni --
+  bus in -- i -- qui -- ta -- _ %25
+  _ _ ti -- bus e --
+  ius. Si -- cut
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem --
+  per, a -- men, a -- %30
+  men, a --
+  men, a -- men,
   a -- men,
-  a -- men, __ %65
-  a -- men, a --
-  men,
-
-  a --
-  men, a -- men, %70
-  a -- men, a --
-  men. %72 finis
+  a -- men, a -- men,
+  a -- men, %35
+  a -- men. %36 finis
 }

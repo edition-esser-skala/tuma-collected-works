@@ -7,31 +7,12 @@
 
 \book {
   \bookpart {
-    \section "D.2.9" "Dixit Dominus"
+    \section "D.2.7" "De profundis"
     \addTocEntry
+    \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \D-II-IXDixitViolinoI }
-      >>
-    }
-    \tacet "subsection" "Tecum principium"
-  }
-  \bookpart {
-    \subsection "Iuravit Dominus"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \D-II-IXIuravitViolinoI }
-      >>
-    }
-    \tacet "subsection" "De torrente"
-  }
-  \bookpart {
-    \subsection "Gloria Patri"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \D-II-IXGloriaViolinoI }
+        \new Staff { \D-II-IXViolinoI }
       >>
     }
   }

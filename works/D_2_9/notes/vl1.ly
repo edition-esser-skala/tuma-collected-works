@@ -1,152 +1,99 @@
 \version "2.24.2"
 
-D-II-IXDixitViolinoI = {
+D-II-IXViolinoI = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-II-IXDixit
+    \key c \dorian \time 4/4 \tempoD-II-IXDeProfundis
+    c16(\pocoP g') g( es) c( es) g( c) as2
+    f16( b) b( f) b,( d) f( b) g2~
+    g16 c, f e f4. es8 d4\trill
+    c16( g') g( es) c( es) g( c) as2
+    f16( b) b( f) d( b) f'( b) g4 r %5
+    r8 f\fE f'2 es4
+    d2 r8 c f4~
+    f es8 es a,!2
+    r4 b8 a a2\trill
+    g4 r r2 %10
+    c,16(\pocoPE g') g( es) c( es) g( c) fis,8 g4 fis8
+    g4 r c,16( g') g( es) c( e) g( c)
+    as2 r
+    r8 c\fE f2 es4
+    r r8 c h2 %15
+    c4 c2 h4
+    c r c4. c8
+    b!2 r8 b b c
+    des4 c2 des4 \noBreak
+    g,2 f\fermata \bar "||" %20
+    \tempoD-II-IXFiant R1*3
+    c'4.\fE c8 h8 c d g,
+    es' d c2 h4 %25
+    c h8 c c4 h
+    c d8 c h4 h
+    c g'-! c-! c-!
+    r c,-! as'-! as-!
+    d, es r f~ %30
+    f es d es
+    d1 \noBreak
+    c\fermata \bar "||"
+    \tempoD-II-IXSi R1*4 %37
+    r16 d-\parenthesize-!\fE d( es) es-! h-! h( c) c-! es-\parenthesize-! d( c) fis-! c'-! b( a)
+    b8 g, r4 r2
+    R1 %40
+    r16 c-!\fE c( d) d-! a-! a( b) b4 r16 f'-!\p f( g)
+    g4 r16 g-! g( a) a4 r16 a-! a( b)
+    b4 r r2
+    r r16 f-!\f f( g) g-! a,-! a( b)
+    b4 r8 b a b4 a8 %45
+    b4 r r2
     R1*2
-    r16 g''\fE a g e c c'8 \appoggiatura c h4 r
-    r16 a b a f d d'8 \appoggiatura d c4 r
-    r16 h c h c g b8 a16 d, g c, f a, h d %5
-    e h c e, d8 h' c,4 r
-    R1
-    r2 r4 c'\fE
-    c1~
-    c2. h8 h %10
-    c h r h c h h4
-    c g g2~
-    g4 g a8 a a4
-    h16 d e d h g g'8 \appoggiatura g fis4 r
-    r16 d e d h g f'8 \appoggiatura f e4. e8 %15
-    fis g4 fis8 g h,8(-. h-. h-.)
-    h(-. h-. h-. h-.) h(-. h-.) g' g
-    g8. e16 c e g, c e,8 e e' e
-    e4 e8 d e e e e
-    e,2. c'4 %20
-    h2 a16 e' f e c a a'8
-    \appoggiatura a gis4 r8 gis a a4 gis8
-    a4 r r2
-    r16 g a g e c c'8 \appoggiatura c h4~ h8.\trill a32 h
-    c4 r r16 c,\pE d c c, g' c c %25
-    c,4 r r16 d'\fE e d h g g'8
-    \appoggiatura g fis4~ fis8.\trill e32 fis g8 d d d
-    d d d d e4 r
-    r c8 c c16 d c d c d c b
-    a8 a a8. a16 h4 r %30
-    r8 h h h c c4 h8
-    c4 r r16 g' a g e c c'8
-    \appoggiatura c h4 r r16 a b a f d d'8
-    \appoggiatura d c4 r r16 h c h c g b8
-    a16 d, g c, f a, h d e h c e, d8 h' %35
-    c,4 r8 h' c2
-    c4 h c2\fermata \bar "||" %37 finis
-  }
-}
-
-D-II-IXIuravitViolinoI = {
-  \relative c' {
-    \clef treble
-    \key c \major \time 4/4 \tempoD-II-IXIuravit
-      \set Score.currentBarNumber = #126
-    r2 r4 g'\f
-    a2 a
-    g h16(-.\p h-. h-. h-.) h(-. h-. h-. h-.)
-    g(-. g-. g-. g-.) g(-. g-. g-. g-.) e(-. e-. e-. e-.) e4\f
-    gis2 a %130
-    ais h
-    fis16(-.\p fis-. fis-. fis-.) fis(-. fis-. fis-. fis-.) g(-. g-. g-. g-.) g(-. g-. g-. g-.) \noBreak
-    ais(-. ais-. ais-. ais-.) ais(-. ais-. ais-. ais-.) h d,(-. d-. d-.) d4\fermata \bar "||"
-    \tempoD-II-IXEtNon h'8\f h h a h h h a \noBreak
-    h d4 cis8 d d' e, cis' %135
-    d fis, fis e fis d d cis
-    d d d d e d c a
-    g g' a, fis' g g, a, fis'
-    g h h h c4 c
-    r8 c c c a4 a %140
-    r8 d4 d8~ d c16 h c4
-    h r r8 e, f g
-    a8. a16 a4 r8 a g a
-    h8. h16 c2 h4 \noBreak
-    c8 c' d, h' c c, d, h' %145
-    \tempoD-II-IXDominus c,4 r r2 \noBreak
-    r8 a''16-!\fE a,-! f'8-! h,16-! d-! e8-! a,16-! c-! d8-! gis,16-! h-!
-    c8.( h32 a) h4\trill a8 e a,4
-    R1
-    r8 a''16\p a, f'8 h,16 d e8 a,16 c d8 gis,16 h %150
-    c8 fis,16 a h4 r8 d'16\f h g8 r
-    r h16 g e4 r2
-    a16\pE fis d8 r4 r2
-    r8 h'\f a4 g fis~
-    fis16 h, e8~ e16 fis, dis'8\trill e e, r4 %155
-    r8 a'16\pE a, f'8 h,16 d e4 r
-    r8 a16 f d4 r8 h'16 g e4
-    r2 r8 a16\f a, f'8 h,16 d
-    e8 a,16 c d8 gis,16 h c8.( h32 a) h4\trill \noBreak
-    a8 e a,4 r2\fermata \bar "||" %160
-    \tempoD-II-IXIudicabit R1 \noBreak
-    e'4\fE e f2
-    e r
-    r h'~\fE
-    h4 a8 c c2~ %165
-    c8. h16 h4 r2
-    r r4 r8 \tempoD-II-IXImplebit g'\fE
-    g16 g g g g g g g g g a h c e, e e
-    e e e e e e e e e e fis gis a8 c,~
-    c a-! d-! h-! r e4 c8 %170
-    f d r g4 e8 e c
-    c a d d d2~
-    d4 c2 h4
-    c r r8 c c4
-    c c2 h8 a %175
-    h2 c\fermata \bar "||" %176 finis
-  }
-}
-
-D-II-IXGloriaViolinoI = {
-  \relative c' {
-    \clef treble
-    \key c \major \time 4/4 \tempoD-II-IXGloria
-      \set Score.currentBarNumber = #241
-    h'4\fE h8 h h4 h8 h
-    c8. c16 c4 r2
-    r4 e8 e d4 d8 d
-    e2 d
-    \tempoD-II-IXGloriaB R1*4 %248
-    d8\fE h16 d c h c a h8 h c d
-    e4 r c c %250
-    c h8 d e4. d16 c
-    d4 g, r8 h c d
-    e h r h c d16 e f4~
-    f8 e16 d e4~ e8 d16 c d c h a
-    g8 c d e f c d4~ %255
-    d8 c16 h c4~ c8 h16 a h8 c
-    d d c h c d c h
-    a2 g
-    r c4 c
-    c h8 d e4. d16 c %260
-    d4 g, c2~
-    c8 h a4 g r
-    R1
-    c4 c c a8 b
-    c a b c d a f'4~ %265
-    f8 e16 d e4~ e8 d16 cis d4~
-    d8 c16 h c4 h8 h c d
-    e h r4 r8 a h cis
-    d a r4 r8 fis g a
-    h fis r4 r8 h c d %270
-    e h r d~ d c16 h c4~
-    c8 h16 a h4 r8 g' a h
-    c g r4 r8 a h c
-    d a r4 r8 d, e f!
-    g d r4 r8 c e g~ %275
-    g f16 e f4~ f8 e16 d e4\trill
-    d r r2
-    c4 c c h8 d
-    e4. d16 c d2
-    c8 d e4 d8 d, e f %280
-    g4 f e4. d16 c
-    d2 e8 g a h
-    c4 b a2
-    g1\fermata \bar "|." %284 finis
+    r16 d-!\fE d( es) es-! h-! h( c) c4 r
+    R1 %50
+    r2 r16 es-!\p es( f) f4
+    r16 f-! f( g) g4 r2
+    r r16 b,-!\f b( c) c-! d-! d( es)
+    es-! g,-! g( a!) a-! h-! h( c) c4 r
+    R1*3 %57
+    r2 r16 f,-!\fE f( g) g( a) a( b)
+    b-! d,-\parenthesize-! d( e) e( fis) fis( g) g4 r
+    R1*5 %64
+    r2 r16 g'-!\fE g( b) b-! cis,-! cis( d) %65
+    d4 r r16 d-! c( h) f'-! as-\parenthesize-! g( f) \noBreak
+    es c d g, a4\trill g r\fermata \bar "||"
+    \tempoD-II-IXQuia b2\fE c4 b \noBreak
+    as2 g8 b b es,
+    des'2 c4 r %70
+    r8 c c c c4 b
+    r8 b b b b4 as8 c
+    h4. h8 c2
+    r4 c8 d c2~
+    c4 h8 a h4 r8 \tempoD-II-IXEtIpse g'~ %75
+    g16 as g8~ g16 as g8~ g16 as g8~ g16 as g8
+    as16 b as8~ as16 b as8 g g, es'4
+    d8 g, c2 h4
+    c r r2
+    R1*11 %90
+    c4\fE d es4. d16 c
+    d8 g, c4. b!8 a!4
+    g8 g'~ g16 f! es d c4 f~
+    f8 es d16 c h a! g8 c4 \once \tieDashed b8~
+    b as16 g as4 g2 %95
+    f8 c'~ c16 b as g f8 c' f4~
+    f8 es d4 g, r
+    g g b4. a!16 g
+    a8 d, g2 fis4
+    g r r2 %100
+    r8 f' es16 d c b a8 d c16 b a g
+    f8 g a4 b4. c16 d
+    es8 es, c' as f2
+    es r
+    R1 %105
+    r2 c'4. d8
+    es4. d16 c d8 g, c4~
+    c8 b! a h16 c h4 c
+    h8 d4 d8 es4. d16 c
+    d8 g, g'16 f es d c4 d %110
+    es4. d16 c h8 g c4~
+    c8 h16 a h4 c8 c d4
+    es8 c4 h8 c4 r\fermata \bar "|." %113 finis
   }
 }

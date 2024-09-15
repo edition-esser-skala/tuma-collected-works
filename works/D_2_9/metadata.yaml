@@ -1,45 +1,45 @@
-title: Dixit Dominus
+title: De profundis
 id: TumW D.2.9
 genre: psalm
-scoring: S, A, T, B (solo), S, A, T, B (coro), cnto, fag, 2 clno (C), 2 trb, 2 vl, b, org solo
+scoring: S, A, T, B (solo), S, A, T, B (coro), cnto, fag, 2 trb, 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Wn
-    shelfmark: Mus.Hs.15679
-    rism: 600137282
+    shelfmark: Mus.Hs.15723
+    rism: 600137268
     date: 1743
-    url: https://data.onb.ac.at/rec/AC14297573
+    url: https://data.onb.ac.at/rec/AC14297571
     license: public domain
     principal: true
-    notes: 21 parts (S solo, A solo, T solo, B solo, S rip, A rip, T rip, B rip (2 ×), vl 1, vl 2, clno 1, clno 2, trb 1, trb 2, cnto, fag, vlc, vlne, org, maestro di cappella)
-imslp: Dixit_Dominus_(A-Wn_Mus.Hs.15679)_(Tůma,_František_Ignác_Antonín)
-extra_abbreviations:
-  vlne:
+    notes: 22 parts (S solo, A solo, T solo, B solo, S rip (2×), A rip (2×), T rip (2×), B rip (2×), cnto, fag, trb 1, trb 2, vl 1, vl 2, vlc, vlne, org, maestro di cappella)
+  D1:
+    siglum: D-Dl
+    shelfmark: Mus.2968-E-500
+    rism: 1001001788
+    date: 1890–1910
+    url: https://digital.slub-dresden.de/id480932956
+    license: public domain
+    notes: full score (13 pages), comprising the chorus and a piano reduction
+imslp: De_profundis_(Tůma,_František_Ignác_Antonín)
 toe: |
-  84  & trb 1    & last \eighthNote\ in \B1: \sharp c′8 \\
-  153 & vlne     & 4th \eighthNote\ in \B1: b8 \\
-  170 & trb 2, T & 4th \eighthNote\ in \B1: a8 \\
-  177–240 & org  & small notes have been added by the editor \\
-  265 & org      & last \eighthNote\ in \B1: \quaverRest \\
-parts:
-  clno12: Clarino I, II in C
-  org: Organo solo
+  11–13 & fag & 2nd \halfNote\ of bar 11
+                to 1st \halfNote\ of bar 13 in \B1: rests \\
 lyrics:
-  Dixit Dominus Domino meo:\\
-  Sede a dextris meis, donec ponam inimicos tuos,\\
-  scabellum pedum tuorum.\\
-  Virgam virtutis tuae emittet Dominus ex Sion:\\
-  Dominare in medio inimicorum tuorum.\\
-  Tecum principium in die virtutis tuae in splendoribus sanctorum,\\
-  ex utero ante luciferum genui te.\\
-  Iuravit Dominus et non poenitebit eum:\\
-  Tu es sacerdos in aeternum secundum ordinem Melchisedech.\\
-  Dominus a dextris tuis, confregit in die irae suae reges.\\
-  Iudicabit in nationibus, implebit ruinas,\\
-  conquassabit capita in terra multorum.\\
-  De torrente in via bibet, propterea exaltabit caput.\\
-  Gloria Patri et Filio et Spiritui Sancto,\\
-  sicut erat in principio et nunc et semper\\
-  et in saecula saeculorum, amen.\\
-  (\bibleverse{Ps}(110/109:))
+  De profundis clamavi ad te, Domine;\\
+  Domine, exaudi vocem meam.\\
+  Fiant aures tuae intendentes\\
+  in vocem deprecationis meae.\\
+  Si iniquitates observaveris, Domine,\\
+  Domine, quis sustinebit?\\
+  Quia apud te propitiatio est;\\
+  et propter legem tuam sustinui te, Domine.\\
+  Sustinuit anima mea in verbum eius;\\
+  speravit anima mea in Domino.\\
+  A custodia matutina usque ad noctem\\
+  speret Israel in Domino,\\
+  quia apud Dominum misericordia,\\
+  et copiosa apud eum redemptio.\\
+  Et ipse redimet Israel\\
+  ex omnibus iniquitatibus eius.\\
+  (\bibleverse{Ps}(130/129:))

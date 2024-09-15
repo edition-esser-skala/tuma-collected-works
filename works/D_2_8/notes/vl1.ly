@@ -3,71 +3,42 @@
 D-II-VIIIViolinoI = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-II-VIIIDixit
-    c'4\fE h c8. c16 c4
-    c c8 h c g4 g8
-    g d' c h e e d4
-    d r r d8 d
-    d,4 d'8 d d4 c %5
-    h8 e e e, c'2
-    c c4 h
-    c8 g' a h, c g a g16 f
-    e c' c, d \appoggiatura e8 d4\trill c r
-    R1 %10
-    r2 r16 e'\p f g a g f e
-    f8 d, r4 r16 d' e f g f e d
-    e8 c, r4 r2
-    d'8(\f h) c( d) e e r4
-    g,8 e f g a4 a8 a %15
-    a4 a8 a g4 g8 c
-    c4 h\trill c8 g' a h,
-    c g a g16 f e c' c, d d4\trill
-    c r r2
-    R1 %20
-    r16 e'\p f g a g f e f8 d, r4
-    r16 fis' g a h a g fis g8 e, r4
+    \key g \minor \time 4/4 \tempoD-II-VIII
+    r2 d4.\pocoP d8
+    es4 d e fis
+    g4. d'8\f g4. f!8
+    es4 r8 es d4 c8 d
+    d4 c\trill d2 %5
+    d4 d2 c4
+    g'8( es16) c-! as'8( g16) h,-! c4 a
+    a2 a'8( f16) d-! b'8( a16) cis,-!
+    d8 a b c d4 c8 d
+    es es c b a4 b %10
+    a2 g4 d'8 g
+    es( d16) g,-! es'8( d16) fis,-! g4 r
+    r f'!8(\pE d16) b-! g'8 f r4
+    f8( d16) b-! g'8( f16) a,-! b4 r
+    r2 r4 a'\p %15
+    g1
+    f8( e16) d-! b'8( a16) cis,-! d2~
+    d cis
     R1
-    r8 h''\f c dis, e h c h16 a
-    g e' e, a fis4\trill e r %25
-    R1*3
-    r2 r4 h'8 h
-    c h c a h e, h' h %30
-    h a h cis d d fis, g
-    g2. fis4
-    g2. r4
-    r8 g a h c d e4
-    d4. d8 c h h8. a16 %35
-    a8 e' f e16 d c a' a, d \appoggiatura c8 h4\trill
-    a r r2
-    r r8 e'\fE c a
-    r d h g r c a8. a16
-    a4 h8 c d c4 h8 %40
-    c g' a g16 f e c' c, d \appoggiatura e8 d4\trill \noBreak
-    c r r2\fermata \bar "||"
-    \tempoD-II-VIIIIudicabit r4 g\fE es'2~ \noBreak
-    es1~
-    es2. d8 c %45
-    h1
-    h4 \tempoD-II-VIIIImplebit r8 h c4 d
-    c16 d e! f g a h g c8 c, h4
-    a16 h c d e f! g! a f8 d, r4
-    d'16 e f g a h c! d h8 g, r4 %50
-    g16 a h c d e f! g c, d e f g a h c
-    a8 a, r c c4 h\trillE
-    c8 g' a h, c g a g16 f
-    e c' c, d \appoggiatura e8 d4\trill c r
-    R1*6 %60
-    r2 r8 c'4\fE c8
-    g a16 g a8 h16 a h a g8 h4
-    c8 c4 h8 c e e,4~
-    e r r8 d' h e
-    r c a d16 c h4 c~ %65
-    c d e d
-    e r r2
-    r8 c'4\p c8 g a16( g) a8 h16( a)
-    h( a) g8-! a e r f g d\f
-    e c r4 r8 g' a h, %70
-    c g a g16 f e c' c, d d4\trill
-    c r r2\fermata \bar "|." %72 finis
+    a'8( f16) d-! b'8( a16) cis,-! d4 r %20
+    d8( b16) g-! b'8 g a4 d,~
+    d cis\trill d a8\fE b
+    b4 a a2
+    g8 g d'4. c16 b c4\trill
+    d8 a d8. d16 b8 a16 g c8 b %25
+    a g16 f! b2 a4\trill
+    b8 f' g( f16) a,-! b4 b8 b
+    h c4 h8 es4. es8
+    d4 d2 c4
+    d8 d es fis, g b a4 %30
+    g8 d' es( d16) fis,-! g4 r8 d'
+    c c4 h8 c g' as8( g16) h,-!
+    c8 c es fis, g d d4
+    r8 d' es c c4 b
+    a2 g8 d' g( h,16) g-! %35
+    es'4 c d2\fermata \bar "|." %36 finis
   }
 }

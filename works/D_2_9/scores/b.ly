@@ -7,47 +7,11 @@
 
 \book {
   \bookpart {
-    \section "D.2.9" "Dixit Dominus"
+    \section "D.2.7" "De profundis"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-IXDixitOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Tecum principium"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \D-II-IXTecumOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Iuravit Dominus"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \D-II-IXIuravitOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "De torrente"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \D-II-IXDeTorrenteOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Gloria Patri"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \D-II-IXGloriaOrgano }
+        \new Staff { \D-II-IXOrgano }
       >>
     }
   }
