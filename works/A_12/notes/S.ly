@@ -374,13 +374,62 @@ A-XIICredoSopranoLyrics = \lyricmode {
   men. %80 finis
 }
 
+A-XIISanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/2 \autoBeamOff \tempoA-XIISanctus
+    R1.*2
+    \mvDl h'1\fE^\tutti \mvTrh h2\fermata^\critnote
+    R1.*2 %5
+    d1 d2\fermata
+    R1.*2
+    c1 c2
+    c2. c4 a2 %10
+    a1 g2~
+    g fis2. fis4
+    e2 g4(\p a) h( c)
+    h2 g4( a) h( c) \noBreak
+    \once \slurDashed h( e)^\critnote fis,2. fis4 %15
+    \time 4/4 \tempoA-XIIPleni \newSpacingSection
+      e8 e'\f e dis e4 e,8 dis \noBreak
+    e e h'16[ c h e] a,[ h a d] g,[ a g c]
+    fis,[ g fis h] g8 g16 g a8 d16 d e8 e16 fis
+    fis8 e16 d d8([ e)] c4 h
+    a h8 h16 h a8 a16 a a8([ gis)] %20
+    a c c h c4 c8 h
+    c c r c d4 e8[ c]
+    d e4 dis8 e4 r8 e~
+    e d4 c16 c h8 h16 h h4
+    h8 gis a h a4 gis %25
+    a2 gis\fermata \bar "|." %26 finis
+  }
+}
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
+A-XIISanctusSopranoLyrics = \lyricmode {
+  San -- ctus, %3
 
+  san -- ctus, %6
 
-% ## Benedictus
+  san -- ctus %9
+  Do -- mi -- nus %10
+  De -- us __
+  Sa -- ba --
+  oth, Sa -- _
+  _ _ _
+  _ _ ba -- %15
+  oth. Ple -- ni sunt coe -- li et
+  ter -- ra glo -- _ _
+  _ _ ri -- a, glo -- ri -- a, glo -- ri -- a,
+  glo -- ri -- a tu -- a, tu --
+  a, glo -- ri -- a, glo -- ri -- a tu -- %20
+  a, ple -- ni sunt coe -- li et
+  ter -- ra glo -- _ _
+  _ _ ri -- a, glo --
+  _ ri -- a, glo -- ri -- a tu --
+  a. O -- san -- na in ex -- %25
+  cel -- sis. %26 finis
+}
+
 
 % Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
 % O -- san -- na in ex -- cel -- sis.

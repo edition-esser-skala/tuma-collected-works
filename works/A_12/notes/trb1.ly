@@ -200,3 +200,34 @@ A-XIICredoTromboneI = {
     e\breve*1/2\fermata \bar "|." %80 finis
   }
 }
+
+A-XIISanctusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key e \minor \time 3/2 \tempoA-XIISanctus
+    R1.*2
+    g'1.\fE\fermata
+    R1.*2 %5
+    fis1.\fermata
+    R1.*2
+    e1.
+    e1 fis2 %10
+    fis1 e2~
+    e1 dis2
+    e \slurDashed e4(\pp fis) g( a) \slurSolid
+    g2 e4( fis) g( a) \noBreak
+    g e e2 dis %15
+    \time 4/4 \tempoA-XIIPleni \newSpacingSection
+      e8 g\f g fis g4. fis8 \noBreak
+    g g r g4 fis e8~
+    e dis e4 fis e8. d32 cis
+    d4 r8 g a4 g
+    fis e8 e16 d c8 a e'4 %20
+    e8 a a gis a e e e
+    e e e16 f e a d, e d g c, d c f
+    h, c h e a, h a a' g8 fis16 e r8 e
+    fis4 g8 e fis e e dis
+    e e e e e4 e %25
+    e2 e\fermata \bar "|." %26 finis
+  }
+}

@@ -190,3 +190,34 @@ A-XIICredoTromboneII = {
     h\breve*1/2\fermata \bar "|." %80 finis
   }
 }
+
+A-XIISanctusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key e \minor \time 3/2 \tempoA-XIISanctus
+    R1.*2
+    e1.\fE\fermata
+    R1.*2 %5
+    h1.\fermata
+    R1.*2
+    c1 c2
+    c1. %10
+    h1 h2~
+    h h1
+    h1.
+    h1.\pp \noBreak
+    h2 h2. h4 %15
+    \time 4/4 \tempoA-XIIPleni \newSpacingSection
+      h8 e,\f g h e h h h \noBreak
+    h h r4 r2
+    h4. cis8 cis h h ais
+    h4 h16 c h e a, h a d g, a g c
+    fis, g fis h gis8 gis e' f h,4 %20
+    a8 a c e a,4 a8 gis
+    a4 r8 c4 h a8~
+    a g!4 fis8 e4 h'16 c h e
+    a, h a d g, a g c fis,8 g fis4
+    g8 h c h c4 h %25
+    c2 h\fermata \bar "|." %26 finis
+  }
+}

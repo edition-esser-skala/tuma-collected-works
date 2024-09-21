@@ -378,3 +378,59 @@ A-XIICredoAltoLyrics = \lyricmode {
   _
   men. %80 finis
 }
+
+A-XIISanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/2 \autoBeamOff \tempoA-XIISanctus
+    R1.*2
+    \mvDl g'1\fE^\tutti g2\fermata
+    R1.*2 %5
+    fis1 fis2\fermata
+    R1.*2
+    e1 e2
+    e2. e4 fis2 %10
+    fis1 e2~
+    e e dis
+    e e4(\p fis) g( a)
+    g2 e4( fis) g( a) \noBreak
+    g( e) e2 dis %15
+    \time 4/4 \tempoA-XIIPleni \newSpacingSection
+      e8 g\f g fis g4 g8 fis \noBreak
+    g g r g4 fis e8~
+    e dis e4 fis8 fis16 fis e8.[ d32( cis)]
+    d4 r8 g( a4) g
+    fis e8 e16 d c8 a16 a e'4 %20
+    e8 a a gis a([ e)] e e
+    e e e16[ f e a] d,[ e d g] c,[ d c f]
+    h,[ c h e] a,[ h a a'] g8 fis16 e r8 e(
+    fis4) g8 e fis e16 e e8([ dis)]
+    e e e e e4 e %25
+    e2 e\fermata \bar "|." %26 finis
+  }
+}
+
+A-XIISanctusAltoLyrics = \lyricmode {
+  San -- ctus, %3
+
+  san -- ctus, %6
+
+  san -- ctus %9
+  Do -- mi -- nus %10
+  De -- us __
+  Sa -- ba --
+  oth, Sa -- _
+  _ _ _
+  _ _ ba -- %15
+  oth. Ple -- ni sunt coe -- li et
+  ter -- ra glo -- _ _
+  ri -- a, glo -- ri -- a tu --
+  a, glo -- ri --
+  a, glo -- ri -- a, glo -- ri -- a tu -- %20
+  a, ple -- ni sunt coe -- li et
+  ter -- ra glo -- _ _
+  _ _ _ ri -- a, glo --
+  ri -- a, glo -- ri -- a tu --
+  a. O -- san -- na in ex -- %25
+  cel -- sis. %26 finis
+}

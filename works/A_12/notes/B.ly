@@ -332,3 +332,59 @@ A-XIICredoBassoLyrics = \lyricmode {
 
   men. %80 finis
 }
+
+A-XIISanctusBasso = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 3/2 \autoBeamOff \tempoA-XIISanctus
+    R1.*2
+    \mvDl e1\fE^\tutti e,2\fermata
+    R1.*2 %5
+    h''1^\critnote h,2\fermata
+    R1.*2
+    a'1 a,2
+    a'2. a4 fis2 %10
+    dis1 e2~
+    e h2. h4
+    e1.
+    e\p \noBreak
+    e2 h2. h4 %15
+    \time 4/4 \tempoA-XIIPleni \newSpacingSection
+      e,4 r r8 e'\f e h16 h \noBreak
+    g8 e r4 r2
+    r4 e'16[ fis e a] d,[ e d g] cis,[ d \hA cis fis]
+    d8 cis16 h r8 g'4 fis e8~
+    e d4 c16[ h] c8 d16 d e4 %20
+    a, r r8 a' a e16 e
+    c8 a r4 r2
+    r r4 g'16[ a g c]
+    fis,[ g fis h] e,[ fis e a] dis,8 e16 e h4
+    e,8 e' c gis a4 e'
+    a2 e\fermata \bar "|."
+  }
+}
+
+A-XIISanctusBassoLyrics = \lyricmode {
+  San -- ctus, %3
+
+  san -- ctus, %6
+
+  san -- ctus %9
+  Do -- mi -- nus %10
+  De -- us __
+  Sa -- ba --
+  oth,
+  \xE De --
+  us Sa -- ba -- %15
+  oth. \x Et ter -- ra, et
+  ter -- ra
+  glo -- _ _
+  _ ri -- a, glo -- _ _
+  _ _ _ ri -- a tu -- %20
+  a, et ter -- ra, et
+  ter -- ra
+  glo -- _ _
+  _ ri -- a tu --
+  a. O -- san -- na in ex -- %25
+  cel -- sis. %26 finis
+}

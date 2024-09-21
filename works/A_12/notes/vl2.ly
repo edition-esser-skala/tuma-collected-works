@@ -212,3 +212,37 @@ A-XIICredoViolinoII = {
     e\breve*1/2\fermata \bar "|." %80 finis
   }
 }
+
+A-XIISanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/2 \tempoA-XIISanctus
+    r4 g'-!\fE e( fis) g( a)
+    g2 e4( fis) g( a)
+    g1.\fermata
+    r4 d'-! h( cis) d( e)
+    d2 h4( cis) d( e) %5
+    d1.\fermata
+    r4 h-! gis( a) h( c)
+    h2 gis4( a) h( c)
+    a1.
+    e1 fis2 %10
+    fis1 e2~
+    e e dis
+    e4 g-!\p e( fis) g( a)
+    g2 e4( fis) g( a) \noBreak
+    g e e2 dis %15
+    \time 4/4 \tempoA-XIIPleni \newSpacingSection
+      e8 g\f g fis g4 g8 fis \noBreak
+    g g r g4 fis e8~
+    e dis e4 fis e8. d32( cis)
+    d4 r8 g a4 g
+    fis e8 e16 d c8 a e'4 %20
+    e8 a a gis a e e e
+    e e e16 f e a d, e d g c, d c f
+    h, c h e a, h a a' g8 e r e
+    fis4 g8 e fis e4 dis8
+    e8 h c h c4 h %25
+    c2 h\fermata \bar "|." %26 finis
+  }
+}

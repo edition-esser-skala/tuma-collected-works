@@ -354,3 +354,59 @@ A-XIICredoTenoreLyrics = \lyricmode {
 
   men. %80 finis
 }
+
+A-XIISanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \minor \time 3/2 \autoBeamOff \tempoA-XIISanctus
+    R1.*2
+    \mvDl e1\fE^\tutti e2\fermata
+    R1.*2 %5
+    h1 h2\fermata
+    R1.*2
+    c1 c2
+    c2. c4 c2 %10
+    h1 h2~
+    h h2. h4
+    h1.
+    h1.\p \noBreak
+    h2 h2. h4 %15
+    \time 4/4 \tempoA-XIIPleni \newSpacingSection
+      h8 e,\f g h e([ h)] h h \noBreak
+    h h r4 r2
+    h4 h8 cis cis h16 h h8([ ais)]
+    h4 h16[ c h e] a,[ h a d] g,[ a g c]
+    fis,[ g fis h] gis8 gis16 gis e'8 f16 f h,4 %20
+    a8 a c e a,4 a8 gis
+    a a r c4 h a8~
+    a g!4 fis8 e4 h'16[ c h e]
+    a,[ h a d] g,[ a g c] fis,8 g16 g fis4
+    g8 h c h c4 h %25
+    c2 h\fermata \bar "|." %26 finis
+  }
+}
+
+A-XIISanctusTenoreLyrics = \lyricmode {
+  San -- ctus, %3
+
+  san -- ctus, %6
+
+  san -- ctus %9
+  Do -- mi -- nus %10
+  De -- us __
+  Sa -- ba --
+  oth,
+  \xE De --
+  us Sa -- ba -- %15
+  oth. \x Ple -- ni sunt coe -- li et
+  ter -- ra
+  glo -- ri -- a, glo -- ri -- a tu --
+  a, glo -- _ _
+  _ _ ri -- a, glo -- ri -- a tu -- %20
+  a, ple -- ni sunt coe -- li et
+  ter -- ra glo -- _ _
+  _ ri -- a, glo --
+  _ _ _ ri -- a tu --
+  a. O -- san -- na in ex -- %25
+  cel -- sis. %26 finis
+}

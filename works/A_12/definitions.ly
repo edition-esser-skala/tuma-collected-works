@@ -11,6 +11,8 @@ tempoA-XIICredo = \tempoMarkup "[Tempo deest]"
   tempoA-XIIEtIncarnatusB = \tempoMarkup "Adagio · Ad libitum"
   tempoA-XIIEtResurrexit = \tempoMarkup "Allegro"
   tempoA-XIIAmenCredo = \tempoMarkup "[Alla breve]"
+tempoA-XIISanctus = \tempoMarkup "Largo"
+  tempoA-XIIPleni = \tempoMarkup "Andante"
 
 \include "notes/trb1.ly"
 \include "notes/trb2.ly"

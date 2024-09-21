@@ -448,3 +448,66 @@ A-XIICredoBassFigures = \figuremode {
   <5 4>2 <\t _+>
   r1 %80
 }
+
+A-XIISanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 3/2 \tempoA-XIISanctus
+    \mvTr e2\fE-\solo r r
+    e r r
+    e1.-\tutti\fermata
+    h2-\solo r r
+    h r r %5
+    h1.-\tutti\fermata
+    e2-\solo r r
+    e r r
+    a1-\tutti a,2
+    a'1 fis2 %10
+    dis1 e2~
+    e h1
+    \mvTr e,1.~\p-\senzaOrg
+    e~ \noBreak
+    e2 h'1 %15
+    \time 4/4 \tempoA-XIIPleni \newSpacingSection
+      e,8 \clef "treble_8" \mvTr e'[\fE-\tutti g h] e \clef bass e,[ e h] \noBreak
+    g e \clef treble << { h'''16 c h e a, h a d g, a g c } \\ { r8 g4 fis e8 } >>
+    \clef "treble_8" h4 \clef bass e,16 fis e a d, e d g cis, d \hA cis fis
+    d8 h r g'4 fis e8~
+    e d4 c!16 h c8 d e4 %20
+    a,8 \clef "treble_8" a'[ c e] a, \clef bass a[ a e]
+    c a \clef "treble_8" r c'4 h a8~
+    a g!4 fis8 e4 \clef bass g16 a g c
+    fis, g fis h e, fis e a dis,8 e h4
+    e,8 e' c gis a4 e' %25
+    a,2 e\fermata \bar "|." %26 finis
+  }
+}
+
+A-XIISanctusBassFigures = \figuremode {
+  r1.
+  r
+  r
+  r
+  r %5
+  r
+  <7 _+>
+  r
+  r
+  r %10
+  \bo <[6 5]>
+  r2 <5 4> \bc <[\t _+]>
+  r1.
+  r
+  r %15
+  r4. \bo <[_+]>2 <_+>8
+  \bc <[6]>1
+  <5 4>8 <\t _+> <5> <6\\> <7\\> <6> <7> <6\\>
+  <6>4. q8 <2[!]> <6> <2> <6>
+  <2> <6> <4\+ 2>4 <6>8 <[_!]> <4> <_+> %20
+  r4 <6>8 <_+>2 q8
+  <6>4. q8 <[4!] 2> <6> <2> <6!>
+  <2> <6> <2> <6\\> r4 <6>
+  <7>8 <6[!]> <7> <6> <6 5>4 <4>8 <_+>
+  r q <6> <[6]>4. <_+>4 %25
+  r2 <_+> %26 finis
+}
