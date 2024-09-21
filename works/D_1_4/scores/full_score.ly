@@ -4,18 +4,6 @@
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
 
-\paper {
-  top-system-spacing.basic-distance = #10
-  top-system-spacing.minimum-distance = #10
-  top-markup-spacing.basic-distance = #0
-  top-markup-spacing.minimum-distance = #0
-  markup-system-spacing.basic-distance = #10
-  markup-system-spacing.minimum-distance = #10
-  system-system-spacing.basic-distance = #19.5
-  system-system-spacing.minimum-distance = #19.5
-  systems-per-page = #2
-}
-
 \book {
   \bookpart {
     \section "1" "Dixit Dominus"
@@ -23,6 +11,27 @@
     \paper { indent = 3\cm }
     \score { %\articulate
       <<
+        \new StaffGroup <<
+          \new Staff \with { \smallStaffDistance } {
+            \set Staff.instrumentName = "Cornetto"
+            \D-I-IVDixitCornetto
+          }
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "Trombone"
+            \new Staff {
+              \set Staff.instrumentName = "I"
+              \D-I-IVDixitTromboneI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "II"
+              \D-I-IVDixitTromboneII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "Fagotto"
+            \D-I-IVDixitFagotto
+          }
+        >>
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "Violino"
@@ -80,6 +89,27 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
+          \new Staff \with { \smallStaffDistance } {
+            \set Staff.instrumentName = "cnto"
+            \D-I-IVConfiteborCornetto
+          }
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "trb"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \D-I-IVConfiteborTromboneI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \D-I-IVConfiteborTromboneII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "fag"
+            \D-I-IVConfiteborFagotto
+          }
+        >>
+        \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
@@ -135,6 +165,27 @@
     \addTocEntry
     \score { %\articulate
       <<
+        \new StaffGroup <<
+          \new Staff \with { \smallStaffDistance } {
+            \set Staff.instrumentName = "cnto"
+            \D-I-IVBeatusCornetto
+          }
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "trb"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \D-I-IVBeatusTromboneI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \D-I-IVBeatusTromboneII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "fag"
+            \D-I-IVBeatusFagotto
+          }
+        >>
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
@@ -192,6 +243,27 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
+          \new Staff \with { \smallStaffDistance } {
+            \set Staff.instrumentName = "cnto"
+            \D-I-IVPueriCornetto
+          }
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "trb"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \D-I-IVPueriTromboneI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \D-I-IVPueriTromboneII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "fag"
+            \D-I-IVPueriFagotto
+          }
+        >>
+        \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
@@ -248,6 +320,27 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
+          \new Staff \with { \smallStaffDistance } {
+            \set Staff.instrumentName = "cnto"
+            \D-I-IVLaudateCornetto
+          }
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "trb"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \D-I-IVLaudateTromboneI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \D-I-IVLaudateTromboneII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "fag"
+            \D-I-IVLaudateFagotto
+          }
+        >>
+        \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
@@ -295,14 +388,35 @@
         \new FiguredBass { \D-I-IVLaudateBassFigures }
       >>
       \layout { }
-      \midi { \tempo 1 = 60 }
+      \midi { \tempo 2 = 120 }
     }
   }
   \bookpart {
     \section "6" "Magnificat"
     \addTocEntry
-    \score {%\articulate
+    \score { %\articulate
       <<
+        \new StaffGroup <<
+          \new Staff \with { \smallStaffDistance } {
+            \set Staff.instrumentName = "cnto"
+            \D-I-IVMagnificatCornetto
+          }
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "trb"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \D-I-IVMagnificatTromboneI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \D-I-IVMagnificatTromboneII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "fag"
+            \D-I-IVMagnificatFagotto
+          }
+        >>
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
@@ -351,7 +465,7 @@
         \new FiguredBass { \D-I-IVMagnificatBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 } % 90
+      \midi { \tempo 4 = 45 } % 90
     }
   }
 }

@@ -4,7 +4,7 @@ D-I-IVDixitBasso = {
   \relative c {
     \clef bass
     \key a \major \time 4/4 \autoBeamOff \tempoD-I-IVDixit
-    r4 \mvTr a'8\fE^\tuttiE a a,8. a16 a4
+    r4 \mvTr a'8\fE^\tutti a a,8. a16 a4
     a'4 a8 e cis a r4
     r gis'8 e a4 a8 gis
     a gis fis4 e e8 e
@@ -14,13 +14,13 @@ D-I-IVDixitBasso = {
     e2 a4 r
     R1*2 %10
     r2 r4 \mvTr e'8\fE^\tuttiE e
-    e16([ fis e fis] e[ fis e fis]) e8 a, d8. d16
+    e16([ fis) e( fis)] e([ fis) e( fis]) e8 a, d8. d16
     cis8 cis dis dis e e16 a, h4
     e, r r2
     R1*6 %20
     r4 \mvTr h''\fE^\tuttiE h h
     h ais h2
-    h,8^\critnote h d fis d h g'4
+    h,8 h d fis d h g'4
     fis r r fis8 fis
     h4 h, r8 g' fis e %25
     a8. a16 fis8 d a'4. a8
@@ -40,7 +40,7 @@ D-I-IVDixitBasso = {
     gis gis16 gis fis4 e r
     R1*2
     r4 \mvTr a8\fE^\tutti a a a,16 a a'8 a %45
-    gis16([ fis)] e8 gis16([ a gis a] gis8) e fis([ gis)]
+    gis16([ fis)] e8 gis16([ a) gis( a)] gis8 e fis([ gis)]
     a4 a,8 a a'4 fis
     e cis d( e)
     a, r r e'
@@ -59,7 +59,7 @@ D-I-IVDixitBassoLyrics = \lyricmode {
   o -- rum.
 
   Do -- mi -- %11
-  na -- re in me -- di --
+  na -- _ re in me -- di --
   o in -- i -- mi -- co -- rum tu -- o --
   rum.
 
@@ -85,7 +85,7 @@ D-I-IVDixitBassoLyrics = \lyricmode {
   ri -- tu -- i San -- cto.
 
   Et in sae -- cu -- la sae -- cu -- %45
-  lo -- rum, a -- men, a --
+  lo -- rum, a -- _ men, a --
   men, a -- men, a -- men,
   a -- men, a --
   men, a --
@@ -97,13 +97,13 @@ D-I-IVConfiteborBasso = {
     \clef bass
     \key e \minor \time 4/4 \autoBeamOff \tempoD-I-IVConfitebor
     R1*3
-    r2 r4 \mvTr h'8\fE^\tuttiE h
+    r2 r4 \mvTr h'8\fE^\tutti h
     h8. e,16 e4 dis8 e16 e a,8. a16 %5
     g4 g8 g d'4 d8 c16([ h)]
     a8 a e' d16([ c)] h8 c d4
     g, r r2
     R1*3 %11
-    r2 r4 \mvTr d'\fE^\tutti
+    r2 r4 \mvTr d'\fE^\tuttiE
     cis8. cis16 cis4 r8 fis fis e
     d h g8. g16 fis4 r
     r h8 d e fis16 g fis8 fis,16 fis %15
@@ -115,10 +115,10 @@ D-I-IVConfiteborBasso = {
     a4. a8 d,4 r
     R1*8 %30
     \mvTr e2\fE^\tutti e4 e8 e
-    d4. d8 c4 c
+    d!4. d8 c4 c
     ais8 ais16 ais ais8 ais h4 h8 h
     dis dis16 dis dis8 dis e8. e16 e4
-    a,2 h %35
+    a,!2 h %35
     h4. h8 e,4 r
     R1*4 %40
     r2 r4 \mvTr g8\pE^\solo g
@@ -167,7 +167,7 @@ D-I-IVBeatusBasso = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \autoBeamOff \tempoD-I-IVBeatus
-    r8 \mvTr c'\fE^\tutti g8. g16 c,4 r8 b
+    r8 \mvDl c'\fE^\tutti g8. g16 c,4 r8 b
     a2 gis4 a8. a16
     d4 r r8 g!4 f8
     e c g'([ g,)] c4 r
@@ -193,9 +193,9 @@ D-I-IVBeatusBasso = {
     R1*6 %32
     r4 \mvTr a'\fE^\tutti d, g8 g
     c, c r16 c e c g'8 g, r4
-    gis'8 gis16 gis gis8 gis a16([ b a b] g[ a g a] %35
-    f8) d f d b4 a
-    a'8^\critnote a a a16 a d,8 e f e16 d
+    gis'8 gis16 gis gis8 gis a16([ b) a( b]) g[( a) g( a]) %35
+    f8 d f d b4 a
+    a'8 a a a16 a d,8 e f e16 d
     e8 a,16 a e8 a r2
     R1*2 %40
     r4 \mvTr g'8\fE^\tuttiE g e e16 e a8 e16([ fis)]
@@ -210,7 +210,7 @@ D-I-IVBeatusBasso = {
 D-I-IVBeatusBassoLyrics = \lyricmode {
   Be -- a -- tus vir qui
   ti -- met Do -- mi --
-  num: Vo -- let,
+  num: E -- ius
   vo -- let ni -- mis.
 
   Et iu -- sti -- ti -- a e -- ius %7
@@ -234,8 +234,8 @@ D-I-IVBeatusBassoLyrics = \lyricmode {
 
   Pec -- ca -- tor vi -- %33
   de -- bit et i -- ra -- sce -- tur,
-  den -- ti -- bus su -- is fre -- %35
-  met et ta -- be -- scet:
+  den -- ti -- bus su -- is fre -- _ %35
+  _ met, et ta -- be -- scet:
   De -- si -- de -- ri -- um pec -- ca -- to -- rum per --
   i -- bit, per -- i -- bit.
 
@@ -273,7 +273,7 @@ D-I-IVPueriBasso = {
     r4 r8 \mvTr e\pE^\solo a g f4
     e r r2 %30
     r4 \mvTr a8\fE^\tutti a a g!16 g f8 f
-    e a, r gis' a fis16 gis a8 a,
+    e a, r gis' a fis16 \hA gis a8 a,
     e' e a, c d4( e)
     a, r r2
     c8 d e4 a, r\fermata \bar "|." %35 finis
@@ -303,8 +303,8 @@ D-I-IVPueriBassoLyrics = \lyricmode {
   Et nunc et sem -- %29
   per %30
   et in sae -- cu -- la sae -- cu --
-  lo -- rum, \xE in sae -- cu -- la \x sae -- cu --
-  lo -- rum, \xE a -- men, \x a --
+  lo -- rum, in sae -- cu -- la sae -- cu --
+  lo -- rum, a -- men, a --
   men,
   a -- men, a -- men. %35 finis
 }
@@ -312,216 +312,124 @@ D-I-IVPueriBassoLyrics = \lyricmode {
 D-I-IVLaudateBasso = {
   \relative c {
     \clef bass
-    \key d \dorian \time 2/2 \autoBeamOff \tempoD-I-IVLaudateDominum
-    \mvTr d1\fE^\tuttiE
-    d4 c d e
-    f2 d
-    e2. e4
-    d2 d~ %5
-    d c4( h)
-    a2 a'~
-    a g
-    f2. e4
-    d1~ %10
-    d2 cis
-    d1
-    R1*3 %15
-    a1~
-    a2 a
-    d d~
-    d e
-    f1~ %20
-    f2 e4 d
-    c f e d
-    c f e d
-    c d e c
-    f1~ %25
-    f~
-    f2 f
-    c c~
-    c b
-    a r %30
-    r d
-    d d
-    g2. f4
-    e2 f4 f
-    c1~ %35
-    \once \tieDashed c2~ c
-    f, a'
-    f e4 d
-    e2 f
-    d1 %40
-    a2 a
-    d( e)
-    f2 f~
-    f d
-    g1 %45
-    g,
-    a
-    a
-    d~
-    d %50
-    b
-    b2 b
-    f'1
-    f2 f
-    g2. g4 %55
-    f1
-    f2 f
-    d b4 b
-    c1~
-    c %60
-    f,
-    a'2. a4
-    g2 e
-    f d
-    e2. e4 %65
-    d d f g
-    a e fis gis
-    a e a2~
-    a \once \tieDashed g!~
-    g f %70
-    e1
-    d2 f
-    g( a)
-    d,1
-    R1*2 %76
-    e2 e
-    a a4 a
-    g!2. g4
-    f2 d %80
-    d cis
-    d4 e f g
-    a a, a' g
-    f1
-    e %85
-    d~
-    d2 f
-    e a
-    a gis
-    a2. g4 %90
-    f e d2
-    g2. f4
-    e d c2
-    f2. e4
-    d c b a %95
-    g1
-    \tieDashed a~
-    a~
-    a~
-    a \tieSolid %100
-    d\breve*1/2\fermata \bar "|." %101 finis
+    \key d \dorian \time 4/2 \autoBeamOff \tempoD-I-IVLaudateDominum
+      \set Staff.timeSignatureFraction = 2/2
+      \markTimeSig #'(4 2)
+    \mvTr d1\fE^\tuttiE d4 c d e
+    f2 d e2. e4
+    d2 d1 c4( h)
+    a2 a'1 g2
+    f2. e4 d1~ %5
+    d2 cis d1
+    R\breve
+    r1 a~
+    \markTimeSig #'(2 2) \time 2/2 a2 a
+    \markTimeSig #'(4 2) \time 4/2 d d1 e2 %10
+    f1~ f2 e4 d
+    c f e d c f e d
+    c d e c f1~
+    f~ f2 f
+    c c1 b2 %15
+    a r r d
+    d d g2.( f!4
+    e2) f4 f c1~
+    c f,2 a'
+    f e4 d e2 f %20
+    d1 a2 a
+    d( e) f f~
+    f d g1
+    g, a2 a
+    \markTimeSig #'(6 2) \time 6/2 a1 d\breve %25
+    \markTimeSig #'(4 2) \time 4/2 b1 b2 b
+    f'1 f2 f
+    g2. g4 f1
+    f2 f d b4 b
+    \markTimeSig #'(6 2) \time 6/2 c1~ c f, %30
+    \markTimeSig #'(4 2) \time 4/2 a'2. a4 g2 e
+    f d e2. e4
+    d d f g a e fis gis
+    a e a1 g2~
+    g f e1 %35
+    d2 f g( a)
+    d,1 r
+    r e2 e
+    a a4 a g!2. g4
+    f2 d d cis %40
+    d4 e f g a a, a' g
+    f1 e
+    d~ d2 f
+    e( a1) gis2
+    a2. g4 f e d2 %45
+    g2. f4 e d c2
+    f2. e4 d c b a
+    g1 a~
+    a a~
+    \markTimeSig #'(6 2) \time 6/2 a d\breve\fermata \bar "|." %50 finis
   }
 }
 
 D-I-IVLaudateBassoLyrics = \lyricmode {
-  Lau --
-  da -- _ _ _
-  _ te
-  Do -- mi --
-  num, o -- %5
-  mnes
-  gen -- _
-  _
-  _ _
-  _ %10
-  _
-  tes.
+  Lau -- da -- _ _ _
+  _ te Do -- mi --
+  num, o -- mnes
+  gen -- _ _
+  _ _ _ %5
+  _ tes.
 
-  Quo -- %16
+  Quo --
   ni --
-  am con --
-  fir --
-  ma -- %20
-  _ _
-  _ _ _ _
-  _ _ _ _
-  _ _ _ _
-  _ %25
-
+  am con -- fir -- %10
+  ma -- _ _
+  _ _ _ _ _ _ _ _
+  _ _ _ _ _
   ta
-  est su --
-  per
-  nos %30
-  mi --
-  se -- ri --
-  cor -- _
-  _ di -- a
-  e -- %35
-
+  est su -- per %15
+  nos mi --
+  se -- ri -- cor --
+  di -- a e --
   ius, et
-  ve -- ri -- tas
-  Do -- mi --
-  ni %40
-  ma -- net,
-  ma --
-  net in __
-  ae --
-  ter -- %45
-  num,
-  ae --
-  ter --
-  num. __
-  %50
-  Glo --
-  ri -- a
-  Pa --
-  tri et
-  Fi -- li -- %55
-  o
-  et Spi --
-  ri -- tu -- i
-  San --
-  %60
-  cto,
-  si -- cut
-  e -- rat
-  in prin --
-  ci -- pi -- %65
-  o et nunc et
-  sem -- _ _ _
-  _ _ _
-  _
-  _ %70
-  _
-  per, et
-  sem --
-  per
-
-  et in %77
-  sae -- cu -- la
-  sae -- cu --
-  lo -- rum, %80
-  a -- men,
-  a -- _ _ _
+  ve -- ri -- tas Do -- mi -- %20
+  ni ma -- net,
+  ma -- net in __
+  ae -- ter --
+  num, in ae --
+  ter -- num. %25
+  Glo -- ri -- a
+  Pa -- tri et
+  Fi -- li -- o
+  et Spi -- ri -- tu -- i
+  San -- cto, %30
+  si -- cut e -- rat
+  in prin -- ci -- pi --
+  o et nunc et sem -- _ _ _
   _ _ _ _
-  _
-  men, %85
-  sae --
-  cu --
+  _ _ %35
+  per, et sem --
+  per
+  et in
+  sae -- cu -- la sae -- cu --
+  lo -- rum, sae -- cu -- %40
+  lo -- _ _ _ _ _ _ _
+  _ rum,
+  sae -- cu --
   lo -- rum,
-  a -- _
-  _ _ %90
-  _ _ _
-  _ _
-  _ _ _
-  _ _
-  _ _ _ _ %95
-  _
-  _
-
-  men. %101 finis
+  a -- _ _ _ _ %45
+  _ _ _ _ _
+  _ _ _ _ _ _
+  _ men, __
+  a --
+  men. %50 finis
 }
 
 D-I-IVMagnificatBasso = {
   \relative c {
     \clef bass
     \key a \major \time 4/4 \autoBeamOff \tempoD-I-IVMagnificat
-    r4 \mvTr a'\fE^\tuttiE a4. a8
+    r4 \mvTr a'\fE^\tutti a4. a8
     a,2 r
-    r8 a'4 a16 a dis,4 e \noBreak
-    fis4. fis8 e2\fermata \bar "||"
-    \tempoD-I-IVMagnificatB r8 a a e cis a e' fis16 gis \noBreak %5
+    r8 a'4 a16 a dis,4 e
+    fis4. fis8 e2\fermata
+    \tempoD-I-IVMagnificatB r8 a a e cis a e' fis16 gis %5
     a8 a, r4 r2
     r8 a' gis e r4 a8 fis
     dis e h4 e, r
@@ -529,7 +437,7 @@ D-I-IVMagnificatBasso = {
     r4 \mvTr d'8\fE^\tuttiE d e8. e16 a,8 d
     e2 a,4 r
     R1*2 %16
-    r4 \mvTr fis'8\fE^\tutti fis fis4 a
+    r4 \mvTr fis'8\fE^\tuttiE fis fis4 a
     his,4. his8 cis4 a
     fis h h a8 gis
     a fis d' h fis'4 fis %20
@@ -546,13 +454,13 @@ D-I-IVMagnificatBasso = {
     R1*2
     r8 \mvTr a'\fE^\tutti a a g4 g8 g
     fis4 fis h h8 h %35
-    h8. h,16 h8 h' g fis16 g a4
+    h8. h,16 h8 h' g fis16 \hA g a4
     d, r r2
     R1*6 %43
-    r8 \mvTr fis\pE^\soloE fis gis a4 a
+    r8 \mvTr fis\pE^\solo fis gis a4 a
     a2. gis4 %45
     a r r2
-    r r8 \mvTr e\fE^\tuttiE cis a
+    r r8 \mvTr e\fE^\tutti cis a
     e'4 e r2
     R1*2 %50
     r2 a8 a e dis16 e

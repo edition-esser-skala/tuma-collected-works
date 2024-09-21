@@ -4,7 +4,7 @@ D-I-IVDixitSoprano = {
   \relative c' {
     \clef treble
     \key a \major \time 4/4 \autoBeamOff \tempoD-I-IVDixit
-    r4 \mvTr cis'8\fE^\tuttiE cis cis8. cis16 cis4
+    r4 \mvTr cis'8\fE^\tutti cis cis8. cis16 cis4
     cis cis8 h cis cis cis a
     e'2. e8 e
     e e e([ dis)] e4 r
@@ -45,7 +45,7 @@ D-I-IVDixitSoprano = {
     d cis16([ h)] cis4 h r
     R1 %45
     r4 \mvTr e8\fE^\tutti e e e,16 e d'8 d
-    cis16([ h)] a8 cis16([ d cis d] cis8.) a16 cis8([ dis)]
+    cis16([ h)] a8 cis16([ d) cis( d)] cis8. a16 cis8([ dis)]
     e4 a,8 a a4( gis)
     a r r gis
     a r r2\fermata \bar "|." %50 finis
@@ -94,7 +94,7 @@ D-I-IVDixitSopranoLyrics = \lyricmode {
   nunc et sem -- per
   %45
   et in sae -- cu -- la sae -- cu --
-  lo -- rum, a -- men, a --
+  lo -- rum, a -- _ men, a --
   men, a -- men, a --
   men, a --
   men. %50 finis
@@ -104,13 +104,13 @@ D-I-IVConfiteborSoprano = {
   \relative c' {
     \clef treble
     \key e \minor \time 4/4 \autoBeamOff \tempoD-I-IVConfitebor
-    R1*4 %5
-    r4 \mvTr h'8\fE^\tutti h h h16 h c8. c16
+    R1*4 %4
+    r4 \mvTr h'8\fE^\tutti h h h16 h c8. c16 %5
     h4 h8 h a4 a8 h
-    c c h h h a a4\trill
+    c c h h h a a4
     g r r \mvTr d'\pE^\solo
-    \appoggiatura c16 h8. a16 g4 g8 a16([ h)] c8 c %10
-    h h16 h a8 d \appoggiatura a g4 fis
+    h8. a16 g4 g8 a16([ h)] c8 c %10
+    h h16 h a8 d g,4 fis
     r2 r4 h8 h
     a8. h16 g8 g fis fis \mvTr a4\fE^\tutti
     ais8. ais16 ais4 r8 ais ais ais
@@ -121,8 +121,8 @@ D-I-IVConfiteborSoprano = {
     r2 r4 \mvTr d\pE^\solo
     d cis8 d d8. a16 a8 a
     h a h4 a r
-    cis8 cis16 d e8 d16([ cis)] d([ cis)] d8 r d
-    h e \appoggiatura d cis4 d r %25
+    cis8 cis16 d e8 d16([ cis)] d([ \hA cis)] d8 r d
+    h e cis4 d r %25
     R1*5 %30
     \mvTr g,2\fE^\tutti g4 g8 g
     gis4. gis8 a4 a
@@ -131,9 +131,9 @@ D-I-IVConfiteborSoprano = {
     r c2 h8([ a)] %35
     g4 fis e r
     r \mvTr h'8\pE^\solo h h e d! c
-    h a16 g h8 cis d e16 h \appoggiatura d8 cis4
+    h a16 g h8 cis d e16 h cis4
     d r8 a a h16 c d8 c
-    h a16 g c4. h16 c \appoggiatura h8 a8. a16 %40
+    h a16 g c4. h16 c a8. a16 %40
     g4 r r2
     R1
     r2 r8 \mvTr dis'4\fE^\tutti dis8
@@ -185,13 +185,13 @@ D-I-IVBeatusSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoD-I-IVBeatus
-    r8 \mvTr c'\fE^\tutti h8. h16 c4 r8 g
-    e4 a8 a h! h a8. a16
+    r8 \mvDl c'\fE^\tutti h8. h16 c4 r8 g
+    e4^\critnote a8 a h! h a8. a16
     a8 d4 f8 h, h h h
     c c c([ h)] c4 r
-    r8 \mvTr g4\pE^\solo g8 g g fis g16([ a)] %5
+    r4 \mvTr g8\pE^\solo g g g fis g16([ a)] %5
     h4 g8 g fis4 fis8 fis
-    g fis g4 fis r
+    g fis g4 \hA fis r
     R1
     r4 r8 h a8. a16 a8 h
     c4. c8 h a16 g a4 %10
@@ -208,7 +208,7 @@ D-I-IVBeatusSoprano = {
     r4 \mvTr a8\pE^\solo a h h h h
     h h16 h h8 h c8. c16 c4
     c c8 c h h16 h h8 c %25
-    c \appoggiatura h16 a8 \appoggiatura g8 fis4 e r
+    c a fis4 e r
     R1*6 %32
     r4 \mvTr c'\fE^\tutti c h8 h
     c c r16 c c c h8 h r4
@@ -255,8 +255,8 @@ D-I-IVBeatusSopranoLyrics = \lyricmode {
 
   Pec -- ca -- tor vi -- %33
   de -- bit et i -- ra -- sce -- tur,
-  den -- ti -- bus su -- is fre -- met et ta -- %35
-  be -- scet, et ta -- be -- scet:
+  den -- ti -- bus su -- is fre -- met, fre -- met, %35
+  fre -- met, et ta -- be -- scet:
   De -- si -- de -- ri -- um pec -- ca -- to -- rum per --
   i -- bit, per -- i -- bit.
   Glo -- ri -- a Pa -- tri et Fi -- li --
@@ -276,7 +276,7 @@ D-I-IVPueriSoprano = {
     R1*2
     r4 r8 \mvTr h'\pE^\solo c h16([ c)] d8 c16 h
     c8 h c4 h r
-    e8 c d e f e16 d \appoggiatura c h8. h16 %5
+    e8 c d e f d16 c h8. h16 %5
     a4 r r2
     R1*5 %11
     r2 r4 \mvTr c\fE^\tutti
@@ -290,13 +290,13 @@ D-I-IVPueriSoprano = {
     r r4 \mvTr a'8\pE^\solo h %20
     c d16 e d8 c16 h c8. c16 h4
     r fis8 h g a16 h c8 a16 a
-    a8 g16 a \appoggiatura g8 fis4 e r
+    a8 g16 a fis4 e r
     R1*4 %27
     e'8 f16 e d8 c16 h c8. c16 h4
     R1
     r2 r4 \mvTr e8\fE^\tutti e %30
-    e d16 d c8 c h e,^\critnote a4(
-    gis8[ a16 h] c8) h c[( a16 h] c8[ h16 a])
+    e d16 d c8 c h e, a4(
+    gis8[ a16 h] \once \stemUp c8) h c[( a16 h] c8[ h16 a])
     gis4 a8 a a4( gis)
     a r r2
     c8 h h4 a r\fermata \bar "|." %35 finis
@@ -335,164 +335,94 @@ D-I-IVPueriSopranoLyrics = \lyricmode {
 D-I-IVLaudateSoprano = {
   \relative c' {
     \clef treble
-    \key d \dorian \time 2/2 \autoBeamOff \tempoD-I-IVLaudateDominum
-    R1*10 %10
-    \mvTr a'1\fE^\tuttiE
-    a4 g a h
-    c2 a
-    h2. h4
-    a2 d %15
-    d cis4 h
-    cis2. cis4
-    d2 a~
-    a a
-    a a~ %20
-    a h
-    \once \tieDashed c1~
-    c~
-    c
-    a4 d c b %25
-    a d c b
-    a b c( a)
-    g2 g~
-    g g
-    a c %30
-    c c
-    c2. c4
-    b1~
-    b2 a
-    g a %35
-    g1
-    a
-    R1*2
-    r2 d %40
-    c b?4 a
-    b2. b4
-    a1
-    R
-    r2 d~ %45
-    d e
-    cis d
-    d( cis)
-    d1~
-    d %50
-    d
-    d2 d
-    c1
-    c2 c
-    b2. b4 %55
-    a1
-    a2 a
-    b b4 b
-    b2 a
-    g1 %60
-    f
-    R1*12 %73
-    d'2. d4
-    c2 h %75
-    c a
-    h2. h4
-    c a c d
-    e d h cis
-    d2. d4 %80
-    g,2( a)
-    a1
-    R1*3 %85
-    a2 a
-    d d4 d
-    c2 c
-    h1
-    c %90
-    d2. c4
-    b a g2
-    c2. b4
-    a g f2
-    \once \tieDashed b1~ %95
-    b4 a g f
-    e2. f8[ g]
-    \once \tieDashed a1~
-    \once \tieDashed a~
-    a %100
-    a\breve*1/2\fermata \bar "|." %101 finis
+    \key d \dorian \time 4/2 \autoBeamOff \tempoD-I-IVLaudateDominum
+      \set Staff.timeSignatureFraction = 2/2
+      \markTimeSig #'(4 2)
+    R\breve*5 %5
+    \mvTr a'1\fE^\tuttiE a4 g a h
+    c2 a h2. h4
+    a2 d d cis4 h
+    \markTimeSig #'(2 2) \time 2/2 cis2. cis4
+    \markTimeSig #'(4 2) \time 4/2 d2 a1 a2 %10
+    a a1 h2
+    c\breve~
+    c1 a4 d c b
+    a d c b a \hA b c( a)
+    g2 g1 g2 %15
+    a c c c
+    c2. c4 b1~
+    b2 a g a
+    g1 a
+    R\breve %20
+    r2 d c h!4 a
+    b2. b4 a1
+    r1 r2 d~
+    d e cis d
+    \markTimeSig #'(6 2) \time 6/2 d( cis) d\breve %25
+    \markTimeSig #'(4 2) \time 4/2 d1 d2 d
+    c!1 c2 c
+    b2. b4 a1
+    a2 a b b4 b
+    \markTimeSig #'(6 2) \time 6/2 b2( a g1) f %30
+    \markTimeSig #'(4 2) \time 4/2 R\breve*6 %36
+    d'2. d4 c!2 h
+    c a h2. h4
+    c a c d e d h cis
+    d2. d4 g,2( a) %40
+    a1 r
+    R\breve
+    a2 a d d4 d
+    c!2 c h1
+    c d2. c4 %45
+    b a g2 c2. b4
+    a g f2 b1~
+    b4 a g f e2. f8[ g]
+    \once \tieDashed a\breve~
+    \markTimeSig #'(6 2) \time 6/2 a1 a\breve\fermata \bar "|." %50 finis
   }
 }
 
 D-I-IVLaudateSopranoLyrics = \lyricmode {
-  Lau -- %11
-  da -- _ _ _
-  _ te
-  e -- um,
-  o -- mnes %15
-  po -- _ _
+  Lau -- da -- _ _ _ %6
+  _ te e -- um,
+  o -- mnes po -- _ _
   _ pu --
-  li. Quo --
-  ni --
-  am con -- %20
-  fir --
+  li. Quo -- ni -- %10
+  am con -- fir --
   ma --
-
-  _ _ _ _ %25
   _ _ _ _
-  _ _ ta __
-  est su --
-  per
-  nos mi -- %30
-  se -- ri --
-  cor -- di --
-  a __
-  e --
-  _ _ %35
-  _
-  ius,
+  _ _ _ _ _ _ ta __
+  est su -- per %15
+  nos mi -- se -- ri --
+  cor -- di -- a __
+  e -- _ _
+  _ ius,
+  %20
+  et ve -- ri -- tas
+  Do -- mi -- ni
+  ma --
+  net in ae --
+  ter -- num. %25
+  Glo -- ri -- a
+  Pa -- tri et
+  Fi -- li -- o
+  et Spi -- ri -- tu -- i
+  San -- cto, %30
 
-  et %40
-  ve -- ri -- tas
-  Do -- mi --
-  ni
-
-  ma -- %45
-  net
-  in ae --
-  ter --
-  num. __
-  %50
-  Glo --
-  ri -- a
-  Pa --
-  tri et
-  Fi -- li -- %55
-  o
-  et Spi --
-  ri -- tu -- i
-  San -- _
-  _ %60
-  cto,
-
-  si -- cut %74
-  e -- rat %75
-  in prin --
-  ci -- pi --
-  o et nunc et
-  sem -- _ _ _
-  _ per, %80
-  sem --
+  si -- cut e -- rat %37
+  in prin -- ci -- pi --
+  o et nunc et sem -- _ _ _
+  _ per, sem -- %40
   per
 
-  et in %86
-  sae -- cu -- la
-  sae -- cu --
-  lo --
-  rum, %90
-  a -- _
-  _ _ _
-  _ _
-  _ _ _
-  _ %95
-  _ _ _
-  _ _
+  et in sae -- cu -- la
+  sae -- cu -- lo --
+  rum, a -- _ %45
+  _ _ _ _ _
+  _ _ _ _
+  _ _ _ _ _
   _
-
-  men. %101 finis
+  men. %50 finis
 }
 
 D-I-IVMagnificatSoprano = {
@@ -501,9 +431,9 @@ D-I-IVMagnificatSoprano = {
     \key a \major \time 4/4 \autoBeamOff \tempoD-I-IVMagnificat
     r4 \mvTr a'\fE^\tutti a4. a8
     a2 r
-    r8 a4 a16 a a4 gis \noBreak
-    a4. a8 gis2\fermata \bar "||"
-    \tempoD-I-IVMagnificatB r8 a a gis a a gis a16 h \noBreak %5
+    r8 a4 a16 a a4 gis
+    a4. a8 gis2\fermata
+    \tempoD-I-IVMagnificatB r8 a a gis a a gis a16 h %5
     h8 a r4 r2
     r8 cis h h cis4. a8
     a gis fis4 e r
@@ -523,7 +453,7 @@ D-I-IVMagnificatSoprano = {
     R1*4 %30
     r4 r8 \mvTr cis\pE^\solo h8. e,16 e8 d'
     cis h16 h cis4 h8 e,16([ fis)] gis([ e)] gis([ h)]
-    e2~ e8 fis16([ d)] \appoggiatura cis8 h8. h16
+    e2~ e8 fis16([ d)] h8. h16
     a8 \mvTr cis\fE^\tutti cis cis cis4 cis8 cis
     cis4. fis,8 fis4 fis8 d' %35
     d8. d16 d8 d d d16 h a4
@@ -533,14 +463,14 @@ D-I-IVMagnificatSoprano = {
     h4 cis d8. d16 d8 d %40
     cis4 dis e8. e16 e8 e
     dis4 eis fis8. cis16 cis8 cis
-    d cis \once \tieDashed h4~ h8 a16 a \appoggiatura a8 gis4
+    d cis h4~ h8 a16 h gis4
     fis r r2
     r r4 e'~ %45
     e8 d16 cis d8 cis16 h cis h a8 r4
     r2 r8 \mvTr gis\fE^\tutti a a
     a4 gis e'8 e a, gis16 a
     h8 a16([ h)] cis8 a cis4. h8
-    a4 h8 gis16([ a] h4) cis8 h16([ cis] %50
+    a4 h8 gis16([ a] \once \stemUp h4) cis8 h16([ cis] %50
     d4) e8 cis cis8. cis16 h4
     a8. a16 h8 h h cis h4
     a r r2
