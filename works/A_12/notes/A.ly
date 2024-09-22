@@ -434,3 +434,177 @@ A-XIISanctusAltoLyrics = \lyricmode {
   a. O -- san -- na in ex -- %25
   cel -- sis. %26 finis
 }
+
+A-XIIBenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/2 \autoBeamOff \tempoA-XIIBenedictus
+    R1.*13 \noBreak %13
+    R1.\fermata \bar "||"
+    \time 4/4 \tempoA-XIIOsanna \newSpacingSection
+      R1 \noBreak %15
+    r8 \mvTr e\fE^\tutti d! g fis h h([ ais)]
+    h fis g e fis g fis4
+    e8 g fis d! fis fis g([ fis)]
+    fis fis g g r e fis fis
+    r d e e e4. e8 %20
+    dis4( e2 \hA dis4)
+    e1\fermata \bar "|." %22 finis
+  }
+}
+
+A-XIIBenedictusAltoLyrics = \lyricmode {
+  O -- san -- na in ex -- cel -- %16
+  sis, o -- san -- na in ex -- cel --
+  sis, o -- san -- na in ex -- cel --
+  sis, o -- san -- na, o -- san -- na,
+  o -- san -- na in ex -- %20
+  cel --
+  sis. %22 finis
+}
+
+A-XIIAgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/2 \autoBeamOff \tempoA-XIIAgnus
+    R1.*6 %6
+    r2 \mvTr gis'\pE^\solo gis
+    a h gis
+    a4( gis) a2 a
+    a1 a2 %10
+    gis gis r
+    R1.
+    r2 fis a
+    a4( g!) g2 r
+    e1( dis2) %15
+    e1 r2
+    R1.*5 %21
+    r2 fis fis
+    g gis gis
+    a a4 gis a h
+    gis2 gis r %25
+    r a a
+    gis4 a a2( gis)
+    a \mvTr e\fE^\tutti e
+    fis! fis fis
+    fis e e %30
+    e1 e2
+    fis1 fis2
+    r e e
+    e1 e2
+    e1( dis2) \noBreak %35
+    e1.\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoA-XIIDona \newSpacingSection
+      R1*3
+    e2. e4 %40
+    h'2 e,
+    g4 fis g e
+    fis1
+    g2 h~
+    h a~ %45
+    a g
+    fis g
+    g1
+    fis
+    g2( fis) %50
+    fis r
+    R1*8 %59
+    d2. d4 %60
+    g2 d
+    e4 d e c
+    d2 g
+    fis g
+    g1~ %65
+    g2 fis
+    g a
+    g4 fis g e
+    fis2 g~
+    g fis %70
+    g r
+    R1*5 %76
+    g2. g4
+    fis2 g
+    h4 a h g
+    fis2 g %80
+    a( h)
+    e,1
+    e~
+    e2 dis
+    dis2. dis4 %85
+    e2 e
+    e4 dis e cis
+    dis2 e
+    e( dis)
+    e\breve*1/2\fermata \bar "|." %90 finis
+  }
+}
+
+A-XIIAgnusAltoLyrics = \lyricmode {
+  A -- gnus %7
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta %10
+  mun -- di:
+
+  Mi -- se --
+  re -- re
+  no -- %15
+  bis.
+
+  A -- gnus %22
+  De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: %25
+  Mi -- se --
+  re -- re no --
+  bis. A -- gnus
+  De -- i, qui
+  tol -- lis pec -- %30
+  ca -- ta
+  mun -- di:
+  Do -- na
+  no -- bis
+  pa -- %35
+  cem.
+
+  Do -- na %40
+  no -- bis
+  pa -- _ _ _
+  _
+  cem, pa --
+  _ %45
+  cem,
+  do -- na
+  no --
+  bis
+  pa -- %50
+  cem.
+
+  Do -- na %60
+  no -- bis
+  pa -- _ _ _
+  _ cem,
+  do -- na
+  no -- %65
+  bis
+  pa -- _
+  _ _ _ _
+  _ _
+  _ %70
+  cem.
+
+  Do -- na %77
+  no -- bis
+  pa -- _ _ _
+  _ cem, %80
+  pa --
+  cem,
+  pa --
+  cem,
+  do -- na %85
+  no -- bis
+  pa -- _ _ _
+  _ cem,
+  pa --
+  cem. %90 finis
+}

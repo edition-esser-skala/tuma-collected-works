@@ -430,16 +430,173 @@ A-XIISanctusSopranoLyrics = \lyricmode {
   cel -- sis. %26 finis
 }
 
+A-XIIBenedictusSoprano = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/2 \autoBeamOff \tempoA-XIIBenedictus
+    r2 \mvTr h'\pE^\solo h
+    c h a
+    g4( fis) e2 h'
+    h cis cis
+    d4. d,8 d2 r %5
+    r r e'
+    cis2. h4 \hA cis2
+    d4 a a2 d
+    h2. a4 h2
+    c!1.~ %10
+    c2 h4 a g fis
+    g1.
+    fis2 fis2. fis4 \noBreak
+    e1.\fermata \bar "||"
+    \time 4/4 \tempoA-XIIOsanna \newSpacingSection
+      r8 \mvTr h'\fE^\tutti g c h e e([ dis)] \noBreak %15
+    e h h h ais d cis4
+    d8 dis e e dis h a4
+    g8 g h h cis d e4
+    d8 r r e c a r d
+    h g r g c h a g %20
+    fis8[ h16 a] g8[ fis16 e] fis2
+    e1\fermata \bar "|." %22 finis
+  }
+}
 
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
+A-XIIBenedictusSopranoLyrics = \lyricmode {
+  Be -- ne --
+  di -- ctus, qui
+  ve -- nit in
+  no -- mi -- ne
+  Do -- mi -- ni, %5
+  qui
+  ve -- nit in
+  no -- mi -- ne, in
+  no -- mi -- ne
+  Do -- %10
+  _ _ _ _
+  _
+  _ _ mi --
+  ni.
+  O -- san -- na in ex -- cel -- %15
+  sis, o -- san -- na in ex -- cel --
+  sis, o -- san -- na in ex -- cel --
+  sis, o -- san -- na in ex -- cel --
+  sis, o -- san -- na, o -- san --
+  na, o -- san -- na in ex -- %20
+  cel -- _ _
+  sis. %22 finis
+}
 
+A-XIIAgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/2 \autoBeamOff \tempoA-XIIAgnus
+    R1.*21 %21
+    r2 \mvTr dis'\pE^\solo dis
+    e h h
+    c c4 h c d!
+    h h e2 d %25
+    c1.
+    h4( c) h1
+    a2 \mvTr c\fE^\tutti c
+    h h h
+    h h h %30
+    h1 a2
+    h1 h2
+    r h h
+    h( a) c
+    fis,1. \noBreak %35
+    e\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoA-XIIDona \newSpacingSection
+      h'2. h4 \noBreak
+    e2 h
+    c4 h c a
+    h2 e, %40
+    g2. a4
+    h2 e~
+    e dis4 cis
+    h2 dis
+    e1~ %45
+    e2 h~
+    h h
+    h1
+    ais2 h~
+    h ais %50
+    h r
+    R1*11 %62
+    h2. h4
+    a2 h
+    d4 c d h %65
+    a1
+    h2 d~
+    d c~
+    c h
+    a1 %70
+    g2 r
+    R1*8 %79
+    h2. h4 %80
+    e2 h
+    c4 h c a
+    h2 a4( g)
+    fis2. fis4
+    h2 fis %85
+    g4 fis g e
+    fis1~
+    fis2 g
+    fis1
+    e\breve*1/2\fermata \bar "|." %90 finis
+  }
+}
 
-% ## Agnus Dei
+A-XIIAgnusSopranoLyrics = \lyricmode {
+  A -- gnus %22
+  De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: Mi -- se -- %25
+  re --
+  re __ no --
+  bis. A -- gnus
+  De -- i, qui
+  tol -- lis pec -- %30
+  ca -- ta
+  mun -- di:
+  Do -- na
+  no -- bis
+  pa -- %35
+  cem.
+  Do -- na
+  no -- bis
+  pa -- _ _ _
+  _ _ %40
+  _ _
+  _ _
+  _ _
+  _ _
+  cem, __ %45
+  do --
+  na
+  no --
+  bis pa --
+  _ %50
+  cem.
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+  Do -- na %63
+  no -- bis
+  pa -- _ _ _ %65
+  _
+  cem, pa --
+  _
+  _
+  _ %70
+  cem.
+
+  Do -- na %80
+  no -- bis
+  pa -- _ _ _
+  _ cem, __
+  do -- na
+  no -- bis %85
+  pa -- _ _ _
+  _
+  cem,
+  pa --
+  cem. %90 finis
+}

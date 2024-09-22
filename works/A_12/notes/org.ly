@@ -511,3 +511,235 @@ A-XIISanctusBassFigures = \figuremode {
   r q <6> <[6]>4. <_+>4 %25
   r2 <_+> %26 finis
 }
+
+A-XIIBenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 3/2 \tempoA-XIIBenedictus
+    \mvTr e1.\pE-\solo
+    e2 dis1
+    e1.
+    e2 ais,1
+    h1. %5
+    e
+    a,!
+    d
+    g,
+    a %10
+    h
+    e,1 g2
+    a h1 \noBreak
+    e,1.\fermata \bar "||"
+    \clef treble \time 4/4 \tempoA-XIIOsanna \newSpacingSection
+      r8 \mvTr h'''\fE-\tutti g c h e4 dis8 \noBreak %15
+    << { e h h4 ais8 d cis4 d8 } \\ { r8 e, d! g fis h4 ais8 h } >>
+    \clef "treble_8" h, g c h e4 dis8
+    e \clef bass e,[ d! g] fis h4 ais8
+    h h g e r a fis d
+    r g e c a2 %20
+    h1
+    e,\fermata \bar "|." %22 finis
+  }
+}
+
+A-XIIBenedictusBassFigures = \figuremode {
+  r1.
+  <2>2 <6> <5>
+  r1.
+  r2 \bo <6 [_+]> \bc <5 [\t]>
+  r1. %5
+  <_+>
+  q
+  r
+  r
+  <7>2 <6> <5> %10
+  <9 _+> <8 \t>1
+  \bo <[9]>2 \bc <[8]>1
+  <6 5>2 <4> <_+>
+  r1.
+  r1 %15
+  r
+  r8 <_+> <6>4 <_+> <4! 2>8 <5>
+  r4 <6> <[5\+] _+> <4 2\+>8 <6 [_+]>
+  <_!> <_+> <6>2 <6[!]>4
+  r <6>2. %20
+  <5 _+>4 <6 4> <5 \t> <\t _+>
+  r1 %22 finis
+}
+
+A-XIIAgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 3/2 \tempoA-XIIAgnus
+    \mvTr a1.\pE-\solo
+    h
+    h
+    c
+    c %5
+    d
+    e1 e,2
+    a d e
+    a,1.
+    f' %10
+    e2 r r
+    e g! e
+    h'1 h,2
+    e1.
+    a,2 h h %15
+    e1.
+    fis
+    fis
+    g
+    g %20
+    a
+    h2 h,1
+    e1 d!2
+    c1 a2
+    e'1 gis2 %25
+    a1 a,2
+    e'1 e,2
+    a \mvTr a'1\fE-\tutti
+    dis,1.
+    e1 d2 %30
+    c1.
+    h
+    r2 gis1
+    a1.
+    h \noBreak %35
+    e,\fermata \bar "||"
+    \clef treble \twotwotime \time 2/2 \tempoA-XIIDona \newSpacingSection
+      h'''2. h4 \noBreak
+    e2 h
+    c4 h c a
+    << {
+      h2 e, %40
+      g2. a4
+      h2 e
+    } \\ {
+      e,2. e4 %40
+      h'2 e,
+      g4 fis g e
+    } >>
+    \clef "treble_8" h2. h4
+    e2 h
+    c4 h c a %45
+    \clef bass e2. e4
+    h'2 e,
+    g4 fis g e
+    fis2 h,
+    e fis %50
+    h, r
+    R1*8 %59
+    \clef treble d'2. d4 %60
+    g2 d
+    e4 d e c
+    \clef "treble_8" g2. g4
+    d'2 g,
+    h4 a h g %65
+    \clef bass d2. d4
+    g2 d
+    e4 d e c
+    d2 g,
+    c d %70
+    g, r
+    R1*4 %75
+    \clef "treble_8" h'2. h4
+    \clef bass e,2. e4
+    h'2 e,
+    g4 fis g e
+    dis2 e %80
+    c gis
+    a1
+    g!2 a
+    h1~-\tasto
+    h~ %85
+    h~
+    h~
+    h~
+    h
+    e,\breve*1/2\fermata \bar "|." %90 finis
+  }
+}
+
+A-XIIAgnusBassFigures = \figuremode {
+  r1.
+  <7>2 <6\\>1
+  <\t>1.
+  <7>2 <6>1
+  <\t>1. %5
+  <7 _!>2 <6 \t>1
+  <7 _+>4 <6 4> <5 _+>1
+  r2 <6 _!> <_+>
+  r1.
+  <7>1 <6>2 %10
+  <_+>1.
+  q2 <6>1
+  <4>2 <_+>1
+  <5 4>2 <\t 3>1
+  r2 <4> <_+> %15
+  r1.
+  <7>2 <6\\>1
+  <\t>1.
+  <7>2 <6>1
+  <\t>1. %20
+  <7>2 <6>1
+  <7 _+>4 <6 4> <5 _+>1
+  <_!>2 <_+> <4\+>
+  <6>1.
+  <_+> %25
+  r
+  <5 _+>4 <6 4> <5 \t>2 <\t _+>
+  r1.
+  <6 5 [_+]>
+  <9 [_!]>2 <8>1 %30
+  <7> <6>2
+  <_+>1.
+  r2 <6 5!>1
+  <9>2 <8>1
+  <5 4> <\t _+>2 %35
+  r1.
+  r1
+  r
+  r
+  r %40
+  r
+  r
+  <4>2 <_+>
+  r q
+  <7> <6> %45
+  <4> <3>
+  <_+>1
+  <6>
+  <7 [5\+] _+>2 <[_!]>
+  <6\\ 5> <[5\+] _+> %50
+  r1
+  r1*8 %59
+  <5 4>2 <\t 3> %60
+  r1
+  <7>2 <6>
+  r1
+  r
+  <6> %65
+  <5 4>2 <\t 3>
+  r1
+  <7>2 <6>
+  <7>1
+  <6 5> %70
+  r
+  r1*4 %75
+  <5 4>2 <\t _+>
+  r1
+  <_+>
+  <6>
+  q %80
+  q2 <[6]>
+  r1
+  <6>
+  <5 4>2 <\t _+>
+  r1 %85
+  r
+  r
+  r
+  <4>2 <_+>
+  r1 %90 finis
+}

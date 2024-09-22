@@ -221,3 +221,74 @@ A-XIISanctusTromboneII = {
     c2 h\fermata \bar "|." %26 finis
   }
 }
+
+A-XIIBenedictusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key e \minor \time 3/2 \tempoA-XIIBenedictus
+    R1.*13 \noBreak %13
+    R1.\fermata \bar "||"
+    \time 4/4 \tempoA-XIIOsanna \newSpacingSection
+      R1*2 %16
+    r8 h\fE g c h e e dis
+    e h h h ais d cis4
+    d8 dis e e r c d? d
+    r h c c c4. c8 %20
+    fis, fis h h h2
+    h1\fermata \bar "|." %22 finis
+  }
+}
+
+A-XIIAgnusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key e \minor \time 3/2 \tempoA-XIIAgnus
+    R1.*27 %27
+    r2 a\fE a
+    a1.
+    g!1 h2 %30
+    e1.
+    dis
+    r2 d1
+    c1.
+    h \noBreak %35
+    h\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoA-XIIDona \newSpacingSection
+      R1*6 %42
+    h2. h4
+    e2 h
+    c4 h c a %45
+    h2. e4
+    dis2 e~
+    e e~
+    e d!
+    cis1 %50
+    d2 r
+    R1*11 %62
+    g,2. g4
+    d'2 g,
+    h4 a h g %65
+    a2 d
+    d fis,
+    g c
+    a h
+    e d %70
+    d r
+    R1*4 %75
+    h2. h4
+    e2 h
+    dis e
+    e1
+    R %80
+    e2. e4
+    e4 d! e c
+    h2 c
+    fis, h~
+    h h %85
+    h1~
+    \once \tieDashed h~
+    h~
+    h
+    h\breve*1/2\fermata \bar "|." %90 finis
+  }
+}

@@ -231,3 +231,80 @@ A-XIISanctusTromboneI = {
     e2 e\fermata \bar "|." %26 finis
   }
 }
+
+A-XIIBenedictusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key e \minor \time 3/2 \tempoA-XIIBenedictus
+    R1.*13 \noBreak %13
+    R1.\fermata \bar "||"
+    \time 4/4 \tempoA-XIIOsanna \newSpacingSection
+      R1 \noBreak %15
+    r8 e\fE d! g fis h h ais
+    h fis g e fis g fis4
+    e8 g fis d! fis fis g fis
+    fis fis g g r e fis fis
+    r d e e e4. e8 %20
+    dis4 e2 \hA dis4
+    e1\fermata \bar "|." %22 finis
+  }
+}
+
+A-XIIAgnusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key e \minor \time 3/2 \tempoA-XIIAgnus
+    R1.*27 %27
+    r2 e1\fE
+    fis!1.
+    fis2 e1 %30
+    e1.
+    fis
+    r2 e1
+    e1.
+    e1 dis2 \noBreak %35
+    e1.\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoA-XIIDona \newSpacingSection
+      R1*3
+    e2. e4 %40
+    h'2 e,
+    g4 fis g e
+    fis1
+    g2 \once \tieDashed h~
+    h a~ %45
+    a g
+    fis g
+    g1
+    fis
+    g2 fis %50
+    fis r
+    R1*8 %59
+    d2. d4 %60
+    g2 d
+    e4 d e c
+    d2 g
+    fis g
+    g1~ %65
+    g2 fis
+    g a
+    g4 fis g e
+    fis2 g~
+    g fis %70
+    g r
+    R1*5 %76
+    g2. g4
+    fis2 g
+    h4 a h g
+    fis2 g %80
+    a h
+    e,1
+    e~
+    e2 dis
+    dis2. dis4 %85
+    e2 e
+    e4 dis e cis
+    dis2 e
+    e dis
+    e\breve*1/2\fermata \bar "|." %90 finis
+  }
+}

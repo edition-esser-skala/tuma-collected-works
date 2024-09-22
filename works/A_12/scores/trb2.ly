@@ -7,11 +7,60 @@
 
 \book {
   \bookpart {
-    \section "A-XIIKyrie" ""
+    \section "1" "Kyrie"
     \addTocEntry
+    \paper { systems-per-page = #6 }
     \score {
       <<
         \new Staff { \A-XIIKyrieTromboneII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Gloria"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \A-XIIGloriaTromboneII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Credo"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \A-XIICredoTromboneII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Sanctus"
+    \addTocEntry
+    \paper { systems-per-page = #5 }
+    \score {
+      <<
+        \new Staff { \A-XIISanctusTromboneII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Benedictus"
+    \addTocEntry
+    \paper { systems-per-page = #2 }
+    \score {
+      <<
+        \new Staff { \A-XIIBenedictusTromboneII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Agnus Dei"
+    \addTocEntry
+    \paper { systems-per-page = #7 }
+    \score {
+      <<
+        \new Staff { \A-XIIAgnusTromboneII }
       >>
     }
   }

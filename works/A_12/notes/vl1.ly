@@ -246,3 +246,112 @@ A-XIISanctusViolinoI = {
     a2 gis\fermata \bar "|." %26 finis
   }
 }
+
+A-XIIBenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/2 \tempoA-XIIBenedictus
+    R1.*13 \noBreak %13
+    R1.\fermata \bar "||"
+    \time 4/4 \tempoA-XIIOsanna \newSpacingSection
+      r8 \mvTr h'\fE g c h e4 dis8 \noBreak %15
+    e h h4 ais8 d cis4
+    d8 dis e4 dis8 h a4
+    g8 g h4 cis8 d e4
+    d8 r r e c a r d
+    h g r g c h a g %20
+    fis8 h16 a g8 fis16 e fis2
+    e1\fermata \bar "|." %22 finis
+  }
+}
+
+A-XIIAgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/2 \tempoA-XIIAgnus
+    R1.
+    r4 d'2\pE h4 c( d)
+    d,2 r r
+    r4 e'2 c4 d( e)
+    e,2 r r %5
+    r4 f'2 d4 e( f)
+    gis, a \hA gis1
+    a r2
+    R1.*2 %10
+    h4( c) h( c) h-! e-!
+    gis,2 r r
+    R1.*3 %15
+    h4( c) h( c) h-! e-!
+    e2\trill dis r
+    dis4( e) \hA dis( e) \hA dis-! fis-!
+    fis2\trill e r
+    e4( fis) e( fis) e-! g-! %20
+    g2\trill fis a~
+    a4 g fis1\trill
+    e2 r r
+    R1.*4 %27
+    r2 c\fE c
+    h h h
+    h1 h2 %30
+    h1 a2
+    h1.
+    r2 h h~
+    h a c
+    fis,1. \noBreak %35
+    e\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoA-XIIDona \newSpacingSection
+      h'2. h4 \noBreak
+    e2 h
+    c4( h) c( a)
+    h2 e, %40
+    g2. a4
+    h2 e~
+    e dis4 cis
+    h2 dis
+    e1~ %45
+    e2 h
+    h1~
+    h
+    ais2 h~
+    h ais %50
+    h r
+    R1
+    r2 h'4-! c-!
+    a( g) a-! fis-!
+    g-! e-! g2 %55
+    fis gis\trill
+    a a4-! h-!
+    g!( fis) g-! e-!
+    fis-! d-! g2~
+    g fis4 e %60
+    d1~
+    d2 c
+    h2. h4
+    a2 h
+    d4 c d h %65
+    a1
+    h2 d~
+    d c~
+    c h
+    a1 %70
+    g2 h'
+    e, fis\trill
+    g h4-! c-!
+    a( g) a-! fis-!
+    g e g2 %75
+    fis1
+    e
+    R1*2
+    h2. h4 %80
+    e2 h
+    c4 h c a
+    h2 a4 g
+    fis2. fis4
+    h2 fis %85
+    g4 fis g e
+    fis1~
+    fis2 g
+    fis1
+    e\breve*1/2\fermata \bar "|." %90 finis
+  }
+}

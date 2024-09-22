@@ -388,3 +388,135 @@ A-XIISanctusBassoLyrics = \lyricmode {
   a. O -- san -- na in ex -- %25
   cel -- sis. %26 finis
 }
+
+A-XIIBenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 3/2 \autoBeamOff \tempoA-XIIBenedictus
+    R1.*2
+    r2 \mvTr e\pE^\solo e
+    g fis e
+    d4( cis?) h2 h' %5
+    gis2. fis4 \hA gis2
+    a4 e e2 a
+    fis2. e4 fis2
+    g!4 d d2 g
+    g fis4 e dis e %10
+    dis1 fis2~
+    fis4 h, e dis? e2
+    a,4 a h2. h4 \noBreak
+    e,1.\fermata \bar "||"
+    \time 4/4 \tempoA-XIIOsanna \newSpacingSection
+      R1*3 %17
+    r8 \mvTr e'\fE^\tutti d! g fis h h([ ais)]
+    h h g e r a fis d
+    r g e c a4. a8 %20
+    h1
+    e,\fermata \bar "|." %22 finis
+  }
+}
+
+A-XIIBenedictusBassoLyrics = \lyricmode {
+  Be -- ne -- %3
+  di -- ctus, qui
+  ve -- nit in %5
+  no -- mi -- ne
+  Do -- mi -- ni, in
+  no -- mi -- ne
+  Do -- mi -- ni, in
+  no -- _ _ _ _ %10
+  _ _
+  _ _ _ _
+  mi -- ne Do -- mi --
+  ni.
+
+  O -- san -- na in ex -- cel -- %18
+  sis, o -- san -- na, o -- san -- na,
+  o -- san -- na in ex -- %20
+  cel --
+  sis. %22 finis
+}
+
+A-XIIAgnusBasso = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 3/2 \autoBeamOff \tempoA-XIIAgnus
+    R1.*27 %27
+    r2 \mvTr a'\fE^\tutti a
+    dis, dis dis
+    e e d %30
+    c1 c2
+    h1 h2
+    r gis gis
+    a1 a2
+    h1. \noBreak %35
+    e,\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoA-XIIDona \newSpacingSection
+      R1*9 %45
+    e'2. e4
+    h'2 e,
+    g4 fis g e
+    fis2 h,
+    e( fis) %50
+    h, r
+    R1*14 %65
+    d2. d4
+    g2 d
+    e4 d e c
+    d2 g,
+    c( d) %70
+    g, r
+    R1*5 %76
+    e'2. e4
+    h'2 e,
+    g4 fis g e
+    dis2 e %80
+    c( gis)
+    a1
+    g!2 a
+    h1~
+    h~ %85
+    h~
+    h~
+    h~
+    h
+    e,\breve*1/2\fermata \bar "|." %90 finis
+  }
+}
+
+A-XIIAgnusBassoLyrics = \lyricmode {
+  A -- gnus %28
+  De -- i, qui
+  tol -- lis pec -- %30
+  ca -- ta
+  mun -- di:
+  Do -- na
+  no -- bis
+  pa -- %35
+  cem.
+
+  Do -- na %46
+  no -- bis
+  pa -- _ _ _
+  _ cem,
+  pa -- %50
+  cem.
+
+  Do -- na %66
+  no -- bis
+  pa -- _ _ _
+  _ cem,
+  pa -- %70
+  cem.
+
+  Do -- na %77
+  no -- bis
+  pa -- _ _ _
+  _ cem, %80
+  pa --
+  cem,
+  pa -- cem,
+  pa --
+
+  cem. %90 finis
+}

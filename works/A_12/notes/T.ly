@@ -410,3 +410,151 @@ A-XIISanctusTenoreLyrics = \lyricmode {
   a. O -- san -- na in ex -- %25
   cel -- sis. %26 finis
 }
+
+A-XIIBenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \minor \time 3/2 \autoBeamOff \tempoA-XIIBenedictus
+    R1.*13 \noBreak %13
+    R1.\fermata \bar "||"
+    \time 4/4 \tempoA-XIIOsanna \newSpacingSection
+      R1*2 %16
+    r8 \mvTr h\fE^\tutti g c h e e([ dis)]
+    e h h h ais d cis4
+    d8 dis e e r c d? d
+    r h c c c4. c8 %20
+    fis, fis h h h2
+    h1\fermata \bar "|." %22 finis
+  }
+}
+
+A-XIIBenedictusTenoreLyrics = \lyricmode {
+  O -- san -- na in ex -- cel -- %17
+  sis, o -- san -- na in ex -- cel --
+  sis, o -- san -- na, o -- san -- na,
+  o -- san -- na in ex -- %20
+  cel -- sis, in ex -- cel --
+  sis. %22 finis
+}
+
+A-XIIAgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \minor \time 3/2 \autoBeamOff \tempoA-XIIAgnus
+    R1.*6 %6
+    r2 \mvTr h\pE^\solo h
+    c d h
+    c4( h) c2 e
+    e1 d2 %10
+    e e r
+    r h e
+    e4( dis) dis2 r
+    r h e
+    c4 a fis1 %15
+    e r2
+    R1.*11 %27
+    r2 \mvTr a\fE^\tutti a
+    a a a
+    g! g h %30
+    e1 e2
+    dis1 dis2
+    r d d
+    c1 c2
+    h1. \noBreak %35
+    h\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoA-XIIDona \newSpacingSection
+      R1*6 %42
+    h2. h4
+    e2 h
+    c4 h c a %45
+    h2. e4
+    dis2( e)
+    e e~
+    e d!
+    cis1 %50
+    d2 r
+    R1*11 %62
+    g,2. g4
+    d'2 g,
+    h4 a h g %65
+    a2 d
+    d fis,
+    g c
+    a h
+    e( d) %70
+    d r
+    R1*4 %75
+    h2. h4
+    e2 h
+    dis( e)
+    e1
+    R %80
+    e2. e4
+    e4( d!) e( c)
+    h2( c)
+    fis, h~
+    h h %85
+    h1~
+    h~
+    h~
+    h
+    h\breve*1/2\fermata \bar "|." %90 finis
+  }
+}
+
+A-XIIAgnusTenoreLyrics = \lyricmode {
+  A -- gnus %7
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta %10
+  mun -- di:
+  Mi -- se --
+  re -- re,
+  mi -- se --
+  re -- re no -- %15
+  bis.
+
+  A -- gnus %28
+  De -- i, qui
+  tol -- lis pec -- %30
+  ca -- ta
+  mun -- di:
+  Do -- na
+  no -- bis
+  pa -- %35
+  cem.
+
+  Do -- na %43
+  no -- bis
+  pa -- _ _ _ %45
+  _ cem,
+  pa --
+  cem, pa --
+  cem,
+  pa -- %50
+  cem.
+
+  Do -- na %63
+  no -- bis
+  pa -- _ _ _ %65
+  _ cem,
+  do -- na
+  no -- bis
+  pa -- cem,
+  pa -- %70
+  cem.
+
+  Do -- na %76
+  no -- bis
+  pa --
+  cem,
+  %80
+  do -- na
+  \xE no -- bis \x
+  pa --
+  cem, pa --
+  cem, %85
+  pa --
+
+  cem. %90 finis
+}
