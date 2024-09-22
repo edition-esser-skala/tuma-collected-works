@@ -68,7 +68,7 @@ final/{work}/{score}.pdf: tmp/{work}/{score}.pdf \
 >  -t {score} \\
 >  -k acknowledgements commentary festival genre lyrics tocstyle toe \\
 >  -s ../tmp/{work} \\
->  -q https://edition.esser-skala.at/assets/pdf/tuma-complete-works/{work} \\
+>  -q https://edition.esser-skala.at/assets/pdf/tuma-collected-works/{work} \\
 >  -c tag
 >latexmk -cd \\
 >        -lualatex \\
