@@ -1,5 +1,20 @@
 # Changelog
 
+## 2024.09.0 – 2024-09-28
+
+### Added
+
+- works: TumW A.10 and A.12
+- global macros: `\aTre` and `\aTreE`
+- a general preface, containing a short introduction and the changelog
+
+### Changed
+
+- renamed the project to “Collected works”
+- revised TumW D.1.4, which now uses the copy in A-Wn as principal source
+- renumbered the following works: TumW A.3.4 → A.18, A.3.14 → A.28, D.2.6–9/16 → D.2.8–11/17, and D.2.22–24 → D.3.6–8
+
+
 ## 2024.08.0 – 2024-08-31
 
 ### Added
