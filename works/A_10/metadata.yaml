@@ -1,0 +1,34 @@
+title: Missa
+id: TumW A.10
+genre: mass
+scoring: S, A, T, B (coro), [2 trb], [vl], b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-KR
+    shelfmark: B 12/316
+    date: ca. 1750
+    license: public domain
+    principal: true
+    notes: 10 parts (S, A, T, B, trb 1, trb 2, vl 1, vl 2, vlne, org)
+  B2:
+    siglum: A-GÖ
+    shelfmark: 637
+    date: 1785
+    license: public domain
+    notes: 5 parts (S, A, T, B, org)
+  B3:
+    siglum: A-LA
+    shelfmark: M 459
+    date: ca. 1750
+    license: public domain
+    notes: 2 sets, including 9 (S, A, T, B, trb 1, trb 2, vl, vlne, org) and 8 parts (same without vlne)
+tocstyle: default
+toe: |
+  – & –     & –     & This mass is a shortened version of the mass TumW A.12.
+                      For a detailed comparison of the works,
+                      see Alfred Peschek, Die Messen von Franz Tuma
+                      (PhD Thesis, University of Vienna, 1956), p. 117–122. \\
+  – & –     & trb   & In \B1 and \B3, two trombones play colla parte
+                      with A and T, respectively. \\
+  – & –     & vl    & In \B1, two violins play colla parte with S. \\
