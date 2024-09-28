@@ -359,8 +359,8 @@ A-XIISanctusBasso = {
     c8 a r4 r2
     r r4 g'16[ a g c]
     fis,[ g fis h] e,[ fis e a] dis,8 e16 e h4
-    e,8 e' c gis a4 e'
-    a2 e\fermata \bar "|."
+    e,8 e' c gis a4 e' %25
+    a2 e\fermata \bar "|." %26 finis
   }
 }
 
