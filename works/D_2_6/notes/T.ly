@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-IXTenore = {
+D-II-VITenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \dorian \time 4/4 \autoBeamOff \tempoD-II-IXDeProfundis
+    \key c \dorian \time 4/4 \autoBeamOff \tempoD-II-VIDeProfundis
     R1*4
     r2 r8 \mvTr b\fE^\tutti es4~ %5
     es d8[ c] b2
@@ -20,7 +20,7 @@ D-II-IXTenore = {
     es4 es r2
     r8 g, g g as4 des \noBreak
     c2 c\fermata \bar "||" %20
-    \tempoD-II-IXFiant c4.\fE c8 h c d g, \noBreak
+    \tempoD-II-VIFiant c4.\fE c8 h c d g, \noBreak
     es'([ d)] c4 c( h)
     c c2 b4
     as2 g
@@ -33,7 +33,7 @@ D-II-IXTenore = {
     h4 c h8[ g] c4~
     c h8[ a] h2 \noBreak
     c1\fermata \bar "||"
-    \tempoD-II-IXSi \mvTr d8\pE^\solo b16([ c)] d8 b g16([ fis)] g8 r4 \noBreak
+    \tempoD-II-VISi \mvTr d8\pE^\solo b16([ c)] d8 b g16([ fis)] g8 r4 \noBreak
     c8 es16([ d)] c([ b)] a g fis e d8 r4 %35
     d'8 c16 b es4 r8 a, d4
     d8 c16([b)] c4 d r
@@ -46,14 +46,14 @@ D-II-IXTenore = {
     c4. c8 b4 r
     R1*22 \noBreak %66
     R1\fermata \bar "||" %67
-    \tempoD-II-IXQuia \mvTr es4.\fE^\tutti es8 c4 es \noBreak
+    \tempoD-II-VIQuia \mvTr es4.\fE^\tutti es8 c4 es \noBreak
     c b b r
     r8 b b b c8. c16 c4 %70
     r8 es es es es8. des16 des4
     r8 d d d e8. e16 f8 f
     d4. d8 es4 es
     r es8 d es4 d8 c
-    d4. d8 d4 r8 \tempoD-II-IXEtIpse es %75
+    d4. d8 d4 r8 \tempoD-II-VIEtIpse es %75
     d es d d16 d es8. es16 es8 es
     c8. c16 c8 f f4 es8([ c)]
     h4 c8 es d2
@@ -94,7 +94,7 @@ D-II-IXTenore = {
   }
 }
 
-D-II-IXTenoreLyrics = \lyricmode {
+D-II-VITenoreLyrics = \lyricmode {
   Cla -- ma -- %5
   _ vi,
   cla -- ma -- vi, cla --

@@ -1,10 +1,10 @@
 \version "2.24.2"
 
-tempoD-II-IXDeProfundis = \tempoMarkup "Adagio"
-tempoD-II-IXFiant = \tempoMarkup "Andante"
-tempoD-II-IXSi = \tempoMarkup "Larghetto"
-tempoD-II-IXQuia = \tempoMarkup "Adagio"
-tempoD-II-IXEtIpse = \tempoMarkup "Allegro"
+tempoD-II-VIDeProfundis = \tempoMarkup "Adagio"
+tempoD-II-VIFiant = \tempoMarkup "Andante"
+tempoD-II-VISi = \tempoMarkup "Larghetto"
+tempoD-II-VIQuia = \tempoMarkup "Adagio"
+tempoD-II-VIEtIpse = \tempoMarkup "Allegro"
 
 \include "notes/cnto.ly"
 \include "notes/fag.ly"

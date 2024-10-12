@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-IXCornetto = {
+D-II-VICornetto = {
   \relative c' {
     \clef soprano
-    \key c \dorian \time 4/4 \tempoD-II-IXDeProfundis
+    \key c \dorian \time 4/4 \tempoD-II-VIDeProfundis
     R1*5 %5
     r8 f\fE f'2 es4
     d2 r8 c f4~
@@ -18,7 +18,7 @@ D-II-IXCornetto = {
     b!4 b r8 b b c
     des4 c c des \noBreak
     g,2 f\fermata \bar "||" %20
-    \tempoD-II-IXFiant R1*3
+    \tempoD-II-VIFiant R1*3
     c'4.\fE c8 h8 c d g,
     es' d c4 c h %25
     c h8 c c4 h
@@ -29,16 +29,16 @@ D-II-IXCornetto = {
     f8 f es es d4 es \noBreak
     d1 \noBreak
     c\fermata \bar "||"
-    \tempoD-II-IXSi R1*33 \noBreak %66
+    \tempoD-II-VISi R1*33 \noBreak %66
     R1\fermata \bar "||"
-    \tempoD-II-IXQuia b4.\fE b8 c4 b \noBreak
+    \tempoD-II-VIQuia b4.\fE b8 c4 b \noBreak
     as2 g8 b b es,
     des'4. des8 c4 r %70
     r8 c c c c8. b16 b4
     r8 b b b b8. b16 as8 c
     h4. h8 c4 c
     r c8 d c4 c8 c
-    c4 h8 a h4 r8 \tempoD-II-IXEtIpse c %75
+    c4 h8 a h4 r8 \tempoD-II-VIEtIpse c %75
     d c h h c4 c
     c4. d8 d4 es
     d c c h

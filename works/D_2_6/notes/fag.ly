@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-IXFagotto = {
+D-II-VIFagotto = {
   \relative c {
     \clef bass
-    \key c \dorian \time 4/4 \tempoD-II-IXDeProfundis
+    \key c \dorian \time 4/4 \tempoD-II-VIDeProfundis
     R1*2
     r2 g4.\fE g8
     c4 c f,4. f8
@@ -23,7 +23,7 @@ D-II-IXFagotto = {
     es' r
     r8 e e4 f b, \noBreak
     c2 f,\fermata \bar "||" %20
-    \tempoD-II-IXFiant R1*4
+    \tempoD-II-VIFiant R1*4
     r2 g'4.\fE g8 %25
     es f g c, as' g g4~
     g f g g
@@ -33,16 +33,16 @@ D-II-IXFagotto = {
     g g,
     g1 \noBreak
     c\fermata \bar "||"
-    \tempoD-II-IXSi R1*33 \noBreak %66
+    \tempoD-II-VISi R1*33 \noBreak %66
     R1\fermata \bar "||"
-    \tempoD-II-IXQuia es2\fE es~ \noBreak
+    \tempoD-II-VIQuia es2\fE es~ \noBreak
     es4 d es r
     r8 es es4 as,2 %70
     r8 a a4 b2
     r8 as' as4 g! f
     f2 es!
     r4 c8 b! as2
-    g g4 r8 \tempoD-II-IXEtIpse c' %75
+    g g4 r8 \tempoD-II-VIEtIpse c' %75
     h c g f es8. d16 c8 es
     f4. d8 h4 c
     g' c, g2

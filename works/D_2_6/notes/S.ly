@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-IXSoprano = {
+D-II-VISoprano = {
   \relative c' {
     \clef treble
-    \key c \dorian \time 4/4 \autoBeamOff \tempoD-II-IXDeProfundis
+    \key c \dorian \time 4/4 \autoBeamOff \tempoD-II-VIDeProfundis
     R1*5 %5
     r8 \mvTr f\fE^\tutti f'2( es4)
     d2 r8 c f4~
@@ -18,7 +18,7 @@ D-II-IXSoprano = {
     b!4 b r8 b b c
     des4 c c des \noBreak
     g,2 f\fermata \bar "||" %20
-    \tempoD-II-IXFiant R1*3
+    \tempoD-II-VIFiant R1*3
     c'4.\fE c8 h8 c d g,
     es'([ d)] c4 c( h) %25
     c h8 c c4 h
@@ -29,7 +29,7 @@ D-II-IXSoprano = {
     f8 f es es d4 es \noBreak
     d1 \noBreak
     c\fermata \bar "||"
-    \tempoD-II-IXSi R1*12 %45
+    \tempoD-II-VISi R1*12 %45
     r2 r4 r8 \mvTr a\pE^\solo
     b4 b8 b h4. a16 h
     c4 c8 d es d c4
@@ -52,14 +52,14 @@ D-II-IXSoprano = {
     g4 r r2 %65
     R1 \noBreak
     R\fermata \bar "||"
-    \tempoD-II-IXQuia \mvTr b4.\fE^\tutti b8 c4 b \noBreak
+    \tempoD-II-VIQuia \mvTr b4.\fE^\tutti b8 c4 b \noBreak
     as4. as8 g b b es,
     des'4. des8 c4 r %70
     r8 c c c c8. b16 b4
     r8 b b b b8. b16 as8 c
     h4. h8 c4 c
     r c8 d c4 c8 c
-    c4( h8) a h4 r8 \tempoD-II-IXEtIpse c %75
+    c4( h8) a h4 r8 \tempoD-II-VIEtIpse c %75
     d c h h16 h c8. c16 c8 c
     c8. c16 c8 d d4 es
     d c8 c c4( h)
@@ -96,7 +96,7 @@ D-II-IXSoprano = {
   }
 }
 
-D-II-IXSopranoLyrics = \lyricmode {
+D-II-VISopranoLyrics = \lyricmode {
   Cla -- ma -- %6
   vi, cla -- ma --
   vi, cla -- ma -- vi

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-IXAlto = {
+D-II-VIAlto = {
   \relative c' {
     \clef treble
-    \key c \dorian \time 4/4 \autoBeamOff \tempoD-II-IXDeProfundis
+    \key c \dorian \time 4/4 \autoBeamOff \tempoD-II-VIDeProfundis
     R1*4
     r2 r4 r8 \mvTr es\fE^\tutti %5
     b'4.( as8) g b, g'4
@@ -20,7 +20,7 @@ D-II-IXAlto = {
     as4 g r8 g g as
     b2 as4 g8 f \noBreak
     f4( e) f2\fermata \bar "||" %20
-    \tempoD-II-IXFiant R1 \noBreak
+    \tempoD-II-VIFiant R1 \noBreak
     r2 g4.\fE g8
     es f g c, as'([ g)] g4
     g( f) g g8 f
@@ -33,7 +33,7 @@ D-II-IXAlto = {
     g g~
     g1 \noBreak
     g\fermata \bar "||"
-    \tempoD-II-IXSi R1*11 %44
+    \tempoD-II-VISi R1*11 %44
     r2 r4 r8 \mvTr f\pE^\solo %45
     f4 f8 f fis4. e16 fis
     g4. g8 f8. es16 d4
@@ -57,14 +57,14 @@ D-II-IXAlto = {
     g4 r r2 %65
     R1 \noBreak
     R\fermata \bar "||"
-    \tempoD-II-IXQuia \mvTr g4.\fE^\tutti g8 as4 g \noBreak
+    \tempoD-II-VIQuia \mvTr g4.\fE^\tutti g8 as4 g \noBreak
     f4. f8 es4 r
     r8 g g g as8. es16 es8 as, %70
     ges' ges ges8. ges16 f4 r
     r8 f f f g8. g16 as8 as
     g4. g8 g4 g
     r g8 g g4 f8 f
-    g4. g8 g4 r8 \tempoD-II-IXEtIpse g %75
+    g4. g8 g4 r8 \tempoD-II-VIEtIpse g %75
     g g g g16 g g8. g16 g8 g
     as8. as16 as8 as g4 g
     g g8 g g2
@@ -103,7 +103,7 @@ D-II-IXAlto = {
   }
 }
 
-D-II-IXAltoLyrics = \lyricmode {
+D-II-VIAltoLyrics = \lyricmode {
   Cla -- %5
   ma -- vi, cla -- ma --
   vi, cla -- ma --

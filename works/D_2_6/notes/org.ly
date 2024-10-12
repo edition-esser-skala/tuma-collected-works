@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-IXOrgano = {
+D-II-VIOrgano = {
   \relative c {
     \clef bass
-    \key c \dorian \time 4/4 \tempoD-II-IXDeProfundis
+    \key c \dorian \time 4/4 \tempoD-II-VIDeProfundis
     \mvTr c2\pocoPE^\solo f,
     b es,
     as g
@@ -24,7 +24,7 @@ D-II-IXOrgano = {
     es' r
     r8 e e4 f b, \noBreak
     c2 f,\fermata \bar "||" %20
-    \clef "treble_8" \tempoD-II-IXFiant c''4.-!\fE c8-! h-! c-! d-! g,-! \noBreak
+    \clef "treble_8" \tempoD-II-VIFiant c''4.-!\fE c8-! h-! c-! d-! g,-! \noBreak
     es'-! d-! c4~-! c h
     c c2 b4
     as2 g
@@ -37,7 +37,7 @@ D-II-IXOrgano = {
     g g,
     g1 \noBreak
     c\fermata \bar "||"
-    \tempoD-II-IXSi \mvTr g'4\pE-\solo f es d \noBreak
+    \tempoD-II-VISi \mvTr g'4\pE-\solo f es d \noBreak
     c2 d4. fis,8 %35
     g4 r8 g' f!4 r8 f
     es2 d4 r8 d\fE
@@ -71,14 +71,14 @@ D-II-IXOrgano = {
     g4 c8\fE d g,4 g'8 a %65
     d,4 r8 fis g4 r8 h \noBreak
     c b c d g,4 r\fermata \bar "||"
-    \tempoD-II-IXQuia \mvTr es2\fE-\tutti es~ \noBreak
+    \tempoD-II-VIQuia \mvTr es2\fE-\tutti es~ \noBreak
     es4 d es r
     r8 es es4 as,2 %70
     r8 a a4 b2
     r8 as' as4 g! f
     f2 es!
     r4 c8 b! as2
-    g g4 r8 \tempoD-II-IXEtIpse c' %75
+    g g4 r8 \tempoD-II-VIEtIpse c' %75
     h c g f es8. d16 c8 es
     f4. d8 h4 c
     g' c, g2
@@ -131,7 +131,7 @@ D-II-IXOrgano = {
   }
 }
 
-D-II-IXBassFigures = \figuremode {
+D-II-VIBassFigures = \figuremode {
   r2 <_->
   r1
   <7>4 <6> <7 _!>8 <6 4> <5 \t> <\t _!>

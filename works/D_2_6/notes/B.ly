@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-IXBasso = {
+D-II-VIBasso = {
   \relative c {
     \clef bass
-    \key c \dorian \time 4/4 \autoBeamOff \tempoD-II-IXDeProfundis
+    \key c \dorian \time 4/4 \autoBeamOff \tempoD-II-VIDeProfundis
     R1*2
     r2 \mvTr g4.\fE^\tutti g8
     c4 c f,4. f8
@@ -23,7 +23,7 @@ D-II-IXBasso = {
     es'4 es r2
     r8 e e e f4 b, \noBreak
     c2 f,\fermata \bar "||" %20
-    \tempoD-II-IXFiant R1*4
+    \tempoD-II-VIFiant R1*4
     r2 g'4.\fE g8 %25
     es f g c, as'([ g)] g4
     g( f) g g
@@ -33,7 +33,7 @@ D-II-IXBasso = {
     g g,~
     g1 \noBreak
     c\fermata \bar "||"
-    \tempoD-II-IXSi r2 \mvTr g'8\pE^\solo es16([ f)] g8 es \noBreak
+    \tempoD-II-VISi r2 \mvTr g'8\pE^\solo es16([ f)] g8 es \noBreak
     c16([ h)] c8 r4 d8 a'16([ g)] fis([ e)] d c %35
     b a g8 r b' a4 r8 a
     g16([ fis)] g8 g4 fis r
@@ -46,14 +46,14 @@ D-II-IXBasso = {
     b4( a8.) a16 b4 r
     R1*22 \noBreak %66
     R1\fermata \bar "||"
-    \tempoD-II-IXQuia \mvTr es,4.\fE^\tutti es8 es4 es \noBreak
+    \tempoD-II-VIQuia \mvTr es,4.\fE^\tutti es8 es4 es \noBreak
     es( d8.) d16 es4 r
     r8 es es es as,8. as16 as4 %70
     r2 r8 f' f b,
     as'4. as8 g!4 f
     f4. f8 es!4 es
     r c8 b! as4 as8 as
-    g4. g8 g4 r8 \tempoD-II-IXEtIpse c' %75
+    g4. g8 g4 r8 \tempoD-II-VIEtIpse c' %75
     h c g f16 g es8. d16 c8 es
     f8. f16 f8 d h4 c
     g' c,8 c g2
@@ -95,7 +95,7 @@ D-II-IXBasso = {
   }
 }
 
-D-II-IXBassoLyrics = \lyricmode {
+D-II-VIBassoLyrics = \lyricmode {
   De pro -- %3
   fun -- dis, de pro --
   fun -- dis cla -- ma -- %5

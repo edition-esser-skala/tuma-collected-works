@@ -2,17 +2,16 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 2")
+#(define option-instrument-name "b")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "D.2.7" "De profundis"
+    \section "D.2.6" "De profundis"
     \addTocEntry
-    \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \D-II-IXViolinoII }
+        \new Staff { \D-II-VIOrgano }
       >>
     }
   }

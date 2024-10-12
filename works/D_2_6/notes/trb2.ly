@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-IXTromboneII = {
+D-II-VITromboneII = {
   \relative c' {
     \clef tenor
-    \key c \dorian \time 4/4 \tempoD-II-IXDeProfundis
+    \key c \dorian \time 4/4 \tempoD-II-VIDeProfundis
     R1*4
     r2 r8 b\fE es4~ %5
     es d8 c b2
@@ -20,7 +20,7 @@ D-II-IXTromboneII = {
     es4 es r2
     r8 g, g g as4 des \noBreak
     c2 c\fermata \bar "||" %20
-    \tempoD-II-IXFiant c4.\fE c8 h c d g, \noBreak
+    \tempoD-II-VIFiant c4.\fE c8 h c d g, \noBreak
     es' d c4 c h
     c c2 b4
     as2 g
@@ -33,16 +33,16 @@ D-II-IXTromboneII = {
     h4 c h8 g c4~
     c h8 a h2 \noBreak
     c1\fermata \bar "||"
-    \tempoD-II-IXSi R1*33 \noBreak %66
+    \tempoD-II-VISi R1*33 \noBreak %66
     R1\fermata \bar "||" %67
-    \tempoD-II-IXQuia es4.\fE es8 c4 es \noBreak
+    \tempoD-II-VIQuia es4.\fE es8 c4 es \noBreak
     c b b r
     r8 b b b c8. c16 c4 %70
     r8 es es es es8. des16 des4
     r8 d d d e8. e16 f8 f
     d4. d8 es4 es
     r es8 d es4 d8 c
-    d4. d8 d4 r8 \tempoD-II-IXEtIpse es %75
+    d4. d8 d4 r8 \tempoD-II-VIEtIpse es %75
     d es d d16 d es8. es16 es8 es
     c8. c16 c8 f f4 es8 c
     h4 c8 es d2
