@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-VIIITromboneII = {
+D-II-VTromboneII = {
   \relative c' {
     \clef tenor
-    \key g \minor \time 4/4 \tempoD-II-VIII
+    \key g \minor \time 4/4 \tempoD-II-V
     r2 g4.\fE g8
     g4 g g a
     b b r8 d d4

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-VIIITenore = {
+D-II-VTenore = {
   \relative c' {
     \clef "treble_8"
-    \key g \minor \time 4/4 \autoBeamOff \tempoD-II-VIII
+    \key g \minor \time 4/4 \autoBeamOff \tempoD-II-V
     r2 \mvTr g4.\fE^\tutti g8
     g4 g g a
     b b r8 d d4
@@ -38,7 +38,7 @@ D-II-VIIITenore = {
   }
 }
 
-D-II-VIIITenoreLyrics = \lyricmode {
+D-II-VTenoreLyrics = \lyricmode {
   De pro --
   fun -- dis, de pro --
   fun -- dis cla -- ma --

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-VIIIBasso = {
+D-II-VBasso = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \autoBeamOff \tempoD-II-VIII
+    \key g \minor \time 4/4 \autoBeamOff \tempoD-II-V
     \mvTr g4.\fE^\tutti g8 g2
     g2 g4 g
     g g r8 g' d'4~
@@ -38,7 +38,7 @@ D-II-VIIIBasso = {
   }
 }
 
-D-II-VIIIBassoLyrics = \lyricmode {
+D-II-VBassoLyrics = \lyricmode {
   De pro -- fun --
   dis, de pro --
   fun -- dis cla -- ma --

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-VIIISoprano = {
+D-II-VSoprano = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoD-II-VIII
+    \key g \minor \time 4/4 \autoBeamOff \tempoD-II-V
     r2 \mvTr d4.\fE^\tutti d8
     es4 d e fis
     g g8 d' g4.( f!8)
@@ -39,7 +39,7 @@ D-II-VIIISoprano = {
   }
 }
 
-D-II-VIIISopranoLyrics = \lyricmode {
+D-II-VSopranoLyrics = \lyricmode {
   De pro --
   fun -- dis, de pro --
   fun -- dis cla -- ma --

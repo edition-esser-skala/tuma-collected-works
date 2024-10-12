@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-VIIIAlto = {
+D-II-VAlto = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoD-II-VIII
+    \key g \minor \time 4/4 \autoBeamOff \tempoD-II-V
     r2 \mvTr b4.\fE^\tutti b8
     c4 b c4. c8
     d4 d r8 b' a4
@@ -34,7 +34,7 @@ D-II-VIIIAlto = {
   }
 }
 
-D-II-VIIIAltoLyrics = \lyricmode {
+D-II-VAltoLyrics = \lyricmode {
   De pro --
   fun -- dis, de pro --
   fun -- dis cla -- ma --

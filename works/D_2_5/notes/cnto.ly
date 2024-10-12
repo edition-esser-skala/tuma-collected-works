@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-VIIICornetto = {
+D-II-VCornetto = {
   \relative c' {
     \clef soprano
-    \key g \minor \time 4/4 \tempoD-II-VIII
+    \key g \minor \time 4/4 \tempoD-II-V
     r2 d4.\fE d8
     es4 d e fis
     g g8 d' g4. f!8

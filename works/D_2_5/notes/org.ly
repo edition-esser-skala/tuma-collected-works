@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-VIIIOrgano = {
+D-II-VOrgano = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \tempoD-II-VIII
+    \key g \minor \time 4/4 \tempoD-II-V
     g2\pocoPE^\tuttiE g
     g g
     g r8 g'\fE d'4~
@@ -43,7 +43,7 @@ D-II-VIIIOrgano = {
   }
 }
 
-D-II-VIIIBassFigures = \figuremode {
+D-II-VBassFigures = \figuremode {
   <1>2 <5 3>
   <6 4>4 <5 3> <6! 4> <7\\ 4 2>
   <8 [3]>2. <5 4>8 <\t _!>
