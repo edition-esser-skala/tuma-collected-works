@@ -2,35 +2,27 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "trb 2")
+#(define option-instrument-name "fag")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "D.2.9" "Dixit Dominus"
+    \section "D.2.8" "Dixit Dominus"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \D-II-XIDixitTromboneII }
+        \new Staff { \D-II-VIIIDixitFagotto }
       >>
     }
-  }
-  \bookpart {
-    \subsection "Tecum principium"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \D-II-XITecumTromboneII }
-      >>
-    }
+    \tacet "subsection" "Tecum principium"
   }
   \bookpart {
     \subsection "Iuravit Dominus"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XIIuravitTromboneII }
+        \new Staff { \D-II-VIIIIuravitFagotto }
       >>
     }
     \tacet "subsection" "De torrente"
@@ -38,9 +30,10 @@
   \bookpart {
     \subsection "Gloria Patri"
     \addTocEntry
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \D-II-XIGloriaTromboneII }
+        \new Staff { \D-II-VIIIGloriaFagotto }
       >>
     }
   }

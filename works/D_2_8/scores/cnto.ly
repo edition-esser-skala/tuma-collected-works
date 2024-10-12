@@ -2,17 +2,20 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "fag")
+#(define option-instrument-name "cnto")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "D.2.9" "Dixit Dominus"
+    \section "D.2.8" "Dixit Dominus"
     \addTocEntry
-    \paper { systems-per-page = #5 }
+    \paper { indent = 2\cm systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \D-II-XIDixitFagotto }
+        \new Staff {
+          \set Staff.instrumentName = "Cornetto"
+          \D-II-VIIIDixitCornetto
+        }
       >>
     }
     \tacet "subsection" "Tecum principium"
@@ -22,7 +25,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XIIuravitFagotto }
+        \new Staff { \D-II-VIIIIuravitCornetto }
       >>
     }
     \tacet "subsection" "De torrente"
@@ -30,10 +33,9 @@
   \bookpart {
     \subsection "Gloria Patri"
     \addTocEntry
-    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \D-II-XIGloriaFagotto }
+        \new Staff { \D-II-VIIIGloriaCornetto }
       >>
     }
   }

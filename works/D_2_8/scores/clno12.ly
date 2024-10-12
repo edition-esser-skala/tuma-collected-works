@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "D.2.9" "Dixit Dominus"
+    \section "D.2.8" "Dixit Dominus"
     \addTocEntry
     \score {
       <<
@@ -16,11 +16,11 @@
             \set GrandStaff.instrumentName = \markup \center-column { \transposedNameShort "clno" "C" "" "1, 2" }
             \new Staff {
               \set Staff.instrumentName = "1"
-              \D-II-XIDixitClarinoI
+              \D-II-VIIIDixitClarinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \D-II-XIDixitClarinoII
+              \D-II-VIIIDixitClarinoII
             }
           >>
         >>
@@ -38,11 +38,11 @@
           \new GrandStaff <<
             \new Staff {
               \set Staff.instrumentName = "1"
-              \D-II-XIIuravitClarinoI
+              \D-II-VIIIIuravitClarinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \D-II-XIIuravitClarinoII
+              \D-II-VIIIIuravitClarinoII
             }
           >>
         >>
@@ -60,11 +60,11 @@
           \new GrandStaff <<
             \new Staff {
               \set Staff.instrumentName = "1"
-              \D-II-XIGloriaClarinoI
+              \D-II-VIIIGloriaClarinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \D-II-XIGloriaClarinoII
+              \D-II-VIIIGloriaClarinoII
             }
           >>
         >>

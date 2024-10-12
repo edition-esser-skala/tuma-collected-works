@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIDixitViolinoI = {
+D-II-VIIIDixitViolinoI = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-II-XIDixit
+    \key c \major \time 4/4 \tempoD-II-VIIIDixit
     R1*2
     r16 g''\fE a g e c c'8 \appoggiatura c h4 r
     r16 a b a f d d'8 \appoggiatura d c4 r
@@ -43,10 +43,10 @@ D-II-XIDixitViolinoI = {
   }
 }
 
-D-II-XIIuravitViolinoI = {
+D-II-VIIIIuravitViolinoI = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-II-XIIuravit
+    \key c \major \time 4/4 \tempoD-II-VIIIIuravit
       \set Score.currentBarNumber = #126
     r2 r4 g'\f
     a2 a
@@ -56,7 +56,7 @@ D-II-XIIuravitViolinoI = {
     ais h
     fis16(-.\p fis-. fis-. fis-.) fis(-. fis-. fis-. fis-.) g(-. g-. g-. g-.) g(-. g-. g-. g-.) \noBreak
     ais(-. ais-. ais-. ais-.) ais(-. ais-. ais-. ais-.) h d,(-. d-. d-.) d4\fermata \bar "||"
-    \tempoD-II-XIEtNon h'8\f h h a h h h a \noBreak
+    \tempoD-II-VIIIEtNon h'8\f h h a h h h a \noBreak
     h d4 cis8 d d' e, cis' %135
     d fis, fis e fis d d cis
     d d d d e d c a
@@ -68,7 +68,7 @@ D-II-XIIuravitViolinoI = {
     a8. a16 a4 r8 a g a
     h8. h16 c2 h4 \noBreak
     c8 c' d, h' c c, d, h' %145
-    \tempoD-II-XIDominus c,4 r r2 \noBreak
+    \tempoD-II-VIIIDominus c,4 r r2 \noBreak
     r8 a''16-!\fE a,-! f'8-! h,16-! d-! e8-! a,16-! c-! d8-! gis,16-! h-!
     c8.( h32 a) h4\trill a8 e a,4
     R1
@@ -83,13 +83,13 @@ D-II-XIIuravitViolinoI = {
     r2 r8 a16\f a, f'8 h,16 d
     e8 a,16 c d8 gis,16 h c8.( h32 a) h4\trill \noBreak
     a8 e a,4 r2\fermata \bar "||" %160
-    \tempoD-II-XIIudicabit R1 \noBreak
+    \tempoD-II-VIIIIudicabit R1 \noBreak
     e'4\fE e f2
     e r
     r h'~\fE
     h4 a8 c c2~ %165
     c8. h16 h4 r2
-    r r4 r8 \tempoD-II-XIImplebit g'\fE
+    r r4 r8 \tempoD-II-VIIIImplebit g'\fE
     g16 g g g g g g g g g a h c e, e e
     e e e e e e e e e e fis gis a8 c,~
     c a-! d-! h-! r e4 c8 %170
@@ -102,16 +102,16 @@ D-II-XIIuravitViolinoI = {
   }
 }
 
-D-II-XIGloriaViolinoI = {
+D-II-VIIIGloriaViolinoI = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-II-XIGloria
+    \key c \major \time 4/4 \tempoD-II-VIIIGloria
       \set Score.currentBarNumber = #241
     h'4\fE h8 h h4 h8 h
     c8. c16 c4 r2
     r4 e8 e d4 d8 d
     e2 d
-    \tempoD-II-XIGloriaB R1*4 %248
+    \tempoD-II-VIIIGloriaB R1*4 %248
     d8\fE h16 d c h c a h8 h c d
     e4 r c c %250
     c h8 d e4. d16 c

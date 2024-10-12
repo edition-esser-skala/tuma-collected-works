@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIDixitFagotto = {
+D-II-VIIIDixitFagotto = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoD-II-XIDixit
+    \key c \major \time 4/4 \tempoD-II-VIIIDixit
     R1*9 %9
     r2 g'\fE %10
     g g
@@ -28,10 +28,10 @@ D-II-XIDixitFagotto = {
   }
 }
 
-D-II-XIIuravitFagotto = {
+D-II-VIIIIuravitFagotto = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoD-II-XIIuravit
+    \key c \major \time 4/4 \tempoD-II-VIIIIuravit
       \set Score.currentBarNumber = #126
     r2 r4 e\fE
     e2 dis
@@ -41,7 +41,7 @@ D-II-XIIuravitFagotto = {
     cis h
     R1 \noBreak
     R1\fermata \bar "||"
-    \tempoD-II-XIEtNon r2 g8\fE g h d \noBreak
+    \tempoD-II-VIIIEtNon r2 g8\fE g h d \noBreak
     h g e'4 d r %135
     r2 d8 d fis a
     fis d h h c! h a d
@@ -53,15 +53,15 @@ D-II-XIIuravitFagotto = {
     f4 f, r8 d' e f
     g4 e8 c g2
     c4 r8 g' c,4 r %145
-    \tempoD-II-XIDominus R1*14 \noBreak %159
+    \tempoD-II-VIIIDominus R1*14 \noBreak %159
     R1\fermata \bar "||" %160
-    \tempoD-II-XIIudicabit R1 \noBreak
+    \tempoD-II-VIIIIudicabit R1 \noBreak
     a2\fE a
     a r
     r gis\fE
     a e'4 c %165
     g'2 r
-    r r4 r8 \tempoD-II-XIImplebit g\fE
+    r r4 r8 \tempoD-II-VIIIImplebit g\fE
     c h16 a g8 f e c r e
     a g!16 f e8 d c a r4
     f'4. d8 g e r a~ %170
@@ -74,16 +74,16 @@ D-II-XIIuravitFagotto = {
   }
 }
 
-D-II-XIGloriaFagotto = {
+D-II-VIIIGloriaFagotto = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoD-II-XIGloria
+    \key c \major \time 4/4 \tempoD-II-VIIIGloria
       \set Score.currentBarNumber = #241
     e2\fE d
     c r
     r4 c h2
     c2 g
-    \tempoD-II-XIGloriaB R1*12 %256
+    \tempoD-II-VIIIGloriaB R1*12 %256
     g'4\fE g g e8 g
     a4. g16 f g4 c,
     f2 e8 e f g

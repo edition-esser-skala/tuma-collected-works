@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIDixitBasso = {
+D-II-VIIIDixitBasso = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-XIDixit
+    \key c \major \time 4/4 \autoBeamOff \tempoD-II-VIIIDixit
     R1*9 %9
     r2 \mvTr g'4.\fE^\tutti g8 %10
     g2.. g8
@@ -32,7 +32,7 @@ D-II-XIDixitBasso = {
   }
 }
 
-D-II-XIDixitBassoLyrics = \lyricmode {
+D-II-VIIIDixitBassoLyrics = \lyricmode {
   Se -- de, %10
   se -- de,
   se -- de a dex -- tris, a
@@ -59,10 +59,10 @@ D-II-XIDixitBassoLyrics = \lyricmode {
   o -- rum. %37 finis
 }
 
-D-II-XITecumBasso = {
+D-II-VIIITecumBasso = {
   \relative c {
     \clef bass
-    \key g \major \time 3/4 \autoBeamOff \tempoD-II-XITecum
+    \key g \major \time 3/4 \autoBeamOff \tempoD-II-VIIITecum
       \set Score.currentBarNumber = #38
     R2.*14
     \mvTr g'2\pE^\solo fis4
@@ -118,7 +118,7 @@ D-II-XITecumBasso = {
   }
 }
 
-D-II-XITecumBassoLyrics = \lyricmode {
+D-II-VIIITecumBassoLyrics = \lyricmode {
   Te -- cum %52
   prin -- ci -- pi --
   um
@@ -169,10 +169,10 @@ D-II-XITecumBassoLyrics = \lyricmode {
   te. %113 finis
 }
 
-D-II-XIIuravitBasso = {
+D-II-VIIIIuravitBasso = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-XIIuravit
+    \key c \major \time 4/4 \autoBeamOff \tempoD-II-VIIIIuravit
       \set Score.currentBarNumber = #126
     r2 r4 \mvTr e\fE^\tutti
     e e dis4. dis8
@@ -182,7 +182,7 @@ D-II-XIIuravitBasso = {
     cis4. cis8 h2
     R1 \noBreak
     R1\fermata \bar "||"
-    \tempoD-II-XIEtNon r2 g8\fE g h d \noBreak
+    \tempoD-II-VIIIEtNon r2 g8\fE g h d \noBreak
     h g e'4 d r %135
     r2 d8 d fis a
     fis d h h c! h a d
@@ -194,15 +194,15 @@ D-II-XIIuravitBasso = {
     f8. f16 f4 r8 d e f
     g8. g16 e8 c g4. g8
     c4 r r2 %145
-    \tempoD-II-XIDominus R1*14 \noBreak %159
+    \tempoD-II-VIIIDominus R1*14 \noBreak %159
     R1\fermata \bar "||" %160
-    \tempoD-II-XIIudicabit R1 \noBreak
+    \tempoD-II-VIIIIudicabit R1 \noBreak
     \mvTr a4\fE^\tuttiE a a2
     a r
     r gis4\fE gis
     a a8 a e'4 c %165
     g'8. g16 g4 r2
-    r r4 r8 \tempoD-II-XIImplebit g\fE
+    r r4 r8 \tempoD-II-VIIIImplebit g\fE
     c([ h16 a)] g8 f e c r e
     a([ g!16 f)] e8 d c a r4
     f'4. d8 g e r a~ %170
@@ -215,7 +215,7 @@ D-II-XIIuravitBasso = {
   }
 }
 
-D-II-XIIuravitBassoLyrics = \lyricmode {
+D-II-VIIIIuravitBassoLyrics = \lyricmode {
   Iu -- %126
   ra -- vit Do -- mi --
   nus,
@@ -253,16 +253,16 @@ D-II-XIIuravitBassoLyrics = \lyricmode {
   rum. %176 finis
 }
 
-D-II-XIGloriaBasso = {
+D-II-VIIIGloriaBasso = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-XIGloria
+    \key c \major \time 4/4 \autoBeamOff \tempoD-II-VIIIGloria
       \set Score.currentBarNumber = #241
     \mvTr e4\fE^\tutti e8 e d4 d8 d
     c8. c16 c4 r2
     r4 c8 c h4 h8 h
     c2 g
-    \tempoD-II-XIGloriaB R1*12 %256
+    \tempoD-II-VIIIGloriaB R1*12 %256
     \mvTr g'4\fE^\tuttiE g g e8 g
     a4. g16([ f)] g4 c,
     f2 e8 e([ f g]
@@ -290,7 +290,7 @@ D-II-XIGloriaBasso = {
   }
 }
 
-D-II-XIGloriaBassoLyrics = \lyricmode {
+D-II-VIIIGloriaBassoLyrics = \lyricmode {
   Glo -- ri -- a Pa -- tri et %241
   Fi -- li -- o
   et Spi -- ri -- tu -- i

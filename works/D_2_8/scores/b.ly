@@ -7,11 +7,11 @@
 
 \book {
   \bookpart {
-    \section "D.2.9" "Dixit Dominus"
+    \section "D.2.8" "Dixit Dominus"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XIDixitOrgano }
+        \new Staff { \D-II-VIIIDixitOrgano }
       >>
     }
   }
@@ -20,7 +20,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XITecumOrgano }
+        \new Staff { \D-II-VIIITecumOrgano }
       >>
     }
   }
@@ -29,7 +29,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XIIuravitOrgano }
+        \new Staff { \D-II-VIIIIuravitOrgano }
       >>
     }
   }
@@ -38,7 +38,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XIDeTorrenteOrgano }
+        \new Staff { \D-II-VIIIDeTorrenteOrgano }
       >>
     }
   }
@@ -47,7 +47,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XIGloriaOrgano }
+        \new Staff { \D-II-VIIIGloriaOrgano }
       >>
     }
   }

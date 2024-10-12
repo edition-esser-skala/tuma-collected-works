@@ -6,7 +6,7 @@
 
 \book {
   \bookpart {
-    \section "D.2.9" "Dixit Dominus"
+    \section "D.2.8" "Dixit Dominus"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -14,28 +14,28 @@
         \new StaffGroup <<
           \new Staff \with { \smallStaffDistance } {
             \set Staff.instrumentName = "Cornetto"
-            \D-II-XIDixitCornetto
+            \D-II-VIIIDixitCornetto
           }
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "Trombone"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \D-II-XIDixitTromboneI
+              \D-II-VIIIDixitTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \D-II-XIDixitTromboneII
+              \D-II-VIIIDixitTromboneII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "Fagotto"
-            \D-II-XIDixitFagotto
+            \D-II-VIIIDixitFagotto
           }
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
-            \partCombine #'(0 . 10) \D-II-XIDixitClarinoI \D-II-XIDixitClarinoII
+            \partCombine #'(0 . 10) \D-II-VIIIDixitClarinoI \D-II-VIIIDixitClarinoII
           }
         >>
         \new StaffGroup <<
@@ -43,47 +43,47 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \D-II-XIDixitViolinoI
+              \D-II-VIIIDixitViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \D-II-XIDixitViolinoII
+              \D-II-VIIIDixitViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \incipitSoprano
-            \new Voice = "Soprano" { \dynamicUp \D-II-XIDixitSoprano }
+            \new Voice = "Soprano" { \dynamicUp \D-II-VIIIDixitSoprano }
           }
-          \new Lyrics \lyricsto Soprano \D-II-XIDixitSopranoLyrics
+          \new Lyrics \lyricsto Soprano \D-II-VIIIDixitSopranoLyrics
 
           \new Staff {
             \incipitAlto
-            \new Voice = "Alto" { \dynamicUp \D-II-XIDixitAlto }
+            \new Voice = "Alto" { \dynamicUp \D-II-VIIIDixitAlto }
           }
-          \new Lyrics \lyricsto Alto \D-II-XIDixitAltoLyrics
+          \new Lyrics \lyricsto Alto \D-II-VIIIDixitAltoLyrics
 
           \new Staff {
             \incipitTenore
-            \new Voice = "Tenore" { \dynamicUp \D-II-XIDixitTenore }
+            \new Voice = "Tenore" { \dynamicUp \D-II-VIIIDixitTenore }
           }
-          \new Lyrics \lyricsto Tenore \D-II-XIDixitTenoreLyrics
+          \new Lyrics \lyricsto Tenore \D-II-VIIIDixitTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \D-II-XIDixitBasso }
+            \new Voice = "Basso" { \dynamicUp \D-II-VIIIDixitBasso }
           }
-          \new Lyrics \lyricsto Basso \D-II-XIDixitBassoLyrics
+          \new Lyrics \lyricsto Basso \D-II-VIIIDixitBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
             % \transpose c c,
-            \D-II-XIDixitOrgano
+            \D-II-VIIIDixitOrgano
           }
         >>
-        \new FiguredBass { \D-II-XIDixitBassFigures }
+        \new FiguredBass { \D-II-VIIIDixitBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 90 }
@@ -110,35 +110,35 @@
             \set GrandStaff.instrumentName = "trb"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \D-II-XITecumTromboneI
+              \D-II-VIIITecumTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \D-II-XITecumTromboneII
+              \D-II-VIIITecumTromboneII
             }
           >>
         >>
         \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \D-II-XITecumTenore }
+            \new Voice = "Tenore" { \dynamicUp \D-II-VIIITecumTenore }
           }
-          \new Lyrics \lyricsto Tenore \D-II-XITecumTenoreLyrics
+          \new Lyrics \lyricsto Tenore \D-II-VIIITecumTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \D-II-XITecumBasso }
+            \new Voice = "Basso" { \dynamicUp \D-II-VIIITecumBasso }
           }
-          \new Lyrics \lyricsto Basso \D-II-XITecumBassoLyrics
+          \new Lyrics \lyricsto Basso \D-II-VIIITecumBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \D-II-XITecumOrgano
+            \D-II-VIIITecumOrgano
           }
         >>
-        \new FiguredBass { \D-II-XITecumBassFigures }
+        \new FiguredBass { \D-II-VIIITecumBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 110 }
@@ -152,28 +152,28 @@
         \new StaffGroup <<
           \new Staff \with { \smallStaffDistance } {
             \set Staff.instrumentName = "cnto"
-            \D-II-XIIuravitCornetto
+            \D-II-VIIIIuravitCornetto
           }
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "trb"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \D-II-XIIuravitTromboneI
+              \D-II-VIIIIuravitTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \D-II-XIIuravitTromboneII
+              \D-II-VIIIIuravitTromboneII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "fag"
-            \D-II-XIIuravitFagotto
+            \D-II-VIIIIuravitFagotto
           }
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine #'(0 . 10) \D-II-XIIuravitClarinoI \D-II-XIIuravitClarinoII
+            \partCombine #'(0 . 10) \D-II-VIIIIuravitClarinoI \D-II-VIIIIuravitClarinoII
           }
         >>
         \new StaffGroup <<
@@ -181,47 +181,47 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \D-II-XIIuravitViolinoI
+              \D-II-VIIIIuravitViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \D-II-XIIuravitViolinoII
+              \D-II-VIIIIuravitViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \D-II-XIIuravitSoprano }
+            \new Voice = "Soprano" { \dynamicUp \D-II-VIIIIuravitSoprano }
           }
-          \new Lyrics \lyricsto Soprano \D-II-XIIuravitSopranoLyrics
+          \new Lyrics \lyricsto Soprano \D-II-VIIIIuravitSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \D-II-XIIuravitAlto }
+            \new Voice = "Alto" { \dynamicUp \D-II-VIIIIuravitAlto }
           }
-          \new Lyrics \lyricsto Alto \D-II-XIIuravitAltoLyrics
+          \new Lyrics \lyricsto Alto \D-II-VIIIIuravitAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \D-II-XIIuravitTenore }
+            \new Voice = "Tenore" { \dynamicUp \D-II-VIIIIuravitTenore }
           }
-          \new Lyrics \lyricsto Tenore \D-II-XIIuravitTenoreLyrics
+          \new Lyrics \lyricsto Tenore \D-II-VIIIIuravitTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \D-II-XIIuravitBasso }
+            \new Voice = "Basso" { \dynamicUp \D-II-VIIIIuravitBasso }
           }
-          \new Lyrics \lyricsto Basso \D-II-XIIuravitBassoLyrics
+          \new Lyrics \lyricsto Basso \D-II-VIIIIuravitBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \D-II-XIIuravitOrgano
+            \D-II-VIIIIuravitOrgano
           }
         >>
-        \new FiguredBass { \D-II-XIIuravitBassFigures }
+        \new FiguredBass { \D-II-VIIIIuravitBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 60 } % 120 – 80 – 60 – 120
@@ -240,23 +240,23 @@
         \new ChoirStaff \with { \smallGroupDistance } <<
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \D-II-XIDeTorrenteAlto }
+            \new Voice = "Alto" { \dynamicUp \D-II-VIIIDeTorrenteAlto }
           }
-          \new Lyrics \lyricsto Alto \D-II-XIDeTorrenteAltoLyrics
+          \new Lyrics \lyricsto Alto \D-II-VIIIDeTorrenteAltoLyrics
         >>
         \new PianoStaff <<
           \set PianoStaff.instrumentName = \markup \center-column { "org" "solo" }
           \new Staff {
             \incipit " " "alto" #0 #-0.8
-            \D-II-XIDeTorrenteChords
+            \D-II-VIIIDeTorrenteChords
             }
           \new Staff {
             \set Staff.instrumentName = "b"
             % \transpose c c,
-            \D-II-XIDeTorrenteOrgano
+            \D-II-VIIIDeTorrenteOrgano
           }
         >>
-        \new FiguredBass { \D-II-XIDeTorrenteBassFigures }
+        \new FiguredBass { \D-II-VIIIDeTorrenteBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 90 }
@@ -270,28 +270,28 @@
         \new StaffGroup <<
           \new Staff \with { \smallStaffDistance } {
             \set Staff.instrumentName = "cnto"
-            \D-II-XIGloriaCornetto
+            \D-II-VIIIGloriaCornetto
           }
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "trb"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \D-II-XIGloriaTromboneI
+              \D-II-VIIIGloriaTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \D-II-XIGloriaTromboneII
+              \D-II-VIIIGloriaTromboneII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "fag"
-            \D-II-XIGloriaFagotto
+            \D-II-VIIIGloriaFagotto
           }
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine #'(0 . 10) \D-II-XIGloriaClarinoI \D-II-XIGloriaClarinoII
+            \partCombine #'(0 . 10) \D-II-VIIIGloriaClarinoI \D-II-VIIIGloriaClarinoII
           }
         >>
         \new StaffGroup <<
@@ -299,47 +299,47 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \D-II-XIGloriaViolinoI
+              \D-II-VIIIGloriaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \D-II-XIGloriaViolinoII
+              \D-II-VIIIGloriaViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \D-II-XIGloriaSoprano }
+            \new Voice = "Soprano" { \dynamicUp \D-II-VIIIGloriaSoprano }
           }
-          \new Lyrics \lyricsto Soprano \D-II-XIGloriaSopranoLyrics
+          \new Lyrics \lyricsto Soprano \D-II-VIIIGloriaSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \D-II-XIGloriaAlto }
+            \new Voice = "Alto" { \dynamicUp \D-II-VIIIGloriaAlto }
           }
-          \new Lyrics \lyricsto Alto \D-II-XIGloriaAltoLyrics
+          \new Lyrics \lyricsto Alto \D-II-VIIIGloriaAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \D-II-XIGloriaTenore }
+            \new Voice = "Tenore" { \dynamicUp \D-II-VIIIGloriaTenore }
           }
-          \new Lyrics \lyricsto Tenore \D-II-XIGloriaTenoreLyrics
+          \new Lyrics \lyricsto Tenore \D-II-VIIIGloriaTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \D-II-XIGloriaBasso }
+            \new Voice = "Basso" { \dynamicUp \D-II-VIIIGloriaBasso }
           }
-          \new Lyrics \lyricsto Basso \D-II-XIGloriaBassoLyrics
+          \new Lyrics \lyricsto Basso \D-II-VIIIGloriaBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \D-II-XIGloriaOrgano
+            \D-II-VIIIGloriaOrgano
           }
         >>
-        \new FiguredBass { \D-II-XIGloriaBassFigures }
+        \new FiguredBass { \D-II-VIIIGloriaBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 80 } % 110

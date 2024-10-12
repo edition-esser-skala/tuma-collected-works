@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIDixitClarinoII = {
+D-II-VIIIDixitClarinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-II-XIDixit
+    \key c \major \time 4/4 \tempoD-II-VIIIDixit
     e'8\fE c16 e d c d g, e8 c r4
     R1*4 %5
     r4 d'8 d c4 r
@@ -29,23 +29,23 @@ D-II-XIDixitClarinoII = {
   }
 }
 
-D-II-XIIuravitClarinoII = {
+D-II-VIIIIuravitClarinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-II-XIIuravit
+    \key c \major \time 4/4 \tempoD-II-VIIIIuravit
       \set Score.currentBarNumber = #126
     R1*7 \noBreak %132
     R1\fermata \bar "||"
-    \tempoD-II-XIEtNon R1*12 %145
-    \tempoD-II-XIDominus R1*14 \noBreak %159
+    \tempoD-II-VIIIEtNon R1*12 %145
+    \tempoD-II-VIIIDominus R1*14 \noBreak %159
     R1\fermata \bar "||" %160
-    \tempoD-II-XIIudicabit c8\pE c16 c c c c c c8 c16 c c c c c \noBreak
+    \tempoD-II-VIIIIudicabit c8\pE c16 c c c c c c8 c16 c c c c c \noBreak
     c4 r r2
     r e8\pE e16 e e e e e
     e8 e16 e e e e e e4 r
     R1 %165
     r2 g8\fE g16 g g g g g
-    g8 g,16 g g g g g g4 << { \oneVoice r } \\ { s8 \tempoD-II-XIImplebit s } >>
+    g8 g,16 g g g g g g4 << { \oneVoice r } \\ { s8 \tempoD-II-VIIIImplebit s } >>
     R1*6 %173
     c8\fE c16 c e e g g c4 r
     R1 %175
@@ -53,16 +53,16 @@ D-II-XIIuravitClarinoII = {
   }
 }
 
-D-II-XIGloriaClarinoII = {
+D-II-VIIIGloriaClarinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-II-XIGloria
+    \key c \major \time 4/4 \tempoD-II-VIIIGloria
       \set Score.currentBarNumber = #241
     R1
     r2 e'8\fE c16 d e d e d
     c4 r r d8 d
     e4 e,8 e g2
-    \tempoD-II-XIGloriaB R1 %245
+    \tempoD-II-VIIIGloriaB R1 %245
     r2 e'8\fE c16 e d c d g,
     e8 c r4 r2
     R1*2

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIDixitAlto = {
+D-II-VIIIDixitAlto = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-XIDixit
+    \key c \major \time 4/4 \autoBeamOff \tempoD-II-VIIIDixit
     r2 \mvTr g'4\pE^\solo e
     a8. a16 g4 a8 g16 a f4
     e r r2
@@ -42,7 +42,7 @@ D-II-XIDixitAlto = {
   }
 }
 
-D-II-XIDixitAltoLyrics = \lyricmode {
+D-II-VIIIDixitAltoLyrics = \lyricmode {
   Di -- xit
   Do -- mi -- nus Do -- mi -- no me --
   o,
@@ -80,10 +80,10 @@ D-II-XIDixitAltoLyrics = \lyricmode {
   o -- rum. %37 finis
 }
 
-D-II-XIIuravitAlto = {
+D-II-VIIIIuravitAlto = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-XIIuravit
+    \key c \major \time 4/4 \autoBeamOff \tempoD-II-VIIIIuravit
       \set Score.currentBarNumber = #126
     r2 r4 \mvTr g'\fE^\tutti
     fis fis fis4. fis8
@@ -93,7 +93,7 @@ D-II-XIIuravitAlto = {
     e4. e8 fis2
     R1 \noBreak
     R1\fermata \bar "||"
-    \tempoD-II-XIEtNon g8\fE g g fis g g16 g g8 fis \noBreak
+    \tempoD-II-VIIIEtNon g8\fE g g fis g g16 g g8 fis \noBreak
     g g g4 fis r %135
     d8 d fis a fis d16 fis fis8 e
     fis fis g g g g g fis
@@ -105,15 +105,15 @@ D-II-XIIuravitAlto = {
     r8 c, d e f8. f16 f4
     d8. d16 g8 g g4. g8
     g4 r r2 %145
-    \tempoD-II-XIDominus R1*14 \noBreak %159
+    \tempoD-II-VIIIDominus R1*14 \noBreak %159
     R1\fermata \bar "||" %160
-    \tempoD-II-XIIudicabit R1 \noBreak
+    \tempoD-II-VIIIIudicabit R1 \noBreak
     \mvTr e4\fE^\tuttiE e f2
     e r
     r e4\fE e
     e e8 e g!4 g %165
     g8. g16 g4 r2
-    r r4 r8 \tempoD-II-XIImplebit g\fE
+    r r4 r8 \tempoD-II-VIIIImplebit g\fE
     g4 g8 g g g r e
     e4 e8 e e e r4
     f4. f8 d g r e~ %170
@@ -126,7 +126,7 @@ D-II-XIIuravitAlto = {
   }
 }
 
-D-II-XIIuravitAltoLyrics = \lyricmode {
+D-II-VIIIIuravitAltoLyrics = \lyricmode {
   Iu -- %126
   ra -- vit Do -- mi --
   nus,
@@ -164,10 +164,10 @@ D-II-XIIuravitAltoLyrics = \lyricmode {
   rum. %176 finis
 }
 
-D-II-XIDeTorrenteAlto = {
+D-II-VIIIDeTorrenteAlto = {
   \relative c' {
     \clef treble
-    \key g \major \time 3/4 \autoBeamOff \tempoD-II-XIDeTorrente
+    \key g \major \time 3/4 \autoBeamOff \tempoD-II-VIIIDeTorrente
       \set Score.currentBarNumber = #177
     r4 \mvTr d\pE^\solo g
     fis8([ e) d( c) h( a)]
@@ -223,7 +223,7 @@ D-II-XIDeTorrenteAlto = {
   }
 }
 
-D-II-XIDeTorrenteAltoLyrics = \lyricmode {
+D-II-VIIIDeTorrenteAltoLyrics = \lyricmode {
   De tor -- %177
   ren --
   _
@@ -275,16 +275,16 @@ D-II-XIDeTorrenteAltoLyrics = \lyricmode {
   put. %232 finis
 }
 
-D-II-XIGloriaAlto = {
+D-II-VIIIGloriaAlto = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-XIGloria
+    \key c \major \time 4/4 \autoBeamOff \tempoD-II-VIIIGloria
       \set Score.currentBarNumber = #241
     \mvTr g'4\fE^\tutti g8 g f4 f8 f
     g8. g16 g4 r2
     r4 g8 g g4 g8 g
     g2 g
-    \tempoD-II-XIGloriaB \mvTr g4.\pE^\solo e8 a a g a %245
+    \tempoD-II-VIIIGloriaB \mvTr g4.\pE^\solo e8 a a g a %245
     f4. f8 e4 r
     r8 g d g e16[ d c d] e[ f g d]
     e[ d c d] e[ f g f] e2
@@ -322,7 +322,7 @@ D-II-XIGloriaAlto = {
   }
 }
 
-D-II-XIGloriaAltoLyrics = \lyricmode {
+D-II-VIIIGloriaAltoLyrics = \lyricmode {
   Glo -- ri -- a Pa -- tri et %241
   Fi -- li -- o
   et Spi -- ri -- tu -- i

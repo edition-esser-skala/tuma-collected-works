@@ -7,11 +7,11 @@
 
 \book {
   \bookpart {
-    \section "D.2.9" "Dixit Dominus"
+    \section "D.2.8" "Dixit Dominus"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XIDixitViolinoI }
+        \new Staff { \D-II-VIIIDixitViolinoI }
       >>
     }
     \tacet "subsection" "Tecum principium"
@@ -21,7 +21,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XIIuravitViolinoI }
+        \new Staff { \D-II-VIIIIuravitViolinoI }
       >>
     }
     \tacet "subsection" "De torrente"
@@ -31,7 +31,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XIGloriaViolinoI }
+        \new Staff { \D-II-VIIIGloriaViolinoI }
       >>
     }
   }

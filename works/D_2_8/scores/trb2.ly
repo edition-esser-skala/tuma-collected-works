@@ -2,17 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "trb 1")
+#(define option-instrument-name "trb 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "D.2.9" "Dixit Dominus"
+    \section "D.2.8" "Dixit Dominus"
     \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \D-II-XIDixitTromboneI }
+        \new Staff { \D-II-VIIIDixitTromboneII }
       >>
     }
   }
@@ -21,7 +21,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XITecumTromboneI }
+        \new Staff { \D-II-VIIITecumTromboneII }
       >>
     }
   }
@@ -30,7 +30,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XIIuravitTromboneI }
+        \new Staff { \D-II-VIIIIuravitTromboneII }
       >>
     }
     \tacet "subsection" "De torrente"
@@ -40,7 +40,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XIGloriaTromboneI }
+        \new Staff { \D-II-VIIIGloriaTromboneII }
       >>
     }
   }

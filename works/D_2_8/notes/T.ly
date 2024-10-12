@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIDixitTenore = {
+D-II-VIIIDixitTenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-XIDixit
+    \key c \major \time 4/4 \autoBeamOff \tempoD-II-VIIIDixit
     R1*8 %8
     \mvTr e8\fE^\tutti e f e r e f e
     r e f e d d d d %10
@@ -31,7 +31,7 @@ D-II-XIDixitTenore = {
   }
 }
 
-D-II-XIDixitTenoreLyrics = \lyricmode {
+D-II-VIIIDixitTenoreLyrics = \lyricmode {
   Se -- de, se -- de a dex -- tris, %9
   a dex -- tris me -- is, se -- de, %10
   se -- de a dex -- tris me --
@@ -57,10 +57,10 @@ D-II-XIDixitTenoreLyrics = \lyricmode {
   o -- rum. %37 finis
 }
 
-D-II-XITecumTenore = {
+D-II-VIIITecumTenore = {
   \relative c' {
     \clef "treble_8"
-    \key g \major \time 3/4 \autoBeamOff \tempoD-II-XITecum
+    \key g \major \time 3/4 \autoBeamOff \tempoD-II-VIIITecum
       \set Score.currentBarNumber = #38
     R2.*12 %49
     \mvTr d2\pE^\solo h4 %50
@@ -120,7 +120,7 @@ D-II-XITecumTenore = {
   }
 }
 
-D-II-XITecumTenoreLyrics = \lyricmode {
+D-II-VIIITecumTenoreLyrics = \lyricmode {
   Te -- cum %50
   prin -- ci -- pi --
   um
@@ -175,10 +175,10 @@ D-II-XITecumTenoreLyrics = \lyricmode {
   te. %113 finis
 }
 
-D-II-XIIuravitTenore = {
+D-II-VIIIIuravitTenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-XIIuravit
+    \key c \major \time 4/4 \autoBeamOff \tempoD-II-VIIIIuravit
       \set Score.currentBarNumber = #126
     r4 \mvTr h\fE^\tutti h2(
     c4) c h4. h8
@@ -188,7 +188,7 @@ D-II-XIIuravitTenore = {
     e4. e8 d2
     R1 \noBreak
     R\fermata \bar "||"
-    \tempoD-II-XIEtNon g,8\fE g h d h g16 h d8 d \noBreak
+    \tempoD-II-VIIIEtNon g,8\fE g h d h g16 h d8 d \noBreak
     d h g4 a r %135
     r2 a8 a a a
     a a h h g h c d
@@ -200,15 +200,15 @@ D-II-XIIuravitTenore = {
     r8 a, h c d8. d16 d4
     d8. d16 e8 e d4. d8
     e4 r r2 %145
-    \tempoD-II-XIDominus R1*14 \noBreak %159
+    \tempoD-II-VIIIDominus R1*14 \noBreak %159
     R1\fermata \bar "||" %160
-    \tempoD-II-XIIudicabit R1 \noBreak
+    \tempoD-II-VIIIIudicabit R1 \noBreak
     \mvTr c4\fE^\tuttiE c d2
     c r
     r d4\fE d
     c c8 e e4 e %165
     d8. d16 d4 r2
-    r r4 r8 \tempoD-II-XIImplebit d\fE
+    r r4 r8 \tempoD-II-VIIIImplebit d\fE
     e8([ d16 c)] h8 h c c r gis
     a4 h8 h c c r4
     a4. h8^\critnote h c r c~ %170
@@ -221,7 +221,7 @@ D-II-XIIuravitTenore = {
   }
 }
 
-D-II-XIIuravitTenoreLyrics = \lyricmode {
+D-II-VIIIIuravitTenoreLyrics = \lyricmode {
   Iu -- ra -- %126
   vit Do -- mi --
   nus,
@@ -259,16 +259,16 @@ D-II-XIIuravitTenoreLyrics = \lyricmode {
   rum. %176 finis
 }
 
-D-II-XIGloriaTenore = {
+D-II-VIIIGloriaTenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-XIGloria
+    \key c \major \time 4/4 \autoBeamOff \tempoD-II-VIIIGloria
       \set Score.currentBarNumber = #241
     \mvTr e4\fE^\tutti e8 e f4 d8 d
     e8. e16 e4 r2
     r4 c8 c d4 d8 d
     d4( c) h2
-    \tempoD-II-XIGloriaB R1*10 %254
+    \tempoD-II-VIIIGloriaB R1*10 %254
     \mvTr c4\fE^\tuttiE c c h8 d %255
     e4. d16([ c)] d4 g,
     r8 h([ c d] e) h r h
@@ -300,7 +300,7 @@ D-II-XIGloriaTenore = {
   }
 }
 
-D-II-XIGloriaTenoreLyrics = \lyricmode {
+D-II-VIIIGloriaTenoreLyrics = \lyricmode {
   Glo -- ri -- a Pa -- tri et %241
   Fi -- li -- o
   et Spi -- ri -- tu -- i

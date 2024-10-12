@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIDixitCornetto = {
+D-II-VIIIDixitCornetto = {
   \relative c' {
     \clef soprano
-    \key c \major \time 4/4 \tempoD-II-XIDixit
+    \key c \major \time 4/4 \tempoD-II-VIIIDixit
     R1*7 %7
     r2 r4 c'8\fE c
     c1~
@@ -31,10 +31,10 @@ D-II-XIDixitCornetto = {
   }
 }
 
-D-II-XIIuravitCornetto = {
+D-II-VIIIIuravitCornetto = {
   \relative c' {
     \clef soprano
-    \key c \major \time 4/4 \tempoD-II-XIIuravit
+    \key c \major \time 4/4 \tempoD-II-VIIIIuravit
       \set Score.currentBarNumber = #126
     r2 r4 g'\fE
     a a a4. a8
@@ -44,7 +44,7 @@ D-II-XIIuravitCornetto = {
     ais4. ais8 h2
     R1 \noBreak
     R\fermata \bar "||"
-    \tempoD-II-XIEtNon h8\fE h h a h h16 h h8 a \noBreak
+    \tempoD-II-VIIIEtNon h8\fE h h a h h16 h h8 a \noBreak
     h d d cis d4 r %135
     d8 d d cis d d16 d d8 cis
     d d d d e d c a
@@ -56,15 +56,15 @@ D-II-XIIuravitCornetto = {
     a8. a16 a4 r8 a g a
     h8. h16 c8 c c4 h \noBreak
     c r r2 %145
-    \tempoD-II-XIDominus R1*14 \noBreak
+    \tempoD-II-VIIIDominus R1*14 \noBreak
     R1\fermata \bar "||" %160
-    \tempoD-II-XIIudicabit R1 \noBreak
+    \tempoD-II-VIIIIudicabit R1 \noBreak
     a4\fE a a2
     a r
     r h4\fE h
     h a8 c c4 c %165
     c8. h16 h4 r2
-    r2 r4 r8 \tempoD-II-XIImplebit h\fE
+    r2 r4 r8 \tempoD-II-VIIIImplebit h\fE
     c4 d8 d e e r h
     c h16 a gis8 gis a a r c~
     c a d h r e4 c8 %170
@@ -77,16 +77,16 @@ D-II-XIIuravitCornetto = {
   }
 }
 
-D-II-XIGloriaCornetto = {
+D-II-VIIIGloriaCornetto = {
   \relative c' {
     \clef soprano
-    \key c \major \time 4/4 \tempoD-II-XIGloria
+    \key c \major \time 4/4 \tempoD-II-VIIIGloria
       \set Score.currentBarNumber = #241
     h'4\fE h8 h h4 h8 h
     c4 c r2
     r4 e8 e d4 d8 d
     e2 d
-    \tempoD-II-XIGloriaB R1*5 %249
+    \tempoD-II-VIIIGloriaB R1*5 %249
     r2 c4\fE c %250
     c h8 d e4. d16 c
     d4 g, r8 h c d

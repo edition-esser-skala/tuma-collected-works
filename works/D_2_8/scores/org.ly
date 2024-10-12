@@ -7,12 +7,12 @@
 
 \book {
   \bookpart {
-    \section "D.2.9" "Dixit Dominus"
+    \section "D.2.8" "Dixit Dominus"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XIDixitOrgano }
-        \new FiguredBass { \D-II-XIDixitBassFigures }
+        \new Staff { \D-II-VIIIDixitOrgano }
+        \new FiguredBass { \D-II-VIIIDixitBassFigures }
       >>
     }
   }
@@ -21,8 +21,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XITecumOrgano }
-        \new FiguredBass { \D-II-XITecumBassFigures }
+        \new Staff { \D-II-VIIITecumOrgano }
+        \new FiguredBass { \D-II-VIIITecumBassFigures }
       >>
     }
   }
@@ -31,8 +31,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XIIuravitOrgano }
-        \new FiguredBass { \D-II-XIIuravitBassFigures }
+        \new Staff { \D-II-VIIIIuravitOrgano }
+        \new FiguredBass { \D-II-VIIIIuravitBassFigures }
       >>
     }
   }
@@ -50,14 +50,14 @@
           \set PianoStaff.instrumentName = \markup \center-column { "org" "solo" }
           \new Staff {
             \set Staff.instrumentName = ##f
-            \D-II-XIDeTorrenteChords
+            \D-II-VIIIDeTorrenteChords
           }
           \new Staff {
             \set Staff.instrumentName = ##f
-            \D-II-XIDeTorrenteOrgano
+            \D-II-VIIIDeTorrenteOrgano
           }
         >>
-        \new FiguredBass { \D-II-XIDeTorrenteBassFigures }
+        \new FiguredBass { \D-II-VIIIDeTorrenteBassFigures }
       >>
     }
   }
@@ -66,8 +66,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XIGloriaOrgano }
-        \new FiguredBass { \D-II-XIGloriaBassFigures }
+        \new Staff { \D-II-VIIIGloriaOrgano }
+        \new FiguredBass { \D-II-VIIIGloriaBassFigures }
       >>
     }
   }

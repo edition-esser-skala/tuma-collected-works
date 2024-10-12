@@ -2,30 +2,35 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "cnto")
+#(define option-instrument-name "trb 1")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "D.2.9" "Dixit Dominus"
+    \section "D.2.8" "Dixit Dominus"
     \addTocEntry
-    \paper { indent = 2\cm systems-per-page = #7 }
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff {
-          \set Staff.instrumentName = "Cornetto"
-          \D-II-XIDixitCornetto
-        }
+        \new Staff { \D-II-VIIIDixitTromboneI }
       >>
     }
-    \tacet "subsection" "Tecum principium"
+  }
+  \bookpart {
+    \subsection "Tecum principium"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \D-II-VIIITecumTromboneI }
+      >>
+    }
   }
   \bookpart {
     \subsection "Iuravit Dominus"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XIIuravitCornetto }
+        \new Staff { \D-II-VIIIIuravitTromboneI }
       >>
     }
     \tacet "subsection" "De torrente"
@@ -35,7 +40,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XIGloriaCornetto }
+        \new Staff { \D-II-VIIIGloriaTromboneI }
       >>
     }
   }

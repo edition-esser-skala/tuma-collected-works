@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIDixitSoprano = {
+D-II-VIIIDixitSoprano = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-XIDixit
+    \key c \major \time 4/4 \autoBeamOff \tempoD-II-VIIIDixit
     R1*7 %7
     r2 r4 \mvTr c'8\fE^\tutti c
     c1~
@@ -31,7 +31,7 @@ D-II-XIDixitSoprano = {
   }
 }
 
-D-II-XIDixitSopranoLyrics = \lyricmode {
+D-II-VIIIDixitSopranoLyrics = \lyricmode {
   Se -- de, %8
   se -- de a
   dex -- tris, a dex -- tris me -- %10
@@ -56,10 +56,10 @@ D-II-XIDixitSopranoLyrics = \lyricmode {
   o -- rum. %37 finis
 }
 
-D-II-XIIuravitSoprano = {
+D-II-VIIIIuravitSoprano = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-XIIuravit
+    \key c \major \time 4/4 \autoBeamOff \tempoD-II-VIIIIuravit
       \set Score.currentBarNumber = #126
     r2 r4 \mvTr g'\fE^\tutti
     a a a4. a8
@@ -69,7 +69,7 @@ D-II-XIIuravitSoprano = {
     ais4. ais8 h2
     R1 \noBreak
     R\fermata \bar "||"
-    \tempoD-II-XIEtNon h8\fE h h a h h16 h h8 a \noBreak
+    \tempoD-II-VIIIEtNon h8\fE h h a h h16 h h8 a \noBreak
     h d d([ cis)] d4 r %135
     d8 d d cis d d16 d d8 cis
     d d d d e d c a
@@ -81,7 +81,7 @@ D-II-XIIuravitSoprano = {
     a8. a16 a4 r8 a g a
     h8. h16 c8 c c4 h \noBreak
     c r r2 %145
-    \tempoD-II-XIDominus \mvTr e4.\pE^\solo f8 d f \appoggiatura f e8. d16 \noBreak
+    \tempoD-II-VIIIDominus \mvTr e4.\pE^\solo f8 d f \appoggiatura f e8. d16 \noBreak
     c([ h)] a8 r4 r2
     r e'4. f8
     d f \appoggiatura f e8. d16 c([ h)] a e a([ h c d]
@@ -96,13 +96,13 @@ D-II-XIIuravitSoprano = {
     c h16([ a)] h4\trill a r
     R1 \noBreak
     R\fermata \bar "||" %160
-    \tempoD-II-XIIudicabit R1 \noBreak
+    \tempoD-II-VIIIIudicabit R1 \noBreak
     \mvTr a4\fE^\tutti a a2
     a r
     r h4\fE h
     h a8 c c4 c %165
     c8. h16 h4 r2
-    r2 r4 r8 \tempoD-II-XIImplebit h\fE
+    r2 r4 r8 \tempoD-II-VIIIImplebit h\fE
     c4 d8 d e e r h
     c([ h16 a)] gis8 gis a a r c~
     c a d h r e4 c8 %170
@@ -115,7 +115,7 @@ D-II-XIIuravitSoprano = {
   }
 }
 
-D-II-XIIuravitSopranoLyrics = \lyricmode {
+D-II-VIIIIuravitSopranoLyrics = \lyricmode {
   Iu -- %126
   ra -- vit Do -- mi --
   nus,
@@ -166,16 +166,16 @@ D-II-XIIuravitSopranoLyrics = \lyricmode {
   rum. %176 finis
 }
 
-D-II-XIGloriaSoprano = {
+D-II-VIIIGloriaSoprano = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-XIGloria
+    \key c \major \time 4/4 \autoBeamOff \tempoD-II-VIIIGloria
       \set Score.currentBarNumber = #241
     \mvTr h'4\fE^\tutti h8 h h4 h8 h
     c8. c16 c4 r2
     r4 e8 e d4 d8 d
     e2 d
-    \tempoD-II-XIGloriaB R1*5 %249
+    \tempoD-II-VIIIGloriaB R1*5 %249
     r2 \mvTr c4\fE^\tuttiE c %250
     c h8 d e4. d16([ c])
     d4 g, r8 h([ c d]
@@ -210,7 +210,7 @@ D-II-XIGloriaSoprano = {
   }
 }
 
-D-II-XIGloriaSopranoLyrics = \lyricmode {
+D-II-VIIIGloriaSopranoLyrics = \lyricmode {
   Glo -- ri -- a Pa -- tri et %241
   Fi -- li -- o
   et Spi -- ri -- tu -- i

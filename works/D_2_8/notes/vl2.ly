@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIDixitViolinoII = {
+D-II-VIIIDixitViolinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-II-XIDixit
+    \key c \major \time 4/4 \tempoD-II-VIIIDixit
     R1*2
     r2 r16 d'\fE e d h g g'8
     \appoggiatura g f4 r r16 e f e c a a'8
@@ -43,10 +43,10 @@ D-II-XIDixitViolinoII = {
   }
 }
 
-D-II-XIIuravitViolinoII = {
+D-II-VIIIIuravitViolinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-II-XIIuravit
+    \key c \major \time 4/4 \tempoD-II-VIIIIuravit
       \set Score.currentBarNumber = #126
     r2 r4 g'\f
     fis1
@@ -56,7 +56,7 @@ D-II-XIIuravitViolinoII = {
     e fis
     d16(-.\p d-. d-. d-.) d(-. d-. d-. d-.) e(-. e-. e-. e-.) e(-. e-. e-. e-.) \noBreak
     <cis e>(-. q-. q-. q-.) q(-. q-. q-. q-.) d h(-. h-. h-.) h4\fermata \bar "||"
-    \tempoD-II-XIEtNon g'8\f g g fis g g g fis \noBreak
+    \tempoD-II-VIIIEtNon g'8\f g g fis g g g fis \noBreak
     g g g4 fis8 d'' e, cis' %135
     d d, d cis d fis, fis e
     fis fis g g g g g fis
@@ -68,7 +68,7 @@ D-II-XIIuravitViolinoII = {
     r8 c, d e f8. f16 f4
     d8 g g4 g2 \noBreak
     g8 c' d, h' c c, d, h' %145
-    \tempoD-II-XIDominus c,4 r r2 \noBreak
+    \tempoD-II-VIIIDominus c,4 r r2 \noBreak
     r4 f16\fE a d,8 g16 e c8 f16 d h8
     a16 e' a4 gis8 a e a,4
     R1
@@ -82,13 +82,13 @@ D-II-XIIuravitViolinoII = {
     r2 r4 f16\f a d,8
     g16 e c8 f16 d h8 a16 e' a4 gis8 \noBreak
     a e a,4 r2\fermata \bar "||" %160
-    \tempoD-II-XIIudicabit R1 \noBreak
+    \tempoD-II-VIIIIudicabit R1 \noBreak
     c4\fE c d2
     c r
     r e\fE
     e g! %165
     g r
-    r r4 r8 \tempoD-II-XIImplebit g'\fE
+    r r4 r8 \tempoD-II-VIIIImplebit g'\fE
     g16 g g g g g g g g g a h c e, e e
     e e e e e e e e e e fis gis a8 \once \tieDashed c,~
     c a-! d-! h-! r e4 c8 %170
@@ -101,16 +101,16 @@ D-II-XIIuravitViolinoII = {
   }
 }
 
-D-II-XIGloriaViolinoII = {
+D-II-VIIIGloriaViolinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-II-XIGloria
+    \key c \major \time 4/4 \tempoD-II-VIIIGloria
       \set Score.currentBarNumber = #241
     g'4\fE g8 g f4 f8 f
     g8. g16 g4 r2
     r4 g8 g g4 g8 g
     g2 h
-    \tempoD-II-XIGloriaB R1*4 %248
+    \tempoD-II-VIIIGloriaB R1*4 %248
     h8\fE g16 h a g a fis g8 g a h
     c4 r r2 %250
     R1

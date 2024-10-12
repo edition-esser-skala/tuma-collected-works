@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIDixitOrgano = {
+D-II-VIIIDixitOrgano = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoD-II-XIDixit
+    \key c \major \time 4/4 \tempoD-II-VIIIDixit
     \mvTr c4\fE-\solo d8 g c,\pE d e c
     f a16 h c8 e, f e d g
     c,4.\fE e16 f g4 g,8 h16 c
@@ -44,7 +44,7 @@ D-II-XIDixitOrgano = {
   }
 }
 
-D-II-XIDixitBassFigures = \figuremode {
+D-II-VIIIDixitBassFigures = \figuremode {
   r4 <7>2.
   r4. <6>4 <[6]>8 <7> q
   r4. <6>8 \bo <[4]>8 \bc <[3]>4 <6>8
@@ -84,10 +84,10 @@ D-II-XIDixitBassFigures = \figuremode {
   <5 4>4 \bc <[\t 3]>2. %37 finis
 }
 
-D-II-XITecumOrgano = {
+D-II-VIIITecumOrgano = {
   \relative c {
     \clef bass
-    \key g \major \time 3/4 \tempoD-II-XITecum
+    \key g \major \time 3/4 \tempoD-II-VIIITecum
       \set Score.currentBarNumber = #38
     \mvTr g4\fE-\solo h2
     c4 a d
@@ -180,7 +180,7 @@ D-II-XITecumOrgano = {
   }
 }
 
-D-II-XITecumBassFigures = \figuremode {
+D-II-VIIITecumBassFigures = \figuremode {
   r4 <6>2 %38
   r4 <7> q
   r2 <6>4 %40
@@ -271,10 +271,10 @@ D-II-XITecumBassFigures = \figuremode {
   r %125 finis
 }
 
-D-II-XIIuravitOrgano = {
+D-II-VIIIIuravitOrgano = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoD-II-XIIuravit
+    \key c \major \time 4/4 \tempoD-II-VIIIIuravit
       \set Score.currentBarNumber = #126
     r2 r4 \mvTr e\fE-\tutti
     e2 dis
@@ -284,7 +284,7 @@ D-II-XIIuravitOrgano = {
     cis h
     \mvTr h1\p-\senzaOrg \noBreak
     h\fermata \bar "||"
-    \clef "treble_8" \tempoD-II-XIEtNon
+    \clef "treble_8" \tempoD-II-VIIIEtNon
       \mvTr g'8\fE-\colOrg g h d \clef bass g,, g h d \noBreak
     h g e'4 d r8 a' %135
     d \clef treble d[ fis a] \clef bass d,, d fis a
@@ -297,7 +297,7 @@ D-II-XIIuravitOrgano = {
     f4 f, r8 d' e f
     g4 e8 c g2 \noBreak
     c4 r8 g'-\soloE c,4 r8 g' %145
-    \tempoD-II-XIDominus c, h\pE c a h a gis e \noBreak
+    \tempoD-II-VIIIDominus c, h\pE c a h a gis e \noBreak
     a4 d16\fE f g8 c,16 e f8 h,16 d e8
     a, c d e a, h\pE c a
     h a gis e a4 r
@@ -312,13 +312,13 @@ D-II-XIIuravitOrgano = {
     a8 f d e a,4\fE d16 f g8
     c,16 e f8 h,16 d e8 a, c d e \noBreak
     a,2 r\fermata \bar "||" %160
-    \tempoD-II-XIIudicabit R1 \noBreak
+    \tempoD-II-VIIIIudicabit R1 \noBreak
     \mvTr a2\fE-\tutti a
     a \mvTr a4\p-\senzaOrg r
     a r \mvTr gis2\f-\colOrg
     a e'4 c %165
     g'2 \mvTr g4\p-\senzaOrg r
-    g, r g r8 \tempoD-II-XIImplebit \mvTr g'\f-\colOrg \noBreak
+    g, r g r8 \tempoD-II-VIIIImplebit \mvTr g'\f-\colOrg \noBreak
     c h16 a g8 f e c r e
     a g!16 f e8 d c a r4
     f'4. d8 g e r a~ %170
@@ -331,7 +331,7 @@ D-II-XIIuravitOrgano = {
   }
 }
 
-D-II-XIIuravitBassFigures = \figuremode {
+D-II-VIIIIuravitBassFigures = \figuremode {
   r1 %126
   <4 2\+>2 <6 5 [_+]>
   r1
@@ -385,10 +385,10 @@ D-II-XIIuravitBassFigures = \figuremode {
   <3>1 %176 finis
 }
 
-D-II-XIDeTorrenteChords = {
+D-II-VIIIDeTorrenteChords = {
   \relative c' {
     \clef treble
-    \key g \major \time 3/4 \tempoD-II-XIDeTorrente
+    \key g \major \time 3/4 \tempoD-II-VIIIDeTorrente
       \set Score.currentBarNumber = #177
     << {
       \tiny \mvTr <h d>2._\critnote
@@ -505,10 +505,10 @@ D-II-XIDeTorrenteChords = {
   }
 }
 
-D-II-XIDeTorrenteOrgano = {
+D-II-VIIIDeTorrenteOrgano = {
   \relative c {
     \clef bass
-    \key g \major \time 3/4 \tempoD-II-XIDeTorrente
+    \key g \major \time 3/4 \tempoD-II-VIIIDeTorrente
       \set Score.currentBarNumber = #177
     \mvTr g4\pE-\solo h g
     d'2 fis4
@@ -577,7 +577,7 @@ D-II-XIDeTorrenteOrgano = {
   }
 }
 
-D-II-XIDeTorrenteBassFigures = \figuremode {
+D-II-VIIIDeTorrenteBassFigures = \figuremode {
   r2. %177
   r
   r4 <6> <5>
@@ -644,16 +644,16 @@ D-II-XIDeTorrenteBassFigures = \figuremode {
   r %240 finis
 }
 
-D-II-XIGloriaOrgano = {
+D-II-VIIIGloriaOrgano = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoD-II-XIGloria
+    \key c \major \time 4/4 \tempoD-II-VIIIGloria
       \set Score.currentBarNumber = #241
     \mvTr e2\fE-\tutti d
     c r
     r4 c h2
     c g
-    \tempoD-II-XIGloriaB \mvTr c8\pE-\soloE d e c f a16 h c8 c, %245
+    \tempoD-II-VIIIGloriaB \mvTr c8\pE-\soloE d e c f a16 h c8 c, %245
     d e f g c,4\fE d8 g
     c, e\pE h g c4 r8 h
     c4 r8 h c d e f
@@ -708,7 +708,7 @@ D-II-XIGloriaOrgano = {
   }
 }
 
-D-II-XIGloriaBassFigures = \figuremode {
+D-II-VIIIGloriaBassFigures = \figuremode {
   r2 <6> %241
   r1
   r2 <6>
