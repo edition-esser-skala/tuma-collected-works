@@ -1,0 +1,35 @@
+title: Stabat mater
+id: TumW G.5
+genre: sequence
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-GÖ
+    shelfmark: 1785
+    date: 1751
+    license: public domain
+    principal: true
+    notes: 9 parts (S, A, T, B, trb 1, trb 2, vl 1, vl 2, org)
+toe: |
+  12     & vl 1  & 3rd \quarterNote\ in \B1: c″8–c″8 \\
+  20     & vl 2  & 4th \quarterNote\ in \B1: \flat e4 \\
+  24     & trb 1, vl 2, A & 4th \quarterNote\ in \B1: f′8.–e′16 \\
+  24     & trb 2, T & 2nd \quarterNote\ in \B1: \flat e4 \\
+  87–89  & trb 1 & in \B1 colla parte with A \\
+  87f    & vl 2  & in \B1 colla parte with A \\
+  92–122 & –     & In the single known source \B1, violins and trombones pause
+                   in this movement. However, it is highly likely that a
+                   solo instrument has been lost during the creation of
+                   the manuscript copy. Thus, addition of, e.\,g.,
+                   a trombone solo is left as an exercise
+                   for the period performer. \\
+  148    & S     & 2nd \halfNote\ in \B1: \sharp c″4.–d″8 \\
+  150–192 & vl   & Slurs in this movement have been tacitly emended. \\
+  163    & T     & 4th \quarterNote\ in \B1: \sharp c′8.–\sharp c′16 \\
+  173    & vl 2  & grace note added by editor \\
+  183    & vl 1  & 4th \eighthNote\ in \B1: \sharp f″16–e″16 \\
+  183    & vl 2  & 3rd \quarterNote\ in \B1: g″4 \\
+  184    & vl 1  & 5th \eighthNote\ in \B1: c″8 \\
+  185    & vl    & 1st \quarterNote\ in \B1: c″4 \\
+  230    & A     & bar in \B1: g′1. \\
