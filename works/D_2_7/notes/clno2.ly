@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XClarinoII = {
+D-II-VIIClarinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-II-XDixit
+    \key c \major \time 4/4 \tempoD-II-VIIDixit
     c'4\fE d c8. c16 c4
     c8 c d4 g, r
     r r8 d' e e d4
@@ -28,11 +28,11 @@ D-II-XClarinoII = {
     d4. e8 d e d4 %40
     e8 e c4 c8 e, g g16 g \noBreak
     e4 r r2\fermata \bar "||"
-    \tempoD-II-XIudicabit R1 \noBreak
+    \tempoD-II-VIIIudicabit R1 \noBreak
     c8\fE c16 c c c c c c8 c16 c c c c c
     c8 c16 c c c c c c8 c16 c c c c c %45
     g'8 g16 g g g g g g8 g,16 g g g g g
-    g8 g16 g \tempoD-II-XImplebit g4 r r8 g'
+    g8 g16 g \tempoD-II-VIIImplebit g4 r r8 g'
     c c16 c c c c c c4 r
     R1*2 %50
     r8 g g g c4 r8 c

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XTimpani = {
+D-II-VIITimpani = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoD-II-XDixit
+    \key c \major \time 4/4 \tempoD-II-VIIDixit
     c8\fE c16 c g8 g16 g c4 r8 c
     c c r g16 g c4 r
     r r8 g c4 r
@@ -26,9 +26,9 @@ D-II-XTimpani = {
     r2 g8 c g g16 g %40
     c4 r8 g c c16 c g8 g16 g \noBreak
     c4 r r2\fermata \bar "||"
-    \tempoD-II-XIudicabit R1*3 %45
+    \tempoD-II-VIIIudicabit R1*3 %45
     r8 g16\fE g g8 g16 g g8 g16 g g g g g
-    g4 \tempoD-II-XImplebit r r r8 g
+    g4 \tempoD-II-VIIImplebit r r r8 g
     c c16 c c4 r2
     R1*3 %51
     r2 r8 g16 g g8 g

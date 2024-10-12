@@ -10,7 +10,7 @@
 
 \book {
   \bookpart {
-    \section "D.2.8" "Dixit Dominus"
+    \section "D.2.7" "Dixit Dominus"
     \addTocEntry
     \paper { page-count = #2 }
     \score {
@@ -20,17 +20,17 @@
             \set GrandStaff.instrumentName = \transposedNameShort "clno" "C" ""
             \new Staff {
               \set Staff.instrumentName = "1"
-              \D-II-XClarinoI
+              \D-II-VIIClarinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \D-II-XClarinoII
+              \D-II-VIIClarinoII
             }
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
-          \D-II-XTimpani
+          \D-II-VIITimpani
         }
       >>
     }

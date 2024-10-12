@@ -1,8 +1,8 @@
 \version "2.24.2"
 
-tempoD-II-XDixit = \tempoMarkup "[Allegro]"
-tempoD-II-XIudicabit = \tempoMarkup "Adagio"
-tempoD-II-XImplebit = \tempoMarkup "Allegro"
+tempoD-II-VIIDixit = \tempoMarkup "[Allegro]"
+tempoD-II-VIIIudicabit = \tempoMarkup "Adagio"
+tempoD-II-VIIImplebit = \tempoMarkup "Allegro"
 
 \include "notes/cnto.ly"
 \include "notes/fag.ly"

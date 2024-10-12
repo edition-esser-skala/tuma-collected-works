@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XTenore = {
+D-II-VIITenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-XDixit
+    \key c \major \time 4/4 \autoBeamOff \tempoD-II-VIIDixit
     \mvDl e4\fE^\tuttiE d c8. c16 g4
     c8 c16 c d4 e r
     r8 h c d c c a4
@@ -34,11 +34,11 @@ D-II-XTenore = {
     d d d e d e d4 %40
     c r r8 c c([ h)] \noBreak
     c4 r r2\fermata \bar "||"
-    \tempoD-II-XIudicabit r2 r4 \mvTr c8\fE^\tutti c \noBreak
+    \tempoD-II-VIIIudicabit r2 r4 \mvTr c8\fE^\tutti c \noBreak
     c1
     c4 c c c %45
     d2. d4
-    d \tempoD-II-XImplebit r8 d e!4 h8 h
+    d \tempoD-II-VIIImplebit r8 d e!4 h8 h
     c c r4 e e
     e8 e r4 f e
     f8 f r4 d d %50
@@ -66,7 +66,7 @@ D-II-XTenore = {
   }
 }
 
-D-II-XTenoreLyrics = \lyricmode {
+D-II-VIITenoreLyrics = \lyricmode {
   Di -- xit Do -- mi -- nus
   Do -- mi -- no me -- o:
   Se -- de a dex -- tris me --

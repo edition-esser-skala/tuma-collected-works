@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XCornetto = {
+D-II-VIICornetto = {
   \relative c' {
     \clef soprano
-    \key c \major \time 4/4 \tempoD-II-XDixit
+    \key c \major \time 4/4 \tempoD-II-VIIDixit
     c'4\fE h c8. c16 c4
     c8 c16 c c8 h c4 r
     r8 d c h e e d4
@@ -32,11 +32,11 @@ D-II-XCornetto = {
     a4 h8 c d8 c c h %40
     c4 r r8 e d4 \noBreak
     c r r2\fermata \bar "||"
-    \tempoD-II-XIudicabit r4 g8\fE g \once \tieDashed es'2~ \noBreak
+    \tempoD-II-VIIIudicabit r4 g8\fE g \once \tieDashed es'2~ \noBreak
     es1
     es4 es es d8 c %45
     h!2. h4
-    h4 \tempoD-II-XImplebit r8 h c4 d8 d
+    h4 \tempoD-II-VIIImplebit r8 h c4 d8 d
     e! e r4 c h
     c8 c r4 d cis
     d8 d r4 h a %50

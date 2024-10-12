@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XViolinoII = {
+D-II-VIIViolinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-II-XDixit
+    \key c \major \time 4/4 \tempoD-II-VIIDixit
     g'4\fE g e8. e16 e4
     a8 g f4 g8 g4 g8
     g4 g8 g g4 g8 fis
@@ -45,11 +45,11 @@ D-II-XViolinoII = {
     a4 h8 c d c4 h8 %40
     c4 a8 h c c4 h8 \noBreak
     c4 r r2\fermata \bar "||"
-    \tempoD-II-XIudicabit r2 r4 g\fE
+    \tempoD-II-VIIIudicabit r2 r4 g\fE
     g1~
     g2 f %45
     g1
-    g4 \tempoD-II-XImplebit r8 g g4 g8 a16 h
+    g4 \tempoD-II-VIIImplebit r8 g g4 g8 a16 h
     c d e! f g a h g c8 a, gis4
     a16 h c d e f! g! a f8 d cis4
     d16 e f g a h c! d h8 h, a4 %50

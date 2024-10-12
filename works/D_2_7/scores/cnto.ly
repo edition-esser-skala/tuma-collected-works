@@ -2,16 +2,16 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "trb 2")
+#(define option-instrument-name "cnto")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "D.2.8" "Dixit Dominus"
+    \section "D.2.7" "Dixit Dominus"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XTromboneII }
+        \new Staff { \D-II-VIICornetto }
       >>
     }
   }

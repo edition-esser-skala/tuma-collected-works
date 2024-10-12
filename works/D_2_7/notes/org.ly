@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XOrgano = {
+D-II-VIIOrgano = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoD-II-XDixit
+    \key c \major \time 4/4 \tempoD-II-VIIDixit
     \mvTr c'4\fE-\tutti g a e
     f8 e d4 c r
     r8 h a g c4 d
@@ -46,12 +46,12 @@ D-II-XOrgano = {
     d4. c8 h c g4 %40
     c8 e f g a c g g, \noBreak
     c4 r r2\fermata \bar "||"
-    \clef treble \tempoD-II-XIudicabit
+    \clef treble \tempoD-II-VIIIudicabit
       r4 \mvTr g''-!\fE-\tuttiE es'-! \clef bass c,, \noBreak
     c2 b
     as1 %45
     g~
-    g4 \tempoD-II-XImplebit r8 g' c h16 a g8 f
+    g4 \tempoD-II-VIIImplebit r8 g' c h16 a g8 f
     e c r4 a16 h c d e fis gis e
     a8 a, r4 d16 e f g a h cis a
     d8 d, r4 g,16 a h c d e fis d %50
@@ -90,7 +90,7 @@ D-II-XOrgano = {
   }
 }
 
-D-II-XBassFigures = \figuremode {
+D-II-VIIBassFigures = \figuremode {
   r2. <6>4
   r8 <[6]> <7> <6> r2
   r2. <4>8 <_+>

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XTromboneI = {
+D-II-VIITromboneI = {
   \relative c' {
     \clef alto
-    \key c \major \time 4/4 \tempoD-II-XDixit
+    \key c \major \time 4/4 \tempoD-II-VIIDixit
     \mvTr g'4\fE-\tutti g e8. e16 e4
     a8 g f4 e8 g4 g8
     g4 g8 g g g g fis
@@ -40,11 +40,11 @@ D-II-XTromboneI = {
     f f f g g g g4 %40
     g r r8 g g4 \noBreak
     g r r2\fermata \bar "||"
-    \tempoD-II-XIudicabit r2 r4 g8\fE g \noBreak
+    \tempoD-II-VIIIudicabit r2 r4 g8\fE g \noBreak
     g1
     g4 g f f %45
     g2. g4
-    g \tempoD-II-XImplebit r8 g g4 g8 a
+    g \tempoD-II-VIIImplebit r8 g g4 g8 a
     g g r4 a gis
     a8 a r4 a a
     a8 a r4 g fis %50

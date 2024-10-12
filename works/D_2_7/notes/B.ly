@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XBasso = {
+D-II-VIIBasso = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-XDixit
+    \key c \major \time 4/4 \autoBeamOff \tempoD-II-VIIDixit
     \mvDl c'4\fE^\tutti g a8. a16 e4
     f8 e16 e d4 c r
     r8 h a g c c d4
@@ -37,11 +37,11 @@ D-II-XBasso = {
     d d d c h c g4 %40
     c r r8 c' g4 \noBreak
     c, r r2\fermata \bar "||"
-    \tempoD-II-XIudicabit r2 r4 \mvTr c8\fE^\tutti c \noBreak
+    \tempoD-II-VIIIudicabit r2 r4 \mvTr c8\fE^\tutti c \noBreak
     c2( b)
     as4 as as as %45
     g2. g4
-    g \tempoD-II-XImplebit r8 g' c([ h16 a)] g8 f
+    g \tempoD-II-VIIImplebit r8 g' c([ h16 a)] g8 f
     e c r4 a16([ h c d] e[ fis)] gis([ e)]
     a8 a, r4 d16([ e f g] a[ h)] cis([ a)]
     d8 d, r4 g,16([ a h c] d[ e)] fis([ d)] %50
@@ -69,7 +69,7 @@ D-II-XBasso = {
   }
 }
 
-D-II-XBassoLyrics = \lyricmode {
+D-II-VIIBassoLyrics = \lyricmode {
   Di -- xit Do -- mi -- nus
   Do -- mi -- no me -- o:
   Se -- de a dex -- tris me --
