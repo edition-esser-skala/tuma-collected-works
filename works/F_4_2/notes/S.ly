@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-F-III-IISoprano = {
+F-IV-IISoprano = {
   \relative c' {
     \clef treble
-    \key a \minor \time 3/4 \autoBeamOff \tempoF-III-IISalve
+    \key a \minor \time 3/4 \autoBeamOff \tempoF-IV-IISalve
     r4 \mvTr e'2~\pE^\solo
     e2.~
     e4 d8([ c)] h([ a)]
@@ -50,14 +50,14 @@ F-III-IISoprano = {
     a r4
     R2.*5 \noBreak %56
     R2.\fermata \bar "||"
-    \time 4/4 \tempoF-III-IIAdTe r2 r8 \mvTr h\fE^\tutti h h \noBreak
+    \time 4/4 \tempoF-IV-IIAdTe r2 r8 \mvTr h\fE^\tutti h h \noBreak
     h2 h
     r r8 d! d d %60
     cis2. h4~
     h ais a a8 a
     g4 a8 h h4( a)
     h r r2\fermata
-    \tempoF-III-IIAdTeB h8\p r h r h r h r %65
+    \tempoF-IV-IIAdTeB h8\p r h r h r h r %65
     h([ a)] a4 cis8 r cis r
     cis r cis r cis([ h)] h4
     c8 r c r c r c r
@@ -74,7 +74,7 @@ F-III-IISoprano = {
     e r r2
     R1 \noBreak %80
     R\fermata \bar "||"
-    \tempoF-III-IIEia R1*5 %86
+    \tempoF-IV-IIEia R1*5 %86
     r4 \mvTr g8\pE^\solo c, h c d e16([ f)]
     e([ d)] c8 \sbOn \tuplet 3/2 8 { d16[ e d } c d] \tuplet 3/2 8 { e[ f e } d e] \tuplet 3/2 8 { f[ g f } e f] \sbOff
     g8 f16([ e)] d8 c h16([ a)] g8 \mvTr g'\fE^\tutti c,
@@ -104,7 +104,7 @@ F-III-IISoprano = {
     c([ h)] h([ d)] d([ c)] c([ e)] %115
     e([ d)] d([ f)] f([ e)] c4 \noBreak
     c8 c c([ h)] c c c([ h)] \bar "|"
-    \time 3/4 \tempoF-III-IIEtIesum c4 r r \noBreak
+    \time 3/4 \tempoF-IV-IIEtIesum c4 r r \noBreak
     R2.*9 %127
     r4 r \mvTr e\pE^\solo
     c a f'8 f
@@ -127,7 +127,7 @@ F-III-IISoprano = {
     f([ d)] h2\trill
     a4 r r
     R2.*5 \bar "|" %153
-    \time 4/4 \tempoF-III-IIOClemens R1*4 %157
+    \time 4/4 \tempoF-IV-IIOClemens R1*4 %157
     r4 \mvTr e'\fE^\tutti f8[ e] dis4
     e8[ d] cis4 d8 c h4
     a r e' e16[( f e f] %160
@@ -164,7 +164,7 @@ F-III-IISoprano = {
   }
 }
 
-F-III-IISopranoLyrics = \lyricmode {
+F-IV-IISopranoLyrics = \lyricmode {
   Sal --
 
   ve Re --

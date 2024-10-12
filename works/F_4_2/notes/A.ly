@@ -1,12 +1,12 @@
 \version "2.24.2"
 
-F-III-IIAlto = {
+F-IV-IIAlto = {
   \relative c' {
     \clef treble
-    \key a \minor \time 3/4 \autoBeamOff \tempoF-III-IISalve
+    \key a \minor \time 3/4 \autoBeamOff \tempoF-IV-IISalve
     R2.*56 \noBreak %56
     R2.\fermata \bar "||"
-    \time 4/4 \tempoF-III-IIAdTe
+    \time 4/4 \tempoF-IV-IIAdTe
       r2 r8 \mvTr fis\fE^\tutti fis fis \noBreak
     g2 fis \noBreak
     r8 h, d! h fis'2~ %60
@@ -14,7 +14,7 @@ F-III-IIAlto = {
     fis2 fis4 fis8 fis
     g4 fis8 fis e2
     dis4 r r2\fermata
-    \tempoF-III-IIAdTeB f!8\p r f r f r f r %65
+    \tempoF-IV-IIAdTeB f!8\p r f r f r f r %65
     e r e r g! r g r
     g r g r fis r fis r
     fis r fis r fis r fis r
@@ -31,7 +31,7 @@ F-III-IIAlto = {
     e4 r r2
     R1 \noBreak %80
     R\fermata \bar "||"
-    \tempoF-III-IIEia R1*7 %88
+    \tempoF-IV-IIEia R1*7 %88
     r2 r4 \mvTr g8\fE^\tutti g
     g g a h g g g g %90
     g4( f e) a
@@ -51,9 +51,9 @@ F-III-IIAlto = {
     a8([ g)] h4 h8([ a)] c4 %115
     h4. h8 g4 g \noBreak
     f8 f g4 g8 g g4 \bar "|"
-    \time 3/4 \tempoF-III-IIEtIesum g r r \noBreak
+    \time 3/4 \tempoF-IV-IIEtIesum g r r \noBreak
     R2.*35 \bar "|" %153
-    \time 4/4 \tempoF-III-IIOClemens R1*6 %159
+    \time 4/4 \tempoF-IV-IIOClemens R1*6 %159
     r4 \mvTr a\fE^\tutti c8[ a] gis4 %160
     a8[ g] fis4 g8 g fis4
     e r r2
@@ -83,7 +83,7 @@ F-III-IIAlto = {
   }
 }
 
-F-III-IIAltoLyrics = \lyricmode {
+F-IV-IIAltoLyrics = \lyricmode {
   Ad te cla -- %58
   ma -- mus,
   ad te cla -- ma -- %60

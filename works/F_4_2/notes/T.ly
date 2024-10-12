@@ -1,12 +1,12 @@
 \version "2.24.2"
 
-F-III-IITenore = {
+F-IV-IITenore = {
   \relative c' {
     \clef "treble_8"
-    \key a \minor \time 3/4 \autoBeamOff \tempoF-III-IISalve
+    \key a \minor \time 3/4 \autoBeamOff \tempoF-IV-IISalve
     R2.*56 \noBreak %56
     R2.\fermata \bar "||"
-    \time 4/4 \tempoF-III-IIAdTe
+    \time 4/4 \tempoF-IV-IIAdTe
       r8 \mvTr e,\fE^\tutti g e h'2~ \noBreak
     h4 e dis2
     r8 h d h fis'4 h, %60
@@ -31,7 +31,7 @@ F-III-IITenore = {
     h4 r r2
     R1 \noBreak %80
     R\fermata \bar "||"
-    \tempoF-III-IIEia R1*7 %88
+    \tempoF-IV-IIEia R1*7 %88
     r2 r4 \mvTr e8\fE^\tutti e
     d e f d e e d d %90
     c4( a8_[ h] c4) d
@@ -51,9 +51,9 @@ F-III-IITenore = {
     d4 e e f %115
     f g g8 r r e \noBreak
     d c d4 e8 e d4 \bar "|"
-    \time 3/4 \tempoF-III-IIEtIesum e r r \noBreak
+    \time 3/4 \tempoF-IV-IIEtIesum e r r \noBreak
     R2.*35 \bar "|" %153
-    \time 4/4 \tempoF-III-IIOClemens
+    \time 4/4 \tempoF-IV-IIOClemens
       r4 \mvTr e\fE^\tutti f8[ e] dis4 \noBreak
     e8[ d] cis4 d8 c h4 %155
     a8 a c16[ h c d] e4~ e16[ f e f]
@@ -89,7 +89,7 @@ F-III-IITenore = {
   }
 }
 
-F-III-IITenoreLyrics = \lyricmode {
+F-IV-IITenoreLyrics = \lyricmode {
   Ad te cla -- ma -- %58
   _ mus,
   ad te cla -- ma -- _ %60

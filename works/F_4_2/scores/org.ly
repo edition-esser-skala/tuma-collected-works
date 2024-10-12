@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "org")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -11,7 +11,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \F-III-IIViolinoI }
+        \new Staff { \F-IV-IIOrgano }
+        \new FiguredBass { \F-IV-IIBassFigures }
       >>
     }
   }

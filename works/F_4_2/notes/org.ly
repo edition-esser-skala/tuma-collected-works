@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-F-III-IIOrgano = {
+F-IV-IIOrgano = {
   \relative c {
     \clef bass
-    \key a \minor \time 3/4 \tempoF-III-IISalve
+    \key a \minor \time 3/4 \tempoF-IV-IISalve
     \mvTr a'8\pE-\soloE gis c a gis a
     c h a g f e
     f2 f4
@@ -61,7 +61,7 @@ F-III-IIOrgano = {
     gis, gis gis %55
     a e' e, \noBreak
     a r r\fermata \bar "||"
-    \time 4/4 \tempoF-III-IIAdTe
+    \time 4/4 \tempoF-IV-IIAdTe
       r8 \mvTr e'-!\fE-\tuttiE g-! e-! h'-! h, dis h \noBreak
     e e, g e h'2
     \clef "treble_8" r8 h'-! d!-! h-! fis'-! \clef bass h,,[ d h] %60
@@ -69,7 +69,7 @@ F-III-IIOrgano = {
     fis'4 fis, dis'2
     e4 d c2
     h4 r r2\fermata
-    \tempoF-III-IIAdTeB gis8\p r gis r gis r gis r %65
+    \tempoF-IV-IIAdTeB gis8\p r gis r gis r gis r %65
     a r a r ais r ais r
     ais r ais r h r h r
     a r a r a r a r
@@ -86,7 +86,7 @@ F-III-IIOrgano = {
     e,4 fis8-\soloE h e4 a,8 h
     e,4 r e'8 a h h, \noBreak %80
     e4 r r2\fermata \bar "||"
-    \tempoF-III-IIEia c8 d e f g e d g \noBreak
+    \tempoF-IV-IIEia c8 d e f g e d g \noBreak
     c,8. d16 e4 f fis
     g h c f,
     e d c f8 g %85
@@ -120,7 +120,7 @@ F-III-IIOrgano = {
     g gis a a %115
     h h c e, \noBreak
     f8 a g4 e8 c g4 \bar "|"
-    \time 3/4 \tempoF-III-IIEtIesum
+    \time 3/4 \tempoF-IV-IIEtIesum
       c r r \noBreak
     a2-\soloE h4
     c2 c8 d %120
@@ -157,7 +157,7 @@ F-III-IIOrgano = {
     a2 d4
     e d c \noBreak
     d e e, \bar "|"
-    \time 4/4 \tempoF-III-IIOClemens
+    \time 4/4 \tempoF-IV-IIOClemens
       a4 \clef "treble_8" \mvTr e''-!\fE-\tuttiE f8-! e-! dis4-! \noBreak
     e8-! d-! cis4-! d8-! c-! h4-! %155
     a-! \clef bass a c8 a gis4
@@ -204,7 +204,7 @@ F-III-IIOrgano = {
   }
 }
 
-F-III-IIBassFigures = \figuremode {
+F-IV-IIBassFigures = \figuremode {
   r2.
   r
   <7>4 <6>2

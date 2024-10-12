@@ -1,12 +1,12 @@
 \version "2.24.2"
 
-F-III-IIBasso = {
+F-IV-IIBasso = {
   \relative c {
     \clef bass
-    \key a \minor \time 3/4 \autoBeamOff \tempoF-III-IISalve
+    \key a \minor \time 3/4 \autoBeamOff \tempoF-IV-IISalve
     R2.*56 \noBreak %56
     R2.\fermata \bar "||"
-    \time 4/4 \tempoF-III-IIAdTe
+    \time 4/4 \tempoF-IV-IIAdTe
       r8 \mvTr e\fE^\tutti g e h'[ h, dis h] \noBreak
     e2 h
     r r8 h d! h %60
@@ -31,7 +31,7 @@ F-III-IIBasso = {
     e,4 r r2
     R1 \noBreak %80
     R\fermata \bar "||"
-    \tempoF-III-IIEia R1*7 %88
+    \tempoF-IV-IIEia R1*7 %88
     r2 r4 \mvTr c'8\fE^\tutti e16([^\critnote f)]
     g8 e d g, c c h h %90
     c4( d e) f
@@ -51,9 +51,9 @@ F-III-IIBasso = {
     g4 gis a4. a8 %115
     h4. h8 c4 e, \noBreak
     f8 a g4 e8 c g4 \bar "|"
-    \time 3/4 \tempoF-III-IIEtIesum c r r \noBreak
+    \time 3/4 \tempoF-IV-IIEtIesum c r r \noBreak
     R2.*35 \bar "|" %153
-    \time 4/4 \tempoF-III-IIOClemens R1*2 %155
+    \time 4/4 \tempoF-IV-IIOClemens R1*2 %155
     r4 \mvTr a'\fE^\tutti c8[ a] gis4
     a8[ g] fis4 g8 g fis4
     e a a~ a16[ h a h]
@@ -86,7 +86,7 @@ F-III-IIBasso = {
   }
 }
 
-F-III-IIBassoLyrics = \lyricmode {
+F-IV-IIBassoLyrics = \lyricmode {
   Ad te cla -- ma -- %58
   _ mus,
   ad te cla -- %60
