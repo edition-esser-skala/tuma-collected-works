@@ -6,7 +6,7 @@
 
 \book {
   \bookpart {
-    \section "C.3.5" "Bonum est confiteri"
+    \section "C.3.6" "Bonum est confiteri"
     \addTocEntry
     \paper {
       system-system-spacing.basic-distance = #20

@@ -33,7 +33,7 @@
 
 \book {
   \bookpart {
-    \section "C.2.7" "Te lucis ante terminum"
+    \section "C.2.6" "Te lucis ante terminum"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate

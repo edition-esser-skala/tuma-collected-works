@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "C.2.7" "Te lucis ante terminum"
+    \section "C.2.6" "Te lucis ante terminum"
     \addTocEntry
     \paper { systems-per-page = #5 }
     \score {

@@ -33,7 +33,7 @@
 
 \book {
   \bookpart {
-    \section "C.3.5" "Bonum est confiteri"
+    \section "C.3.6" "Bonum est confiteri"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
