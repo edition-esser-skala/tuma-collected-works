@@ -12,7 +12,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \D-II-XVIIViolinoI }
+        \new Staff { \D-II-XVIViolinoI }
       >>
     }
   }

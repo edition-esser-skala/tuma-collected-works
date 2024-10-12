@@ -1,6 +1,6 @@
 \version "2.24.2"
 
-tempoD-II-XVII = \tempoMarkup "[Tempo deest]"
+tempoD-II-XVI = \tempoMarkup "[Tempo deest]"
 
 \include "notes/cnto.ly"
 \include "notes/fag.ly"

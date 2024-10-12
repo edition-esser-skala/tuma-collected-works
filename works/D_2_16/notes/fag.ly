@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XVIIFagotto = {
+D-II-XVIFagotto = {
   \relative c {
     \clef bass
-    \key d \minor \time 4/4 \tempoD-II-XVII
+    \key d \minor \time 4/4 \tempoD-II-XVI
     R1*2
     a2\fE d4 e
     f e8 d e a, a'4

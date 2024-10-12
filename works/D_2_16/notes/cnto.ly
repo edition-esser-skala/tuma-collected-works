@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XVIICornetto = {
+D-II-XVICornetto = {
   \relative c' {
     \clef soprano
-    \key d \minor \time 4/4 \tempoD-II-XVII
+    \key d \minor \time 4/4 \tempoD-II-XVI
     d2\fE a'4 a
     b a8 g a4 d,8 d'
     d4 cis d c8 b

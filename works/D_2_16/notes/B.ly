@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XVIIBasso = {
+D-II-XVIBasso = {
   \relative c {
     \clef bass
-    \key d \minor \time 4/4 \autoBeamOff \tempoD-II-XVII
+    \key d \minor \time 4/4 \autoBeamOff \tempoD-II-XVI
     R1*2
     r8 \mvTr a\fE^\tutti a a16 a d4 e
     f e8 d e a, a'4
@@ -37,7 +37,7 @@ D-II-XVIIBasso = {
   }
 }
 
-D-II-XVIIBassoLyrics = \lyricmode {
+D-II-XVIBassoLyrics = \lyricmode {
   Si de -- de -- ro so -- mnum %3
   o -- cu -- lis me -- is, et
   pal -- pe -- bris dor -- mi -- ta -- ti -- %5

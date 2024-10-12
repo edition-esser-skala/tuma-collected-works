@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "cnto")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,7 +12,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \D-II-XVIICornetto }
+        \new Staff { \D-II-XVIViolinoII }
       >>
     }
   }
