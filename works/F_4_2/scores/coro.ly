@@ -6,7 +6,7 @@
 
 \book {
   \bookpart {
-    \section "F.3.2" "Salve Regina"
+    \section "F.4.2" "Salve Regina"
     \addTocEntry
     \score {
       <<
