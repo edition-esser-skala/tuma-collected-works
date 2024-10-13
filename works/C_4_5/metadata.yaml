@@ -1,0 +1,25 @@
+title: Benedictus es, Domine
+id: TumW C.4.5
+genre: offertorium
+festival: Dominica Quinquagesima
+scoring: S, A, T, B (coro), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: CZ-Pu
+    shelfmark: 59 R 1640
+    date: 1836-01-30
+    rism: 551003278
+    license: public domain
+    principal: true
+    notes: 9 parts (S, A, T, B, vl 1, vl 2, vla, vlne, org) and full score (4 pages)
+toe: |
+  1  & – & tempo indication in S, vlne, org, and full score: “Allabreve”;
+           \newline in A, T, B, vl 1, and vl 2: “Moderato”;
+           no tempo in vla \\
+  72 & A & 1st \quarterNote\ in \B1: f′4 \\
+lyrics:
+  Benedictus es, Domine,\\
+  doce me iustificationes tuas:\\
+  in labiis meis pronuntiavi omnia iudicia oris tui.\\
+  (\bibleverse{Ps}(119/118:12-13))
