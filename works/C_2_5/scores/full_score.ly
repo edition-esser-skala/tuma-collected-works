@@ -33,15 +33,11 @@
 
 \book {
   \bookpart {
-    \section "C.2.6" "Regis superni nuntia"
+    \section "C.2.5" "Te lucis ante terminum"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
       <<
-        \new Staff \with { \setStaffDistance #11 } {
-          \set Staff.instrumentName = "Trombone solo"
-          \C-II-VITrombone
-        }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "Violino"
@@ -57,10 +53,16 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \incipit "Alto" "alto" #-15.8 #-2.8
-            \new Voice = "Alto" { \dynamicUp \C-II-VIAlto }
+            \incipitSoprano
+            \new Voice = "Soprano" { \dynamicUp \C-II-VISoprano }
           }
-          \new Lyrics \lyricsto Alto \C-II-VIAltoLyrics
+          \new Lyrics \lyricsto Soprano \C-II-VISopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Basso"
+            \new Voice = "Basso" { \dynamicUp \C-II-VIBasso }
+          }
+          \new Lyrics \lyricsto Basso \C-II-VIBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
@@ -72,7 +74,7 @@
         \new FiguredBass { \C-II-VIBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 } % 4. = 60
+      \midi { \tempo 4 = 80 }
     }
   }
 }

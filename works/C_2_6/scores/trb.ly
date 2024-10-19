@@ -2,17 +2,16 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name (markup #:center-column ("trb" "solo")))
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "C.2.7" "Placare Christe servulis"
+    \section "C.2.6" "Regis superni nuntia"
     \addTocEntry
     \score {
       <<
-        \new Staff { \C-II-VIIOrgano }
-        \new FiguredBass { \C-II-VIIBassFigures }
+        \new Staff { \C-II-VITrombone }
       >>
     }
   }

@@ -7,13 +7,12 @@
 
 \book {
   \bookpart {
-    \section "C.2.6" "Te lucis ante terminum"
+    \section "C.2.6" "Regis superni nuntia"
     \addTocEntry
-    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \C-II-VIIOrgano }
-        \new FiguredBass { \C-II-VIIBassFigures }
+        \new Staff { \C-II-VIOrgano }
+        \new FiguredBass { \C-II-VIBassFigures }
       >>
     }
   }

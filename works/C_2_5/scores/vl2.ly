@@ -2,17 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "C.2.7" "Placare Christe servulis"
+    \section "C.2.5" "Te lucis ante terminum"
     \addTocEntry
+    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \C-II-VIIOrgano }
-        \new FiguredBass { \C-II-VIIBassFigures }
+        \new Staff { \C-II-VIViolinoII }
       >>
     }
   }

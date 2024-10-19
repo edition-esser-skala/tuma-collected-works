@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "C.2.7" "Regis superni nuntia"
+    \section "C.2.7" "Placare Christe servulis"
     \addTocEntry
     \score {
       <<

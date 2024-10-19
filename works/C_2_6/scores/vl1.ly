@@ -7,12 +7,11 @@
 
 \book {
   \bookpart {
-    \section "C.2.6" "Te lucis ante terminum"
+    \section "C.2.6" "Regis superni nuntia"
     \addTocEntry
-    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \C-II-VIIViolinoI }
+        \new Staff { \C-II-VIViolinoI }
       >>
     }
   }
