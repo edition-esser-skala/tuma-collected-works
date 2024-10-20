@@ -1,0 +1,16 @@
+title: Missa iucundaris
+id: TumW A.36
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-GÖ
+    shelfmark: 633
+    date: 1755
+    license: public domain
+    principal: true
+    notes: 9 parts (S, A, T, B, trb 1, trb 2, vl 1, vl 2, org)
+tocstyle: default
+toe: |
+  1 & 8 & vl 2 & 2nd \eighthNote\ in \B1: \sharp c′8 \\
