@@ -1,5 +1,16 @@
 # Changelog
 
+## 2024.10.0 – 2024-11-01
+
+### Added
+
+- works: TumW A.36, C.4.5, and G.5
+
+### Changed
+
+- renumbered the following works: C.2.6–8 → 5–7, D.2.8–11 → 5–8, D.2.17 → 16, F.3.2 -> 4.2
+
+
 ## 2024.09.0 – 2024-09-28
 
 ### Added
