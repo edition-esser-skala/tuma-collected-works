@@ -7,11 +7,30 @@
 
 \book {
   \bookpart {
-    \section "I-IILectioPrima" ""
+    \section "1" "Lectio prima"
     \addTocEntry
+    \paper { system-count = #14 }
     \score {
       <<
         \new Staff { \I-IILectioPrimaTromboneI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Lectio secunda"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \I-IILectioSecundaTromboneI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Lectio tertia"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \I-IILectioTertiaTromboneI }
       >>
     }
   }

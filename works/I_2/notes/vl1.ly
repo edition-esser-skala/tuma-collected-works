@@ -176,3 +176,80 @@ I-IILectioSecundaViolinoI = {
     c1\fermata \bar "|." %90 finis
   }
 }
+
+I-IILectioTertiaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \dorian \time 4/4 \tempoI-IILectioTertia
+    c'16(\fE f,) f8 r4 b16( e,) e8 r g
+    as16( b) g( as) b( c) as( b) g( as) f( g) as( b) g( as)
+    f( g) e( f) g( as) f( g) e c' des( c) f( e) as( g)
+    b( as) e( f) \appoggiatura as,8 g4\trill f \once \slurDashed c'16(\p f,) f8
+    r4 des'16( f,) f8 r4 c'16( f,) f8 %5
+    r4 b16( e,) e8 r4 c'16( f,) f8
+    r4 des'16( f,) f8 r4 \slurDashed des'16( es,) es8
+    r4 c'16( es,) es8 \slurSolid r4 as16( f) f8
+    d!4 r r8 h'\f d \hA h
+    c4~ c16 c-! c, c' d4~ d16 d-! d, d' %10
+    es8 es16 es es8 c16 c h32 g f es d c h a g8 h'
+    h4. h8 b2~
+    b4 as r8 b b b
+    h d \hA h a16 \hA h c4 c8 c
+    c4. c8 h c4 \hA h8 %15
+    c4 \slurDashed g16( c,) c8 r4 as'16( c,) c8
+    c c4 h8 g''16(\p c,) c8 r4
+    b'!16( e,) e8 r c c4 r
+    f16( b,) b8 r f' f4 es
+    f c'16( f,) f8 f,4\f c'8 c %20
+    c2 des4 f16( b,) b8 \slurSolid
+    b des f \hA des g4 as8 b,
+    b2\trill as4 es'16( as,) as8
+    r4 f'16( as,) as8 es' f16( des) b4\trill
+    as \slurDashed es'16(\pE as,) as8 g es r4 %25
+    r f'16( b,) b8 a f r4
+    g'16( d) \slurSolid d8 es4 d8 g, r g-\markup \remark "un poco più forte" \noBreak
+    as16( b) g( as) b( c) as( b) g( as) f( g) as( b) g( as)
+    f( g) es( f) g( as) f( g) es8 c r4
+    R1*2 %31
+    r2 r4 g'16(\p c,) c8
+    r4 as'16( c,) c8 g' as16( f) d4 \noBreak
+    c r r2\fermata \bar "||"
+    \tempoI-IIResponsoriumTertium
+      c'2\fE c4 as8 f \noBreak %35
+    c'16 c c c c c c c des des des des des des des des
+    c8 c, r4 r8 c'16 b as8 as
+    g g c4 c2~ \noBreak
+    c4 b c2\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumB c4\fE c r8 des as b \noBreak %40
+    c2 b
+    as4. g16 f g2
+    f8 as c b as4 g8 as
+    b4 f8 g as g f4~
+    f8 g16 as b2 as4 \noBreak %45
+    g2 f\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumC
+      des'8\pE des des des c c c c \noBreak
+    des des des des des des des des
+    des des b b a a a a
+    c c c c des des des des %50
+    des des des des des b c des
+    es es b b c c c c \noBreak
+    c4 r r2\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumB c4\fE c r8 des as b \noBreak
+    c2 b %55
+    as4. g16 f g2
+    f8 as c b as4 g8 as
+    b4 f8 g as g f4~
+    f8 g16 as b2 as4 \noBreak
+    g2 f\fermata \bar "||" %60
+    \tempoI-IIResponsoriumTertiumD R1*9 \noBreak %69
+    R1\fermata \bar "||" %70
+    \tempoI-IIResponsoriumTertiumB c'4\fE c r8 des as b \noBreak
+    c2 b
+    as4. g16 f g2
+    f8 as c b as4 g8 as
+    b4 f8 g as g f4~ %75
+    f8 g16 as b2 as4
+    g2 f\fermata \bar "|." %77 finis
+  }
+}

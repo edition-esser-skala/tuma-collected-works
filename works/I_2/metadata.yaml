@@ -15,58 +15,79 @@ sources:
     notes: 19 parts (S solo, A solo, T solo, B solo, S rip, A rip, T rip, B rip (2×), cnto, fag, trb 1, trb 2, vl 1, vl 2, vlc, vlne, org, maestro di cappella)
 tocstyle: default
 toe: |
-  1 & 45 & fag & 8th \sixteenthNote\ in \B1: f16 \\
-  2 & 28 & org & 3rd \quarterNote\ in \B1: \flat e4 \\
-lyrics:
-  Parce mihi Domine: nihil enim sunt dies mei.
-  Quid est homo, quia magnificas eum,
-  aut quid opponis erga eum cor tuum,
-  Visitas eum dilucolo,
-  et subito probas illum?
-  Usquequo non parcis mihi,
-  nec dimittis me, ut glutiam salivam meam?
-  Peccavi? Quid faciam tibi, o custos hominum?
-  Quare posuisti me contrarium tibi,
-  et factus sum mihimet ipsi gravis?
-  Cur non tollis peccatum meum,
-  et quare non auffers iniquitatem meam?
-  Ecce nunc in pulvere dormiam;
-  et si mane me quaesieris, non subsistam.
-  (\bibleverse{Job}(7:16-21))
-
-  Credo quod redemptor meus vivit
-  et in novissimo die de terra surrecturus sum.
-  Et in carne mea videbo
-  Deum Salvatorem meum.
-  Quem visurus sum:
-  ego ipse et non alius,
-  et oculi mei conspecturi sunt.
-  (\bibleverse{Job}(19:25-27))
-
-  Taedet animam meam vitae meae,
-  dimittam adversum me eloquium meum,
-  loquar in amaritudine animae meae.
-  Dicam Deo: Noli me condemnare,
-  indica mihi cur me ita iudices.
-  Numquid bonum tibi videtur si calumnieris me,
-  et opprimas me opus manuum tuarum,
-  et consilium impiorum adiuves?
-  Nunquid oculi carnei tibi sunt
-  aut sicut videt homo et tu videbis?
-  Nunquid sicut dies hominis dies tui,
-  et anni tui sicut humana sunt tempora,
-  ut quaeras iniquitatem meam,
-  et peccatum meum scruteris?
-  Et scias quia nihil impium fecerim,
-  cum sit nemo qui de manu tua possit eruere.
-  (\bibleverse{Job}(10:1-7))
-
-  Qui Lazarum resuscitasti
-  a monumento fetidum:
-  Tu eis Domine dona requiem
-  et locum indulgentie.
-  Qui venturus est iudicare vivos et mortuos
-  et saeculum per ignem.
-  (Cantus Index 007477)
-
-https://www.uibk.ac.at/theol/leseraum/bibel/ijob7.html
+  1 & 45 & fag  & 8th \sixteenthNote\ in \B1: f16 \\
+  2 & 28 & org  & 3rd \quarterNote\ in \B1: \flat e4 \\
+  3 & 52 & vl 2 & 2nd \quarterNote\ in \B1: \flat a′8–\flat a′8 \\
+lyrics: |
+  \textsb{Lectio prima}\\
+  Parce mihi Domine: nihil enim sunt dies mei.\\
+  Quid est homo, quia magnificas eum,\\
+  aut quid opponis erga eum cor tuum,\\
+  Visitas eum dilucolo,\\
+  et subito probas illum?\\
+  Usquequo non parcis mihi,\\
+  nec dimittis me, ut glutiam salivam meam?\\
+  Peccavi? Quid faciam tibi, o custos hominum?\\
+  Quare posuisti me contrarium tibi,\\
+  et factus sum mihimet ipsi gravis?\\
+  Cur non tollis peccatum meum,\\
+  et quare non auffers iniquitatem meam?\\
+  Ecce nunc in pulvere dormiam;\\
+  et si mane me quaesieris, non subsistam.\\
+  (\bibleverse{Job}(7:16-21))\\[1ex]
+  Credo quod redemptor meus vivit\\
+  et in novissimo die de terra surrecturus sum.\\
+  Et in carne mea videbo\\
+  Deum Salvatorem meum.\\
+  Quem visurus sum:\\
+  ego ipse et non alius,\\
+  et oculi mei conspecturi sunt.\\
+  (\bibleverse{Job}(19:25-27))\\[2ex]
+  \textsb{Lectio secunda}\\
+  Taedet animam meam vitae meae,\\
+  dimittam adversum me eloquium meum,\\
+  loquar in amaritudine animae meae.\\
+  Dicam Deo: Noli me condemnare,\\
+  indica mihi cur me ita iudices.\\
+  Numquid bonum tibi videtur si calumnieris me,\\
+  et opprimas me opus manuum tuarum,\\
+  et consilium impiorum adiuves?\\
+  Nunquid oculi carnei tibi sunt\\
+  aut sicut videt homo et tu videbis?\\
+  Nunquid sicut dies hominis dies tui,\\
+  et anni tui sicut humana sunt tempora,\\
+  ut quaeras iniquitatem meam,\\
+  et peccatum meum scruteris?\\
+  Et scias quia nihil impium fecerim,\\
+  cum sit nemo qui de manu tua possit eruere.\\
+  (\bibleverse{Job}(10:1-7))\\[1ex]
+  Qui Lazarum resuscitasti\\
+  a monumento fetidum:\\
+  Tu eis Domine dona requiem\\
+  et locum indulgentie.\\
+  Qui venturus est iudicare vivos et mortuos\\
+  et saeculum per ignem.\\
+  (Cantus Index 007477)\\[2ex]
+  \textsb{Lectio tertia}\\
+  Manus tuae fecerunt me\\
+  et plasmaverunt me totum in circuitu,\\
+  et sic repente praecipitas me.\\
+  Memento quaeso quod sicut lutum feceris me,\\
+  et in pulverem reduces me.\\
+  Nonne sicut lac mulsisti me,\\
+  et sicut caseum me coagulasti?\\
+  Pelle et carnibus vestisti me,\\
+  ossibus et nervis conpegisti me.\\
+  Vitam et misericordiam tribuisti mihi\\
+  et visitatio tua custodivit spiritum meum.\\
+  (\bibleverse{Job}(10:8-12))\\[1ex]
+  Domine, quando veneris iudicare terram,
+  ubi me abscondam a vultu irae tuae?\\
+  Quia peccavi nimis in vita mea.\\
+  Commissa mea pavesco,\\
+  et ante te erubesco:\\
+  Dum veneris iudicare,\\
+  noli me condemnare.\\
+  (Cantus Index 006507)\\[1ex]
+  Requiem aeternam dona eis, Domine:\\
+  Et lux perpetua luceat eis.

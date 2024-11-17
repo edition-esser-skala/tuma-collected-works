@@ -284,3 +284,116 @@ I-IILectioSecundaBassoLyrics = \lyricmode {
   ti --
   e. %90 finis
 }
+
+I-IILectioTertiaBasso = {
+  \relative c {
+    \clef bass
+    \key f \dorian \time 4/4 \autoBeamOff \tempoI-IILectioTertia
+    R1*8 %8
+    r8 \mvTr g\fE^\tutti h d g g, r g'
+    as16. as,32 as8 r a' b!16. b,32 b8 r h' %10
+    c4. as,!16 as g4 r8 g'
+    f4. f8 e2
+    f8 f f as des,4. des8
+    d4 d8 d es!4 es8 c
+    as8. as16 as8 as g4. g8 %15
+    c4 r r2
+    R1*3
+    r2 \mvTr f4\fE^\tutti f8 f %20
+    es8. es16 es8 es des8. des16 des4
+    b8. b16 des8 b es des c \hA des
+    es4. es8 as,4 r
+    R1*10 \noBreak %33
+    R1\fermata \bar "||"
+    \tempoI-IIResponsoriumTertium
+      \mvTr f'4.\fE^\tutti f8 f4 r \noBreak %35
+    f4. f8 f4. f8
+    f f, r4 r8 e'16 c f8 f,
+    c' c r c f g as f \noBreak
+    des2 c\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumB R1*3 %42
+    \mvTr f4\fE^\tutti f r8 as es! f
+    g4 d8 e f([ es?)] des([ c)]
+    b2 c~ \noBreak %45
+    c f,\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumC
+      r8 \mvTr b'\pE^\solo b b a4 a8 a \noBreak
+    b4 b, r8 b' b b
+    ges4 ges8 ges f4 f,8 f'
+    a a16 a a8 a b4 b, %50
+    r b'8 b es,4 es8 es
+    es2 as,4 r \noBreak
+    R1\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumB R1*3 %56
+    \mvTr f'4\fE^\tutti f r8 as es! f
+    g4 d8 e f([ es?)] des([ c)]
+    b2 c~ \noBreak
+    c f,\fermata \bar "||" %60
+    \tempoI-IIResponsoriumTertiumD R1*2
+    r2 \mvTr g'4.\pE^\solo g8
+    e4. e8 f c f4~
+    f8 f es es d4. d8 %65
+    c4 r r8 g' g g
+    g8. f16 f8 es d4 d8 e
+    f c16 c f2 es8 f
+    g2( g,) \noBreak
+    c1\fermata \bar "||" %70
+    \tempoI-IIResponsoriumTertiumB R1*3
+    \mvTr f4\fE^\tutti f r8 as es! f
+    g4 d8 e f([ es?)] des([ c)] %75
+    b2 c~
+    c f,\fermata \bar "|." %77 finis
+  }
+}
+
+I-IILectioTertiaBassoLyrics = \lyricmode {
+  Et sic re -- pen -- te prae -- %9
+  ci -- pi -- tas, prae -- ci -- pi -- tas, prae -- %10
+  ci -- pi -- tas me. Me --
+  men -- to quae --
+  so quod si -- cut lu -- tum
+  fe -- ce -- ris me, et in
+  pul -- ve -- rem re -- du -- ces %15
+  me.
+
+  Pel -- le et %20
+  car -- ni -- bus ve -- sti -- sti me,
+  os -- si -- bus et ner -- vis con -- pe --
+  gi -- sti me.
+
+  Do -- mi -- ne, %35
+  iu -- di -- ca -- re
+  ter -- ram, u -- bi me ab --
+  scon -- dam a vul -- tu i -- rae
+  tu -- ae?
+
+  Qui -- a pec -- ca -- vi %43
+  ni -- mis in vi -- ta __
+  me -- _ %45
+  a.
+  Com -- mis -- sa me -- a pa --
+  ve -- sco, et an -- te
+  te e -- ru -- be -- sco: Dum
+  ve -- ne -- ris iu -- di -- ca -- re, %50
+  no -- li me con -- dem --
+  na -- re.
+
+  Qui -- a pec -- ca -- vi %57
+  ni -- mis in vi -- ta __
+  me -- _
+  a. %60
+
+  Re -- qui -- %63
+  em ae -- ter -- nam do --
+  na e -- is, Do -- mi -- %65
+  ne: Et lux per --
+  pe -- tu -- a, per -- pe -- tu -- a
+  lu -- ce -- at, lu -- ce -- at
+  e --
+  is. %70
+
+  Qui -- a pec -- ca -- vi %74
+  ni -- mis in vi -- ta __ %75
+  me -- _
+  a. %77 finis
+}

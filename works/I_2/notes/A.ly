@@ -240,3 +240,135 @@ I-IILectioSecundaAltoLyrics = \lyricmode {
   ti --
   e. %90 finis
 }
+
+I-IILectioTertiaAlto = {
+  \relative c' {
+    \clef treble
+    \key f \dorian \time 4/4 \autoBeamOff \tempoI-IILectioTertia
+    R1*8 %8
+    r2 r8 \mvTr g'8\fE^\tutti g g
+    es16[ es c es] f4~ f16[ f d f] g4~ %10
+    g8 es16 g g8 f16 f g4 r8 g
+    g4. g8 g2~
+    g4 f r8 f f f
+    f f f f16 f g4 g8 g
+    g8. f16 f8 f f([ es] d8.) d16 %15
+    c4 r r2
+    R1*3
+    r2 \mvTr f4\fE^\tutti f8 f %20
+    f8. f16 f8 f f8. f16 f4
+    f8. f16 f8 f g g as as
+    as4 g as r
+    R1*10 \noBreak %33
+    R1\fermata \bar "||"
+    \tempoI-IIResponsoriumTertium
+      \mvTr f4.\fE^\tutti f8 f4 r \noBreak %35
+    f4. f8 f4. f8
+    f f, r4 r8 g'16 e f8 f
+    f e r \hA e f f f f \noBreak
+    f2 e\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumB
+      r2 \mvTr f4\fE^\tutti f \noBreak %40
+    r8 as es! f g4 d!8 e
+    f c f2( e4)
+    f8 f f f es4. es8
+    d!2 c8 es f g16([ as)]
+    b8[ as g f] e4 f~ \noBreak %45
+    f e f2\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumC
+      r8 \mvTr f\pE^\solo f f ges4 ges8 f \noBreak
+    f4 f r8 f f f
+    f4 es8 es f4 f8 f
+    f f16 f f8 f f4 f %50
+    r f8 f g!4 as8 as
+    as4( g) as r \noBreak
+    R1\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumB
+      r2 \mvTr f4\fE^\tutti f \noBreak
+    r8 as es! f g4 d!8 e %55
+    f c f2( e4)
+    f8 f f f es4. es8
+    d!2 c8 es f g16([ as)]
+    b8[ as g f] e4 f~ \noBreak
+    f e f2\fermata \bar "||" %60
+    \tempoI-IIResponsoriumTertiumD
+      r2 \mvTr g4.\pE^\solo g8 \noBreak
+    e4. e8 f[ c] f4~
+    f8[ es16 d] es4 d d8 d
+    e e g4. g8 f4
+    r2 r8 f f f %65
+    f8. es!16 es4 d d8 d
+    es4 f f4. g8
+    g4 f8 f d4 es!8 es
+    d4 es8 es d2 \noBreak
+    c1\fermata \bar "||" %70
+    \tempoI-IIResponsoriumTertiumB
+      r2 \mvTr f4\fE^\tutti f \noBreak
+    r8 as es! f g4 d!8 e
+    f c f2( e4)
+    f8 f f f es4. es8
+    d!2 c8 es f g16([ as)] %75
+    b8[ as g f] e4 f~
+    f e f2\fermata \bar "|." %77 finis
+  }
+}
+
+I-IILectioTertiaAltoLyrics = \lyricmode {
+  Et sic re -- %9
+  pen -- _ _ %10
+  te prae -- ci -- pi -- tas me. Me --
+  men -- to quae --
+  so quod si -- cut
+  lu -- tum fe -- ce -- ris me, et in
+  pul -- ve -- rem re -- du -- ces %15
+  me.
+
+  Pel -- le et %20
+  car -- ni -- bus ve -- sti -- sti me,
+  os -- si -- bus et ner -- vis con -- pe --
+  gi -- sti me.
+
+  Do -- mi -- ne, %35
+  iu -- di -- ca -- re
+  ter -- ram, u -- bi me ab --
+  scon -- dam a vul -- tu i -- rae
+  tu -- ae?
+  Qui -- a %40
+  pec -- ca -- vi ni -- mis in
+  vi -- ta me --
+  a, qui -- a pec -- ca -- vi
+  ni -- mis in vi -- ta
+  me -- _ _ %45
+  _ a.
+  Com -- mis -- sa me -- a pa --
+  ve -- sco, et an -- te
+  te e -- ru -- be -- sco: Dum
+  ve -- ne -- ris iu -- di -- ca -- re, %50
+  no -- li me con -- dem --
+  na -- re.
+
+  Qui -- a
+  pec -- ca -- vi ni -- mis in %55
+  vi -- ta me --
+  a, qui -- a pec -- ca -- vi
+  ni -- mis in vi -- ta
+  me -- _ _
+  _ a. %60
+  Re -- qui --
+  em ae -- ter -- _
+  _ nam do -- na
+  e -- is, Do -- mi -- ne:
+  Et lux per -- %65
+  pe -- tu -- a lu -- ce -- at
+  e -- is, lux per --
+  pe -- tu -- a lu -- ce -- at,
+  lu -- ce -- at e --
+  is. %70
+  Qui -- a
+  pec -- ca -- vi ni -- mis in
+  vi -- ta me --
+  a, qui -- a pec -- ca -- vi
+  ni -- mis in vi -- ta %75
+  me -- _ _
+  _ a. %77 finis
+}

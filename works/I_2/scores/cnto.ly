@@ -7,11 +7,29 @@
 
 \book {
   \bookpart {
-    \section "I-IILectioPrima" ""
+    \section "1" "Lectio prima"
     \addTocEntry
     \score {
       <<
         \new Staff { \I-IILectioPrimaCornetto }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Lectio secunda"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \I-IILectioSecundaCornetto }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Lectio tertia"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \I-IILectioTertiaCornetto }
       >>
     }
   }

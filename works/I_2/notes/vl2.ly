@@ -180,3 +180,78 @@ I-IILectioSecundaViolinoII = {
     g\fermata \bar "|." %90 finis
   }
 }
+
+I-IILectioTertiaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \dorian \time 4/4 \tempoI-IILectioTertia
+    r4 c'16(\fE f,) f8 r4 b16( e,) e8
+    c4 r8 \slurDashed f'~ f16( b,) b8 r \once \tieDashed es~
+    es16( as,) as8 r des~ des16( g,) g8 r16 g c( b) \slurSolid
+    des( c) b( as) \appoggiatura f8 e4\trill c'16(\p f,) f8 r4
+    des'16( f,) f8 r4 \once \slurDashed c'16( f,) f8 r4 %5
+    b16( e,) e8 r4 \once \slurDashed as16( c,) c8 r4
+    des'16( f,) f8 r4 des'16( g,) g8 r4
+    c16( es,) es8 r4 \slurDashed c'16( f,) f8 r4
+    d'!16( g,) g8 r4 \slurSolid r8 g\f g g
+    es16 es c es \once \tieDashed f4~ f16 f d f g4~ %10
+    g16 g es g g8 f g32 g f es d c h a g8 g'
+    g4. g8 \once \tieDashed g2~
+    g4 f r8 f f f
+    f4. f8 g4 g~
+    g f~ f8 es d4 %15
+    c r \once  \slurDashed as'16( c,) c8 r4
+    g'8 as16 f d4 c \slurDashed g''16(\p c,) c8
+    r4 b'!16( e,) e8 f4 r
+    r f16( b,) b8 b2
+    a4 c'16( f,) f8 f,4\f a8 a %20
+    a4 a8 c des4 f16( b,) b8
+    b des f \hA des b4 as~
+    as g as r
+    f'16( as,) as8 as4 as8 as4 g8
+    as4 r r b16(\p es,) es8 %25
+    des b r4 r4 c'16( f,) f8
+    d h' g2 g'16(-\markup \remark "un poco più forte" es) es8 \noBreak
+    c f, r f' f16( b,) b8 r es
+    es16( as,) as8 r d \slurSolid d16( g,) g8 r4
+    R1*3 %32
+    \once \slurDashed as16(\p c,) c8 r4 c8 c4 h8 \noBreak
+    c4 r r2\fermata \bar "||"
+    \tempoI-IIResponsoriumTertium as'2\fE as4 r \noBreak %35
+    as16 as as as as as as as f b b b b b b b
+    as8 as, r4 r8 g'16 e f4~
+    f8 e r \hA e f2~ \noBreak
+    f e\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumB r2 f4\fE f \noBreak %40
+    r8 as es! f g4 d!8 e
+    f c f2 e4
+    f4. f8 es4. es8
+    d!2 c8 es f g16 as
+    b8 as g f e4 f~ \noBreak %45
+    f e f2\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumC
+      b8\pE b b b c c c c \noBreak
+    b b b b f f f f
+    f f es es f f f f
+    f f f f f f f f %50
+    f f f f g! g as as
+    as as g-\critnote g as es es es \noBreak
+    es4 r r2\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumB r2 f4\fE f \noBreak
+    r8 as es! f g4 d!8 e %55
+    f c f2 e4
+    f4. f8 es4. es8
+    d!2 c8 es f g16 as
+    b8 as g f e4 f~ \noBreak
+    f e f2\fermata \bar "||" %60
+    \tempoI-IIResponsoriumTertiumD R1*9 \noBreak %69
+    R1\fermata \bar "||" %70
+    \tempoI-IIResponsoriumTertiumB r2 f4\fE f \noBreak
+    r8 as es! f g4 d!8 e
+    f c f2 e4
+    f4. f8 es4. es8
+    d!2 c8 es f g16 as %75
+    b8 as g f e4 f~
+    f e f2\fermata \bar "|." %77 finis
+  }
+}

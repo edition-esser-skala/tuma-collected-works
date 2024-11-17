@@ -374,3 +374,196 @@ I-IILectioSecundaBassFigures = \figuremode {
   <_->4 <5-> <5 3>8 <6 4> <5 \t> <\t 3>
   r1
 }
+
+I-IILectioTertiaOrgano = {
+  \relative c {
+    \clef bass
+    \key f \dorian \time 4/4 \tempoI-IILectioTertia
+    \mvTr f8\fE-\solo g as as g g e c
+    f es des b es des c as
+    des c b g c2~-\tasto
+    c4 c'8 c, f, g\pE as f
+    b c des b f' g as f %5
+    g g e c f f, r f'
+    b, c des b es f g es
+    as as, as' g f4. f8
+    g \mvTr g,-!\fE-\tutti h-! d-! g-! g, r g'
+    as16.-! as,32-! as8-! r a' b!16.-! b,32-! b8-! r h' %10
+    c4. as,!8 g4 r8 g'
+    f2 e
+    f4. as8 des,2
+    d es!4. c8
+    as2 g %15
+    c8-\solo d es c f g as f
+    es f g g, c4 r
+    c\pE r8 c f,4 r8 f'
+    b, c des b ges'4 r8 \hA ges
+    f4 r \mvTr f4.\fE-\tutti f8 %20
+    es4. es8 des2
+    b4 des8 b es des c \hA des
+    es2 as,8-\solo b c as
+    des es f \hA des c \hA des es es,
+    as b\pE c des es es des c %25
+    b c des es f2~
+    f4 es8 c g g'16 f es8 c
+    f es d b es d c as
+    d c h g c4 r8 e
+    f f, r fis' g g, r4 %30
+    as'8. g16 f8 e f4. fis8
+    g4 g, c8\p d es c
+    f! g as f es f g g, \noBreak
+    c4 r r2\fermata \bar "||"
+    \tempoI-IIResponsoriumTertium
+      \mvTr f2\fE-\tutti f4 r \noBreak %35
+    f16(-. f-. f-. f-.) f(-. f-. f-. f-.) f(-. f-. f-. f-.) f(-. f-. f-. f-.)
+    f8 f, r4 r8 e'16 c f8 f,
+    c'4 r8 c f g as f \noBreak
+    des2 c\fermata \bar "||"
+    \clef treble \tempoI-IIResponsoriumTertiumB
+    << {
+      c''4 c r8 des as b \noBreak %40
+      c2 b4. b8
+      as4. as8
+    } \\ {
+      \mvTr r2\fE-\tutti f4 f %40
+      r8 as es! f g4 d!8 e
+      f c f4
+    } >> \clef "treble_8" c4 c
+    \clef bass f, f r8 as es! f
+    g4 d8 e f es? des c
+    b2 c \noBreak %45
+    c f,\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumC
+      \mvTr b8(-.\pE-\solo b-. b-. b-.) a-.( a-. a-. a-.) \noBreak
+    b(-. b-. b-. b-.) b(-. b-. b-. b-.)
+    ges'(-. ges-. ges-. ges-.) f(-. f-. f-. f-.)
+    a(-. a-. a-. a-.) b(-. b-. b-. b-.) %50
+    b,(-. b-. b-. b-.) es(-. es-. es-. es-.)
+    es(-. es-. es-. es-.) as,(-. as-. as-. as-.) \noBreak
+    as4 r r2\fermata \bar "||"
+    \clef treble \tempoI-IIResponsoriumTertiumB
+    << {
+      c''4 c r8 des as b \noBreak
+      c2 b4. b8 %55
+      as4. as8
+    } \\ {
+      \mvTr r2\fE-\tutti f4 f
+      r8 as es! f g4 d!8 e %55
+      f c f4
+    } >> \clef "treble_8" c4 c
+    \clef bass f, f r8 as es! f
+    g4 d8 e f es? des c
+    b2 c \noBreak
+    c f,\fermata \bar "||" %60
+    \clef treble \tempoI-IIResponsoriumTertiumD
+    << {
+      c'''4. c8 h4. h8 \noBreak
+      c g c b as2
+    } \\ {
+      \mvTr s2\pE_\solo g4. g8
+      e4. e8 f c f4
+    } >>
+    \clef "treble_8" c4. c8 \clef bass g4. g8
+    e4. e8 f c f4~
+    f es d2 %65
+    c4 es8 c g' g, g'4~
+    g f8 es d4. e8
+    f c f2 es8 f
+    g2 g, \noBreak
+    c1\fermata \bar "||" %70
+    \clef treble \tempoI-IIResponsoriumTertiumB
+    << {
+      c''4 c r8 des as b \noBreak
+      c2 b4. b8
+      as4. as8
+    } \\ {
+      \mvTr r2\fE-\tutti f4 f
+      r8 as es! f g4 d!8 e
+      f c f4
+    } >> \clef "treble_8" c4 c
+    \clef bass f, f r8 as es! f
+    g4 d8 e f es? des c %75
+    b2 c
+    c f,\fermata \bar "|." %77 finis
+  }
+}
+
+I-IILectioTertiaBassFigures = \figuremode {
+  r4 <6> <6!>2
+  r4 <6>8 <7>4. <6>8 <7>
+  r4 <6>8 <7> <_!>2
+  r4 <4>8 <_!> r2
+  <_->1 %5
+  <6!>
+  <_->2 <7[-]>
+  r2. <6[!]>8 <5>
+  <_!>2 r8 q4.
+  r4 <6>2 q4 %10
+  <9> <8>8 <6> <_!>4. <\t>8
+  <4! 2>2 <7- 5->
+  <9 4>4 <8 3> <6>2
+  <6!> <6>
+  <7>4 <6> <7 _!>8 <6 4> <5 \t> <\t _!> %15
+  r1
+  <[6]>4 <4>8 <_!> r2
+  <7[-] _!>1
+  <_->2 <7 [5-]>4. <6>8
+  <[_!]>2 <\t> %20
+  <4! 2> <6>
+  <[_-]>2. <6>8 <6 5>
+  <4>4 <3>2.
+  r2 \bo <[6]>4 <4>8 \bc <[3]>
+  r1 %25
+  <_->2 <_!>4 <_->8 <6[!]>
+  <4! 2>4 <6> <5 4>8 <\t _!> <6>4
+  r4 \bo <[6- _]>8 <7>4. <6>8 <7>
+  r4 <6>8 <7 _!>2 <6>8
+  r4. \bc <[6 _!]>8 <_!>2 %30
+  r2 <5>4. <6 [_!]>8
+  <4>4 <_!>2.
+  r2 \bo <[6]>4 <4>8 \bc <[3]>
+  r1
+  r %35
+  r2 <6- 4>
+  <5 3> r8 <6>4.
+  <5 4>8 <\t _!>4 <\t \t>8 r2
+  <7>4 <6> <_!>2
+  r1 %40
+  r
+  r2 <5 4>4 <\t _!>
+  <6-> <5>2.
+  <[5!]>4 <6>2.
+  <_->2 <7 _!>4 <6 4> %45
+  <5 \t> <\t _!>2.
+  <_->2 <7- 5>4. <[6 \t]>8
+  <_->1
+  <7 [5-]>4 <6> <_!>2
+  <6 5> <_-> %50
+  <\t> <7[-] [_!]>4 <6 4>
+  <5 \t> <\t 3>2.
+  r1
+  r
+  r %55
+  r2 <5 4>4 <\t _!>
+  <6-> <5>2.
+  <[5!]>4 <6>2.
+  <_->2 <7 _!>4 <6 4>
+  <5 \t> <\t _!>2. %60
+  r1
+  r
+  <4>4 <3[-]> <_!>2
+  <6> <9>4 <8>8 <6>
+  <4! 2>4 <6> <7 [5!]> <6!> %65
+  <5 4>8 <\t 3>4. <4>4 <3[-]>
+  <4 2-> <5>8 <6> <7>4 <6>8 <\t>
+  <9 4>4 <8 3> <4! 2> <6>
+  <5 _!> <6 4> <5 \t> <\t _!>
+  r1 %70
+  r
+  r
+  r2 <5 4>4 <\t _!>
+  <6-> <5>2.
+  <[5!]>4 <6>2. %75
+  <_->2 <7 _!>4 <6 4>
+  <5 \t> <\t _!>2. %77 finis
+}

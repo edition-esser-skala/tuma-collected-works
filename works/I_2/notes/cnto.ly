@@ -120,3 +120,60 @@ I-IILectioSecundaCornetto = {
     c1\fermata \bar "|." %90 finis
   }
 }
+
+I-IILectioTertiaCornetto = {
+  \relative c' {
+    \clef soprano
+    \key f \dorian \time 4/4 \tempoI-IILectioTertia
+    R1*8 %8
+    r2 r8 h'\fE d \hA h
+    c4~ c16 c c, c' d4~ d16 d d, d' %10
+    es8 es16 es es8 c16 c h4 r8 \hA h
+    h4. h8 b2~
+    b4 as r8 b b b
+    h d \hA h a16 \hA h c4 c8 c
+    c8. c16 c8 c h c4 \hA h8 %15
+    c4 r r2
+    R1*3
+    r2 c4\fE c8 c %20
+    c8. c16 c8 c des8. des16 des4
+    des8. des16 f8 \hA des b b c b
+    b4. b8 as4 r
+    R1*10 \noBreak %33
+    R1\fermata \bar "||"
+    \tempoI-IIResponsoriumTertium
+      c4.\fE c8 c4 as8 f \noBreak %35
+    c' c16 c c8 c des4. des8
+    c c, r4 r8 c'16 b as8 as
+    g g16 g c4~ c8 c c c \noBreak
+    c4 b c2\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumB
+      c4\fE c r8 des as b \noBreak %40
+    c2 b4. b8
+    as4. g16 f g2
+    f8 as c b as4 g8 as
+    b4 f8 g as g f4~
+    f8 g16 as b2 as4 \noBreak %45
+    g2 f\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumC R1*6 \noBreak %52
+    R1\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumB
+      c'4\fE c r8 des as b \noBreak
+    c2 b4. b8 %55
+    as4. g16 f g2
+    f8 as c b as4 g8 as
+    b4 f8 g as g f4~
+    f8 g16 as b2 as4 \noBreak
+    g2 f\fermata \bar "||" %60
+    \tempoI-IIResponsoriumTertiumD R1*9\noBreak %69
+    R1\fermata \bar "||" %70
+    \tempoI-IIResponsoriumTertiumB
+      c'4\fE c r8 des as b \noBreak
+    c2 b4. b8 %55
+    as4. g16 f g2
+    f8 as c b as4 g8 as
+    b4 f8 g as g f4~ %75
+    f8 g16 as b2 as4
+    g2 f\fermata \bar "|." %77 finis
+  }
+}

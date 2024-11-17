@@ -122,3 +122,51 @@ I-IILectioSecundaFagotto = {
     c1\fermata \bar "|." %90 finis
   }
 }
+
+I-IILectioTertiaFagotto = {
+  \relative c {
+    \clef bass
+    \key f \dorian \time 4/4 \tempoI-IILectioTertia
+    R1*8 %8
+    r8 g\fE h d g g, r g'
+    as16. as,32 as8 r a' b!16. b,32 b8 r h' %10
+    c4. as,!16 as g4 r8 g'
+    f4. f8 e2
+    f8 f f as des,4. des8
+    d4 d8 d es!4 es8 c
+    as8. as16 as8 as g4. g8 %15
+    c4 r r2
+    R1*3
+    r2 f4\fE f8 f %20
+    es8. es16 es8 es des8. des16 des4
+    b8. b16 des8 b es des c \hA des
+    es4. es8 as,4 r
+    R1*10 \noBreak %33
+    R1\fermata \bar "||"
+    \tempoI-IIResponsoriumTertium
+      f'4.\fE f8 f4 r \noBreak %35
+    f4. f8 f4. f8
+    f f, r4 r8 e'16 c f8 f,
+    c' c r c f g as f \noBreak
+    des2 c\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumB R1*3 %42
+    f4\fE f r8 as es! f
+    g4 d8 e f es? des c
+    b2 c~ \noBreak %45
+    c f,\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumC R1*6 \noBreak %52
+    R1\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumB R1*3 %56
+    f'4\fE f r8 as es! f
+    g4 d8 e f es? des c
+    b2 c~ \noBreak
+    c f,\fermata \bar "||" %60
+    \tempoI-IIResponsoriumTertiumD R1*9 \noBreak %69
+    R1\fermata \bar "||" %70
+    \tempoI-IIResponsoriumTertiumB R1*3
+    f'4\fE f r8 as es! f
+    g4 d8 e f es? des c %75
+    b2 c~
+    c f,\fermata \bar "|." %77 finis
+  }
+}

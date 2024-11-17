@@ -148,3 +148,54 @@ I-IILectioSecundaTromboneII = {
     c1\fermata \bar "|." %90 finis
   }
 }
+
+I-IILectioTertiaTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key f \dorian \time 4/4 \tempoI-IILectioTertia
+    R1*8 %8
+    r2 r8 d\fE h d
+    c c r f d16 d, d8 r d' %10
+    d4 c8 c d4 r8 d
+    d4. d8 des2
+    c8 c c c f,4 f
+    f f8 f es!4 es'8 es
+    es8. c16 c8 c g4. g8 %15
+    g4 r r2
+    R1*3
+    r2 a4\fE a8 a %20
+    a8. a16 a8 a b8. b16 b4
+    b8. b16 b8 des es es es f
+    es4. es8 es4 r
+    R1*10 \noBreak %33
+    R1\fermata \bar "||"
+    \tempoI-IIResponsoriumTertium
+      as,4.\fE as8 as4 r \noBreak %35
+    as4. as8 b4. b8
+    as as r as16 f c'4. c8
+    c c r g as b c as \noBreak
+    f2 g\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumB R1*2 %41
+    r2 c4\fE c
+    r8 des as b c2
+    b4. b8 as4. b16 c
+    des8 c b as g4 as8 b \noBreak %45
+    c2 c\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumC R1*6 \noBreak %52
+    R1\fermata \bar "||"
+    \tempoI-IIResponsoriumTertiumB R1*2 %55
+    r2 c4\fE c
+    r8 des as b c2
+    b4. b8 as4. b16 c
+    des8 c b as g4 as8 b \noBreak
+    c2 c\fermata \bar "||" %60
+    \tempoI-IIResponsoriumTertiumD R1*9\noBreak
+    R1\fermata \bar "||" %70
+    \tempoI-IIResponsoriumTertiumB R1*2
+    r2 c4\fE c
+    r8 des as b c2
+    b4. b8 as4. b16 c %75
+    des8 c b as g4 as8 b
+    c2 c\fermata \bar "|." %77 finis
+  }
+}
