@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XVIOrgano = {
+D-II-XVIIOrgano = {
   \relative c {
     \clef treble
-    \key d \minor \time 4/4 \tempoD-II-XVI
+    \key d \minor \time 4/4 \tempoD-II-XVII
     << {
       d'2 a'4 a
       b a8 g
@@ -53,7 +53,7 @@ D-II-XVIOrgano = {
   }
 }
 
-D-II-XVIBassFigures = \figuremode {
+D-II-XVIIBassFigures = \figuremode {
   r1
   r
   <4>4 <_+> <[6]> \bo <6! [4]>8 \bc <5 [3]>
