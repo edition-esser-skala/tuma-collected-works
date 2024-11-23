@@ -6,8 +6,7 @@ markADCS = {
 }
 
 tempoC-III-XIAdeste = \tempoMarkup "Larghetto"
-tempoC-III-XIDat = \tempo 4 = 75
-% tempoC-III-XIDat = \tempoMarkup "Andante"
+tempoC-III-XIDat = \tempoMarkup "Andante"
 
 \include "notes/cnto.ly"
 \include "notes/fag.ly"
