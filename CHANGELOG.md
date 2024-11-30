@@ -1,5 +1,23 @@
 # Changelog
 
+## 2024.11.0 – 2024-11-30
+
+### Added
+
+- works: TumW C.2.1 and I.3
+
+### Changed
+
+- renumbered TumW D.2.16 to D.2.17
+- split TumW H.19 into H.18 and F.5.5
+
+### Fixed
+
+- TumW C.3.11: tempo indication
+- TumW F.2.8: scoring
+- TumW H.7: scoring
+
+
 ## 2024.10.0 – 2024-11-01
 
 ### Added
