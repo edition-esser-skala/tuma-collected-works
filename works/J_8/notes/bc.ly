@@ -44,7 +44,7 @@ J-VIIIContinuo = {
     h r \noBreak
     \time 4/4 \tempoJ-VIIIb r4 h8 a! g2 \noBreak
     fis1\fermata \bar "||" %40
-    \key d \major \time 2/4 \partial 8 r8 \noBreak
+    \key d \major \time 2/4 \tempoJ-VIIIc \partial 8 r8 \noBreak
     r a' \fE fis d \noBreak
     r a'16 g fis8 fis
     g4 h,8 cis

@@ -44,7 +44,7 @@ J-VIIIViolinoII = {
     h4 r \noBreak
     \time 4/4 \tempoJ-VIIIb fis'2. e4 \noBreak
     fis1\fermata \bar "||" %40
-    \key d \major \time 2/4 \partial 8 a8\fE \noBreak
+    \key d \major \time 2/4 \tempoJ-VIIIc \partial 8 a8\fE \noBreak
     d( cis) r a
     fis'( e) r d
     \appoggiatura c?16 h8 a16 h g8 a
