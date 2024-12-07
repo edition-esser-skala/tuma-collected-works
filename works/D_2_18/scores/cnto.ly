@@ -7,12 +7,12 @@
 
 \book {
   \bookpart {
-    \section "D.2.17" "Memento"
+    \section "D.2.18" "Memento"
     \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \D-II-XVIICornetto }
+        \new Staff { \D-II-XVIIICornetto }
       >>
     }
   }

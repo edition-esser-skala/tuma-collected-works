@@ -2,18 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "D.2.17" "Memento"
+    \section "D.2.18" "Memento"
     \addTocEntry
-    \paper { systems-per-page = #7 }
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \D-II-XVIIOrgano }
-        \new FiguredBass { \D-II-XVIIBassFigures }
+        \new Staff { \D-II-XVIIIViolinoII }
       >>
     }
   }
