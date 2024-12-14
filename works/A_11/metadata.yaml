@@ -1,0 +1,40 @@
+title: Missa Sanctæ Elisabethæ
+id: TumW A.11
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-GÖ
+    shelfmark: 626
+    date: 1754
+    license: public domain
+    principal: true
+    notes: 9 parts (S, A, T, B, trb 1, trb 2, vl 1, vl 2, org)
+  B2:
+    siglum: A-WIL
+    shelfmark: 1093
+    date: 1734–1750
+    license: public domain
+    notes: 10 parts (S, A, T, B, trb 1, trb 2, vl 1, vl 2, vlne, org)
+tocstyle: default
+toe: |
+  – & –     & –     & This mass is related to the mass TumW A.9,
+                      which represents a shortened version.
+                      For a detailed comparison of the works,
+                      see Alfred Peschek, Die Messen von Franz Tuma
+                      (PhD Thesis, University of Vienna, 1956), p. 117–122. \\
+  1 & –     & –     & In \B2, bars 18–24 are also set to the lyrics
+                      “Kyrie eleison”, while bars 44–51 are set to
+                      “Christe eleison” and are followed by the
+                      directive “Kyrie ut supra”. \\
+    & 33    & trb 1 & 2nd \halfNote\ in \B1: \sharp f′2 \\
+  2 & 9     & T     & 3rd \quarterNote\ in \B1: b4 \\
+    & 17    & trb 2 & 4th \quarterNote\ in \B1 and \B2: f8–g16–a16 \\
+  3 & 8     & vl 1  & 4th \quarterNote\ in \B1 and \B2: c″4 \\
+    & 8     & S     & 7th \eighthNote\ in \B1 and \B2: c″8 \\
+    & 10–14 & –     & bars missing in \B2 \\
+  4 & 3     & S     & bar in \B1: b′2–b′1 \\
+    & 6     & B     & bar in \B1: b2–B1\\
+    & 15    & S     & 2nd \quarterNote\ in \B1: c″4 \\
+  5 & 18    & vl 2  & 3rd \eighthNote\ in \B1: e′8 \\
