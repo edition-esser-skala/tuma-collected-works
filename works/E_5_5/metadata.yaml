@@ -1,0 +1,17 @@
+title: Sub tuum praesidium
+id: TumW E.5.5
+genre: hymn
+scoring: S, A, T, B (coro), cnto, fag, 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15694/2
+    rism: 600101474
+    date: 1766
+    url: https://data.onb.ac.at/rec/AC14253267
+    license: public domain
+    principal: true
+    notes: 18 parts (S solo, A solo, T solo, B solo, S rip, A rip, T rip, B rip, cnto, fag, trb 1, trb 2, vl 1, vl 2, vlc, vlne, org, maestro di cappella)
+toe: |
+  11  & cnto, vl 1, S & 3rd \quarterNote\ in \B1: a′8.–a′16 \\
