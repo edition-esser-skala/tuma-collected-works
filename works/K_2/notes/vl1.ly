@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-L-IIaViolinoI = {
+K-IIaViolinoI = {
   \relative c' {
     \clef treble
-    \key a \minor \time 3/4 \tempoL-IIa
+    \key a \minor \time 3/4 \tempoK-IIa
     r4 r r8 c''\p
     c( h) h4 r8 h
     h( a) a4 r8 a
@@ -66,10 +66,10 @@ L-IIaViolinoI = {
   }
 }
 
-L-IIbViolinoI = {
+K-IIbViolinoI = {
   \relative c' {
     \clef treble
-    \twofourtime \key a \minor \time 2/4 \tempoL-IIb
+    \twofourtime \key a \minor \time 2/4 \tempoK-IIb
     \partial 8 a''8\fE a,16 c h a h8 e
     c a r e'\p
     f( e) e( dis)
@@ -122,10 +122,10 @@ L-IIbViolinoI = {
   }
 }
 
-L-IIcViolinoI = {
+K-IIcViolinoI = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/4 \tempoL-IIc
+    \key c \major \time 3/4 \tempoK-IIc
     \tuplet 3/2 4 { c'8\fE d e } d4 g,
     f\trill e g'
     \tuplet 3/2 4 { f8 g a } d,4 c\trill
@@ -156,7 +156,7 @@ L-IIcViolinoI = {
     c4 c, r
     a8 f' e d c h \noBreak
     c2 r4\fermata \bar ":|.|:" %30
-    \tempoL-IIcb c4\p r r \noBreak
+    \tempoK-IIcb c4\p r r \noBreak
     h r r
     cis r r
     d r r
@@ -187,10 +187,10 @@ L-IIcViolinoI = {
   }
 }
 
-L-IIdViolinoI = {
+K-IIdViolinoI = {
   \relative c' {
     \clef treble
-    \twofourtime \key a \minor \time 2/4 \tempoL-IId
+    \twofourtime \key a \minor \time 2/4 \tempoK-IId
     \partial 8 a''8\fE a,( c) h( d)
     c a r e
     a( c) h( d)

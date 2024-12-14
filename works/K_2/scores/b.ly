@@ -11,7 +11,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \L-IIaContinuo }
+        \new Staff { \K-IIaContinuo }
       >>
     }
   }
@@ -21,7 +21,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \L-IIbContinuo }
+        \new Staff { \K-IIbContinuo }
       >>
     }
   }
@@ -30,7 +30,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \L-IIcContinuo }
+        \new Staff { \K-IIcContinuo }
       >>
     }
   }
@@ -39,7 +39,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \L-IIdContinuo }
+        \new Staff { \K-IIdContinuo }
       >>
     }
   }

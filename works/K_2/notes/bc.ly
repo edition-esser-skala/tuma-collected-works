@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-L-IIaContinuo = {
+K-IIaContinuo = {
   \relative c {
     \clef bass
-    \key a \minor \time 3/4 \tempoL-IIa
+    \key a \minor \time 3/4 \tempoK-IIa
     a'4\p r r
     g r r
     f r r
@@ -66,7 +66,7 @@ L-IIaContinuo = {
   }
 }
 
-L-IIaBassFigures = \figuremode {
+K-IIaBassFigures = \figuremode {
   r2.
   <4>8 <3> r2
   <4>8 <3> r2
@@ -128,10 +128,10 @@ L-IIaBassFigures = \figuremode {
   r2. %59 finis
 }
 
-L-IIbContinuo = {
+K-IIbContinuo = {
   \relative c {
     \clef bass
-    \twofourtime \key a \minor \time 2/4 \tempoL-IIb
+    \twofourtime \key a \minor \time 2/4 \tempoK-IIb
     \partial 8 r8 r a'4\fE gis8
     a4 r8 gis\pE
     a g f4
@@ -184,7 +184,7 @@ L-IIbContinuo = {
   }
 }
 
-L-IIbBassFigures = \figuremode {
+K-IIbBassFigures = \figuremode {
   r8 r <3> <2> <6>
   r4. <6>8
   q q <7> <6\\>
@@ -236,10 +236,10 @@ L-IIbBassFigures = \figuremode {
   r4. %49 finis
 }
 
-L-IIcContinuo = {
+K-IIcContinuo = {
   \relative c {
     \clef bass
-    \key c \major \time 3/4 \tempoL-IIc
+    \key c \major \time 3/4 \tempoK-IIc
     c'4\fE h2
     a8 h c4 c,
     f2 e8 f
@@ -270,7 +270,7 @@ L-IIcContinuo = {
     e4 c8 d e4
     f2 g4 \noBreak
     c,2 r4\fermata \bar ":|.|:" %30
-    \tempoL-IIcb r4 a\p a'~ \noBreak
+    \tempoK-IIcb r4 a\p a'~ \noBreak
     a gis8 fis gis4
     r a, g'~
     g fis8 e fis4
@@ -301,7 +301,7 @@ L-IIcContinuo = {
   }
 }
 
-L-IIcBassFigures = \figuremode {
+K-IIcBassFigures = \figuremode {
   r4 <6>2
   q8 <\t> r2
   <6>2 q4
@@ -362,10 +362,10 @@ L-IIcBassFigures = \figuremode {
   r2. %58 finis
 }
 
-L-IIdContinuo = {
+K-IIdContinuo = {
   \relative c {
     \clef bass
-    \twofourtime \key a \minor \time 2/4 \tempoL-IId
+    \twofourtime \key a \minor \time 2/4 \tempoK-IId
     \partial 8 r8 a'4\fE gis
     a r
     r8 a4 gis8
@@ -438,7 +438,7 @@ L-IIdContinuo = {
   }
 }
 
-L-IIdBassFigures = \figuremode {
+K-IIdBassFigures = \figuremode {
   r8 r4 <6 5>
   r2
   r8 <3> <2> <6 5>

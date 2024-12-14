@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-L-IXIntrataContinuo = {
+K-IXIntrataContinuo = {
   \relative c {
     \clef bass
-    \key a \major \time 3/4 \tempoL-IXIntrata
+    \key a \major \time 3/4 \tempoK-IXIntrata
     \repeat volta 2 {
       a4\fE a' gis
       a2 r4
@@ -52,7 +52,7 @@ L-IXIntrataContinuo = {
   }
 }
 
-L-IXIntrataBassFigures = \figuremode {
+K-IXIntrataBassFigures = \figuremode {
   r2 <6>4
   r2.
   r2 <6>8 <5>
@@ -94,10 +94,10 @@ L-IXIntrataBassFigures = \figuremode {
   r %39 finis
 }
 
-L-IXBourreeContinuo = {
+K-IXBourreeContinuo = {
   \relative c {
     \clef bass
-    \twofourtime \key a \major \time 2/4 \tempoL-IXBourree
+    \twofourtime \key a \major \time 2/4 \tempoK-IXBourree
     \partial 8 r8 r a'16\fE gis a8 d,
     e gis16 fis gis8 e
     a4 r
@@ -125,7 +125,7 @@ L-IXBourreeContinuo = {
   }
 }
 
-L-IXBourreeBassFigures = \figuremode {
+K-IXBourreeBassFigures = \figuremode {
   r8 r4. <6>8
   r4. <7>8
   r2
@@ -152,10 +152,10 @@ L-IXBourreeBassFigures = \figuremode {
   r4. %24 finis
 }
 
-L-IXMenuetteContinuo = {
+K-IXMenuetteContinuo = {
   \relative c {
     \clef bass
-    \key a \major \time 3/4 \tempoL-IXMenuette
+    \key a \major \time 3/4 \tempoK-IXMenuette
       \once \override Staff.TimeSignature.style = #'single-digit
     a2\fE cis4
     d e a,
@@ -184,7 +184,7 @@ L-IXMenuetteContinuo = {
   }
 }
 
-L-IXMenuetteBassFigures = \figuremode {
+K-IXMenuetteBassFigures = \figuremode {
   r2 <6>4
   r2.
   r4 \bo <[6 _]> <6 4>
@@ -211,10 +211,10 @@ L-IXMenuetteBassFigures = \figuremode {
   r %24 finis
 }
 
-L-IXPastorellaContinuo = {
+K-IXPastorellaContinuo = {
   \relative c {
     \clef bass
-    \key a \major \time 4/4 \tempoL-IXPastorella
+    \key a \major \time 4/4 \tempoK-IXPastorella
     a'4\fE gis a cis,8 h
     a cis d e a, a'16 gis a8 h,
     cis a h' a gis e a h, \noBreak
@@ -231,7 +231,7 @@ L-IXPastorellaContinuo = {
   }
 }
 
-L-IXPastorellaBassFigures = \figuremode {
+K-IXPastorellaBassFigures = \figuremode {
   r4 <6>2 q8 q
   r4 q2 r8 q
   <[6]>4 <6> <[6]>4. <6>8

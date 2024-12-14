@@ -12,7 +12,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \L-IXIntrataContinuo }
+        \new Staff { \K-IXIntrataContinuo }
       >>
     }
   }
@@ -22,7 +22,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \L-IXBourreeContinuo }
+        \new Staff { \K-IXBourreeContinuo }
       >>
     }
   }
@@ -32,7 +32,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \L-IXMenuetteContinuo }
+        \new Staff { \K-IXMenuetteContinuo }
       >>
     }
   }
@@ -42,7 +42,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \L-IXPastorellaContinuo }
+        \new Staff { \K-IXPastorellaContinuo }
       >>
     }
   }

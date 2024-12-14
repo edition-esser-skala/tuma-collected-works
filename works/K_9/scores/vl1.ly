@@ -2,29 +2,26 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "bc")
+#(define option-instrument-name "vl 1")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Intrata"
     \addTocEntry
-    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \L-IXIntrataContinuo }
-        \new FiguredBass { \L-IXIntrataBassFigures }
+        \new Staff { \K-IXIntrataViolinoI }
       >>
     }
   }
   \bookpart {
     \section "2" "Bourrée"
     \addTocEntry
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \L-IXBourreeContinuo }
-        \new FiguredBass { \L-IXBourreeBassFigures }
+        \new Staff { \K-IXBourreeViolinoI }
       >>
     }
   }
@@ -34,19 +31,17 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \L-IXMenuetteContinuo }
-        \new FiguredBass { \L-IXMenuetteBassFigures }
+        \new Staff { \K-IXMenuetteViolinoI }
       >>
     }
   }
   \bookpart {
     \section "4" "Pastorella"
     \addTocEntry
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \L-IXPastorellaContinuo }
-        \new FiguredBass { \L-IXPastorellaBassFigures }
+        \new Staff { \K-IXPastorellaViolinoI }
       >>
     }
   }

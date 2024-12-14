@@ -5,11 +5,11 @@ markMDC = {
   \mark \markup \remark "Menuetto da capo"
 }
 
-tempoL-IIa = \tempoMarkup "Andante"
-tempoL-IIb = \tempoMarkup "Allegro"
-tempoL-IIc = \tempoMarkup "Menuetto"
-  tempoL-IIcb = \tempoMarkup "Trio"
-tempoL-IId = \tempoMarkup "Allegro"
+tempoK-IIa = \tempoMarkup "Andante"
+tempoK-IIb = \tempoMarkup "Allegro"
+tempoK-IIc = \tempoMarkup "Menuetto"
+  tempoK-IIcb = \tempoMarkup "Trio"
+tempoK-IId = \tempoMarkup "Allegro"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

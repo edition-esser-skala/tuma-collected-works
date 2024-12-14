@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-L-IXIntrataViolinoII = {
+K-IXIntrataViolinoII = {
   \relative c' {
     \clef treble
-    \key a \major \time 3/4 \tempoL-IXIntrata
+    \key a \major \time 3/4 \tempoK-IXIntrata
     \repeat volta 2 {
       cis2\fE e4
       a8 e a e h' e,
@@ -52,10 +52,10 @@ L-IXIntrataViolinoII = {
   }
 }
 
-L-IXBourreeViolinoII = {
+K-IXBourreeViolinoII = {
   \relative c' {
     \clef treble
-    \twofourtime \key a \major \time 2/4 \tempoL-IXBourree
+    \twofourtime \key a \major \time 2/4 \tempoK-IXBourree
     \partial 8 cis16\fE h cis8 cis a gis'16 fis
     gis8 gis e a16 gis
     a8 cis h a
@@ -83,10 +83,10 @@ L-IXBourreeViolinoII = {
   }
 }
 
-L-IXMenuetteViolinoII = {
+K-IXMenuetteViolinoII = {
   \relative c' {
     \clef treble
-    \key a \major \time 3/4 \tempoL-IXMenuette
+    \key a \major \time 3/4 \tempoK-IXMenuette
       \once \override Staff.TimeSignature.style = #'single-digit
     cis'8\fE d e4 a,
     r h, cis
@@ -115,10 +115,10 @@ L-IXMenuetteViolinoII = {
   }
 }
 
-L-IXPastorellaViolinoII = {
+K-IXPastorellaViolinoII = {
   \relative c' {
     \clef treble
-    \key a \major \time 4/4 \tempoL-IXPastorella
+    \key a \major \time 4/4 \tempoK-IXPastorella
     a'4\fE e e r8 d'
     cis4 h,8 h cis a r e'
     e4 d'8 cis h4 r8 e, \noBreak

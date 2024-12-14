@@ -11,8 +11,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \L-IIaContinuo }
-        \new FiguredBass { \L-IIaBassFigures }
+        \new Staff { \K-IIaContinuo }
+        \new FiguredBass { \K-IIaBassFigures }
       >>
     }
   }
@@ -22,8 +22,8 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \L-IIbContinuo }
-        \new FiguredBass { \L-IIbBassFigures }
+        \new Staff { \K-IIbContinuo }
+        \new FiguredBass { \K-IIbBassFigures }
       >>
     }
   }
@@ -32,8 +32,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \L-IIcContinuo }
-        \new FiguredBass { \L-IIcBassFigures }
+        \new Staff { \K-IIcContinuo }
+        \new FiguredBass { \K-IIcBassFigures }
       >>
     }
   }
@@ -42,8 +42,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \L-IIdContinuo }
-        \new FiguredBass { \L-IIdBassFigures }
+        \new Staff { \K-IIdContinuo }
+        \new FiguredBass { \K-IIdBassFigures }
       >>
     }
   }

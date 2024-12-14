@@ -18,20 +18,20 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \L-IXIntrataViolinoI
+              \K-IXIntrataViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \L-IXIntrataViolinoII
+              \K-IXIntrataViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
             % \transpose c c,
-            \L-IXIntrataContinuo
+            \K-IXIntrataContinuo
           }
         >>
-        \new FiguredBass { \L-IXIntrataBassFigures }
+        \new FiguredBass { \K-IXIntrataBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 130 }
@@ -47,20 +47,20 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \L-IXBourreeViolinoI
+              \K-IXBourreeViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \L-IXBourreeViolinoII
+              \K-IXBourreeViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \L-IXBourreeContinuo
+            \K-IXBourreeContinuo
           }
         >>
-        \new FiguredBass { \L-IXBourreeBassFigures }
+        \new FiguredBass { \K-IXBourreeBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 120 }
@@ -76,20 +76,20 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \L-IXMenuetteViolinoI
+              \K-IXMenuetteViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \L-IXMenuetteViolinoII
+              \K-IXMenuetteViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \L-IXMenuetteContinuo
+            \K-IXMenuetteContinuo
           }
         >>
-        \new FiguredBass { \L-IXMenuetteBassFigures }
+        \new FiguredBass { \K-IXMenuetteBassFigures }
       >>
       \layout { }
       \midi { \tempo 2. = 60 }
@@ -105,20 +105,20 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \L-IXPastorellaViolinoI
+              \K-IXPastorellaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \L-IXPastorellaViolinoII
+              \K-IXPastorellaViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \L-IXPastorellaContinuo
+            \K-IXPastorellaContinuo
           }
         >>
-        \new FiguredBass { \L-IXPastorellaBassFigures }
+        \new FiguredBass { \K-IXPastorellaBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 120 }
