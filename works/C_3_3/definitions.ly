@@ -1,0 +1,18 @@
+\version "2.24.2"
+
+tempoC-III-IIIa = \tempoMarkup "Recitativo · Adagio un poco"
+tempoC-III-IIIb = \tempoMarkup "Aria · Allegretto"
+  tempoC-III-IIIbb = \tempoMarkup "Più allegro"
+  tempoC-III-IIIbc = \tempoMarkup "Tempo di prima"
+tempoC-III-IIIc = \tempoMarkup "Choro · Vivace"
+tempoC-III-IIId = \tempoMarkup "Allegro non presto"
+
+\include "notes/clno1.ly"
+\include "notes/clno2.ly"
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"

@@ -1,0 +1,46 @@
+title: Succurre Regina
+id: TumW C.3.3
+genre: motet
+festival: Mariae (B.V.)
+scoring: S (solo), S, A, T, B (coro), 2 clno (C), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-GÖ
+    shelfmark: 1636
+    date: 1762-12-12
+    license: public domain
+    principal: true
+    notes: 9 parts (S solo and coro, A coro, T coro, B coro, clno 1, clno 2, vl 1, vl 2, org)
+toe: |
+  11  & org  & bar in \B1: A2–d8–\sharp A8–\crotchetRest \\
+  78  & S    & 4th \eighthNote\ in \B1: g′8 \\
+  84  & org  & 6th \eighthNote\ in \B1: e8 \\
+  96  & vl 2 & 3rd \quarterNote\ in \B1: g″8–f″8 \\
+  121 & T    & 2nd to 5th \eighthNote\ in \B1: e′8–d′4–c′8 \\
+  123 & vl 1 & 2nd \eighthNote\ in \B1: a″8 \\
+  138 & vl 1 & last \eighthNote\ in \B1: d″8 \\
+  138 & A    & last \eighthNote\ in \B1: \sharp f′8 \\
+  177 & T    & bar in \B1: b2–e′2 \\
+  187 & B    & 2nd \halfNote\ missing in \B1 \\
+parts:
+  clno12: Clarino I, II in C
+lyrics:
+  Succurre Regina tui virgo o Maria,\\
+  prostratis ad aras clientibus.\\
+  Laudes hodie dicatas suscipe,\\
+  quas tibi nunc devota mente\\
+  consecrant in confidentia.\\
+  Tuum implorantes auxilium\\
+  redde dignos patrocinio.\\[1ex]
+  Mens erigit se\\
+  dum invoco Matrem\\
+  clamantem ad Patrem\\
+  confisa in spe.\\
+  Da mihi fervorem\\
+  et dignum honorem\\
+  quo lauderis a me.\\[1ex]
+  Venite ad Reginam vestram, o vos miseri,\\
+  vestras aerumnas tollet potentissima\\
+  exorando Filii clementiam,\\
+  qui et Matris exaudit reverentiam.
