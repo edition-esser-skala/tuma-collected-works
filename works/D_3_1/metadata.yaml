@@ -1,0 +1,32 @@
+title: Miserere
+id: TumW D.3.1
+genre: psalm
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, vla solo, vlc solo, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-B
+    shelfmark: Mus.ms. 22104/2
+    rism: 452514365
+    date: 1745
+    license: public domain
+    principal: true
+    notes: 18 parts (S solo, A solo, T solo, B solo, S rip, A rip, T rip, B rip, trb 1, trb 2, vl~1/vla, vl 1, vl 2 (2×), vlc, vlne, org (2×))
+  B2:
+    siglum: A-GÖ
+    shelfmark: 2587
+    date: 1748-01-23
+    license: public domain
+    notes: 11 parts (S solo and rip, A solo and rip, T solo and rip, B solo and rip, trb 1, trb 2, vl 1, vl 2, vla, vla da gamba, org)
+toe: |
+  1–65 & –     & Inconsistent uses of \wholeNoteDotted\
+                 vs \wholeNote–\halfNoteRest\ have been emended
+                 in the following bars:\newline 8 (trb 1), 17 (vl 1),
+                 35 (vl 2), 39 (vl 1), and 62 (vl 1). \\
+  12   & vl 2  & 2nd/3rd \halfNote\ in \B1: b′2–\halfNoteRest \\
+  98   & vl 1  & 10rh/11th \sixteenthNote\ in \B1: g″16–g″16 \\
+  244  & org   & bar in \B1: G2–\crotchetRest \\
+  301  & trb 2 & 2nd \quarterNote\ in \B1: \sharp f8–g8 \\
+parts:
+  vla: Viola solo
+  vlc: Violoncello solo
