@@ -29,7 +29,7 @@
   \bookpart {
     \section "3" "Tibi soli peccavi"
     \addTocEntry
-    \paper { systems-per-page = #5 }
+    \paper { system-count = #5 }
     \score {
       <<
         \new Staff { \D-III-VITibiSoliOrgano }
@@ -40,7 +40,7 @@
   \bookpart {
     \section "4" "Ecce enim"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { system-count = #6 }
     \score {
       <<
         \new Staff { \D-III-VIEcceEnimOrgano }
@@ -51,6 +51,7 @@
   \bookpart {
     \section "5" "Asperges me"
     \addTocEntry
+    \paper { system-count = #7 }
     \score {
       <<
         \new Staff { \D-III-VIAspergesOrgano }
@@ -71,6 +72,7 @@
   \bookpart {
     \section "7" "Averte faciem tuam"
     \addTocEntry
+    \paper { system-count = #7 }
     \score {
       <<
         \new Staff { \D-III-VIAverteOrgano }
@@ -92,6 +94,7 @@
   \bookpart {
     \section "9" "Domine, labia mea"
     \addTocEntry
+      \paper { system-count = #7 }
     \score {
       <<
         \new Staff { \D-III-VIDomineOrgano }
@@ -102,7 +105,7 @@
   \bookpart {
     \section "10" "Quoniam si voluisses"
     \addTocEntry
-    \paper { systems-per-page = #3 }
+    \paper { system-count = #3 }
     \score {
       <<
         \new Staff { \D-III-VIQuoniamOrgano }
@@ -113,7 +116,7 @@
   \bookpart {
     \section "11" "Sacrificium Deo"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { system-count = #5 }
     \score {
       <<
         \new Staff { \D-III-VISacrificiumOrgano }
@@ -134,6 +137,7 @@
   \bookpart {
     \section "13" "Gloria Patri"
     \addTocEntry
+    \paper { system-count = #14 }
     \score {
       <<
         \new Staff { \D-III-VIGloriaOrgano }

@@ -5,30 +5,25 @@ scoring: S, A, T, B (coro), b, org
 license: cc-by-sa-4.0
 sources:
   B1:
+    siglum: A-GÖ
+    shelfmark: 2588
+    license: public domain
+    principal: true
+    notes: 5 parts (S, A, T, B, and mdc, in the hand of Joseph Leysser)
+  B2:
     siglum: A-Wn
     shelfmark: SA.67.H.4
     url: https://data.onb.ac.at/rec/AC14297596
     license: public domain
-    principal: true
     notes: full score (88 pages)
 imslp: Miserere_in_c_minor_(Tůma,_František_Ignác_Antonín)
 tocstyle: default
 toe: |
-  –  & –  & –   & Red annotations in \B1, which presumably were added
-                  by later hand, have been ignored for this edition. \\
-  2  & 75 & T   & bar in \B1: \flat e′2. \\
-  6  & 21 & T   & 3rd \quarterNote\ in \B1: a4 \\
-  9  & 16 & S   & 5th \eighthNote\ in \B1: g′16.–\flat e″32 (cf. T, bar 18) \\
-     & 21 & B   & 1st \quarterNote\ in \B1: c8–c8 \\
-  10 & 15 & B   & 1st note in \B1: \flat e4. \\
-  11 & 7  & T   & 1st \quarterNote\ in \B1: \flat a4 \\
-     & 21 & T   & 2nd \quarterNote\ in \B1: e′4 \\
-     & 23 & A   & 3rd \quarterNote\ in \B1: f′4 \\
-  12 & 3  & S   & 1st \eighthNote\ in \B1: \flat e″8 \\
-     & 40 & org & 4th \quarterNote\ in \B1: \crotchetRest \\
-     & 41 & A   & 4th \eighthNote\ in \B1: d′8 \\
-  13 & 2  & B   & 4th \eighthNote\ in \B1: d8 \\
-     & 27 & A   & 4th \quarterNote\ in \B1. f′4 \\
-     & 38 & org & bar in \B1: c4–\crotchetRest–\crotchetRest–%
-                  \quaverRest–\flat e8 \\
-     & 47 & org & bar in \B1: g4–\crotchetRest–\halfNoteRest \\
+   2 & 43    & – & tempo indication missing in A \\
+   9 & 18    & T & rhythm of 1st \eighthNote\ in \B1:
+                   \sixteenthNote–\sixteenthNote \\
+     & 21    & B & 1st \quarterNote\ in \B1: c8–c8 \\
+     & 30    & B & rhythm of 2nd \eighthNote\ in \B1:
+                   \sixteenthNote–\sixteenthNote \\
+     & 31    & B & rhythm of 5th \eighthNote\ in \B1:
+                   \sixteenthNote–\sixteenthNote \\ 11 & 20–23 & – & \B2 contains an additional bar after bar 20.\newline Thus, the setting of “et humiliatum” is as follows:\newline \includegraphics{snippet_D_3_6.pdf}\newline Note the putative mistakes in bars 21 (T, 2nd \quarterNote) and 23 (A, 3rd \quarterNote). \\ 13 & 38 & org & notes in treble ottavo clef missing in \B1 \\ & 47 & org & notes in treble clef missing in \B1 \\

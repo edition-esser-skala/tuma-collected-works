@@ -2,6 +2,7 @@
 
 tempoD-III-VIMiserere = \tempoMarkup "Adagio"
 tempoD-III-VIAmplius = \tempoMarkup "Andante"
+  tempoD-III-VIAmpliusB = \tempoMarkup "Più andante"
 tempoD-III-VITibiSoli = \tempoMarkup "Grave"
   tempoD-III-VIUtIustificeris = \tempoMarkup "Vivace"
   tempoD-III-VICumIudicaris = \tempoMarkup "Adagio"

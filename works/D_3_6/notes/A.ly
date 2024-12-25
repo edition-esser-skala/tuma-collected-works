@@ -5,10 +5,10 @@ D-III-VIMiserereAlto = {
     \clef treble
     \key c \dorian \time 4/4 \autoBeamOff \tempoD-III-VIMiserere
     g'4\fE as as g
-    r g2\pE f4
-    f\fE es e4. e8
+    r g2\p f4
+    f\f es e4. e8
     e4 f r2
-    r f4 f %5
+    r f4\f f %5
     d g g2
     g g4( f)
     g2 r
@@ -20,10 +20,10 @@ D-III-VIMiserereAlto = {
     b4 b r g
     es g f as8[ g] %15
     fis4 g8[ f?] es!4 c8[ b]
-    a4 b8 c d2
+    a!4 b8 c d2
     d r\fermata
     R1
-    r4 g8 f es d c4 %20
+    r4 g8\f f es d c4 %20
     f8 es d c b4 b'8 as
     g f es4 r es8 g
     g4 g as as8 as
@@ -34,7 +34,7 @@ D-III-VIMiserereAlto = {
     e8 g g g as([ g)] f4
     f( e) f r
     f8 f16 r r4 f8 b16 r r4 %30
-    g8 as16 r as8 as g g r4
+    g8 as16 r \hA as8 as g g r4
     r r8 g as e f4~
     f g8[ f] es[ g] as4
     g2.( fis4)
@@ -65,7 +65,7 @@ D-III-VIMiserereAltoLyrics = \lyricmode {
   se -- ri -- cor -- _ %15
   _ _ _ _
   _ di -- am tu --
-  am;
+  am,
 
   mul -- ti -- tu -- di -- nem, %20
   mul -- ti -- tu -- di -- nem, mul -- ti --
@@ -95,11 +95,11 @@ D-III-VIAmpliusAlto = {
     \clef treble
     \key g \minor \time 3/4 \autoBeamOff \tempoD-III-VIAmplius
     R2.*4
-    r4 d\pE g %5
+    r4 d g %5
     g( fis) f
     f( e) fis
     g( d) g
-    g( fis8[ e]) fis4
+    g( fis8[ e]) \hA fis4
     R2.*4 %13
     r4 f f
     e e a %15
@@ -128,7 +128,7 @@ D-III-VIAmpliusAlto = {
     es d r %40
     r r d
     es f2
-    g8([ f)] g4 r
+    g8([ f)] g4 \tempoD-III-VIAmpliusB r
     g as as
     f g g %45
     es f f
@@ -166,7 +166,7 @@ D-III-VIAmpliusAlto = {
 }
 
 D-III-VIAmpliusAltoLyrics = \lyricmode {
-  Ab in -- %5
+  ab in -- %5
   i -- qui --
   ta -- te
   me -- a,
@@ -194,7 +194,7 @@ D-III-VIAmpliusAltoLyrics = \lyricmode {
   mun -- da
   me.
 
-  E -- go, %38
+  e -- go, %38
   e -- go co --
   gno -- sco, %40
   pec --
@@ -243,7 +243,7 @@ D-III-VITibiSoliAlto = {
     r4 g'\f g2~
     g2. f4
     es!2 d4 g8([ f)]
-    e4( f2 e4) %5
+    e4( f2 \hA e4) %5
     f2 r\fermata
     R1
     r2 r4 g
@@ -258,7 +258,7 @@ D-III-VITibiSoliAlto = {
     b4 a d,8 g a a
     g g g g g4 g8 g
     g g r g g4. g8
-    as as f as f4. f8 %20
+    as as f \hA as f4. f8 %20
     g g es g es4. g8
     es es r4 r \tempoD-III-VICumIudicaris c
     d es8([ f)] g2
@@ -276,7 +276,7 @@ D-III-VITibiSoliAltoLyrics = \lyricmode {
   et
   ma --
   lum co -- ram te %10
-  fe -- ci; __
+  fe -- ci, __
 
   ut iu -- sti -- fi -- ce -- _
   _ _ ris, iu -- sti -- fi --
@@ -299,19 +299,19 @@ D-III-VIEcceEnimAlto = {
     g'4\fE a r
     r g fis
     g g g
-    g g f
+    g g f!
     f f es %5
     g\p g f
     f r r
     R2.
-    f4\fE f f
+    f4\f f f
     f2.~ %10
     f
     es4 g g
     \once \tieDashed g2.~
     g
     f4 r a\p %15
-    g e a\fE
+    g e a\f
     g( e) f
     d2( cis4)
     d f f
@@ -324,7 +324,7 @@ D-III-VIEcceEnimAlto = {
     f2.~
     f4 g as
     g g g
-    g( a \once \stemUp b!)
+    g( a! \once \stemUp b!)
     a2. %30
     fis2 fis4
     g g g
@@ -333,10 +333,10 @@ D-III-VIEcceEnimAlto = {
     a2 g4 %35
     fis2 g4
     a2 g4
-    es! d2
+    es d2
     d2.
     r4 r g %40
-    f( d) es
+    f!( d) es
     d h g'
     f d es
     d e8[ fis] g4
@@ -370,7 +370,7 @@ D-III-VIEcceEnimAltoLyrics = \lyricmode {
   ri --
   ta -- tem
   di -- le --
-  xi -- sti; in -- %25
+  xi -- sti, in -- %25
   cer --
   _ _
   ta et oc --
@@ -400,7 +400,7 @@ D-III-VIAspergesAlto = {
     \key g \minor \time 2/1 \autoBeamOff \tempoD-III-VIAsperges
       \set Staff.timeSignatureFraction = 2/2
     R\breve*4
-    a'1\fE b( %5
+    a'1 b( %5
     a) g
     a g
     f( e)
@@ -429,8 +429,8 @@ D-III-VIAspergesAlto = {
     es d~
     \once \tieDashed d~ d~
     \tieDashed d~ d~
-    d~ d~ \tieSolid
-    d d\breve*1/2\fermata \bar "||" %35 finis
+    d~ d~
+    d~ d\breve*1/2\fermata \bar "||" %35 finis
   }
 }
 
@@ -461,9 +461,8 @@ D-III-VIAspergesAltoLyrics = \lyricmode {
   su -- per ni --
   vem de --
   al -- %30
-  ba -- _
-
-  bor. %35 finis
+  ba -- bor. __
+  %35 finis
 }
 
 D-III-VIAudituiAlto = {
@@ -473,13 +472,13 @@ D-III-VIAudituiAlto = {
     r4 r es\fE
     es4. es8 g([ a)]
     b4 f b~
-    b8[ as16 g] as2~
+    b8[ as!16 g] as2~
     as8[ g16 f] g2~ %5
     g8[ f16 es] f4 f
     es8. f16 g4 r
     f2 f4
     f8. f16 f8 f f f
-    f4~ f8[ \tuplet 3/2 8 { b16 a b] } c8[ a] %10
+    f4~ f8[ \tuplet 3/2 8 { b16 a b] } c8[ \hA a] %10
     f4 r8 b b a16([ g)]
     f4 f f8 f
     g[ \tuplet 3/2 8 { b16 as! b] } g8[ \tuplet 3/2 8 { b16 as b] } as8[ f]
@@ -488,12 +487,12 @@ D-III-VIAudituiAlto = {
     d8 b c4 d8([ es)]
     f4 b, es8 c
     b4 b r
-    f'\pE f es
+    f'\p f es
     des2 des4 %20
     es es des
     c2 c4
     des2 es4
-    des\piuPE des c
+    des\piuP des c
     b b c %25
     c2 des4
     c2.
@@ -507,12 +506,12 @@ D-III-VIAudituiAlto = {
     g4 as4. g16[ as] %35
     b8[ as] g4 g8 g
     g4 f r\fermata
-    ges\pE ges f
+    ges\p ges f
     es2 es4
     f f es %40
     d2 d4
-    es es es
-    es2\piuP es4
+    es es es\piuP
+    es2 es4
     es2.~
     es4 d2 %45
     es4 r8 g!\f g g
@@ -528,22 +527,22 @@ D-III-VIAudituiAlto = {
 
 D-III-VIAudituiAltoLyrics = \lyricmode {
   Au --
-  di -- tu -- i
+  di -- tu -- i __
   me -- o da --
   _
   _ %5
   _ bis
   gau -- di -- um
   et lae --
-  ti -- ti -- am, et ex -- sul --
+  ti -- ti -- am, et ex -- ul --
   ta -- _ %10
-  bunt, et ex -- sul --
-  ta -- bunt, ex -- sul --
+  bunt, et ex -- ul --
+  ta -- bunt, ex -- ul --
   ta -- _ _
   _ _ _
-  _ bunt, ex -- sul -- %15
-  ta -- bunt, ex -- sul --
-  ta -- bunt, ex -- sul --
+  _ bunt, ex -- ul -- %15
+  ta -- bunt, ex -- ul --
+  ta -- bunt, ex -- ul --
   ta -- bunt
   os -- sa hu --
   mi -- li -- %20
@@ -554,15 +553,15 @@ D-III-VIAudituiAltoLyrics = \lyricmode {
   a -- ta, hu -- %25
   mi -- li --
   a --
-  ta, et ex -- sul --
+  ta, et ex -- ul --
   ta -- bunt,
-  et ex -- sul -- %30
+  et ex -- ul -- %30
   ta -- _ _
   _ _ _
-  bunt, ex -- sul --
+  bunt, ex -- ul --
   ta -- _
   _ _ %35
-  _ bunt, ex -- sul --
+  _ bunt, ex -- ul --
   ta -- bunt
   os -- sa hu --
   mi -- li --
@@ -572,7 +571,7 @@ D-III-VIAudituiAltoLyrics = \lyricmode {
   mi -- li --
   a --
   _ %45
-  ta, et ex -- sul --
+  ta, et ex -- ul --
   ta -- _
   _ bunt
   os -- sa
@@ -598,8 +597,8 @@ D-III-VIAverteAlto = {
     g4 g g8 g r4 %10
     c8 as r4 b8 g r4
     as8 f r4 g8 g r4
-    r g\pE g r
-    r g\fE as a
+    r g\p g r
+    r g\f as a
     r a f f %15
     r2 b8([ c)] b([ as)]
     g([ as)] g([ f)] es([ f)] g4
@@ -609,11 +608,11 @@ D-III-VIAverteAlto = {
     g8 fis fis4 g a8 a
     fis g g4 g g8 g
     g4( fis) g b8. a16
-    g4 g8. g16 a4 a8. a16
+    g4 g8. g16 a4 a8. g16
     f4 f8. f16 g4 g8. f16 %25
     es8 r fis8. g16 a4 g8 g
     g4 g8 g fis[ d] g4~
-    g fis8[ e] fis2
+    g fis8[ e] \hA fis2
     g r\fermata \bar "||" %29 finis
   }
 }
@@ -634,8 +633,8 @@ D-III-VIAverteAltoLyrics = \lyricmode {
   de -- le.
   Cor mun -- dum,
   cor mun -- dum %15
-  cre -- a,
-  cre -- a in me,
+  cre -- a, __
+  cre -- a __ in me,
   De -- us,
   et
   spi -- ri -- tum re -- ctum, spi -- %20
@@ -655,7 +654,7 @@ D-III-VINeProiciasAlto = {
     \clef treble
     \key b \major \time 3/4 \autoBeamOff \tempoD-III-VINeProicias
     R2.*28 %28
-    r4 c'\fE b
+    r4 c' b
     a16([ g)] f8 r4 r %30
     r f es!
     d16([ c)] b8 r4 f'
@@ -665,15 +664,15 @@ D-III-VINeProiciasAlto = {
     b c8([ b)] a([ g)]
     g8. fis16 fis4 r
     r d4. g8
-    es8([ f)] g([ f)] es([ d)]
-    es([ f)] g([ b!)] a([ g)] %40
+    es8([ f) g( f) es( d)]
+    es([ f) g( b!)] a([ g)] %40
     g4 fis fis
     g g8 g g g
     g4 fis r
     r r8 b a([ g16 a)]
     b4 r8 b a([ g16 a)] %45
     b4 r8 h c g
-    h4 r r
+    g4 r r
     r r g
     g2 g4
     g2.~ %50
@@ -685,12 +684,12 @@ D-III-VINeProiciasAlto = {
     r4 f2
     f8([ es)] es4 es
     es8([ d)] d4 r
-    r f b %60
+    r f g %60
     f f f
     f4. f8 g g
     g4 r c~
     c8 b16([ a)] b2~
-    b8[ as16 g] as2 %65
+    b8[ as16 g] \hA as2 %65
     as4. b8 g4
     f f2
     es4 r r
@@ -708,7 +707,7 @@ D-III-VINeProiciasAlto = {
     f2 g4 %80
     g a2
     a4 b2
-    b16([ as g f)] es4 g8 g
+    b16([ as g f)] g4 g8 g
     f4 f f8 f
     f4 f r %85
     r r f
@@ -731,11 +730,11 @@ D-III-VINeProiciasAltoLyrics = \lyricmode {
   ti -- ti -- am,
   red -- de
   mi -- hi, %35
-  red -- de lae --
+  red -- de __ lae --
   ti -- ti -- am
   sa -- lu --
-  ta -- _ _
-  _ _ ris %40
+  ta --
+  _ ris %40
   tu -- i, et
   spi -- ri -- tu prin -- ci --
   pa -- li
@@ -794,8 +793,8 @@ D-III-VIDomineAlto = {
     \clef treble
     \key es \major \time 4/4 \autoBeamOff \tempoD-III-VIDomine
     R1*2
-    b'4.\pE g8 es es16([ d)] es8 r
-    r es16([ d)] es4~ es8[ d16 es] f8. f16
+    b'4. g8 es es16([ d] es8) r
+    r es16([ d] es4)~ es8[ d16 es] f8. f16
     b,8 r r4 r2 %5
     R1
     r2 d4 f8 f
@@ -804,22 +803,22 @@ D-III-VIDomineAlto = {
     c4 r8 c16([ f)] f([ d] \once \stemUp b'4) a8 %10
     \tempoD-III-VIEtOs b4 r r2
     R1
-    r4 f8\fE b b a16 a a8 g
-    \once \tieDashed f4~ f16.([ g32) es16.( f32)] d4 f16.([ g32) es16.( f32)]
+    r4 f8 b b a16 a a8 g
+    f4 f16.([ g32) es16.( f32)] d4 f16.([ g32) es16.( f32)]
     d8 d r4 r2 %15
     R1
     r4 g8 g f d16 f f8 f
     g4~ \slurDashed g16.([ as32) f16.( g32)] es4 g16.([ as32) f16.( g32)] \slurSolid
-    es16([d)] es8 r4 r c'8 a16([ g)]
+    es16([d)] es8 r4 r f8 a16([ g)]
     f8 f r4 r2 %20
-    g16([ f es g)] f([ es d f)] es[ f] g8 r4
-    g16([ f es g)] f([ es d f)] g8 f16([ es)] d4
+    g16([ f es) g] f([ es d) f] es[ f] g8 r4
+    g16([ f es) g] f([ es d) f] g8 f16([ es)] d4
     c r r2
     r4 g'8 g f d16 f f8 b
-    b16([ as)] g8 r4 r c8 a16([ g)] %25
+    b16([ as)] g8 r4 r f8 a16([ g)] %25
     f8 f r4 r2
     r4 f16.([ g32) es16.( f32)] d4 g~
-    g16.([ as32) \once \slurDashed f16.( g32)] es4 d8 b'4 as8
+    g16.([ as32) f16.( g32)] es4 d8 b'4 as8
     g4. f8 f2
     g as %30
     b4 g16.([ as32) f16.( g32)] es4 as16.([ b32) g16.( as32)]
@@ -830,8 +829,8 @@ D-III-VIDomineAlto = {
 }
 
 D-III-VIDomineAltoLyrics = \lyricmode {
-  Do -- mi -- ne, Do -- _ %3
-  _ _ _ mi --
+  Do -- mi -- ne, Do -- %3
+  _ _ mi --
   ne, %5
 
   la -- bi -- a
@@ -841,7 +840,7 @@ D-III-VIDomineAltoLyrics = \lyricmode {
   es.
 
   Et os me -- um an -- nun -- ti --
-  a -- _ _
+  a -- _ _ _
   _ bit, %15
 
   et os me -- um an -- nun -- ti --
@@ -868,7 +867,7 @@ D-III-VIQuoniamAlto = {
   \relative c' {
     \clef treble
     \key c \dorian \time 3/4 \autoBeamOff \tempoD-III-VIQuoniam
-    es4.\fE f8 g4
+    es4. f8 g4
     f es d
     es es r
     r es es
@@ -919,9 +918,9 @@ D-III-VISacrificiumAlto = {
     \clef treble
     \key f \dorian \time 4/4 \autoBeamOff \tempoD-III-VISacrificium
     R1*2
-    f4.\fE g8 e4 f8 f
+    f4.\pocoP g8 e4 f8 f
     f4( e) f as~
-    as as d, d8 d %5
+    as as d,! d8 d %5
     es4 es f( d)
     es r g8. g16 g4
     r8 ges ges ges f2
@@ -933,20 +932,19 @@ D-III-VISacrificiumAlto = {
     r g'4 g
     g fis f8([ d)] es([ f)] %15
     g4 f as g8([ f)]
-    es4 es f2
+    es!4 es f2
     es4 es es es
     d2 d4 r
-    r2 g4\p g %20
-    g f! es!2
-    d4 g8[ f] e4 f8[ e]
-    f2 e4^\critnote r
-    r2 f4\fE g8([ f)]
-    e4 e f r %25
-    f r f4. f8
+    r2 d4.\piuP f!8 %20
+    f4( es8[ d] es4) e
+    f2 e4 r
+    r2 f4\f g8([ f)]
+    e4 e f r
+    f r f4. f8 %25
     f4( e8.) e16 f4 r
-    f\pE r f r
-    e\fE f f( e8.) e16
-    f2 r\fermata \bar "||" %30 finis
+    f\p r f r
+    e\f f f( e8.) e16
+    f2 r\fermata \bar "||" %29 finis
   }
 }
 
@@ -969,23 +967,22 @@ D-III-VISacrificiumAltoLyrics = \lyricmode {
   tri -- tum, cor con --
   tri -- tum
   et hu -- %20
-  mi -- li -- a --
-  _ _ _ _
-  _ tum,
+  mi -- li --
+  a -- tum,
   De -- us,
-  De -- us, non, %25
-  non, non de --
+  De -- us, non,
+  non, non de -- %25
   spi -- ci -- es,
   non, non,
   non de -- spi -- ci --
-  es. %30 finis
+  es. %29 finis
 }
 
 D-III-VIBenigneAlto = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \autoBeamOff \tempoD-III-VIBenigne
-    r2 r4 r8 f\fE
+    r2 r4 r8 f
     g([ a)] b f f8. f16 f8 f
     f f f f es4 f
     g8 a g4 fis r
@@ -1023,13 +1020,13 @@ D-III-VIBenigneAlto = {
     g g g([ f)] es es as g
     f f b as g f es4
     r8 c4 c8 d4. d8 %40
-    es4 es8 e^\critnote f c f([ es?)]
+    es4 es8 e f c f([ es?)]
     d d g f es4. e8
     f c f4~ f8 es16([ d)] es8. es16
     f4 f8. f16 es8 es es([ d)]
     c c f es d d g f %45
     es8. es16 f4 g4. g8
-    as4. a8 b h4 h8
+    as4. a8 b! h4 h8
     c g g g g4. g8
     g es as([ g)] f f b([ as)]
     g g c b as g f g %50
@@ -1095,11 +1092,11 @@ D-III-VIGloriaAlto = {
   \relative c' {
     \clef treble
     \key c \dorian \time 4/4 \autoBeamOff \tempoD-III-VIGloria
-    r2 as'4\fE g8 g
+    r2 as'4 g8 g
     f4 f8 f \appoggiatura g16 f8 es r4
     r2 as4 g8 g
     f4 f8 f \appoggiatura g16 f16. es32 es8 r4
-    r2 b'4~ b16[ a b f] %5
+    r2 b'4~ b16[ a! b f] %5
     es8 d16 c f8 es d8. es16 f8 f
     g g16 g f4 f r
     r f8 f g g g g
@@ -1114,33 +1111,33 @@ D-III-VIGloriaAlto = {
     fis([ g)] a4 d, g~
     g fis g r
     r2 r8 g[ es c]
-    f[ es d g] c,[ d] es4 %20
+    f![ es d g] c,[ d] es4 %20
     f4.( es16[ d] es8) g fis([ g]
     a4) g g( fis)
     g r r2
     R1
     r2 r4 r8 as( %25
     f[ d g f] es4) d
-    es d8([ es)] es4( d)^\critnote
+    es d8([ es)] es4( d)
     d r r2
     c4 c es d8 c
     d4. d8 es4 g %30
     f2 g4 g~
     g fis g4. d8
-    es2 d4 \once \tieDashed g~
+    es2 d4 g~
     g8 d g4( fis8[ g] a4)
     d, r8 es f[ d g f] %35
     e[ c] f2 es?8[ f]
     g4 r8 as( f[ d g f]
     es4) d es d8([ es)]
     es4( d) d r
-    g( f) f r %40
+    g( f!) f r %40
     g f2 es4~
     es d2 g4
     f g g2(
     f) g4 as~
     as g as f~ %45
-    f g8[ as] g4 as
+    f g8[ as] g4 \hA as
     g4. f8 es4. d16[ c]
     d2 c4 r
     R1
@@ -1151,7 +1148,7 @@ D-III-VIGloriaAlto = {
     g4 r8 g es[ d c es]
     g1 %55
     g4 as8 as g2
-    g4 r r2\fermata \bar "|." %57 FINIS
+    g4 r r2\fermata \bar "|." %57 finis
   }
 }
 
@@ -1212,5 +1209,5 @@ D-III-VIGloriaAltoLyrics = \lyricmode {
   men, a -- _
   _ %55
   men, a -- men, a --
-  men. %57 FINIS
+  men. %57 finis
 }

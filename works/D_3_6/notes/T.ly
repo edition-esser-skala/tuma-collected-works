@@ -8,7 +8,7 @@ D-III-VIMiserereTenore = {
     R1
     c4 c g2
     as r
-    des\pE c\f %5
+    des\p c\f %5
     h4 d es4. es8
     es4 es c2
     d r
@@ -23,7 +23,7 @@ D-III-VIMiserereTenore = {
     c4 b8 b a2
     g r\fermata
     R1
-    b8 h c d g,4 as8 as %20
+    b!8\f h c d g,4 as8 as %20
     b c f,4 f' es8([ f)]
     b, as g4 r b8 b
     b4 c8([ des)] c4 f8 f
@@ -33,7 +33,7 @@ D-III-VIMiserereTenore = {
     r8 des des c16([ b)] as8[( f' des h])
     c e e c c4. des8
     des4 c r c8 as16 r
-    r4 f'8 des16 r r4 g8 es16 r %30
+    r4 f'8 d!16 r r4 g8 es16 r %30
     r4 c8 d d d r4
     R1
     r8 d es h c2
@@ -66,7 +66,7 @@ D-III-VIMiserereTenoreLyrics = \lyricmode {
   se -- ri -- cor -- _ %15
   _ _ _
   di -- am tu --
-  am;
+  am,
 
   mul -- ti -- tu -- di -- nem, mul -- ti -- %20
   tu -- di -- nem, mul -- ti --
@@ -96,7 +96,7 @@ D-III-VIAmpliusTenore = {
     \clef "treble_8"
     \key g \minor \time 3/4 \autoBeamOff \tempoD-III-VIAmplius
     R2.*4
-    r4 b\pE b %5
+    r4 b b %5
     b( a) a
     a2 d4
     d2( e4)
@@ -129,7 +129,7 @@ D-III-VIAmpliusTenore = {
     g8([ fis)] g4 r %40
     r r h
     c d2
-    es4 es r
+    es4 es \tempoD-III-VIAmpliusB r
     es c r
     d b r %45
     c a! r
@@ -161,13 +161,13 @@ D-III-VIAmpliusTenore = {
     d2.
     b4 b d
     es2 es4
-    d2.^\critnote %75
+    d2. %75
     d2 r4\fermata \bar "||" %76 finis
   }
 }
 
 D-III-VIAmpliusTenoreLyrics = \lyricmode {
-  Ab in -- %5
+  ab in -- %5
   i -- qui --
   ta -- te
   me --
@@ -195,7 +195,7 @@ D-III-VIAmpliusTenoreLyrics = \lyricmode {
   mun -- da
   me.
 
-  E -- go, %38
+  e -- go, %38
   e -- go co --
   gno -- sco, %40
   pec --
@@ -241,7 +241,7 @@ D-III-VITibiSoliTenore = {
     \clef "treble_8"
     \key c \dorian \time 4/4 \autoBeamOff \tempoD-III-VITibiSoli
     R1
-    r4 es\fE e2~
+    r4 es\f e2~
     e2. d4
     a a8([ g)] f[ d] d'4
     g, as8[ b] c2 %5
@@ -258,7 +258,7 @@ D-III-VITibiSoliTenore = {
     d8 d es es d b4 a8~
     a g4 fis8 g g c a
     b b d d c4 c8 c
-    c h r h c4. c8
+    c h r \hA h c4. c8
     c c r c b4. b8 %20
     b b r g as4. b8
     c c r4 r \tempoD-III-VICumIudicaris f
@@ -277,7 +277,7 @@ D-III-VITibiSoliTenoreLyrics = \lyricmode {
   ma --
   lum, et ma --
   lum co -- ram te %10
-  fe -- ci; __
+  fe -- ci, __
 
   ut iu -- sti -- fi -- ce -- _ _
   _ _ ris, iu -- sti -- fi --
@@ -311,14 +311,14 @@ D-III-VIEcceEnimTenore = {
     es4 r r
     r c d
     e2.
-    d4 r a\pE %15
+    d4 r a\p %15
     b b a\fE
     b2( a4)
     b a2
     a4 d d
     d cis r %20
     r r a(
-    g) c2
+    g) c!2
     b a4
     b es( d)
     d c r %25
@@ -371,7 +371,7 @@ D-III-VIEcceEnimTenoreLyrics = \lyricmode {
   ri --
   ta -- tem
   di -- le --
-  xi -- sti; %25
+  xi -- sti, %25
   in --
   cer --
   ta et oc --
@@ -400,7 +400,7 @@ D-III-VIAspergesTenore = {
     \clef "treble_8"
     \key g \minor \time 2/1 \autoBeamOff \tempoD-III-VIAsperges
       \set Staff.timeSignatureFraction = 2/2
-    d\breve\fE
+    d\breve
     es1( d)
     c d~
     d2 c b4( a) b2
@@ -412,12 +412,12 @@ D-III-VIAspergesTenore = {
     b2 c1 b2~ %10
     b a b r
     R\breve*4 %15
-    r1 d(
-    es) d
+    r1 d
+    es( d)
     c d2 es~
     es d1 c2~
     c f1 e2 %20
-    f es( d1)
+    f es d1
     c1~ c2 b~
     b a b b
     a c d( c4 b)
@@ -430,7 +430,7 @@ D-III-VIAspergesTenore = {
     g c4 b a1
     b a~
     a2 g1 fis2
-    b1 a~
+    b1 \once \tieDashed a~
     a g\breve*1/2\fermata \bar "||" %35 finis
   }
 }
@@ -453,8 +453,8 @@ D-III-VIAspergesTenoreLyrics = \lyricmode {
   bis me, la --
   va -- _
   _ bis %20
-  me, la --
-  va -- _
+  me, la -- va --
+  _ _
   bis me, et
   su -- per ni --
   vem de -- al -- %25
@@ -489,15 +489,15 @@ D-III-VIAudituiTenore = {
     g4 r8 g' f d
     es[ \tuplet 3/2 8 { g16 f g] } es8[ \tuplet 3/2 8 { g16 f g] } f8[ es]
     d4 f f %15
-    f2.~
-    \once \tieDashed f~
+    \tieDashed f2.~
+    f~ \tieSolid
     f4 f, r
     R2.
     b4\p b as! %20
-    ges2 ges4^\critnote
+    ges2 g4
     a a c
     f,2 es4
-    ges2\piuPE as!4
+    ges2\piuP as!4
     b b b %25
     a2 b4~
     b a2
@@ -516,15 +516,15 @@ D-III-VIAudituiTenore = {
     ces as r %40
     f f as
     b b r
-    r ces\piuPE b
+    r ces\piuP b
     as b c
     b2. %45
     b4 r8 es\f es es
     es[ \tuplet 3/2 8 { c16 b c] } as8[ b] c4
-    r8 \tuplet 3/2 8 { d!16[ c d] } f8[ es d] c
+    r8 \tuplet 3/2 8 { d!16[ c d] } f8[ es] d([ c)]
     b4 b r
     R2. %50
-    c4\pp c c
+    c4\p c c
     b2.
     b2 r4\fermata \bar "||" %53 finis
   }
@@ -539,13 +539,13 @@ D-III-VIAudituiTenoreLyrics = \lyricmode {
   bis gau -- di --
   um et __
   lae --
-  ti -- ti -- am, et ex -- sul --
+  ti -- ti -- am, et ex -- ul --
   ta -- _ _ %10
   _ _ _
   _ _ _
-  bunt, et ex -- sul --
+  bunt, et ex -- ul --
   ta -- _ _
-  bunt, ex -- sul -- %15
+  bunt, ex -- ul -- %15
   ta --
 
   bunt
@@ -558,15 +558,15 @@ D-III-VIAudituiTenoreLyrics = \lyricmode {
   hu -- mi -- li -- %25
   a -- _
   _
-  ta, et ex -- sul --
+  ta, et ex -- ul --
   ta -- _ _
   _ _ _ %30
-  bunt, ex -- sul --
+  bunt, ex -- ul --
   ta -- _ _
-  bunt, ex -- sul --
+  bunt, ex -- ul --
   ta -- _ _
   _ _ _ %35
-  _ bunt, ex -- sul --
+  _ bunt, ex -- ul --
   ta -- bunt
 
   hu -- mi -- li --
@@ -576,7 +576,7 @@ D-III-VIAudituiTenoreLyrics = \lyricmode {
   os -- sa
   hu -- mi -- li --
   a -- %45
-  ta, et ex -- sul --
+  ta, et ex -- ul --
   ta -- _ _
   _ _ bunt
   os -- sa
@@ -602,8 +602,8 @@ D-III-VIAverteTenore = {
     c2~ c8 h r4 %10
     f'2 es4. es8
     d4. d8 es es r4
-    r d\pE c r
-    r b!\fE c c
+    r d\p c r
+    r b!\f c c
     r c d d %15
     r2 es4. es8
     es4 b c d
@@ -612,8 +612,8 @@ D-III-VIAverteTenore = {
     r4 d es d8 c
     d g, d'4 d c8 b
     c d r4 r d8. d16
-    es4 es8. es16 c4 c8. c16
-    d4 d8. c16 b4 c8. h16 %25
+    es4 es8. d16 c4 c8. c16
+    d4 d8. c16 b4 b8. h16 %25
     c4 c8. b16 a4 d8 es
     es4 e8 e d4 b8[ c]
     d1
@@ -657,7 +657,7 @@ D-III-VINeProiciasTenore = {
     \clef "treble_8"
     \key b \major \time 3/4 \autoBeamOff \tempoD-III-VINeProicias
     R2.*8 %8
-    r4 d\fE c
+    r4 d c
     d8. d,16 d4 r %10
     r b' a
     b8. c16 d4 r
@@ -665,8 +665,8 @@ D-III-VINeProiciasTenore = {
     d8. c16 d2
     d4 c c %15
     f d8 c h d
-    es([ d)] es4. es8
-    es4 c8 b a d
+    es([ d)] es4 es
+    f c8 b a d
     b([ c)] d4 r8 d
     es8. d16 es4 r8 c %20
     d8. c16 d4. es8
@@ -697,8 +697,8 @@ D-III-VINeProiciasTenore = {
     r c c
     b8. b16 b2
     b4 b r %75
-    as? as r
-    r es' c
+    d d r
+    r es c
     c c b
     \appoggiatura c8 b4 a r8 a
     b2 b4 %80
@@ -784,32 +784,32 @@ D-III-VIDomineTenore = {
     \clef "treble_8"
     \key es \major \time 4/4 \autoBeamOff \tempoD-III-VIDomine
     R1*2
-    es4~\pE es16[ d c b] \appoggiatura b8 \once \tieDashed c4~ c16[ d \appoggiatura f32 es16 d32( c)]
-    b4~ b16[ d es b] as([ g as c)] d([ es f)] as,
+    es4~ es16[ d c b] \appoggiatura b8 c4~ c16[ d es d32( c)]
+    b4~ b16[ d es b] as([ g as) c] d([ es f)] as,
     \appoggiatura as8 g4 r r2 %5
     R1
     r2 b4. as16 b
-    \appoggiatura as g8 f r b b16([ a) es'( c)] b([ a) es'( c)]
-    c([ b) f'( d)] \slurDashed c([ b) f'( d)] d([ c) g'( f)] \slurSolid es([ d) c( b)]
-    a16.[ f32 c'16 a] es'4 \tuplet 3/2 8 { \sbOn d16[ c d es d c] \sbOff } \appoggiatura b8 c8. c16 %10
+    \appoggiatura as g8 f r b b16([ a) es'( c)] b([ \hA a) es'( c)]
+    c([ b) f'( d)] c([ b) f'( d)] d([ c) g'( f)] es([ d) c( b)]
+    a16.[ f32 c'16 \hA a] es'4 \tuplet 3/2 8 { \sbOn d16[ c d es d c] \sbOff } \appoggiatura b8 c8. c16 %10
     \tempoD-III-VIEtOs b4 r r2
     R1
-    r4 b8\fE d c f,16 a c8 es
-    \slurDashed d16.([ f32) es16.( f32)] \slurSolid d16.([ es32) c16.( d32)] \slurDashed b16.([ f'32) es16.( f32)] d16.([ es32) c16.( d32)] \slurSolid
+    r4 b8 d c f,16 a c8 es
+    d16[ f es16.( f32)] d16.([ es32) c16.( d32)] b16.([ f'32) es16.( f32)] d16.([ es32) c16.( d32)]
     b8 f r4 r2 %15
     R1
     r4 b8 es d16([ c)] b c b8 as
-    g16[ es' d16.( es32)] b16.([ c32) \slurDashed as16.( b32)] g16[ es' d16.( es32)] \slurSolid b16.([ c32) \once \slurDashed as16.( b32)]
+    g16[^\critnote es' \slurDashed d16.( es32)] b16.([ c32) as16.( b32)] \slurSolid g16[ es' d16.( es32)] b16.([ c32) as16.( b32)]
     g16([ f)] es8 r4 r c'16([ es)] f([ es)]
     es([ cis)] d8 r4 r2 %20
-    es16([ d c es)] \once \slurDashed d([ c h d)] c8 g r4
-    es'16([ d c es)] d([ c h d)] c([ g)] c8 c([ h)]
+    es16([ d c) es] d([ c h) d] c8 g r4
+    \slurDashed es'16([ d c) es] d([ c h) d] \slurSolid c([ g)] c8 c([ h)]
     c4 r r2
     r4 b8 es d16([ es)] f c b([ as)] g([ f)]
     g([ f)] es8 r4 r c'16([ es)] f([ es)] %25
     es([ cis)] d8 r4 r2
-    c16.([ des32) b16.( c32)] as16.([ b32) g16.( as32)] f4 d'?8.([\trillE c32 d)]
-    es16.([ f32) d16.( es32)] c16.([ d32) b16.( c32)] as4 f'8.([\trill es32 f)]
+    c16.([ des32) b16.( c32)] as16.([ b32) g16.( as32)] f4 d'?8.[ \slurDashed c32( d)]
+    es16.([ f32) d16.( es32)] c16.([ d32) b16.( c32)] as4 f'8.[ es32( f)] \slurSolid
     g8 b, c c b2
     b4 c2 d4~ %30
     d es2 d8[ es]
@@ -858,7 +858,7 @@ D-III-VIQuoniamTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \dorian \time 3/4 \autoBeamOff \tempoD-III-VIQuoniam
-    g4.\fE g8 g4
+    g4. g8 g4
     as g g
     g g r
     r c c
@@ -870,7 +870,7 @@ D-III-VIQuoniamTenore = {
     c( g) b!~ %10
     b b g
     as c8([ des)] c([ b)]
-    as([ g)] as4 c
+    as([ g)] \hA as4 c
     c2 f4
     d4. d8 es!4 %15
     R2.
@@ -909,12 +909,12 @@ D-III-VISacrificiumTenore = {
     \clef "treble_8"
     \key f \dorian \time 4/4 \autoBeamOff \tempoD-III-VISacrificium
     R1
-    r2 c~\fE
+    r2 c~\pocoP
     c4 b b as8 as
     g2 f4 c'~
-    c f h, d8 h %5
+    c f h, d8 \hA h %5
     g4 as as( g)
-    g^\critnote r e'8. e16 e4
+    g r e'8. e16 e4
     r8 es es es es4 des~
     des c8[ b] as4 des
     c2 d4 d\fermata %10
@@ -926,17 +926,16 @@ D-III-VISacrificiumTenore = {
     b as2 as4
     as g g c8([ b)]
     a2 a4 r
-    r2 d4\p d %20
-    e d^\critnote a4. g8
-    f4 b8[ as] g4 c~
-    c h c r
-    r2 des4\f des
-    g, c c r %25
-    f, r b des
+    r2 b4\p d %20
+    d4. d8 g,4. c8
+    as!4 g8[ f] g4 r
+    r2 des'4\f des
+    g, c c r
+    f, r b des %25
     c4. c8 c4 r
     f,\p r b r
-    g\fE as8([ b)] c4. c8
-    c2 r\fermata \bar "||" %30 finis
+    g\f as8([ b)] c4. c8
+    c2 r\fermata \bar "||" %29 finis
   }
 }
 
@@ -960,22 +959,21 @@ D-III-VISacrificiumTenoreLyrics = \lyricmode {
   tri -- tum
   et hu -- %20
   mi -- li -- a -- _
-  _ _ _ _
-  _ tum,
+  _ _ tum,
   De -- us,
-  De -- us, non, %25
-  non, non de --
+  De -- us, non,
+  non, non de -- %25
   spi -- ci -- es,
   non, non,
   non de -- spi -- ci --
-  es. %30 finis
+  es. %29 finis
 }
 
 D-III-VIBenigneTenore = {
   \relative c' {
     \clef "treble_8"
     \key b \major \time 4/4 \autoBeamOff \tempoD-III-VIBenigne
-    r4 b\fE es d8 d
+    r4 b es d8 d
     b4 b8 a d8. d16 d8 b
     b a a h c4 b?8([ a)]
     b d d4 d r
@@ -1021,7 +1019,7 @@ D-III-VIBenigneTenore = {
     c[ h] c4~ c8 c h8. h16
     c4 as b4. h8
     c2~ c4 d8([ es)] %50
-    f4 es d2~
+    f4 es \once \tieDashed d2~
     d4. d8 c2\fermata \bar "||" %52 finis
   }
 }
@@ -1072,7 +1070,7 @@ D-III-VIBenigneTenoreLyrics = \lyricmode {
   los, im -- po -- nent, im -- po --
   _ _ nent vi -- tu --
   los, su -- per al --
-  ta -- re %50
+  ta -- re __ %50
   tu -- um vi --
   tu -- los. %52 finis
 }
@@ -1081,7 +1079,7 @@ D-III-VIGloriaTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \dorian \time 4/4 \autoBeamOff \tempoD-III-VIGloria
-    es4~\fE es16[ d es b] c4 b8 b
+    es4~ es16[ d es b] c4 b8 b
     c4 b8 b b b r4
     es4~ es16[ d es b] c4 b8 b
     c4 b8 b b16. b32 b8 r4
@@ -1119,25 +1117,25 @@ D-III-VIGloriaTenore = {
     r r8 c[ es! d]
     c[ g] c4 h8[ c] d4
     g,8 c([ h g] c4) b?
-    c a g d'
+    c a! g d'
     c2 d %40
     c b
     a( g4.) c8
     d2 es4 c~
-    c b2 c4
+    c b!2 c4
     des( es2 d8[ c)] %45
     h2 c4( f8[ es])
     d4 r r2
     r c4 c
     es4. d16 c d8 c h4
     c c8 b as2 %50
-    g8 c([ d es)] d2
+    g8 c([ d es!)] d2
     es4. d8 es2
     d8 h4 h8 c4. c8
     d d4 d8 es2
-    d4 c~ c8[ h16 a] h4 %55
-    c c( h8) c c([ h)]
-    c4 r r2\fermata \bar "|." %57 FINIS
+    d4 c~ c8[ h16 a] \hA h4 %55
+    c c( h8) c c([ \hA h)]
+    c4 r r2\fermata \bar "|." %57 finis
   }
 }
 
@@ -1198,5 +1196,5 @@ D-III-VIGloriaTenoreLyrics = \lyricmode {
   la sae -- cu -- lo --
   rum, a -- _ %55
   men, a -- men, a --
-  men. %57 FINIS
+  men. %57 finis
 }

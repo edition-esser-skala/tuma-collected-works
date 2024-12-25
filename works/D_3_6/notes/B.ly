@@ -8,7 +8,7 @@ D-III-VIMiserereBasso = {
     R1
     c4. c8 b!2
     as r
-    r f'4. f8 %5
+    r f'4.\f f8 %5
     f2 es
     es4 es as,2
     g r4 g'~
@@ -23,7 +23,7 @@ D-III-VIMiserereBasso = {
     d1
     g,2 r\fermata
     R1
-    g'8 f! es d c4 f8 es %20
+    g'8\f f! es d c4 f8 es %20
     d c b4 b'8 as g f
     es4 r r es8 es
     e4 e f f8 des
@@ -34,15 +34,15 @@ D-III-VIMiserereBasso = {
     c4 b as4. des8
     b4( c) f, r
     as'8 f16 r r4 b8 g16 r r4 %30
-    c8 as16 r f8 d! g g, r4
+    c8 as16 r f8 d g g, r4
     R1
     r4 r8 g' as e f4~
-    f es8[ d] c[ b a! as]
+    f es8[ d] c[ b! a! as]
     g2 \once \tieDashed g~ %35
     g1
     g2~ g4. g'8
     as e f([ g] as[ f d c]
-    h4) c \once \tieDashed g2~
+    h4) c g2~
     g c\fermata \bar "||" %40 finis
   }
 }
@@ -65,7 +65,7 @@ D-III-VIMiserereBassoLyrics = \lyricmode {
   se -- ri -- cor -- %15
   di -- am
   tu --
-  am;
+  am,
 
   mul -- ti -- tu -- di -- nem, mul -- ti -- %20
   tu -- di -- nem, mul -- ti -- tu -- di --
@@ -94,41 +94,41 @@ D-III-VIAmpliusBasso = {
   \relative c {
     \clef bass
     \key g \minor \time 3/4 \autoBeamOff \tempoD-III-VIAmplius
-    g'4.\pE a8 b4
-    r8 a([ c a g fis)]
-    r b([ d b a g)]
-    r as([ c as)] g([ fis)]
+    g'4. a8 b4
+    r8 a[ c a g fis]
+    r b[ d b a g]
+    r as[ c \hA as] g([ fis)]
     g4 r r %5
     R2.*4
     d4. e8 f!4 %10
-    r8 e([ g e d cis)]
-    r f([ a f e d)]
-    r es([ g es)] d([ cis)]
+    r8 e[ g \hA e d cis]
+    r f[ a f e d]
+    r es[ g es] d([ cis)]
     d4 r r
     R2.*6 %20
     a'4 a g
-    fis8([ c' a fis)] d([ c)]
+    fis8([ c' a \hA fis)] d([ c)]
     b([ a)]  g4 r
     g' g f!
-    e8([ b' g e)] c([ b)] %25
+    e8([ b' g \hA e)] c([ b)] %25
     a([ g)] f4 r
     r8 f'([ e d)] cis([ d)]
     r b'([ a g)] fis([ g)]
-    r b([ a gis)] a([ gis)]
+    r b([ a gis)] a([ \hA gis)]
     a4. cis8 d4 %30
     r g,, a
     d, r r
     R2.
     d'4. e8 fis4
     r8 g as([ g)] fis([ g)] %35
-    r \once \slurDashed f[( g as g f])
-    r d'[( h as)] g([ f)]
+    r f[ g as g f]
+    r d'[ h as] g([ f)]
     es([ d)] c4 r
     R2.
     r4 g' g %40
     g,2 g'4~
     g f2
-    es8([ d)] c4 r
+    es8([ d)] c4 \tempoD-III-VIAmpliusB r
     c' as r
     b g r %45
     as f r
@@ -136,7 +136,7 @@ D-III-VIAmpliusBasso = {
     c4 g2
     c4 c c
     c'2.~ %50
-    c4 b! a
+    c4 b! a!
     b g cis,
     d8([ cis)] d4 r
     R2.
@@ -170,13 +170,13 @@ D-III-VIAmpliusBassoLyrics = \lyricmode {
   la --
   _
   _ va
-  me, %5
+  me %5
 
   am -- pli -- us %10
   la --
   _
   _ va
-  me,
+  me
 
   et a pec -- %21
   ca -- to
@@ -195,7 +195,7 @@ D-III-VIAmpliusBassoLyrics = \lyricmode {
   in -- i -- qui -- %35
   ta --
   _ tem
-  me -- am,
+  me -- am
 
   et pec -- %40
   ca -- _
@@ -239,8 +239,8 @@ D-III-VITibiSoliBasso = {
     \clef bass
     \key c \dorian \time 4/4 \autoBeamOff \tempoD-III-VITibiSoli
     R1
-    r4 c\f \once \tieDashed b2~
-    b a~
+    r4 c\f \tieDashed b2~
+    b a~ \tieSolid
     a b
     c1 %5
     f,2 r\fermata
@@ -275,7 +275,7 @@ D-III-VITibiSoliBassoLyrics = \lyricmode {
   _ _
   lum, ma --
   lum co -- ram te %10
-  fe -- ci; __
+  fe -- ci, __
 
   ut iu -- sti -- fi -- ce -- ris,
   ut iu -- sti -- fi --
@@ -298,11 +298,11 @@ D-III-VIEcceEnimBasso = {
     g'4\fE fis r
     r g d
     b g b
-    c es f
+    c es f!
     b, d es %5
-    c\pE es f
+    c\p es f
     d r r
-    es\fE c f
+    es\f c f
     b, r r
     b b as %10
     g2.
@@ -310,7 +310,7 @@ D-III-VIEcceEnimBasso = {
     r c b!
     a!2.
     d4 r f\p %15
-    g g f\fE
+    g g f\f
     g2( f4)
     g a2
     d,4 d f
@@ -323,11 +323,11 @@ D-III-VIEcceEnimBasso = {
     r r b'
     as g f
     es d c
-    b'!( a) g
+    b'!( a!) g
     f( e) d %30
-    es( d) c
+    es( d) c!
     b a g
-    d'8([ cis?)] d4 d
+    d'8([ c)] d4 d
     d2 d4
     \tieDashed d2.~ %35
     d~ \tieSolid
@@ -369,7 +369,7 @@ D-III-VIEcceEnimBassoLyrics = \lyricmode {
   ri --
   ta -- tem
   di -- le --
-  xi -- sti; %25
+  xi -- sti, %25
   in --
   cer -- _ _
   _ _ ta
@@ -398,13 +398,13 @@ D-III-VIAspergesBasso = {
     \clef bass
     \key g \minor \time 2/1 \autoBeamOff \tempoD-III-VIAsperges
       \set Staff.timeSignatureFraction = 2/2
-    r1 g'2\fE b~
+    r1 g'2 b~
     b a4 g fis2 g
     a g fis g
     e a~ a4 d, g2~
     g fis g g~ %5
     g f1 e2
-    f4( e) d2 d cis
+    f4( e d1) cis2
     d4 e f g a2 e4 fis
     g d g1 fis2
     g c, g'2.( f4 %10
@@ -430,8 +430,8 @@ D-III-VIAspergesBasso = {
     c4( d) es( f) g2( g, %30
     c1) d
     d d
-    \tieDashed d~ d~ \tieSolid
-    d\breve~
+    \once \tieDashed d\breve~
+    d~
     d1 g,\breve*1/2\fermata \bar "||" %35 finis
   }
 }
@@ -443,8 +443,8 @@ D-III-VIAspergesBassoLyrics = \lyricmode {
   _ _ _ _
   ges me hys -- %5
   so -- po,
-  et __ mun -- da -- _
-  _ _ _ _ _ _ _
+  et __ mun --
+  da -- _ _ _ _ _ _
   _ _ _ _
   bor, mun -- da -- %10
   bor,
@@ -492,7 +492,7 @@ D-III-VIAudituiBasso = {
     b,4 b b
     es8[ \tuplet 3/2 8 { g16 f g] } es4 as!8[ b]
     es,2 as,8 a
-    b[ \tuplet 3/2 8 { b'16 a b] } a8[ g f es] %15
+    b[ \tuplet 3/2 8 { b'16 a b] } \hA a8[ g f es] %15
     d[ \tuplet 3/2 8 { g16 f g] } f8[ es d c]
     b[ c16 d] es[ d es f] g[ f g a]
     b4 b, r
@@ -516,11 +516,11 @@ D-III-VIAudituiBasso = {
     d16[ b c d] es[ d es f] g[ f g as]
     b4 b, r\fermata
     R2.
-    es4\pE ces b
+    es4\p ces b
     as2 as4 %40
     b b as
     ges ges r
-    r as\piuPE b
+    r as\piuP b
     ces b a
     b2. %45
     es,4 r8 es'\f g! es
@@ -528,7 +528,7 @@ D-III-VIAudituiBasso = {
     b2 d4
     es es r
     R2. %50
-    a,4\ppE a a
+    a,4\p a a
     b2.
     es,2 r4\fermata \bar "||" %53 finis
   }
@@ -543,12 +543,12 @@ D-III-VIAudituiBassoLyrics = \lyricmode {
   _ _ di --
   um
   et lae --
-  ti -- ti -- am, et ex -- sul --
+  ti -- ti -- am, et ex -- ul --
   ta -- _ _ %10
-  bunt, ex -- sul -- ta --
-  bunt, ex -- sul --
+  bunt, ex -- ul -- ta --
+  bunt, ex -- ul --
   ta -- _ _
-  bunt, ex -- sul --
+  bunt, ex -- ul --
   ta -- _ %15
   _ _
   _ _ _
@@ -562,11 +562,11 @@ D-III-VIAudituiBassoLyrics = \lyricmode {
   _ %25
   _
 
-  ta, et ex -- sul --
+  ta, et ex -- ul --
   ta -- _ _
-  bunt, ex -- sul -- %30
+  bunt, ex -- ul -- %30
   ta -- _ _
-  bunt, ex -- sul --
+  bunt, ex -- ul --
   ta -- _ _
   _ _ _
   _ _ _ %35
@@ -580,7 +580,7 @@ D-III-VIAudituiBassoLyrics = \lyricmode {
   os -- sa
   hu -- mi -- li --
   a -- %45
-  ta, et ex -- sul --
+  ta, et ex -- ul --
   ta -- _
   _ bunt
   os -- sa
@@ -598,16 +598,16 @@ D-III-VIAverteBasso = {
     es([ d)] c8 as' as16 as g8 g, r4
     r2 r4 des'8 des
     c4 f r es!8 es
-    d4 g g( fis) %5
-    g8 g fis?[( es!] d[ c b a])
-    g c' h?([ as] g[ f es d)]
+    d!4 g g( fis) %5
+    g8 g f[( es!] d[ c b a])
+    g c' b([ as] g[ f es d)]
     c r r4 r8 as' c e,
     f4 f r8 d g f
     es4 d8([ c)] g' g, r4 %10
     as'8 f r4 g8 es r4
     f8 d r4 es8 c r4
-    r g'\pE c, r
-    r es\fE as f
+    r g'\p c, r
+    r es\f as f
     r f b b, %15
     r2 g'8([ as)] g([ f)]
     es([ f)] es([ d)] c4 b!8([ a!)]
@@ -618,7 +618,7 @@ D-III-VIAverteBasso = {
     es4 c'8. b16 a4 f8. es16
     d4 b'8. as16 g4 es8. d16 %25
     c4 a'8. g16 fis4 g8 es
-    c4 cis8 cis d2~
+    c4 cis8 cis \once \tieDashed d2~
     d1
     g,2 r\fermata \bar "||" %29 finis
   }
@@ -640,8 +640,8 @@ D-III-VIAverteBassoLyrics = \lyricmode {
   de -- le.
   Cor mun -- dum,
   cor mun -- dum %15
-  cre -- a,
-  cre -- a in me,
+  cre -- a, __
+  cre -- a __ in me,
   De -- us,
 
   et spi -- ri -- tum %22
@@ -659,7 +659,7 @@ D-III-VINeProiciasBasso = {
     \clef bass
     \key b \major \time 3/4 \autoBeamOff \tempoD-III-VINeProicias
     R2.*7 %7
-    r4 b'\fE a
+    r4 b' a
     b8. b,16 b4 r
     r g' fis %10
     g8. g,16 g4 r
@@ -674,7 +674,7 @@ D-III-VINeProiciasBasso = {
     c4 r8 c a f %20
     b4 b2
     a8 c f,[ b g c]
-    a[ a] d,[ g e a]
+    a[ a d, g e a]
     f2.~
     f8 f e4. e8 %25
     f4 r r
@@ -690,12 +690,12 @@ D-III-VINeProiciasBasso = {
     d4. d8 g g
     c,4 r8 c' as16[ g f es]
     d8[ b'] r b g16[ f es d]
-    c8[ as'] r as f16[ es d c] %65
+    c8[ as'] r \hA as f16[ es d c] %65
     b4 d es
     as, b2
     es,4 r r
     R2.*2 %70
-    r4 h'' a!8 h
+    r4 h'' a!8 \hA h
     c4 r r
     r as g
     f8. f16 d2
@@ -714,8 +714,8 @@ D-III-VINeProiciasBasso = {
     e,4. b'8 des([ b]
     e,4) f2
     g4 r g
-    f4.( a8) b4 %90
-    es, f2
+    f4. a8 b4( %90
+    es,) f2
     b,4 r r
     R2.
     R\fermata \bar "||" %94 finis
@@ -738,7 +738,7 @@ D-III-VINeProiciasBassoLyrics = \lyricmode {
   ras, ne au -- fe -- %20
   ras a
   me, ne au --
-  _ _
+  _
   _
   fe -- ras a %25
   me.
@@ -778,8 +778,8 @@ D-III-VINeProiciasBassoLyrics = \lyricmode {
   sti -- ti -- am __
   tu --
   am, iu --
-  sti -- ti -- %90
-  am tu --
+  sti -- ti -- am __ %90
+  tu --
   am. %92 finis
 }
 
@@ -788,7 +788,7 @@ D-III-VIDomineBasso = {
     \clef bass
     \key es \major \time 4/4 \autoBeamOff \tempoD-III-VIDomine
     R1*2
-    es8[\pE f] g4 as8[ as,] as'4
+    es8[ f] g4 as8[ as,] as'4
     g8[ g,] g'4 f8.[ es16] d8. d16
     es8 r r4 r2 %5
     R1
@@ -798,7 +798,7 @@ D-III-VIDomineBasso = {
     f4 r8 a b([ g es)] f %10
     \tempoD-III-VIEtOs b,4 r r2
     R1
-    r4 b8\fE b f' f r f
+    r4 b8 b f' f r f
     b b, r a b4. f'8
     b b, r4 r2 %15
     R1
@@ -815,8 +815,8 @@ D-III-VIDomineBasso = {
     as2 b4. b8
     c4. c8 d2
     es4 c8 as b2
-    es16 es[ d16.( es32)] c16.([ des32) \slurDashed b16.( c32)] as16[ f' es16.( f32)] d16.([ es32) c16.( d32)] \slurSolid %30
-    b16[ g' f16.( g32)] es16.([ f32) d16.( es32)] c16[ as' g16.( as32)] f16.([ g32) es16.( f32)]
+    es16 es[ \slurDashed des16.(^\critnote es32)] c16.([ \hA des32) b16.( c32)] as16[ f' \once \slurSolid es16.( f32)] d?16.([ es32) c16.( d32)] %30
+    b16[ g' f16.( g32)] es16.([ f32) d16.( es32)] c16[^\critnote as' g16.( as32)] f16.([ g32) es16.( f32)] \slurSolid
     d8 es c b a4 a
     b4. b8 b2
     es,4 r r2\fermata \bar "||" %34 finis
@@ -862,7 +862,7 @@ D-III-VIQuoniamBasso = {
   \relative c {
     \clef bass
     \key c \dorian \time 3/4 \autoBeamOff \tempoD-III-VIQuoniam
-    c4.\fE c8 c4
+    c4. c8 c4
     f g8([ f)] g4
     es es r
     r c c
@@ -876,7 +876,7 @@ D-III-VIQuoniamBasso = {
     f4( e2)
     f e4
     f2 f4
-    f4.^\critnote f8 es!4 %15
+    f4. f8 es!4 %15
     R2.
     c'4 as g
     fis2.(
@@ -913,7 +913,7 @@ D-III-VISacrificiumBasso = {
     \clef bass
     \key f \dorian \time 4/4 \autoBeamOff \tempoD-III-VISacrificium
     R1*3
-    r2 f4\fE f
+    r2 f4\pocoP f
     as2~ as4 g8 f %5
     es2( d)
     c4 r b!8. b16 b4
@@ -930,16 +930,15 @@ D-III-VISacrificiumBasso = {
     es c!
     c c4 r
     r2 b4\p b %20
-    a a a2
-    b c
-    des c4 r
+    h4. h8 c2(
+    des) c4 r
     c'8([\f as)] f([ des)] b2~
-    b4 b as r %25
-    des r b4. b8
+    b4 b as r
+    des r b4. b8 %25
     c4. c8 f,4 r
     des'\p r b r
     c\f c c4. c8
-    f,2 r\fermata \bar "||" %30 finis
+    f,2 r\fermata \bar "||" %29 finis
   }
 }
 
@@ -962,28 +961,27 @@ D-III-VISacrificiumBassoLyrics = \lyricmode {
   tri -- tum
   et hu -- %20
   mi -- li -- a --
-  _ _
-  _ tum,
+  tum,
   De -- us, De --
-  us, non, %25
-  non, non de --
+  us, non,
+  non, non de -- %25
   spi -- ci -- es,
   non, non,
   non de -- spi -- ci --
-  es. %30 finis
+  es. %29 finis
 }
 
 D-III-VIBenigneBasso = {
   \relative c {
     \clef bass
     \key b \major \time 4/4 \autoBeamOff \tempoD-III-VIBenigne
-    r2 r4 r8 b'\fE
+    r2 r4 r8 b'
     g4 g8 a b8. b,16 b8 b
     f' f es d c4 d
     g8 fis g4 d r
     d8 d g f es([ d)] c4 %5
     d2 g8 es c d
-    g, g' d d g, g g' f
+    g, g' d d g, g g' f!
     es8. es16 d8 c g'8. g,16 g4
     r8 h h h c4 c8 h
     c4 b as2 \noBreak %10
@@ -994,18 +992,18 @@ D-III-VIBenigneBasso = {
     c4 r r2 %15
     R1
     r8 a d([ c)] b4 r
-    r2 r4 g'~
-    g f!2 es4
+    r2 r4 g'
+    g( f!2) es4
     r8 d g([ f)] es4 r %20
     r2 r8 b' a g
     a4. a8 g4 r
     R1*3 %25
     r2 g,4. g8
     a2 b4. h8
-    c4. cis8 d c? b g
+    c4. cis8 d c b g
     a4. a8 g g g' f!
     es[ es as g] f[ f b] as %30
-    g4 c as b
+    g4 c as b!
     es,8 es es([ d)] c f f([ es)]
     d g g f es4 g8[( as])
     b b, r4 r r8 es
@@ -1013,18 +1011,18 @@ D-III-VIBenigneBasso = {
     c([ b] as[ g16 as] b8) b es,8. es16
     b4 r r2
     r8 es es([ d)] c c f([ es)]
-    d d g f es d c b
+    d d g f es d c b!
     as4. as8 g4 r %40
     R1*2
     r2 c4. c8
     d4. d8 es4 es8 e
     f4. fis8 g4 g %45
     as4. as8 g4 g
-    \once \tieDashed g,2~ g~
+    g,1~
     g4 g g4. g8
     c c f([ es)] d d g([ f)]
     es es as g f([ es)] d([ c)] %50
-    h4 c \once \tieDashed g2~
+    h4 c g2~
     g4. g8 c2\fermata \bar "||" %52 finis
   }
 }
@@ -1060,7 +1058,7 @@ D-III-VIBenigneBassoLyrics = \lyricmode {
   ta -- _ re %30
   tu -- um vi -- tu --
   los, im -- po -- nent, im -- po --
-  nent su -- per al -- ta -- re
+  nent su -- per al -- ta -- re __
   tu -- um, im --
   po -- nent, im -- po -- nent, im -- %35
   po -- nent vi -- tu --
@@ -1076,7 +1074,7 @@ D-III-VIBenigneBassoLyrics = \lyricmode {
   po --
   nent vi -- tu --
   los, im -- po -- nent, im -- po --
-  nent su -- per al -- ta -- re %50
+  nent su -- per al -- ta -- re __ %50
   tu -- um vi --
   tu -- los. %52 finis
 }
@@ -1085,11 +1083,11 @@ D-III-VIGloriaBasso = {
   \relative c {
     \clef bass
     \key c \dorian \time 4/4 \autoBeamOff \tempoD-III-VIGloria
-    r2 as'4\fE es8 es
-    es4 d8 b^\critnote es es, r4
+    r2 as'4 es8 es
+    es4 d8 b es es, r4
     r2 as'4 es8 es
     es4 d8 b es16. es32 es8 r4
-    b'4~ b16[ a b f] g4 f8 b, %5
+    b'4~ b16[ a! b f] g4 f8 b, %5
     b4 a! b8. b16 d8 d
     es es16 es f8([ f,)] b4 r
     r b'8 as g8. f16 es8 d
@@ -1110,31 +1108,31 @@ D-III-VIGloriaBasso = {
     b) g r4 r2
     r r4 r8 as'(
     f[ d g f] es) c r c'( %30
-    as[ f b as] g) es r es(
+    as[ f b \hA as] g) es r es(
     c[ a! d c] b) g r4
     R1*3 %35
     r2 c4 c
     es d8 c d c h4
     c r r r8 es(
     c[ a! d c] b) g r g'(
-    es[ c f es] d) b b'4~ %40
+    es[ c f! es] d) b b'4~ %40
     b a2 g4~
     g f2 es4
     r8 d([ g f] es) c r c'(
-    as[ f b as] g) es r f(
-    des[ b es des] c) as as'4~ %45
+    as[ f b \hA as] g) es r f(
+    des[ b es \hA des] c) as as'4~ %45
     as g8[ f] es4 f
     g r r2
     g4 g as g8 f
-    g f es4 f g8([ f]
-    es[ d]) c([ e)] f2 %50
+    g f es4 f g8[ f]
+    es[ d c e] f2 %50
     c4 r8 as'( f[ d g f]
     es[ d]) c([ h)] c2
-    g g2~
-    \once \tieDashed g1~
+    g \tieDashed g2~
+    g1~
     g %55
     c8 c'([ as f] g) c, g4
-    c r r2\fermata \bar "|." %57 FINIS
+    c r r2\fermata \bar "|." %57 finis
   }
 }
 
@@ -1181,11 +1179,11 @@ D-III-VIGloriaBassoLyrics = \lyricmode {
   men,
   et in sae -- cu -- la
   sae -- cu -- lo -- rum, a --
-  men, a -- %50
+  _ _ %50
   men, a --
   men, a --
   men, a --
 
   men, a -- men, a -- %56
-  men. %57 FINIS
+  men. %57 finis
 }

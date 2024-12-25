@@ -96,7 +96,7 @@
         \new FiguredBass { \D-III-VIAmpliusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 100 } % 120
     }
   }
   \bookpart {
@@ -311,7 +311,7 @@
         \new FiguredBass { \D-III-VIAverteBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 80 }
     }
   }
   \bookpart {
@@ -360,6 +360,7 @@
   \bookpart {
     \section "9" "Domine, labia mea"
     \addTocEntry
+    \paper { system-count = #11 }
     \score { %\articulate
       <<
         \new ChoirStaff <<
