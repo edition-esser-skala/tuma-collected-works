@@ -1,0 +1,20 @@
+title: Missa nova Sancto Bertholdo sacra
+id: TumW A.38
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), fl, 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-KN
+    shelfmark: 499
+    date: probably 1756
+    license: public domain
+    principal: true
+    notes: 20 parts (S solo, A solo, T solo, B solo, S rip (2×), A rip (2×), T rip, B rip, fl, clno 1, clno 2, trb 1, trb 2, vl 1 (2×), vl 2 (2×), vlc) in the hand of Joseph Leysser
+tocstyle: default
+toe: |
+  – & –  & org & \B1 is the only extant source of this mass, and its org part has been lost. Thus, bass figures in this edition have been added by the editor, as have all notes in treble clef. \\
+  1 & 53 & S   & last \eighthNote\ in \B1: b′16–c″16 \\
+parts:
+  fl: Flauto solo
+  clno12: Clarino I, II in C
