@@ -1,5 +1,17 @@
 # Changelog
 
+## 2024.12.0 – 2024-12-30
+
+### Added
+
+- works: TumW C.3.3 and D.3.1
+
+### Changed
+
+- revised TumW D.3.6, which now uses the authentic manuscript copy in A-GÖ as principal source
+- renumbered the following works: TumW A.10/12/18/28/36 → A.9/11/17/27/34, D.2.17 → 18, F.2.8/4.2/5.5 → E, G.1–3/5 → F, H.7/18 → G, I.1/2 → H, J.1/4/6–8/13/15/16 → I, K.6/13/14 → J, and L.2/9 → K
+
+
 ## 2024.11.0 – 2024-11-30
 
 ### Added
