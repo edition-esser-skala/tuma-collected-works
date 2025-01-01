@@ -85,3 +85,31 @@ A-XXXVIIIKyrieClarinoI = {
     e2 r\fermata \bar "|." %141 finis
   }
 }
+
+A-XXXVIIIGloriaClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXXVIIIGloria
+    g''8.\fE g16 g4 r2
+    R1
+    r2 g8.\fE g16 g4
+    g r8 g g4 r8 g
+    e4 fis g r %5
+    R1
+    r8 g g g g4 r
+    r2 r4 g8 g
+    a8. a16 a4 a r
+    g r f r %10
+    e8 d d4 c r
+    R1*25 %36
+    g'4\fE g8 g g4 g8 g
+    a4 r r2
+    a4 a8 a a4 a8 a
+    g4 r r2 %40
+    r8 d d d e2
+    \pa g~ g4 f~
+    f8 e \pd d4 e r
+    r2 \pa g8 f16 e d4 \pd
+    e r r2\fermata \bar "||" %45 finis
+  }
+}

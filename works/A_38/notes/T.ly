@@ -183,3 +183,90 @@ A-XXXVIIIKyrieTenoreLyrics = \lyricmode {
   e -- lei -- %140
   son. %141 finis
 }
+
+A-XXXVIIIGloriaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXXVIIIGloria
+    \mvDl c8.\fE^\tutti c16 c4 r2
+    R1
+    r2 \mvDl c8.\fE^\tuttiE c16 c4
+    c4. c8 d4. h8
+    c2 d4 r %5
+    R1
+    r8 g, h g c4 r
+    r2 r4 e8 g
+    g8. f16 f4 c2
+    c a4. d8 %10
+    e d d4 e r
+    d\p r e r
+    r8 \mvTr e\pE^\solo f([ e16 d] e[ d)] e4 e8
+    d16([ c d e)] d([ c d e)] c([ h c d)] c8.\trill c16
+    h4 r r2 %15
+    R1
+    r8 a4 d8 h16. a32 h8 h h
+    c([ d16 e)] d8 c h4 r
+    R1
+    r2 r8 h4 cis8 %20
+    d16([ cis)] d4 r8 r cis4 dis8
+    e16[ dis e fis] e4~ e16[ \hA dis e \hA fis] e8.\trill e16
+    dis4 r r2
+    r r8 h e d
+    c16[ h c d] e[ d c h] a8[ a d c] %25
+    h16[ a h c] d[ c h a] g[ a h g] c[ h a g]
+    fis8[ dis' cis \hA dis] e16[ h] e4 dis8
+    e4 r r2
+    R1*8 %36
+    \mvDl c4.\fE^\tutti c8 c2
+    c8 r r4 r2
+    d4. d8 d2
+    d8 r r4 r2 %40
+    r8 d4 d8 c4. d16([ c)]
+    d4. c16([ d)] e8[ d16 e] c4
+    d8 e d4 c r
+    r2 e8 d16 d d4
+    e r r2\fermata \bar "||" %45 finis
+  }
+}
+
+A-XXXVIIIGloriaTenoreLyrics = \lyricmode {
+  Glo -- ri -- a,
+
+  glo -- ri -- a
+  in ex -- cel -- sis
+  De -- o, %5
+
+  in ter -- ra pax,
+  pax ho --
+  mi -- ni -- bus bo --
+  nae, bo -- nae %10
+  vo -- lun -- ta -- tis,
+  pax, pax.
+  Lau -- da -- mus, lau --
+  da -- _ _ _ mus
+  te, %15
+
+  be -- ne -- di -- ci -- mus, be -- ne --
+  di -- ci -- mus te,
+
+  ad -- o -- %20
+  ra -- mus, ad -- o --
+  ra -- _ _ mus
+  te,
+
+  glo -- ri -- fi -- %25
+  ca -- _ _
+  _ _ _ _
+  _ _ _ mus
+  te.
+
+  Pro -- pter ma -- %37
+  gnam,
+  pro -- pter ma --
+  gnam, %40
+  ma -- gnam glo -- _
+  _ _ _ _
+  ri -- am tu -- am,
+  glo -- ri -- am tu --
+  am. %45 finis
+}

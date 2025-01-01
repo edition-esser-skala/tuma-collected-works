@@ -150,3 +150,54 @@ A-XXXVIIIKyrieViolinoII = {
     c r\fermata \bar "|." %141 finis
   }
 }
+
+A-XXXVIIIGloriaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXXVIIIGloria
+    c'8.\fE c16 c4 c, r
+    c\p r c d8 g
+    c,4 d8 g c8.\f c16 c4
+    c8 h16. c32 c,8 c' h a16. h32 h,8 h'
+    a gis16. a32 a,8 a' r16 g a h c h c a %5
+    h8 g\p fis e d c h a
+    g d''\f g16 f! e d e8 c\p h a
+    g f e d c4 c'8\f g'
+    g8. f16 f,4 f'8^\critnote e16. f32 f,8 f'
+    e d16. e32 e,8 e' d c16. d32 d,8 d' %10
+    c4 c8 h c c\p h( a)
+    g f e d c4 r
+    R1*2
+    r8 e'16(\f f) f( e) e( dis) e8 a\p gis( f!) %15
+    e d c h a4 r
+    R1
+    r2 r8 g'16(\f a) a( g) g( fis)
+    g8 e\p d( c) h a g f
+    e4 r h'8 r r cis %20
+    d r r4 cis8 r r dis
+    e r r e e r r4
+    r8 dis16(\f e) e( \hA dis) dis( cis) \hA dis8 e\p dis( c)
+    h a g fis e4 r
+    c'8 r r4 a8 r r4 %25
+    h8 r r4 g8 r r4
+    fis8 r r4 r2
+    r8 h'16(\f c) c( h) h( ais) h8 e,16( f!) f( e) e( dis)
+    e8 e\p dis( c!) h a g fis
+    \tuplet 3/2 8 { \sbOn g16 fis e c' h a \sbOff } fis4\trill e r %30
+    r2 r8 g' fis( e)
+    dis c! h a g4 r
+    r2 r8 c' h( a)
+    gis f! e d c4 r
+    a8 r r4 h8 r r4 %35
+    r8 c h( a) g f e d
+    c c'\f c, c' b a16. \hA b32 b,8 \hA b'
+    a f'\p e( d) c b a g
+    f d'\f d, d' c h16. c32 c,8 c'
+    h g'\p fis( e) d c h a %40
+    g g\f a h c h16. c32 c,8 c'
+    h a16. h32 h,8 h' a gis16. a32 a,8 a'
+    h c4 h8 c c h( a)
+    g f e d c c'4 h8
+    c4 r r2\fermata \bar "||" %45 finis
+  }
+}

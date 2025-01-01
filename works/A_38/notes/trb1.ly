@@ -100,3 +100,31 @@ A-XXXVIIIKyrieTromboneI = {
     g r\fermata \bar "|." %141 finis
   }
 }
+
+A-XXXVIIIGloriaTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXXVIIIGloria
+    g'8.\fE g16 g4 r2
+    R1
+    r2 g8.\fE g16 g4
+    g4. g8 g4. g8
+    e4 fis g r %5
+    R1
+    r8 g g g g4 r
+    r2 r4 g8 g
+    a8. a16 a4 a2
+    g f4. g8 %10
+    g a^\critnote g4 g r
+    R1*25 %36
+    g4.\fE g8 g2
+    a8 r r4 r2
+    a4. a8 a2
+    h8 r r4 r2 %40
+    r8 g4 g8 g4 g
+    g2~ g4 f
+    f8 e g4 g8 c h a
+    g f e d c a' g4
+    g r r2\fermata \bar "||" %45 finis
+  }
+}

@@ -297,3 +297,103 @@ A-XXXVIIIKyrieBassFigures = \figuremode {
   r1. <4>4 <3> %140
   r1 %141 finis
 }
+
+A-XXXVIIIGloriaOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XXXVIIIGloria
+    \mvTr c'8.\fE-\tuttiE c,16 c4 r2
+    R1
+    r2 c'8. c,16 c4
+    c'8 h16. c32 c,8 c' h a16. h32 h,8 h'
+    a gis16. a32 a,8 a' g? g, r4 %5
+    R1
+    r8 g h' g c4 r
+    r2 r4 c,8 e
+    f4 f, f'4. f8
+    c'4. c,8 d4. h8 %10
+    c f g g, c4 r
+    g\pE r c r
+    a-\soloE d c a
+    h e a4. dis,8
+    e4 a\fE gis8 a r4 %15
+    e\pE r a,8 h c a
+    d f d f g! g, h g
+    c4 r8 f g4 c\fE
+    h8 c r4 g\pE r
+    c,8 h a d g, g' e a %20
+    d, c h e a, a' fis h
+    e,4 e8 d! c! h ais4
+    h r h8 e r4
+    h' r e, g
+    a c, d! fis %25
+    g h, c a
+    h r8 h' e, c' a h
+    e,4 r8 e\fE dis g a4
+    g8 e r4 h\pE r
+    e8 c a h e,4 e'~ %30
+    e dis e8 e' d( c)
+    h a g fis e4 r
+    gis4. e8 a, a' g? f
+    e d c h a4 c8 a
+    d4 f g g, %35
+    c r r2
+    c'8^\critnote h16. c32 c,8 c' b a16. \hA b32 b,8 \hA b'
+    a4 r r2
+    d8 c16. d32 d,8 d' c h16. c32 c,8 c'
+    h!4 r r2 %40
+    r8 g a h c h16. c32 c,8 c'
+    h a16. h32 h,8 h' a gis?16. a32 a,8 a'
+    g c g4 c, r
+    r2 c8 f g g,
+    c4 r r2\fermata \bar "||" %45 finis
+  }
+}
+
+A-XXXVIIIGloriaBassFigures = \figuremode {
+  r1
+  r
+  r
+  r2 <6>
+  <5>4 <6\\>2. %5
+  r1
+  r
+  r
+  <9>4 <8>2.
+  r2.. <6>8 %10
+  r8 <6 5> <4> <3> r2
+  r1
+  r2 <6>
+  <6\\>4 <_+> r4. <7 _+>8
+  <_+>2 <6> %15
+  <_+>1
+  r
+  r4. <7>8 r2
+  <6>1
+  r4. <_+>2 <7 _+>8 %20
+  <_+>4 <5\+>8 <_+> q4 <5\+>8 <7 5\+ _+>
+  r2 <5 3>8 <\t \t> <7 _+>4
+  <5\+ _+>1
+  q
+  r2 <_+> %25
+  r1
+  <5\+ _+>2. <6\\ 5>8 <5\+ _+>
+  r2 <6 _+>8 <6>4.
+  q2 <5\+ _+>
+  r4 <6\\ 5>8 <5\+ _+> r2 %30
+  <4\+ 2>4 <6 _+>4. <6>8 <6 _+> <6\\>
+  <5\+ _+> <6!> <6> <6\\> r2
+  <6>4. <7! _+>4 <6!>8 <6> <6\\>
+  <_+> <6-> <6> <6\\>2 <7!>8
+  r1 %35
+  r
+  r2 <2>
+  <6>1
+  r2 <4\+ 2>
+  <6>1 %40
+  r
+  <6>2 <7>4 <6>
+  <7>4 <4>8 <3> r2
+  r2 r8 <6 5> <4> <3>
+  r1 %45 finis
+}

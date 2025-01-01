@@ -191,3 +191,89 @@ A-XXXVIIIKyrieAltoLyrics = \lyricmode {
   e -- lei -- %140
   son. %141 finis
 }
+
+A-XXXVIIIGloriaAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXXVIIIGloria
+    \mvDl g'8.\fE^\tutti g16 g4 r2
+    R1
+    r2 \mvDl g8.\fE^\tuttiE g16 g4
+    g4. g8 g4. g8
+    e4( fis) g r %5
+    R1
+    r8 g g g g4 r
+    r2 r4 g8 g
+    a8. a16 a4 a2
+    g f4. g8 %10
+    g a^\critnote g4 g r
+    g\p r g r
+    r2 r8 \mvTr a\pE^\solo c[ h16( a)]
+    gis16[ a] h4 h8 a16([ gis) a( h)] a8.\trill a16
+    gis4 r r2 %15
+    r r8 e4 a8
+    f16. e32 f8 r4 r8 d4 g8
+    e([ f16 g)] f8 e d4 r
+    R1
+    r8 e4 fis8 g16([ \hA fis)] g4 r8 %20
+    r fis4 gis8 a16([ \hA gis)] a4.
+    g16([ fis)] g([ a)] g4~ g16[ \hA fis g( a)] g8.\trill g16
+    fis4 r r2
+    R1
+    r8 e a g fis16[ e \hA fis g] a[ g \hA fis e] %25
+    d8[ d g fis] e16[ \hA fis g e] a[ g \hA fis e]
+    dis8[ h'] a[ g16( fis)] g8.[ \hA fis32 e] \hA fis8.\trill fis16
+    e4 r r2
+    R1*8 %36
+    \mvDl g4.\fE^\tutti g8 g2
+    a8 r r4 r2
+    a4. a8 a2
+    h8 r r4 r2 %40
+    r8 g4 g8 g4 g
+    g2~ g4 f
+    f8 e g4 g8 c[ h a]
+    g[ f e d] c a'16 a g4
+    g r r2\fermata \bar "||" %45 finis
+  }
+}
+
+A-XXXVIIIGloriaAltoLyrics = \lyricmode {
+  Glo -- ri -- a,
+
+  glo -- ri -- a
+  in ex -- cel -- sis
+  De -- o, %5
+
+  in ter -- ra pax,
+  pax ho --
+  mi -- ni -- bus bo --
+  nae, bo -- nae %10
+  vo -- lun -- ta -- tis,
+  pax, pax.
+  Lau -- da --
+  _ mus, lau -- da -- _ mus
+  te, %15
+  be -- ne --
+  di -- ci -- mus, be -- ne --
+  di -- ci -- mus te,
+
+  ad -- o -- ra -- mus, %20
+  ad -- o -- ra -- mus,
+  ad -- o -- ra -- _ mus
+  te,
+
+  glo -- ri -- fi -- ca -- _ %25
+  _ _ _
+  _ _ _ _ mus
+  te.
+
+  Pro -- pter ma -- %37
+  gnam,
+  pro -- pter ma --
+  gnam, %40
+  pro -- pter ma -- gnam
+  glo -- _
+  ri -- am tu -- am, glo --
+  _ _ ri -- am tu --
+  am. %45 finis
+}

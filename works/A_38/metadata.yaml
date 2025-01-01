@@ -13,8 +13,11 @@ sources:
     notes: 20 parts (S solo, A solo, T solo, B solo, S rip (2×), A rip (2×), T rip, B rip, fl, clno 1, clno 2, trb 1, trb 2, vl 1 (2×), vl 2 (2×), vlc) in the hand of Joseph Leysser
 tocstyle: default
 toe: |
-  – & –  & org & \B1 is the only extant source of this mass, and its org part has been lost. Thus, bass figures in this edition have been added by the editor, as have all notes in treble clef. \\
-  1 & 53 & S   & last \eighthNote\ in \B1: b′16–c″16 \\
+  – & –  & org  & \B1 is the only extant source of this mass, and its org part has been lost. Thus, bass figures in this edition have been added by the editor, as have all notes in treble clef. \\
+  1 & 53 & S    & last \eighthNote\ in \B1: b′16–c″16 \\
+  2 & 9  & vl 2 & 3rd \quarterNote\ in \B1: f″8.–e″32–f″32 \\
+    & 11 & trb 1, A & 2nd \eighthNote\ in \B1: g′8 \\
+    & 37 & org  & 1st \quarterNote\ in \B1: c′8.–b32–c′32 \\
 parts:
   fl: Flauto solo
   clno12: Clarino I, II in C

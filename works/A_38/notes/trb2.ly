@@ -96,3 +96,31 @@ A-XXXVIIIKyrieTromboneII = {
     c2 r\fermata \bar "|." %141 finis
   }
 }
+
+A-XXXVIIIGloriaTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoA-XXXVIIIGloria
+    c8.\fE c16 c4 r2
+    R1
+    r2 c8.\fE c16 c4
+    c4. c8 d4. h8
+    c2 d4 r %5
+    R1
+    r8 g, h g c4 r
+    r2 r4 e8 g
+    g8. f16 f4 c2
+    c a4. d8 %10
+    e d d4 e r
+    R1*25 %36
+    c4.\fE c8 c2
+    c8 r r4 r2
+    d4. d8 d2
+    d8 r r4 r2 %40
+    r8 d4 d8 c4. d16 c
+    d4. c16 d e8 d16 e c4
+    d8 e d4 c r
+    r2 e8 d d4
+    e r r2\fermata \bar "||" %45 finis
+  }
+}

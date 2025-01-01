@@ -151,3 +151,54 @@ A-XXXVIIIKyrieViolinoI = {
     e r\fermata \bar "|." %141 finis
   }
 }
+
+A-XXXVIIIGloriaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXXVIIIGloria
+    e'8.\fE e16 e4 r2
+    c16\p g( a h) c( h) c( d) e g( f e) r f( e d)
+    e c( d e) d8 h e8.\f e16 e4
+    c8 h16. c32 c,8 c' h a16. h32 h,8 h'
+    a gis16. a32 a,8 a' g?16 g a h c d e fis %5
+    g8 h,\p a g fis e d c
+    h d'\f g16 f! e d e8 e\pE d c
+    h a g f e4 g'16\fE e d c
+    a'8. a,16 a4 a'8 g16. a32 a,8 a'
+    g f16. g32 g,8 g' f e16. f32 f,8 f' %10
+    e a d, g e e\p d( c)
+    h a g f e4 r
+    R1*2
+    r8 e'16(\f f) f( e) e( dis) e8 c'\p h( a) %15
+    gis f! e d c4 r
+    r8 a'16(\pE d) d( a) a( d) r8 d,16( g) g( d) d( g)
+    e8 e, r4 r8 g'16(\f a) a( g) g( fis)
+    g8 c\p h( a) g f e d
+    c4 r g'8 r r g %20
+    fis r r4 a8 r r a
+    g r r g g r r4
+    r8 h16(\f c!) c( h) h( ais) h8 g\p fis( e)
+    dis c! h a g4 r
+    a'8 r r4 fis8 r r4 %25
+    g8 r r4 e8 r r4
+    dis8 r r4 r2
+    r8 h'16(\f c) c( h) h( ais) h8 e,16( f!) f( e) e( dis)
+    e8 g\p fis( e) dis c! h a
+    \tuplet 3/2 8 { \sbOn g16 fis e c' h a \sbOff } fis4\trill e r %30
+    r2 r8 h''16( c) c( h) h( ais)
+    h8 r f!16( e) e( dis) e4 r
+    r2 r8 \once \slurDashed e16( f) f( e) e( dis)
+    e8 r b16( a) a( gis) a4 r
+    f'8 r r4 d8 r r4 %35
+    r8 e d( c) h a g f
+    e c'\f c, c' b a16. \hA b32 b,8 \hA b'
+    a a'\p \once \slurDashed g( f) e d c b
+    a d\f d, d' c h16. c32 c,8 c'
+    h h'\pE a( g) fis e d c %40
+    h g\f a h c h16. c32 c,8 c'
+    h a16. h32 h,8 h' a gis16. a32 a,8 a'
+    h16 d e c d4\trill e8 e d( c)
+    h a g f e16 g' c f, d4\trill
+    c r r2\fermata \bar "||" %45 finis
+  }
+}

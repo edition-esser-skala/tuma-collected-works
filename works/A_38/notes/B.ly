@@ -179,3 +179,71 @@ A-XXXVIIIKyrieBassoLyrics = \lyricmode {
   e -- lei -- %140
   son. %141 finis
 }
+
+A-XXXVIIIGloriaBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXXVIIIGloria
+    \mvDl c'8.\fE^\tutti c,16 c4 r2
+    R1
+    r2 \mvDl c'8.\fE^\tuttiE c,16 c4
+    c'4. c8 h4. h8
+    a2 g4 r %5
+    g2 d
+    h8 g r4 c'2
+    g e8 c c e
+    f8. f16 f4 f4. f8
+    c'4. c,8 d4. h8 %10
+    c f g4 c, r
+    g'\p r c, r
+    R1*17 %29
+    r2 \mvTr h'4\pE^\solo g8 e %30
+    a([ c)] h a g16([ fis)] e8 r4
+    r2 h'4 gis8 fis
+    e([ gis)] h d! c16([ h)] a8 r4
+    r2 e4 a8 g
+    f[( a d c] h[ d16 c]) h([ a)] g([ f)] %35
+    e([ d)] c8 r4 r2
+    \mvDl c'4.\fE^\tutti c8 b2
+    a8 r r4 r2
+    d4. d8 c2
+    h!8 r r4 r2 %40
+    r8 g[ a h] c4 c,8[ c']
+    h4 h,8[ h'] a4 a,8[ a']
+    g c g4 c, r
+    r2 c8 f16 f g4
+    c, r r2\fermata \bar "||" %45 finis
+  }
+}
+
+A-XXXVIIIGloriaBassoLyrics = \lyricmode {
+  Glo -- ri -- a,
+
+  glo -- ri -- a
+  in ex -- cel -- sis
+  De -- o, %5
+  et in
+  ter -- ra, et
+  in ter -- ra pax ho --
+  mi -- ni -- bus bo -- nae,
+  bo -- nae, bo -- nae %10
+  vo -- lun -- ta -- tis,
+  pax, pax.
+
+  Gra -- ti -- as %30
+  a -- gi -- mus ti -- bi,
+  gra -- ti -- as
+  a -- gi -- mus ti -- bi,
+  gra -- ti -- as
+  a -- gi -- mus %35
+  ti -- bi
+  pro -- pter ma --
+  gnam,
+  pro -- pter ma --
+  gnam, %40
+  glo -- _ _
+  _ _ _ _
+  ri -- am tu -- am,
+  glo -- ri -- am tu --
+  am. %45 finis
+}
