@@ -22,6 +22,8 @@ toe: |
     & 71  & vl 2 & 3rd to 5th \eighthNote\ in \B1: d′8–b8–d′8 \\
     & 131 & vl 2 & 2nd \eighthNote\ in \B1: g′8 \\
     & 149 & vla  & bar in \B1: G2. \\
+    & 176–232 & – & In \B1, a solo instrument is most likely missing in this movement. Since trb 1 does not contain a directive “Quoniam tacet” (as found in trb 2), and an original part heading on fol.~1r has been replaced by “Trombone Primo Rip:”, there may have been a solo for trb~1, which was for an unknown reason lost during the copying process. Alternatively, since the org part is missing in \B1, this movement may have also comprised a solo for org. In any case, addition of a suitable solo is left as an exercise for the period performer. \\
+    & 183 & org  & 1st \quarterNote\ in \B1: d4 \\
 parts:
   fl: Flauto solo
   clno12: Clarino I, II in C

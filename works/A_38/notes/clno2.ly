@@ -113,3 +113,31 @@ A-XXXVIIIGloriaClarinoII = {
     g4 r r2\fermata \bar "||" %45 finis
   }
 }
+
+A-XXXVIIICumSanctoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXXVIIICumSancto
+      \set Score.currentBarNumber = #233
+    R1 \noBreak
+    R\fermata \bar "||"
+    \tempoA-XXXVIIIInGloria R1*2 %236
+    r2 c'4\fE r8 e
+    d4 r8 f e4 r8 g
+    c,4 r g r
+    R1 %240
+    r2 r4 d'
+    c2 d4 r
+    R1
+    r8 e,16 e e8 e e4 r
+    R1*5 %249
+    e8 e16 e e8 e e4 r %250
+    r2 r4 c'~
+    c g g c8 c
+    g4 r r2
+    r g4 g8 g
+    c4 r8 c d4 r8 d %255
+    g,4 g8 g g4 g
+    g r r2\fermata \bar "|." %257 finis
+  }
+}

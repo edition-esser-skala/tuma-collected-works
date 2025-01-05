@@ -103,3 +103,13 @@ A-XXXVIIIDomineFlauto = {
     g4 g, r\fermata \bar "||" %149 finis
   }
 }
+
+
+A-XXXVIIIQuoniamUnknown = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXXVIIIQuoniam
+      \set Score.currentBarNumber = #176
+    s1*57 \bar "||" %232 finis
+  }
+}

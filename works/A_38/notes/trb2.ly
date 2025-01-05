@@ -188,3 +188,35 @@ A-XXXVIIIQuiTollisTromboneII = {
     R1\fermata \bar "||" %175 finis
   }
 }
+
+A-XXXVIIICumSanctoTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoA-XXXVIIICumSancto
+      \set Score.currentBarNumber = #233
+    r4 c\fE h c \noBreak
+    c h8 a h2\fermata \bar "||"
+    \tempoA-XXXVIIIInGloria R1*2 %236
+    r4 g2 a4
+    a8 a h2 c4
+    c8 a f' e d h16 a g a h c
+    h c h c d8 c16 h c4 d8 d16 c %240
+    h8 c16 d e d c h a4 r
+    c2 d8. d16 e4
+    c d h c
+    h r8 e16 d c8 a r f'16 e
+    d8 h r g'16 f e8 c r c16 h %245
+    a8 c h4 h8 e c h
+    h4 c2 d4~
+    d e2 a,4~
+    a d8 e f4 e
+    e r a,2 %250
+    h4. h8 c8 e4 e8
+    a,4 h c2
+    h4 r8 h c e r a,
+    h d r \once \tieDashed g,~ g g r h16 a
+    g8 e r c'16 h a8 f r f'16 e %255
+    d8 e d4 c h
+    c r r2\fermata \bar "|." %257 finis
+  }
+}

@@ -219,60 +219,167 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Qui tollis"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-XXXVIIIQuiTollisViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-XXXVIIIQuiTollisViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \A-XXXVIIIQuiTollisSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \A-XXXVIIIQuiTollisSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "A" "trb 1" }
+  %           \new Voice = "Alto" { \dynamicUp \A-XXXVIIIQuiTollisAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \A-XXXVIIIQuiTollisAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "T" "trb 2" }
+  %           \new Voice = "Tenore" { \dynamicUp \A-XXXVIIIQuiTollisTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \A-XXXVIIIQuiTollisTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \A-XXXVIIIQuiTollisBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \A-XXXVIIIQuiTollisBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \A-XXXVIIIQuiTollisOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XXXVIIIQuiTollisBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
+  % \bookpart {
+  %   \subsection "Quoniam"
+  %   \addTocEntry
+  %   \paper { systems-per-page = #3 }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "[?]" \critnote }
+  %           \A-XXXVIIIQuoniamUnknown
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-XXXVIIIQuoniamViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-XXXVIIIQuoniamViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \A-XXXVIIIQuoniamSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \A-XXXVIIIQuoniamSopranoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \A-XXXVIIIQuoniamOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XXXVIIIQuoniamBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Qui tollis"
+    \subsection "Cum Sancto Spiritu"
     \addTocEntry
     \score { %\articulate
       <<
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+            \partCombine #'(0 . 10) \A-XXXVIIICumSanctoClarinoI \A-XXXVIIICumSanctoClarinoII
+          >>
+        >>
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \A-XXXVIIIQuiTollisViolinoI
+              \A-XXXVIIICumSanctoViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \A-XXXVIIIQuiTollisViolinoII
+              \A-XXXVIIICumSanctoViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \A-XXXVIIIQuiTollisSoprano }
+            \new Voice = "Soprano" { \dynamicUp \A-XXXVIIICumSanctoSoprano }
           }
-          \new Lyrics \lyricsto Soprano \A-XXXVIIIQuiTollisSopranoLyrics
+          \new Lyrics \lyricsto Soprano \A-XXXVIIICumSanctoSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "A" "trb 1" }
-            \new Voice = "Alto" { \dynamicUp \A-XXXVIIIQuiTollisAlto }
+            \new Voice = "Alto" { \dynamicUp \A-XXXVIIICumSanctoAlto }
           }
-          \new Lyrics \lyricsto Alto \A-XXXVIIIQuiTollisAltoLyrics
+          \new Lyrics \lyricsto Alto \A-XXXVIIICumSanctoAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "T" "trb 2" }
-            \new Voice = "Tenore" { \dynamicUp \A-XXXVIIIQuiTollisTenore }
+            \new Voice = "Tenore" { \dynamicUp \A-XXXVIIICumSanctoTenore }
           }
-          \new Lyrics \lyricsto Tenore \A-XXXVIIIQuiTollisTenoreLyrics
+          \new Lyrics \lyricsto Tenore \A-XXXVIIICumSanctoTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \A-XXXVIIIQuiTollisBasso }
+            \new Voice = "Basso" { \dynamicUp \A-XXXVIIICumSanctoBasso }
           }
-          \new Lyrics \lyricsto Basso \A-XXXVIIIQuiTollisBassoLyrics
+          \new Lyrics \lyricsto Basso \A-XXXVIIICumSanctoBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \A-XXXVIIIQuiTollisOrgano
+            \A-XXXVIIICumSanctoOrgano
           }
         >>
-        \new FiguredBass { \A-XXXVIIIQuiTollisBassFigures }
+        \new FiguredBass { \A-XXXVIIICumSanctoBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 70 } %105
     }
   }
 }

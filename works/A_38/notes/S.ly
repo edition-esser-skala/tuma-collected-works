@@ -451,11 +451,144 @@ A-XXXVIIIQuiTollisSopranoLyrics = \lyricmode {
   no -- bis. %174 finis
 }
 
+A-XXXVIIIQuoniamSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXXVIIIQuoniam
+      \set Score.currentBarNumber = #176
+    R1*12 %187
+    \mvTr c'8\pE^\solo d16([ e)] f([ d)] c([ h)] c[ e d c] f([ d)] c([ h)]
+    c8 g r4 r2
+    c8 d16([ e)] f([ d)] c([ h)] c[ e d c] f([ d)] c([ h)] %190
+    c8 g r e' e16([ cis)] d8 r f
+    f16([ d)] e8 r4 g8 f16([ e)] d8 c
+    h16. a32 g8 r4 r8 d' c h
+    e16[( d c d] e[ d e fis] g8) d r4
+    c16[( h a h] c[ d e fis?] g8) d r4 %195
+    e8[ d16 c] h8[ a] d[ c16 h] a8[ g]
+    c[ h16 a] g8[ fis] h16[ a g a] h[ a h cis]
+    d16. d,32 d8 r4 c' h
+    e d c8.[\trill h32( c)] d8[ c]
+    \grace c h8.[\trill a32( h)] c8.[\trill h32( c)] d8.[\trill c32( d)] e8 c %200
+    a2\trill g4 r
+    R1*2
+    c8 d16([ e)] d8 c16([ h)] c8 d16([ e)] f8 e16([ d)]
+    e([ d)] c8 r c c,([ e)] g([ b)] %205
+    a16([ g)] f8 r d' d,([ fis)] a([ c)]
+    h!16. a32 g8 r e' e,([ gis)] h([ d)]
+    c16[ d e f] e4\trill c16[ d e f] e4\trill
+    e16[ c f e] d[ c h a] gis16. fis32 e8 r4
+    d' c b8([ gis)] a4 %210
+    f'! e d8.[\trill c32( d)] e8[ d]
+    c h16([ a)] \appoggiatura c8 h4\trill a r
+    R1*2
+    r8 g! c d e[ g16 f] e([ d)] c([ b)] %215
+    a8 a d e f([ a16 g] f[ e d c)]
+    h!16. a32 g8 r4 f' e
+    d8([ h)] c4 a8 d4 c8\trill
+    h g'4 f8 e8.[\trill d32( e)] \tuplet 3/2 4 { f8[ e] d }
+    \appoggiatura e d2\trill c4 r %220
+    R1*11 %231
+    R1\fermata \bar "||" %232 finis
+  }
+}
 
-% Mi -- se -- re -- re no -- bis.
-% Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
-% tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
-% Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
+A-XXXVIIIQuoniamSopranoLyrics = \lyricmode {
+  Quo -- ni -- am tu so -- _ lus %188
+  san -- ctus,
+  quo -- ni -- am tu so -- _ lus %190
+  san -- ctus, tu so -- lus, tu
+  so -- lus, so -- lus, so -- lus
+  Do -- mi -- nus, tu so -- lus
+  san -- ctus,
+  so -- lus %195
+  al -- _ _ _
+  _ _ _ _
+  tis -- si -- mus, Je -- su,
+  Je -- su, Je -- _
+  _ _ _ _ su %200
+  Chri -- ste.
+
+  Quo -- ni -- am tu so -- lus, so -- lus %204
+  san -- ctus, tu so -- lus %205
+  san -- ctus, tu so -- lus
+  Do -- mi -- nus, tu so -- lus
+  al -- _ _ _
+  _ _ tis -- si -- mus,
+  Je -- su, Je -- su, %210
+  Je -- su, Je -- _
+  _ su Chri -- ste.
+
+  Tu so -- lus Do -- _ mi -- %215
+  nus, tu so -- lus al --
+  tis -- si -- mus, Je -- su,
+  Je -- su, Je -- _ _
+  _ _ _ _ _ su
+  Chri -- ste. %220 finis
+}
+
+A-XXXVIIICumSanctoSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXXVIIICumSancto
+      \set Score.currentBarNumber = #233
+    r4 \mvTr e'\fE^\tutti e e \noBreak
+    e4. d8 e2\fermata \bar "||"
+    \tempoA-XXXVIIIInGloria c2 d8. d16 e4 \noBreak %235
+    c d h c~
+    c h c8 e16([ d] c8) a
+    r f'16([ e] d8) h r g'16([ f] e8) c
+    r a[( d c]) h d16([ c] h[ c d e]
+    d8) g, r4 r2 %240
+    R1
+    r4 c c8 h16 a g8 e
+    r a16[ g] f8[ d] r g16[ f] e8 a
+    a4( gis) a c
+    d4. d8 e2 %245
+    dis8 e fis4~ fis8 e4 dis8
+    e h16([ a] g8) e r c'16([ h] a8) f
+    r d'!16([ c] h8) g r e'16([ d] c8) a
+    d[ e f e] d4.\trill c16([ d)]
+    e8 c h4 a r %250
+    r2 c
+    d4 d8 d e c16([ d)] e4
+    d8 d16([ c] h8) e r c16([ h] a8) d
+    r h16([ a] g8) c c([ h16 a] h4)
+    c8 e16([ d] c8) a r f'16([ e] d8) c %255
+    h c c([ h)] c4 d
+    e r r2\fermata \bar "|." %257 finis
+  }
+}
+
+A-XXXVIIICumSanctoSopranoLyrics = \lyricmode {
+  Cum San -- cto %233
+  Spi -- ri -- tu
+  in glo -- ri -- a %235
+  De -- i Pa -- _
+  _ tris, a -- men,
+  a -- men, a -- men,
+  a -- men, a --
+  men, %240
+
+  in glo -- ri -- a De -- i
+  Pa -- _ _ _ tris,
+  a -- men, in
+  glo -- ri -- a %245
+  De -- i Pa -- _ _
+  tris, a -- men, a -- men,
+  a -- men, a -- men,
+  a -- _ _
+  _ men, a -- men, %250
+  in
+  glo -- ri -- a De -- i __ Pa --
+  tris, a -- men, a -- men,
+  a -- men, a --
+  men, a -- men, a -- men, %255
+  a -- men, a -- men, a --
+  men. %257 finis
+}
+
+
 
 
 % ## Credo

@@ -429,3 +429,64 @@ A-XXXVIIIQuiTollisAltoLyrics = \lyricmode {
   mi -- se -- re -- re
   no -- bis. %174 finis
 }
+
+A-XXXVIIICumSanctoAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXXVIIICumSancto
+      \set Score.currentBarNumber = #233
+    r4 \mvTr a'\fE^\tutti gis a \noBreak
+    a4. a8 gis2\fermata \bar "||"
+    \tempoA-XXXVIIIInGloria r4 c c8 h16 a g8 e \noBreak %235
+    r a16[ g] f8[ d] r g16[ f] e8 c
+    d2 c4 r8 a'16([ g]
+    f8) d r h'16([ a] g8) e r c'16([ h]
+    a8) f r4 r2
+    g a8. a16 h4 %240
+    g a fis g~
+    g fis g2
+    R1
+    r4 e2 f!4~
+    f g2 a4~ %245
+    a8[ g] fis[ h16 a] g4 fis
+    e r8 e16([ d!] c8) a r f'16([ e]
+    d8) h r g'16([ f] e8) c r e
+    f a16([ g] f8) a gis8([ a] \once \stemUp h4)
+    a8 a4( gis8) a4 r %250
+    r2 r4 c
+    c8 h16 a g8 f e g g4
+    g g2 f4~
+    f e d2
+    e8 g16([ f] e8) c r a'16([ g] f8) a %255
+    g g g4 g g
+    g r r2\fermata \bar "|." %257 finis
+  }
+}
+
+A-XXXVIIICumSanctoAltoLyrics = \lyricmode {
+  Cum San -- cto %233
+  Spi -- ri -- tu
+  in glo -- ri -- a De -- i %235
+  Pa -- _ _ _ tris,
+  a -- men, a --
+  men, a -- men, a --
+  men,
+  in glo -- ri -- a %240
+  De -- i Pa -- _
+  _ tris,
+
+  a -- _
+  _ _ %245
+  _ _ _
+  men, a -- men, a --
+  men, a -- men, a --
+  men, a -- men, a --
+  men, a -- men, %250
+  in
+  glo -- ri -- a De -- i Pa -- tris, a --
+  men, a -- _
+  _ _
+  men, a -- men, a -- men, %255
+  a -- men, a -- men, a --
+  men. %257 finis
+}

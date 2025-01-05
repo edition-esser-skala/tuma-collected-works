@@ -344,3 +344,101 @@ A-XXXVIIIQuiTollisViolinoII = {
     e'8 e, e4 r2\fermata \bar "||" %175 finis
   }
 }
+
+A-XXXVIIIQuoniamViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXXVIIIQuoniam
+      \set Score.currentBarNumber = #176
+    R1
+    r4 e8\p r r4 g8 r
+    r4 c8 r r2
+    r8 \tuplet 3/2 8 { g16\f fis g } d8 \tuplet 3/2 8 { d16 c d } g,8 r r4
+    g'8\p r r4 r8 \tuplet 3/2 8 { c16\f h c } g8 \tuplet 3/2 8 { g16 f g } %180
+    c,8 r r4 c'8\p r r4
+    r8 \tuplet 3/2 8 { f16\f e f } c8 \tuplet 3/2 8 { c16 h c } f,8 r r e\p
+    f r r d d e c r
+    g' r r4 r8 \tuplet 3/2 8 { c16\f h c } g8 \tuplet 3/2 8 { g16 fis g }
+    c,8 r a'\p r g r r4 %185
+    r2 r16 e\f f e f fis g \hA fis
+    g8\p r r4 c8 g\f c,4
+    r r8 d\p e r r d
+    e r r4 e8 r r4
+    e8 r r d e r r d %190
+    e r r c'~ c h r d~
+    d c r4 e, r
+    r8 \tuplet 3/2 8 { g16\f fis g } d8 \tuplet 3/2 8 { d16 c d } g,8 r r4
+    c'8\p r r4 d8 r r4
+    g8 r fis r h, r r4 %195
+    g8 r r4 g8 r r4
+    fis8 r r4 g8 r g r
+    \kneeBeam fis \tuplet 3/2 8 { d''16\f cis d } a8 \tuplet 3/2 8 { a16 g a } a,8\p r h r
+    g r g r fis r a r
+    g'2~ g4 g,~ %200
+    g fis\trill g8 r r4
+    r2 r8 \tuplet 3/2 8 { g16\f fis g } g,8 \tuplet 3/2 8 { f'!16 e f }
+    e8\p r r4 c'8 r r4
+    c8 r r d, e r r h'
+    c r r4 g8 r g r %205
+    c, r r4 a'8 r a r
+    d, r r4 h'8 r h r
+    e, r r4 e8 r r4
+    r2 r8 \tuplet 3/2 8 { e'16\f dis e } h8 \tuplet 3/2 8 { h16 a h }
+    e,8\p r e r f r e r %210
+    a r a r gis a h r
+    e, r r4 r2
+    r r8 \tuplet 3/2 8 { a16\f gis a } e8 \tuplet 3/2 8 { f16 e f }
+    c8 r r4 r r8 d\p
+    e r r4 r c8 r %215
+    c r r4 r a'8 r
+    d, r r4 g8 r g r
+    f r g r a r a r
+    d, r d' r g, r a r
+    R1 %220
+    r2 r4 e8 r
+    r4 g8 r r4 c8 r
+    r2 r8 \tuplet 3/2 8 { g16\f fis g } d8 \tuplet 3/2 8 { d16 c d }
+    g,8 r r4 g'8\p r r4
+    r8 \tuplet 3/2 8 { c16\f h c } g8 \tuplet 3/2 8 { g16 f g } c,8 r r4 %225
+    c8\p r r4 r8 \tuplet 3/2 8 { f'16\f e f } c8 \tuplet 3/2 8 { c16 h c }
+    f,8 r r e\p f r r f
+    d e r4 r2
+    r8 \tuplet 3/2 8 { c'16\f h c } g8 \tuplet 3/2 8 { g16 f g } c,8 r r4
+    g'8\p r r d e r r d %230
+    e16 e\f f e f fis g\hA fis g8 c4 h8\trill
+    c g c,4 r2\fermata \bar "||" %232 finis
+  }
+}
+
+A-XXXVIIICumSanctoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXXVIIICumSancto
+      \set Score.currentBarNumber = #233
+    r4 e'\fE e2~ \noBreak
+    e4 d e2\fermata \bar "||"
+    \tempoA-XXXVIIIInGloria r4 c~ c8 h16 a g8 e \noBreak %235
+    r a16 g f8 d r g16 f e8 c
+    d2 c4 r8 a'16 g
+    f8 d r h'16 a g8 e r c'16 h
+    a8 f r4 r2
+    g a4 h %240
+    g a fis g~
+    g fis g2
+    R1
+    r4 e2 f!4~
+    f g2 a4~ %245
+    a8 g fis h16 a g4 fis
+    e r8 e16 d! c8 a r f'16 e
+    d8 h r g'16 f e8 c r e
+    f a16 g f8 a gis8 a \once \stemUp h4
+    a8 a4 gis8\trill a4 r %250
+    r2 c
+    d e8 c16 d e4
+    d8 d16 c h8 e r c16 h a8 d
+    r h16 a g8 c c h16 a h4\trill
+    c8 e16 d c8 a r f'16 e d8 c %255
+    h c4 h8\trill c4 d
+    e r r2\fermata \bar "|." %257 finis
+  }
+}
