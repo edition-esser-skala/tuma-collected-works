@@ -379,3 +379,53 @@ A-XXXVIIIDomineAltoLyrics = \lyricmode {
   Pa --
   tris. %129 finis
 }
+
+A-XXXVIIIQuiTollisAlto = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \autoBeamOff \tempoA-XXXVIIIQuiTollis
+      \set Score.currentBarNumber = #150
+    \mvTr g'2\fE^\tutti fis4 fis
+    r8 fis fis4 e r
+    r8 g g g g4( fis8[ e)]
+    fis4 r r8 fis4 fis8
+    e2 e4 r
+    r8 a4 a8 a2 %155
+    g4 r g4. g8
+    g4 g g( fis)
+    g r r g
+    a a r8 a h h
+    h([ a)] a4 r2 %160
+    R1*7 %167
+    r4 \mvTr fis\fE^\tuttiE g g
+    r8 fis fis4 fis h
+    h a!8 a h4 h %170
+    r8 g4 g8 fis4 fis
+    r8 gis4 gis8 e4 e
+    r8 a4 a8 a4 g8([ a)]
+    fis2 e4 r
+    R1\fermata \bar "||" %175 finis
+  }
+}
+
+A-XXXVIIIQuiTollisAltoLyrics = \lyricmode {
+  Qui tol -- lis %150
+  pec -- ca -- ta,
+  pec -- ca -- ta mun --
+  di: Mi -- se --
+  re -- re,
+  mi -- se -- re -- %155
+  re, mi -- se --
+  re -- re no --
+  bis. Qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: %160
+
+  Qui se -- des, %168
+  qui se -- des ad
+  dex -- te -- ram Pa -- tris: %170
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re,
+  mi -- se -- re -- re
+  no -- bis. %174 finis
+}

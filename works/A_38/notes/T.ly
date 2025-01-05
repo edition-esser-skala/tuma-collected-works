@@ -334,3 +334,65 @@ A-XXXVIIIDomineTenoreLyrics = \lyricmode {
   _
   tris. %129 finis
 }
+
+A-XXXVIIIQuiTollisTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \minor \time 4/4 \autoBeamOff \tempoA-XXXVIIIQuiTollis
+      \set Score.currentBarNumber = #150
+    \mvTr e2\fE^\tutti c4 c
+    r8 h h4 h r
+    r8 e e e e2
+    dis4 r r8 \hA dis4 dis8
+    d2 cis4 r
+    r8 e4 e8 d2 %155
+    d4 r d4. d8
+    e4 e a,( d)
+    d r r h!
+    a a r8 a e' e
+    e4 e \mvTr e8([\pE^\solo c)] h a %160
+    f'8. f16 f8 r \hA f([ d)] c h
+    e8. e16 e8 r es4. es8
+    es4. es8 es2
+    d4 r r8 d4 d8
+    d4 r d4. d8 %165
+    d4( cis8) fis16([ e)] d4. cis16([ h)]
+    cis2 h4 r
+    r \mvTr d\fE^\tutti e e
+    r8 e e4 d fis
+    e e8 e fis4 fis %170
+    r8 e4 e8 fis4 fis
+    r8 e4 e8 e4 e
+    r8 e4 e8 fis4 h,
+    h2 h4 r
+    R1\fermata \bar "||" %175 finis
+  }
+}
+
+A-XXXVIIIQuiTollisTenoreLyrics = \lyricmode {
+  Qui tol -- lis %150
+  pec -- ca -- ta,
+  pec -- ca -- ta mun --
+  di: Mi -- se --
+  re -- re,
+  mi -- se -- re -- %155
+  re, mi -- se --
+  re -- re no --
+  bis. Qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: Su -- sci -- pe, %160
+  su -- sci -- pe, su -- sci -- pe,
+  su -- sci -- pe de -- pre --
+  ca -- ti -- o --
+  nem, su -- sci --
+  pe de -- pre -- %165
+  ca -- ti -- o -- nem
+  no -- stram.
+  Qui se -- des,
+  qui se -- des ad
+  dex -- te -- ram Pa -- tris: %170
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re,
+  mi -- se -- re -- re
+  no -- bis. %174 finis
+}

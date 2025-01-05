@@ -7,6 +7,7 @@ tempoA-XXXVIIIKyrie = \tempoMarkup "Adagio"
 
 tempoA-XXXVIIIGloria = \tempoMarkup "Allegro"
 tempoA-XXXVIIIDomine = \tempoMarkup "Andante"
+tempoA-XXXVIIIQuiTollis = \tempoMarkup "Adagio mà non troppo"
 
 \include "notes/fl.ly"
 \include "notes/clno1.ly"

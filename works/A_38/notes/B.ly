@@ -309,3 +309,65 @@ A-XXXVIIIDomineBassoLyrics = \lyricmode {
   _ _
   tris. %129 finis
 }
+
+A-XXXVIIIQuiTollisBasso = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 4/4 \autoBeamOff \tempoA-XXXVIIIQuiTollis
+      \set Score.currentBarNumber = #150
+    \mvTr e2\fE^\tutti e4 e
+    r8 dis dis4 e r
+    r8 e e e c2
+    h4 r r8 h'4 h8
+    gis2 a4 r
+    r8 a4 a8 fis2 %155
+    g!4 r g4. g8
+    cis,4 cis d2
+    g,4 r r g'
+    fis fis r8 fis gis gis
+    a4 a, r2 %160
+    \mvTr a'8([\pE^\solo f)] d d'16([ c)] h8. a16 g8 r
+    g([ e)] d c c'4. c8
+    c4. c8 c2
+    h!4 r r8 h4 h8
+    h4 r h4. h8 %165
+    h4 ais h8 fis h4~
+    h8[ ais16 gis] \hA ais4 h r
+    r \mvDl h\fE^\tutti h h
+    r8 ais ais4 h h,
+    c! c8 c h4 h %170
+    r8 e4 e8 dis4 dis
+    r8 d4 d8 cis4 cis
+    r8 c4 c8 h4 h
+    h2 e,4 r
+    R1\fermata \bar "||" %175 finis
+  }
+}
+
+A-XXXVIIIQuiTollisBassoLyrics = \lyricmode {
+  Qui tol -- lis %150
+  pec -- ca -- ta,
+  pec -- ca -- ta mun --
+  di: Mi -- se --
+  re -- re,
+  mi -- se -- re -- %155
+  re, mi -- se --
+  re -- re no --
+  bis. Qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: %160
+  Su -- sci -- pe, su -- sci -- pe,
+  su -- sci -- pe de -- pre --
+  ca -- ti -- o --
+  nem, su -- sci --
+  pe de -- pre -- %165
+  ca -- ti -- o -- nem no --
+  _ stram.
+  Qui se -- des,
+  qui se -- des ad
+  dex -- te -- ram Pa -- tris: %170
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re,
+  mi -- se -- re -- re
+  no -- bis. %174 finis
+}

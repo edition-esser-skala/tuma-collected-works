@@ -157,66 +157,122 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Domine Deus"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "fl" "solo" }
+  %           \A-XXXVIIIDomineFlauto
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-XXXVIIIDomineViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-XXXVIIIDomineViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \A-XXXVIIIDomineSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \A-XXXVIIIDomineSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "A" "trb 1" }
+  %           \new Voice = "Alto" { \dynamicUp \A-XXXVIIIDomineAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \A-XXXVIIIDomineAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "T" "trb 2" }
+  %           \new Voice = "Tenore" { \dynamicUp \A-XXXVIIIDomineTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \A-XXXVIIIDomineTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \A-XXXVIIIDomineBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \A-XXXVIIIDomineBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \A-XXXVIIIDomineOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XXXVIIIDomineBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Domine Deus"
+    \subsection "Qui tollis"
     \addTocEntry
     \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "fl" "solo" }
-            \A-XXXVIIIDomineFlauto
-          >>
-        >>
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \A-XXXVIIIDomineViolinoI
+              \A-XXXVIIIQuiTollisViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \A-XXXVIIIDomineViolinoII
+              \A-XXXVIIIQuiTollisViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \A-XXXVIIIDomineSoprano }
+            \new Voice = "Soprano" { \dynamicUp \A-XXXVIIIQuiTollisSoprano }
           }
-          \new Lyrics \lyricsto Soprano \A-XXXVIIIDomineSopranoLyrics
+          \new Lyrics \lyricsto Soprano \A-XXXVIIIQuiTollisSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "A" "trb 1" }
-            \new Voice = "Alto" { \dynamicUp \A-XXXVIIIDomineAlto }
+            \new Voice = "Alto" { \dynamicUp \A-XXXVIIIQuiTollisAlto }
           }
-          \new Lyrics \lyricsto Alto \A-XXXVIIIDomineAltoLyrics
+          \new Lyrics \lyricsto Alto \A-XXXVIIIQuiTollisAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "T" "trb 2" }
-            \new Voice = "Tenore" { \dynamicUp \A-XXXVIIIDomineTenore }
+            \new Voice = "Tenore" { \dynamicUp \A-XXXVIIIQuiTollisTenore }
           }
-          \new Lyrics \lyricsto Tenore \A-XXXVIIIDomineTenoreLyrics
+          \new Lyrics \lyricsto Tenore \A-XXXVIIIQuiTollisTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \A-XXXVIIIDomineBasso }
+            \new Voice = "Basso" { \dynamicUp \A-XXXVIIIQuiTollisBasso }
           }
-          \new Lyrics \lyricsto Basso \A-XXXVIIIDomineBassoLyrics
+          \new Lyrics \lyricsto Basso \A-XXXVIIIQuiTollisBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \A-XXXVIIIDomineOrgano
+            \A-XXXVIIIQuiTollisOrgano
           }
         >>
-        \new FiguredBass { \A-XXXVIIIDomineBassFigures }
+        \new FiguredBass { \A-XXXVIIIQuiTollisBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 60 }
     }
   }
 }

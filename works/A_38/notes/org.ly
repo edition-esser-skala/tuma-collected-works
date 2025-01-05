@@ -563,3 +563,66 @@ A-XXXVIIIDomineBassFigures = \figuremode {
   r
   r %149 finis
 }
+
+A-XXXVIIIQuiTollisOrgano = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 4/4 \tempoA-XXXVIIIQuiTollis
+      \set Score.currentBarNumber = #150
+    \mvTr e2\fE-\tuttiE e
+    r8 dis4 dis8 e4 r
+    r8 e4 e8 c2
+    h4 r r8 h'4 h8
+    gis2 a4 r
+    r8 a4 a8 fis2 %155
+    g!4 r g2
+    cis, d
+    g,4 r r g'
+    fis2 r8 fis gis4
+    a a, \mvTr a2\pE-\soloE %160
+    d g,!
+    c c4. b8
+    as4. g8 fis!2
+    g4 r r8 g'4 g8
+    f4 r \hA f2 %165
+    fis?1
+    fis,2 h4 r
+    r \mvTr h'\fE-\tuttiE h2
+    r8 ais4 ais8 h4 h,
+    c!2 h %170
+    r8 e4 e8 dis2
+    r8 d4 d8 cis2
+    r8 c4 c8 h2~
+    h e,4 r
+    r8 e e4 r2\fermata \bar "||" %175 finis
+  }
+}
+
+A-XXXVIIIQuiTollisBassFigures = \figuremode {
+  r2 <4 2> %150
+  r8 <6 5>2..
+  r2 <6\\ 5>4 \bassFigureExtendersOn <6\\ 4>8 <6\\ 3> \bassFigureExtendersOff
+  <_+>2 r8 <\t>4.
+  <6 5!>2 <_+>
+  r8 <_!>4. <6 5>2 %155
+  r <_!>4 <_->
+  <7->2 <4>4 <_+>
+  <_!>1
+  <6\\>2 r8 <6!> <6 5>4
+  <9 4> <8 3>2. %160
+  <_!>2 <7!>
+  r <_->4. <\t>8
+  <5- 3>4. <\t \t>8 <7- _!>2
+  <_!>1
+  <2> %165
+  <6 4>4 <5\+ _+> <6 4>2
+  <5\+ \t>4 <\t _+>2.
+  r2 <4 2\+>
+  r8 <6 5 _+>4. <_!>4 <_+>
+  <7> <6!> <_+>2 %170
+  r8 <5>4 <6>8 <7>4 <6>
+  r8 <4\+ 2>4. <7>4 <6>
+  r8 <\t>4. <7 _+>4 <6! 4>
+  <5 \t> <\t _+>2.
+  r1 %175 finis
+}

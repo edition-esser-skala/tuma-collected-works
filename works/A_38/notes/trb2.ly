@@ -160,3 +160,31 @@ A-XXXVIIIDomineTromboneII = {
     R2.\fermata \bar "||" %139 finis
   }
 }
+
+A-XXXVIIIQuiTollisTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key e \minor \time 4/4 \tempoA-XXXVIIIQuiTollis
+      \set Score.currentBarNumber = #150
+    e2\fE c4 c
+    r8 h h4 h r
+    r8 e e e e2
+    dis4 r r8 \hA dis4 dis8
+    d2 cis4 r
+    r8 e4 e8 d2 %155
+    d4 r d4. d8
+    e4 e a, d
+    d r r h!
+    a a r8 a e' e
+    e4 e r2 %160
+    R1*7 %167
+    r4 d\fE e e
+    r8 e e4 d fis
+    e e8 e fis4 fis %170
+    r8 e4 e8 fis4 fis
+    r8 e4 e8 e4 e
+    r8 e4 e8 fis4 h,
+    h2 h4 r
+    R1\fermata \bar "||" %175 finis
+  }
+}

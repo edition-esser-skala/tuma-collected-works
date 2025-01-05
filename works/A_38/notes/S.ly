@@ -401,16 +401,57 @@ A-XXXVIIIDomineSopranoLyrics = \lyricmode {
   tris. %129 finis
 }
 
+A-XXXVIIIQuiTollisSoprano = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \autoBeamOff \tempoA-XXXVIIIQuiTollis
+      \set Score.currentBarNumber = #150
+    \mvTr h'2\fE^\tutti a4 a
+    r8 a a4 g r
+    r8 h h h ais2
+    h4 r r8 h4 h8
+    h2 a!4 r
+    r8 c!4 c8 c2 %155
+    h4 r h b
+    b b a2
+    g4 r r d'
+    dis dis r8 d d d
+    d4 c r2 %160
+    R1*7 %167
+    r4 \mvTr d\fE^\tuttiE cis cis
+    r8 cis cis4 d dis
+    e e8 e dis4 dis %170
+    r8 h4 c!8 c4 h
+    r8 h4 h8 h4 a
+    r8 e'4 e8 dis4 e
+    e( dis) e r
+    R1\fermata \bar "||" %175 finis
+  }
+}
 
-% Do -- mi -- ne De -- us, Rex coe -- le -- stis,
-% De -- us Pa -- ter o -- mni -- po -- tens,
-% Do -- mi -- ne Fi -- li u -- ni -- ge -- ni -- te, Je -- su Chri -- ste,
-% Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris.
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram.
-% Qui se -- des ad dex -- te -- ram Pa -- tris:
+A-XXXVIIIQuiTollisSopranoLyrics = \lyricmode {
+  Qui tol -- lis %150
+  pec -- ca -- ta,
+  pec -- ca -- ta mun --
+  di: Mi -- se --
+  re -- re,
+  mi -- se -- re -- %155
+  re, mi -- se --
+  re -- re no --
+  bis. Qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: %160
+
+  Qui se -- des, %168
+  qui se -- des ad
+  dex -- te -- ram Pa -- tris: %170
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re,
+  mi -- se -- re -- re
+  no -- bis. %174 finis
+}
+
+
 % Mi -- se -- re -- re no -- bis.
 % Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
 % tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.

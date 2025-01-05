@@ -310,3 +310,37 @@ A-XXXVIIIDomineViolinoII = {
     h2 r4\fermata \bar "||" %149 finis
   }
 }
+
+A-XXXVIIIQuiTollisViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \tempoA-XXXVIIIQuiTollis
+      \set Score.currentBarNumber = #150
+    g''2\fE fis16 a, c a fis' dis a' fis
+    c'8 fis, fis4\trill g16 e, g e h' g e' h
+    g'4 r r16 e, g e e' ais, g' e
+    dis fis, h fis \hA dis' h fis' \hA dis h'4 r
+    r16 e,, gis e d' h h' h, cis e, a e \hA cis' a e' \hA cis
+    a'8 c,4 c8 c16 d, fis d c' a a' c, %155
+    h g h g d' h g' d h' g, h g d' b g' d
+    b' g, b g \hA b' g \hA b \hA b, a d, a' d, fis'! d a' c,
+    h g, h! g d' h g' d h' g d' h g'4
+    r16 a, dis a fis' a, fis' \hA dis a'8 d, h'16 d, h' d,
+    r a, c a a' e c' a a'4 r %160
+    r16 d,,\p f d a' \hA f f' a \appoggiatura c,8 h4 r
+    r16 c, e c g' e c' g c,4 r16 c es c
+    c'4 r16 c, es c c'4 r16 c es c
+    h! d, g d h' g d' h g'4 r
+    r16 g, h g d' h g' d h4 r16 d h cis %165
+    d8 r cis16 fis, ais fis h8( d) r16 d h d
+    cis4\trill r r16 fis,\f h fis d' h fis' d
+    h'4 r r16 e,, g e e' cis g' e
+    cis'4 r r16 h, d h fis' dis h' \hA dis,
+    e4 r16 e g e dis h \hA dis h fis' \hA dis h' a %170
+    g4 r r16 fis, dis fis h fis dis' h
+    h'4 r r16 e,, cis e a e cis' a
+    a'4 r r16 dis, a' \hA dis, e h g' e
+    r fis, fis' cis dis fis h \hA dis, e h, e h g' e h' g
+    e'8 e, e4 r2\fermata \bar "||" %175 finis
+  }
+}
