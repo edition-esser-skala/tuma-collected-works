@@ -307,6 +307,100 @@ A-XXXVIIIGloriaSopranoLyrics = \lyricmode {
   am. %45 finis
 }
 
+A-XXXVIIIDomineSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoA-XXXVIIIDomine
+      \set Score.currentBarNumber = #46
+    R2.*27 %72
+    \mvTr d'4.\fE^\tutti d8 d4
+    h8([ a)] h4 r
+    r a a %75
+    h8([ a)] h4 r
+    \mvTr h(\pE^\solo a) g
+    \tieDashed d'2.~
+    d~ \tieSolid
+    d2 cis4 %80
+    d8 a h([ a) h( cis)]
+    d[ cis d( \hA cis) d e]
+    fis[ a16( g)] fis8[ e d c]
+    h4. cis16([ d)] e([ d) \hA cis d]
+    cis4. d16([ e)] fis([ e) d e] %85
+    d4. e16[ fis] g([ fis) e( d)]
+    cis4 a d~
+    d8[ e] e4. e8
+    d4 r r
+    \mvTr d4.\fE^\tutti d8 cis4 %90
+    h8([ cis)] d4 r
+    r d cis
+    d8. d16 d4 r
+    R2.*17 %110
+    \mvTr h4.\fE^\tutti h8 h4
+    g h r
+    r c h
+    h h r
+    \mvTr e4.\pE^\solo d!16([ c)] h8 e %115
+    c[ a16( h)] cis4.\trill h16[ \hA cis]
+    d4. c16[ h] a8[ d]
+    h8[ a h c] d[ c16( h)]
+    h4\trill a r
+    \mvTr d4.\fE^\tutti d8 d4 %120
+    d( c2)
+    h8[ c16( d)] e8([ d)] c4
+    h8[ c] a2
+    g4 r r
+    R2.*2 %126
+    r8 d' e d c4
+    h8([ c)] a2
+    g4 r r
+    R2.*19 %138
+    R2.\fermata \bar "||" %139 finis
+  }
+}
+
+A-XXXVIIIDomineSopranoLyrics = \lyricmode {
+  Do -- mi -- ne %73
+  De -- us,
+  Rex coe -- %75
+  le -- stis,
+  De -- us
+  Pa --
+
+  _ %80
+  ter, Pa -- _
+  _
+  _ _
+  _ _ _
+  _ _ _ %85
+  _ _ _
+  _ ter o --
+  mni -- po --
+  tens.
+  Do -- mi -- ne %90
+  Fi -- li
+  u -- ni --
+  ge -- ni -- te.
+
+  Do -- mi -- ne %111
+  De -- us,
+  A -- gnus
+  De -- i,
+  Fi -- _ li -- us %115
+  Pa -- _ _
+  _ _ _
+  _ _
+  _ tris,
+  Fi -- li -- us %120
+  Pa --
+  _ _ _
+  _ _
+  tris,
+
+  Fi -- li -- us Pa -- %127
+  _ _
+  tris. %129 finis
+}
+
 
 % Do -- mi -- ne De -- us, Rex coe -- le -- stis,
 % De -- us Pa -- ter o -- mni -- po -- tens,

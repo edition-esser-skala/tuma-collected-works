@@ -202,3 +202,112 @@ A-XXXVIIIGloriaViolinoI = {
     c r r2\fermata \bar "||" %45 finis
   }
 }
+
+A-XXXVIIIDomineViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoA-XXXVIIIDomine
+      \set Score.currentBarNumber = #46
+    R2.*3 %48
+    r8 d\p d16( e) e( d) e( d) e( fis)
+    g4 r r %50
+    r8 a d16( cis) d8 r4
+    r8 h cis16( h) \hA cis8 r4
+    d8 fis r16 a,( g fis) e8 cis'
+    d fis r16 a, g fis e8 cis'
+    d r fis r d r %55
+    e4 r e
+    e8 r cis r a r
+    fis4 a' r16 fis( e d)
+    r4 d cis\trill
+    d8 a f'([ e) d( c)] %60
+    h8 r h r h r
+    r c e( d) c( h)
+    a r a r a r
+    r h a( g) fis( e)
+    d r g r g r %65
+    g r a r a r
+    a r a r a r
+    h g'4 fis16( e) d c h a
+    g8 h'4 d,8 c16( h) a( g)
+    d'8 fis g4~ g8 fis\trill %70
+    g d,\piuP \slurDashed e( d) e( fis)
+    g d e( d) \slurSolid e( fis)
+    g\f g \grace a' g16( fis) g8 \grace g fis16( e) fis8
+    g4 d r
+    r4 \grace f8 e16( d) e8 \grace g fis16( e) fis8 %75
+    g4 r8 d,\p e16 d e( fis)
+    g4 r r
+    d'2.~
+    \once \tieDashed d~
+    d2 cis4\trill %80
+    d8 fis, g( fis) g( e)
+    fis4 r r8 a
+    d, a''16( g) fis8 e d c!
+    h4. cis16 d e( d) \hA cis( d)
+    \grace d8 cis4. d16 e fis( e) d( e) %85
+    d4. e16( fis) g( fis) e( d)
+    cis8 a'4 a a,8
+    h( cis) cis2\trill
+    d4 r a
+    d,8\f fis' \grace h a16( g) a8 \grace h a16( g) a8 %90
+    d,4 a' r
+    r h16( a) h8 e,16( d) e8
+    fis4 r8 a,\pE h16( a) h( cis)
+    d4 r r
+    r fis, g %95
+    a2 fis4
+    g8 r h r h r
+    a r a r a r
+    h4 g, a
+    h g'' g, %100
+    e e a
+    fis fis h
+    g a8( gis) a( h)
+    c( h) a( g) fis( e)
+    dis4 r r8 fis' %105
+    h, g' r4 r8 dis
+    e g r4 r8 dis
+    e h c( h) c( d)
+    e e,~ e4 dis\trill
+    e r dis' %110
+    e\f h'16( a) h8 h16( a) h8
+    e,4 h' r
+    r c fis,\trill
+    g r8 h,\p cis16( h) \hA cis( dis)
+    e4 e, e %115
+    a, a a
+    d! d d
+    g, g g
+    d' r8 fis' fis16( e) fis8
+    g4\f r8 h h16( a) h8 %120
+    a4 r8 fis g a
+    h16( a) h8 e,( d) e( fis)
+    g4 g fis\trill
+    g r r
+    R2.*2 %126
+    r8 g e d e fis
+    g4 g fis\trill
+    g r r
+    r8 a,\p d16( cis) d8 r4 %130
+    r8 h cis16( h) \hA cis8 r4
+    d8 fis r16 a,( g fis) e8 cis'
+    d r fis r d r
+    e4 r e
+    e8 r cis r a r %135
+    fis4 a' r16 fis( e d)
+    r4 d cis\trill
+    d8 d, f'( e) d( c)
+    h r h r h r
+    r c e( d) c( h) %140
+    a r a r a r
+    r h a( g) fis( e)
+    d r g r g r
+    g r a r a r
+    a r a r a r %145
+    g g'~ g4 fis\trill
+    g8 d,\piuP \slurDashed e( d) e( fis)
+    g d e( d) e( fis) \slurSolid
+    g2 r4\fermata \bar "||" %149 finis
+  }
+}

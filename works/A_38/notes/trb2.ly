@@ -124,3 +124,39 @@ A-XXXVIIIGloriaTromboneII = {
     e r r2\fermata \bar "||" %45 finis
   }
 }
+
+A-XXXVIIIDomineTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key g \major \time 3/4 \tempoA-XXXVIIIDomine
+      \set Score.currentBarNumber = #46
+    R2.*27 %72
+    h4.\fE h8 a4
+    g d' r
+    r e d %75
+    d d r
+    R2.*13 %89
+    fis4.\fE fis8 e4 %90
+    d8 e fis4 r
+    r e e
+    fis8. fis16 fis4 r
+    R2.*17 %110
+    e4.\fE e8 dis4
+    e8 dis e4 r
+    r fis8 e dis4
+    e8 dis e4 r
+    R2.*4 %118
+    d4.\fE c16 h a8 d
+    h2. %120
+    a4 e'4. d8
+    d4 c8 d e4~
+    e d2
+    d4 r r
+    R2.*2 %126
+    r8 d c d e4~
+    e d2
+    d4 r r
+    R2.*19 %138
+    R2.\fermata \bar "||" %139 finis
+  }
+}

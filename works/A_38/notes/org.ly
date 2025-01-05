@@ -397,3 +397,169 @@ A-XXXVIIIGloriaBassFigures = \figuremode {
   r2 r8 <6 5> <4> <3>
   r1 %45 finis
 }
+
+A-XXXVIIIDomineOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \tempoA-XXXVIIIDomine
+      \set Score.currentBarNumber = #46
+    \mvTr g'4\p-\soloE r h
+    c r a
+    d r fis,
+    g r r8 d
+    g,4 g' g %50
+    fis fis fis
+    e e e
+    d d a'
+    d, d a'
+    d, r fis %55
+    g r gis
+    a r a
+    h fis r
+    g a a,
+    d r r %60
+    e8 r e r e r
+    a,4 r r
+    d8 r d r d r
+    g,4 r r
+    g r r8 h %65
+    c4 r r8 cis
+    d4 r r8 fis
+    g4 g g
+    g, g c
+    d e8 c^\critnote d4 %70
+    g, r r
+    g r r
+    \mvTr g\f-\tuttiE g' d
+    e h r
+    r c d %75
+    g g, r
+    \mvTr g\pE-\soloE r r
+    R2.*12 %89
+    \mvTr d'4\fE-\tuttiE d' a %90
+    h fis r
+    r g a
+    d d, r
+    \mvTr d\pE-\soloE r r
+    R2.*2 %96
+    g,4 r h
+    c r d
+    g, r r
+    R2.*11 %110
+    \mvTr e'2\fE-\tuttiE h'4
+    c g r
+    r a h
+    e,2 r4
+    R2.*4 %118
+    \clef "treble_8" \mvTr d'4.\fE-\tuttiE c16 h a8 d
+    \clef bass g,4. fis16 e d8 g %120
+    fis d e d e fis
+    g h, c h c d
+    e c d2
+    g,4 r h'\p
+    c r a %125
+    d r fis,
+    g8 h,\f c h c d
+    e c d2
+    g,4 g'\p g
+    fis fis fis %130
+    e e e
+    d d a'
+    d, r fis
+    g r gis
+    a r a %135
+    h fis r
+    g a a,
+    d r r
+    e8 r e r e r
+    a,4 r r %140
+    d8 r d r d r
+    g,4 r r
+    g r r8 h
+    c4 r r8 cis
+    d4 fis8 r fis r %145
+    g4 d d
+    g, r r
+    g r r
+    g2^\critnote r4\fermata \bar "||" %149 finis
+  }
+}
+
+A-XXXVIIIDomineBassFigures = \figuremode {
+  r2. %46
+  r
+  r
+  r
+  r %50
+  <6>
+  <5>4 <6\\>2
+  r2 <_+>4
+  r2 q4
+  r2. %55
+  <6 5>2 <\t \t>4
+  <_+>2.
+  r4 <6>2
+  q4 <6 4> <5 _+>
+  r2. %60
+  <_+>
+  <_!>
+  r
+  r
+  r2 r8 <6 5!> %65
+  r2 r8 <6 5>
+  <_+>2 r8 <6 5>
+  r2.
+  r2 <6>4
+  r2. %70
+  r
+  r
+  r
+  r4 <6>2
+  r4 <6 5>2 %75
+  r2.*14 %89
+  r2 <_+>4 %90
+  r <6>2
+  r4 <6 5> <_+>
+  r2.
+  r
+  r2.*2 %96
+  r2.
+  <6 5>
+  r
+  r2.*11 %110
+  r2 <_+>4
+  r <6>2
+  r4 <6 5> <_+>
+  r2.*5 %118
+  r2.
+  r2 <6>4 %120
+  q q4. <6 5>8
+  r4. <6>
+  r4 <4> <3>
+  r2.
+  r %125
+  r
+  r4. <6>
+  r4 <4> <3>
+  r2.
+  <6> %130
+  <5>4 <6\\>2
+  r <_+>4
+  r2.
+  <6 5>2 <\t \t>4
+  <_+>2. %135
+  r4 <6>2
+  q4 <6 4> <5 _+>
+  r2.
+  <_+>
+  <_!> %140
+  r
+  r
+  r2 r8 <6 5!>
+  r2 r8 <6 5>
+  <_+>2. %145
+  r4 <4> <3>
+  r2.
+  r
+  r %149 finis
+}

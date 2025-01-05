@@ -128,3 +128,38 @@ A-XXXVIIIGloriaTromboneI = {
     g r r2\fermata \bar "||" %45 finis
   }
 }
+
+A-XXXVIIIDomineTromboneI = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 3/4 \tempoA-XXXVIIIDomine
+      \set Score.currentBarNumber = #46
+    R2.*27 %72
+    g'4.\fE g8 fis4
+    g8 fis g4 r
+    r g fis %75
+    g8 fis g4 r
+    R2.*13 %89
+    a4.\fE a8 a4 %90
+    fis8 g a4 r
+    r h a
+    a8. a16 a4 r
+    R2.*17 %110
+    g4.\fE g8 fis4
+    e8 fis g4 r
+    r a8 g fis4
+    g8 fis g4 r
+    R2.*5 %119
+    g2\fE fis8 g %120
+    a4 g8 fis g a
+    \once \tieDashed g2.~
+    g2 fis4
+    g r r
+    R2.*2 %126
+    r8 g4 g8 g4~
+    g g fis
+    g r r
+    R2.*19 %138
+    R2.\fermata \bar "||" %139 finis
+  }
+}

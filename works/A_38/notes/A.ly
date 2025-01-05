@@ -277,3 +277,105 @@ A-XXXVIIIGloriaAltoLyrics = \lyricmode {
   _ _ ri -- am tu --
   am. %45 finis
 }
+
+A-XXXVIIIDomineAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoA-XXXVIIIDomine
+      \set Score.currentBarNumber = #46
+    R2.*27 %72
+    \mvTr g'4.\fE^\tutti g8 fis4
+    g8([ fis)] g4 r
+    r g fis %75
+    g8([ fis)] g4 r
+    R2.*13 %89
+    \mvTr a4.\fE^\tuttiE a8 a4 %90
+    fis8([ g)] a4 r
+    r h a
+    a8. a16 a4 r
+    r \mvTr fis\pE^\solo g
+    a2.~ %95
+    a8[ g fis e] d8([ c'!)]
+    h([ a)] g4 r
+    R2.
+    r4 h c
+    d8[ c h a g f] %100
+    e4. fis16([ g)] a([ g) fis g]
+    fis4. g16([ a)] h([ a) g( a)]
+    g4 a8([ gis) a( h)]
+    c[ h a g] fis([ e)]
+    dis([ cis?)] h4 r %105
+    h'4. a16([ g)] a8[ g16( fis)]
+    g4. fis16[ e] fis8[ e16 dis]
+    e8[ gis] a([ \hA gis)] a([ h)]
+    c8 a fis2\trill
+    e4 r r %110
+    \mvTr g4.\fE^\tutti g8 fis4
+    e8([ fis)] g4 r
+    r a8([ g)] fis4
+    g8([ fis)] g4 r
+    R2. %115
+    \mvTr a4.\pE^\solo g16([ fis)] e8 a
+    fis[ d16 e] fis4.\trill e16([ fis)]
+    g8[ fis g a] h[ a16( g])
+    g4 fis r
+    \mvTr g2\fE^\tutti fis8 g %120
+    a4 g8[ fis g a]
+    g2.~
+    g2 fis4
+    g r r
+    R2.*2 %126
+    r8 g4 g8 g4~
+    g g( fis)
+    g r r
+    R2.*19 %138
+    R2.\fermata \bar "||" %139 finis
+  }
+}
+
+A-XXXVIIIDomineAltoLyrics = \lyricmode {
+  Do -- mi -- ne %73
+  De -- us,
+  Rex coe -- %75
+  le -- stis.
+
+  Do -- mi -- ne %90
+  Fi -- li
+  u -- ni --
+  ge -- ni -- te,
+  Je -- su,
+  Je -- %95
+  su __
+  Chri -- ste,
+
+  Je -- su,
+  Je -- %100
+  _ _ _
+  _ _ _
+  _ _
+  _ su
+  Chri -- ste, %105
+  Je -- _ _
+  _ _ _
+  _ _ su,
+  Je -- su Chri --
+  ste. %110
+  Do -- mi -- ne
+  De -- us,
+  A -- gnus
+  De -- i,
+  %115
+  Fi -- _ li -- us
+  Pa -- _ _
+  _ _
+  _ tris,
+  Fi -- li -- us %120
+  Pa -- _
+  _
+  _
+  tris,
+
+  Fi -- li -- us __ %127
+  Pa --
+  tris. %129 finis
+}

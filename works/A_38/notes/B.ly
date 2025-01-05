@@ -247,3 +247,65 @@ A-XXXVIIIGloriaBassoLyrics = \lyricmode {
   glo -- ri -- am tu --
   am. %45 finis
 }
+
+A-XXXVIIIDomineBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \autoBeamOff \tempoA-XXXVIIIDomine
+      \set Score.currentBarNumber = #46
+    R2.*27 %72
+    \mvTr g'4.\fE^\tutti g8 d4
+    e h r
+    r c d %75
+    g g, r
+    R2.*13 %89
+    \mvDl d''4.\fE^\tuttiE d8 a4 %90
+    h fis r
+    r g a
+    d8. d,16 d4 r
+    R2.*17 %110
+    \mvTr e4.\fE^\tuttiE e8 h'4
+    c g r
+    r a h
+    e, e r
+    R2.*5 %119
+    \mvTr g4.(\fE^\tuttiE fis16[ e)] d8 g %120
+    fis[ d e d e fis]
+    g[ h, c h c d]
+    e[ c] d2
+    g,4 r r
+    R2.*2 %126
+    r8 h[ c h c d]
+    e[ c] d2
+    g,4 r r
+    R2.*19 %138
+    R2.\fermata \bar "||" %139 finis
+  }
+}
+
+A-XXXVIIIDomineBassoLyrics = \lyricmode {
+  Do -- mi -- ne %73
+  De -- us,
+  Rex coe -- %75
+  le -- stis.
+
+  Do -- mi -- ne %90
+  Fi -- li
+  u -- ni --
+  ge -- ni -- te.
+
+  Do -- mi -- ne %111
+  De -- us,
+  A -- gnus
+  De -- i,
+
+  Fi -- li -- us %120
+  Pa --
+  _
+  _ _
+  tris,
+
+  Pa -- %127
+  _ _
+  tris. %129 finis
+}

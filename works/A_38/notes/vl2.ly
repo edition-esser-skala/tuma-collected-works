@@ -201,3 +201,112 @@ A-XXXVIIIGloriaViolinoII = {
     c4 r r2\fermata \bar "||" %45 finis
   }
 }
+
+A-XXXVIIIDomineViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoA-XXXVIIIDomine
+      \set Score.currentBarNumber = #46
+    R2.*3 %48
+    r8 h\p h16( c) c( h) c( h) c( a)
+    h4 r r %50
+    r8 a' d16( cis) d8 r4
+    r8 h \once \slurDashed cis16( h) \hA cis8 r4
+    a r a,
+    a r a
+    a'8 r d r fis, r %55
+    h4 r h
+    cis8 r r4 r
+    d a r
+    h r e,\trill
+    r8 d d'( c!) h( a) %60
+    gis r \hA gis r \hA gis r
+    r a c( h) a( g)
+    fis r fis r fis r
+    r g fis( e) d( c)
+    h r h r h r %65
+    c r cis r \hA cis r
+    d r fis r fis r
+    d4 r r
+    d r r
+    d h8( e) d4 %70
+    d8 h\piuP \slurDashed c(^\critnote h) c( a) \slurSolid
+    h h c( h) c( a)
+    h\fE g' h4 d
+    h8 a h4 r
+    r a a %75
+    h r8 h,\p c16( h) c( a)
+    h4 r r
+    g' g g
+    fis fis fis
+    e e e %80
+    d2 r4
+    d r r
+    d2 fis4
+    g g gis
+    a a a %85
+    h h g!
+    a g fis
+    g a a,
+    d r a'
+    d,\f d' cis %90
+    h8( cis) d4 r
+    r d cis
+    d r8 fis,\p g16( fis) g( e)
+    fis4 r r
+    r d e %95
+    fis2 fis4
+    g8 r g r g r
+    g r g r fis r
+    d4 g, a
+    h h h %100
+    c c cis
+    d d dis
+    e c! h
+    a a a
+    h2 dis4 %105
+    e e h
+    e e h
+    e c h
+    a h h
+    e r h %110
+    e\f g' fis
+    e e r
+    r fis8 e dis4\trill
+    e r8 g,\p a16( g) a( fis)
+    g4 e e %115
+    a, a a
+    d! d d
+    g, g g
+    d' r8 fis' fis16( e) fis8
+    g4\f d2~ %120
+    d4 c2
+    h8 c16( d) e8 d c4
+    h8( c) a2\trill
+    g4 r r
+    R2.*2 %126
+    r8 d' e d c4
+    h8 c a2\trill
+    g4 r r
+    r8 a\p d16( cis) d8 r4 %130
+    r8 h-\critnote cis16( h) \hA cis8 r4
+    a r a,
+    a8 r d' r fis, r
+    h4 r h
+    cis8 r r4 r %135
+    d a r
+    h r e,\trill
+    fis8 d d'( c!) h( a)
+    gis r \hA gis r \hA gis r
+    r a c( h) a( g) %140
+    fis r fis r fis r
+    r g fis( e) d( c)
+    h r h r h r
+    c r cis r \hA cis r
+    d r d r d r %145
+    d4 r d
+    d8 h\piuP c( h) c( a)
+    h h c( h) c( a)
+    h2 r4\fermata \bar "||" %149 finis
+  }
+}

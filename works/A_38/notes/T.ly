@@ -270,3 +270,67 @@ A-XXXVIIIGloriaTenoreLyrics = \lyricmode {
   glo -- ri -- am tu --
   am. %45 finis
 }
+
+A-XXXVIIIDomineTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 3/4 \autoBeamOff \tempoA-XXXVIIIDomine
+      \set Score.currentBarNumber = #46
+    R2.*27 %72
+    \mvTr h4.\fE^\tutti h8 a4
+    g d' r
+    r e d %75
+    d d r
+    R2.*13 %89
+    \mvTr fis4.\fE^\tutti fis8 e4 %90
+    d8([ e)] fis4 r
+    r e e
+    fis8. fis16 fis4 r
+    R2.*17 %110
+    \mvTr e4.\fE^\tutti e8 dis4
+    e8([ dis)] e4 r
+    r fis8([ e)] dis4
+    e8([ dis)] e4 r
+    R2.*4 %118
+    \mvTr d4.\fE^\tuttiE c16([ h)] a8 d
+    h2. %120
+    a4 e'4. d8
+    d4 c8[ d] e4~
+    e d2
+    d4 r r
+    R2.*2 %126
+    r8 d c d e4~
+    e d2
+    d4 r r
+    R2.*19 %138
+    R2.\fermata \bar "||" %139 finis
+  }
+}
+
+A-XXXVIIIDomineTenoreLyrics = \lyricmode {
+  Do -- mi -- ne %73
+  De -- us,
+  Rex coe -- %75
+  le -- stis.
+
+  Do -- mi -- ne %90
+  Fi -- li
+  u -- ni --
+  ge -- ni -- te.
+
+  Do -- mi -- ne %111
+  De -- us,
+  A -- gnus
+  De -- i,
+
+  Fi -- _ li -- us %119
+  Pa -- %120
+  tris, Fi -- li --
+  us Pa -- _
+  _
+  tris,
+
+  Fi -- li -- us Pa -- %127
+  _
+  tris. %129 finis
+}
