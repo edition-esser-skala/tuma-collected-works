@@ -56,48 +56,8 @@ A-XXXVIIIKyrieAlto = {
     e a g2
     g4 r r %55
     R2.
-    g4 g2 \noBreak
-    g r4\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoA-XXXVIIIChriste \newSpacingSection
-      R1*43 \noBreak %101
-    R1\fermata \bar "||"
-    \key c \major \time 4/2 \tempoA-XXXVIIIKyrieFuga \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
-      R\breve*2
-    \mvTr g2.\fE^\tuttiE g4 e2. e4 %105
-    f2. fis4 g2. e4
-    fis g2 f e8[ d] e2
-    r4 g8([ f)] e4( d) c a'8([ g)] f4( e)
-    d f8([ e)] d4( f2 e4) d2
-    r4 g8([ f)] e4( d) c a'8([ g)] f4( e) %110
-    d h'8([ a)] g4( fis8[ g] a4) g d2~
-    d e1 fis2~
-    fis g g2.( fis4)
-    g2 r r1
-    R\breve*2 %116
-    r1 r4 d g( a8[ h)]
-    c4 c8([ h)] a4( g) fis4 d8([ e)] \hA fis4( g8[ a])
-    h4 h8([ a)] g4( fis) e2 r
-    h'2. h4 g4 g8([ a)] h2 %120
-    a1~ a4 fis8([ g)] a2
-    g2. a4 gis fis e2
-    f e e r
-    r4 a8([ g!)] f4( e) d2. e8([ f)]
-    g4( g8[ f] e4 d) c2. d8([ e)] %125
-    f4 f8[ e] d4 c h2 c4 d
-    e2 f f( e)
-    e4 r r2 r1
-    R\breve*3 %131
-    g2. g4 e2. e4
-    f2. fis4 g2 f~
-    f4 e8[ d] e2 d1
-    r4 g8([ f)] e4( d) c a'8([ g)] f4( e) %135
-    d h'8([ a)] g4( f e f g2)
-    g4 d2 g4 g2. gis4
-    a\breve
-    g4 g g2 g4 r r2
-    r1 r4 g g2 %140
-    g r\fermata \bar "|." %141 finis
+    g4 g2
+    g r4\fermata \bar "||" %58 finis
   }
 }
 
@@ -154,8 +114,54 @@ A-XXXVIIIKyrieAltoLyrics = \lyricmode {
   son, %55
 
   e -- lei --
-  son.
+  son. %58 finis
+}
 
+A-XXXVIIIKyrieFugaAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/2 \tempoA-XXXVIIIKyrieFuga \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+      \set Score.currentBarNumber = #103
+    R\breve*2
+    \mvTr g'2.\fE^\tuttiE g4 e2. e4 %105
+    f2. fis4 g2. e4
+    fis g2 f e8[ d] e2
+    r4 g8([ f)] e4( d) c a'8([ g)] f4( e)
+    d f8([ e)] d4( f2 e4) d2
+    r4 g8([ f)] e4( d) c a'8([ g)] f4( e) %110
+    d h'8([ a)] g4( fis8[ g] a4) g d2~
+    d e1 fis2~
+    fis g g2.( fis4)
+    g2 r r1
+    R\breve*2 %116
+    r1 r4 d g( a8[ h)]
+    c4 c8([ h)] a4( g) fis4 d8([ e)] \hA fis4( g8[ a])
+    h4 h8([ a)] g4( fis) e2 r
+    h'2. h4 g4 g8([ a)] h2 %120
+    a1~ a4 fis8([ g)] a2
+    g2. a4 gis fis e2
+    f e e r
+    r4 a8([ g!)] f4( e) d2. e8([ f)]
+    g4( g8[ f] e4 d) c2. d8([ e)] %125
+    f4 f8[ e] d4 c h2 c4 d
+    e2 f f( e)
+    e4 r r2 r1
+    R\breve*3 %131
+    g2. g4 e2. e4
+    f2. fis4 g2 f~
+    f4 e8[ d] e2 d1
+    r4 g8([ f)] e4( d) c a'8([ g)] f4( e) %135
+    d h'8([ a)] g4( f e f g2)
+    g4 d2 g4 g2. gis4
+    a\breve
+    g4 g g2 g4 r r2
+    r1 r4 g g2 %140
+    g r\fermata \bar "|." %141 finis
+  }
+}
+
+A-XXXVIIIKyrieFugaAltoLyrics = \lyricmode {
   Ky -- ri -- e e -- %105
   le -- i -- son, e --
   lei -- _ _ _ son,

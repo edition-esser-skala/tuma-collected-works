@@ -61,10 +61,17 @@ A-XXXVIIIKyrieViolinoII = {
     e8 c' d, c' d, h'\trill
     c c,\p h \tuplet 3/2 8 { a16 h a } g8 \tuplet 3/2 8 { f16 g f } %55
     e8 f e \tuplet 3/2 8 { f'16 g f } e8 \tuplet 3/2 8 { d16 e d }
-    c8\f c' d, c' d, h'\trill \noBreak
-    c4 c, r\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoA-XXXVIIIChriste \newSpacingSection
-      e8\fE d16( c) \appoggiatura c h8 a16( gis) a( a') a4 e16( c) \noBreak
+    c8\f c' d, c' d, h'\trill
+    c4 c, r\fermata \bar "||" %58 finis
+  }
+}
+
+A-XXXVIIIChristeViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoA-XXXVIIIChriste
+      \set Score.currentBarNumber = #59
+    e'8\fE d16( c) \appoggiatura c h8 a16( gis) a( a') a4 e16( c)
     a( f') f4 h,8\trill \tuplet 3/2 8 { \sbOn c16 c d e d c d d e f e d
     e c d e d c d d e f e d } e8 \tuplet 3/2 8 { a16 g f e d c } d, h'\trillE \sbOff %60
     c8 c, r16 e'( f e) dis fis, d'8~ d16 d e d
@@ -106,11 +113,18 @@ A-XXXVIIIKyrieViolinoII = {
     e c, d e d c d d e f e d } e8 \tuplet 3/2 8 { a'16 g f e d c } d, h'\trill \sbOff
     c c, e g c e g e d h, gis' h d d f d
     c a, c e a8 a, r16 e' e8\trill r16 e e8\trill %100
-    r16 e\p e8\trill r16 e e8\trill \tuplet 3/2 8 { \sbOn f'16\f d e f e d gis e fis? \hA gis \hA fis e \sbOff } \noBreak
-    a16. a,32 a16. d32 \tuplet 3/2 8 { c16 h a } h8\trill a a, a4\fermata \bar "||"
-    \key c \major \time 4/2 \tempoA-XXXVIIIKyrieFuga \newSpacingSection
+    r16 e\p e8\trill r16 e e8\trill \tuplet 3/2 8 { \sbOn f'16\f d e f e d gis e fis? \hA gis \hA fis e \sbOff }
+    a16. a,32 a16. d32 \tuplet 3/2 8 { c16 h a } h8\trill a a, a4\fermata \bar "||" %102 finis
+  }
+}
+
+A-XXXVIIIKyrieFugaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/2 \tempoA-XXXVIIIKyrieFuga
       \set Staff.timeSignatureFraction = 2/2
-      R\breve*2
+      \set Score.currentBarNumber = #103
+    R\breve*2
     g'2.\fE g4 e2. e4 %105
     f2. fis4 g2. e4
     fis g2 f e8 d e2

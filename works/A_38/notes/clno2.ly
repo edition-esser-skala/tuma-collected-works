@@ -55,15 +55,19 @@ A-XXXVIIIKyrieClarinoII = {
     c g g
     g r r %55
     R2.
-    e'4 d d \noBreak
-    c2 r4\fermata \bar "||"
-    \time 4/4 \tempoA-XXXVIIIChriste \newSpacingSection
-      R1*43 \noBreak %101
-    R1\fermata \bar "||"
-     \time 4/2 \tempoA-XXXVIIIKyrieFuga \newSpacingSection
+    e'4 d d
+    c2 r4\fermata \bar "||" %58 finis
+  }
+}
+
+A-XXXVIIIKyrieFugaClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/2 \tempoA-XXXVIIIKyrieFuga
       \set Staff.timeSignatureFraction = 2/2
-      R\breve*6 %108
-    r1 g4\fE c g g8 g
+      \set Score.currentBarNumber = #103
+    R\breve*6 %108
+    r1 g'4\fE c g g8 g
     g2 r r1 %110
     R\breve*2
     r1 e'2 d4 d

@@ -61,103 +61,8 @@ A-XXXVIIIKyrieOrgano = {
     c f g4 g,
     c r r %55
     R2.
-    c4 g' g, \noBreak
-    c2 r4\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoA-XXXVIIIChriste \newSpacingSection
-      \mvTr a8\fE-\solo c d e a, c a c \noBreak
-    d f g g, c c' h g %60
-    c, c' h g c f, g g,
-    c c'16 h c8 a h h16 a h8 gis
-    a a, d dis e d? gis, gis
-    a a' dis, dis e fis gis a
-    e\pE fis gis a d,\fE d d d %65
-    c d e e f4 e8 e
-    a,2 a8\pE c d e
-    a, c a c d f g g,
-    c c' h g c, c' h g
-    c c, d d e4 r %70
-    gis8 gis gis gis a4 r8 a,
-    d d f f g4 r8 h,
-    c4 r r2
-    R1
-    r8 g'\fE g g fis fis fis fis %75
-    e4 dis\pE e \hA dis
-    e r e g8 a
-    h h, h4~ \once \tieDashed h2~
-    h~ h4 h8 a
-    g4 g'2 fis4~ %80
-    fis e2 dis4
-    e c8 g a ais h h
-    e\fE g a! h e, g e g
-    a c d d, g h16 a g8 e
-    fis fis16 e \hA fis8 dis e e ais, ais %85
-    h cis dis e h\pE \hA cis \hA dis e
-    a,!\fE a a a g g a h
-    e4 g\pE a8 g f! e
-    d4 r d8 f d f
-    g f e d c4 r %90
-    R1
-    r2 r8 e gis e
-    a g f e d c! r c
-    h a r c d4 e
-    f c d e %95
-    a,8\fE c d e a, c a c
-    d f g g, c c' h h
-    c c h h c f, g g,
-    c4 r8 c h4 r8 h
-    a4 r8 dis e fis gis a %100
-    e\pE fis gis a d,\fE d d d \noBreak
-    c d e e, a2\fermata \bar "||"
-    \clef treble \key c \major \time 4/2 \tempoA-XXXVIIIKyrieFuga \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
-      \mvTr c''2.\fE-\tuttiE c4 h2. h4 \noBreak
-    c2. cis4 d2. a4
-    << {
-      h c2 h4 c e8 d c4 h %105
-      a f'8 e d4 c h g'8 f e4 c~
-      c h a2
-    } \\ {
-      g2. g4 e2. e4 %105
-      f2. fis4 g2. e4
-      fis g2 f4
-    } >> \clef "treble_8" c2. c4
-    h2. h4 c2. cis4
-    d2. h4 \clef bass g2. g4
-    e2. e4 f2. fis4 %110
-    g2. e4 fis g2 \hA fis4
-    g g8 f e4 d c a'8 g fis4 e
-    d h'8 a g4 fis e c d2
-    g, r r1
-    R\breve*2 %116
-    \clef "treble_8" d''2. d4 \clef bass g,2. g4
-    e2. e4 fis1
-    d2. dis4 e h e2~
-    e dis e4 e8 fis g4 a8 h %120
-    c4 c8 h a4 g fis d8 e \hA fis4 g8 a
-    h4 h8 a g4 fis e \hA fis8 gis a2~
-    a gis a \clef treble c'4 d8 e
-    f4 \clef bass d,,8 e f!4 e8 f g4 g8 f e4 d
-    c c8 d e4 d8 e f4 f8 e d4 c %125
-    h h8 c d4 c8 d e4 e8 d c4 h
-    a2 f' d e
-    a,4 r r2 r1
-    R\breve*2 %130
-    r1 \clef treble c''2. c4
-    << {
-      h2. h4 c2. cis4
-      d2. c4 h c d2
-    } \\ {
-      g,2. g4 e2. e4 %132
-      f2. fis4 g2 f
-    } >>
-    \clef "treble_8" c2. c4 \clef bass g2. g4
-    e2. e4 f2. fis4 %135
-    g2. gis4 a g8 f e4 f
-    g g,8 a h4 c8 d e4 e8 d c4 h
-    a a8 h c4 d8 e f4 f8 e d4 c
-    h c g' g, c r r2
-    r1 r4 c' g g, %140
-    c2 r\fermata \bar "|." %141 finis
+    c4 g' g,
+    c2 r4\fermata \bar "||" %58 finis
   }
 }
 
@@ -219,7 +124,62 @@ A-XXXVIIIKyrieBassFigures = \figuremode {
   r2. %55
   r
   r4 <4> <3>
-  r2.
+  r2. %58 finis
+}
+
+A-XXXVIIIChristeOrgano = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \tempoA-XXXVIIIChriste
+      \set Score.currentBarNumber = #59
+    \mvTr a8\fE-\solo c d e a, c a c
+    d f g g, c c' h g %60
+    c, c' h g c f, g g,
+    c c'16 h c8 a h h16 a h8 gis
+    a a, d dis e d? gis, gis
+    a a' dis, dis e fis gis a
+    e\pE fis gis a d,\fE d d d %65
+    c d e e f4 e8 e
+    a,2 a8\pE c d e
+    a, c a c d f g g,
+    c c' h g c, c' h g
+    c c, d d e4 r %70
+    gis8 gis gis gis a4 r8 a,
+    d d f f g4 r8 h,
+    c4 r r2
+    R1
+    r8 g'\fE g g fis fis fis fis %75
+    e4 dis\pE e \hA dis
+    e r e g8 a
+    h h, h4~ \once \tieDashed h2~
+    h~ h4 h8 a
+    g4 g'2 fis4~ %80
+    fis e2 dis4
+    e c8 g a ais h h
+    e\fE g a! h e, g e g
+    a c d d, g h16 a g8 e
+    fis fis16 e \hA fis8 dis e e ais, ais %85
+    h cis dis e h\pE \hA cis \hA dis e
+    a,!\fE a a a g g a h
+    e4 g\pE a8 g f! e
+    d4 r d8 f d f
+    g f e d c4 r %90
+    R1
+    r2 r8 e gis e
+    a g f e d c! r c
+    h a r c d4 e
+    f c d e %95
+    a,8\fE c d e a, c a c
+    d f g g, c c' h h
+    c c h h c f, g g,
+    c4 r8 c h4 r8 h
+    a4 r8 dis e fis gis a %100
+    e\pE fis gis a d,\fE d d d
+    c d e e, a2\fermata \bar "||" %102 finis
+  }
+}
+
+A-XXXVIIIChristeBassFigures = \figuremode {
   r4 <6>8 <_+> r2
   r4 <7>2 <6>4 %60
   r q2 <6 4>8 <5 3>
@@ -263,8 +223,68 @@ A-XXXVIIIKyrieBassFigures = \figuremode {
   r2 <6\\>
   r4. <7 _+>8 <_+> <7> <6>4 %100
   <_+>8 <7> <6>2 <4\+ 2>4
-  <6> <6 4>8 <5 _+> r2
-  r\breve
+  <6> <6 4>8 <5 _+> r2 %102 finis
+}
+
+A-XXXVIIIKyrieFugaOrgano = {
+  \relative c {
+    \clef treble
+    \key c \major \time 4/2 \tempoA-XXXVIIIKyrieFuga
+      \set Staff.timeSignatureFraction = 2/2
+      \set Score.currentBarNumber = #103
+    \mvTr c''2.\fE-\tuttiE c4 h2. h4
+    c2. cis4 d2. a4
+    << {
+      h c2 h4 c e8 d c4 h %105
+      a f'8 e d4 c h g'8 f e4 c~
+      c h a2
+    } \\ {
+      g2. g4 e2. e4 %105
+      f2. fis4 g2. e4
+      fis g2 f4
+    } >> \clef "treble_8" c2. c4
+    h2. h4 c2. cis4
+    d2. h4 \clef bass g2. g4
+    e2. e4 f2. fis4 %110
+    g2. e4 fis g2 \hA fis4
+    g g8 f e4 d c a'8 g fis4 e
+    d h'8 a g4 fis e c d2
+    g, r r1
+    R\breve*2 %116
+    \clef "treble_8" d''2. d4 \clef bass g,2. g4
+    e2. e4 fis1
+    d2. dis4 e h e2~
+    e dis e4 e8 fis g4 a8 h %120
+    c4 c8 h a4 g fis d8 e \hA fis4 g8 a
+    h4 h8 a g4 fis e \hA fis8 gis a2~
+    a gis a \clef treble c'4 d8 e
+    f4 \clef bass d,,8 e f!4 e8 f g4 g8 f e4 d
+    c c8 d e4 d8 e f4 f8 e d4 c %125
+    h h8 c d4 c8 d e4 e8 d c4 h
+    a2 f' d e
+    a,4 r r2 r1
+    R\breve*2 %130
+    r1 \clef treble c''2. c4
+    << {
+      h2. h4 c2. cis4
+      d2. c4 h c d2
+    } \\ {
+      g,2. g4 e2. e4 %132
+      f2. fis4 g2 f
+    } >>
+    \clef "treble_8" c2. c4 \clef bass g2. g4
+    e2. e4 f2. fis4 %135
+    g2. gis4 a g8 f e4 f
+    g g,8 a h4 c8 d e4 e8 d c4 h
+    a a8 h c4 d8 e f4 f8 e d4 c
+    h c g' g, c r r2
+    r1 r4 c' g g, %140
+    c2 r\fermata \bar "|." %141 finis
+  }
+}
+
+A-XXXVIIIKyrieFugaBassFigures = \figuremode {
+  r\breve %103s
   r
   r %105
   r

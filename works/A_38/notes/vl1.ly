@@ -61,10 +61,17 @@ A-XXXVIIIKyrieViolinoI = {
     e8 c' d, c' d, h'\trill
     c e,\p d \tuplet 3/2 8 { c16 d c } h8 \tuplet 3/2 8 { a16 h a } %55
     g8 a g \tuplet 3/2 8 { a'16 b a } g8 \tuplet 3/2 8 { f16 g f }
-    e8\f c' d, c' d, h'\trill \noBreak
-    c4 c, r\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoA-XXXVIIIChriste \newSpacingSection
-      e8\fE d16( c) \appoggiatura c h8 a16( gis) \once \slurDashed a( a') a4 e16( c) \noBreak
+    e8\f c' d, c' d, h'\trill
+    c4 c, r\fermata \bar "||" %58 finis
+  }
+}
+
+A-XXXVIIIChristeViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoA-XXXVIIIChriste
+      \set Score.currentBarNumber = #59
+    e'8\fE d16( c) \appoggiatura c h8 a16( gis) \once \slurDashed a( a') a4 e16( c)
     a( f') f8~ \tuplet 3/2 8 { \sbOn f16 d c h a g \sbOff } e'( g) g8\trill r16 g g8\trill %60
     r16 g g8\trill r16 g g8\trill \tuplet 3/2 8 { \sbOn g16 f e a g f e d c } d, h'\trill \sbOff
     c8 c, r16 e'( f e) dis fis, d'8~ d16 d e d
@@ -106,11 +113,18 @@ A-XXXVIIIKyrieViolinoI = {
     r16 g, g8\trill r16 g g8\trill \tuplet 3/2 8 { \sbOn g'16 f e  a g f e d c } d, h'\trill \sbOff
     c c, e g c e g e d h, gis' h d d f d
     c a, c e a c8 a16 gis( e') a,( e') h( e) c( e) %100
-    gis,(\p e') a,( e') h( e) c( e) \tuplet 3/2 8 { \sbOn f\f d e f e d gis e fis \hA gis \hA fis e \sbOff } \noBreak
-    a16. a,32 a16. d32 \tuplet 3/2 8 { c16 h a } h8\trill a a, a4\fermata \bar "||"
-    \key c \major \time 4/2 \tempoA-XXXVIIIKyrieFuga \newSpacingSection
+    gis,(\p e') a,( e') h( e) c( e) \tuplet 3/2 8 { \sbOn f\f d e f e d gis e fis \hA gis \hA fis e \sbOff }
+    a16. a,32 a16. d32 \tuplet 3/2 8 { c16 h a } h8\trill a a, a4\fermata \bar "||" %102 finis
+  }
+}
+
+A-XXXVIIIKyrieFugaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/2 \tempoA-XXXVIIIKyrieFuga
       \set Staff.timeSignatureFraction = 2/2
-      c'2.\fE c4 h2. h4 \noBreak
+      \set Score.currentBarNumber = #103
+    c'2.\fE c4 h2. h4
     c2. cis4 d2. a4
     h c2 h4 c e8 d c4 h %105
     a f'8 e d4 c h g'8 f e4 c~

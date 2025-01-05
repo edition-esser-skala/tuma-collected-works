@@ -57,13 +57,17 @@ A-XXXVIIIKyrieTromboneII = {
     c4 r r %55
     R2.
     c4 c h
-    c2 r4\fermata \bar "||"
-      \key a \minor \time 4/4 \tempoA-XXXVIIIChriste \newSpacingSection
-      R1*43 \noBreak %101
-    R1\fermata \bar "||"
-    \key c \major \time 4/2 \tempoA-XXXVIIIKyrieFuga \newSpacingSection
+    c2 r4\fermata \bar "||" %58 finis
+  }
+}
+
+A-XXXVIIIKyrieFugaTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/2 \tempoA-XXXVIIIKyrieFuga
       \set Staff.timeSignatureFraction = 2/2
-      R\breve*4 %106
+      \set Score.currentBarNumber = #103
+    R\breve*4 %106
     r1 c2.\fE c4
     h2. h4 c2. cis4
     d2. a4 h c2 h4

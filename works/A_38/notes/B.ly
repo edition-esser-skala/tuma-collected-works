@@ -57,41 +57,7 @@ A-XXXVIIIKyrieBasso = {
     c r r %55
     R2.
     c4 g'( g,)
-    c2 r4\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoA-XXXVIIIChriste \newSpacingSection
-      R1*43 \noBreak %101
-    R1\fermata \bar "||"
-    \key c \major \time 4/2 \tempoA-XXXVIIIKyrieFuga \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
-      R\breve*6 %108
-    r1 \mvTr g'2.\fE^\tutti g4
-    e2. e4 f2. fis4 %110
-    g2. e4 fis( g2 \hA fis4)
-    g g8([ f)] e4( d) c a'8([ g)] fis4( e)
-    d h'8([ a)] g4( fis) e c d2
-    g, r r1
-    R\breve*2 %116
-    r1 g'2. g4
-    e2. e4 fis1
-    d2. dis4 e h e2~
-    e dis e4 e8([ fis)] g4( a8[ h)] %120
-    c4 c8([ h]) a4( g) fis d8([ e]) \hA fis4( g8[ a)]
-    h4 h8([ a)] g4( fis) e \hA fis8([ gis)] a2~
-    a gis a r
-    r4 d,8([ e)] f!4( e8[ f]) g4 g8([ f)] e4( d)
-    c c8([ d)] e4( d8[ e)] f4 f8([ e)] d4( c) %125
-    h h8([ c)] \once \stemUp d4( c8[ d)] e4 e8([ d)] c4( h)
-    a2 f' d( e)
-    a,4 r r2 r1
-    R\breve*5 %133
-    r1 g'2. g4
-    e2. e4 f2. fis4 %135
-    g2. gis4 a( g8[ f] e4 f)
-    g g,8([ a)] h4( c8[ d)] e4 e8([ d)] c4( h)
-    a a8([ h)] c4( d8[ e)] f4 f8([ e)] d4( c)
-    h c g'( g,) c r r2
-    r1 r4 c' g2 %140
-    c, r\fermata \bar "|." %141 finis
+    c2 r4\fermata \bar "||" %58 finis
   }
 }
 
@@ -148,8 +114,48 @@ A-XXXVIIIKyrieBassoLyrics = \lyricmode {
   son, %55
 
   e -- lei --
-  son.
+  son. %58 finis
+}
 
+A-XXXVIIIKyrieFugaBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/2 \tempoA-XXXVIIIKyrieFuga \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+      \set Score.currentBarNumber = #103
+    R\breve*6 %108
+    r1 \mvTr g'2.\fE^\tutti g4
+    e2. e4 f2. fis4 %110
+    g2. e4 fis( g2 \hA fis4)
+    g g8([ f)] e4( d) c a'8([ g)] fis4( e)
+    d h'8([ a)] g4( fis) e c d2
+    g, r r1
+    R\breve*2 %116
+    r1 g'2. g4
+    e2. e4 fis1
+    d2. dis4 e h e2~
+    e dis e4 e8([ fis)] g4( a8[ h)] %120
+    c4 c8([ h]) a4( g) fis d8([ e]) \hA fis4( g8[ a)]
+    h4 h8([ a)] g4( fis) e \hA fis8([ gis)] a2~
+    a gis a r
+    r4 d,8([ e)] f!4( e8[ f]) g4 g8([ f)] e4( d)
+    c c8([ d)] e4( d8[ e)] f4 f8([ e)] d4( c) %125
+    h h8([ c)] \once \stemUp d4( c8[ d)] e4 e8([ d)] c4( h)
+    a2 f' d( e)
+    a,4 r r2 r1
+    R\breve*5 %133
+    r1 g'2. g4
+    e2. e4 f2. fis4 %135
+    g2. gis4 a( g8[ f] e4 f)
+    g g,8([ a)] h4( c8[ d)] e4 e8([ d)] c4( h)
+    a a8([ h)] c4( d8[ e)] f4 f8([ e)] d4( c)
+    h c g'( g,) c r r2
+    r1 r4 c' g2 %140
+    c, r\fermata \bar "|." %141 finis
+  }
+}
+
+A-XXXVIIIKyrieFugaBassoLyrics = \lyricmode {
   Ky -- ri -- %109
   e e -- le -- i -- %110
   son, e -- lei --

@@ -2,8 +2,8 @@
 
 tempoA-XXXVIIIKyrie = \tempoMarkup "Adagio"
   tempoA-XXXVIIIKyrieB = \tempoMarkup "Allegro"
-  tempoA-XXXVIIIChriste = \tempoMarkup "Allegretto"
-  tempoA-XXXVIIIKyrieFuga = \tempoMarkup "[Alla breve]"
+tempoA-XXXVIIIChriste = \tempoMarkup "Allegretto"
+tempoA-XXXVIIIKyrieFuga = \tempoMarkup "[Alla breve]"
 
 tempoA-XXXVIIIGloria = \tempoMarkup "Allegro"
 tempoA-XXXVIIIDomine = \tempoMarkup "Andante"

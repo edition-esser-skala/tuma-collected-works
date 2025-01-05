@@ -92,7 +92,112 @@
   %       \new FiguredBass { \A-XXXVIIIKyrieBassFigures }
   %     >>
   %     \layout { }
-  %     \midi { \tempo 4 = 60 } % 110 – 60 – 200
+  %     \midi { \tempo 4 = 60 } % 110
+  %   }
+  % }
+  % \bookpart {
+  %   \subsection "Christe eleison"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #23
+  %     system-system-spacing.minimum-distance = #23
+  %     systems-per-page = #3
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-XXXVIIIChristeViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-XXXVIIIChristeViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \A-XXXVIIIChristeSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \A-XXXVIIIChristeSopranoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \A-XXXVIIIChristeOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XXXVIIIChristeBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
+  % \bookpart {
+  %   \subsection "Kyrie eleison"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+  %           \partCombine #'(0 . 10) \A-XXXVIIIKyrieFugaClarinoI \A-XXXVIIIKyrieFugaClarinoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-XXXVIIIKyrieFugaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-XXXVIIIKyrieFugaViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \A-XXXVIIIKyrieFugaSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \A-XXXVIIIKyrieFugaSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "A" "trb 1" }
+  %           \new Voice = "Alto" { \dynamicUp \A-XXXVIIIKyrieFugaAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \A-XXXVIIIKyrieFugaAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "T" "trb 2" }
+  %           \new Voice = "Tenore" { \dynamicUp \A-XXXVIIIKyrieFugaTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \A-XXXVIIIKyrieFugaTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \A-XXXVIIIKyrieFugaBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \A-XXXVIIIKyrieFugaBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \A-XXXVIIIKyrieFugaOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XXXVIIIKyrieFugaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 100 }
   %   }
   % }
   % \bookpart {
