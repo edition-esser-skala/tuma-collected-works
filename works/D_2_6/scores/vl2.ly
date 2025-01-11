@@ -9,7 +9,6 @@
   \bookpart {
     \section "D.2.6" "De profundis"
     \addTocEntry
-    \paper { page-count = #2 }
     \score {
       <<
         \new Staff { \D-II-VIViolinoII }

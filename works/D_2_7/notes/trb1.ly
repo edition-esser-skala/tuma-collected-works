@@ -3,72 +3,75 @@
 D-II-VIITromboneI = {
   \relative c' {
     \clef alto
-    \key c \major \time 4/4 \tempoD-II-VIIDixit
-    \mvTr g'4\fE-\tutti g e8. e16 e4
-    a8 g f4 e8 g4 g8
-    g4 g8 g g g g fis
-    g4 r r h8 h
-    h, h h' h h4 a %5
-    gis8 gis r4 r8 e e e
-    a4 g8 a g2
-    g4 r r2
-    R1*5 %13
-    g8\fE g g4 g r
-    g8 e f g a a16 a a8. a16 %15
-    a8 a a a g4 g8 g
-    g2 g4 r
-    R1
-    \mvTr e4\pE-\solo d e r
-    a8 gis a4 gis g %20
-    g8 f e4 d r
-    fis2 e8 g4 fis8~
-    fis e4 dis8 e4. dis8
-    e4 r r2
-    R1*3 %27
-    r2 r4 \mvTr fis8\fE-\tutti fis
-    g fis g e fis h, fis' fis
-    e2. g4 %30
-    g8 a g4 fis8 fis d e
-    e4 e r8 d d d
-    d h d d e g f! f
-    e e r4 r r8 e
-    f g a g16 f e8 f e8. e16 %35
-    e4 r r2
-    R1
-    r2 r4 r8 e\fE
-    f f r d e e r f
-    f f f g g g g4 %40
-    g r r8 g g4 \noBreak
-    g r r2\fermata \bar "||"
-    \tempoD-II-VIIIudicabit r2 r4 g8\fE g \noBreak
+    \key c \dorian \time 4/4 \tempoD-II-VIIDeProfundis
+    R1*4
+    r2 r4 r8 es\fE %5
+    b'4. as8 g b, g'4
+    f r8 f as2
+    g4. g8 fis2
+    r4 g8 g g4 fis
+    g r r2 %10
+    R1*2
+    r2 r4 r8 f\fE
+    as2 g
+    r4 r8 as f4 g %15
+    g es8 f g4. g8
+    g4 r as8. as16 as8 as
+    as4 g r8 g g as
+    b2 as4 g8 f \noBreak
+    f4 e f2\fermata \bar "||" %20
+    \tempoD-II-VIIFiant R1 \noBreak
+    r2 g4.\fE g8
+    es f g c, as' g g4
+    g f g g8 f
+    es f g4 g2 %25
+    g es4 g
+    as2 g4 g
+    g g r g
+    as as r as8 as
+    g4 g as2 %30
     g1
-    g4 g f f %45
-    g2. g4
-    g \tempoD-II-VIIImplebit r8 g g4 g8 a
-    g g r4 a gis
-    a8 a r4 a a
-    a8 a r4 g fis %50
-    g8 g g8. g16 g4 r8 g
-    a4 g8 a g2
+    g \noBreak
+    g\fermata \bar "||"
+    \tempoD-II-VIISi R1*33 \noBreak %66
+    R1\fermata \bar "||"
+    \tempoD-II-VIIQuia g4.\fE g8 as4 g \noBreak
+    f2 es4 r
+    r8 g g g as8. es16 es8 as, %70
+    ges' ges ges8. ges16 f4 r
+    r8 f f f g8. g16 as8 as
+    g4. g8 g4 g
+    r g8 g g4 f8 f
+    g4. g8 g4 r8 \tempoD-II-VIIEtIpse g %75
+    g g g g g8. g16 g8 g
+    as8. as16 as8 as g4 g
+    g g8 g g2
+    g4 r r2
+    R1*9 %88
+    g4\fE g as4. g16 f
+    g8 c, f4. es8 d4 %90
+    c8 as' g16 f es d c8 g' c4~
+    c8 b! a16 g fis e fis8 g4 fis8
     g4 r r2
     R1
-    \mvTr g4.\pE-\solo fis8 g2~ %55
-    g4 a~ a8 g4 fis8
-    g4 g2 f4
-    e2. e4
-    f4. f8 d4 e8 g
-    g4 r r8 \mvTr g4\fE-\tutti g8 %60
-    c, d16 c d8 e16 d e d c8 r c16 d
-    e4 f2 e8 d
-    e f16 e f8 g16 f \tieDashed g2~
-    g4~ \tieSolid g8 fis g4 r8 g
-    e a r f d4 e %65
-    f4. g8 g2
-    g4 r r2
-    R1
-    r2 r4 r8 g
-    g a g4 g r %70
-    r2 g8 g g4
-    g r r2\fermata \bar "|." %72 finis
+    r2 r4 c,~ %95
+    c f as4. g16 f
+    g8 c, f4. es16 d es8 f
+    b,4 es4 f8 g g4
+    fis d8 d c2
+    b4 r r8 g' f16 es d c %100
+    d4 g f2
+    f8 b a16 g f es d8 g f16 es d c
+    b4 es2 d4
+    es2 r
+    R1 %105
+    g4 g as4. g16 f
+    g8 c, g'4 fis8 d e4
+    fis8 g fis fis f4 es
+    d r r2
+    g4 g as4. g16 f %110
+    g8 c, f2 es4
+    d2 c8 g'4 g8
+    g es16 f g4 g r\fermata \bar "|." %113 finis
   }
 }

@@ -1,112 +1,64 @@
 \version "2.24.2"
 
-D-II-VIIIDixitFagotto = {
+D-II-VIIIFagotto = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoD-II-VIIIDixit
-    R1*9 %9
-    r2 g'\fE %10
-    g g
-    e8 c r c' h g r h
-    c h r h, c a d d,
-    g4 r r2
-    R1*2 %16
-    r2 r4 h'8 h
-    c c, r4 c2
-    f e4 gis
-    a4. a8 a,4. d8
-    e4 e, a r
-    R1*6 %27
-    g4\fE h c e8 d
-    c c e e f4. e8
-    f f f f g4 r %30
-    r8 g f4 e8. f16 g8 g,
-    c4 r r2
-    R1*3 %35
-    r4 r8 g' c, d e f
-    g4 g, c2\fermata \bar "||" %37 finis
-  }
-}
-
-D-II-VIIIIuravitFagotto = {
-  \relative c {
-    \clef bass
-    \key c \major \time 4/4 \tempoD-II-VIIIIuravit
-      \set Score.currentBarNumber = #126
-    r2 r4 e\fE
-    e2 dis
-    e r
-    r r4 e\fE
-    d!2 c %130
-    cis h
-    R1 \noBreak
-    R1\fermata \bar "||"
-    \tempoD-II-VIIIEtNon r2 g8\fE g h d \noBreak
-    h g e'4 d r %135
-    r2 d8 d fis a
-    fis d h h c! h a d
-    h g r4 r2
-    r8 g' g4 e2
-    r8 a a4 f!2 %140
-    r8 g4 g8 c,2
-    g4 r r8 c d e
-    f4 f, r8 d' e f
-    g4 e8 c g2
-    c4 r8 g' c,4 r %145
-    \tempoD-II-VIIIDominus R1*14 \noBreak %159
-    R1\fermata \bar "||" %160
-    \tempoD-II-VIIIIudicabit R1 \noBreak
-    a2\fE a
-    a r
-    r gis\fE
-    a e'4 c %165
-    g'2 r
-    r r4 r8 \tempoD-II-VIIIImplebit g\fE
-    c h16 a g8 f e c r e
-    a g!16 f e8 d c a r4
-    f'4. d8 g e r a~ %170
-    a f b g r c4 a8
-    a f f d h!2
-    c g
-    c4 r r8 f f4
-    fis2 g %175
-    g, c\fermata \bar "||" %176 finis
-  }
-}
-
-D-II-VIIIGloriaFagotto = {
-  \relative c {
-    \clef bass
-    \key c \major \time 4/4 \tempoD-II-VIIIGloria
-      \set Score.currentBarNumber = #241
-    e2\fE d
-    c r
-    r4 c h2
-    c2 g
-    \tempoD-II-VIIIGloriaB R1*12 %256
-    g'4\fE g g e8 g
-    a4. g16 f g4 c,
-    f2 e8 e f g
-    a e r d c4 c'~ %260
-    c8 h16 a h4~ h8 a16 g a g fis e
-    d8 g d4 g, r
-    r8 g a h c g r4
-    r8 c d e f c r4
-    r8 f g a b f r4 %265
-    R1*2
-    r8 e fis gis a2~
-    a8 a, h cis d2~
-    d8 d e fis g2~ %270
-    g8 g, a h c2
-    g r
-    R1*4 %276
-    g'4 g g e8 g
-    a4 g8 f e4. d8
-    c4 e f2
-    e8 d c16 d e f g4 g, %280
-    g1~
-    g2 c
-    c1
-    c\fermata \bar "|." %284 finis
+    c'4\fE g a e
+    f8 e d4 c r
+    r8 h a g c4 d
+    g, h'8 h h,2
+    h4 h8 a gis4 a %5
+    e'8 e r4 r8 a a a,
+    f'4 e8 f g2
+    c,4 r r2
+    R1*4 %12
+    r2 g'8\fE d h d
+    g, g r4 c'8 g e g
+    c, c r c f4. f8 %15
+    d4 c h c
+    g' g, c r
+    R1*7 %24
+    r2 r4 e\fE %25
+    h'2 g4 dis
+    e d c4. c8
+    h4 cis d dis
+    e r r2
+    r r4 e8 e %30
+    g fis g e fis h, r e
+    c4. c8 d2
+    g,8 g' g g g e f! d
+    c c r4 r r8 c
+    d e f g a d, e8. e16 %35
+    a,4 r r2
+    R1
+    r2 r4 r8 a'\fE
+    f d r g e c r f
+    d4. c8 h c g4 %40
+    c8 e f g a c g g, \noBreak
+    c4 r r2\fermata \bar "||"
+    \tempoD-II-VIIIIudicabit r2 r4 c8\fE c \noBreak
+    c2 b
+    as4 as as as %45
+    g2. g4
+    g \tempoD-II-VIIIImplebit r8 g' c h16 a g8 f
+    e c r4 a16 h c d e fis gis e
+    a8 a, r4 d16 e f g a h cis a
+    d8 d, r4 g,16 a h c d e fis d %50
+    g8 g, g'8. f16 e4 r8 e
+    f4 e8 f g2
+    c,4 r r2
+    R1*8 %61
+    r2 r8 g'4\fE g8
+    c, d16 c d8 e16 d e d c8 r e16 d
+    c4. d8 g,4 r
+    r2 r8 g' e a %65
+    r f d g16 f e8 c g4
+    c r r2
+    R1
+    r2 r4 r8 g'
+    c, f g4 c, r %70
+    r2 c8 c' g4
+    c, r r2\fermata \bar "|." %72 finis
   }
 }

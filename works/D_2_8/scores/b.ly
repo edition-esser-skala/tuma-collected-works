@@ -11,43 +11,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-VIIIDixitOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Tecum principium"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \D-II-VIIITecumOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Iuravit Dominus"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \D-II-VIIIIuravitOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "De torrente"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \D-II-VIIIDeTorrenteOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Gloria Patri"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \D-II-VIIIGloriaOrgano }
+        \new Staff { \D-II-VIIIOrgano }
       >>
     }
   }

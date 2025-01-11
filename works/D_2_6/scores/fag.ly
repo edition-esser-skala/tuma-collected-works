@@ -9,6 +9,7 @@
   \bookpart {
     \section "D.2.6" "De profundis"
     \addTocEntry
+    \paper { systems-per-page = #6 }
     \score {
       <<
         \new Staff { \D-II-VIFagotto }

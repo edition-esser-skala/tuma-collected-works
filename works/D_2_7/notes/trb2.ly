@@ -3,72 +3,77 @@
 D-II-VIITromboneII = {
   \relative c' {
     \clef tenor
-    \key c \major \time 4/4 \tempoD-II-VIIDixit
-    e4\fE-\tutti d c8. c16 g4
-    c8 c16 c d4 e r
-    r8 h c d c c a4
-    h r r g8 g
-    g g h c16 d e4 e %5
-    e8 h r4 r8 c c c
-    c4 e8 d d2
-    e4 r r2
-    R1*5 %13
-    h8\fE g a h c c r4
-    e8 c d e f f16 f f8. f16 %15
-    f8 f f f f4 e8 e
-    d2 e4 r
-    R1
-    \mvTr c4\pE-\solo d c r
-    d c8 a h2 %20
-    a a4 r
-    h2 h8 e4 \once \tieDashed d8~
-    d c4 h8 h4 h8 h
-    h4 r r2
-    R1*2 %26
-    \mvTr h2\fE-\tutti e
-    d4 ais h2
-    h4 e2 d!4
-    c a2 g8 fis %30
-    e4 r r h'8 h
-    c h c a a2\trillE
-    g8 h h h h h a h
-    c c r g a h c8. c16
-    \once \tieDashed a2~ a8 a gis8. a16 %35
-    a4 r r2
-    R1
-    r2 r4 r8 cis\fE
-    d a r h c g r c
-    d d d e d e d4 %40
-    c r r8 c c h \noBreak
-    c4 r r2\fermata \bar "||"
-    \tempoD-II-VIIIudicabit r2 r4 c8\fE c \noBreak
-    c1
-    c4 c c c %45
-    d2. d4
-    d \tempoD-II-VIIImplebit r8 d e!4 h8 h
-    c c r4 e e
-    e8 e r4 f e
-    f8 f r4 d d %50
-    d8 d d8. d16 e4 r8 e
-    c4 e8 d d2
-    e4 r r2
-    R1
-    \mvTr d8\pE-\solo e4 d8 d4 h %55
-    e2 d
-    d4 d e a,
-    c8 d c4 h a~
-    a2 h4 c
-    h r r2 %60
+    \key c \dorian \time 4/4 \tempoD-II-VIIDeProfundis
+    R1*4
+    r2 r8 b\fE es4~ %5
+    es d8 c b2
+    r8 b f'2 c8 as
+    c2 d
+    r4 d8 es d4. d8
+    d4 r r2 %10
     R1*2
-    r2 r8 \mvTr c4\fE-\tuttiE c8
-    g a16 g a8 h16 a h a g8 r4
-    r2 r4 r8 c %65
-    a d r h c4 c8 h
+    r2 r8 as\fE c4~
+    c c8 c c4 c
+    r8 c f4 d2 %15
+    es4 c d4. d8
+    c4 r es8. es16 es8 es
+    es4 es r2
+    r8 g, g g as4 des \noBreak
+    c2 c\fermata \bar "||" %20
+    \tempoD-II-VIIFiant c4.\fE c8 h c d g, \noBreak
+    es' d c4 c h
+    c c2 b4
+    as2 g
+    c4 es d4. d8 %25
+    es es d es es4. d8
+    es4 f8 es d4 d
+    es es r c
+    c c r f8 f
+    f4 es es d8 c %30
+    h4 c h8 g c4~
+    c h8 a h2 \noBreak
+    c1\fermata \bar "||"
+    \tempoD-II-VIISi R1*33 \noBreak %66
+    R1\fermata \bar "||" %67
+    \tempoD-II-VIIQuia es4.\fE es8 c4 es \noBreak
+    c b b r
+    r8 b b b c8. c16 c4 %70
+    r8 es es es es8. des16 des4
+    r8 d d d e8. e16 f8 f
+    d4. d8 es4 es
+    r es8 d es4 d8 c
+    d4. d8 d4 r8 \tempoD-II-VIIEtIpse es %75
+    d es d d16 d es8. es16 es8 es
+    c8. c16 c8 f f4 es8 c
+    h4 c8 es d2
     c4 r r2
-    R1
-    r2 r4 r8 h
-    c4 c8 h c4 r %70
-    r2 c8 c c h
-    c4 r r2\fermata \bar "|." %72 finis
+    R1*7 %86
+    c4\fE d es4. d16 c
+    d8 g, c4. b!8 a!4
+    g8 c~ c16 b as g f4 f'~
+    f8 es d16 c b a h8 c c h %90
+    c c4 h8 c4 r
+    r2 d4 d
+    es2~ es8 d c4
+    h8 c d4. es8 f4
+    e c8 des b4 g %95
+    as2 r
+    r c4. b!16 as
+    g4 g8 g d'4 es
+    d4. g,8 a!4. b16 c
+    d8 es d16 c b a g4 a %100
+    b es f r
+    b,2 b
+    b4 c b2
+    b r
+    c4. d8 es4. d16 c %105
+    h8 g c4. d16 es f4
+    es es d c16 b a! g
+    a8 b16 c d4 d r
+    r8 h4 h8 c4. h16 a
+    h4. h8 c d16 es f8 es16 d %110
+    c8. b16 a!8 h16 c d4 c
+    g g g8 es' d4
+    c d c r\fermata \bar "|." %113 finis
   }
 }

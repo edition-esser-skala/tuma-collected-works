@@ -6,7 +6,7 @@
 
 \book {
   \bookpart {
-    \section "D.2.7" "Dixit Dominus"
+    \section "D.2.7" "De profundis"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -32,16 +32,6 @@
             \D-II-VIIFagotto
           }
         >>
-        \new StaffGroup <<
-          \new Staff <<
-            \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
-            \partCombine #'(0 . 10) \D-II-VIIClarinoI \D-II-VIIClarinoII
-          >>
-        >>
-        \new Staff {
-          \set Staff.instrumentName = \transposedTimp "C" "" "G" ""
-          \D-II-VIITimpani
-        }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "Violino"
@@ -90,7 +80,7 @@
         \new FiguredBass { \D-II-VIIBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 } % 60 – 90
+      \midi { \tempo 4 = 60 } % 80 – 70 – 60 – 100
     }
   }
 }

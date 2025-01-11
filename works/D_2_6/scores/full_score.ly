@@ -80,7 +80,7 @@
         \new FiguredBass { \D-II-VIBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 } % 80 – 70 – 60 – 100
+      \midi { \tempo 4 = 70 }
     }
   }
 }

@@ -1,323 +1,135 @@
 \version "2.24.2"
 
-D-II-VIIIDixitBasso = {
+D-II-VIIIBasso = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \autoBeamOff \tempoD-II-VIIIDixit
-    R1*9 %9
-    r2 \mvTr g'4.\fE^\tutti g8 %10
-    g2.. g8
-    e c r c' h g r h
-    c h r h, c a d4
-    g, r r2
-    R1 %15
-    r4 d''8 d d8.[ h16] g[ h d, g]
-    h,8.[ g'16] d[ g h, d] g,8 g h' h
-    c c, r4 r c8 c
-    f f f4 e r
-    r8 a a a a,4 a8 d %20
-    e4( e,) a r
-    R1*5 %26
-    r2 r4 \mvTr g'8\fE^\tuttiE g
-    g16[ a g a] g[ a g f!] e[ f e f] e[ f e d]
-    c8 c e e f f16 f f8 e
-    f f f8. f16 g4 r %30
-    r8 g f f e e16 f g8([ g,)]
-    c4 r c~ c16[ d] e([ f)]
-    g8 g, r4 r8 d' d16([ e)] f([ g)]
-    a4 r r r8 e
-    f e d g16 g c,([ d e f] g8[ g,)] %35
-    c4 r8 g' c, d e f16 f
-    g4( g,) c2\fermata \bar "||" %37 finis
+    \mvDl c'4\fE^\tutti g a8. a16 e4
+    f8 e16 e d4 c r
+    r8 h a g c c d4
+    g, h'8 h h,2
+    h4 h8 a gis4 a %5
+    e'8 e r4 r8 a a a,
+    f'4 e8 f g2
+    c,4 r r2
+    R1*4 %12
+    r2 \mvTr g'8([\fE^\tutti d)] h([ d)]
+    g, g r4 c'8([ g)] e([ g)]
+    c, c r c f8. f16 f8 f %15
+    d4 c h c8 c
+    g'2 c,4 r
+    R1*7 %24
+    r2 r4 \mvTr e\fE^\tutti %25
+    h'2 g4 dis
+    e d c4. c8
+    h4 cis d8 d dis8. dis16
+    e4 r r2
+    r r4 e8 e %30
+    g fis g e fis h, r e
+    c c c8. c16 d2
+    g,8 g' g g g e f! d
+    c c r4 r r8 c
+    d e f g a d, e8. e16 %35
+    a,4 r r2
+    R1
+    r2 r4 r8 \mvTr a'\fE^\tutti
+    f d r g e c r f
+    d d d c h c g4 %40
+    c r r8 c' g4 \noBreak
+    c, r r2\fermata \bar "||"
+    \tempoD-II-VIIIIudicabit r2 r4 \mvTr c8\fE^\tutti c \noBreak
+    c2( b)
+    as4 as as as %45
+    g2. g4
+    g \tempoD-II-VIIIImplebit r8 g' c([ h16 a)] g8 f
+    e c r4 a16([ h c d] e[ fis)] gis([ e)]
+    a8 a, r4 d16([ e f g] a[ h)] cis([ a)]
+    d8 d, r4 g,16([ a h c] d[ e)] fis([ d)] %50
+    g8 g, g'8. f16 e4 r8 e
+    f4 e8 f g2
+    c,4 r r2
+    R1*2 %55
+    r2 r4 \mvTr d8.\pE^\solo d16
+    g,8 g' f! g e d16 c f8 e16([ d)]
+    e8 fis16 gis a4 gis r
+    r r8 f g h c4
+    h r r2 %60
+    R1
+    r2 r8 \mvTr g4\fE^\tutti g8
+    c, d16 c d8 e16([ d)] e([ d)] c8 r e16[( d]
+    c4. d8) g,4 r
+    r2 r8 g' e([ a)] %65
+    r f( d[ g16 f] e8) c g4
+    c r r2
+    R1
+    r2 r4 r8 g'
+    c,([ f)] g4 c, r %70
+    r2 c8 c' g4
+    c, r r2\fermata \bar "|." %72 finis
   }
 }
 
-D-II-VIIIDixitBassoLyrics = \lyricmode {
-  Se -- de, %10
-  se -- de,
-  se -- de a dex -- tris, a
-  dex -- tris, a dex -- tris me --
-  is.
-  %15
-  Do -- nec po -- _
-  _ _ _ nam, do -- nec
-  po -- nam in -- i --
-  mi -- cos tu -- os,
-  sca -- bel -- lum pe -- dum tu -- %20
-  o -- rum.
-
-  Do -- mi -- %27
-  na -- _ _ _
-  _ re, do -- mi -- na -- re in me -- di --
-  o, in me -- di -- o %30
-  in -- i -- mi -- co -- rum tu -- o --
-  rum, do -- mi --
-  na -- re in me -- di --
-  o in --
-  i -- mi -- co -- rum tu -- o -- %35
-  rum, in -- i -- mi -- co -- rum tu --
-  o -- rum. %37 finis
-}
-
-D-II-VIIITecumBasso = {
-  \relative c {
-    \clef bass
-    \key g \major \time 3/4 \autoBeamOff \tempoD-II-VIIITecum
-      \set Score.currentBarNumber = #38
-    R2.*14
-    \mvTr g'2\pE^\solo fis4
-    h g4. g8
-    fis2 r4
-    a a gis
-    a e fis
-    g!2.
-    fis4 fis fis
-    e4. fis16([ gis)] a8 a
-    a4 g g
-    fis4. g16([ a)] h8 h
-    h4 a8[ g] a4~
-    a g8[ fis] g4
-    fis r r
-    R2.*2
-    r4 d g
-    e2.~
-    e16[ g fis e] a8[ g fis e]
-    fis2.~
-    fis16[ a g fis] h8[ a g fis]
-    g2.~
-    g16[ e fis g] a8 g fis fis
-    e4 a16[ fis g a] h[ a g fis]
-    g4 a2
-    d,4 r r
-    R2.*7
-    r4 r a'
-    fis4. e8 d4
-    a'8([ g)] fis([ e)] d([ fis)]
-    g8. g,16 g4 r
-    R2.
-    g'4. e8[ f g]
-    a2.
-    g
-    f
-    e2 a8[ g]
-    f4 g f8 g
-    c,4 r r
-    R2.*8
-    r4 r g'
-    g4. g,8 g4
-    d'8([ g,)] g'([ f)] e([ d)]
-    e8. d16 c4 r
-    g'8[ e a h c a]
-    fis8[ d g a h g]
-    e[ c fis g a fis]
-    g[ d g fis] g4
-    d2 c8 d
-    g,4 r r
-    R2.*11
-    R2.\fermata \bar "||"
-  }
-}
-
-D-II-VIIITecumBassoLyrics = \lyricmode {
-  Te -- cum %52
-  prin -- ci -- pi --
-  um
-  in di -- e %55
-  vir -- tu -- tis
-  tu --
-  ae in splen --
-  do -- ri -- bus san --
-  cto -- rum, splen -- %60
-  do -- ri -- bus san --
-  cto -- _ _
-  _ _
-  rum,
-
-  in splen -- %67
-  do --
-  _
-  _ %70
-  _
-  _
-  _ ri -- bus san --
-  cto -- _ _
-  _ _ %75
+D-II-VIIIBassoLyrics = \lyricmode {
+  Di -- xit Do -- mi -- nus
+  Do -- mi -- no me -- o:
+  Se -- de a dex -- tris me --
+  is, do -- nec po --
+  nam in -- i -- mi -- cos %5
+  tu -- os, sca -- bel -- lum
+  pe -- dum tu -- o --
   rum.
 
-  Ex %84
-  u -- te -- ro %85
-  an -- te __ lu --
-  ci -- fe -- rum
+  Do -- mi -- %13
+  na -- re, do -- mi --
+  na -- re in me -- di -- o in -- %15
+  i -- mi -- co -- rum tu --
+  o -- rum.
 
-  ge -- _
-  _ %90
-  _
-  _
-  _ _
-  _ _ nu -- i
-  te, %95
-
-  ex %104
-  u -- te -- ro %105
-  an -- te __ lu --
-  ci -- fe -- rum
-  ge --
-  _
-  _ %110
-  _ _
-  _ nu -- i
-  te. %113 finis
-}
-
-D-II-VIIIIuravitBasso = {
-  \relative c {
-    \clef bass
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-VIIIIuravit
-      \set Score.currentBarNumber = #126
-    r2 r4 \mvTr e\fE^\tutti
-    e e dis4. dis8
-    e2 r
-    r r4 e\fE
-    d!2 c %130
-    cis4. cis8 h2
-    R1 \noBreak
-    R1\fermata \bar "||"
-    \tempoD-II-VIIIEtNon r2 g8\fE g h d \noBreak
-    h g e'4 d r %135
-    r2 d8 d fis a
-    fis d h h c! h a d
-    h g r4 r2
-    r8 g' g g e4 e
-    r8 a a a f!4 f %140
-    r8 g4 g8 c,2
-    g4 r r8 c d e
-    f8. f16 f4 r8 d e f
-    g8. g16 e8 c g4. g8
-    c4 r r2 %145
-    \tempoD-II-VIIIDominus R1*14 \noBreak %159
-    R1\fermata \bar "||" %160
-    \tempoD-II-VIIIIudicabit R1 \noBreak
-    \mvTr a4\fE^\tuttiE a a2
-    a r
-    r gis4\fE gis
-    a a8 a e'4 c %165
-    g'8. g16 g4 r2
-    r r4 r8 \tempoD-II-VIIIImplebit g\fE
-    c([ h16 a)] g8 f e c r e
-    a([ g!16 f)] e8 d c a r4
-    f'4. d8 g e r a~ %170
-    a f b? g r c4 a8
-    a f f d h!4 h
-    c c8 c g2
-    c4 r r8 f f4
-    fis fis g2( %175
-    g,) c\fermata \bar "||" %176 finis
-  }
-}
-
-D-II-VIIIIuravitBassoLyrics = \lyricmode {
-  Iu -- %126
+  Iu -- %25
+  ra -- vit, iu --
   ra -- vit Do -- mi --
-  nus,
-  iu --
-  ra -- vit %130
-  Do -- mi -- nus
+  nus, iu -- ra -- vit Do -- mi --
+  nus
+  et non %30
+  poe -- ni -- te -- bit e -- um, non
+  poe -- ni -- te -- bit e --
+  um: Tu es sa -- cer -- dos in ae --
+  ter -- num se --
+  cun -- dum or -- di -- nem Mel -- chi -- se -- %35
+  dech.
 
-  et non poe -- ni -- %134
-  te -- bit e -- um, %135
-  et non poe -- ni --
-  te -- bit, et non poe -- ni -- te -- bit
-  e -- um:
-  Tu es sa --
-  er -- dos, tu es sa -- %140
-  cer -- dos in ae -- ter --
-  num se -- cun -- dum
-  or -- di -- nem, se -- cun -- dum
-  or -- di -- nem Mel -- chi -- se --
-  dech. %145
-
-  Iu -- di -- ca -- %162
-  bit,
-  iu -- di --
-  ca -- bit in na -- ti -- %165
-  o -- ni -- bus,
-  im --
-  ple -- bit ru -- i -- nas, im --
-  ple -- bit ru -- i -- nas,
-  con -- quas -- sa -- bit, con -- %170
-  quas -- sa -- bit, con -- quas --
+  Con --
+  fre -- git, con -- fre -- git in
+  di -- e i -- rae su -- ae re -- %40
+  ges, con -- fre --
+  git.
+  Iu -- di --
+  ca --
+  bit in na -- ti -- %45
+  o -- ni --
+  bus, im -- ple -- bit ru --
+  i -- nas, con -- quas --
+  sa -- bit, con -- quas --
+  sa -- bit, con -- quas -- %50
   sa -- bit ca -- pi -- ta in
   ter -- ra mul -- to --
-  rum, in ter --
-  ra mul -- to -- %175
-  rum. %176 finis
-}
+  rum.
 
-D-II-VIIIGloriaBasso = {
-  \relative c {
-    \clef bass
-    \key c \major \time 4/4 \autoBeamOff \tempoD-II-VIIIGloria
-      \set Score.currentBarNumber = #241
-    \mvTr e4\fE^\tutti e8 e d4 d8 d
-    c8. c16 c4 r2
-    r4 c8 c h4 h8 h
-    c2 g
-    \tempoD-II-VIIIGloriaB R1*12 %256
-    \mvTr g'4\fE^\tuttiE g g e8 g
-    a4. g16([ f)] g4 c,
-    f2 e8 e([ f g]
-    a) e r d c4 c'~ %260
-    c8[ h16 a] h4~ h8[ a16 g] a[ g fis e]
-    d8 g d4 g, r
-    r8 g([ a h] c) g r4
-    r8 c([ d e] f) c r4
-    r8 f([ g a] b) f r4 %265
-    R1*2
-    r8 e([ fis gis] a2)
-    a8 a,([ h cis] d2)
-    d8 d([ e fis] g2) %270
-    g8 g,([ a h] c2)
-    g r
-    R1*4 %276
-    g'4 g g e8 g
-    a4 g8([ f)] e4. d8
-    c4 e f2
-    e8 d( c16[ d e f] g4) g, %280
-    g1~
-    g2 c
-    c1
-    c\fermata \bar "|." %284 finis
-  }
-}
+  Glo -- ri -- %56
+  a Pa -- tri et Fi -- li -- o et Spi --
+  ri -- tu -- i San -- cto,
+  et nunc et sem --
+  per. %60
 
-D-II-VIIIGloriaBassoLyrics = \lyricmode {
-  Glo -- ri -- a Pa -- tri et %241
-  Fi -- li -- o
-  et Spi -- ri -- tu -- i
-  San -- cto,
-
-  et in sae -- cu -- la %257
-  sae -- cu -- lo -- rum,
+  Et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men,
+  a -- men, %65
   a -- men, a --
-  men, a -- men, a -- %260
-  _ _
-  _ men, a -- men,
-  a -- men,
-  a -- men,
-  a -- men, %265
-
-  a -- %268
-  men, a --
-  men, a -- %270
-  men, a --
   men,
 
-  et in sae -- cu -- la %277
-  sae -- cu -- lo -- rum,
+  a --
+  men, a -- men, %70
   a -- men, a --
-  men, a -- men, %280
-  a --
-  men,
-  a --
-  men. %284 finis
+  men. %72 finis
 }

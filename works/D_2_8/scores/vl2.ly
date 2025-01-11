@@ -11,27 +11,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-VIIIDixitViolinoII }
-      >>
-    }
-    \tacet "subsection" "Tecum principium"
-  }
-  \bookpart {
-    \subsection "Iuravit Dominus"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \D-II-VIIIIuravitViolinoII }
-      >>
-    }
-    \tacet "subsection" "De torrente"
-  }
-  \bookpart {
-    \subsection "Gloria Patri"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \D-II-VIIIGloriaViolinoII }
+        \new Staff { \D-II-VIIIViolinoII }
       >>
     }
   }

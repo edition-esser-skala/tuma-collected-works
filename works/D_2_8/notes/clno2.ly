@@ -1,80 +1,51 @@
 \version "2.24.2"
 
-D-II-VIIIDixitClarinoII = {
+D-II-VIIIClarinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoD-II-VIIIDixit
-    e'8\fE c16 e d c d g, e8 c r4
-    R1*4 %5
-    r4 d'8 d c4 r
-    R1
-    e8 c16 e d c d g, e8 c r4
-    R1*4 %12
-    r4 d' c8 c d4
+    c'4\fE d c8. c16 c4
+    c8 c d4 g, r
+    r r8 d' e e d4
     d r r2
-    R1*3 %17
-    c,8 c16 c c c c c c8 c c4
-    R1*2 %20
-    e8 e16 e e16 e e e e4 r
-    R1*5 %26
-    r2 g8\fE g16 g g g g g
-    g8 g16 g g g g g g8 g16 g g g g g
-    g8 g16 g g g g g c,8 c16 c c c c c
-    c4 r g'8 g16 g g g g g %30
-    g8 g16 g g g g g g4 r
-    e'8 c16 e d c d g, e8 c r4
-    R1*3 %35
-    e'8 c16 e d c d g, e4 r
-    g8 g16 g g g g g e2\fermata \bar "||" %37 finis
-  }
-}
-
-D-II-VIIIIuravitClarinoII = {
-  \relative c' {
-    \clef treble
-    \key c \major \time 4/4 \tempoD-II-VIIIIuravit
-      \set Score.currentBarNumber = #126
-    R1*7 \noBreak %132
-    R1\fermata \bar "||"
-    \tempoD-II-VIIIEtNon R1*12 %145
-    \tempoD-II-VIIIDominus R1*14 \noBreak %159
-    R1\fermata \bar "||" %160
-    \tempoD-II-VIIIIudicabit c8\pE c16 c c c c c c8 c16 c c c c c \noBreak
-    c4 r r2
-    r e8\pE e16 e e e e e
-    e8 e16 e e e e e e4 r
-    R1 %165
-    r2 g8\fE g16 g g g g g
-    g8 g,16 g g g g g g4 << { \oneVoice r } \\ { s8 \tempoD-II-VIIIImplebit s } >>
-    R1*6 %173
-    c8\fE c16 c e e g g c4 r
-    R1 %175
-    g8 g16 g g8 g e2\fermata \bar "||" %176 finis
-  }
-}
-
-D-II-VIIIGloriaClarinoII = {
-  \relative c' {
-    \clef treble
-    \key c \major \time 4/4 \tempoD-II-VIIIGloria
-      \set Score.currentBarNumber = #241
-    R1
-    r2 e'8\fE c16 d e d e d
-    c4 r r d8 d
-    e4 e,8 e g2
-    \tempoD-II-VIIIGloriaB R1 %245
-    r2 e'8\fE c16 e d c d g,
-    e8 c r4 r2
+    R1*2 %6
+    r4 e8 d16 c g4 g8 g
+    g4 r r2
+    r4 g8 g16 g e4 r
+    R1*3 %12
+    r2 d'8\fE d16 d d d d d
+    d4 r e8 e16 e e e e e
+    e4 r r2 %15
+    r d4 e8 e
+    d4 d e r
+    R1*15 %32
+    r2 r4 d8\fE d
+    e e r4 r2
+    r r4 e,8 e16 e %35
+    e4 r r e8 e16 e
     R1*2
-    e'8\fE c16 e d c d g, e8 c r4 %250
-    R1*20 %270
-    r2 c'8 c16 d e8 d16 c
-    d8 g,16 g g4 r2
-    R1*7 %279
-    r4 c8 c16 c g4 r %280
+    r4 r8 g\fE c c r c
+    d4. e8 d e d4 %40
+    e8 e c4 c8 e, g g16 g \noBreak
+    e4 r r2\fermata \bar "||"
+    \tempoD-II-VIIIIudicabit R1 \noBreak
+    c8\fE c16 c c c c c c8 c16 c c c c c
+    c8 c16 c c c c c c8 c16 c c c c c %45
+    g'8 g16 g g g g g g8 g,16 g g g g g
+    g8 g16 g \tempoD-II-VIIIImplebit g4 r r8 g'
+    c c16 c c c c c c4 r
+    R1*2 %50
+    r8 g g g c4 r8 c
+    c4 c g8 g16 g g g g g
+    e4 r r2
+    r8 g g16 g g g e4 r
+    R1*11 %65
+    r4 r8 g\fE c c g4
+    g r r2
     R1
-    r4 g8 g e4 r
-    R1
-    c'4 c8 c c2\fermata \bar "|." %284 finis
+    r2 r4 r8 g
+    c, c g'4 g r %70
+    r2 c8 e, g4
+    e r r2\fermata \bar "|." %72 finis
   }
 }

@@ -7,8 +7,9 @@
 
 \book {
   \bookpart {
-    \section "D.2.7" "Dixit Dominus"
+    \section "D.2.7" "De profundis"
     \addTocEntry
+    \paper { page-count = #2 }
     \score {
       <<
         \new Staff { \D-II-VIIViolinoII }

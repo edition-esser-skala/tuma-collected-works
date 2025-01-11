@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "D.2.7" "Dixit Dominus"
+    \section "D.2.7" "De profundis"
     \addTocEntry
     \score {
       <<

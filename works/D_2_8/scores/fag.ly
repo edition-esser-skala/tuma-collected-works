@@ -9,31 +9,9 @@
   \bookpart {
     \section "D.2.8" "Dixit Dominus"
     \addTocEntry
-    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \D-II-VIIIDixitFagotto }
-      >>
-    }
-    \tacet "subsection" "Tecum principium"
-  }
-  \bookpart {
-    \subsection "Iuravit Dominus"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \D-II-VIIIIuravitFagotto }
-      >>
-    }
-    \tacet "subsection" "De torrente"
-  }
-  \bookpart {
-    \subsection "Gloria Patri"
-    \addTocEntry
-    \paper { systems-per-page = #6 }
-    \score {
-      <<
-        \new Staff { \D-II-VIIIGloriaFagotto }
+        \new Staff { \D-II-VIIIFagotto }
       >>
     }
   }
