@@ -13,17 +13,37 @@ sources:
     notes: 20 parts (S solo, A solo, T solo, B solo, S rip (2×), A rip (2×), T rip, B rip, fl, clno 1, clno 2, trb 1, trb 2, vl 1 (2×), vl 2 (2×), vlc) in the hand of Joseph Leysser
 tocstyle: default
 toe: |
-  – & –   & org  & \B1 is the only extant source of this mass, and its org part has been lost. Thus, bass figures in this edition have been added by the editor, as have all notes in treble clef. \\
-  1 & 53  & S    & last \eighthNote\ in \B1: b′16–c″16 \\
-  2 & 9   & vl 2 & 3rd \quarterNote\ in \B1: f″8.–e″32–f″32 \\
-    & 11  & trb 1, A & 2nd \eighthNote\ in \B1: g′8 \\
-    & 37  & org  & 1st \quarterNote\ in \B1: c′8.–b32–c′32 \\
-    & 70  & org  & 4th \eighthNote\ in \B1: d8 \\
-    & 71  & vl 2 & 3rd to 5th \eighthNote\ in \B1: d′8–b8–d′8 \\
-    & 131 & vl 2 & 2nd \eighthNote\ in \B1: g′8 \\
-    & 149 & vla  & bar in \B1: G2. \\
-    & 176–232 & – & In \B1, a solo instrument is most likely missing in this movement. Since trb 1 does not contain a directive “Quoniam tacet” (as found in trb 2), and an original part heading on fol.~1r has been replaced by “Trombone Primo Rip:”, there may have been a solo for trb~1, which was for an unknown reason lost during the copying process. Alternatively, since the org part is missing in \B1, this movement may have also comprised a solo for org. In any case, addition of a suitable solo is left as an exercise for the period performer. \\
-    & 183 & org  & 1st \quarterNote\ in \B1: d4 \\
+  – & –     & org  & The org part of the single known extant source \B1
+                     has been lost. Thus, bass figures in this edition
+                     have been added by the editor, as have all notes
+                     in treble clef. \\
+  1 & 53    & S    & last \eighthNote\ in \B1: b′16–c″16 \\
+  2 & 9     & vl 2 & 3rd \quarterNote\ in \B1: f″8.–e″32–f″32 \\
+    & 11    & trb 1, A & 2nd \eighthNote\ in \B1: g′8 \\
+    & 37    & org  & 1st \quarterNote\ in \B1: c′8.–b32–c′32 \\
+    & 70    & org  & 4th \eighthNote\ in \B1: d8 \\
+    & 71    & vl 2 & 3rd to 5th \eighthNote\ in \B1: d′8–b8–d′8 \\
+    & 131   & vl 2 & 2nd \eighthNote\ in \B1: g′8 \\
+    & 149   & org  & bar in \B1: G2. \\
+    & 176–232 & –  & In \B1, a solo instrument is most likely missing in this
+                     movement. Since trb~1 does not contain a directive
+                     “Quoniam tacet” (as found in trb~2), and since an original
+                     part heading on fol.~1r has been replaced by
+                     “Trombone Primo Rip:”, there may have been a solo
+                     for trb~1, which was lost during the copying process.
+                     Alternatively, since the org part is missing in \B1,
+                     this movement may have also comprised a solo for org.
+                     In any case, addition of a suitable solo
+                     is left as an exercise for the period performer. \\
+    & 183   & org  & 1st \quarterNote\ in \B1: d4 \\
+  3 & 2–13  & vl, org & Slurs in \B1 are often written ambiguously.
+                     Hence, they might alternatively connect only the last
+                     two \sixteenthNote\ in a group of three. \\
+    & 16    & vl 2 & 8th \sixteenthNote\ in \B1: a′16 \\
+    & 17    & org  & 3rd \eighthNote\ in \B1: B8 \\
+    & 71–73 & org  & upper voice addded by editor \\
+    & 73    & org  & 2nd \quarterNote\ in \B1: d4 \\
+    & 87f   & org  & upper voice addded by editor \\
 parts:
   fl: Flauto solo
   clno12: Clarino I, II in C

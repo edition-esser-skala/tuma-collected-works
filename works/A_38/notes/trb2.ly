@@ -224,3 +224,216 @@ A-XXXVIIICumSanctoTromboneII = {
     c r r2\fermata \bar "|." %257 finis
   }
 }
+
+A-XXXVIIICredoTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoA-XXXVIIICredo
+    e4\fE d8 e d c d4
+    e8 r r4 r2
+    r c8 c a c16 c
+    d4. c16 d h8 h g h
+    c8. c16 c4 r2 %5
+    d4. d8 e4 e8 c
+    a h c d d2
+    c8 r r4 r2
+    r4 c8 c d d e e
+    c a r4 r a8 a %10
+    h c16 d e4 e d8 c
+    h4. h8 a r r4
+    r2 r4 a
+    a a8 a a8. a16 a8 a
+    g4 g g g8 c %15
+    d4 d8 h h g g h
+    c2. c8 a
+    g1 \noBreak
+    g4 r r2\fermata \bar "||"
+    \key g \minor \tempoA-XXXVIIIEtIncarnatus
+      R1*30 \noBreak %49
+    R1\fermata \bar "||" %50
+    \key c \major \tempoA-XXXVIIIEtResurrexit
+      r8 e'\fE f f e e e d \noBreak
+    e4 e8 d e d16 d e4
+    d r r r8 d
+    e e e e c e a,4
+    h h c8. c16 c8 c %55
+    d d d d e8. e16 e4
+    e8 e e fis dis4 e8 e
+    e4 dis e e8 e
+    e2 e4 d8 d
+    d e d4 e r %60
+    R1*10 %70
+    r2 r4 c\fE
+    h e8 e c h16 c a8 d16 c
+    h8 g d'4~ d8 g, c4~
+    c8 a h4 c r
+    r c8 h16 c a4 d %75
+    g,8 c4 h16 a g4 r
+    d'2 c
+    h a4 r8 d
+    h4 e8 e c h16 c a8 d16 c
+    h8 g r c a g16 a fis8 h16 a %80
+    gis8 e a2 gis4
+    a r8 c h2
+    a g
+    a4 r r e'~
+    e8 a, r d~ d g, r4 %85
+    r2 r4 d'
+    h e8 e c h16 c a8 h16 c
+    d8 c h4~ h8 e, a4
+    g h c c8 c
+    a a h h16 h c8 e d4 %90
+    e8 r r4 r h
+    c r r2\fermata \bar "|." %92 finis
+  }
+}
+
+A-XXXVIIISanctusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoA-XXXVIIISanctus
+    c1~\fE
+    c4 f, g2
+    R1*2
+    g1~ %5
+    g4 c d2
+    R1*2
+    e1~
+    e4 dis h2 %10
+    R1
+    c4 c8 e f4 f
+    R1
+    fis4 fis8 fis e4 e
+    e4. e8 e2 %15
+    R1*2 \noBreak
+    R1\fermata \bar "||"
+    \tempoA-XXXVIIIPleni c4 h8 g c16 d e8 r4 \noBreak
+    h c8 c d h16 c d h c d %20
+    e4 e8 e e4 d8 c
+    d4 r r2
+    h8 c16 h a8 h16 a g8. a16 h8 r
+    e f16 e d8 e16 d c8. d16 e4
+    f f8 f f e16 e d4 %25
+    e8 e f e c4 e
+    f2 e\fermata \bar "|." %27 finis
+  }
+}
+
+A-XXXVIIIBenedictusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key e \minor \time 4/4 \tempoA-XXXVIIIBenedictus
+    R1*47 \noBreak %47
+    R1\fermata \bar "||"
+    \key c \major \tempoA-XXXVIIIOsanna
+      r4 e\fE c4. e8 \noBreak
+    c h c d e4 e %50
+    r8 e e d e4. c8
+    d h cis4 d8 d d d
+    c2 h
+    c4. a8 h2
+    a4 a8 d h4 e %55
+    d e \once \tieDashed d2~
+    d e\fermata \bar "|." %57 finis
+  }
+}
+
+A-XXXVIIIAgnusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoA-XXXVIIIAgnus
+    r2 c~\fE
+    c4 c h2
+    h4 r r2
+    r e
+    d4 a8 a h4 e %5
+    fis2 h,4 r
+    r2 c4. c8
+    d4 c a4. a8
+    a4 g g fis8 e
+    fis4 g h2 %10
+    h r
+    R1*9 %20
+    r2 f'4.\fE f8
+    fis2 e4 c
+    h e e4. c8
+    a4 c c4. c8
+    d4 e e d8 c \noBreak %25
+    d1\fermata \bar "||"
+    \time 3/4 \tempoA-XXXVIIIDona \newSpacingSection
+      R2.*3
+    r4 h\fE d %30
+    e2 d4
+    d h r
+    R2.*3 %35
+    r4 e2
+    d2.
+    e2 r4
+    R2.
+    r4 e e %40
+    f2 e4
+    e2 d4
+    d2.
+    d4 r r
+    R2.*4 %48
+    r4 r \once \tieDashed d~\fE
+    d c8 h c4 %50
+    h8 a g4 h
+    a2 d4
+    g, e' e
+    d2.
+    c %55
+    h
+    c4 r r
+    R2.*4 %61
+    r4 r e,\fE
+    fis2 gis4
+    a e' e
+    f2 e4 %65
+    e2 a,4
+    h2 cis4
+    d2.
+    d2 cis4
+    d2 fis,4 %70
+    e2 fis4
+    g h2
+    cis2 dis4
+    e h2
+    c h4 %75
+    h2 h4
+    c d!2
+    h4 c2
+    a4 h2
+    c4 h2 %80
+    h4 r r
+    R2.*4 %85
+    r4 r h\fE
+    cis2 dis4
+    e2 e4~
+    e d!8 c! d4
+    c8 h a4 e' %90
+    f2 e4
+    e2.
+    f4 e2~
+    e4 d2~
+    d4 c2 %95
+    d4 d c
+    h r r
+    R2.*7 %104
+    r4 g\fE h %105
+    c a d
+    h g c
+    e2.
+    d4 h d
+    a2 h4 %110
+    g2 g4
+    g2.
+    g4 r r
+    R2.
+    r4 c c %115
+    c2 h4
+    c c r
+    e d2
+    e2.\fermata \bar "|." %119 finis
+  }
+}

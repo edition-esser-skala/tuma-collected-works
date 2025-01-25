@@ -461,3 +461,494 @@ A-XXXVIIICumSanctoTenoreLyrics = \lyricmode {
   men, a -- men, a --
   men. %257 finis
 }
+
+A-XXXVIIICredoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXXVIIICredo
+    \mvTr e4\fE^\tutti d8 e d c d4
+    e8 r r4 r2
+    r c8 c a c16 c
+    d4. c16 d h8 h g h
+    c8. c16 c4 r2 %5
+    d4. d8 e4 e8 c
+    a([ h)] c([ d)] d2
+    c8 r r4 r2
+    r4 c8 c d d e e
+    c a r4 r a8 a %10
+    h c16([ d)] e4 e d8 c
+    h4. h8 a r r4
+    r2 r4 a
+    a a8 a a8. a16 a8 a
+    g4 g g g8 c %15
+    d4 d8 h h([ g)] g h
+    c2. c8 a
+    g1 \noBreak
+    g4 r r2\fermata \bar "||"
+    \key g \minor \tempoA-XXXVIIIEtIncarnatus
+      r2 r8 \mvTr d'\pE^\solo d d \noBreak %20
+    d([ c)] c r c es d16([ c)] b([ a)]
+    b8 r r4 r2
+    R1
+    r2 r8 d b a16 g
+    es'([ d)] es8 r4 r8 c a f'16 es %25
+    \tuplet 3/2 4 { d8([ c d] } d4)\trill c8 r c c
+    cis4. h16([ \hA cis)] d8. a16 a8 d
+    b([ a)] g4 g8 f16([ g)] e8. e16
+    d8 r r4 r2
+    R1*2 %31
+    d'8([ b)] a([ g)] es'!4 es
+    d8. c16 d8 d d c r d
+    h8. h16 c8 d es8[ d] c4~
+    c8 h r4 r2 %35
+    as2. g4
+    R1
+    des'2. c4
+    f4. d8 h4 c8 c
+    c r h r c r r4 %40
+    R1
+    r4 es2 des4
+    r des2 c4
+    c c c c8 c
+    c4 c b4. b8 %45
+    a4 r b8 r b r
+    a4. a8 g4 r
+    R1*2 \noBreak
+    R1\fermata \bar "||" %50
+    \key c \major \tempoA-XXXVIIIEtResurrexit
+      r8 \mvTr e'\fE^\tutti f f e e e d16 d \noBreak
+    e4 e8 d e d16 d e4
+    d r r r8 d
+    e e e e16 e c8 e16 e a,4
+    h h c8. c16 c8 c %55
+    d d d d e8. e16 e4
+    e8 e e fis dis4 e8 e
+    e4 dis e e8 e
+    e2 e4 d8 d
+    d e d4 e \mvTr g,8\pE^\solo c %60
+    h c16 d e8 d16([ c)] d16. g,32 g8 d' d
+    e d c4 h r
+    R1
+    r4 c8 d e h16 c d4~
+    d8 c16([ d)] h4 a r %65
+    R1
+    r4 h8 h h e, h' e
+    c d16([ e)] f!4 e h8 h
+    c2 d4 r
+    R1 %70
+    r2 r4 \mvTr c\fE^\tutti
+    h e8 e c h16([ c)] a8 d16 c
+    h8 g d'4~ d8[ g,] c4~
+    c8[ a] h4 c r
+    r c8[ h16 c] a4 d %75
+    g,8 c4 h16[ a] g4 r
+    d'2 c
+    h a4 r8 d
+    h4 e8 e c h16([ c)] a8 d16 c
+    h8 g r c a g16([ a)] fis8 h16 a %80
+    gis8 e a2( gis4)
+    a r8 c( h2)
+    a g
+    a4 r r e'~
+    e8 a, r d~ d g, r4 %85
+    r2 r4 d'
+    h e8 e c h16([ c)] a8 h16 c
+    d8 c \once \tieDashed h4~ h8[ e,] a4
+    g h c c8 c
+    a a h h16 h c8 e d4 %90
+    e8 r r4 r h
+    c r r2\fermata \bar "|." %92 finis
+  }
+}
+
+A-XXXVIIICredoTenoreLyrics = \lyricmode {
+  Pa -- trem o -- mni -- po -- ten --
+  tem,
+  vi -- si -- bi -- li -- um
+  o -- mni -- um et in -- vi -- si --
+  bi -- li -- um, %5
+  De -- um ve -- rum de
+  De -- o __ ve --
+  ro,
+  con -- sub -- stan -- ti -- a -- lem
+  Pa -- tri, per quem %10
+  o -- mni -- a, o -- mni -- a
+  fa -- cta sunt.
+  Qui
+  pro -- pter nos ho -- mi -- nes et
+  pro -- pter no -- stram sa -- %15
+  lu -- tem de -- scen -- dit de
+  coe -- lis, de
+  coe --
+  lis.
+  Et in -- car -- %20
+  na -- tus, in -- car -- na -- tus
+  est
+
+  de Spi -- ri -- tu
+  San -- cto, de Spi -- ri -- tu %25
+  San -- cto ex Ma --
+  ri -- a Vir -- gi -- ne, et
+  ho -- mo, ho -- mo fa -- ctus
+  est.
+
+  Cru -- ci -- fi -- xus %32
+  e -- ti -- am pro no -- bis sub
+  Pon -- ti -- o Pi -- la -- _
+  to, %35
+  pas -- sus,
+
+  pas -- sus
+  et se -- pul -- tus, se --
+  pul -- tus est, %40
+
+  pas -- sus,
+  pas -- sus
+  et se -- pul -- tus est,
+  et se -- pul -- tus %45
+  est, et se --
+  pul -- tus est.
+
+  Et re -- sur -- re -- xit ter -- ti -- a %51
+  di -- e se -- cun -- dum Scri -- ptu --
+  ras, in
+  coe -- lum, se -- det ad dex -- te -- ram Pa --
+  tris. Et i -- te -- rum ven -- %55
+  tu -- rus est cum glo -- ri -- a
+  iu -- di -- ca -- re vi -- vos et
+  mor -- tu -- os, cu -- ius
+  re -- gni non, non
+  e -- rit fi -- nis. Et in %60
+  Spi -- ri -- tum San -- ctum, Do -- mi -- num et
+  vi -- vi -- fi -- can -- tem,
+
+  qui lo -- cu -- tus est per __
+  Pro -- phe -- tas, %65
+
+  et ex -- pe -- cto re -- sur --
+  re -- cti -- o -- nem mor -- tu --
+  o -- rum.
+  %70
+  Et
+  vi -- tam ven -- tu -- ri sae -- cu -- li,
+  a -- men, a -- _
+  _ men,
+  a -- _ _ %75
+  _ _ _ men,
+  a -- _
+  _ men, et
+  vi -- tam ven -- tu -- ri sae -- cu -- li,
+  a -- men, ven -- tu -- ri sae -- cu -- li, %80
+  a -- men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- men, %85
+  et
+  vi -- tam ven -- tu -- ri sae -- cu -- li,
+  a -- men, a -- _
+  men, et vi -- tam ven --
+  tu -- ri sae -- cu -- li, a -- men, a -- %90
+  men, a --
+  men. %92 finis
+}
+
+A-XXXVIIISanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXXVIIISanctus
+    \mvDl c1~\fE^\tutti
+    c4 f, g2
+    R1*2
+    g1~ %5
+    g4 c d2
+    R1*2
+    e1~
+    e4 dis h2 %10
+    R1
+    c4 c8 e f4 f
+    R1
+    fis4 fis8 fis e4 e
+    e4. e8 e2 %15
+    R1*2 \noBreak
+    R1\fermata \bar "||"
+    \tempoA-XXXVIIIPleni c4 h8 g c16([ d)] e8 r4 \noBreak
+    h c8 c d([ h16 c] d[ h c d] %20
+    e4) e8 e e4( d8[ c)]
+    d4 r r2
+    h8(^[ c16 h] a8[ h16 a] g8.) a16 h8 r
+    e([ f16 e] d8[ e16 d] c8.) d16 e4
+    f f8 f f e16 e d4 %25
+    e8 e f e c4 e
+    f2 e\fermata \bar "|." %27 finis
+  }
+}
+
+A-XXXVIIISanctusTenoreLyrics = \lyricmode {
+  San --
+  _ ctus,
+
+  san -- %5
+  _ ctus,
+
+  san -- %9
+  _ ctus %10
+
+  Do -- mi -- nus De -- us,
+
+  Do -- mi -- nus De -- us
+  Sa -- ba -- %15
+  oth.
+
+  Ple -- ni sunt coe -- li, %19
+  ple -- ni sunt coe -- %20
+  li et ter --
+  ra
+  glo -- ri -- a,
+  glo -- ri -- a,
+  glo -- ri -- a, glo -- ri -- a tu -- %25
+  a. O -- san -- na in ex --
+  cel -- sis. %27 finis
+}
+
+A-XXXVIIIBenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \minor \time 4/4 \autoBeamOff \tempoA-XXXVIIIBenedictus
+    R1*47 \noBreak %47
+    R1\fermata \bar "||"
+    \key c \major \tempoA-XXXVIIIOsanna
+      r4 \mvTr e\fE^\tutti c4. e8 \noBreak
+    c([ h)] c([ d)] e4 e %50
+    r8 e e d e4. c8
+    d h cis4 d8 d d d
+    c2 h
+    c4. a8 h2
+    a4 a8 d h4 e %55
+    d e d2~
+    d e\fermata \bar "|." %57 finis
+  }
+}
+
+A-XXXVIIIBenedictusTenoreLyrics = \lyricmode {
+  O -- san -- na %49
+  in ex -- cel -- sis, %50
+  o -- san -- na in ex --
+  cel -- sis, o -- san -- na in ex --
+  cel -- sis,
+  in ex -- cel --
+  sis, in ex -- cel -- sis, %55
+  in ex -- cel --
+  sis. %57 finis
+}
+
+A-XXXVIIIAgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXXVIIIAgnus
+    r2 \mvTr c~\fE^\tutti
+    c4 c h2
+    h4 r r2
+    r e
+    d4 a8 a h4 e %5
+    fis2 h,4 r
+    r2 c4. c8
+    d4 c a4. a8
+    a4 g g fis8([ e)]
+    fis4 g h2 %10
+    h \mvTr h8([\pE^\solo g)] fis([ e)]
+    c'4 d!8 c h16([ a)] g8 r4
+    r2 r4 d'
+    cis2 d4 a
+    h2( c8[ d)] e4 %15
+    a,2 gis4 r
+    R1
+    a4 d d c
+    b4. b8 a4 d
+    d( cis) d r %20
+    r2 \mvTr f4.\fE^\tutti f8
+    fis2 e4 c
+    h( e) e4. c8
+    a4( c) c4. c8
+    d4 e e( d8[ c)] \noBreak %25
+    d1\fermata \bar "||"
+    \time 3/4 \tempoA-XXXVIIIDona \newSpacingSection
+      R2.*3
+    r4 \mvTr h\fE^\tutti d %30
+    e2 d4
+    d h r
+    R2.*3 %35
+    r4 e2
+    d2.
+    e2 r4
+    R2.
+    r4 e e %40
+    f2 e4
+    e2 d4
+    d2.
+    d4 r r
+    R2.*4 %48
+    r4 r \once \tieDashed \mvTr d~\fE^\tuttiE
+    d c8[ h] c4 %50
+    h8[ a] g4 h
+    a2 d4
+    g, e' e
+    d2.
+    c %55
+    h
+    c4 r r
+    R2.*4 %61
+    r4 r \mvTr e,\fE^\tuttiE
+    fis2 gis4
+    a e' e
+    f2( e4) %65
+    e2 a,4
+    h2 cis4
+    d2.
+    d2( cis4)
+    d2 fis,4 %70
+    e2 fis4
+    g h2
+    cis2 dis4
+    e h2
+    c h4 %75
+    h2 h4
+    c d!2
+    h4 c2
+    a4 h2
+    c4 h2 %80
+    h4 r r
+    R2.*4 %85
+    r4 r \mvTr h\fE^\tuttiE
+    cis2 dis4
+    e2 e4~
+    e d!8[ c!] d4
+    c8[ h] a4 e'( %90
+    f2) e4
+    e2.
+    f4 e2~
+    e4 d2~
+    d4 c2 %95
+    d4 d( c)
+    h r r
+    R2.*7 %104
+    r4 \mvTr g\fE^\tuttiE h %105
+    c( a) d
+    h( g) c
+    e2.
+    d4 h d
+    a2 h4 %110
+    g2 g4
+    g2.
+    g4 r r
+    R2.
+    r4 c c %115
+    c2 h4
+    c c r
+    e( d2)
+    e2.\fermata \bar "|." %119 finis
+  }
+}
+
+A-XXXVIIIAgnusTenoreLyrics = \lyricmode {
+  A --
+  gnus De --
+  i,
+  qui
+  tol -- lis pec -- ca -- ta %5
+  mun -- di:
+  Mi -- se --
+  re -- re, mi -- se --
+  re -- re, mi -- se --
+  re -- re no -- %10
+  bis. A -- gnus
+  De -- i, qui tol -- lis
+  pec --
+  ca -- ta, pec --
+  ca -- ta %15
+  mun -- di:
+
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re
+  no -- bis. %20
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta, pec --
+  ca -- ta mun -- %25
+  di:
+
+  Do -- na %30
+  no -- bis
+  pa -- cem,
+
+  pa -- %36
+  _
+  cem,
+
+  do -- na %40
+  no -- bis
+  pa -- cem,
+  pa --
+  cem.
+
+  Pa -- %49
+  _ _ %50
+  _ cem, pa --
+  _ _
+  cem, pa -- cem,
+  pa --
+  _ %55
+  _
+  cem.
+
+  Pa -- %62
+  _ _
+  cem, pa -- cem,
+  pa -- %65
+  cem, pa --
+  _ _
+  cem,
+  pa --
+  cem, pa -- %70
+  _ _
+  cem, pa --
+  _ _
+  cem, pa --
+  _ _ %75
+  cem, pa --
+  _ _
+  _ _
+  _ _
+  cem, pa -- %80
+  cem.
+
+  Pa -- %86
+  _ _
+  cem, pa --
+  _ _
+  _ cem, pa -- %90
+  cem,
+  pa --
+  _ _
+  _
+  _ %95
+  cem, pa --
+  cem.
+
+  Do -- na %105
+  no -- bis
+  pa -- cem,
+  pa --
+  cem, do -- na
+  no -- bis %110
+  pa -- cem,
+  pa --
+  cem.
+
+  Do -- na %115
+  no -- bis
+  pa -- cem,
+  pa --
+  cem. %119 finis
+}

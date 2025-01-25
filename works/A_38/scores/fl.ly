@@ -2,16 +2,16 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "ob 1")
+#(define option-instrument-name "fl")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "A-XXXVIIIKyrie" ""
+    \subsection "Domine Deus"
     \addTocEntry
     \score {
       <<
-        \new Staff { \A-XXXVIIIKyrieOboeI }
+        \new Staff { \A-XXXVIIIDomineFlauto }
       >>
     }
   }

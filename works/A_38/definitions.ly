@@ -12,6 +12,19 @@ tempoA-XXXVIIIQuoniam = \tempoMarkup "Allegro"
 tempoA-XXXVIIICumSancto = \tempoMarkup "Andante"
   tempoA-XXXVIIIInGloria = \tempoMarkup "Allegro"
 
+tempoA-XXXVIIICredo = \tempoMarkup "Allegro"
+  tempoA-XXXVIIIEtIncarnatus = \tempoMarkup "Adagio mà non troppo"
+  tempoA-XXXVIIIEtResurrexit = \tempoMarkup "Allegro"
+
+tempoA-XXXVIIISanctus = \tempoMarkup "Andante"
+  tempoA-XXXVIIIPleni = \tempoMarkup "Allegro"
+
+tempoA-XXXVIIIBenedictus = \tempoMarkup "Andante"
+  tempoA-XXXVIIIOsanna = \tempoMarkup "Allegro"
+
+tempoA-XXXVIIIAgnus = \tempoMarkup "Adagio"
+  tempoA-XXXVIIIDona = \tempoMarkup "Allegretto"
+
 \include "notes/fl.ly"
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"

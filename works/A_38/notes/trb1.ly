@@ -228,3 +228,221 @@ A-XXXVIIICumSanctoTromboneI = {
     g r r2\fermata \bar "|." %257 finis
   }
 }
+
+A-XXXVIIICredoTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXXVIIICredo
+    g'4\fE g8 g a e16 f g4
+    g8 r r4 r2
+    r8 g g e a4. g16 a
+    f8 d f4 d8 g g4
+    e r a a8 a %5
+    a g g4 g g8 g
+    g8. f16 f8 a g4. g8
+    g r r4 r g~
+    g8 e a4~ a8 h gis4
+    a r a8 g f e %10
+    d4 g8 f e4 f8 f
+    e4. e8 e r r4
+    r2 r4 e
+    e e8 e f8. f16 f8 f
+    f4 f e e8 fis %15
+    g4 g r r8 g
+    g e e e f!2~
+    f4 e d2 \noBreak
+    e4 r r2\fermata \bar "||"
+    \key g \minor \tempoA-XXXVIIIEtIncarnatus
+      R1*30 \noBreak %49
+    R1\fermata \bar "||" %50
+    \key c \major \tempoA-XXXVIIIEtResurrexit
+      r8 g\fE a a g g g g \noBreak
+    g4 g8 g g g16 g g4
+    g d8 d g4 g8 g
+    g g g g16 g e8 e16 e e8 d
+    e4 e e8. e16 e8 e %55
+    f f f g! g8. g16 g4
+    g8 g g a fis4 g8 g
+    g4 fis g g8 g
+    g2 f!4. a8
+    g g g4 g r %60
+    R1*12 %72
+    r4 g\fE e a8 a
+    f e16 f d8 g16 f e8 c r a'~
+    a d, g4~ g8 c, f4~ %75
+    f8 e16 f d8 g g4 e
+    a f8 d g f16 g e8 a16 g
+    f8 d r e~ e c a4
+    g g'2 fis4~
+    fis8 h, e4~ e8 a, d4~ %80
+    d c d8 c16 d h8 e
+    e4 r8 a f4 g!
+    a d, d e
+    f4. a8 gis a a gis
+    a e4 f8 r d4 e8 %85
+    c d e4 d r
+    r g e a8 a
+    f e16 f d8 g16 f e4. fis8
+    g4 g g e8 e
+    f! g16 a f8 g16 g g8 g g4 %90
+    g8 r r4 r g
+    g r r2\fermata \bar "|." %92 finis
+  }
+}
+
+A-XXXVIIISanctusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXXVIIISanctus
+    e2\fE f4 e
+    f d e2
+    R1*2
+    d2 e4 d %5
+    e fis g2
+    R1*2
+    h2 a4 gis
+    a fis gis2 %10
+    R1
+    a4 a8 a a4 a
+    R1
+    a4 a8 a gis4 a
+    a gis a2 %15
+    R1*2 \noBreak
+    R1\fermata \bar "||"
+    \tempoA-XXXVIIIPleni g4 g8 g g g r4 \noBreak
+    g4 g8 fis g2~ %20
+    g4 g8 g g4 fis
+    g r r2
+    R1
+    g8 a16 g f8 g16 f e8. f16 g4
+    a a8 a g g16 g g4 %25
+    g8 g a g a4 g
+    a2 g\fermata \bar "|." %27 finis
+  }
+}
+
+A-XXXVIIIBenedictusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key e \minor \time 4/4 \tempoA-XXXVIIIBenedictus
+    R1*47 \noBreak %47
+    R1\fermata \bar "||"
+    \key c \major \tempoA-XXXVIIIOsanna
+      r4 g'\fE a4. g8 \noBreak
+    a4 a g g %50
+    r8 g g g g4. a8
+    h g g e f a16 g f4
+    e e8 e f4 e
+    e a gis8 g g g
+    a4. a8 g4. g8 %55
+    \once \tieDashed g1~
+    g2 g\fermata \bar "|." %57 finis
+  }
+}
+
+A-XXXVIIIAgnusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXXVIIIAgnus
+    r2 a'~\fE
+    a4 e fis2
+    g4 r r2
+    r a
+    a4 a8 a gis4 a8 \hA gis %5
+    a2 gis4 r
+    r2 a4. a8
+    a4 a a4. c8
+    h4 h ais4. ais8
+    a4 g fis2 %10
+    e r
+    R1*9 %20
+    r2 a4.\fE a8
+    a2 g
+    h2. a4
+    f g f4. f8
+    g4 g g fis \noBreak %25
+    g1\fermata \bar "||"
+    \time 3/4 \tempoA-XXXVIIIDona \newSpacingSection R2.*3
+    r4 g2\fE %30
+    g4 g fis
+    g2 d4
+    e2 fis4
+    g2 g4~
+    g f!8 e f4 %35
+    e8 d c4 g'
+    a a g
+    g2 e4
+    fis2 gis4
+    a a a %40
+    a2 gis4
+    a2 fis4
+    g!2 fis4
+    g r r
+    R2.*4 %48
+    r4 r fis\fE
+    g2 a4 %50
+    d,2 d4
+    c d2
+    e4 g g
+    f! g2
+    g4 f2~ %55
+    f4 e2
+    e4 r r
+    R2.*4 %61
+    r4 r e~\fE
+    e d8 c d4
+    c \once \tieDashed a'2~
+    a gis4 %65
+    a2 a4~
+    a g!8 fis g4
+    fis fis fis
+    e2.
+    fis2 a4 %70
+    g2 a4
+    d,2 g4~
+    g fis8 e \hA fis4
+    e g2
+    fis2. %75
+    r4 e g
+    a fis h
+    g e a
+    fis2 g4
+    fis fis2 %80
+    e4 r r
+    R2.*4 %85
+    r4 r dis\fE
+    e2 fis4
+    g2 e4
+    fis2 gis4
+    a2. %90
+    a2 gis4
+    a2.
+    h
+    a
+    g! %95
+    a4 g2
+    g4 r r
+    R2.
+    r4 c, e
+    f d g %100
+    e c g'~
+    g f8 e f4~
+    f e8 d c4
+    d d2
+    e d4 %105
+    e f2
+    d4 e2
+    g2.
+    g4 g2~
+    g4 f8 e f4~ %110
+    f e8 d e4
+    d d2
+    e4 r r
+    R2.
+    r4 g g %115
+    a2 g4
+    g g r
+    g2.
+    g\fermata \bar "|." %119 finis
+  }
+}

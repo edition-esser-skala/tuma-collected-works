@@ -145,3 +145,128 @@ A-XXXVIIICumSanctoClarinoI = {
     e r r2\fermata \bar "|." %257 finis
   }
 }
+
+A-XXXVIIICredoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXXVIIICredo
+    g''4\fE g8 g a f g4
+    g8 r r4 r2
+    e4 r r2
+    r d4 e
+    e r f2 %5
+    d4 r8 d e4 r
+    r2 d4 d8 d
+    e4 r r2
+    R1*6 %14
+    g4 g8 g g4. fis8 %15
+    g4 r r2
+    r r4 a
+    \pao d, e d2 \noBreak
+    c4 r r2\fermata \bar "||"
+    \tempoA-XXXVIIIEtIncarnatus
+      R1*30 \noBreak %49
+    R1\fermata \bar "||" %50
+    \tempoA-XXXVIIIEtResurrexit
+      e4\fE r r r8 d \noBreak
+    e e r d e d e4
+    d r r r8 g
+    e e r4 r2
+    R1 %55
+    r4 r8 g g8. g16 g4
+    R1*2
+    r2 r4 r8 f
+    f e d4 c r %60
+    R1*24 %84
+    r2 r8 d\fE d e %85
+    r4 g8 f16 e d4 r
+    R1*3
+    r4 r8 g g f16 e d4 %90
+    c8 r r4 r d
+    e r r2\fermata \bar "|." %92 finis
+  }
+}
+
+A-XXXVIIISanctusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXXVIIISanctus
+    g''2\fE a4 g
+    f2 e
+    R1*2
+    g,4 r g r %5
+    g r g r
+    R1*2
+    e4 r e r
+    e r e r %10
+    R1*3
+    r2 e4 r
+    e e8 e e2 %15
+    R1*2 \noBreak
+    R1\fermata \bar "||"
+    \tempoA-XXXVIIIPleni g'4 g8 g g4 r \noBreak
+    g g8 fis g4 r %20
+    e r c,8 c16 c c8 c
+    g g16 g g8 g g g16 g g4
+    d'' r d r
+    e r g r
+    a r g8 g16 g g8 g %25
+    g4 r a g
+    a2 g\fermata \bar "|." %27 finis
+  }
+}
+
+A-XXXVIIIBenedictusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXXVIIIBenedictus
+    R1*47 \noBreak %47
+    R1\fermata \bar "||"
+    \tempoA-XXXVIIIOsanna r4 g''\fE a4. g8 \noBreak
+    a4 a g g %50
+    R1*5 %55
+    d4 e d2
+    d c\fermata \bar "|." %57 finis
+  }
+}
+
+A-XXXVIIIAgnusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXXVIIIAgnus
+    R1*25 \noBreak %25
+    R1\fermata \bar "||"
+    \time 3/4 \tempoA-XXXVIIIDona \newSpacingSection
+      R2.*3
+    r4 g''2\fE %30
+    g fis4
+    g2 r4
+    R2.*3 %35
+    r4 g2
+    a g4
+    g r r
+    R2.*3 %41
+    r4 r fis
+    g g fis
+    g r r
+    R2.*51 %95
+    r4 f\fE e
+    d r r
+    R2.*5 %102
+    r4 g g
+    a2 g4
+    g g r %105
+    R2.*2
+    g4 g f8 e
+    d2 r4
+    R2.*2 %111
+    d4 d d
+    e r r
+    R2.
+    r4 g g %115
+    a2 g4
+    g g r
+    r g2
+    e2.\fermata \bar "|." %119 finis
+  }
+}
