@@ -1,5 +1,16 @@
 # Changelog
 
+## 2025.01.0 – 2025-01-30
+
+### Added
+
+- works: TumW A.38
+
+### Changed
+
+- renumbered TumW D.2.5–8/18 → 6–9/19
+
+
 ## 2024.12.0 – 2024-12-30
 
 ### Added
