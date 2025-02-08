@@ -1,0 +1,34 @@
+title: Invictus heros numinis
+id: TumW C.2.2
+genre: hymn
+festival: de Sancto Joanne Nepomuceno
+scoring: A, T, B (solo), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15682
+    rism: 600137140
+    date: 1745
+    url: https://data.onb.ac.at/rec/AC14297575
+    license: public domain
+    principal: true
+    notes: 11 parts (A solo, T solo, B solo, vl 1 (2×), vl 2 (2×), vlc, vlne, org, maestro di cappella)
+toe: |
+  33 & – & Vocal and violin parts end after bar~31 and~33, respectively.
+           However, bass parts contain the directives “Tutti” and “Amen”,
+           indicating that a concluding “Amen” should be sung
+           by the choir or the congregation.
+           This edition includes a possible realization of the former variant.
+           Vocal parts also contain lyrics for versicle
+           (“Sacramentum Regis abscondere bonum est”)
+           and response (“Opera autem Dei revelare honorificum”). \\
+lyrics:
+  Invictus heros numinis\\
+  mergendus unda fluminis,\\
+  stat fortis in silentio\\
+  dum fit sigilli mentio.\\[1ex]
+  Da sempiterna trinitas\\
+  ut sit in bono firmitas,\\
+  aut lacrymarum flumina\\
+  mergant cadentum crimina.
