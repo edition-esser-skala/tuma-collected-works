@@ -1,0 +1,20 @@
+title: Salve Regina
+id: TumW E.4.1
+genre: antiphon
+scoring: S, A (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-KR
+    shelfmark: F 5/128
+    rism: 600178676
+    date: ca. 1775
+    license: public domain
+    principal: true
+    notes: 10 parts (S, A, T, B, trb 1, trb 2, vl 1, vl 2, vlne, org)
+toe: |
+  9   & vl 1 & 10th \sixteenthNote\ in \B1: c″16 \\
+  47  & org  & last \eighthNote\ in \B1: e8 \\
+  86  & A    & 3rd \quarterNote\ in \B1: f′4 \\
+  89  & trb 2, T & bar in \B1: d′4–d′8–\flat es′8–d′4–c′4 \\*
+  117 & vl 2 & bar in \B1: \flat b′4–\crotchetRest–\crotchetRest \\

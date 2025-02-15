@@ -1,0 +1,18 @@
+\version "2.24.2"
+
+tempoE-IV-Ia = \tempoMarkup "Adagio"
+tempoE-IV-Ib = \tempoMarkup "Allegro"
+  tempoE-IV-Ibb = \tempoMarkup "Adagio"
+tempoE-IV-Ic = \tempoMarkup "Andante"
+tempoE-IV-Id = \tempoMarkup "Presto"
+tempoE-IV-Ie = \tempoMarkup "Andante"
+
+\include "notes/trb1.ly"
+\include "notes/trb2.ly"
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"
