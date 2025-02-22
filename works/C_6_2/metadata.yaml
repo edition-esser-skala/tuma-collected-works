@@ -1,0 +1,21 @@
+title: Veni Sancte Spiritus
+id: TumW C.6.2
+genre: antiphon
+scoring: S, A (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-KN
+    shelfmark: 464/2
+    license: public domain
+    principal: true
+    notes: 18 parts (S solo, A solo, T solo, B solo, S rip, A rip, T rip, B rip, cnto, fag, trb 1, trb 2, vl 1, vl 2, vlc, vlne, org, maestro di cappella)
+toe: |
+  47 & A & 1st \eighthNoteDotted\ in \B1: \sharp f′8. \\
+lyrics:
+  Veni, Sancte Spiritus,\\
+  reple tuorum corda fidelium,\\
+  et tui amoris in eis ignem accende,\\
+  qui per diversitatem linguarum cunctarum\\
+  gentes in unitate fidei congregasti.\\[1ex]
+  (Cantus Index 005327)
