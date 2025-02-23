@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-IXBasso = {
+G-VBasso = {
   \relative c {
     \clef bass
-    \key e \minor \time 4/4 \tempoG-IXa \autoBeamOff
+    \key e \minor \time 4/4 \tempoG-Va \autoBeamOff
     R1*17 %17
     r2 r8 \mvTr h'\pE^\solo h16([ a)] g([ fis)]
     g8( e4 fis16[ gis)] a8 a a16([ g)] fis([ e)]
@@ -49,7 +49,7 @@ G-IXBasso = {
     h e,4 r
     R1*6 \noBreak %77
     R1\fermata \bar "||"
-    \tempoG-IXb R1*26 %104
+    \tempoG-Vb R1*26 %104
     r4 \mvTr d'8\fE^\tutti d a'4 a8 a %105
     d,8. d16 d4 r2
     r d4. d8
@@ -78,7 +78,7 @@ G-IXBasso = {
     d2 g,4 r
     R1*12 \noBreak %146
     R1\fermata \bar "||"
-    \tempoG-IXc R1*4 %151
+    \tempoG-Vc R1*4 %151
     r2 \mvTr e'4.\fE^\tutti e8
     d!4 h g'2~
     g4 fis8[ e] d4 e
@@ -100,7 +100,7 @@ G-IXBasso = {
     e4 e e e
     e e e2 \noBreak
     e1\fermata \bar "||"
-    \tempoG-IXd R1*20 %193
+    \tempoG-Vd R1*20 %193
     r2 r4 r8 \mvTr e\fE^\tutti
     a, c d e a a, r e' %195
     a,4. a'8 d, f? g([ a)]
@@ -118,7 +118,7 @@ G-IXBasso = {
     r a^\critnote dis, dis8 dis
     e4 d c2
     h1\fermata
-    \tempoG-IXe e4 e e2 %220
+    \tempoG-Ve e4 e e2 %220
     d!4 d8 d d2
     c4 c8 c h2(
     ais) a
@@ -128,7 +128,7 @@ G-IXBasso = {
   }
 }
 
-G-IXBassoLyrics = \lyricmode {
+G-VBassoLyrics = \lyricmode {
   Chri -- ste e -- %18
   lei -- son, Chri -- ste e --
   lei -- son, Chri -- ste ex -- %20

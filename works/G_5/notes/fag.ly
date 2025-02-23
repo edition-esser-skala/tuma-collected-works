@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-IXFagotto = {
+G-VFagotto = {
   \relative c {
     \clef bass
-    \key e \minor \time 4/4 \tempoG-IXa
+    \key e \minor \time 4/4 \tempoG-Va
     e8\fE fis g e dis cis \hA dis h
     e fis g gis a c! d! e
     a, g fis d !g h c d
@@ -61,7 +61,7 @@ G-IXFagotto = {
     a a a a h h, cis dis
     e g a h c! a16 g fis8 e \noBreak
     dis e a h e,2\fermata \bar "||"
-    \tempoG-IXb R1*26 %104
+    \tempoG-Vb R1*26 %104
     r4 d\fE a' a %105
     d,2 d'8 d, d4
     d'8 fis, g a d, d d fis16^\critnote g
@@ -76,7 +76,7 @@ G-IXFagotto = {
     h8 g d4 g, r
     R1*30 \noBreak %146
     R1\fermata \bar "||"
-    \tempoG-IXc R1*4 %151
+    \tempoG-Vc R1*4 %151
     r2 e'4.\fE e8
     d!4 h g'2~
     g4 fis8 e d4 e
@@ -98,7 +98,7 @@ G-IXFagotto = {
     e
     e \noBreak
     e\fermata \bar "||"
-    \tempoG-IXd a,8\fE h c gis a c d e \noBreak
+    \tempoG-Vd a,8\fE h c gis a c d e \noBreak
     a, h c cis d f g a %175
     f e d d e d cis cis
     d c h a gis gis gis gis
@@ -128,7 +128,7 @@ G-IXFagotto = {
     r a' dis,2
     e4 d c2 \noBreak
     h1\fermata
-    \tempoG-IXe e2 e \noBreak %220
+    \tempoG-Ve e2 e \noBreak %220
     d! d
     c h
     ais a

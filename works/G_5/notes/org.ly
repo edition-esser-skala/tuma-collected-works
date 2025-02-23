@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-IXOrgano = {
+G-VOrgano = {
   \relative c {
     \clef bass
-    \key e \minor \time 4/4 \tempoG-IXa
+    \key e \minor \time 4/4 \tempoG-Va
     \mvTr e8\fE-\solo fis g e dis cis \hA dis h
     e fis g gis a c! d! e
     a, g fis d g! h c d
@@ -88,7 +88,7 @@ G-IXOrgano = {
     a a a a h h, cis dis
     e g a h c! a16 g fis8 e \noBreak
     dis e a h e,2\fermata \bar "||"
-    \tempoG-IXb \mvTr g8\pE-\solo a h c g a h c \noBreak
+    \tempoG-Vb \mvTr g8\pE-\solo a h c g a h c \noBreak
     h g4 fis8 g g, g'4 %80
     fis e d8 e16 fis g4
     fis e d fis
@@ -157,7 +157,7 @@ G-IXOrgano = {
     d8 h' c c, d d' e e, %145
     fis4. fis8 g h, c d \noBreak
     g,4 r r2\fermata \bar "||"
-    \clef treble \tempoG-IXc
+    \clef treble \tempoG-Vc
       \mvTr h''4.-\fE-\tutti h8 g4 e \noBreak
     << {
       c'2 h~
@@ -195,7 +195,7 @@ G-IXOrgano = {
     e e
     e1 \noBreak
     e\fermata \bar "||"
-    \tempoG-IXd \mvTr a,8\fE-\solo h c gis a c d e \noBreak
+    \tempoG-Vd \mvTr a,8\fE-\solo h c gis a c d e \noBreak
     a, h c cis d f g a %175
     f e d d e d cis cis
     d c h a gis gis gis gis
@@ -241,7 +241,7 @@ G-IXOrgano = {
     r a' dis,2
     e4 d c2 \noBreak
     h1\fermata
-    \tempoG-IXe e2 e \noBreak %220
+    \tempoG-Ve e2 e \noBreak %220
     d! d
     c h
     ais a
@@ -251,7 +251,7 @@ G-IXOrgano = {
   }
 }
 
-G-IXBassFigures = \figuremode {
+G-VBassFigures = \figuremode {
   r2 <[6]>
   r2. <_!>8 <_+>
   r4 <6>2.

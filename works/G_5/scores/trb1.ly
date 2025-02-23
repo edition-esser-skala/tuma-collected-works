@@ -2,16 +2,16 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "trb 2")
+#(define option-instrument-name "trb 1")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "G.9" "Litaniæ lauretanæ"
+    \section "G.5" "Litaniæ lauretanæ"
     \addTocEntry
     \score {
       <<
-        \new Staff { \G-IXTromboneII }
+        \new Staff { \G-VTromboneI }
       >>
     }
   }

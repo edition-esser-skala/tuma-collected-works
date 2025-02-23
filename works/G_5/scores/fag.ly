@@ -7,11 +7,11 @@
 
 \book {
   \bookpart {
-    \section "G.9" "Litaniæ lauretanæ"
+    \section "G.5" "Litaniæ lauretanæ"
     \addTocEntry
     \score {
       <<
-        \new Staff { \G-IXFagotto }
+        \new Staff { \G-VFagotto }
       >>
     }
   }

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-IXTromboneI = {
+G-VTromboneI = {
   \relative c' {
     \clef alto
-    \key e \minor \time 4/4 \tempoG-IXa
+    \key e \minor \time 4/4 \tempoG-Va
     R1*30 %30
     fis8\fE fis16 fis fis8 fis fis fis r4
     r2 fis4 fis8 e
@@ -42,7 +42,7 @@ G-IXTromboneI = {
     fis2 e4 r
     R1*6 \noBreak %77
     R1\fermata \bar "||"
-    \tempoG-IXb R1*26 %104
+    \tempoG-Vb R1*26 %104
     d4 fis8\fE fis e4 e8 e %105
     fis8. fis16 fis4 r2
     r fis4. fis8
@@ -57,7 +57,7 @@ G-IXTromboneI = {
     g8 g g fis g4 r
     R1*30 \noBreak %146
     R1\fermata \bar "||"
-    \tempoG-IXc R1 \noBreak
+    \tempoG-Vc R1 \noBreak
     e4.\fE e8 d4 h
     g'2. fis8 e %150
     dis4 e2 dis4
@@ -83,7 +83,7 @@ G-IXTromboneI = {
     e4 e e e
     e1 \noBreak
     e\fermata \bar "||"
-    \tempoG-IXd R1*20 %192
+    \tempoG-Vd R1*20 %192
     r2 r4 r8 e\fE
     e e e e e4 e8 e %195
     e e e4 f r8 a
@@ -101,7 +101,7 @@ G-IXTromboneI = {
     r e fis fis8 fis
     g4 fis e2 \noBreak
     fis1\fermata
-    \tempoG-IXe g4 g fis2 \noBreak %220
+    \tempoG-Ve g4 g fis2 \noBreak %220
     fis4 f8 f e2
     e4 e8 e dis4 \once \tieDashed e~
     e2 fis

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-IXAlto = {
+G-VAlto = {
   \relative c' {
     \clef treble
-    \key e \minor \time 4/4 \tempoG-IXa \autoBeamOff
+    \key e \minor \time 4/4 \tempoG-Va \autoBeamOff
     R1*7 %7
     \mvTr e8.\pE^\solo h16 h8 g' fis h,4 a'8
     g h,4 h'8 c16(^[ h] a4 gis8
@@ -59,7 +59,7 @@ G-IXAlto = {
     fis2 e4 r
     R1*6 \noBreak %77
     R1\fermata \bar "||"
-    \tempoG-IXb R1*19 %97
+    \tempoG-Vb R1*19 %97
     \mvTr a4.\pE^\solo h8 a4. h8
     g4. g8 fis fis4 g16([ e)]
     fis4. g16([ e)] fis8 g e8. d16 %100
@@ -89,7 +89,7 @@ G-IXAlto = {
     g( fis) g r
     R1*5 \noBreak %146
     R1\fermata \bar "||"
-    \tempoG-IXc R1 \noBreak
+    \tempoG-Vc R1 \noBreak
     \mvTr e4.\fE^\tutti e8 d4 h
     g'2. fis8[ e] %150
     dis4 e2 dis4
@@ -115,7 +115,7 @@ G-IXAlto = {
     e4 e e e
     e1 \noBreak
     e\fermata \bar "||"
-    \tempoG-IXd R1*11 %184
+    \tempoG-Vd R1*11 %184
     r2 r4 r8 \mvTr h'\pE^\solo %185
     g16([ fis)] e([ g)] fis([ e)] dis([ fis)] e8 h4 h'8
     c16([ h)] a c h([ a)] gis([ h)] a8 e4 a8
@@ -142,7 +142,7 @@ G-IXAlto = {
     r e fis fis8 fis
     g4 fis e2 \noBreak
     fis1\fermata
-    \tempoG-IXe g4 g fis2 \noBreak %220
+    \tempoG-Ve g4 g fis2 \noBreak %220
     fis4 f8 f e2
     e4 e8 e dis4 \once \tieDashed e~
     e2 fis
@@ -152,7 +152,7 @@ G-IXAlto = {
   }
 }
 
-G-IXAltoLyrics = \lyricmode {
+G-VAltoLyrics = \lyricmode {
   Ky -- ri -- e e -- lei -- son, e -- %8
   lei -- son, e -- lei --
   son, e -- lei -- %10

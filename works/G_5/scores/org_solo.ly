@@ -6,15 +6,15 @@
 
 \book {
   \bookpart {
-    \section "G.9" "Litaniæ lauretanæ"
+    \section "G.5" "Litaniæ lauretanæ"
     \addTocEntry
     \score {
       <<
         \new PianoStaff <<
-          \new Staff { \G-IXChords }
-          \new Staff { \G-IXOrgano }
+          \new Staff { \G-VChords }
+          \new Staff { \G-VOrgano }
         >>
-        \new FiguredBass { \G-IXBassFigures }
+        \new FiguredBass { \G-VBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 60 }

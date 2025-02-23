@@ -6,7 +6,7 @@
 
 \book {
   \bookpart {
-    \section "G.9" "Litaniæ lauretanæ"
+    \section "G.5" "Litaniæ lauretanæ"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -14,22 +14,22 @@
         \new StaffGroup <<
           \new Staff \with { \smallStaffDistance } {
             \set Staff.instrumentName = "Cornetto"
-            \G-IXCornetto
+            \G-VCornetto
           }
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "Trombone"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \G-IXTromboneI
+              \G-VTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \G-IXTromboneII
+              \G-VTromboneII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "Fagotto"
-            \G-IXFagotto
+            \G-VFagotto
           }
         >>
         \new StaffGroup <<
@@ -37,49 +37,49 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \G-IXViolinoI
+              \G-VViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \G-IXViolinoII
+              \G-VViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \incipitSoprano
-            \new Voice = "Soprano" { \dynamicUp \G-IXSoprano }
+            \new Voice = "Soprano" { \dynamicUp \G-VSoprano }
           }
-          \new Lyrics \lyricsto Soprano \G-IXSopranoLyrics
+          \new Lyrics \lyricsto Soprano \G-VSopranoLyrics
 
           \new Staff {
             \incipitAlto
-            \new Voice = "Alto" { \dynamicUp \G-IXAlto }
+            \new Voice = "Alto" { \dynamicUp \G-VAlto }
           }
-          \new Lyrics \lyricsto Alto \G-IXAltoLyrics
+          \new Lyrics \lyricsto Alto \G-VAltoLyrics
 
           \new Staff {
             \incipitTenore
-            \new Voice = "Tenore" { \dynamicUp \G-IXTenore }
+            \new Voice = "Tenore" { \dynamicUp \G-VTenore }
           }
-          \new Lyrics \lyricsto Tenore \G-IXTenoreLyrics
+          \new Lyrics \lyricsto Tenore \G-VTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \G-IXBasso }
+            \new Voice = "Basso" { \dynamicUp \G-VBasso }
           }
-          \new Lyrics \lyricsto Basso \G-IXBassoLyrics
+          \new Lyrics \lyricsto Basso \G-VBassoLyrics
         >>
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "Organo solo"
-          \new Staff { \G-IXChords }
+          \new Staff { \G-VChords }
           \new Staff {
             \set Staff.instrumentName = "Bassi"
             % \transpose c c,
-            \G-IXOrgano
+            \G-VOrgano
           }
         >>
-        \new FiguredBass { \G-IXBassFigures }
+        \new FiguredBass { \G-VBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 75 } % 70 – 80 – 60

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-IXTenore = {
+G-VTenore = {
   \relative c' {
     \clef "treble_8"
-    \key e \minor \time 4/4 \tempoG-IXa \autoBeamOff
+    \key e \minor \time 4/4 \tempoG-Va \autoBeamOff
     R1*17 %17
     r8 \mvTr fis\pE^\solo fis16([ e)] d([ cis)] d8( h4 \hA cis16[ dis])
     e8 e e16([ d)] cis([ h)] \hA cis8( \once \stemDown a4 h16[ \hA cis])
@@ -54,7 +54,7 @@ G-IXTenore = {
     h h4 r
     R1*6 \noBreak %77
     R1\fermata \bar "||"
-    \tempoG-IXb R1*26 %104
+    \tempoG-Vb R1*26 %104
     r4 \mvTr d8\fE^\tutti d cis4 cis8 cis %105
     d8. d16 d4 r2
     r d4. d8
@@ -77,7 +77,7 @@ G-IXTenore = {
     a2 g4 r
     R1*5 %146
     R1\fermata \bar "||"
-    \tempoG-IXc R1*3 %150
+    \tempoG-Vc R1*3 %150
     r2 \mvTr h4.\fE^\tutti h8
     g4 e c'2
     h2. e4
@@ -101,7 +101,7 @@ G-IXTenore = {
     h4 r r h
     c gis a2~ \noBreak
     a4 gis8[ fis] \hA gis2\fermata \bar "||"
-    \tempoG-IXd R1*7 %180
+    \tempoG-Vd R1*7 %180
     r4 r8 \mvTr e'\pE^\solo c16([ h)] a([ c)] h([ a)] gis([ h)]
     a8 e4 e'8 f16([ e)] d \hA f e([ d)] cis([ e)]
     d8 f,~ f16 f'[ e \hA f] gis,8[ e']~ e16[ e d e]
@@ -136,7 +136,7 @@ G-IXTenore = {
     r a a a8 a
     g!([ a)] h4 e2 \noBreak
     dis1\fermata
-    \tempoG-IXe r4 e8 d cis2 \noBreak %220
+    \tempoG-Ve r4 e8 d cis2 \noBreak %220
     d4 d8 c h2
     c4 a8 a h2(
     cis) h
@@ -146,7 +146,7 @@ G-IXTenore = {
   }
 }
 
-G-IXTenoreLyrics = \lyricmode {
+G-VTenoreLyrics = \lyricmode {
   Chri -- ste e -- lei -- %18
   son, Chri -- ste e -- lei --
   son, Chri -- ste au -- di, %20

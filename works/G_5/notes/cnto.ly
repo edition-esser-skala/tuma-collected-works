@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-IXCornetto = {
+G-VCornetto = {
   \relative c' {
     \clef soprano
-    \key e \minor \time 4/4 \tempoG-IXa
+    \key e \minor \time 4/4 \tempoG-Va
     R1*30 %30
     d'8\fE d16 d cis8 cis d d r4
     r2 a4 a8 a
@@ -42,7 +42,7 @@ G-IXCornetto = {
     e dis e r
     R1*6 \noBreak %77
     R1\fermata \bar "||"
-    \tempoG-IXb R1*26 %104
+    \tempoG-Vb R1*26 %104
     r4 a,8\fE a a4 a8 a %105
     a8. a16 a4 r2
     r a4. a8
@@ -57,7 +57,7 @@ G-IXCornetto = {
     d8 h a4 h r
     R1*30 \noBreak %146
     R1\fermata \bar "||"
-    \tempoG-IXc h4.\fE h8 g4 e \noBreak
+    \tempoG-Vc h4.\fE h8 g4 e \noBreak
     c'2 h~
     h4 h a2~ %150
     a4 g fis2
@@ -82,7 +82,7 @@ G-IXCornetto = {
     e h c gis
     a h c h8 a \noBreak
     h1\fermata \bar "||"
-    \tempoG-IXd R1*20 %193
+    \tempoG-Vd R1*20 %193
     r4 r8 e c16 h a c h a gis h
     a8 e4 e'8 c16 h a c h a gis h %195
     a8. e16 e8 e' f16 e d8 d cis
@@ -100,7 +100,7 @@ G-IXCornetto = {
     r c h h8 h
     c4 h h a
     h1\fermata
-    \tempoG-IXe r4 c8 h \appoggiatura h4 ais2 %220
+    \tempoG-Ve r4 c8 h \appoggiatura h4 ais2 %220
     h4 h8 a gis2
     a4 a8 a a4 g~
     g fis8 e dis2

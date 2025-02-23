@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-IXTromboneII = {
+G-VTromboneII = {
   \relative c' {
     \clef tenor
-    \key e \minor \time 4/4 \tempoG-IXa
+    \key e \minor \time 4/4 \tempoG-Va
     R1*30 %30
     h8\fE h16 h h8 ais h h r4
     r2 d4 d8 e
@@ -41,7 +41,7 @@ G-IXTromboneII = {
     h h4 r
     R1*6 \noBreak %77
     R1\fermata \bar "||"
-    \tempoG-IXb R1*26 %104
+    \tempoG-Vb R1*26 %104
     r4 d8\fE d cis4 cis8 cis %105
     d8. d16 d4 r2
     r d4. d8
@@ -56,7 +56,7 @@ G-IXTromboneII = {
     d8 d d4 d r
     R1*30 %146
     R1\fermata \bar "||"
-    \tempoG-IXc R1*3 %150
+    \tempoG-Vc R1*3 %150
     r2 h4.\fE h8
     g4 e c'2
     h2. e4
@@ -80,7 +80,7 @@ G-IXTromboneII = {
     h4 r r h
     c gis a2~ \noBreak
     a4 gis8 fis \hA gis2\fermata \bar "||"
-    \tempoG-IXd R1*20 %193
+    \tempoG-Vd R1*20 %193
     r2 r4 r8 e'\fE
     c16 h a c h a gis h a8 e4 e'8 %195
     c h a4 a8 f'? e4
@@ -98,7 +98,7 @@ G-IXTromboneII = {
     r a a a8 a
     g! a h4 e2 \noBreak
     dis1\fermata
-    \tempoG-IXe r4 e8 d cis2 \noBreak %220
+    \tempoG-Ve r4 e8 d cis2 \noBreak %220
     d4 d8 c h2
     c4 a8 a h2
     cis h

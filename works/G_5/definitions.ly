@@ -1,10 +1,10 @@
 \version "2.24.2"
 
-tempoG-IXa = \tempoMarkup "Andante"
-tempoG-IXb = \tempoMarkup "Andante"
-tempoG-IXc = \tempoMarkup "Adagio"
-tempoG-IXd = \tempoMarkup "Vivace"
-tempoG-IXe = \tempoMarkup "Adagio"
+tempoG-Va = \tempoMarkup "Andante"
+tempoG-Vb = \tempoMarkup "Andante"
+tempoG-Vc = \tempoMarkup "Adagio"
+tempoG-Vd = \tempoMarkup "Vivace"
+tempoG-Ve = \tempoMarkup "Adagio"
 
 \include "notes/cnto.ly"
 \include "notes/fag.ly"

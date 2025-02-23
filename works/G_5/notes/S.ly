@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-IXSoprano = {
+G-VSoprano = {
   \relative c' {
     \clef treble
-    \key e \minor \time 4/4 \tempoG-IXa \autoBeamOff
+    \key e \minor \time 4/4 \tempoG-Va \autoBeamOff
     R1*12 %12
     \mvTr h'8.\pE^\solo fis16 fis8 d' cis fis,4 e'8
     d fis,4 fis'8 g16([ fis] e4 dis8
@@ -49,7 +49,7 @@ G-IXSoprano = {
     e dis e r
     R1*6 \noBreak %77
     R1\fermata \bar "||"
-    \tempoG-IXb \mvTr d4.\pE^\solo e16([ c)] d4. e16([ c)] \noBreak
+    \tempoG-Vb \mvTr d4.\pE^\solo e16([ c)] d4. e16([ c)] \noBreak
     d8 g c,8. h16 h4 h16([ d)] c([ h)] %80
     a([ c)] h([ a)] g([ h)] a([ g)] fis([ e)] d8 h'16([ d)] c([ h)]
     a([ c)] h([ a)] g([ h)] a([ g)] fis([ e)] d8 d' c
@@ -80,7 +80,7 @@ G-IXSoprano = {
     d8 h a4 h r
     R1*30 \noBreak %146
     R1\fermata \bar "||"
-    \tempoG-IXc \mvTr h4.\fE^\tutti h8 g4 e \noBreak
+    \tempoG-Vc \mvTr h4.\fE^\tutti h8 g4 e \noBreak
     c'2 h~
     h4 h a2~ %150
     a4 g fis2
@@ -105,7 +105,7 @@ G-IXSoprano = {
     e h c gis
     a h c( h8_[ a)] \noBreak
     h1\fermata \bar "||"
-    \tempoG-IXd R1*20 %193
+    \tempoG-Vd R1*20 %193
     r4 r8 \mvTr e\fE^\tutti c16([ h)] a([ c)] h([ a)] gis([ h)]
     a8 e4 e'8 c16([ h)] a c h([ a)] gis([ h)] %195
     a8. e16 e8 e' f16([ e)] d8 d([ cis)]
@@ -128,7 +128,7 @@ G-IXSoprano = {
     r c h h8 h
     c4 h h( a)
     h1\fermata
-    \tempoG-IXe r4 c8 h \appoggiatura h4 ais2 %220
+    \tempoG-Ve r4 c8 h \appoggiatura h4 ais2 %220
     h4 h8 a gis2
     a4 a8 a a4 g~
     g fis8[ e] dis2
@@ -138,7 +138,7 @@ G-IXSoprano = {
   }
 }
 
-G-IXSopranoLyrics = \lyricmode {
+G-VSopranoLyrics = \lyricmode {
   Ky -- ri -- e e -- lei -- son, e -- %13
   lei -- son, e -- lei --
   son, e -- lei -- %15

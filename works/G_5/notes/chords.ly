@@ -1,11 +1,11 @@
 \version "2.24.2"
 
-G-IXChords = {
+G-VChords = {
   \relative c' {
     \clef treble
-    \key e \minor \time 4/4 \tempoG-IXa
+    \key e \minor \time 4/4 \tempoG-Va
     s1*78 \bar "||" %78
-    \tempoG-IXb R1*8 %86
+    \tempoG-Vb R1*8 %86
     d'4. e16 c d4. e16 c
     d8 g \appoggiatura d c8.\trill h16 h8 d \sbOn \tuplet 3/2 8 { d16 c h } a g \sbOff
     e'( d) e-! e-! \sbOn \tuplet 3/2 8 { e d c } h a \sbOff fis'( e) fis-! fis-! \sbOn \tuplet 3/2 8 { fis e d } c h \sbOff
@@ -54,8 +54,8 @@ G-IXChords = {
     a8 d~ d16 c e8~ e16 d fis8~ fis16 e g8~
     g16 fis a g fis e d c h g' fis g a, fis' e fis \noBreak
     g,4 r r2\fermata \bar "||"
-    \tempoG-IXc s1*26 \bar "||" %173
-    \tempoG-IXd s1*46 %219
-    \tempoG-IXe s1*7 \bar "|." %226 finis
+    \tempoG-Vc s1*26 \bar "||" %173
+    \tempoG-Vd s1*46 %219
+    \tempoG-Ve s1*7 \bar "|." %226 finis
   }
 }
