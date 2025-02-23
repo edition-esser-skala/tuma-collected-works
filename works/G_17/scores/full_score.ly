@@ -18,7 +18,7 @@
 
 \book {
   \bookpart {
-    \section "G.7" "Litaniæ lauretanæ"
+    \section "G.17" "Litaniæ lauretanæ"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -28,47 +28,47 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \G-VIIViolinoI
+              \G-XVIIViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \G-VIIViolinoII
+              \G-XVIIViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \incipitSoprano
-            \new Voice = "Soprano" { \dynamicUp \G-VIISoprano }
+            \new Voice = "Soprano" { \dynamicUp \G-XVIISoprano }
           }
-          \new Lyrics \lyricsto Soprano \G-VIISopranoLyrics
+          \new Lyrics \lyricsto Soprano \G-XVIISopranoLyrics
 
           \new Staff {
             \incipitAlto
-            \new Voice = "Alto" { \dynamicUp \G-VIIAlto }
+            \new Voice = "Alto" { \dynamicUp \G-XVIIAlto }
           }
-          \new Lyrics \lyricsto Alto \G-VIIAltoLyrics
+          \new Lyrics \lyricsto Alto \G-XVIIAltoLyrics
 
           \new Staff {
             \incipitTenore
-            \new Voice = "Tenore" { \dynamicUp \G-VIITenore }
+            \new Voice = "Tenore" { \dynamicUp \G-XVIITenore }
           }
-          \new Lyrics \lyricsto Tenore \G-VIITenoreLyrics
+          \new Lyrics \lyricsto Tenore \G-XVIITenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \G-VIIBasso }
+            \new Voice = "Basso" { \dynamicUp \G-XVIIBasso }
           }
-          \new Lyrics \lyricsto Basso \G-VIIBassoLyrics
+          \new Lyrics \lyricsto Basso \G-XVIIBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
             % \transpose c c,
-            \G-VIIOrgano
+            \G-XVIIOrgano
           }
         >>
-        \new FiguredBass { \G-VIIBassFigures }
+        \new FiguredBass { \G-XVIIBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 120 } % 100 – 50 – 240 – 60

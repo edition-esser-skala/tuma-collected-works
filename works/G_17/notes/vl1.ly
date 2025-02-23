@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-VIIViolinoI = {
+G-XVIIViolinoI = {
   \relative c' {
     \clef treble
-    \key g \major \time 4/4 \tempoG-VIIa
+    \key g \major \time 4/4 \tempoG-XVIIa
     R1*3
     d'4.\fE d8 cis4 c
     h e cis d~ %5
@@ -19,7 +19,7 @@ G-VIIViolinoI = {
     d4 c2 h4 %15
     a1 \noBreak
     h\fermata \bar "||"
-    \time 3/4 \tempoG-VIIb \newSpacingSection
+    \time 3/4 \tempoG-XVIIb \newSpacingSection
       R2.*2 %19
     r8 h\pE d h e d
     d4 r r
@@ -93,7 +93,7 @@ G-VIIViolinoI = {
     g g2
     g fis4 \noBreak
     g2.\fermata \bar "||"
-    \time 4/4 \tempoG-VIIc \newSpacingSection
+    \time 4/4 \tempoG-XVIIc \newSpacingSection
       h8\fE h h h h h h h \noBreak
     ais ais ais ais h h h h %125
     h h h h h4 ais
@@ -105,7 +105,7 @@ G-VIIViolinoI = {
     cis cis h! h h h ais ais
     h h h h h h h h \noBreak
     h1\fermata \bar "||"
-    \twotwotime \time 2/2 \tempoG-VIId \newSpacingSection
+    \twotwotime \time 2/2 \tempoG-XVIId \newSpacingSection
       R1*13 %147
     d1\fE
     d2 d
@@ -137,7 +137,7 @@ G-VIIViolinoI = {
     a4 d, g2
     g fis \noBreak
     g1\fermata \bar "||"
-    \time 4/4 \tempoG-VIIe \newSpacingSection
+    \time 4/4 \tempoG-XVIIe \newSpacingSection
       g4\pE r g8 g g g \noBreak
     g4 r g8 g a a %180
     a a g g g4 r

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-VIIBasso = {
+G-XVIIBasso = {
   \relative c {
     \clef bass
-    \key g \major \time 4/4 \tempoG-VIIa \autoBeamOff
+    \key g \major \time 4/4 \tempoG-XVIIa \autoBeamOff
     \mvTr g'4.\fE^\tutti g8 fis4 f
     e( a) fis g
     g( fis) g g,
@@ -20,7 +20,7 @@ G-VIIBasso = {
     c2 d4 d %15
     d1 \noBreak
     g,\fermata \bar "||"
-    \time 3/4 \tempoG-VIIb \newSpacingSection
+    \time 3/4 \tempoG-XVIIb \newSpacingSection
       R2.*6 %23
     r8 \mvTr d'\pE^\soloE fis d g([ fis)]
     fis4 r r %25
@@ -106,7 +106,7 @@ G-VIIBasso = {
     g,4 cis2
     d2. \noBreak
     g,\fermata \bar "||"
-    \time 4/4 \tempoG-VIIc \newSpacingSection
+    \time 4/4 \tempoG-XVIIc \newSpacingSection
       \mvTr h4.\fE^\tutti h8 h4 h \noBreak
     cis2 h4 h' %125
     eis,8 eis16 eis eis8 eis fis4 fis
@@ -118,7 +118,7 @@ G-VIIBasso = {
     h! h fis'2
     h,4 h h2 \noBreak
     h1\fermata \bar "||"
-    \twotwotime \time 2/2 \tempoG-VIId \newSpacingSection
+    \twotwotime \time 2/2 \tempoG-XVIId \newSpacingSection
       \mvTr g'1\fE^\tuttiE \noBreak %135
     g2 g
     g g
@@ -160,7 +160,7 @@ G-VIIBasso = {
     d d
     d1 \noBreak
     g,\fermata \bar "||"
-    \time 4/4 \tempoG-VIIe \newSpacingSection
+    \time 4/4 \tempoG-XVIIe \newSpacingSection
       R1*2 %180
     r2 \mvTr g'4.\pE^\solo g8
     g4 fis e4. e8
@@ -174,7 +174,7 @@ G-VIIBasso = {
   }
 }
 
-G-VIIBassoLyrics = \lyricmode {
+G-XVIIBassoLyrics = \lyricmode {
   Ky -- ri -- e e --
   lei -- son, e --
   lei -- son, Chri --

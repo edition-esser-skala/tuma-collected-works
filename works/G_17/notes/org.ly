@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-VIIOrgano = {
+G-XVIIOrgano = {
   \relative c {
     \clef bass
-    \key g \major \time 4/4 \tempoG-VIIa
+    \key g \major \time 4/4 \tempoG-XVIIa
     \mvTr g'4.-!\fE-\tuttiE g8-! fis4 f
     e a fis g~
     g fis g g,
@@ -26,7 +26,7 @@ G-VIIOrgano = {
     c2 d4 d %15
     d1 \noBreak
     g,\fermata \bar "||"
-    \time 3/4 \tempoG-VIIb \newSpacingSection
+    \time 3/4 \tempoG-XVIIb \newSpacingSection
       \mvTr g4\p-\solo a h \noBreak
     c d e8 fis
     g4 r c, %20
@@ -140,7 +140,7 @@ G-VIIOrgano = {
     g cis2
     d2. \noBreak
     g,\fermata \bar "||"
-    \time 4/4 \tempoG-VIIc \newSpacingSection
+    \time 4/4 \tempoG-XVIIc \newSpacingSection
       \mvTr h4.\fE-\tutti h8 h4 h \noBreak
     cis2 h4 h' %125
     eis, eis fis fis,
@@ -152,7 +152,7 @@ G-VIIOrgano = {
     h! h fis'2
     h,4 h h2 \noBreak
     h1\fermata \bar "||"
-    \twotwotime \time 2/2 \tempoG-VIId \newSpacingSection
+    \twotwotime \time 2/2 \tempoG-XVIId \newSpacingSection
       \mvTr g'1-!\fE-\tuttiE \noBreak %135
     g2-! g-!
     g-! g-!
@@ -197,7 +197,7 @@ G-VIIOrgano = {
     d
     d \noBreak
     g,\fermata \bar "||"
-    \time 4/4 \tempoG-VIIe \newSpacingSection
+    \time 4/4 \tempoG-XVIIe \newSpacingSection
       \mvTr g'8\pE-\solo g g g g,4 r \noBreak
     g'8 g g g e e fis fis %180
     g g g g g g g g
@@ -215,7 +215,7 @@ G-VIIOrgano = {
   }
 }
 
-G-VIIBassFigures = \figuremode {
+G-XVIIBassFigures = \figuremode {
   r2 <6>4 <\t>
   <6\\> <_!> <5!> <3>
   <4 2> <\t \t> <5 3>2

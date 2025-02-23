@@ -2,16 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 2")
+#(define option-instrument-name "org")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "G.7" "Litaniæ lauretanæ"
+    \section "G.17" "Litaniæ lauretanæ"
     \addTocEntry
     \score {
       <<
-        \new Staff { \G-VIIViolinoII }
+        \new Staff { \G-XVIIOrgano }
+        \new FiguredBass { \G-XVIIBassFigures }
       >>
     }
   }

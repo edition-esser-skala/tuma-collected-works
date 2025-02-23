@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-VIITenore = {
+G-XVIITenore = {
   \relative c' {
     \clef "treble_8"
-    \key g \major \time 4/4 \tempoG-VIIa \autoBeamOff
+    \key g \major \time 4/4 \tempoG-XVIIa \autoBeamOff
     r2 \mvTr d4.\fE^\tutti d8
     cis4 c c h
     a2 h4 h
@@ -20,7 +20,7 @@ G-VIITenore = {
     g) c8([ h)] a4 h8([ c)] %15
     d1 \noBreak
     d\fermata \bar "||"
-    \time 3/4 \tempoG-VIIb \newSpacingSection
+    \time 3/4 \tempoG-XVIIb \newSpacingSection
       R2.*3 %20
     r8 \mvTr d\pE^\soloE h d e([ d)]
     d4 r r
@@ -98,7 +98,7 @@ G-VIITenore = {
     h4 a2
     a2. \noBreak
     h2.\fermata \bar "||"
-    \time 4/4 \tempoG-VIIc \newSpacingSection
+    \time 4/4 \tempoG-XVIIc \newSpacingSection
       \mvTr d4.\fE^\tutti d8 e4 d \noBreak
     e2 d4 d %125
     cis8 cis16 cis cis8 cis cis4 cis
@@ -110,7 +110,7 @@ G-VIITenore = {
     d!2( cis)
     dis4 dis e2 \noBreak
     dis1\fermata \bar "||"
-    \twotwotime \time 2/2 \tempoG-VIId \newSpacingSection
+    \twotwotime \time 2/2 \tempoG-XVIId \newSpacingSection
       R1*4 %138
     \mvTr d1\fE^\tuttiE
     d2 d %140
@@ -151,7 +151,7 @@ G-VIITenore = {
     h2 h
     a1 \noBreak
     h\fermata \bar "||"
-    \time 4/4 \tempoG-VIIe \newSpacingSection
+    \time 4/4 \tempoG-XVIIe \newSpacingSection
       \mvTr h4.\pE^\solo d8 g,4 g8 a \noBreak
     h([ c)] d g, c4. c8 %180
     c4 h r h8 e
@@ -166,7 +166,7 @@ G-VIITenore = {
   }
 }
 
-G-VIITenoreLyrics = \lyricmode {
+G-XVIITenoreLyrics = \lyricmode {
   Ky -- ri --
   e e -- lei -- son,
   Chri -- ste e --
