@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XVIIIKyrieCornetto = {
+G-IVKyrieCornetto = {
   \relative c' {
     \clef soprano
-    \key g \minor \time 4/4 \tempoG-XVIIIKyrie
+    \key g \minor \time 4/4 \tempoG-IVKyrie
     R1*6 %6
     g'4.\fE g8 b4 b
     a2 g
@@ -28,10 +28,10 @@ G-XVIIIKyrieCornetto = {
   }
 }
 
-G-XVIIISanctaCornetto = {
+G-IVSanctaCornetto = {
   \relative c' {
     \clef soprano
-    \key d \phrygian \time 3/4 \tempoG-XVIIISancta
+    \key d \phrygian \time 3/4 \tempoG-IVSancta
       \set Score.currentBarNumber = #39
     d'2\fE d4
     d d r
@@ -94,10 +94,10 @@ G-XVIIISanctaCornetto = {
   }
 }
 
-G-XVIIISpeculumCornetto = {
+G-IVSpeculumCornetto = {
   \relative c' {
     \clef soprano
-    \key g \minor \time 4/4 \tempoG-XVIIISpeculum
+    \key g \minor \time 4/4 \tempoG-IVSpeculum
       \set Score.currentBarNumber = #162
     R1*37 %37
     d'4\fE d c8. c16 c4
@@ -117,10 +117,10 @@ G-XVIIISpeculumCornetto = {
   }
 }
 
-G-XVIIISalusCornetto = {
+G-IVSalusCornetto = {
   \relative c' {
     \clef soprano
-    \key g \minor \time 4/4 \tempoG-XVIIISalus
+    \key g \minor \time 4/4 \tempoG-IVSalus
       \set Score.currentBarNumber = #221
     d'2.\fE d4
     d d d c
@@ -132,7 +132,7 @@ G-XVIIISalusCornetto = {
     es2 d4 h
     b b b b \noBreak
     a g g fis \bar "||" %10
-    \tempoG-XVIIIRegina g4 r r2 \noBreak
+    \tempoG-IVRegina g4 r r2 \noBreak
     R1*25 %36
     r4 d'\fE d d8 d
     d4 d d c
@@ -148,7 +148,7 @@ G-XVIIISalusCornetto = {
     r2 r4 es8 es
     d4 d8 d d4 d8 d %50
     d4 c d d
-    \tempoG-XVIIIMiserere r d8 d d4 c
+    \tempoG-IVMiserere r d8 d d4 c
     r c8 c c4 b
     a2 g4 h8 h
     c4 d es d8 c %55

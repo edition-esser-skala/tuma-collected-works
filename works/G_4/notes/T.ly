@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XVIIIKyrieTenore = {
+G-IVKyrieTenore = {
   \relative c' {
     \clef "treble_8"
-    \key g \minor \time 4/4 \autoBeamOff \tempoG-XVIIIKyrie
+    \key g \minor \time 4/4 \autoBeamOff \tempoG-IVKyrie
     R1*7 %7
     r2 \mvTr g4.\fE^\tutti g8
     b4. b8 as2(
@@ -34,7 +34,7 @@ G-XVIIIKyrieTenore = {
   }
 }
 
-G-XVIIIKyrieTenoreLyrics = \lyricmode {
+G-IVKyrieTenoreLyrics = \lyricmode {
   Ky -- ri -- %8
   e e -- lei --
   son, e -- %10
@@ -61,10 +61,10 @@ G-XVIIIKyrieTenoreLyrics = \lyricmode {
   re -- re no -- bis. %32 finis
 }
 
-G-XVIIISanctaTenore = {
+G-IVSanctaTenore = {
   \relative c' {
     \clef "treble_8"
-    \key d \phrygian \time 3/4 \autoBeamOff \tempoG-XVIIISancta
+    \key d \phrygian \time 3/4 \autoBeamOff \tempoG-IVSancta
       \set Score.currentBarNumber = #39
     \mvTr a2\fE^\tutti b4
     b a \mvTr a\pE^\soloE
@@ -158,7 +158,7 @@ G-XVIIISanctaTenore = {
   }
 }
 
-G-XVIIISanctaTenoreLyrics = \lyricmode {
+G-IVSanctaTenoreLyrics = \lyricmode {
   San -- cta,
   san -- cta Ma --
   ri -- a,
@@ -250,10 +250,10 @@ G-XVIIISanctaTenoreLyrics = \lyricmode {
   bis. %123 finis
 }
 
-G-XVIIISpeculumTenore = {
+G-IVSpeculumTenore = {
   \relative c' {
     \clef "treble_8"
-    \key g \minor \time 4/4 \autoBeamOff \tempoG-XVIIISpeculum
+    \key g \minor \time 4/4 \autoBeamOff \tempoG-IVSpeculum
       \set Score.currentBarNumber = #162
     R1*23 %23
     r2 \mvTr es8\pE^\solo es d h
@@ -283,7 +283,7 @@ G-XVIIISpeculumTenore = {
   }
 }
 
-G-XVIIISpeculumTenoreLyrics = \lyricmode {
+G-IVSpeculumTenoreLyrics = \lyricmode {
   Vas spi -- ri -- tu -- %24
   a -- le, %25
   vas ho -- no --
@@ -308,10 +308,10 @@ G-XVIIISpeculumTenoreLyrics = \lyricmode {
   no -- bis. %49 finis
 }
 
-G-XVIIISalusTenore = {
+G-IVSalusTenore = {
   \relative c' {
     \clef "treble_8"
-    \key g \minor \time 4/4 \autoBeamOff \tempoG-XVIIISalus
+    \key g \minor \time 4/4 \autoBeamOff \tempoG-IVSalus
       \set Score.currentBarNumber = #221
     r2 \mvTr b4\fE^\tutti b
     h h h( c8[ d]
@@ -323,7 +323,7 @@ G-XVIIISalusTenore = {
     d c h r
     r e e e \noBreak
     d1 \bar "||" %10
-    \tempoG-XVIIIRegina d4 r r2 \noBreak
+    \tempoG-IVRegina d4 r r2 \noBreak
     R1*15 %26
     r2 r4 r8 \mvTr f\pE^\solo
     f([ es)] d([ c)] d c b f'
@@ -349,7 +349,7 @@ G-XVIIISalusTenore = {
     h4. c8 c4 \mvTr c8\fE^\tutti c
     c4 c8 c b4 b8 b %50
     es4. es8 a,4 a
-    \tempoG-XVIIIMiserere r d8 d es4 es
+    \tempoG-IVMiserere r d8 d es4 es
     r es8^\critnote es a,!4 b8([ c)]
     d2 d4 d8 d
     es4 d c2 %55
@@ -357,7 +357,7 @@ G-XVIIISalusTenore = {
   }
 }
 
-G-XVIIISalusTenoreLyrics = \lyricmode {
+G-IVSalusTenoreLyrics = \lyricmode {
   Sa -- lus
   in -- fir -- mo --
   rum,

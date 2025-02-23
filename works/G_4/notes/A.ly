@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XVIIIKyrieAlto = {
+G-IVKyrieAlto = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoG-XVIIIKyrie
+    \key g \minor \time 4/4 \autoBeamOff \tempoG-IVKyrie
     R1*5 %5
     r2 \mvTr d4.\fE^\tutti d8
     es4 es4. d16([ c)] d8 g
@@ -35,7 +35,7 @@ G-XVIIIKyrieAlto = {
   }
 }
 
-G-XVIIIKyrieAltoLyrics = \lyricmode {
+G-IVKyrieAltoLyrics = \lyricmode {
   Ky -- ri -- %6
   e e -- lei -- son, e --
   lei -- son, e --
@@ -63,10 +63,10 @@ G-XVIIIKyrieAltoLyrics = \lyricmode {
   \xE re \x no -- bis. %32 finis
 }
 
-G-XVIIISanctaAlto = {
+G-IVSanctaAlto = {
   \relative c' {
     \clef treble
-    \key d \phrygian \time 3/4 \autoBeamOff \tempoG-XVIIISancta
+    \key d \phrygian \time 3/4 \autoBeamOff \tempoG-IVSancta
       \set Score.currentBarNumber = #39
     \mvTr f2\fE^\tutti f4
     e e \mvTr e\pE^\solo
@@ -140,7 +140,7 @@ G-XVIIISanctaAlto = {
   }
 }
 
-G-XVIIISanctaAltoLyrics = \lyricmode {
+G-IVSanctaAltoLyrics = \lyricmode {
   San -- cta,
   san -- cta Ma --
   ri -- a,
@@ -212,10 +212,10 @@ G-XVIIISanctaAltoLyrics = \lyricmode {
   bis. %123 finis
 }
 
-G-XVIIISpeculumAlto = {
+G-IVSpeculumAlto = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoG-XVIIISpeculum
+    \key g \minor \time 4/4 \autoBeamOff \tempoG-IVSpeculum
       \set Score.currentBarNumber = #162
     R1*23 %23
     r2 \mvTr g'8\pE^\solo as g16([ f)] es([ d)]
@@ -244,7 +244,7 @@ G-XVIIISpeculumAlto = {
   }
 }
 
-G-XVIIISpeculumAltoLyrics = \lyricmode {
+G-IVSpeculumAltoLyrics = \lyricmode {
   Vas spi -- ri -- tu -- %24
   a -- le, %25
   vas ho -- no --
@@ -268,10 +268,10 @@ G-XVIIISpeculumAltoLyrics = \lyricmode {
   no -- bis. %49 finis
 }
 
-G-XVIIISalusAlto = {
+G-IVSalusAlto = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoG-XVIIISalus
+    \key g \minor \time 4/4 \autoBeamOff \tempoG-IVSalus
       \set Score.currentBarNumber = #221
     r2 \mvTr g'4\fE^\tutti g
     g g gis a~
@@ -283,7 +283,7 @@ G-XVIIISalusAlto = {
     g2 g4 r
     r g g g \noBreak
     fis b a2 \bar "||" %10
-    \tempoG-XVIIIRegina d,4^\critnote r r2 \noBreak
+    \tempoG-IVRegina d,4^\critnote r r2 \noBreak
     R1*10 %21
     r2 r4 r8 \mvTr f\pE^\solo
     f g16([ a)] b8 b b a r a
@@ -307,7 +307,7 @@ G-XVIIISalusAlto = {
     r2 r4 g8 g
     a4 a8 a b4 b8 b %50
     g4. g8 fis4 fis
-    \tempoG-XVIIIMiserere r g8 g g4 g
+    \tempoG-IVMiserere r g8 g g4 g
     r as8 g fis4 g
     g( fis) g g8 g
     g4 g g2 %55
@@ -315,7 +315,7 @@ G-XVIIISalusAlto = {
   }
 }
 
-G-XVIIISalusAltoLyrics = \lyricmode {
+G-IVSalusAltoLyrics = \lyricmode {
   Sa -- lus
   in -- fir -- mo -- _
   _ rum,

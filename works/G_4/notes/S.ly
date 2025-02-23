@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XVIIIKyrieSoprano = {
+G-IVKyrieSoprano = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoG-XVIIIKyrie
+    \key g \minor \time 4/4 \autoBeamOff \tempoG-IVKyrie
     R1*6 %6
     \mvTr g'4.\fE^\tutti g8 b4 b
     a2( g)
@@ -34,7 +34,7 @@ G-XVIIIKyrieSoprano = {
   }
 }
 
-G-XVIIIKyrieSopranoLyrics = \lyricmode {
+G-IVKyrieSopranoLyrics = \lyricmode {
   Ky -- ri -- e e -- %7
   lei --
   son, e -- lei --
@@ -61,10 +61,10 @@ G-XVIIIKyrieSopranoLyrics = \lyricmode {
   re -- re no -- bis. %32 finis
 }
 
-G-XVIIISanctaSoprano = {
+G-IVSanctaSoprano = {
   \relative c' {
     \clef treble
-    \key d \phrygian \time 3/4 \autoBeamOff \tempoG-XVIIISancta
+    \key d \phrygian \time 3/4 \autoBeamOff \tempoG-IVSancta
       \set Score.currentBarNumber = #39
     \mvTr d'2\fE^\tutti d4
     d d \mvTr cis\pE^\solo
@@ -143,7 +143,7 @@ G-XVIIISanctaSoprano = {
   }
 }
 
-G-XVIIISanctaSopranoLyrics = \lyricmode {
+G-IVSanctaSopranoLyrics = \lyricmode {
   San -- cta,
   san -- cta Ma --
   ri -- a,
@@ -220,10 +220,10 @@ G-XVIIISanctaSopranoLyrics = \lyricmode {
   bis. %123 finis
 }
 
-G-XVIIISpeculumSoprano = {
+G-IVSpeculumSoprano = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoG-XVIIISpeculum
+    \key g \minor \time 4/4 \autoBeamOff \tempoG-IVSpeculum
       \set Score.currentBarNumber = #162
     R1*10 %10
     \mvTr d'8.\pE^\solo g,16 g8 es' es8. d16 d8 g
@@ -253,7 +253,7 @@ G-XVIIISpeculumSoprano = {
   }
 }
 
-G-XVIIISpeculumSopranoLyrics = \lyricmode {
+G-IVSpeculumSopranoLyrics = \lyricmode {
   Spe -- cu -- lum iu -- sti -- ti -- ae, o -- %11
   ra pro no -- bis,
   se -- des sa -- pi -- en -- ti -- ae, o --
@@ -278,10 +278,10 @@ G-XVIIISpeculumSopranoLyrics = \lyricmode {
   no -- bis. %49 finis
 }
 
-G-XVIIISalusSoprano = {
+G-IVSalusSoprano = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoG-XVIIISalus
+    \key g \minor \time 4/4 \autoBeamOff \tempoG-IVSalus
       \set Score.currentBarNumber = #221
     \mvTr d'2.\fE^\tutti d4
     d d d( c
@@ -293,7 +293,7 @@ G-XVIIISalusSoprano = {
     es2 d4 h
     b b b b \noBreak
     a g g( fis) \bar "||" %10
-    \tempoG-XVIIIRegina g4 \mvTr d'\pE^\soloE es8 d16([ c)] f8 es \noBreak
+    \tempoG-IVRegina g4 \mvTr d'\pE^\soloE es8 d16([ c)] f8 es \noBreak
     d16([ c)] b8 r f' d c b4
     a r8 a b c16 d es8 d16([ c)]
     d([ c)] b8 r g a b c b16([ a)]
@@ -324,7 +324,7 @@ G-XVIIISalusSoprano = {
     r2 r4 es8 es
     d4 d8 d d4 d8 d %50
     d4 c d d
-    \tempoG-XVIIIMiserere r d8 d d4 c
+    \tempoG-IVMiserere r d8 d d4 c
     r c8 c c4 b!
     a2 g4 h8 h
     c4 d es( d8[ c)] %55
@@ -332,7 +332,7 @@ G-XVIIISalusSoprano = {
   }
 }
 
-G-XVIIISalusSopranoLyrics = \lyricmode {
+G-IVSalusSopranoLyrics = \lyricmode {
   Sa -- lus
   in -- fir -- mo --
   rum,

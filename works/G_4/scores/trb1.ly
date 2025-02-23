@@ -2,16 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "trb 1")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "G.18" "Kyrie"
+    \section "G.4" "Kyrie"
     \addTocEntry
+    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \G-XVIIIKyrieViolinoI }
+        \new Staff { \G-IVKyrieTromboneI }
       >>
     }
   }
@@ -20,28 +21,27 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \G-XVIIISanctaViolinoI }
+        \new Staff { \G-IVSanctaTromboneI }
       >>
     }
   }
   \bookpart {
     \subsection "Speculum iustitiæ"
     \addTocEntry
+    \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "vl" "solo" }
-          \G-XVIIISpeculumViolinoI
-        }
+        \new Staff { \G-IVSpeculumTromboneI }
       >>
     }
   }
   \bookpart {
     \subsection "Salus infirmorum"
     \addTocEntry
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \G-XVIIISalusViolinoI }
+        \new Staff { \G-IVSalusTromboneI }
       >>
     }
   }

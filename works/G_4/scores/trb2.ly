@@ -2,17 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "cnto")
+#(define option-instrument-name "trb 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "G.18" "Kyrie"
+    \section "G.4" "Kyrie"
     \addTocEntry
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \G-XVIIIKyrieCornetto }
+        \new Staff { \G-IVKyrieTromboneII }
       >>
     }
   }
@@ -21,7 +21,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \G-XVIIISanctaCornetto }
+        \new Staff { \G-IVSanctaTromboneII }
       >>
     }
   }
@@ -31,7 +31,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \G-XVIIISpeculumCornetto }
+        \new Staff { \G-IVSpeculumTromboneII }
       >>
     }
   }
@@ -41,7 +41,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \G-XVIIISalusCornetto }
+        \new Staff { \G-IVSalusTromboneII }
       >>
     }
   }

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XVIIIKyrieViolinoI = {
+G-IVKyrieViolinoI = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \tempoG-XVIIIKyrie
+    \key g \minor \time 4/4 \tempoG-IVKyrie
     d'4.\fE d8 es es, es'4~
     es8 d16 c d8 g g4 fis
     g c,8 b a4. b8
@@ -40,10 +40,10 @@ G-XVIIIKyrieViolinoI = {
   }
 }
 
-G-XVIIISanctaViolinoI = {
+G-IVSanctaViolinoI = {
   \relative c' {
     \clef treble
-    \key d \phrygian \time 3/4 \tempoG-XVIIISancta
+    \key d \phrygian \time 3/4 \tempoG-IVSancta
       \set Score.currentBarNumber = #39
     f'2\fE f4
     e e e\pE
@@ -142,10 +142,10 @@ G-XVIIISanctaViolinoI = {
   }
 }
 
-G-XVIIISpeculumViolinoI = {
+G-IVSpeculumViolinoI = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \tempoG-XVIIISpeculum
+    \key g \minor \time 4/4 \tempoG-IVSpeculum
       \set Score.currentBarNumber = #162
     g''4\fE d'16( c) b( a) g fis g8~ g16 b g f?
     es d es8~ es16 g f es d8 b r g'16 fis
@@ -198,10 +198,10 @@ G-XVIIISpeculumViolinoI = {
   }
 }
 
-G-XVIIISalusViolinoI = {
+G-IVSalusViolinoI = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \tempoG-XVIIISalus
+    \key g \minor \time 4/4 \tempoG-IVSalus
       \set Score.currentBarNumber = #221
     d'2.\fE d4
     d d2 c4
@@ -213,7 +213,7 @@ G-XVIIISalusViolinoI = {
     es2 d4 h
     b b b2 \noBreak
     a4 g2 fis4 \bar "||" %10
-    \tempoG-XVIIIRegina g4 r r2 \noBreak
+    \tempoG-IVRegina g4 r r2 \noBreak
     R1*5 %16
     r2 r4 r8 fis'\fE
     g16 d g, b' a fis d d' b a g fis g d g f?
@@ -240,7 +240,7 @@ G-XVIIISalusViolinoI = {
     d2 c4 es'8\fE es
     d4 d8 d d4 d~ %50
     d c d2
-    \tempoG-XVIIIMiserere r4 d8 d d4 c
+    \tempoG-IVMiserere r4 d8 d d4 c
     r c8 c c4 b!
     a2 g4 h
     c d es d8 c %55

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XVIIIKyrieViolinoII = {
+G-IVKyrieViolinoII = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \tempoG-XVIIIKyrie
+    \key g \minor \time 4/4 \tempoG-IVKyrie
     r2 g'4.\fE g8
     b b, b'4 a4. a8
     g4 g fis4. d8
@@ -40,10 +40,10 @@ G-XVIIIKyrieViolinoII = {
   }
 }
 
-G-XVIIISanctaViolinoII = {
+G-IVSanctaViolinoII = {
   \relative c' {
     \clef treble
-    \key d \phrygian \time 3/4 \tempoG-XVIIISancta
+    \key d \phrygian \time 3/4 \tempoG-IVSancta
       \set Score.currentBarNumber = #39
     d'2\fE d4
     d d cis\pE
@@ -139,10 +139,10 @@ G-XVIIISanctaViolinoII = {
   }
 }
 
-G-XVIIISalusViolinoII = {
+G-IVSalusViolinoII = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \tempoG-XVIIISalus
+    \key g \minor \time 4/4 \tempoG-IVSalus
       \set Score.currentBarNumber = #221
     r2 g'4\fE g
     g g gis a~
@@ -154,7 +154,7 @@ G-XVIIISalusViolinoII = {
     g2 g4 r
     r g g g \noBreak
     fis b a2 \bar "||" %10
-    \tempoG-XVIIIRegina g4 r r2 \noBreak
+    \tempoG-IVRegina g4 r r2 \noBreak
     R1*5 %16
     r2 r4 r8 fis'\fE
     g16 d g, b' a fis d d' b a g fis g d g f?
@@ -181,7 +181,7 @@ G-XVIIISalusViolinoII = {
     g g4 g'\fE
     a a8 a b4 b8 b %50
     g4. g8 fis4 fis
-    \tempoG-XVIIIMiserere r g g g
+    \tempoG-IVMiserere r g g g
     r as8 g fis4 g~
     g fis g d
     es d c2 %55

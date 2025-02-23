@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XVIIIKyrieOrgano = {
+G-IVKyrieOrgano = {
   \relative c {
     \clef treble
-    \key g \minor \time 4/4 \tempoG-XVIIIKyrie
+    \key g \minor \time 4/4 \tempoG-IVKyrie
     << {
       d''4. d8 es es, \once \tieDashed es'4~
       es8 d16 c d8 g
@@ -60,7 +60,7 @@ G-XVIIIKyrieOrgano = {
   }
 }
 
-G-XVIIIKyrieBassFigures = \figuremode {
+G-IVKyrieBassFigures = \figuremode {
   r1
   r2 <5 4>4 <\t _+>
   r <6>8 <5> <4 2\+> <\t \t>4.
@@ -101,10 +101,10 @@ G-XVIIIKyrieBassFigures = \figuremode {
   r1 %38 finis
 }
 
-G-XVIIISanctaOrgano = {
+G-IVSanctaOrgano = {
   \relative c {
     \clef bass
-    \key d \phrygian \time 3/4 \tempoG-XVIIISancta
+    \key d \phrygian \time 3/4 \tempoG-IVSancta
       \set Score.currentBarNumber = #39
     \mvTr d2\fE-\tutti b4
     g a2
@@ -237,7 +237,7 @@ G-XVIIISanctaOrgano = {
   }
 }
 
-G-XVIIISanctaBassFigures = \figuremode {
+G-IVSanctaBassFigures = \figuremode {
   r2.
   <6! 5>4 <5! 4> <\t _+>
   r2 <[6 _!]>4
@@ -363,10 +363,10 @@ G-XVIIISanctaBassFigures = \figuremode {
   r2. %123 finis
 }
 
-G-XVIIISpeculumOrgano = {
+G-IVSpeculumOrgano = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \tempoG-XVIIISpeculum
+    \key g \minor \time 4/4 \tempoG-IVSpeculum
       \set Score.currentBarNumber = #162
     \mvTr g'8\fE-\solo b16 a g8 a b b16 a b8 h
     c b16 a g8 a b b, b' c
@@ -430,7 +430,7 @@ G-XVIIISpeculumOrgano = {
   }
 }
 
-G-XVIIISpeculumBassFigures = \figuremode {
+G-IVSpeculumBassFigures = \figuremode {
   r4. <[6\\]>8 <6>4. <[5!]>8
   r4 <6>8 <[6]> r2
   <_+>4 <[6]>2.
@@ -492,10 +492,10 @@ G-XVIIISpeculumBassFigures = \figuremode {
   <[6]>4 <6 5>8 <_+> r2 %59 finis
 }
 
-G-XVIIISalusOrgano = {
+G-IVSalusOrgano = {
   \relative c {
     \clef treble
-    \key g \minor \time 4/4 \tempoG-XVIIISalus
+    \key g \minor \time 4/4 \tempoG-IVSalus
       \set Score.currentBarNumber = #221
     \mvTr d''2\fE-\tutti \clef bass g,,
     f \once \tieDashed e~
@@ -507,7 +507,7 @@ G-XVIIISalusOrgano = {
     c g4 r
     r cis cis2 \noBreak
     d1 \bar "||" %10
-    \tempoG-XVIIIRegina g,8 a \mvTr b\pE-\soloE g c b a f \noBreak
+    \tempoG-IVRegina g,8 a \mvTr b\pE-\soloE g c b a f \noBreak
     b c d a b a g c
     f, f' f es! d4 c8 f
     b, c d b a g a d
@@ -548,7 +548,7 @@ G-XVIIISalusOrgano = {
     g c4 \mvTr c\fE-\tutti
     fis2 g %50
     es d
-    \tempoG-XVIIIMiserere r4 h c2
+    \tempoG-IVMiserere r4 h c2
     r4 c d2
     d \once \tieDashed g,~
     \once \tieDashed g1~ %55
@@ -556,7 +556,7 @@ G-XVIIISalusOrgano = {
   }
 }
 
-G-XVIIISalusBassFigures = \figuremode {
+G-IVSalusBassFigures = \figuremode {
   r1
   <4! 2>2 <7 [5!] _+>4 <6 4>
   <5! \t> <\t _+> <[5!]>2

@@ -1,11 +1,11 @@
 \version "2.24.2"
 
-tempoG-XVIIIKyrie = \tempoMarkup "Larghetto"
-tempoG-XVIIISancta = \tempoMarkup "[Tempo deest]"
-tempoG-XVIIISpeculum = \tempoMarkup "Affettuoso"
-tempoG-XVIIISalus = \tempoMarkup "Adagio"
-  tempoG-XVIIIRegina = \tempoMarkup "Vivace"
-  tempoG-XVIIIMiserere = \tempoMarkup "Adagio"
+tempoG-IVKyrie = \tempoMarkup "Larghetto"
+tempoG-IVSancta = \tempoMarkup "[Tempo deest]"
+tempoG-IVSpeculum = \tempoMarkup "Affettuoso"
+tempoG-IVSalus = \tempoMarkup "Adagio"
+  tempoG-IVRegina = \tempoMarkup "Vivace"
+  tempoG-IVMiserere = \tempoMarkup "Adagio"
 
 \include "notes/cnto.ly"
 \include "notes/fag.ly"

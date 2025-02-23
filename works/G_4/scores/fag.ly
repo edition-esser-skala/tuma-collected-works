@@ -2,16 +2,16 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "fag")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "G.18" "Kyrie"
+    \section "G.4" "Kyrie"
     \addTocEntry
     \score {
       <<
-        \new Staff { \G-XVIIIKyrieOrgano }
+        \new Staff { \G-IVKyrieFagotto }
       >>
     }
   }
@@ -20,16 +20,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \G-XVIIISanctaOrgano }
+        \new Staff { \G-IVSanctaFagotto }
       >>
     }
   }
   \bookpart {
     \subsection "Speculum iustitiæ"
     \addTocEntry
+    \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \G-XVIIISpeculumOrgano }
+        \new Staff { \G-IVSpeculumFagotto }
       >>
     }
   }
@@ -38,7 +39,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \G-XVIIISalusOrgano }
+        \new Staff { \G-IVSalusFagotto }
       >>
     }
   }

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XVIIIKyrieFagotto = {
+G-IVKyrieFagotto = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \tempoG-XVIIIKyrie
+    \key g \minor \time 4/4 \tempoG-IVKyrie
     R1
     r2 d4.\fE d8
     es es, es'4~ es8 d16 c d8 g
@@ -45,10 +45,10 @@ G-XVIIIKyrieFagotto = {
   }
 }
 
-G-XVIIISanctaFagotto = {
+G-IVSanctaFagotto = {
   \relative c {
     \clef bass
-    \key d \phrygian \time 3/4 \tempoG-XVIIISancta
+    \key d \phrygian \time 3/4 \tempoG-IVSancta
       \set Score.currentBarNumber = #39
     d2\fE b4
     g a2
@@ -153,10 +153,10 @@ G-XVIIISanctaFagotto = {
   }
 }
 
-G-XVIIISpeculumFagotto = {
+G-IVSpeculumFagotto = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \tempoG-XVIIISpeculum
+    \key g \minor \time 4/4 \tempoG-IVSpeculum
       \set Score.currentBarNumber = #162
     R1*37 %37
     b8\fE c d b f' g a f
@@ -176,10 +176,10 @@ G-XVIIISpeculumFagotto = {
   }
 }
 
-G-XVIIISalusFagotto = {
+G-IVSalusFagotto = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \tempoG-XVIIISalus
+    \key g \minor \time 4/4 \tempoG-IVSalus
       \set Score.currentBarNumber = #221
     r2 g'\fE
     f \once \tieDashed e~
@@ -191,7 +191,7 @@ G-XVIIISalusFagotto = {
     c g4 r
     r cis cis2 \noBreak
     d1 \bar "||" %10
-    \tempoG-XVIIIRegina g,4 r r2 \noBreak
+    \tempoG-IVRegina g,4 r r2 \noBreak
     R1*6 %17
     g8\fE g' fis fis g a b h
     c es, f a b c d b
@@ -217,7 +217,7 @@ G-XVIIISalusFagotto = {
     g c4 c\fE
     fis2 g %50
     es d
-    \tempoG-XVIIIMiserere r4 h c2
+    \tempoG-IVMiserere r4 h c2
     r4 c d2
     d \once \tieDashed g,~
     \once \tieDashed g1~ %55

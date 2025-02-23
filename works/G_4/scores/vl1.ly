@@ -2,18 +2,16 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "vl 1")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "G.18" "Kyrie"
+    \section "G.4" "Kyrie"
     \addTocEntry
-    \paper { indent = 2\cm }
     \score {
       <<
-        \new Staff { \G-XVIIIKyrieOrgano }
-        \new FiguredBass { \G-XVIIIKyrieBassFigures }
+        \new Staff { \G-IVKyrieViolinoI }
       >>
     }
   }
@@ -22,8 +20,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \G-XVIIISanctaOrgano }
-        \new FiguredBass { \G-XVIIISanctaBassFigures }
+        \new Staff { \G-IVSanctaViolinoI }
       >>
     }
   }
@@ -32,8 +29,10 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \G-XVIIISpeculumOrgano }
-        \new FiguredBass { \G-XVIIISpeculumBassFigures }
+        \new Staff {
+          \set Staff.instrumentName = \markup \center-column { "vl" "solo" }
+          \G-IVSpeculumViolinoI
+        }
       >>
     }
   }
@@ -42,8 +41,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \G-XVIIISalusOrgano }
-        \new FiguredBass { \G-XVIIISalusBassFigures }
+        \new Staff { \G-IVSalusViolinoI }
       >>
     }
   }

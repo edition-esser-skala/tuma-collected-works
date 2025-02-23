@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XVIIIKyrieBasso = {
+G-IVKyrieBasso = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \autoBeamOff \tempoG-XVIIIKyrie
+    \key g \minor \time 4/4 \autoBeamOff \tempoG-IVKyrie
     R1*7 %7
     \mvTr d4.\fE^\tutti d8 es4 es
     es8([ d16 c)] d8 g g4 f~
@@ -33,7 +33,7 @@ G-XVIIIKyrieBasso = {
   }
 }
 
-G-XVIIIKyrieBassoLyrics = \lyricmode {
+G-IVKyrieBassoLyrics = \lyricmode {
   Ky -- ri -- e e -- %8
   lei -- son, e -- lei -- _
   _ son, e -- %10
@@ -59,10 +59,10 @@ G-XVIIIKyrieBassoLyrics = \lyricmode {
   re -- re no -- bis.
 }
 
-G-XVIIISanctaBasso = {
+G-IVSanctaBasso = {
   \relative c {
     \clef bass
-    \key d \phrygian \time 3/4 \autoBeamOff \tempoG-XVIIISancta
+    \key d \phrygian \time 3/4 \autoBeamOff \tempoG-IVSancta
       \set Score.currentBarNumber = #39
     \mvTr d2\fE^\tutti b4
     g a \mvTr a\pE^\soloE
@@ -147,7 +147,7 @@ G-XVIIISanctaBasso = {
   }
 }
 
-G-XVIIISanctaBassoLyrics = \lyricmode {
+G-IVSanctaBassoLyrics = \lyricmode {
   San -- cta,
   san -- cta Ma --
   ri -- a,
@@ -230,10 +230,10 @@ G-XVIIISanctaBassoLyrics = \lyricmode {
   bis. %123 finis
 }
 
-G-XVIIISpeculumBasso = {
+G-IVSpeculumBasso = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \autoBeamOff \tempoG-XVIIISpeculum
+    \key g \minor \time 4/4 \autoBeamOff \tempoG-IVSpeculum
       \set Score.currentBarNumber = #162
     R1*23 %23
     r2 \mvTr c8\pE^\solo c g' g
@@ -267,7 +267,7 @@ G-XVIIISpeculumBasso = {
   }
 }
 
-G-XVIIISpeculumBassoLyrics = \lyricmode {
+G-IVSpeculumBassoLyrics = \lyricmode {
   Vas spi -- ri -- tu -- %24
   a -- le, %25
   vas ho -- no --
@@ -296,10 +296,10 @@ G-XVIIISpeculumBassoLyrics = \lyricmode {
   no -- bis. %49 finis
 }
 
-G-XVIIISalusBasso = {
+G-IVSalusBasso = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \autoBeamOff \tempoG-XVIIISalus
+    \key g \minor \time 4/4 \autoBeamOff \tempoG-IVSalus
       \set Score.currentBarNumber = #221
     r2 \mvTr g'4\fE^\tutti g
     f f e2~
@@ -311,7 +311,7 @@ G-XVIIISalusBasso = {
     c2 g4 r
     r cis cis cis \noBreak
     d1 \bar "||" %10
-    \tempoG-XVIIIRegina g,4 r r2 \noBreak
+    \tempoG-IVRegina g,4 r r2 \noBreak
     R1*16 %27
     r4 r8 \mvTr f'\pE^\solo f([ es)] d([ c)]
     d c b f' f es d c
@@ -335,7 +335,7 @@ G-XVIIISalusBasso = {
     r2 r4 c'8 c
     fis4 fis8 fis g4 g8 g %50
     es4. es8 d4 d
-    \tempoG-XVIIIMiserere r h8 h c4 c
+    \tempoG-IVMiserere r h8 h c4 c
     r c8 c d4 d
     d2 g,4 g'8 g
     g4 g g,2 %55
@@ -343,7 +343,7 @@ G-XVIIISalusBasso = {
   }
 }
 
-G-XVIIISalusBassoLyrics = \lyricmode {
+G-IVSalusBassoLyrics = \lyricmode {
   Sa -- lus
   in -- fir -- mo --
   rum,

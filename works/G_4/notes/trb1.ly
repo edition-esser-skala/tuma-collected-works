@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XVIIIKyrieTromboneI = {
+G-IVKyrieTromboneI = {
   \relative c' {
     \clef alto
-    \key g \minor \time 4/4 \tempoG-XVIIIKyrie
+    \key g \minor \time 4/4 \tempoG-IVKyrie
     R1*5 %5
     r2 d4.\fE d8
     es4 es4. d16 c d8 g
@@ -29,10 +29,10 @@ G-XVIIIKyrieTromboneI = {
   }
 }
 
-G-XVIIISanctaTromboneI = {
+G-IVSanctaTromboneI = {
   \relative c' {
     \clef alto
-    \key d \phrygian \time 3/4 \tempoG-XVIIISancta
+    \key d \phrygian \time 3/4 \tempoG-IVSancta
       \set Score.currentBarNumber = #39
     f2\fE f4
     e e r
@@ -96,10 +96,10 @@ G-XVIIISanctaTromboneI = {
   }
 }
 
-G-XVIIISpeculumTromboneI = {
+G-IVSpeculumTromboneI = {
   \relative c' {
     \clef alto
-    \key g \minor \time 4/4 \tempoG-XVIIISpeculum
+    \key g \minor \time 4/4 \tempoG-IVSpeculum
       \set Score.currentBarNumber = #162
     R1*37 %37
     f4\fE f f8. f16 f4
@@ -118,10 +118,10 @@ G-XVIIISpeculumTromboneI = {
   }
 }
 
-G-XVIIISalusTromboneI = {
+G-IVSalusTromboneI = {
   \relative c' {
     \clef alto
-    \key g \minor \time 4/4 \tempoG-XVIIISalus
+    \key g \minor \time 4/4 \tempoG-IVSalus
       \set Score.currentBarNumber = #221
     r2 \mvTr g'4\fE^\tutti g
     g g gis a~
@@ -133,7 +133,7 @@ G-XVIIISalusTromboneI = {
     g2 g4 r
     r g g g \noBreak
     fis b a2 \bar "||" %10
-    \tempoG-XVIIIRegina d,4 r r2 \noBreak
+    \tempoG-IVRegina d,4 r r2 \noBreak
     R1*25 %36
     r4 g\fE a a8 a
     g4 g g g
@@ -149,7 +149,7 @@ G-XVIIISalusTromboneI = {
     r2 r4 g8 g
     a4 a8 a b4 b8 b %50
     g4. g8 fis4 fis
-    \tempoG-XVIIIMiserere r g8 g g4 g
+    \tempoG-IVMiserere r g8 g g4 g
     r as8 g fis4 g
     g fis g g8 g
     g4 g g2 %55
