@@ -1,0 +1,18 @@
+title: Iustus ut palma florebit
+id: TumW C.1.2
+genre: gradual
+scoring: S, A, T, B (coro), 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-KN
+    shelfmark: 464/1
+    date: 1767
+    license: public domain
+    principal: true
+    notes: 16 parts (S, A (2×), T (2×), B (2×), trb 1, trb 2, vl 1 (2×), vl 2 (2×), vlne (2×), org)
+lyrics:
+  Iustus ut palma florebit,\\
+  sicut cedrus Libani multiplicabitur in domo Domini.\\
+  Ad annunciandum mane misericordiam tuam et veritatem tuam per noctem.\\
+  (\bibleverse{Ps}(92/91:13,3))
