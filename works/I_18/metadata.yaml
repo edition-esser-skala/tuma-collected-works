@@ -1,0 +1,17 @@
+title: Sonata
+id: TumW I.18
+genre: sonata
+scoring: 2 vl, bc
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-LA
+    shelfmark: 251/2
+    rism: 603000427
+    date: 1740–1799
+    license: public domain
+    principal: true
+    notes: 4 parts (vl 1, vl 2, vlne, org)
+toe: |
+  10 & vl 2 & 3rd \eighthNote\ in \B1: d″8 \\
+  38 & bc   & 4th \eighthNote\ in \B1: \flat e8 \\
