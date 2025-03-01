@@ -1,0 +1,24 @@
+title: Fuga
+id: TumW L.3
+genre: fugue
+scoring: 2 vl, bc
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Bsa
+    shelfmark: SA 3571 (5)
+    rism: 469354105
+    license: public domain
+    principal: true
+    notes: 3 parts (vl 1, vl 2, b)
+toe: |
+  –  & bc   & All bass figures have been added by the editor. \\
+  8  & vl 2 & 5th \eighthNote\ in \B1: \flat b′8 \\
+  14 & bc   & 5th \eighthNote\ in \B1: f8 \\
+  33 & vl 2 & 2nd \halfNote\ in \B1: c″4–\flat b′4 \\
+  54 & vl 2 & 2nd \quarterNote\ in \B1 f″8–\flat e″16–d″16 \\
+acknowledgements: |
+  Permission of the Sing-Akademie zu Berlin\\%
+  to use their archival materials (\B1) for this edition\\%
+  is gratefully acknowledged.%
+  \hspace*{\fill}\raisebox{1.5mm}[0pt][0pt]{\includegraphics[width=6cm]{logo_bsa}}
