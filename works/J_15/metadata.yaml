@@ -1,0 +1,52 @@
+title: Sinfonia
+id: TumW J.15
+genre: sinfonia
+scoring: 2 vl, bc
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-LA
+    shelfmark: 273
+    rism: 1001169626
+    date: 1730–1760
+    license: public domain
+    principal: true
+    notes: 3 parts (vl 1, vl 2, b)
+  B2:
+    siglum: D-Bsa
+    shelfmark: SA 3571 (7)
+    rism: 469354107
+    license: public domain
+    notes: only comprises the fugue; 3 parts (vl 1, vl 2, b)
+toe: |
+  –    & bc   & All bass figures have been added by the editor, except those
+                in the fugue (bars 7–56), which are taken from \B2. \\
+  1    & bc   & last \eighthNote\ in \B1: c16.–A32 \\
+  6    & vl 2 & bar in \B1: a2–a2 \\
+  21   & vl 1 & 1st \halfNote\ in \B1: g″2 \\
+  29   & vl 1 & 6th \eighthNote\ in \B1: g′8 \\
+  30   & vl 2 & 2nd \quarterNote\ in \B1: c″4 \\
+  40f  & vl 1 & 6th, 2nd, and 6th \eighthNote\ in \B2:
+                e′8, d′8, and \sharp c′8, respectively \\
+  52   & vl 1 & 1st \halfNote\ in \B2: \sharp f′4–d′4 \\
+  52–55 & bc  & bars in \B2:\newline\includegraphics{snippet_J_15.pdf} \\
+  57   & vl 1 & tempo indication in \B1: “Andante” \\
+  60   & vl 1 & 1st \halfNote\ in \B1: g″2 (tremolo mark missing?) \\
+  87   & vl 2 & 2nd/3rd \quarterNote\ in \B1: \sharp f′8–g′8–\sharp f′4 \\
+  96   & vl 2 & 2nd \quarterNote\ in \B1: c′4 \\
+  104  & vl 2 & 1st \quarterNote\ in \B1: c″4 \\
+  109  & vl 1 & 1st \halfNote\ in \B1: \sharp g′2 \\
+  117  & vl 2 & grace note missing in \B1 \\
+  120–125 & vl 2 & 4th to 6th \sixteenthNote\ in each
+                   bar of \B1: 3×\sixteenthNote \\
+  132  & bc   & grace note missing in \B1 \\
+  134  & bc   & grace note missing in \B1 \\
+  138  & vl 2 & bar in \B1: d″4–\sharp c″8 \\
+  142–145 & vl 2 & 1st \quarterNote\ in each bar of \B1: 2×\eighthNote \\
+  143  & vl 1 & 3rd \eighthNote\ in \B1: grace f″8–\flat e″8 \\
+  150f & vl 2 & 3rd \eighthNote\ in each bar of \B1: 3×\sixteenthNote \\
+acknowledgements: |
+  Permission of the Sing-Akademie zu Berlin\\%
+  to use their archival materials (\B2) for this edition\\%
+  is gratefully acknowledged.%
+  \hspace*{\fill}\raisebox{1.5mm}[0pt][0pt]{\includegraphics[width=6cm]{logo_bsa}}
