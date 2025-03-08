@@ -12,3 +12,5 @@ sources:
     license: public domain
     principal: true
     notes: 4 parts (vl 1, vl 2, vlne, org)
+parts:
+  bc_realized: Basso continuo realizzato

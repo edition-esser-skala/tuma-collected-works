@@ -5,4 +5,5 @@ tempoI-XVIIb = \tempoMarkup "Fuga · Presto"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
+\include "notes/chords.ly"
 \include "notes/bc.ly"
