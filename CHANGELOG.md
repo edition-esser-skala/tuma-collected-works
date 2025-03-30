@@ -1,5 +1,12 @@
 # Changelog
 
+## 2025.03.0 – 2025-03-30
+
+### Added
+
+- TumW I.17: realized bass
+
+
 ## 2025.02.0 – 2025-03-01
 
 ### Added
