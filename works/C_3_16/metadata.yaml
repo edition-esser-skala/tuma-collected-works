@@ -1,0 +1,56 @@
+title: Domine Deus creator omnium
+id: TumW C.3.16
+genre: gradual
+festival: del Santissimo
+scoring: B (solo), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15707
+    rism: 600138929
+    date: 1743
+    url: https://data.onb.ac.at/rec/AC14297602
+    license: public domain
+    principal: true
+    notes: 9 parts (B solo, vl 1 (2×), vl 2 (2×), vlc, vlne, org, maestro di cappella)
+  B2:
+    siglum: D-OB
+    shelfmark: MO 812
+    rism: 450008348
+    date: ca. 1740
+    license: public domain
+    notes: 4 parts (B solo, vl 1, vl 2, org)
+toe: |
+  –    & –    & \B2 contains \textit{Voluntarie sacrificabo tibi}
+                (TumW C.3.14) as a second recitativo and aria. \\
+  98–108 & –  & In \B2, these bars are replaced by a longer section
+                (comprising 37 bars),
+                which is here reproduced as appendix. \\
+  98   & B    & 2nd \eighthNote\ in \B1: a8 \\
+  107a & vl 1 & 1st \quarterNote\ in \B1: f′4 \\
+  123a & vl 2 & 2nd \quarterNote\ in \B1: d′4 \\
+  127  & org  & bar in \B1: G2. \\
+parts:
+  B_solo: Basso solo
+lyrics:
+  Domine Deus creator omnium,\\
+  accipe sacrificium pro universo populo tuo,\\
+  custodi partem tuam\\
+  et sanctifica sacrificium nostrum\\
+  in conspectu tuo hodie ut placeat tibi,\\
+  quia non est confusio confidentibus in te.\\
+  (\bibleverse{IMac}(1:24,26), \bibleverse{Dan}(3:40))\\[1ex]
+  Quino meus verbo Deus\\
+  ad aram deducitur,\\
+  panis velo qui in coelo\\
+  regnat hic contegitur.\\
+  Culpas tegit mentes regit\\
+  robur est vecordium,\\
+  est proborum normamorum,\\
+  est dulcedo cordium.\\\relax
+  [Pro patratis est peccatis\\
+  hostia placabilis,\\
+  frangit iram orci pyram\\
+  extinguit terribilis.]\\[1ex]
+  Alleluia.
