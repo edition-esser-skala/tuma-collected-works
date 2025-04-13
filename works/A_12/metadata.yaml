@@ -1,0 +1,32 @@
+title: Missa
+id: TumW A.12
+genre: mass
+scoring: S, A, T, B (coro), [2 trb], [2 vl], [vla], b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-LA
+    shelfmark: M 363
+    rism: 603001570
+    date: 1735–1768
+    license: public domain
+    principal: true
+    notes: 9 parts (S, A, T, B, trb 1, trb 2, vl, vlne, org)
+  B2:
+    siglum: A-KR
+    shelfmark: A 3/15
+    rism: 600178673
+    date: ca. 1770
+    license: public domain
+    notes: 9 parts (S, A, T, B, trb 1, trb 2, vl, vlne, org)
+  B3:
+    siglum: A-KN
+    shelfmark: 456
+    license: public domain
+    notes: 14 parts (S (2×), A (2×), T (2×), B (2×), vl 1, vl 2, vla, vlne, org (2×))
+tocstyle: default
+toe: |
+  – & – & –  & trb 1/2, vl 1/2, and vla always play colla parte
+               and thus are \textit{ad libitum}. \\
+  3 & A & 50 & 3rd \quarterNote\ in \B1: a′4 \\
+  4 & A & 22 & 1st \quarterNote\ in \B1: d′4 \\
