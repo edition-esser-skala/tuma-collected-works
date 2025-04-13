@@ -1,0 +1,32 @@
+title: Iam faces lictor ferat
+id: TumW C.2.3
+genre: hymn
+festival: de Sancte Joanne Nepomucenis
+scoring: B (solo), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15683
+    rism: 600138754
+    date: 1745
+    url: https://data.onb.ac.at/rec/AC14297576
+    license: public domain
+    principal: true
+    notes: 9 parts (B solo, vl 1 (2×), vl 2 (2×), vlc, vlne, org, maestro di cappella)
+toe: |
+  – & – & According to \B1, a responsory follows this hymn
+          (V: Posui ori meo custodiam –
+          R:~Cum consisteret peccator adversum me). \\
+parts:
+  B_solo: Basso solo
+lyrics:
+  Iam faces lictor ferat et minantem,\\
+  iam ferox ensem rabidumque tortis\\
+  vinculis ferrum sacra ni sacerdos\\
+  abdita pandat.\\[1ex]
+  En! ruit praeceps tumulatus unda\\
+  martyr et fluctu placido silentem\\
+  naufragus linguam melioris aevi\\
+  servat in usum.\\[1ex]
+  Amen.
