@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIIIOrgano = {
+D-II-XIVOrgano = {
   \relative c {
     \clef bass
-    \key a \major \time 4/4 \tempoD-II-XIIIa
+    \key a \major \time 4/4 \tempoD-II-XIVa
     \mvTr a'4\fE-\solo fis8 gis a4 r8 gis
     a a, e'4 fis8 fis, cis'4
     d8 d, a'4 d4. dis8
@@ -66,7 +66,7 @@ D-II-XIIIOrgano = {
     cis4. cis8 d2 %55
     dis4 dis8 e fis2 \noBreak
     e r\fermata
-    \tempoD-II-XIIIb \clef treble r8 a'4 a8 a16 gis gis8 r fis16 fis \noBreak
+    \tempoD-II-XIVb \clef treble r8 a'4 a8 a16 gis gis8 r fis16 fis \noBreak
     fis e e8 r d16 d d8 cis h4
     << {
       r8 e'4 e8 e16 dis dis8 r cis16 cis %60
@@ -96,7 +96,7 @@ D-II-XIIIOrgano = {
   }
 }
 
-D-II-XIIIBassFigures = \figuremode {
+D-II-XIVBassFigures = \figuremode {
   r4 <6> r4. <6 5>8
   r4 <5 4>8 <\t 3>4. <5 4>8 <\t 3>
   r4 <5 4>8 <\t 3>4. <6>8 <5>

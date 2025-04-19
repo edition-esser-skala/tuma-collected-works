@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIIICornetto = {
+D-II-XIVCornetto = {
   \relative c' {
     \clef soprano
-    \key a \major \time 4/4 \tempoD-II-XIIIa
+    \key a \major \time 4/4 \tempoD-II-XIVa
     R1*13 %13
     a'4.\fE a8 gis4 gis8 gis
     a a16 h cis8 cis cis4 h %15
@@ -29,7 +29,7 @@ D-II-XIIICornetto = {
     cis cis e e e8. d16 d4 %55
     fis fis8 e e4 dis \noBreak
     e2 r\fermata
-    \tempoD-II-XIIIb R1*2
+    \tempoD-II-XIVb R1*2
     r8 e4 e8 e16. dis32 dis8 r cis16 cis %60
     cis h h8 r a16 a a8 gis fis4
     e r8 cis' h16 d! e e, a4

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIIITromboneI = {
+D-II-XIVTromboneI = {
   \relative c' {
     \clef alto
-    \key a \major \time 4/4 \tempoD-II-XIIIa
+    \key a \major \time 4/4 \tempoD-II-XIVa
     R1*13 %13
     r4 fis8\fE fis eis4 eis8 eis
     fis fis16 fis fis8 gis fis2 %15
@@ -31,7 +31,7 @@ D-II-XIIITromboneI = {
     e e e e fis8. fis16 fis4 %55
     a a8 gis a2 \noBreak
     gis r\fermata
-    \tempoD-II-XIIIb r8 a4 a8 a16. gis32 gis8 r fis16 fis \noBreak
+    \tempoD-II-XIVb r8 a4 a8 a16. gis32 gis8 r fis16 fis \noBreak
     fis e e8 r d16 d d8 cis h4
     a a'8 gis fis16 a h h, e4 %60
     dis16 fis gis gis, cis4 h8 e4 d8~

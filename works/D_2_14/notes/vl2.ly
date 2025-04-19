@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIIIViolinoII = {
+D-II-XIVViolinoII = {
   \relative c' {
     \clef treble
-    \key a \major \time 4/4 \tempoD-II-XIIIa
+    \key a \major \time 4/4 \tempoD-II-XIVa
     r2 e'16(\fE fis) e( fis) d( e) d( e)
     cis8. cis16 h cis32 d e16 e, a8. a16 gis a32 h cis16 cis,
     fis8. fis16 e fis32 gis a16 a, a'8 d16 cis h8 a
@@ -56,7 +56,7 @@ D-II-XIIIViolinoII = {
     cis8 cis e e e8. d16 d4 %55
     fis fis8 e e4 dis \noBreak
     e2 r\fermata
-    \tempoD-II-XIIIb r8 a,4 a8 a16 gis gis8 r16 fis fis fis
+    \tempoD-II-XIVb r8 a,4 a8 a16 gis gis8 r16 fis fis fis
     fis( e) e8 r16 d d d d8 cis h4
     a a'8 gis fis16 gis32 a h16 h, e8. e16 %60
     dis e32 fis gis16 gis, cis4 h8 e4 d8~

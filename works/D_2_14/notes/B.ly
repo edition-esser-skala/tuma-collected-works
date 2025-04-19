@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIIIBasso = {
+D-II-XIVBasso = {
   \relative c {
     \clef bass
-    \key a \major \time 4/4 \tempoD-II-XIIIa \autoBeamOff
+    \key a \major \time 4/4 \tempoD-II-XIVa \autoBeamOff
     R1*7 %7
     \mvTr e8\pE^\solo e16 e cis8 dis e e r dis
     e e h' h16 h, cis8 cis r gis'16 gis,
@@ -42,7 +42,7 @@ D-II-XIIIBasso = {
     cis cis cis cis d!8. d16 d4 %55
     dis dis8 e fis2 \noBreak
     e r\fermata
-    \tempoD-II-XIIIb R1*4 %61
+    \tempoD-II-XIVb R1*4 %61
     r8 a4 a8 a16. gis32 gis8 r fis16 fis
     fis([ e)] e8 r d16 d d8 cis16([ d)] h4
     a a'8[ gis] fis16[ a h h,] e4
@@ -58,7 +58,7 @@ D-II-XIIIBasso = {
   }
 }
 
-D-II-XIIIBassoLyrics = \lyricmode {
+D-II-XIVBassoLyrics = \lyricmode {
   Quo -- ni -- am con -- for -- ta -- vit se -- %8
   ras por -- ta -- rum tu -- a -- rum, be -- ne --
   di -- xit fi -- li -- is tu -- is in %10

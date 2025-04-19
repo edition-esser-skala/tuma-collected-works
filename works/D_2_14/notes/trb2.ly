@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIIITromboneII = {
+D-II-XIVTromboneII = {
   \relative c' {
     \clef tenor
-    \key a \major \time 4/4 \tempoD-II-XIIIa
+    \key a \major \time 4/4 \tempoD-II-XIVa
     R1*13 %13
     cis4.\fE cis8 cis4 cis8 cis
     cis cis16 h a8 gis a4 gis8 fis %15
@@ -30,7 +30,7 @@ D-II-XIIITromboneII = {
     a a a a a8. a16 a4 %55
     h h8 h a2 \noBreak
     h r\fermata
-    \tempoD-II-XIIIb R1*6 %63
+    \tempoD-II-XIVb R1*6 %63
     r8 e4 e8 e16. dis32 dis8 r cis16 cis
     cis h h8 r a16 a a8 gis16 a fis4 %65
     e r r2

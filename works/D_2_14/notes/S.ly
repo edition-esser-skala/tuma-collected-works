@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIIISoprano = {
+D-II-XIVSoprano = {
   \relative c' {
     \clef treble
-    \key a \major \time 4/4 \tempoD-II-XIIIa \autoBeamOff
+    \key a \major \time 4/4 \tempoD-II-XIVa \autoBeamOff
     R1*4
     r2 \mvTr e'16([\pE^\solo fis) e( fis)] d([ e) d( e)] %5
     cis8 d16 e fis8 e16 d e a, a8 cis cis
@@ -45,7 +45,7 @@ D-II-XIIISoprano = {
     cis cis e e e8. d16 d4 %55
     fis fis8 e e4( dis) \noBreak
     e2 r\fermata
-    \tempoD-II-XIIIb R1*2
+    \tempoD-II-XIVb R1*2
     r8 e4 e8 e16. dis32 dis8 r cis16 cis %60
     cis([ h)] h8 r a16 a a8 gis fis4
     e r8 cis' h16[ d! e e,] a4
@@ -63,7 +63,7 @@ D-II-XIIISoprano = {
   }
 }
 
-D-II-XIIISopranoLyrics = \lyricmode {
+D-II-XIVSopranoLyrics = \lyricmode {
   Lau -- _ %5
   _ da, Ie -- ru -- sa -- lem, Do -- mi -- num, lau -- da,
   lau -- da De -- um tu -- um, Si --

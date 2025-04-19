@@ -1,7 +1,7 @@
 \version "2.24.2"
 
-tempoD-II-XIIIa = \tempoMarkup "Andante"
-tempoD-II-XIIIb = \tempoMarkup "Andante"
+tempoD-II-XIVa = \tempoMarkup "Andante"
+tempoD-II-XIVb = \tempoMarkup "Andante"
 
 \include "notes/cnto.ly"
 \include "notes/fag.ly"

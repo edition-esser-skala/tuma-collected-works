@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIIIFagotto = {
+D-II-XIVFagotto = {
   \relative c {
     \clef bass
-    \key a \major \time 4/4 \tempoD-II-XIIIa
+    \key a \major \time 4/4 \tempoD-II-XIVa
     R1*13 %13
     fis4.\fE fis8 cis'4 cis8 cis
     a a16 gis fis8 e! d2 %15
@@ -30,7 +30,7 @@ D-II-XIIIFagotto = {
     cis cis cis cis d!8. d16 d4 %55
     dis dis8 e fis2 \noBreak
     e r\fermata
-    \tempoD-II-XIIIb R1*4 %61
+    \tempoD-II-XIVb R1*4 %61
     r8 a4 a8 a16. gis32 gis8 r fis16 fis
     fis e e8 r d16 d d8 cis16 d h4
     a a'8 gis fis16 a h h, e4

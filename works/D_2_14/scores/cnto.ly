@@ -2,16 +2,16 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 2")
+#(define option-instrument-name "cnto")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "D.2.13" "Lauda Ierusalem"
+    \section "D.2.14" "Lauda Ierusalem"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XIIIViolinoII }
+        \new Staff { \D-II-XIVCornetto }
       >>
     }
   }

@@ -7,12 +7,12 @@
 
 \book {
   \bookpart {
-    \section "D.2.13" "Lauda Ierusalem"
+    \section "D.2.14" "Lauda Ierusalem"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-II-XIIIOrgano }
-        \new FiguredBass { \D-II-XIIIBassFigures }
+        \new Staff { \D-II-XIVOrgano }
+        \new FiguredBass { \D-II-XIVBassFigures }
       >>
     }
   }

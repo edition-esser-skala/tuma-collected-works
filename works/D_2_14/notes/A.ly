@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIIIAlto = {
+D-II-XIVAlto = {
   \relative c' {
     \clef treble
-    \key a \major \time 4/4 \tempoD-II-XIIIa \autoBeamOff
+    \key a \major \time 4/4 \tempoD-II-XIVa \autoBeamOff
     R1*9 %9
     r2 r4 r8 \mvTr h'\pE^\solo %10
     gis gis16 a h([ a)] gis([ fis)] e([ d!)] e([ fis)] \appoggiatura e8 d4
@@ -47,7 +47,7 @@ D-II-XIIIAlto = {
     e e e e fis8. fis16 fis4 %55
     a a8 gis a2 \noBreak
     gis r\fermata
-    \tempoD-II-XIIIb r8 a4 a8 a16. gis32 gis8 r fis16 fis \noBreak
+    \tempoD-II-XIVb r8 a4 a8 a16. gis32 gis8 r fis16 fis \noBreak
     fis([ e)] e8 r d16 d d8 cis h4
     a a'8[ gis] fis16[ a h h,] e4 %60
     dis16[ fis gis gis,] cis4 h8 e4 d8~
@@ -66,7 +66,7 @@ D-II-XIIIAlto = {
   }
 }
 
-D-II-XIIIAltoLyrics = \lyricmode {
+D-II-XIVAltoLyrics = \lyricmode {
   Qui %10
   po -- su -- it fi -- nes tu -- os pa --
   cem, et a -- di -- pe fru --

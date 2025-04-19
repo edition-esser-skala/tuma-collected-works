@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XIIITenore = {
+D-II-XIVTenore = {
   \relative c' {
     \clef "treble_8"
-    \key a \major \time 4/4 \tempoD-II-XIIIa \autoBeamOff
+    \key a \major \time 4/4 \tempoD-II-XIVa \autoBeamOff
     R1*4
     \mvTr e16([\pE^\solo fis) e( fis)] d([ e) d( e)] cis([ d) cis( d)] h([ cis) h( cis)] %5
     a8 h16 cis d8 cis16 h cis cis cis8 a a
@@ -43,7 +43,7 @@ D-II-XIIITenore = {
     a a a a a8. a16 a4 %55
     h h8 h a2 \noBreak
     h r\fermata
-    \tempoD-II-XIIIb R1*6 %63
+    \tempoD-II-XIVb R1*6 %63
     r8 e4 e8 e16. dis32 dis8 r cis16 cis
     cis([ h)] h8 r a16 a a8 gis16([ a)] fis4 %65
     e r r2
@@ -57,7 +57,7 @@ D-II-XIIITenore = {
   }
 }
 
-D-II-XIIITenoreLyrics = \lyricmode {
+D-II-XIVTenoreLyrics = \lyricmode {
   Lau -- _ _ _ %5
   _ da, Ie -- ru -- sa -- lem, Do -- mi -- num, lau -- da,
   lau -- da De -- um tu -- um, Si --
