@@ -1,0 +1,26 @@
+title: Tenebræ factæ sunt
+id: TumW C.5.S1
+genre: responsory
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-KN
+    shelfmark: 452/4
+    license: public domain
+    principal: true
+    notes: 8 parts (S, A, T, B, vl 1, vl 2, vlne, org)
+lyrics:
+  Tenebrae factae sunt,\\
+  cum crucifixissent Jesum Judaei:\\
+  et circa horam nonam exclamavit Jesus voce magna:\\
+  Deus meus, ut quid me dereliquisti?\\
+  Et inclinato capite emisit spiritum.\\
+  (\bibleverse{Mat}(27:45–50))\\[1ex]
+  Tunc unus ex militibus lancea latus eius perforavit,\\
+  et continuo exivit sanguis et aqua.\\
+  (\bibleverse{Joh}(19:34))\\[1ex]
+  Et velum templi scissum est\\
+  a summo usque deorsum,\\
+  et omnis terra tremuit.\\
+  (\bibleverse{Mat}(27:51))
