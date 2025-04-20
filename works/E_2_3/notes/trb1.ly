@@ -1,12 +1,12 @@
 \version "2.24.2"
 
-E-II-VIIITromboneI = {
+E-II-IIITromboneI = {
   \relative c' {
     \clef alto
-    \key c \dorian \time 4/4 \tempoE-II-VIIIAve
+    \key c \dorian \time 4/4 \tempoE-II-IIIAve
     R1*31 \noBreak %31
     R1\fermata \bar "||"
-    \time 3/4 \tempoE-II-VIIISalve R2. \noBreak
+    \time 3/4 \tempoE-II-IIISalve R2. \noBreak
     r4 r \mvTr g'8(\fE-\tuttiE fis)
     b( a) g( fis) g( fis) %35
     g4 fis8( e) d4
@@ -33,7 +33,7 @@ E-II-VIIITromboneI = {
     d
     es4 d2 \noBreak %60
     d2.\fermata \bar "||"
-    \time 4/4 \tempoE-II-VIIIGaude R1*5 %66
+    \time 4/4 \tempoE-II-IIIGaude R1*5 %66
     r2 r4 g8\fE g
     f es es f es es r4
     r g8 as g f r4
@@ -92,7 +92,7 @@ E-II-VIIITromboneI = {
     g g8 f e2
     f4 as as as
     a2 g4 r %130
-    \tempoE-II-VIIIExora r4 es d2
+    \tempoE-II-IIIExora r4 es d2
     es4 es d2~
     d c\fermata \bar "|." %133 finis
   }

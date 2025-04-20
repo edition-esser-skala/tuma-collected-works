@@ -2,16 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "cnto")
+#(define option-instrument-name "org")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "E.2.8" "Ave Regina cœlorum"
+    \section "E.2.3" "Ave Regina cœlorum"
     \addTocEntry
     \score {
       <<
-        \new Staff { \E-II-VIIICornetto }
+        \new Staff { \E-II-IIIOrgano }
+        \new FiguredBass { \E-II-IIIBassFigures }
       >>
     }
   }

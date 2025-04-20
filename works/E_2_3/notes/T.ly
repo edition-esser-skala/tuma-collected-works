@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-II-VIIITenore = {
+E-II-IIITenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \dorian \time 4/4 \autoBeamOff \tempoE-II-VIIIAve
+    \key c \dorian \time 4/4 \autoBeamOff \tempoE-II-IIIAve
     \mvTr c4\pE^\solo g8 es' d4 c8 h
     c4 g r2
     R1*3 %5
@@ -31,7 +31,7 @@ E-II-VIIITenore = {
     c r r2
     R1*3 \noBreak %31
     R1\fermata \bar "||"
-    \time 3/4 \tempoE-II-VIIISalve R2. \noBreak
+    \time 3/4 \tempoE-II-IIISalve R2. \noBreak
     r4 \mvTr b8([\fE^\tutti a) d( c)]
     d2 d8([ c)] %35
     b4 a2
@@ -60,7 +60,7 @@ E-II-VIIITenore = {
     g4 fis g4~
     g g4( fis) \noBreak %60
     g2.\fermata \bar "||"
-    \time 4/4 \tempoE-II-VIIIGaude
+    \time 4/4 \tempoE-II-IIIGaude
       r4 \mvTr es'8\pE^\solo d16([ c)] b8 as16([ g)] as8 b \noBreak
     g16([ f)] es8 r4 r2
     R1*2 %65
@@ -97,7 +97,7 @@ E-II-VIIITenore = {
     r2 r4 es8 es
     es es d d b2~ \noBreak
     b b4 r\fermata \bar "||" %100
-    \tempoE-II-VIIIVale \mvTr c4\pE^\solo g8 es' des4 c8 h \noBreak
+    \tempoE-II-IIIVale \mvTr c4\pE^\solo g8 es' des4 c8 h \noBreak
     c16([ h)] c8 r4 r2
     R1*3 %105
     r2 c4 g8 es'
@@ -124,13 +124,13 @@ E-II-VIIITenore = {
     r4 g g( c)
     c r r es
     es2 d4 r %130
-    \tempoE-II-VIIIExora r c d2
+    \tempoE-II-IIIExora r c d2
     g,4 g g2
     g1\fermata \bar "|." %133 finis
   }
 }
 
-E-II-VIIITenoreLyrics = \lyricmode {
+E-II-IIITenoreLyrics = \lyricmode {
   A -- ve Re -- gi -- na coe --
   lo -- rum,
 

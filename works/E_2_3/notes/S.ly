@@ -1,12 +1,12 @@
 \version "2.24.2"
 
-E-II-VIIISoprano = {
+E-II-IIISoprano = {
   \relative c' {
     \clef treble
-    \key c \dorian \time 4/4 \autoBeamOff \tempoE-II-VIIIAve
+    \key c \dorian \time 4/4 \autoBeamOff \tempoE-II-IIIAve
     R1*31 \noBreak %31
     R1\fermata \bar "||"
-    \time 3/4 \tempoE-II-VIIISalve r4 \mvTr g'\fE^\tutti b \noBreak
+    \time 3/4 \tempoE-II-IIISalve r4 \mvTr g'\fE^\tutti b \noBreak
     d2.~
     d %35
     d
@@ -33,7 +33,7 @@ E-II-VIIISoprano = {
     b4 a b
     a a2 \noBreak %60
     g2.\fermata \bar "||"
-    \time 4/4 \tempoE-II-VIIIGaude R1*5 %66
+    \time 4/4 \tempoE-II-IIIGaude R1*5 %66
     r2 r4 \mvTr es'8\fE^\tutti d16([ c)]
     b8 as16([ g)] as8 b g es r4
     r b'8 c16([ d)] es([ b)] b8 r4
@@ -63,7 +63,7 @@ E-II-VIIISoprano = {
     r2 r4 b'8 b
     c b16([ c)] d8 c16([ d)] es8[ d16 c] b8[ as] \noBreak
     g[ f16 es] f4\trillE es r\fermata \bar "||" %100
-    \tempoE-II-VIIIVale R1*19 %119
+    \tempoE-II-IIIVale R1*19 %119
     R1\fermata %120
     \mvTr c'4\fE^\tutti g8 es' d4 c8 h
     c16([ h)] c8 h c c([ h)] c d
@@ -75,13 +75,13 @@ E-II-VIIISoprano = {
     b b b2
     as4 c c c
     c2 h4 g %130
-    \tempoE-II-VIIIExora \once \tieDashed as2~ as4 g8[ f]
+    \tempoE-II-IIIExora \once \tieDashed as2~ as4 g8[ f]
     es4 c' c h8[ a]
     h2 c\fermata \bar "|." %133 finis
   }
 }
 
-E-II-VIIISopranoLyrics = \lyricmode {
+E-II-IIISopranoLyrics = \lyricmode {
   Sal -- ve %33
   ra --
   %35

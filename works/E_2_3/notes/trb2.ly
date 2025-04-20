@@ -1,12 +1,12 @@
 \version "2.24.2"
 
-E-II-VIIITromboneII = {
+E-II-IIITromboneII = {
   \relative c' {
     \clef tenor
-    \key c \dorian \time 4/4 \tempoE-II-VIIIAve
+    \key c \dorian \time 4/4 \tempoE-II-IIIAve
     R1*31 \noBreak %31
     R1\fermata \bar "||"
-    \time 3/4 \tempoE-II-VIIISalve R2. \noBreak
+    \time 3/4 \tempoE-II-IIISalve R2. \noBreak
     r4 \mvTr b8(\fE-\tuttiE a) d( c)
     d2 d8( c) %35
     b4 a2
@@ -35,7 +35,7 @@ E-II-VIIITromboneII = {
     g4 fis g4~
     g g4 fis \noBreak %60
     g2.\fermata \bar "||"
-    \time 4/4 \tempoE-II-VIIIGaude
+    \time 4/4 \tempoE-II-IIIGaude
     R1*5 %66
     r2 r4 b8\fE b
     b b c b b b r4
@@ -66,7 +66,7 @@ E-II-VIIITromboneII = {
     r2 r4 es8 es
     es es d d b2~ \noBreak
     b b4 r\fermata \bar "||" %100
-    \tempoE-II-VIIIVale R1*2
+    \tempoE-II-IIIVale R1*2
     r4 \mvTr c8\fE-\solo b!16 a! g8 es' \appoggiatura es8 d8.^\critnote c16
     b( a g8) r4 g8 c16 b as4
     f8 b16 as g4 r c8 des16 c %105
@@ -92,7 +92,7 @@ E-II-VIIITromboneII = {
     r4 g g( c)
     c r r es
     es2 d4 r %130
-    \tempoE-II-VIIIExora r c d2
+    \tempoE-II-IIIExora r c d2
     g,4 g g2
     g1\fermata \bar "|." %133 finis
   }

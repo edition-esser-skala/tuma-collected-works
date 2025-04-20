@@ -1,10 +1,10 @@
 \version "2.24.2"
 
-tempoE-II-VIIIAve = \tempoMarkup "Andante"
-tempoE-II-VIIISalve = \tempoMarkup "Andante"
-tempoE-II-VIIIGaude = \tempoMarkup "Allegro"
-tempoE-II-VIIIVale = \tempoMarkup "[Andante]"
-tempoE-II-VIIIExora = \tempoMarkup "Adagio"
+tempoE-II-IIIAve = \tempoMarkup "Andante"
+tempoE-II-IIISalve = \tempoMarkup "Andante"
+tempoE-II-IIIGaude = \tempoMarkup "Allegro"
+tempoE-II-IIIVale = \tempoMarkup "[Andante]"
+tempoE-II-IIIExora = \tempoMarkup "Adagio"
 
 \include "notes/cnto.ly"
 \include "notes/fag.ly"

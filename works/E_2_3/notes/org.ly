@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-II-VIIIOrgano = {
+E-II-IIIOrgano = {
   \relative c {
     \clef bass
-    \key c \dorian \time 4/4 \tempoE-II-VIIIAve
+    \key c \dorian \time 4/4 \tempoE-II-IIIAve
     \mvTr c8\pE-\solo d es c f d g g,
     c c, es'2\fE d4~
     d c4~ c8 b4 as8~
@@ -36,7 +36,7 @@ E-II-VIIIOrgano = {
     as g c8. h16 f'8. es16 as8. g16 %30
     f8 d16 c h8 g c es f g \noBreak
     c,4 r r2\fermata \bar "||"
-    \clef treble \time 3/4 \tempoE-II-VIIISalve r4 \mvTr g''-!\fE-\tuttiE b-! \noBreak
+    \clef treble \time 3/4 \tempoE-II-IIISalve r4 \mvTr g''-!\fE-\tuttiE b-! \noBreak
     d-! \clef bass g,,8( fis) b( a)
     g( fis) g( d) b'( a) %35
     g4 d2
@@ -65,7 +65,7 @@ E-II-VIIIOrgano = {
     d2 g,4
     c d2 \noBreak %60
     g,2.\fermata \bar "||"
-    \time 4/4 \tempoE-II-VIIIGaude \mvTr es'4.\pE-\solo f8 g es c d \noBreak
+    \time 4/4 \tempoE-II-IIIGaude \mvTr es'4.\pE-\solo f8 g es c d \noBreak
     es4 g\fE as f
     g es f d
     es8. as,16 es'4 b' d, %65
@@ -104,7 +104,7 @@ E-II-VIIIOrgano = {
     f d es g-\tutti
     as f g d \noBreak
     es b es, r\fermata \bar "||" %100
-    \tempoE-II-VIIIVale \mvTr c'8\pE-\solo d es c f4 g8. f16 \noBreak
+    \tempoE-II-IIIVale \mvTr c'8\pE-\solo d es c f4 g8. f16 \noBreak
     es8 c r es\fE f4 h,
     c4. d8 es c d d,
     g4 h c f,
@@ -134,13 +134,13 @@ E-II-VIIIOrgano = {
     r4 es'8 des c2
     f,4 r r as'8 g
     fis2 g4 r %130
-    \tempoE-II-VIIIExora r4 c, h2
+    \tempoE-II-IIIExora r4 c, h2
     c4 c g2
     g c\fermata \bar "|." %133 finis
   }
 }
 
-E-II-VIIIBassFigures = \figuremode {
+E-II-IIIBassFigures = \figuremode {
   r2 <6 [_-]>4 <4>8 <_!>
   r4 <6> <4- 2> <7>8 <6>
   <4 2>4 <7>8 <6-> <[6- 4] 2> <6> <2> <6>

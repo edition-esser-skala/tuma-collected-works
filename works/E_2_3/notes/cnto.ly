@@ -1,12 +1,12 @@
 \version "2.24.2"
 
-E-II-VIIICornetto = {
+E-II-IIICornetto = {
   \relative c' {
     \clef soprano
-    \key c \dorian \time 4/4 \tempoE-II-VIIIAve
+    \key c \dorian \time 4/4 \tempoE-II-IIIAve
     R1*31 \noBreak %31
     R1\fermata \bar "||"
-    \time 3/4 \tempoE-II-VIIISalve r4 g'\fE b \noBreak
+    \time 3/4 \tempoE-II-IIISalve r4 g'\fE b \noBreak
     \once \tieDashed d2.~
     d %35
     d
@@ -33,7 +33,7 @@ E-II-VIIICornetto = {
     b4 a b
     a a2 \noBreak %60
     g2.\fermata \bar "||"
-    \time 4/4 \tempoE-II-VIIIGaude R1*5 %66
+    \time 4/4 \tempoE-II-IIIGaude R1*5 %66
     r2 r4 es'8\fE d16 c
     b8 as16 g as8 b g es r4
     r b'8 c16 d es b b8 r4
@@ -63,7 +63,7 @@ E-II-VIIICornetto = {
     r2 r4 b'8 b
     c b16 c d8 c16 d es8 d16 c b8 as \noBreak
     g4 f\trillE es r\fermata \bar "||" %100
-    \tempoE-II-VIIIVale R1*19 %119
+    \tempoE-II-IIIVale R1*19 %119
     R1\fermata %120
     c'4\fE g8 es' d4 c8 h
     c16 h c8 h c c h c d
@@ -75,7 +75,7 @@ E-II-VIIICornetto = {
     b b b2
     as4 c c c
     c2 h4 g %130
-    \tempoE-II-VIIIExora \once \tieDashed as2~ as4 g8 f
+    \tempoE-II-IIIExora \once \tieDashed as2~ as4 g8 f
     es4 c' c h8 a
     h2 c\fermata \bar "|." %133 finis
   }

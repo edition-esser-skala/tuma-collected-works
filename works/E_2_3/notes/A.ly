@@ -1,12 +1,12 @@
 \version "2.24.2"
 
-E-II-VIIIAlto = {
+E-II-IIIAlto = {
   \relative c' {
     \clef treble
-    \key c \dorian \time 4/4 \autoBeamOff \tempoE-II-VIIIAve
+    \key c \dorian \time 4/4 \autoBeamOff \tempoE-II-IIIAve
     R1*31 \noBreak %31
     R1\fermata \bar "||"
-    \time 3/4 \tempoE-II-VIIISalve R2. \noBreak
+    \time 3/4 \tempoE-II-IIISalve R2. \noBreak
     r4 r \mvTr g'8([\fE^\tutti fis)]
     b([ a) g( fis) g( fis)] %35
     g4 fis8([ e)] d4
@@ -33,7 +33,7 @@ E-II-VIIIAlto = {
     d
     es4 d2 \noBreak %60
     d2.\fermata \bar "||"
-    \time 4/4 \tempoE-II-VIIIGaude R1*5 %66
+    \time 4/4 \tempoE-II-IIIGaude R1*5 %66
     r2 r4 \mvTr g8\fE^\tutti g
     f es es f es es r4
     r g8 as g f r4
@@ -63,7 +63,7 @@ E-II-VIIIAlto = {
     r2 r4 g8 g
     es es as as g4 f \noBreak
     es8 es4 d8 es4 r\fermata \bar "||" %100
-    \tempoE-II-VIIIVale R1*19 %119
+    \tempoE-II-IIIVale R1*19 %119
     R1\fermata %120
     R1*2
     \mvTr g4\fE^\tutti c,8 as' as4 g8 fis
@@ -74,13 +74,13 @@ E-II-VIIIAlto = {
     g g8([ f)] e2
     f4 as as as
     a2 g4 r %130
-    \tempoE-II-VIIIExora r4 es d2
+    \tempoE-II-IIIExora r4 es d2
     es4 es \once \tieDashed d2~
     d c\fermata \bar "|." %133 finis
   }
 }
 
-E-II-VIIIAltoLyrics = \lyricmode {
+E-II-IIIAltoLyrics = \lyricmode {
   Sal -- %34
   _ %35
   ve ra -- dix,
