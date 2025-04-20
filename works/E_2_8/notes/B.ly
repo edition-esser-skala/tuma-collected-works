@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-II-IBasso = {
+E-II-VIIIBasso = {
   \relative c {
     \clef bass
-    \key f \major \time 4/2 \tempoE-II-I \autoBeamOff
+    \key f \major \time 4/2 \tempoE-II-VIII \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
     R\breve*2
     c1 d
@@ -28,7 +28,7 @@ E-II-IBasso = {
   }
 }
 
-E-II-IBassoLyrics = \lyricmode {
+E-II-VIIIBassoLyrics = \lyricmode {
   A -- ve %3
   Do -- mi -- na An -- ge --
   lo -- rum, sal -- %5
@@ -50,7 +50,7 @@ E-II-IBassoLyrics = \lyricmode {
   ra. %22 finis
 }
 
-E-II-IBassFigures = \figuremode {
+E-II-VIIIBassFigures = \figuremode {
   r1 <5>
   <6> <5 3>
   r <6>

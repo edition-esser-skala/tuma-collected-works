@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-II-IAlto = {
+E-II-VIIIAlto = {
   \relative c' {
     \clef treble
-    \key f \major \time 4/2 \tempoE-II-I \autoBeamOff
+    \key f \major \time 4/2 \tempoE-II-VIII \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
     r1 c
     d f
@@ -30,7 +30,7 @@ E-II-IAlto = {
   }
 }
 
-E-II-IAltoLyrics = \lyricmode {
+E-II-VIIIAltoLyrics = \lyricmode {
   A --
   ve, a --
   ve Re -- gi --

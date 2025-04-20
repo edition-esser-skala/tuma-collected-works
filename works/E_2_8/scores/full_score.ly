@@ -13,7 +13,7 @@
 
 \book {
   \bookpart {
-    \section "E.2.1" "Ave Regina cœlorum"
+    \section "E.2.8" "Ave Regina cœlorum"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -21,29 +21,29 @@
         \new ChoirStaff <<
           \new Staff {
             \incipit "Soprano" "soprano" #-20.5 #-0.3
-            \new Voice = "Soprano" { \dynamicUp \E-II-ISoprano }
+            \new Voice = "Soprano" { \dynamicUp \E-II-VIIISoprano }
           }
-          \new Lyrics \lyricsto Soprano \E-II-ISopranoLyrics
+          \new Lyrics \lyricsto Soprano \E-II-VIIISopranoLyrics
 
           \new Staff {
             \incipit "Alto" "alto" #-18.3 #-0.3
-            \new Voice = "Alto" { \dynamicUp \E-II-IAlto }
+            \new Voice = "Alto" { \dynamicUp \E-II-VIIIAlto }
           }
-          \new Lyrics \lyricsto Alto \E-II-IAltoLyrics
+          \new Lyrics \lyricsto Alto \E-II-VIIIAltoLyrics
 
           \new Staff {
             \incipit "Tenore" "tenor" #-19.7 #-0.3
-            \new Voice = "Tenore" { \dynamicUp \E-II-ITenore }
+            \new Voice = "Tenore" { \dynamicUp \E-II-VIIITenore }
           }
-          \new Lyrics \lyricsto Tenore \E-II-ITenoreLyrics
+          \new Lyrics \lyricsto Tenore \E-II-VIIITenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \E-II-IBasso }
+            \new Voice = "Basso" { \dynamicUp \E-II-VIIIBasso }
           }
-          \new Lyrics \lyricsto Basso \E-II-IBassoLyrics
+          \new Lyrics \lyricsto Basso \E-II-VIIIBassoLyrics
         >>
-        \new FiguredBass { \E-II-IBassFigures }
+        \new FiguredBass { \E-II-VIIIBassFigures }
       >>
       \layout { }
       \midi { \tempo 2 = 80 }

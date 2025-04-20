@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-II-ITenore = {
+E-II-VIIITenore = {
   \relative c' {
     \clef "treble_8"
-    \key f \major \time 4/2 \tempoE-II-I \autoBeamOff
+    \key f \major \time 4/2 \tempoE-II-VIII \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
     R\breve
     r1 f,
@@ -30,7 +30,7 @@ E-II-ITenore = {
   }
 }
 
-E-II-ITenoreLyrics = \lyricmode {
+E-II-VIIITenoreLyrics = \lyricmode {
   A -- %2
   ve Do -- mi --
   na An -- ge --

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-II-ISoprano = {
+E-II-VIIISoprano = {
   \relative c' {
     \clef treble
-    \key f \major \time 4/2 \tempoE-II-I \autoBeamOff
+    \key f \major \time 4/2 \tempoE-II-VIII \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
     f1 g
     b a2 a
@@ -30,7 +30,7 @@ E-II-ISoprano = {
   }
 }
 
-E-II-ISopranoLyrics = \lyricmode {
+E-II-VIIISopranoLyrics = \lyricmode {
   A -- ve,
   a -- ve Re --
   gi -- na coe --
