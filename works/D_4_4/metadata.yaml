@@ -1,0 +1,28 @@
+title: Nunc dimittis
+subtitle: Canticum Simeonis
+genre: canticle
+id: TumW C.4.4
+scoring: T (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.19194/4
+    rism: 600137195
+    url: https://data.onb.ac.at/rec/AC14297557
+    license: public domain
+    principal: true
+    notes: full score, 3 pages
+toe: |
+  – & trb & In \A1, trb 1/2 are not explicitly mentioned. \\
+lyrics:
+  Nunc dimittis servum tuum Domine,\\
+  secundum verbum tuum in pace.\\
+  Quia viderunt oculi mei salutare tuum,\\
+  quod parasti ante faciem omnium populorum.\\
+  Lumen ad revelationem gentium,\\
+  et gloriam plebis tuae Israel.\\
+  Gloria Patri et Filio et Spiritui Sancto,\\
+  sicut erat in principio et nunc et semper\\
+  et in saecula saeculorum, amen.\\[1ex]
+  (\bibleverse{Luk}(2:29-32))
