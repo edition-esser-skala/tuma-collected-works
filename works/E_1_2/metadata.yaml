@@ -1,0 +1,15 @@
+title: Alma Redemptoris mater
+id: TumW E.1.2
+genre: antiphon
+scoring: T, B (solo), vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15668
+    rism: 600137275
+    date: 1743
+    url: https://data.onb.ac.at/rec/AC14297561
+    license: public domain
+    principal: true
+    notes: 10 parts (T solo, B solo, vl (4×), vlc, vlne, org, maestro di cappella)
