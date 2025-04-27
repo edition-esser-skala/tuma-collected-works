@@ -1,0 +1,17 @@
+title: Ave Regina cœlorum
+id: TumW E.2.5
+genre: antiphon
+scoring: S, A, T, B (coro), cnto, fag, 2 trb, vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15675/1
+    rism: 600137294
+    date: 1742
+    url: https://data.onb.ac.at/rec/AC14297563
+    license: public domain
+    principal: true
+    notes: 24 parts (S (3×), A (3×), T (3×), B (3×), cnto, fag, trb 1, trb 2, vl (2×), vla (2×), vlc, vlne, org, maestro di cappella)
+toe: |
+  6 & org & 1st \quarterNote\ in \B1: \flat A16–G16–\flat A8 \\
