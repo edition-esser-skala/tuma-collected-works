@@ -1,0 +1,38 @@
+title: Miserere
+id: TumW D.3.3
+genre: psalm
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-GÖ
+    shelfmark: 2589
+    date: 1752-04-13
+    license: public domain
+    principal: true
+    notes: 9 parts (S, A, T, B, trb 1, trb 2, vl 1, vl 2, vlne, org)
+toe: |
+  25  & S     & bar in \B1: g′1–f′2 \\
+  28  & trb 2 & bar in \B1: \flat b1. \\
+  48  & S     & 2nd \halfNote\ in \B1: g′2 \\
+  49  & vl 2  & last \quarterNote\ in \B1: d′4 \\
+  51  & vl 1  & 3rd \halfNote\ in \B1: \flat a′2 \\
+  56  & B     & 3rd \halfNote\ in \B1: e2 \\
+  68  & B     & 2nd \halfNote\ in \B1: \flat d2 \\
+  167–277 & vla & In this movement, vl 2 is written in alto clef,
+                indicating that a vla should play instead of vl 2. \\
+  172 & vla   & bar in \B1: \flat f′16–\flat b′16–f′8 \\
+  223 & S     & bar in \B1: \flat d″4–b′4.–c″8 \\
+  263 & vla   & 3rd \quarterNote\ in \B1: f′4 \\
+  271 & vl 1  & 2nd \quarterNote\ in \B1: \flat e″16–\flat b″16–\flat e″16 \\
+  277 & vl 1  & bar in \B1: \flat e′2. \\
+  282 & A     & bar in \B1: d′8–d′8–\flat e′8–d′8–g′16–a′16–\flat b′4–a′8 \\
+  284 & T     & 1st \quarterNote\ in \B1: \flat b4 \\
+  285 & S     & 1st \eighthNote\ in \B1: \flat b′8 \\
+  287 & trb 2 & 4th \eighthNote\ in \B1: c′8 \\
+  309 & S     & 6th \eighthNote\ in \B1: \flat e″8 \\
+  347 & A     & 2nd \halfNote\ in \B1: g′4–\crotchetRest \\
+  362 & A     & 3rd \eighthNote\ in \B1: d′8 \\
+  366 & T     & 4th \eighthNote\ in \B1: g′8 \\
+  378 & T     & 7th \eighthNote\ in \B1: a8 \\
+  380 & S     & 7th \eighthNote\ in \B1: a′8 \\
