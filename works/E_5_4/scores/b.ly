@@ -2,17 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "trb 2")
+#(define option-instrument-name "b")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "E.5.5" "Sub tuum præsidium"
+    \section "E.5.4" "Sub tuum præsidium"
     \addTocEntry
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \E-V-VTromboneII }
+        \new Staff { \E-V-IVOrgano }
       >>
     }
   }

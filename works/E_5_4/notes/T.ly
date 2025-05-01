@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-V-VTenore = {
+E-V-IVTenore = {
   \relative c' {
     \clef "treble_8"
-    \key g \minor \time 4/4 \autoBeamOff \tempoE-V-V
+    \key g \minor \time 4/4 \autoBeamOff \tempoE-V-IV
     R1*2
     r2 r4 \mvTr d~\fE^\tuttiE
     d8 d b c d4 d8 d
@@ -22,7 +22,7 @@ E-V-VTenore = {
   }
 }
 
-E-V-VTenoreLyrics = \lyricmode {
+E-V-IVTenoreLyrics = \lyricmode {
   In __ %3
   ne -- ces -- si -- ta -- ti -- bus
   no -- stris li -- be -- ra nos sem -- %5

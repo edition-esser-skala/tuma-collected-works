@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-V-VSoprano = {
+E-V-IVSoprano = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoE-V-V
+    \key g \minor \time 4/4 \autoBeamOff \tempoE-V-IV
     r4 \mvTr d'\fE^\tuttiE d b8 c
     d8. g,16 g8 b a4 d8 d
     c4. b8 a a a8. a16
@@ -23,7 +23,7 @@ E-V-VSoprano = {
   }
 }
 
-E-V-VSopranoLyrics = \lyricmode {
+E-V-IVSopranoLyrics = \lyricmode {
   Sub tu -- um prae --
   si -- di -- um con -- fu -- gi -- mus,
   San -- cta De -- i Ge -- ne --

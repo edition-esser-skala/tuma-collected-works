@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-V-VAlto = {
+E-V-IVAlto = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoE-V-V
+    \key g \minor \time 4/4 \autoBeamOff \tempoE-V-IV
     R1
     r4 \mvTr g'8\fE^\tuttiE g g f f g
     a8. d,16 d8 g g4 fis
@@ -23,7 +23,7 @@ E-V-VAlto = {
   }
 }
 
-E-V-VAltoLyrics = \lyricmode {
+E-V-IVAltoLyrics = \lyricmode {
   No -- stras de -- pre -- ca -- ti -- %2
   o -- nes ne de -- spi -- ci --
   as in ne --

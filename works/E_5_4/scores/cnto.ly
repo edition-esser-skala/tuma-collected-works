@@ -7,12 +7,12 @@
 
 \book {
   \bookpart {
-    \section "E.5.5" "Sub tuum præsidium"
+    \section "E.5.4" "Sub tuum præsidium"
     \addTocEntry
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \E-V-VCornetto }
+        \new Staff { \E-V-IVCornetto }
       >>
     }
   }

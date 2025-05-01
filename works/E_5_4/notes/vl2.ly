@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-V-VViolinoII = {
+E-V-IVViolinoII = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \tempoE-V-V
+    \key g \minor \time 4/4 \tempoE-V-IV
     R1
     r4 g'8\fE g g f f g
     a8. d,16 d8 g g4 fis
