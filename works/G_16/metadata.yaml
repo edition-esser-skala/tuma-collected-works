@@ -1,0 +1,19 @@
+title: Litaniæ lauretanæ
+id: TumW G.16
+genre: litany
+scoring: S, A, T, B (solo), S, A, T, B (coro),2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-H
+    shelfmark: 879/1
+    license: public domain
+    principal: true
+    notes: 8 parts (S, A, T, B, vl 1, vl 2, vlne, org)
+toe: |
+  12  & vl 2 & grace note added by editor \\
+  77  & T    & 5th \eighthNote\ in \B1: b16–b16 \\
+  79  & vl 1 & 3rd \eighthNote\ in \B1: a′8 \\
+  93  & vl 1 & 5th \sixteenthNote\ in \B1: \sharp c″16 \\
+  120–157 & vl & Slurs in these bars have been tacitly emended. \\*
+  138 & vl 1 & 12th \sixteenthNote\ in \B1: g′16 \\
