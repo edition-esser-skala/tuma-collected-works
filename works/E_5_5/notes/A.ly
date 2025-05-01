@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-V-VIAlto = {
+E-V-VAlto = {
   \relative c' {
     \clef treble
-    \key e \minor \time 4/4 \tempoE-V-VI \autoBeamOff
+    \key e \minor \time 4/4 \tempoE-V-V \autoBeamOff
     r2 \mvTr e\fE^\tuttiE
     h'4 h8 h h4 a
     a g fis4. fis8
@@ -23,7 +23,7 @@ E-V-VIAlto = {
   }
 }
 
-E-V-VIAltoLyrics = \lyricmode {
+E-V-VAltoLyrics = \lyricmode {
   Con --
   fu -- gi -- mus, San -- cta
   De -- i Ge -- ni --

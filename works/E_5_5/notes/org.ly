@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-V-VIOrgano = {
+E-V-VOrgano = {
   \relative c {
     \clef treble
-    \key e \minor \time 4/4 \tempoE-V-VI
+    \key e \minor \time 4/4 \tempoE-V-V
     << {
       h''2 h4 e~
       e d c2
@@ -29,7 +29,7 @@ E-V-VIOrgano = {
   }
 }
 
-E-V-VIBassFigures = \figuremode {
+E-V-VBassFigures = \figuremode {
   r1
   r
   r2 <4>4 <_+>

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-V-VITromboneII = {
+E-V-VTromboneII = {
   \relative c' {
     \clef tenor
-    \key e \minor \time 4/4 \tempoE-V-VI
+    \key e \minor \time 4/4 \tempoE-V-V
     R1*2
     r2 h4.\fE h8
     e4. e8 e4 d!

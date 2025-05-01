@@ -2,17 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "fag")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "E.5.6" "Sub tuum praesidium"
+    \section "E.5.5" "Sub tuum praesidium"
     \addTocEntry
     \paper { system-count = #3 }
     \score {
       <<
-        \new Staff { \E-V-VIOrgano }
+        \new Staff { \E-V-VFagotto }
       >>
     }
   }

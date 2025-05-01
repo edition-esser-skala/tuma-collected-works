@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-V-VIBasso = {
+E-V-VBasso = {
   \relative c {
     \clef bass
-    \key e \minor \time 4/4 \tempoE-V-VI \autoBeamOff
+    \key e \minor \time 4/4 \tempoE-V-V \autoBeamOff
     R1*3
     \mvTr e4.\fE^\tuttiE e8 h'4 h8 h
     h4 a a g8([ fis)] %5
@@ -21,7 +21,7 @@ E-V-VIBasso = {
   }
 }
 
-E-V-VIBassoLyrics = \lyricmode {
+E-V-VBassoLyrics = \lyricmode {
   Ne de -- spi -- ci -- as %4
   in ne -- ces -- si -- %5
   ta -- ti -- bus no --

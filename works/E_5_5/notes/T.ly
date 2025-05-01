@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-V-VITenore = {
+E-V-VTenore = {
   \relative c' {
     \clef "treble_8"
-    \key e \minor \time 4/4 \tempoE-V-VI \autoBeamOff
+    \key e \minor \time 4/4 \tempoE-V-V \autoBeamOff
     R1*2
     r2 \mvTr h4.\fE^\tuttiE h8
     e4. e8 e4 d!
@@ -22,7 +22,7 @@ E-V-VITenore = {
   }
 }
 
-E-V-VITenoreLyrics = \lyricmode {
+E-V-VTenoreLyrics = \lyricmode {
   No -- stras %3
   de -- pre -- ca -- ti --
   o -- nes %5

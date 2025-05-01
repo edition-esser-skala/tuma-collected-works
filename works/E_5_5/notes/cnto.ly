@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-V-VICornetto = {
+E-V-VCornetto = {
   \relative c' {
     \clef soprano
-    \key e \minor \time 4/4 \tempoE-V-VI
+    \key e \minor \time 4/4 \tempoE-V-V
     h'2\fE h4 e8 e
     e8. d16 d8 d c8. c16 c4
     h8 e, e' e e4 dis

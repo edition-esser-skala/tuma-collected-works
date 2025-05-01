@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-V-VIFagotto = {
+E-V-VFagotto = {
   \relative c {
     \clef bass
-    \key e \minor \time 4/4 \tempoE-V-VI
+    \key e \minor \time 4/4 \tempoE-V-V
     R1*3
     e4.\fE e8 h'4 h8 h
     h4 a a g8 fis %5
