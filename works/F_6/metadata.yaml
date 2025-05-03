@@ -1,0 +1,22 @@
+title: Stabat mater
+id: TumW F.6
+genre: sequence
+scoring: S, A, T, B (solo), S, A, T, B (coro), a-trb, 2 vl, 2 vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-SEI
+    shelfmark: R 34
+    date: ca. 1770
+    url: https://data.onb.ac.at/rec/AC14297615
+    license: public domain
+    principal: true
+    notes: 10 parts (S, A, T, B, a-trb, vl 1, vl 2, vla 1, vla 2, org)
+toe: |
+  12–15 & vla & The 2nd \eighthNote\ in bar 12 to the 1st \quarterNote\
+                in bar 15 are written in bass clef, likely indicating
+                that the directive “col basso” in the (lost) autograph
+                was interpreted too literally. \\
+  282   & org & 1st \quarterNote\ in \B1: \flat 4 \\
+  333   & S   & 1st \quarterNoteDotted\ in \B1: c″4. \\
+  336   & org & last \eighthNote\ in \B1: \flat b8 \\
