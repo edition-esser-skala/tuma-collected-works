@@ -1,0 +1,24 @@
+title: Sinfonia
+id: TumW J.17
+genre: sinfonia
+scoring: 2 vl, bc
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-SEI
+    shelfmark: V 1034
+    rism: 600025926
+    license: public domain
+    principal: true
+    notes: 3 parts (vl 1, vl 2, b)
+toe: |
+  2   & bc   & last \eighthNote\ in \B1: A8 \\
+  25  & vl 2 & 1st \quarterNote\ in \B1: d′4 \\
+  27  & vl 2 & 2nd \quarterNote\ in \B1: g′4 \\
+  29  & vl 1 & 2nd \quarterNote\ in \B1: \sharp a′4 \\
+  39  & bc   & 5th \eighthNote\ in \B1: a8 \\
+  50  & bc   & bar in \B1: \sharp c2–\sharp f4 \\
+  57  & bc   & 3rd \quarterNote\ in \B1: \sharp c4 \\
+  77  & vl 2 & 1st \eighthNote\ in \B1: d′8 \\
+  86  & vl 1 & 1st \eighthNote\ in \B1: g″8 \\*
+  101 & vl 2 & bar in \B1: \sharp f′8–\sharp c′8 \\
