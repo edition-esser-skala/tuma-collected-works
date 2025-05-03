@@ -1,0 +1,14 @@
+title: Sub tuum praesidium
+id: TumW E.5.7
+genre: hymn
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-H
+    shelfmark: 879/2
+    license: public domain
+    principal: true
+    notes: 8 parts (S, A, T, B, vl 1, vl 2, vlne, org)
+toe: |
+  8 & A & 4th \quarterNote\ in \B1: e′4 \\
