@@ -1,0 +1,30 @@
+title: Messa All’Onor’è Preggio del Gran’ Patriarcha San Benedetto
+subtitle: Missa Sancti Benedicti
+id: TumW A.22
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), 2 tr (C), timp (C–G), 2 trb, 2 vl, vlc solo, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: E 3/26
+    license: public domain
+    principal: true
+    notes: full score (42 pages)
+  B1:
+    siglum: A-Ws
+    shelfmark: E 3/20
+    date: 1739
+    license: public domain
+    principal: true
+    notes: 26 parts (S solo, A solo, T solo, B solo, S rip, A rip, T rip, B rip, clno 1, clno 2, tr 1, tr 2, trb 1, trb 2, timp, vl 1 (3×), vl 2 (3×), vlc, vlne, fag, org, maestro di cappella)
+tocstyle: default
+toe: |
+  1 & 158–215 & vl 2 & \B1 contains an alternative part where vl 2 plays colla parte with A. \\
+  2 & 33 & B    & bar in \A1 and \B1: c2. \\
+    & 60 & –    & Adagio only appears in \B1 \\
+    & 64 & vl 1 & 2nd \quarterNote\ in \A1 and \B1: a′4 \\
+    & 70 & B    & 1st \eighthNote\ in \A1: c8 \\
+    & 79 & vl 1 & 3rd \quarterNote\ missing in \A1 \\
+parts:
+  ottoni: Clarino I, II in C\\Tromba I, II in C\\Timpani in C–G
