@@ -21,10 +21,11 @@ sources:
 tocstyle: default
 toe: |
   1 & 158–215 & vl 2 & \B1 contains an alternative part where vl 2 plays colla parte with A. \\
-  2 & 33 & B    & bar in \A1 and \B1: c2. \\
-    & 60 & –    & Adagio only appears in \B1 \\
-    & 64 & vl 1 & 2nd \quarterNote\ in \A1 and \B1: a′4 \\
-    & 70 & B    & 1st \eighthNote\ in \A1: c8 \\
-    & 79 & vl 1 & 3rd \quarterNote\ missing in \A1 \\
+  2 & 33  & B    & bar in \A1 and \B1: c2. \\
+    & 60  & –    & Adagio only appears in \B1 \\
+    & 64  & vl 1 & 2nd \quarterNote\ in \A1 and \B1: a′4 \\
+    & 70  & B    & 1st \eighthNote\ in \A1: c8 \\
+    & 79  & vl 1 & 3rd \quarterNote\ missing in \A1 \\
+    & 146 & org  & 4th \quarterNote\ in \A1 and \B1: \crotchetRest \\
 parts:
   ottoni: Clarino I, II in C\\Tromba I, II in C\\Timpani in C–G

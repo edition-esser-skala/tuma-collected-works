@@ -50,7 +50,7 @@ A-XXIIKyrieFugaTrombaI = {
 
 A-XXIIGloriaTrombaI = {
   \relative c' {
-    \clef treble
+    \clef alto
     \key c \major \time 3/4 \tempoA-XXIIGloria
     R2.*2
     c4\fE r r
@@ -76,7 +76,7 @@ A-XXIIGloriaTrombaI = {
 
 A-XXIILaudamusTrombaI = {
   \relative c' {
-    \clef treble
+    \clef alto
     \key c \major \time 4/4 \tempoA-XXIILaudamus
       \set Score.currentBarNumber = #34
     R1*26 %59
@@ -92,5 +92,40 @@ A-XXIILaudamusTrombaI = {
     R1*3 %77
     r2 r4 r8 g
     g4. g8 g4 r \bar "|" %79 finis
+  }
+}
+
+A-XXIIDomineTrombaI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXIIDomine
+      \set Score.currentBarNumber = #118
+    R1
+    g'4\fE g g r
+    g g8 g g4 r %120
+    R1*3
+    r2 r4 r8 g
+    g4 r r2 %125
+    R1*29 %154
+    r2 r4 r8 g %155
+    g4 r r2
+    R1
+    r2 g4 g8 g
+    g4 r r2\fermata \bar "||" %159 finis
+  }
+}
+
+A-XXIICumSanctoTrombaI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIICumSancto
+      \set Score.currentBarNumber = #282
+    R1*25 %306
+    r4 r8 g'\fE g4 r8 g
+    g4 r r2
+    R1*4 %312
+    g4 r r2
+    r g8 g g4
+    g g g r\fermata \bar "|." %315 finis
   }
 }

@@ -106,3 +106,79 @@ A-XXIILaudamusClarinoI = {
     e4. d8 c4 r \bar "|" %79 finis
   }
 }
+
+A-XXIIDomineClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIIDomine
+      \set Score.currentBarNumber = #118
+    R1
+    c''4\fE h c r
+    c g8 f16 e d8 d r4 %120
+    R1*3
+    r2 r8 a' g8. g16
+    g4 r r2 %125
+    R1*29 %154
+    r2 r8 a g8. g16 %155
+    g4 r r2
+    R1
+    r4 r8 a g4. g8
+    e2 r\fermata \bar "||" %159 finis
+  }
+}
+
+A-XXIIQuoniamClarinoSolo = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIIQuoniam
+      \set Score.currentBarNumber = #237
+    R1*4 %240
+    r2 r8 g''\fE d g
+    a a a h16 c h a g8 r4
+    r8 c, g c d d d e16 f
+    e d c8 r g' a16 g f a \appoggiatura b8 a4\trill
+    h16 a g h \appoggiatura c8 h4\trill c16 h a c c4\trill %245
+    d16 c h a g f e d e4 r
+    r8 g \tuplet 3/2 8 { \sbOn a16 g a h a h \sbOff } c4 r8 g,
+    e4 r r2
+    R1*8 %256
+    r2 r4 r8 g'
+    c h16 a g8 f e16 d c8 r c16 c
+    d8 c g' c, d c r g'16 g
+    a f d8 r f16 f g e c8 r4 %260
+    R1*2
+    r8 e\pE a16 e a g f4 g16 d g f
+    e4 f16 c f e d4 e16 e, e' d
+    c4 r r2 %265
+    e16\fE d c e e4\trill f16 e d f \appoggiatura g8 f4\trill
+    g16 f e g g4\trill a16 g f g a8 h
+    c c, r4 r2
+    R1*5 %273
+    r2 r8 g' d g
+    a a a h16 c h a g8 r4 %275
+    r8 c, g c d d d e16 f
+    e d c8 r g' a16 g f a a4\trill
+    h16 a g h h4\trillE c16 h a c c4\trillE
+    d16 c h a g f e d e4 r
+    r8 g \tuplet 3/2 8 { \sbOn a16 g a h a h \sbOff } c4 r %280
+    e,,8 e16 e e4 r2\fermata \bar "||" %281 finis
+  }
+}
+
+A-XXIICumSanctoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIICumSancto
+      \set Score.currentBarNumber = #282
+    R1*22 %303
+    c'2\fE e
+    g a4. a8 %305
+    \pa g2 r4 g \pd
+    f4. f8 e g f e
+    d4 r r2
+    R1*4 %312
+    g4 r r2
+    r g8 g g4
+    g g e r\fermata \bar "|." %315 finis
+  }
+}

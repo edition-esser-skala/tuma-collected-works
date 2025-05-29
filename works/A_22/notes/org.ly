@@ -779,3 +779,470 @@ A-XXIIGratiasBassFigures = \figuremode {
   <7> <6> <6 5> <_+>4 <6\\>4.
   <_+>4 <4\+ 2> <6> <6 5>8 <_+> %117 finis
 }
+
+A-XXIIDomineOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XXIIDomine
+      \set Score.currentBarNumber = #118
+    \mvTr a'4\fE-\tutti e a, r
+    c' g c, r
+    c e8 f g4 r %120
+    g8 e a4. g8 f e
+    d e16 f g4. f8 e d
+    c d16 e f8 e d e16 f g8 f
+    e f16 g a8 g f d g4
+    c, r c' c,8 d16 e %125
+    f8 e d e16 f g8 f e f16 g
+    a8 g f g c,4 \clef treble g''-!
+    a-! \parOn e-\parenthesize-! f8-! a-! g-! \parOff f-\parenthesize-!
+    \clef "treble_8" << {
+      e4 e8 f g2~
+      g4 f
+    } \\ {
+      c4 c8 c e4 h %129
+      c8 e d c
+    } >> \clef bass g4 g8 g %130
+    a4 e f8 a g f
+    e4 \clef "treble_8" a2 \clef bass g4~
+    g \once \tieDashed f~ f8 e16 f d8 g
+    e c e4 f fis
+    g g, a2 %135
+    h c
+    \clef "treble_8" d' e
+    \clef bass f, f4 f
+    g2 f
+    e4 e8 e f[ e16 f] g8[ f16 g] %140
+    e8 c d2 f4
+    f( e) f \clef "treble_8" e
+    f c'2 b4
+    \clef bass f2 f4 f
+    g2 f4 e8 e %145
+    f8 e16 f g8 f16 g e8 c \clef "treble_8" << {
+      a''8 g
+      f e \once \tieDashed f4~ f g8 f
+      e d e4 c8 d e4
+    } \\ {
+      c~-\critnote %146
+      c d8 c h a \once \tieDashed h4~
+      h c8 b a h? c4
+    } >>
+    \clef bass g4 a8 g f e f4~
+    f g8 f e d e4 %150
+    f e8 f g4 r
+    g8 e a4. g8 f e
+    d e16 f g4. f8 e d
+    c d16 e f8 e d e16 f g8 f
+    e f16 g a8 g f d g g, %155
+    c4 r c c8 d16 e
+    f8 e d e16 f g8 f e f16 g
+    a4 g8 f g4 g,
+    c2 r\fermata \bar "||" %159 finis
+  }
+}
+
+A-XXIIDomineBassFigures = \figuremode {
+  r4 <_+>2. %118
+  <[5!]>1
+  r %120
+  <6>
+  r
+  r
+  r2 <[6 5]>
+  r1 %125
+  r
+  r8 <6 4> <6 5>2.
+  r1
+  r
+  r2 <7>8 <6> <5>4 %130
+  r4 \bo <[6 _]> r4. <6>8
+  q1
+  <2>4 <6> <2> <6>
+  <7> <6>2 q4
+  r2 <7>4 <6> %135
+  <6 5>1
+  <7>4 <6-> <6 5->2
+  r2. <6>4
+  <5 _-> <6 \t>2.
+  <6>2 q4 <_!> %140
+  <6>1
+  <4- 2>4 <6>2 q4
+  r2 <2>4 <6>
+  <4-> <3>2.
+  <5 _->4 <6 \t>2 <6>4 %145
+  q <_!> <6>2
+  r1
+  r
+  <4>8 <3>2 <6>8 q <5>
+  <4 2>2 <6 5>4 <6>8 <5-> %150
+  <3> <4!> <6>2.
+  q1
+  r
+  r
+  r2 <6 5> %155
+  r1
+  r
+  r4 <5 4>8 <6 5> <5 4>4 \bc <[\t 3]>
+  r1 %159 finis
+}
+
+A-XXIIQuiTollisOrgano = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 3/2 \tempoA-XXIIQuiTollis
+      \set Score.currentBarNumber = #160
+    \mvTr g2\fE-\solo g' g,
+    g' c1
+    d b2
+    c a1
+    b b,2
+    c1 cis2 %165
+    d1 d2
+    es1.
+    d2 c1
+    h1.
+    b %170
+    a
+    b1 c2
+    d1 d'2~
+    d c b
+    a d c %175
+    b c d
+    g,1.
+    g,2\pE c1
+    d b'2
+    b1 a2 %180
+    a1 g2
+    c1 c,2
+    d1 d2\fE
+    a'1 a,2
+    d1. %185
+    a\pE
+    d1 f2
+    g1 g,2
+    a1.
+    d2 a' a, %190
+    d e fis
+    g c1
+    d2 b1
+    c2 a1
+    b2 d, c %195
+    h1.
+    c
+    a
+    b!
+    g %200
+    a
+    fis
+    g1 a2
+    b1 c2
+    d1 c2 %205
+    h c b
+    a b g
+    c1 cis2
+    d c b
+    c d d, %210
+    g1.\fE
+    d'1 b2
+    c1 a2
+    b1 b2
+    es1. %215
+    d2 c1
+    h1.
+    b
+    a
+    b1 c2 %220
+    d1 d'2
+    d c b
+    a d c
+    b c d \bar "|" %224 finis
+  }
+}
+
+A-XXIIQuiTollisBassFigures = \figuremode {
+  r1. %160
+  r2 <6> <5>
+  <_+>1 <6>2
+  r q <5>
+  r1.
+  <7>2 <6> <5 [_!]> %165
+  <_+>1.
+  <7>2 <6>1
+  <_+>2 <4\+ 2>1
+  <6> <5>2
+  <4! 2>1. %170
+  <6>1 <[5-]>2
+  r1 <6>4 <5>
+  <_+>1.
+  <2->1 <4! 2>2
+  <6[!]>1 <4\+ 2>2 %175
+  <6> <6 5> <_+>
+  r1.
+  r2 <6> <5>
+  <_+>1 <[6]>2
+  <4- 2>1 <6[!]>2 %180
+  <4 2>1 <6>2
+  <7> <6> <5>
+  <_+>1.
+  <5[!] 4>2 <\t _+>1
+  <[_!]>1. %185
+  <6 4>2 <5[!] _+>1
+  r1.
+  <10- 9>2 <\t 8> <6>4 <5>
+  <9 _+>2 <8 \t>1
+  r2 <[5!] _+>1 %190
+  r1.
+  r2 <6 [_-]> <5>
+  <_+> <6>1
+  r2 <6[!]> <5>
+  r1. %195
+  <6 5>
+  r
+  q
+  r
+  q %200
+  r
+  q
+  r1 <6\\>2
+  <6>1.
+  <_+>1 <4[!] 2>2 %205
+  <6 5> <_!> <4- 2>
+  <6 5>1.
+  <7>2 <6-> <5 [_!]>
+  <[5!] _+>1 <6>2
+  <6 5> <_+>1 %210
+  r1.
+  <_+>1 <6>2
+  r1 <[6!]>2
+  r1.
+  <7>2 <6>1 %215
+  <_+>2 <[4\+] 2>1
+  <6>1.
+  <4! 2>
+  <6>1 <[5-]>2
+  r1 <6>4 <5> %220
+  <_+>1.
+  <2->1 <4! 2>2
+  <6>1 <4\+ 2>2
+  <[6]> <6 5> <_+> %224 finis
+}
+
+A-XXIIQuiSedesOrgano = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \tempoA-XXIIQuiSedes
+      \set Score.currentBarNumber = #225
+    g4\fE \clef treble g''2-\tutti \clef bass h,,4
+    c2 g4 h
+    c c g' g,
+    \clef treble \tempoA-XXIIQuiSedesB << { r2 as''4 as } \\ { g g g f } >>
+    \clef bass d, d es2
+    \clef treble c'' \clef "treble_8" des,2 %230
+    \clef bass e, f
+    r f
+    es!1
+    r2 e
+    e1 %235
+    a,\fermata \bar "||" %236 finis
+  }
+}
+
+A-XXIIQuiSedesBassFigures = \figuremode {
+  r2. \bo <[6]>4 %225
+  r2 \bc <[_!]>
+  r <_!>
+  r1
+  <6! 5->2 \bo <[9] 6>4 \bc <[8] \t>
+  r2 <7>4 <6[-]> %230
+  <6 5>2 \bo <[9] 4>4 \bc <[8] _->
+  r2 <_->
+  <4! 2>1
+  r2 <6 4>4 <5! _+>
+  <6 5[!]> <\t 4> <5[!] \t> <\t _+> %235
+  <[5!]>1 %236 finis
+}
+
+A-XXIIQuoniamOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XXIIQuoniam
+      \set Score.currentBarNumber = #237
+    \mvTr c'4\fE-\solo h c8 c,16 d e8 c
+    f e r e f e16 d e8 e
+    f4 d e c
+    d8 h c a g4 r8 h16 c %240
+    d8 h c a g4 g'~
+    g fis g r8 h,
+    c4 e f g
+    c, e f8 f f f
+    g g g g a a a a %245
+    h h h h c4 e,8 f
+    e e f d e e f g
+    c,4 h\pE c r8 h
+    c d e c f f, g h
+    c c c c h h h h %250
+    a a a a g g g g
+    d d d d g g g fis
+    g a h g r d' d h
+    c c e16 c a8 d d fis16 d h8
+    e e g16 e c8 d fis g h, %255
+    d c d d, g\fE g' fis4
+    g8 g,16 a h8 h c h r h'
+    c4 h c8 c,16 d e8 c
+    f! e r e f e16 d e8 e
+    f f d d c4 h\pE %260
+    c8 d e c d e f d
+    e fis gis e a g? f?4
+    e cis d h
+    c a h gis
+    a r8 a e' d e e, %265
+    a\fE a c c d d d d
+    e e e e f f f d
+    c4 f\pE d e
+    c d h! c
+    c, r8 c' g' f g g, %270
+    c4\fE h c8 c16 d e8 c
+    f e r e f e16 d e8 e
+    f4 d e c
+    d8 h c a g4 h'
+    c d g, r8 h, %275
+    c4 e f! g
+    c e, f8 f f f
+    g g g g a a a a
+    h h h h c f, e f
+    e e f d e e f g %280
+    c,2~ c4 r\fermata \bar "||" %281 finis
+  }
+}
+
+A-XXIIQuoniamBassFigures = \figuremode {
+  r4 \bo <[6]>8 \bc <[5]> r2 %237
+  <6>8 q4 q8 q q4.
+  \bo <[5]>8 \bc <[6]> <6>4 <5>8 <6> q4
+  r8 q4 <6\\>8 r2 %240
+  r4. <6\\>8 r2
+  <2>4 <6>2.
+  r2 <6 5>
+  r <5>4 <6>
+  <5> <6> <5> <6> %245
+  <5> <6>2.
+  r4. q8 q4 <6 5>
+  r <6>8 <5> r2
+  r1
+  r2 <6> %250
+  <7>4 <6\\>2.
+  <_+>2.. \bo <[6]>8
+  r2.. \bc q8
+  r4 <6> <_+> <6>8 <[5\+]>
+  r4 <6> <7 _+>2 %255
+  <4>4 <_+>2 <6>8 <5>
+  r4 <6> q8 q4 \bo <[5!]>8
+  r4 <6>8 <5> r2
+  <6>8 q4 q8 q q4.
+  r8 q r2 q8 \bc <[5]> %260
+  r2 <6>8 <5> <2\+> <6 5>
+  <[_+]>2. <5>8 <6>
+  \bo <[_+]>4 \bc <[6]>2 <6[!]>4
+  r q2 q4
+  r2 \bo <[4]>4 \bc <[_+]> %265
+  r <6> <5> <6>
+  <5> <6> <5>4. <6>8
+  r2 <5>8 <6-> <5->4
+  <5>8 <6>4. <5>8 <6>4.
+  r1 %270
+  r
+  <6>8 q4 q8 q <[6]>4.
+  \bo <[5]>8 \bc <[6]> <6>4 <5>8 <6> q4
+  r8 q4 <6\\>8 r2
+  <6 5>4 <_+>2. %275
+  r2 <6 5>
+  r <5>4 <6>
+  <5> <6> <5> <6>
+  <5> <6>2 q4
+  q4. <[6]>8 <6>4 <[6 5]> %280
+  r1 %281 finis
+}
+
+A-XXIICumSanctoOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XXIICumSancto
+      \set Score.currentBarNumber = #282
+    \mvTr c2-!\fE-\tutti e-!
+    g-! a4.-! a8-!
+    << {
+      g2 a %284
+      c d4. d8
+    } \\ {
+      g,2 r8 f c d %284
+      e f16 g a2 g8 f
+    } >>
+    e4. d8 c2
+    h4 c a d
+    e2 \clef "treble_8" f4. f8
+    e4 f2 g4
+    \clef bass c,2 e %290
+    g a4. a8
+    g4 r r8 f c d
+    e f16 g a2 g8 f
+    e c r4 c2
+    e g %295
+    d f
+    a g4 r
+    \clef "treble_8" g2 h
+    d a
+    c e8 \clef bass a,[ e f] %300
+    g4 f8 e d4 e
+    f e8 d c4 d
+    e1
+    a,2 r8 a' g! f
+    e d c h c a d d, %305
+    g e' c d e f e c
+    f d g g, c4 r8 c
+    g'2 << { a } \\ { c, } >>
+    e g
+    a4. a8 g e d c %310
+    f g a2 g8 f
+    e d16 c d8 e f e16 d e8 f
+    g1
+    \once \tieDashed g,2~ g8 c g'4
+    c, g c, r\fermata \bar "|." %315 finis
+  }
+}
+
+A-XXIICumSanctoBassFigures = \figuremode {
+  r1 %282
+  r
+  r
+  r %285
+  <6>
+  q
+  r2 <5>4. <6>8
+  q4 <5> <6>2
+  r q %290
+  <5>4 <6> <7> <6\\>
+  r2. <6>8 <5>
+  <6>2 <4 2>
+  <[6]>1
+  r %295
+  r
+  <5>4 <6\\>2.
+  r2 <6>
+  r1
+  r2. <6>4 %300
+  <5>8 <6> <2> <[6]>4. <6>8 <5>
+  \bo <[9]> \bc <[8]> r2 <6>8 <5>
+  <7 _+>4 <6 4> <5 \t> <\t _+>
+  r1
+  <6>2 <6 5>4 <_+> %305
+  r2 <6>
+  r1
+  r
+  <6>2 <4>4 <3>
+  <3>2 r8 \bo <[6]>4. %310
+  r1
+  \bc q2.. <6 5>8
+  r1
+  <6 5>4 <\t 4> <5 3>2
+  r1 %315
+}

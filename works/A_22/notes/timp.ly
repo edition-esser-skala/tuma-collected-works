@@ -94,3 +94,38 @@ A-XXIILaudamusTimpani = {
     c4. g8 c4 r \bar "|" %79 finis
   }
 }
+
+A-XXIIDomineTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XXIIDomine
+      \set Score.currentBarNumber = #118
+    R1
+    c4\fE g c r
+    c c8 c g4 r %120
+    R1*3
+    r2 r4 r8 g
+    c4 r r2 %125
+    R1*29 %154
+    r2 r4 r8 g %155
+    c4 r r2
+    R1
+    r2 g4 g8 g
+    c4 r r2\fermata \bar "||" %159 finis
+  }
+}
+
+A-XXIICumSanctoTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XXIICumSancto
+      \set Score.currentBarNumber = #282
+    R1*25 %306
+    r4 r8 g\fE c4 r8 c
+    g4 r r2
+    R1*4 %312
+    g4 r r2
+    r g8 c g4
+    c g c r\fermata \bar "|." %315 finisxx
+  }
+}

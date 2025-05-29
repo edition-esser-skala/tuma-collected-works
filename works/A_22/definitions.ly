@@ -11,6 +11,12 @@ tempoA-XXIIGloria = \tempoMarkup "Allegro"
   tempoA-XXIIAdoramus = \tempoMarkup \markup \concat { "[Adagio] " \smaller \smaller \critnote }
   tempoA-XXIIGlorificamus = \tempoMarkup "Allegro"
 tempoA-XXIIGratias = \tempoMarkup "Tempo giusto"
+tempoA-XXIIDomine = \tempoMarkup "[Tempo giusto]"
+tempoA-XXIIQuiTollis = \tempoMarkup "Larghetto"
+tempoA-XXIIQuiSedes = \tempoMarkup "[Larghetto]"
+  tempoA-XXIIQuiSedesB = \tempoMarkup "Adagio"
+tempoA-XXIIQuoniam = \tempoMarkup "Allegro"
+tempoA-XXIICumSancto = \tempoMarkup "Allegro"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"

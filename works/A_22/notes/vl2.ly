@@ -250,3 +250,101 @@ A-XXIILaudamusViolinoII = {
     g, c4 h8 c4 r \bar "|" %79 finis
   }
 }
+
+A-XXIIDomineViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIIDomine
+      \set Score.currentBarNumber = #118
+    c'4\fE h c d16 c h a
+    e'4 d e16 d c h a g f e
+    e'8 e e e d d d h %120
+    e4. d8 c h a h16 c
+    d4. c8 h a g a16 h
+    c8 h a h16 c d8 c h c16 d
+    e8 d c2 h4
+    c16 h a g f e d c g'8 a16 h c8 h %125
+    a h16 c d8 c h c16 d e8 d
+    c c4 h8 c4 r
+    R1*4 %131
+    c4 c8 c e4 h
+    c8 e d c h2
+    g a
+    h c %135
+    r r4 c~
+    c b~ b8 a16 \hA b g8 c
+    a f c'4~ c8 d16 c d4~
+    d8 e16 d e4 f f,
+    g c8 b a4 h %140
+    c r r2
+    r c
+    c4 c d2
+    c r4 c8 f
+    d c16 d e8 d16 e f8 f, c' c %145
+    d2 c4 r
+    R1*2
+    r2 c4 d8 c
+    h a h2 c8 b %150
+    a h c4 h d8 c16 h
+    e4. d8 c h a h16 c
+    d4. c8 h a g a16 h
+    c8 h a h16 c d8 c h c16 d
+    e8 d c2 h4 %155
+    c16 h a g f e d c e4 e8 f16 g
+    a8 g f e d e16 f g8 f
+    e4 g8 a g2
+    g r\fermata \bar "||" %159 finis
+  }
+}
+
+A-XXIIQuiSedesViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoA-XXIIQuiSedes
+      \set Score.currentBarNumber = #225
+    r2 r4 d'\fE
+    g,1
+    g
+    g4 g g f
+    f f f es
+    R1
+    g4 g g f
+    f f f2
+    f1
+    c4 c c h
+    h a2 gis4
+    a1\fermata \bar "||"
+  }
+}
+
+A-XXIICumSanctoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIICumSancto
+      \set Score.currentBarNumber = #282
+    R1*6 %287
+    g'2\fE a
+    c d4. d8
+    c2 r8 c g a %290
+    h c16 d e2 d8 c
+    h a g d' c4. h16 a
+    g4 f8 e f4 g
+    g1
+    R1*2 %296
+    r2 g
+    h d
+    a c
+    e r %300
+    r8 e h c d4 c8 h
+    a4 h c h8 a
+    gis4 a2 gis4
+    a r r2
+    R1*5 %309
+    r2 g %310
+    a c
+    c2. c4
+    h r r8 d h c16 d
+    e4. d16 c d8 e d4
+    c d e r\fermata \bar "|." %315 finis
+  }
+}

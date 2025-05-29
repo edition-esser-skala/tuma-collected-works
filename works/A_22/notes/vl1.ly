@@ -246,3 +246,151 @@ A-XXIILaudamusViolinoI = {
     e16 c' c, d \appoggiatura e8 d4\trill c^\critnote r \bar "|" %79 finis
   }
 }
+
+A-XXIIDomineViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIIDomine
+      \set Score.currentBarNumber = #118
+    a''4\fE gis\trill a16 g? f e d c h a
+    c'4 h c16 h a g f e d c
+    c'8 c c c h g d h %120
+    e4. d8 c h a h16 c
+    d4. c8 h a g a16 h
+    c8 h a h16 c d8 c h c16 d
+    e8 d c2 h4
+    c16 h a g f e d c e'4 e8 f16 g %125
+    a8 g f g16 a h8 a g a16 h
+    c8 e, \appoggiatura e d4\trill c r
+    R1*4 %131
+    c4 c8 c e4 h
+    c8 e d c h2
+    g a
+    h c %135
+    r r4 c~
+    c b~ b8 a16 \hA b g8 c
+    a f c'4~ c8 d16 c d4~
+    d8 e16 d e4 f f,
+    g c8 b a4 h %140
+    c r r2
+    r c
+    c4 c d2
+    c r4 c8 f
+    d c16 d e8 d16 e f8 f, c' c %145
+    d2 c4 r
+    R1*2
+    r2 c4 d8 c
+    h a h2 c8 b %150
+    a h c4 h d8 c16 h
+    e4. d8 c h a h16 c
+    d4. c8 h a g a16 h
+    c8 h a h16 c d8 c h c16 d
+    e8 d c2 h4 %155
+    c16 h a g f e d c g'8 a16 h c8 h
+    a h16 c d8 c h c16 d e8 d
+    c4 c8 c c4 h
+    c2 r\fermata \bar "||" %159 finis
+  }
+}
+
+A-XXIIQuiSedesViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoA-XXIIQuiSedes
+      \set Score.currentBarNumber = #225
+    r2 r4 d'\fE
+    g, c h d
+    c c h h
+    r2 as4 as
+    as2 g
+    c4 c c b! %230
+    b b b as
+    r2 as4 as
+    a2 a
+    a4 a a gis
+    c2 h %235
+    a1\fermata \bar "||" %236 finis
+  }
+}
+
+A-XXIIQuoniamViolinoIeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIIQuoniam
+      \set Score.currentBarNumber = #237
+    c''8\fE h16 a g8 f e c r c16 c
+    d8 c g' c, d c r g'16 g
+    a16 cis, d8 r f16 f g h, c8 r e16 e
+    f d c d e c h c d8 g, g'4 %240
+    f16 d e d e c h c d8 g, r4
+    r2 r8 g' g, g
+    g,4 r r2
+    r8 c'' c, c c,4 d~\p
+    d e2 f4~ %245
+    f g r8 c'\f c, c'
+    c,4 r r8 c16( d) \appoggiatura e8 d4\trill
+    c r c8 h16 a g8 f
+    e c r4 r2
+    r8 c' c, g' g,4 r %250
+    R1
+    r2 r8 d'' d, d'
+    d,4 r r8 d'' d,4
+    R1*2 %255
+    r2 g8\f fis16 e d8 c
+    h g r g16 g a8 g d'' f,!
+    \appoggiatura g16 f(\trill e) e8 r4 r2
+    R1*2 %260
+    r8 c c,4 r2
+    r8 e' e, e' e,4 r
+    r8 e' e,4 r2
+    R1*2 %265
+    r4 a2\p h4~
+    h c2 f4
+    e r8 a~ a g16 f g8 g~
+    g f16 e f8 f~ f e16 d e8 e
+    e, e' e,4 r2 %270
+    c''8\fE h16 a g8 f e c r c16 c
+    d8 c g' c, d c r g'16 g
+    a cis, d8 r f16 f g h, c8 r e16 e
+    f d c d e c h c d8 g, r4
+    r2 r8 g' g, g
+    g,4 r r2
+    r8 c'' c, c c, c' d4~
+    d e2 f4~
+    f g r8 c c, c'
+    c,4 r r8 c16( d) \appoggiatura e8 d4\trill
+    c8 g16 e c4 r2\fermata \bar "||"
+  }
+}
+
+A-XXIICumSanctoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIICumSancto
+      \set Score.currentBarNumber = #282
+    R1*6 %287
+    g'2\fE a
+    c d4. d8
+    c2 r8 c g a %290
+    h c16 d e2 d8 c
+    h a g d' c4. h16 a
+    g4 f8 e f4 g
+    g1
+    R1*2 %296
+    r2 g
+    h d
+    a c
+    e r %300
+    r8 e h c d4 c8 h
+    a4 h c h8 a
+    gis4 a2 gis4
+    a r r2
+    R1*5 %309
+    r2 g %310
+    a c
+    c2. c4
+    h r r8 d h c16 d
+    e4. d16 c d8 e d4
+    c d e r\fermata \bar "|." %315 finis
+  }
+}

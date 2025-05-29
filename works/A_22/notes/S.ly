@@ -498,24 +498,182 @@ A-XXIIGratiasSopranoLyrics = \lyricmode {
   tu -- am. %110 finis
 }
 
+A-XXIIDomineSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIIDomine
+      \set Score.currentBarNumber = #118
+    \mvTr c'8\fE^\tutti h16 a gis8 gis16 gis a8 a r4
+    e'8 e16 e d8 d16 d e8 e r4
+    e8 e e e d d d h %120
+    e4. d8 c[ h] a[ h16 c]
+    d4. c8 h[ a] g[ a16 h]
+    c8[ h] a[ h16 c] d8[ c] h[ c16 d]
+    e8[ d] c4~ c8 c h8. h16
+    c4 r r2 %125
+    R1*6 %131
+    c4 c8 c e4 h
+    c8 e d c h2
+    g a
+    h c %135
+    r r4 c~
+    c b~ b8[ a16 \hA b] g8 c
+    a f c'4~ c8[ d16 c] d4~
+    d8[ e16 d] e4 f f,
+    g c8([ b)] a4( h) %140
+    c r r2
+    r c
+    c4 c d2
+    c r4 c8 f
+    d([ c16 d] e8[ d16 e] f8) f, c' c %145
+    d2 c4 r
+    R1*2
+    r2 c4 d8 c
+    h[ a] h2 c8[ b] %150
+    a[ h] c4 h d8 c16 h
+    e4. d8 c[ h] a[ h16 c]
+    d4. c8 h[ a] g[ a16 h]
+    c8[ h] a[ h16 c] d8[ c] h[ c16 d]
+    e8[ d] c2 h4 %155
+    c r r2
+    R1
+    c4 c8 c c4( h)
+    c2 r\fermata \bar "|." %159 finis
+  }
+}
 
+A-XXIIDomineSopranoLyrics = \lyricmode {
+  Do -- mi -- ne, Do -- mi -- ne De -- us, %118
+  Do -- mi -- ne, Do -- mi -- ne De -- us,
+  De -- us, Rex coe -- le -- stis, De -- us %120
+  Pa -- _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ ter __ o -- mni -- po --
+  tens. %125
 
-% Do -- mi -- ne De -- us, Rex coe -- le -- stis,
-% De -- us Pa -- ter o -- mni -- po -- tens,
-% Do -- mi -- ne Fi -- li u -- ni -- ge -- ni -- te, Je -- su Chri -- ste,
-% Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris.
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram.
-% Qui se -- des ad dex -- te -- ram Pa -- tris:
-% Mi -- se -- re -- re no -- bis.
-% Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
-% tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
-% Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
+  Do -- mi -- ne Fi -- li %132
+  u -- ni -- ge -- ni -- te,
+  Je -- su
+  Chri -- ste, %135
+  Je --
+  _ _ su
+  Chri -- ste, Je -- _
+  su Chri -- ste,
+  Je -- su Chri -- %140
+  ste,
+  Do --
+  mi -- ne De --
+  us, A -- gnus
+  De -- i, A -- gnus %145
+  De -- i,
 
+  Fi -- li -- us %149
+  Pa -- _ _ %150
+  _ _ tris, Fi -- li -- us
+  Pa -- _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ %155
+  tris,
 
-% ## Credo
+  Fi -- li -- us Pa --
+  tris. %159 finis
+}
+
+A-XXIIQuiSedesSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoA-XXIIQuiSedes
+      \set Score.currentBarNumber = #225
+    r2 r4 \mvTr d'\fE^\tutti
+    c2 h4 d
+    c c8 c h4 h
+    r2 as4 as
+    as2 g
+    c4 c c b! %230
+    b b b as
+    r2 as4 as
+    a2 a
+    a4 a a gis
+    c2( h) %235
+    a1\fermata \bar "||" %236 finis
+  }
+}
+
+A-XXIIQuiSedesSopranoLyrics = \lyricmode {
+  Qui %225
+  se -- des ad
+  dex -- te -- ram Pa -- tris:
+  Mi -- se --
+  re -- re,
+  mi -- se -- re -- re, %230
+  mi -- se -- re -- re,
+  mi -- se --
+  re -- re,
+  mi -- se -- re -- re
+  no --
+  bis.
+}
+
+A-XXIICumSanctoSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIICumSancto
+      \set Score.currentBarNumber = #282
+    R1*6 %287
+    \mvTr g'2\fE^\tutti a
+    c d4. d8
+    c2 r8 c g a %290
+    h([ c16 d)] e2 d8([ c)]
+    h([ a)] g d' c4. h16([ a)]
+    g4 f8 e f4( g)
+    g1
+    R1*2 %296
+    r2 g
+    h d
+    a c
+    e r %300
+    r8 e h c d4 c8([ h]
+    a4) h c h8[ a]
+    gis4 a2 gis4
+    a r r2
+    R1*5 %309
+    r2 g %310
+    a c
+    c2. c4
+    h r r8 d h c16 d
+    e4. d16([ c)] d8 e d4
+    c d e r\fermata \bar "|." %315 finis
+  }
+}
+
+A-XXIICumSanctoSopranoLyrics = \lyricmode {
+  Cum San -- %288
+  cto Spi -- ri --
+  tu in glo -- ri -- %290
+  a __ De -- i __
+  Pa -- tris, in glo -- ri --
+  a De -- i Pa --
+  tris,
+
+  cum %297
+  San -- cto
+  Spi -- ri --
+  tu %300
+  in glo -- ri -- a De --
+  i Pa -- _
+  _ _ _
+  tris,
+
+  cum %310
+  San -- cto
+  Spi -- ri --
+  tu in glo -- ri -- a
+  De -- i Pa -- tris, a --
+  men, a -- men. %315 finis
+}
+
 
 % Cre -- do in u -- num De -- um,
 % Pa -- trem o -- mni -- po -- ten -- tem,

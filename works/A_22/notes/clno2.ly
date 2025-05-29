@@ -96,8 +96,44 @@ A-XXIILaudamusClarinoII = {
     r2 r8 e d c16 d
     e4 r8 d e4 r
     r g,8 g e4 r
-    R1*3
+    R1*3 %77
     r2 r4 r8 d'
-    c4. g8 e4 r \bar "|"
+    c4. g8 e4 r \bar "|" %79 finis
+  }
+}
+
+A-XXIIDomineClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIIDomine
+      \set Score.currentBarNumber = #118
+    R1
+    e'4\fE d e r
+    e c g8 g r4 %120
+    R1*3
+    r2 r8 f' d8. d16
+    e4 r r2 %125
+    R1*29 %154
+    r2 r8 f d8. d16 %155
+    e4 r r2
+    R1
+    r4 r8 f d4. d8
+    c2 r\fermata \bar "||" %159 finis
+  }
+}
+
+A-XXIICumSanctoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIICumSancto
+      \set Score.currentBarNumber = #282
+    R1*24 %305
+    g'2\fE c
+    d4. d8 c e d c
+    g4 r r2
+    R1*4
+    d'4 r r2
+    r d8 e d4
+    c d c r\fermata \bar "|."
   }
 }

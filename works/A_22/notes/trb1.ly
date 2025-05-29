@@ -148,3 +148,169 @@ A-XXIILaudamusTromboneI = {
     R1*5 \bar "|" %79 finis
   }
 }
+
+A-XXIIDomineTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXIIDomine
+      \set Score.currentBarNumber = #118
+    e8\fE e e e e e r4
+    g!8 g g g g g r4
+    g8 g g g g g r4 %120
+    g8 f e2 f8 g
+    f e d2 e8 f
+    e d c d16 e f8 e d e16 f
+    g8 f e4 f8 a g8. g16
+    g4 r r2 %125
+    R1
+    r2 g4 g8 g
+    a4 e f8 a g f
+    e4 e8 f g2~
+    g4 f~ f8 e16 f d8 g16 f %130
+    e8 f g4 a d,
+    e e8 e c4 d
+    e f8 e d4 h
+    e2 r
+    r4 g2 \once \tieDashed f4~ %135
+    f8 e16 f d8 g e c e4
+    f2 g
+    c,4 a'2 a4
+    b2 a4 r
+    R1 %140
+    r4 f f f
+    g2 f4 r
+    r e8 e f e16 f g8 f16 g
+    c,4 f2 a4
+    b2 a4 r %145
+    r g2 a8 g
+    f e f2 g8 f
+    e d e4 c8 d e4
+    d8 g16 f e4 f8 g a4
+    \once \tieDashed g2~ g4 e8 g %150
+    a4 g g r
+    g8. f16 e4 e f8 g
+    f e d2 e8 f
+    e d c d16 e f8 e d e16 f
+    g8 f e4 f8 a g4 %155
+    g r r2
+    R1
+    e4 g8 a g2
+    g r\fermata \bar "||" %159 finis
+  }
+}
+
+A-XXIIQuiTollisTromboneI = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 3/2 \tempoA-XXIIQuiTollis
+      \set Score.currentBarNumber = #160
+    r2 r \mvTr d\fE-\solo
+    b' a g
+    fis4 e d2 g
+    es4 d c2 f
+    d4 c b2 b'~
+    b a4 b g a %165
+    fis2 d d
+    g4 b, c2.\trill d4
+    d2 fis4 g e \hA fis
+    g2 g4 as f g
+    e2 e4( f) d( e) %170
+    f2 f4( g) es( f)
+    d2 b' a4 g
+    fis2 d d
+    es!1 e2
+    f!1 fis2 %175
+    g4 a a2.\trill g4
+    g2 g, r
+    R1.*5 %182
+    r2 a d
+    d cis4 d e2
+    f d\pE f %185
+    f e4 f g2
+    a f r
+    b1.~
+    b2 a4( g) f( e)
+    f( g) \appoggiatura f e1\trill %190
+    d2 r r
+    R1.*3
+    f2. f4 f2 %195
+    f4 es d c h f'
+    es1.~
+    es4 d c b a es'
+    d1.~
+    d4 c b a g d' %200
+    c1.~
+    c4 b a g fis c'
+    b2 g r
+    R1.*6 %209
+    r2 r d'\fE %210
+    b' a g
+    fis4 e? d2 g
+    es4 d c2 f
+    d4 c b2 d
+    g4 b, c2. d4 %215
+    d2 fis4( g) e( \hA fis)
+    g2 g4 as f g
+    e2 e4( f) d( e)
+    f2 f4 g es f
+    d2 b' a4 g %220
+    fis4 e? d2 d
+    es!1 e2
+    f!1 fis2
+    g4 a a2. g4 \bar "|"
+  }
+}
+
+A-XXIIQuiSedesTromboneI = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 4/4 \tempoA-XXIIQuiSedes
+      \set Score.currentBarNumber = #225
+    g'4 \mvTr g\fE-\tutti g2~
+    g g4 g
+    g g g g
+    \tempoA-XXIIQuiSedesB g g g f
+    f f f es
+    R1 %230
+    g4 g g f
+    f f f2
+    f1
+    r2 e4 e
+    e e e2 %235
+    e1\fermata \bar "||" %236 finis
+  }
+}
+
+A-XXIICumSanctoTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXIICumSancto
+      \set Score.currentBarNumber = #282
+    R1*4 %285
+    c2\fE e
+    g a4. a8
+    g2 r8 f c d
+    e f16 g a2 g8 f
+    e4 g8 f e2 %290
+    d4 g2 fis4
+    g r r2
+    R1
+    c,2 e
+    g d %295
+    f a4 a
+    e d8 c d4 r
+    r2 r8 g d e
+    f g a2 g8 f
+    e f g4 c,2 %300
+    r8 g' d e f4 e8 d
+    c4. d8 e4 f
+    h,8 c16 d e4 e2
+    e4 r r2
+    R1*6 %310
+    c2 e
+    g a4. a8
+    g4 g g8. g16 g4
+    g g g8 g g4
+    g g g r\fermata \bar "|." %315 finis
+  }
+}

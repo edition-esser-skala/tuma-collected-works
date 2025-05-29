@@ -150,3 +150,110 @@ A-XXIILaudamusTromboneII = {
     R1*5 \bar "|" %79 finis
   }
 }
+
+A-XXIIDomineTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoA-XXIIDomine
+      \set Score.currentBarNumber = #118
+    a8\fE a h h c c r4
+    c8 c h h c c r4
+    c8 c c c h h r4 %120
+    h8 h c2 d8. e16
+    a,4 h2 c8. d16
+    g,4 a2 h4~
+    h c d8 d d8. d16
+    e4 r r2 %125
+    R1*3
+    c4 c8 c e4 h
+    c8 e d c h2 %130
+    c4 c c h8 a
+    g4 a8 a a4 h
+    a r r d~
+    d c~ c8 h16 c a8 d
+    h g r4 e a %135
+    g2 g4 c
+    d2 e
+    f r
+    r c
+    c4 c d2 %140
+    c4 r r a8 a
+    b8 a16 \hA b c8 \hA b16 c a8 f e4
+    f c'2 b4~
+    b a8 g a4 c8 c
+    b2 c4 r %145
+    r2 r4 c~
+    c d8 c h8 a \once \tieDashed h4~
+    h c8 b a h? \once \tieDashed c4~
+    c8 h c2 a4
+    d2 \once \tieDashed c~ %150
+    c8 d e4 d r
+    h8 h c4 c d8. e16
+    a,4 h2 c8. d16
+    g,4 a2 h4~
+    h c d2 %155
+    e4 r r2
+    R1
+    c4 d8 d d2
+    e r\fermata \bar "||" %159 finis
+  }
+}
+
+A-XXIIQuiSedesTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key g \minor \time 4/4 \tempoA-XXIIQuiSedes
+      \set Score.currentBarNumber = #225
+    r2 r4 d\fE
+    es2 d4 d
+    es es d d
+    \tempoA-XXIIQuiSedesB R1
+    h4 h c c
+    r2 des4 des %230
+    c2 c
+    r c4 c
+    c2 c
+    c4 c c h~
+    h a2 gis4 %235
+    a1\fermata \bar "||" %236 finis
+  }
+}
+
+A-XXIICumSanctoTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoA-XXIICumSancto
+      \set Score.currentBarNumber = #282
+    R1*2
+    g2\fE a
+    c d4. d8 %285
+    c2 r8 c g a
+    h c16 d e2 d8 c
+    h a g e f4. f8
+    e4 f2 g4
+    g2 g4 r %290
+    R1
+    g2 a
+    c d4. d8
+    c2 r
+    r8 c g a h c d4~ %295
+    d c8 h a h c4~
+    c h8 a h4 r
+    g2 h
+    d a
+    c e %300
+    h4 g8 g a4 g8 g
+    g f g4 g d'~
+    d c h2
+    a4 r r2
+    R1*3 %307
+    g2 a
+    c c8 h16 c d4
+    c4. c8 h c d e %310
+    a, h c2 h8 a
+    g4 c2 d4
+    d8 d g, a h8. c16 d4~
+    d8 c16 h c4 h8 c h4
+    c h c r\fermata \bar "|." %315 finis
+  }
+}

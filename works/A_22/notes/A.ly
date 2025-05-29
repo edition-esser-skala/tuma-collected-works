@@ -347,3 +347,278 @@ A-XXIILaudamusAltoLyrics = \lyricmode {
   glo -- ri -- fi -- ca -- mus, glo --
   ri -- fi -- ca -- mus te. %74 finis
 }
+
+A-XXIIDomineAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIIDomine
+      \set Score.currentBarNumber = #118
+    \mvTr e8\fE^\tutti e16 e e8 e16 e e8 e r4
+    g!8 g16 g g8 g16 g g8 g r4
+    g8 g g g g g r4 %120
+    g8 f e2 f8[ g]
+    f[ e] d2 e8[ f]
+    e[ d] c[ d16 e] f8[ e] d[ e16 f]
+    g8[ f] e4 f8 a g8. g16
+    g4 r r2 %125
+    R1
+    r2 g4 g8 g
+    a4 e f8 a g f
+    e4 e8 f g2~
+    g4 f~ f8[ e16 f] d8[ g16 f] %130
+    e8[ f] g4 a d,
+    e e8 e c4 d
+    e f8 e d4 h
+    e2 r
+    r4 g2 \once \tieDashed f4~ %135
+    f8[ e16 f] d8 g e c e4
+    f2 g
+    c,4 a'2 a4
+    b2 a4 r
+    R1 %140
+    r4 f f f
+    g2 f4 r
+    r e8 e f[( e16 f] g8[ f16 g])
+    c,4 f2 a4
+    b2 a4 r %145
+    r g2 a8 g
+    f[ e] f2 g8[ f]
+    e[ d] e4 c8[ d] e4
+    d8[ g16 f] e4 f8[ g] a4
+    g2 g4 e8 g %150
+    a4( g) g r
+    g8. f16 e4 e f8[ g]
+    f[ e] d2 e8[ f]
+    e[ d] c[ d16 e] f8[ e] d[ e16 f]
+    g8[ f] e4 f8[ a] g4 %155
+    g r r2
+    R1
+    e4 g8 a g2
+    g r\fermata \bar "||" %159 finis
+  }
+}
+
+A-XXIIDomineAltoLyrics = \lyricmode {
+  Do -- mi -- ne, Do -- mi -- ne De -- us, %118
+  Do -- mi -- ne, Do -- mi -- ne De -- us,
+  De -- us, Rex coe -- le -- stis, %120
+  De -- us Pa -- _
+  _ _ _
+  _ _ _ _
+  _ _ ter o -- mni -- po --
+  tens. %125
+
+  Do -- mi -- ne
+  Fi -- li u -- ni -- ge -- ni --
+  te, u -- ni -- ge --
+  _ _ %130
+  _ _ _ ni --
+  te, u -- ni -- ge -- ni --
+  te, u -- ni -- ge -- ni --
+  te,
+  Je -- _ %135
+  _ su Chri -- ste, Je --
+  su Chri --
+  ste, Je -- su
+  Chri -- ste,
+  %140
+  Do -- mi -- ne
+  De -- us,
+  A -- gnus De --
+  i, A -- gnus
+  De -- i, %145
+  Fi -- li -- us
+  Pa -- _ _
+  _ _ _ _
+  _ _ _ _
+  tris, Fi -- li -- us %150
+  Pa -- tris,
+  Fi -- li -- us Pa -- _
+  _ _ _
+  _ _ _ _
+  _ _ _ _ %155
+  tris,
+
+  Fi -- li -- us Pa --
+  tris. %159 finis
+}
+
+A-XXIIQuiTollisAlto = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/2 \autoBeamOff \tempoA-XXIIQuiTollis
+      \set Score.currentBarNumber = #160
+    R1.*17 %176
+    r2 r \mvTr d\pE^\soloE
+    b' a g
+    fis4( e?) d2 g
+    es c f %180
+    d b b'
+    b a4( \once \stemUp b g a)
+    fis2 d r
+    R1.
+    r2 a d %185
+    d( cis4 d) e2
+    f d a'~
+    a g4 f es?( d)
+    cis1.
+    d4( e) cis1 %190
+    d d2
+    b' a g
+    fis4( e) d2 d
+    es4( g f2) es
+    d4( c) b2 r %195
+    g'2. g4 g2
+    g4( f) es( d) c( g')
+    f1.~
+    f4 es d c b f'
+    es1.~ %200
+    es4 d c b a es'
+    \once \tieDashed d1.~
+    d2 e fis
+    g( b) a4( g)
+    fis( e?) d2 f~ %205
+    f4 g e2 es~
+    es4 f d2 b'~
+    b as( g)
+    fis e4( d) g2~
+    g4 a a1\trill %210
+    g r2
+    R1.*13 \bar "|" %224 finis
+  }
+}
+
+A-XXIIQuiTollisAltoLyrics = \lyricmode {
+  Qui %177
+  tol -- lis pec --
+  ca -- ta, qui
+  tol -- lis pec -- %180
+  ca -- ta, pec --
+  ca -- ta __
+  mun -- di:
+
+  Mi -- se -- %185
+  re -- re
+  no -- bis, mi --
+  _ _ se --
+  re --
+  re __  no -- %190
+  bis. Qui
+  tol -- lis pec --
+  ca -- ta, pec --
+  ca -- ta
+  mun -- di: %195
+  Su -- sci -- pe
+  de -- _ pre --
+  ca --
+  _ _ _ _ _
+  _ %200
+  _ _ _ _ _
+  _
+  _ ti --
+  o -- nem
+  no -- stram, su -- %205
+  sci -- pe, su --
+  sci -- pe de --
+  pre --
+  ca -- ti -- o --
+  nem no -- %210
+  stram. %211 finis
+}
+
+A-XXIIQuiSedesAlto = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoA-XXIIQuiSedes
+      \set Score.currentBarNumber = #225
+    r4 \mvTr g'\fE^\tutti g2~
+    g g4 g
+    g g8 g g4 g
+    \tempoA-XXIIQuiSedesB g g g f
+    f f f es
+    R1 %230
+    g4 g g f
+    f f f2
+    f1
+    r2 e4 e
+    e e e2 %235
+    e1\fermata \bar "||" %236 finis
+  }
+}
+
+A-XXIIQuiSedesAltoLyrics = \lyricmode {
+  Qui %225
+  se -- des ad
+  dex -- te -- ram Pa -- tris:
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re,
+  %230
+  mi -- se -- re -- re,
+  mi -- se -- re --
+  re,
+  mi -- se --
+  re -- re no -- %235
+  bis. %236 finis
+}
+
+A-XXIICumSanctoAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIICumSancto
+      \set Score.currentBarNumber = #282
+    R1*4 %285
+    \mvTr c2\fE^\tutti e
+    g a4. a8
+    g2 r8 f c d
+    e([ f16 g)] a2 g8([ f)]
+    e4( g8[ f] e2) %290
+    d4 g2( fis4)
+    g r r2
+    R1
+    c,2 e
+    g d %295
+    f a4 a
+    e d8([ c)] d4 r
+    r2 r8 g d e
+    f([ g)] a2 g8([ f)]
+    e([ f] g4) c,2 %300
+    r8 g' d e f4 e8 d
+    c4. d8 e4 f
+    h,8[ c16 d] e4 e2
+    e4 r r2
+    R1*6 %310
+    c2 e
+    g a4. a8
+    g4 g g8. g16 g4
+    g g g8 g g4
+    g g g r\fermata \bar "|." %315 finis
+  }
+}
+
+A-XXIICumSanctoAltoLyrics = \lyricmode {
+  Cum San -- %286
+  cto Spi -- ri --
+  tu in glo -- ri --
+  a __ De -- i __
+  Pa -- %290
+  tris, a --
+  men,
+
+  cum San --
+  cto Spi -- %295
+  ri -- tu in
+  glo -- ri -- a,
+  in glo -- ri --
+  a __ De -- i __
+  Pa -- tris, %300
+  in glo -- ri -- a De -- i
+  Pa -- _ _ _
+  _ _ _
+  tris,
+
+  cum San -- %311
+  cto Spi -- ri --
+  tu in glo -- ri -- a
+  De -- i Pa -- tris, a --
+  men, a -- men. %315 finis
+}
