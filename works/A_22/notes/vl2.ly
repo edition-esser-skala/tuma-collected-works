@@ -348,3 +348,169 @@ A-XXIICumSanctoViolinoII = {
     c d e r\fermata \bar "|." %315 finis
   }
 }
+
+A-XXIICredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIICredo
+    R1*7 %7
+    g'2\fE e4 g
+    a2 g4 g
+    g g8 g a8. g16 f4 %10
+    a4. a8 g a g4
+    g8 e' d4 c h
+    a g f e
+    f8 g c, a' g c4 h8
+    c4 r r g8 a~ %15
+    a g r4 r8 g a g
+    g2 a4. a8
+    gis fis e4 f? e
+    e8 a'~ a16 h, g'!8 r f~ f16 g, e'8
+    r d~ d16 e, c'8~ c16 d, \once \tieDashed h'8~ h16 c, a'8 %20
+    gis a4 \hA gis8 a4 r
+    R1
+    r2 r4 c,8 d16 e
+    f8 e d4 g8 f e4
+    c8 d16 e f8 e d4 g8 f %25
+    e4 f8 g a4 g8 f
+    g2 g4 a
+    a2 h4 h
+    a2 gis
+    r4 g fis fis %30
+    fis fis r f
+    e e e2~
+    e4 d e2
+    R1*2 %35
+    r4 a a a,
+    r a' a8 g f e
+    d d' h a gis a h a
+    gis a h a \hA gis2
+    a4 r r a %40
+    a a, r a
+    d1
+    c4 c c8 e f g!
+    a2 g~
+    g g8 e' d4 %45
+    c h a g
+    f e d e
+    c8 c4 h8 c4 r\fermata \bar "||" %48 finis
+  }
+}
+
+A-XXIIEtIncarnatusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \phrygian \time 4/4 \tempoA-XXIIEtIncarnatus
+      \set Score.currentBarNumber = #49
+    R1*19 %67
+    e4.\fE e8 dis4 d
+    cis c h \once \tieDashed e~
+    e dis e r8 e %70
+    fis4 cis8 dis e4 h8 cis
+    d2 cis4. fis8
+    h,2 h
+    \tieDashed a4.~ a8 h4~ h \tieSolid
+    e2 dis4 r %75
+    e2 e4 r
+    fis2 fis4 r
+    R1*3 %80
+    R1\fermata \bar "|." %81 finis
+  }
+}
+
+A-XXIIEtResurrexitViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoA-XXIIEtResurrexit
+      \set Score.currentBarNumber = #82
+    R2.
+    r8 c\fE e c e g
+    c e, g e g c
+    e4 e, r %85
+    R2.
+    r8 c e c e g
+    c e, g e g c
+    e4 e, r
+    e' e, r %90
+    e' d c^\critnote
+    h2 h4
+    h2 h4
+    a a2\trill
+    g4 g a %95
+    h c8 d e fis
+    g2 g4
+    R2.
+    e
+    c %100
+    a
+    fis~
+    fis4 e r
+    r8 a cis a e' a
+    f!4 r r %105
+    r8 g, h g d' g
+    e4 r r
+    r8 c, e c e g
+    c e, g e c' e
+    e4 e, r %110
+    r8 h h d d h'
+    c4 a, r
+    R2.*4 %116
+    r8 d f d a' d
+    h4 g r \noBreak
+    c d2 \bar "||"
+    \time 4/4 \tempoA-XXIIEtInSpiritum \newSpacingSection
+      e4 r r2 \noBreak %120
+    R1*5 %125
+    r8 g\fE e4 a, r8 a
+    d, g4 fis8 g4 r
+    r d'8 d d4 h
+    gis2 a
+    gis4 r e'8 e d d %130
+    e e r4 e8 e d d
+    e e r4 g,8 a16 h c8 b
+    a4 d4. c4 h8
+    c4 a d, r8 d
+    c c4 h8 c4 r %135
+    r2 r8 g'' f16 e d c
+    h a g8 r4 r2
+    r8 e' d16 c h a gis fis e8 r4
+    R1
+    r4 \once \tieDashed f'~\p f e~ %140
+    e d2 cis4
+    d8 a'\f g16 f e d cis h a d c b a g
+    f e d e e4\trill d r
+    d'8 e16 f g a h! cis d8 d r4
+    R1 \noBreak %145
+    R\fermata \bar "||"
+    \tempoA-XXIIEtVitam \after 4*0 -\critnote R1*2
+    g,,2 g'
+    h,4 r8 h c c d8. d16 %150
+    g,4 r e8 f16 g a8 h
+    c d e4~ e8 d16 c h4
+    c8 c16 d e8 d16 c d2~
+    d e8 e a, h16 a
+    g2 r %155
+    R1
+    r2 g
+    g' h,4 r8 h
+    c4 c8 c d c h4
+    a4. a8 g4 r %160
+    R1
+    r2 g
+    g' e8 e e e
+    e4 d e r
+    R1 %165
+    a,8 h16 cis d8 f gis,4 a
+    a gis a r
+    R1*2
+    r2 g %170
+    g' e4 r8 c
+    e f g f16 e d8 h d e
+    d c h a g2
+    r g8 a16 h c8 d
+    e2~ e8 f16 e d8 c %175
+    h c d4~ d8 g, c4~
+    c8 h16 a h4 c d
+    e r r2\fermata \bar "|." %178 finis
+  }
+}

@@ -622,3 +622,301 @@ A-XXIICumSanctoAltoLyrics = \lyricmode {
   De -- i Pa -- tris, a --
   men, a -- men. %315 finis
 }
+
+A-XXIICredoAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIICredo
+    R1*7 %7
+    \mvTr g'4\fE^\tutti g e g8 g
+    a4. a8 g4 g8 g
+    g4 g8 g a8. g16 f4 %10
+    a4. a8 g a g8. g16
+    g4 r r2
+    R1*2
+    g8 a f g e16 d c8 g' a %15
+    a g r4 r8 g a g
+    g4 g a4. a8
+    gis[( fis] e4 f?) e
+    e r r2
+    R1*3 %22
+    r2 r4 c8 d16([ e)]
+    f8 e d4 g8 f e4
+    c8 d16([ e)] f8 e d4 g8 f %25
+    e4 f8 g a4 g8 f
+    g4. g8 g4 a
+    a2 h4 h
+    a a gis2
+    r4 g fis fis %30
+    fis fis r f
+    e e e e8 e
+    e4( d) e2
+    R1*2 %35
+    r4 a a a,
+    r a' a8([ g f e)]
+    d d' h([ a)] gis a h[ a]
+    gis[ a h a] \hA gis2
+    a4 r r a %40
+    a a, r a
+    d1
+    c4 c c8[ e f g!]
+    a2 g~
+    g g4 r %45
+    R1*2
+    R1\fermata \bar "||" %48 finis
+  }
+}
+
+A-XXIICredoAltoLyrics = \lyricmode {
+  Vi -- si -- bi -- li -- um %8
+  o -- mni -- um, vi -- si --
+  bi -- li -- um o -- mni -- um %10
+  et in -- vi -- si -- bi -- li --
+  um.
+
+  Et in u -- num Do -- mi -- num Je -- sum %15
+  Chri -- stum, Fi -- li -- um
+  De -- i u -- ni --
+  ge -- ni --
+  tum.
+
+  Per quem %23
+  o -- mni -- a fa -- cta sunt,
+  per quem o -- mni -- a fa -- cta %25
+  sunt, per quem o -- mni -- a
+  fa -- cta sunt. Qui
+  pro -- pter nos
+  ho -- mi -- nes
+  et pro -- pter %30
+  no -- stram, et
+  pro -- pter no -- stram sa --
+  lu -- tem
+
+  de -- scen -- dit, %36
+  de -- scen --
+  dit, de -- scen -- dit de coe --
+  _ _
+  lis, de -- %40
+  scen -- dit, de --
+  scen --
+  dit de coe --
+  _ _
+  lis. %45 finis
+}
+
+A-XXIIEtIncarnatusAlto = {
+  \relative c' {
+    \clef treble
+    \key e \phrygian \time 4/4 \autoBeamOff \tempoA-XXIIEtIncarnatus
+      \set Score.currentBarNumber = #49
+    R1*19 %67
+    \mvTr e4.\fE^\tutti e8 dis4 d
+    cis c h e
+    e( dis) e r8 e %70
+    fis4 cis8([ dis)] e4 h8([ cis)]
+    d2( cis4. fis8)
+    h,2 h
+    a4. a8 h4 h
+    e2 dis4 r %75
+    e2 e4 r
+    fis2 fis4 r
+    dis\p dis dis e
+    e2 a8([ g fis e]
+    dis4) e e dis %80
+    e1\fermata \bar "|." %81 finis
+  }
+}
+
+A-XXIIEtIncarnatusAltoLyrics = \lyricmode {
+  Cru -- ci -- fi -- xus %68
+  e -- ti -- am pro
+  no -- bis sub %70
+  Pon -- ti -- o Pi --
+  la --
+  to, sub
+  Pon -- ti -- o Pi --
+  la -- to, %75
+  pas -- sus,
+  pas -- sus
+  et se -- pul -- tus
+  est, et __
+  se -- pul -- tus %80
+  est. %81 finis
+}
+
+A-XXIIEtResurrexitAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoA-XXIIEtResurrexit
+      \set Score.currentBarNumber = #82
+    R2.*3 %84
+    \mvTr g'4\fE^\tutti g g %85
+    g g r
+    R2.*2
+    g4 g g
+    g g r %90
+    g g fis
+    g g g
+    g2 g4
+    g g( fis)
+    g r r %95
+    R2.
+    r4 g g
+    g a g
+    g2 g4
+    a2. %100
+    a2 a4
+    fis4. fis8 fis4
+    fis e e
+    e4. e8 e4
+    f! f a %105
+    g2 g4
+    g4. g8 g4
+    R2.*2
+    r4 g g %110
+    gis2 gis4
+    a a r
+    r r a,
+    a2 a4
+    h h c8([ d)] %115
+    e2.
+    f2 a4
+    g2 g4~ \noBreak
+    g g2 \bar "||"
+    \time 4/4 \tempoA-XXIIEtInSpiritum \newSpacingSection
+      g4 \mvTr g8\pE^\solo a f8 g16 a g8 f \noBreak %120
+    e16 d c8 d g e a fis16[ d e \hA fis]
+    g[ a h g] e[ a h c] fis,[ d g a] a4\trill
+    g r r2
+    r4 g8 a f! g16([ a)] g8 f
+    e16([ d)] c8 g'4 g( fis) %125
+    g r r2
+    R1*2
+    r4 \mvTr e8\fE^\tutti e fis4 fis
+    e e g!8 g g g %130
+    g g r4 g8 g g g
+    g g r4 r g8 g
+    a a a4 g8 g g4
+    g r r2
+    R1*8 %142
+    r2 \mvTr f4\fE^\tuttiE e
+    f8 f r4 f8 f e e
+    f f f f f4 e~ \noBreak %145
+    e d8[ c] d2\fermata \bar "||"
+    \tempoA-XXIIEtVitam c2 c' \noBreak
+    e,4 r8 e f f g8. g16
+    c,4 r h8[ c16 d] e8[ fis]
+    g[ a] \once \stemUp h4~ h8[ a16 g] fis8[ g16 f] %150
+    e8[ c16 d] e8 f \once \tieDashed g2~
+    g4. f16[ g] a8 f d4\trill
+    e8 e16([ f] g8[ f16 e)] d4 r
+    R1
+    c2 c' %155
+    e,4 r8 e f f g8. g16
+    c,4 d4. e8 e([ d16 c)]
+    d8 e16([ fis] g8[ a)] d,4 d
+    e e a8. a16 g4
+    g( fis) g r %160
+    r2 c,
+    c' e,4 r8 e
+    d d d d e4 r
+    r2 e8[ fis16 gis] a8[ h]
+    c4 h a4.( g8) %165
+    f4 f( h,8[ c16 d]) e4
+    e2 e4 r
+    R1*3 %170
+    r2 c
+    c' h8 g h c
+    h a g4 c,8[ d] e[ f16 g]
+    a8[ g16 f] e8[ f] g4 g,
+    g' f e( a) %175
+    g g8[ f] e4~ e8[ d16 c]
+    d2 c4 g'
+    g r r2\fermata \bar "|." %178 finis
+  }
+}
+
+A-XXIIEtResurrexitAltoLyrics = \lyricmode {
+  Et re -- sur -- %85
+  re -- xit,
+
+  et re -- sur -- %89
+  re -- xit %90
+  ter -- ti -- a
+  di -- e se --
+  cun -- dum
+  Scri -- ptu --
+  ras,
+
+  et a -- %97
+  scen -- dit in
+  coe -- lum,
+  se -- %100
+  det ad
+  dex -- te -- ram
+  Pa -- tris, et
+  i -- te -- rum
+  ven -- tu -- rus %105
+  est cum
+  glo -- ri -- a
+
+  iu -- di -- %110
+  ca -- re
+  vi -- vos
+  et
+  mor -- tu --
+  os, cu -- ius %115
+  re --
+  gni non
+  e -- rit __
+  fi --
+  nis. Et in Spi -- ri -- tum San -- ctum, %120
+  Do -- mi -- num et vi -- vi -- fi -- can --
+  _ _ _ _
+  tem,
+  qui ex Pa -- tre Fi -- li --
+  o -- que pro -- ce -- %125
+  dit.
+
+  Si -- mul ad -- o -- %129
+  ra -- tur et glo -- ri -- fi -- %130
+  ca -- tur, et glo -- ri -- fi --
+  ca -- tur: qui lo --
+  cu -- tus est per Pro -- phe --
+  tas.
+
+  Et ex -- %143
+  pe -- cto re -- sur -- re -- cti --
+  o -- nem mor -- tu -- o -- _ %145
+  _ rum,
+  et vi --
+  tam ven -- tu -- ri sae -- cu --
+  li, a -- _
+  _ _ _ %150
+  _ _ men, a --
+  _ _ men, a --
+  men, a -- men,
+
+  et vi -- %155
+  tam ven -- tu -- ri sae -- cu --
+  li, a -- men, a --
+  men, a -- men, ven --
+  tu -- ri sae -- cu -- li,
+  a -- men, %160
+  et
+  vi -- tam ven --
+  tu -- ri sae -- cu -- li,
+  a -- _
+  _ men, a -- %165
+  men, a -- men,
+  a -- men,
+
+  et %171
+  vi -- tam ven -- tu -- ri
+  sae -- cu -- li, a -- _
+  _ _ _ men,
+  a -- men, a -- %175
+  men, a -- _
+  _ men, a --
+  men. %178 finis
+}

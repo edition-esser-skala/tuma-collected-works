@@ -129,3 +129,70 @@ A-XXIICumSanctoTimpani = {
     c g c r\fermata \bar "|." %315 finisxx
   }
 }
+
+A-XXIICredoTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XXIICredo
+    R1*10 %10
+    r2 r4 r8 g'\fE
+    g4 r r2
+    R1
+    r2 g4 \pa c,8 g' \pd
+    g4 r r2 %15
+    R1*11 %26
+    g4 g8 g g4 r
+    R1*16 %43
+    r2 g4 r
+    g g g r %45
+    R1
+    r2 r4 r8 g
+    g4 r8 g g4 r\fermata \bar "||" %48 finis
+  }
+}
+
+A-XXIIEtResurrexitTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoA-XXIIEtResurrexit
+      \set Score.currentBarNumber = #82
+    c4\fE r r
+    c r r
+    c r c
+    c r r %85
+    c r r
+    c r r
+    c r c
+    c r r
+    R2.*2 %91
+    g4 r r
+    g r r
+    R2.
+    g4 r r %95
+    R2.*3
+    c4 c8 c c4
+    R2.*7 %106
+    c4 r r
+    c r r
+    c r r
+    c r r %110
+    R2.*7 %117
+    r4 g c \noBreak
+    c g g \bar "||"
+    \time 4/4 \tempoA-XXIIEtInSpiritum \newSpacingSection
+      c4 r r2 \noBreak %120
+    R1*10 %130
+    r8 c\fE g g c4 r
+    r8 c g g c4 r
+    r2 r8 c g4
+    c r r2
+    R1*11 \noBreak %145
+    R1\fermata \bar "||"
+    \tempoA-XXIIEtVitam R1*22 %168
+    r4 r8 g\fE c4 r8 c
+    g4 r8 c g4 r %170
+    R1*6 %176
+    r4 g c g
+    c r r2\fermata \bar "|." %178 finis
+  }
+}

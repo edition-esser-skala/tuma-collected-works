@@ -674,53 +674,299 @@ A-XXIICumSanctoSopranoLyrics = \lyricmode {
   men, a -- men. %315 finis
 }
 
+A-XXIICredoSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIICredo
+    R1*5 %5
+    \mvTr c'2\fE^\tutti c4 c
+    a c8 c d2
+    c4. d8 g,4 g
+    g( fis) g h8 h
+    c4 c8 c c8. c16 c4 %10
+    d4. d8 d d d8. d16
+    e4 r r2
+    R1*2
+    r2 c8 e c d %15
+    h h g a h c16 c c8 d
+    e4 e8 d c4 d8 d
+    d4 c h2
+    a4 r r2
+    R1*3 %22
+    r2 g8 a16([ h)] c8 h
+    a4 d8 c h4 g
+    a2 h4. h8 %25
+    c2 d4 d8 d
+    d4. d8 e4 e
+    f2 f4 e
+    e d e2
+    r4 e ais, ais %30
+    h h r h
+    gis gis a! a8 a
+    a2 gis
+    r4 e' e e,
+    r e' e8([ d c h] %35
+    c[ h)] a4 r a8([ h)]
+    cis([ d e d] \hA cis2)
+    d8 f d([ c)] h c d[ c]
+    h[ c d c] h2
+    c4 a8([ h)] cis[ d e d] %40
+    cis[ d e d] \hA cis2
+    d4 f, e2
+    e4 e \once \tieDashed e'2~
+    e4 d8[ c] h4 c~
+    c h c r %45
+    R1*2
+    R1\fermata \bar "||" %48 finis
+  }
+}
 
-% Cre -- do in u -- num De -- um,
-% Pa -- trem o -- mni -- po -- ten -- tem,
-% fa -- cto -- rem coe -- li et ter -- rae,
-% vi -- si -- bi -- li -- um o -- mni -- um
-% et in -- vi -- si -- bi -- li -- um.
-% Et in u -- num Do -- mi -- num Je -- sum Chri -- stum,
-% Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum,
-% et ex Pa -- tre na -- tum an -- te o -- mni -- a sae -- cu -- la.
-% De -- um de De -- o, lu -- men de lu -- mi -- ne,
-% De -- um ve -- rum de De -- o ve -- ro,
-% ge -- ni -- tum non fa -- ctum,
-% con -- sub -- stan -- ti -- a -- lem Pa -- tri,
-% per quem o -- mni -- a fa -- cta sunt.
-% Qui pro -- pter nos ho -- mi -- nes
-% et pro -- pter no -- stram sa -- lu -- tem
-% de -- scen -- dit de coe -- lis.
+A-XXIICredoSopranoLyrics = \lyricmode {
+  Fa -- cto -- rem %6
+  coe -- li et
+  ter -- rae, coe -- li et
+  ter -- rae, vi -- si --
+  bi -- li -- um o -- mni -- um %10
+  et in -- vi -- si -- bi -- li --
+  um.
 
-% Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto
-% ex Ma -- ri -- a Vir -- gi -- ne, et ho -- mo fa -- ctus est.
+  Et ex Pa -- tre %15
+  na -- tum an -- te o -- mni -- a sae -- cu --
+  la, De -- um ve -- rum de
+  De -- o ve --
+  ro.
 
-% Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis
-% sub Pon -- ti -- o Pi -- la -- to, pas -- sus et se -- pul -- tus est.
+  Per quem o -- mni -- %23
+  a fa -- cta sunt, per
+  quem o -- mni -- %25
+  a, o -- mni -- a
+  fa -- cta sunt. Qui
+  pro -- pter nos
+  ho -- mi -- nes
+  et pro -- pter %30
+  no -- stram, et
+  pro -- pter no -- stram sa --
+  lu -- tem
+  de -- scen -- dit
+  de coe -- %35
+  lis, de
+  coe --
+  lis, de -- scen -- dit de coe --
+  _ _
+  lis, de coe -- %40
+  _ _
+  lis, de -- scen --
+  dit de coe --
+  _ _ _
+  _ lis. %45 finis
+}
 
-% Et re -- sur -- re -- xit ter -- ti -- a di -- e
-% se -- cun -- dum Scri -- ptu -- ras,
-% et a -- scen -- dit in coe -- lum,
-% se -- det ad dex -- te -- ram Pa -- tris.
-% Et i -- te -- rum ven -- tu -- rus est cum glo -- ri -- a
-% iu -- di -- ca -- re vi -- vos et mor -- tu -- os,
-% cu -- ius re -- gni non e -- rit fi -- nis.
-% Et in Spi -- ri -- tum San -- ctum,
-% Do -- mi -- num et vi -- vi -- fi -- can -- tem,
-% qui ex Pa -- tre Fi -- li -- o -- que pro -- ce -- dit.
-% Qui cum Pa -- tre et Fi -- li -- o
-% si -- mul ad -- o -- ra -- tur et con -- glo -- ri -- fi -- ca -- tur:
-% qui lo -- cu -- tus est per Pro -- phe -- tas.
-% Et u -- nam san -- ctam ca -- tho -- li -- cam
-% et a -- po -- sto -- li -- cam Ec -- cle -- si -- am.
-% Con -- fi -- te -- or u -- num ba -- ptis -- ma
-% in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
-% Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o -- rum,
-% et vi -- tam ven -- tu -- ri sae -- cu -- li.
-% A -- men.
+A-XXIIEtIncarnatusSoprano = {
+  \relative c' {
+    \clef treble
+    \key e \phrygian \time 4/4 \autoBeamOff \tempoA-XXIIEtIncarnatus
+      \set Score.currentBarNumber = #49
+    R1*21 %69
+    r2 \mvTr h'4.\fE^\tutti h8 %70
+    ais4 a gis g
+    fis h h( a)
+    g r8 g h4 fis8([ gis)]
+    a4 e8([ fis)] \once \tieDashed g2~
+    g fis4 r %75
+    d'!2 c!4 r
+    e2 dis4 r
+    fis,\p fis fis g
+    g2 c8([ h a g]
+    fis4) g \hA fis4. fis8 %80
+    e1\fermata \bar "|." %81 finis
+  }
+}
+
+A-XXIIEtIncarnatusSopranoLyrics = \lyricmode {
+  Cru -- ci -- %70
+  fi -- xus e -- ti --
+  am pro no --
+  bis sub Pon -- ti --
+  o Pi -- la --
+  to, %75
+  pas -- sus,
+  pas -- sus
+  et se -- pul -- tus
+  est, et __
+  se -- pul -- tus %80
+  est. %81 finis
+}
+
+A-XXIIEtResurrexitSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoA-XXIIEtResurrexit
+      \set Score.currentBarNumber = #82
+    R2.*3 %84
+    \mvTr c'4\fE^\tutti c h %85
+    c c r
+    R2.*2
+    c4 c h
+    c c r %90
+    e d c^\critnote
+    h h h
+    h2 h4
+    a a2
+    g4 g a %95
+    h c8([ d)] e([ fis)]
+    g2 g4
+    R2.
+    e
+    c %100
+    a
+    a4. a8 a4
+    gis gis gis
+    a4. a8 a4
+    a a a %105
+    h2 h4
+    c4. c8 c4
+    R2.*2
+    r4 e e %110
+    d2 d4
+    c c r
+    r r e,
+    e2 d4
+    e e' e %115
+    e2.
+    d2 d4
+    d2 c4~ \noBreak
+    c h2\trill \bar "||"
+    \time 4/4 \tempoA-XXIIEtInSpiritum \newSpacingSection
+      c4 r r2 \noBreak %120
+    R1*6 %126
+    r2 \mvTr d8\pE^\solo c16([ h)] c8 d16 c
+    h a g8 \mvTr d'\fE^\tutti d d4 h
+    gis2( a)
+    gis e'8 e d d %130
+    e e r4 e8 e d d
+    e e r4 g,8 a16([ h)] c8 b
+    a4 d~ d8 c c([ h)]
+    c4 r r2
+    R1*8 %142
+    r2 \mvTr a4\fE^\tuttiE a
+    a8 a r4 a8 a a a
+    a a a a \once \tieDashed g2~ \noBreak %145
+    g4 fis g2\fermata \bar "||"
+    \tempoA-XXIIEtVitam R1*2
+    g2 g'
+    h,4 r8 h c c d8. d16 %150
+    g,4 r e8[ f16 g] a8[ h]
+    c[ d] e4~ e8[ d16 c] h4
+    c8 c16[( d] e8[ d16 c]) d2~
+    d e8 e a,([ h16 a)]
+    g2 r %155
+    R1
+    r2 g
+    g' h,4 r8 h
+    c4 c8 c d([ c)] h4
+    a4. a8 g4 r %160
+    R1
+    r2 g
+    g' e8 e e e
+    e4 d e r
+    R1 %165
+    a,8[( h16 cis] d8[ f] gis,4) a
+    a( gis) a r
+    R1*2
+    r2 g %170
+    g' e4 r8 c
+    e f g f16([ e)] d8 h d e
+    d([ c)] h([ a)] g2
+    r g8[ a16 h] c8[ d]
+    e2~ e8[ f16 e] d8[ c] %175
+    h[ c] d4~ d8[ g,] c4~
+    c8[ h16 a] h4 c d
+    e r r2\fermata \bar "|." %178 finis
+  }
+}
+
+A-XXIIEtResurrexitSopranoLyrics = \lyricmode {
+  Et re -- sur -- %85
+  re -- xit,
+
+  et re -- sur -- %89
+  re -- xit %90
+  ter -- ti -- a
+  di -- e se --
+  cun -- dum
+  Scri -- ptu --
+  ras, et a -- %95
+  scen -- dit in
+  coe -- lum,
+
+  se --
+  det %100
+  ad
+  dex -- te -- ram
+  Pa -- tris, et
+  i -- te -- rum
+  ven -- tu -- rus %105
+  est cum
+  glo -- ri -- a
+
+  iu -- di -- %110
+  ca -- re
+  vi -- vos
+  et
+  mor -- tu --
+  os, cu -- ius %115
+  re --
+  gni non
+  e -- rit __
+  fi --
+  nis. %120
+
+  Qui cum Pa -- tre et %127
+  Fi -- li -- o si -- mul ad -- o --
+  ra --
+  tur et glo -- ri -- fi -- %130
+  ca -- tur, et glo -- ri -- fi --
+  ca -- tur: qui lo -- cu -- tus
+  est per __ Pro -- phe --
+  tas.
+
+  Et ex -- %143
+  pe -- cto re -- sur -- re -- cti --
+  o -- nem mor -- tu -- o -- %145
+  _ rum,
+
+  et vi -- %149
+  tam ven -- tu -- ri sae -- cu -- %150
+  li, a -- _
+  _ _ _
+  men, a -- men, __
+  a -- men, a --
+  men, %155
+
+  et
+  vi -- tam ven --
+  tu -- ri, ven -- tu -- ri
+  sae -- cu -- li, %160
+
+  et
+  vi -- tam ven -- tu -- ri
+  sae -- cu -- li,
+  %165
+  a -- men,
+  a -- men,
+
+  et %170
+  vi -- tam ven --
+  tu -- ri sae -- cu -- li, ven -- tu -- ri
+  sae -- cu -- li,
+  a -- _
+  _ _ %175
+  _ _ _
+  _ men, a --
+  men. %178 finis
+}
 
 
-% ## Sanctus
 
 % San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
 % Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.

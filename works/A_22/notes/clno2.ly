@@ -137,3 +137,76 @@ A-XXIICumSanctoClarinoII = {
     c d c r\fermata \bar "|."
   }
 }
+
+A-XXIICredoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIICredo
+    R1*10 %10
+    r2 r4 r8 d'\fE
+    c4 r r2
+    R1
+    r2 c4 c8 g
+    g4 r r2 %15
+    R1*11 %26
+    g4. g8 g4 r
+    R1*16 %43
+    r2 g4 c
+    g2 g4 r %45
+    R1
+    r2 r4 r8 g
+    c4 c8 g g4 r\fermata \bar "||" %48 finis
+  }
+}
+
+A-XXIIEtResurrexitClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoA-XXIIEtResurrexit
+      \set Score.currentBarNumber = #82
+    R2.
+    r8 c\fE e c e g
+    c e, g e g c
+    e4 e, r %85
+    R2.
+    r8-\critnote c e c e g
+    c e, g e g c
+    e4 e, r
+    R2.*2 %91
+    d'4 r r
+    g, r r
+    R2.
+    d'4 r r %95
+    R2.*3
+    e4 e8 e e4
+    R2.*8 %107
+    r8 c, e c e g
+    c e, g e g c
+    e4 e, r %110
+    R2.
+    r8 e e e e e
+    e e e4 r
+    R2.
+    r8 e' e e e e %115
+    e e e e e e
+    d d d d d d
+    g, g g g g g \noBreak
+    g g g g g g \bar "||"
+    \time 4/4 \tempoA-XXIIEtInSpiritum \newSpacingSection
+      e4 r r2 \noBreak %120
+    R1*10 %131
+    r8 e'\fE d c16 d e4 r
+    r8 e d c16 d e4 r
+    r2 r8 c d4
+    e r r2 %135
+    R1*11 \noBreak %146
+    R1\fermata \bar "||"
+    \tempoA-XXIIEtVitam R1*21 %168
+    r2 g,\fE
+    g' e8 e d c %170
+    g e' d c g4 r
+    R1*6 %177
+    r4 g g g
+    e r r2\fermata \bar "|." %179 finis
+  }
+}

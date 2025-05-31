@@ -27,5 +27,10 @@ toe: |
     & 70  & B    & 1st \eighthNote\ in \A1: c8 \\
     & 79  & vl 1 & 3rd \quarterNote\ missing in \A1 \\
     & 146 & org  & 4th \quarterNote\ in \A1 and \B1: \crotchetRest \\
+  3 & 65–67 & org & upper voice added by editor \\
+    & 78–81 & trb & In \B1, trb 1/2 play unison with the vocal parts. However, it is equally likely that the final bars of this movement should be sung a capella. \\
+    & 87–89 & clno 2 & bars in \A1: 3×\wholeNoteRest \\
+    & 91 & vl 2, S & 3rd \quarterNote\ in \A1 and \B1: e″4 \\
+    & 147–178 & vl 2 & \B1 contains an alternative part where vl 2 plays unison with A. \\
 parts:
   ottoni: Clarino I, II in C\\Tromba I, II in C\\Timpani in C–G

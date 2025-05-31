@@ -314,3 +314,161 @@ A-XXIICumSanctoTromboneI = {
     g g g r\fermata \bar "|." %315 finis
   }
 }
+
+A-XXIICredoTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXIICredo
+    R1*7 %7
+    g'4\fE g e g8 g
+    a4. a8 g4 g8 g
+    g4 g8 g a8. g16 f4 %10
+    a4. a8 g a g8. g16
+    g4 r r2
+    R1*2
+    g8 a f g e16 d c8 g' a %15
+    a g r4 r8 g a g
+    g4 g a4. a8
+    gis fis e4 f? e
+    e r r2
+    R1*3 %22
+    r2 r4 c8 d16 e
+    f8 e d4 g8 f e4
+    c8 d16 e f8 e d4 g8 f %25
+    e4 f8 g a4 g8 f
+    g4. g8 g4 a
+    a2 h4 h
+    a a gis2
+    r4 g fis fis %30
+    fis fis r f
+    e e e e8 e
+    e4 d e2
+    R1*2 %35
+    r4 a a a,
+    r a' a8 g f e
+    d d' h a gis a h a
+    gis a h a \hA gis2
+    a4 r r a %40
+    a a, r a
+    d1
+    c4 c c8 e f g!
+    a2 g~
+    g g4 r %45
+    R1*2
+    R1\fermata \bar "||" %48 finis
+  }
+}
+
+A-XXIIEtIncarnatusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key e \phrygian \time 4/4 \tempoA-XXIIEtIncarnatus
+      \set Score.currentBarNumber = #49
+    R1*9 %57
+    \mvTr e4\fE-\soloE h'4. ais16 gis \hA ais8.\trill h16
+    h8 fis h16( c!) a( h) g fis e8 r gis
+    a a, a'16 h g a fis e d8 r \hA fis %60
+    g g, h'16 c a h g8 a16 h a h g a
+    fis4 g8 \hA fis16 e \hA fis2
+    e4 r r2
+    R1*4 %67
+    e4.-\tuttiE e8 dis4 d
+    cis c h e
+    e dis e r8 e %70
+    fis4 cis8 dis e4 h8 cis
+    d2 cis4. fis8
+    h,2 h
+    a4. a8 h4 h
+    e2 dis4 r %75
+    e2 e4 r
+    fis2 fis4 r
+    \after 4*0 -\critnote R1*3 %80
+    R1\fermata \bar "|." %81 finis
+  }
+}
+
+A-XXIIEtResurrexitTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoA-XXIIEtResurrexit
+      \set Score.currentBarNumber = #82
+    R2.*3 %84
+    g'4\fE g g %85
+    g g r
+    R2.*2
+    g4 g g
+    g g r %90
+    g g fis
+    g g g
+    g2 g4
+    g g fis
+    g r r %95
+    R2.
+    r4 g g
+    g a g
+    g2 g4
+    a2. %100
+    a2 a4
+    fis4. fis8 fis4
+    fis e e
+    e4. e8 e4
+    f! f a %105
+    g2 g4
+    g4. g8 g4
+    R2.*2
+    r4 g g %110
+    gis2 gis4
+    a a r
+    r r a,
+    a2 a4
+    h h c8 d %115
+    e2.
+    f2 a4
+    g2 g4~ \noBreak
+    g g2 \bar "||"
+    \time 4/4 \tempoA-XXIIEtInSpiritum \newSpacingSection
+      g4 r r2 \noBreak %120
+    R1*8 %128
+    r4 e8\fE e fis4 fis
+    e e g!8 g g g %130
+    g g r4 g8 g g g
+    g g r4 r g8 g
+    a a a4 g8 g g4
+    g r r2
+    R1*8 %142
+    r2 f4\fE e
+    f8 f r4 f8 f e e
+    f f f f f4 e~ \noBreak %145
+    e d8 c d2\fermata \bar "||"
+    \tempoA-XXIIEtVitam c2 c' \noBreak
+    e,4 r8 e f f g8. g16
+    c,4 r h8 c16 d e8 fis
+    g a \once \stemUp h4~ h8 a16 g fis8 g16 f %150
+    e8 c16 d e8 f \once \tieDashed g2~
+    g4. f16 g a8 f d4\trill
+    e8 e16 f g8 f16 e d4 r
+    R1
+    c2 c' %155
+    e,4 r8 e f f g8. g16
+    c,4 d4. e8 e d16 c
+    d8 e16 fis g8 a d,4 d
+    e e a8. a16 g4
+    g fis g r %160
+    r2 c,
+    c' e,4 r8 e
+    d d d d e4 r
+    r2 e8 fis16 gis a8 h
+    c4 h a4. g8 %165
+    f4 f h,8 c16 d e4
+    e2 e4 r
+    R1*3 %170
+    r2 c
+    c' h8 g h c
+    h a g4 c,8 d e f16 g
+    a8 g16 f e8 f g4 g,
+    g' f e a %175
+    g g8 f e4~ e8 d16 c
+    d2 c4 g'
+    g r r2\fermata \bar "|." %178 finis
+  }
+}
