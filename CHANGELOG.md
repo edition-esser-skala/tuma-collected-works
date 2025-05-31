@@ -4,6 +4,17 @@
 
 ### Added
 
+- works: TumW E.5.7, F.6, I.9, and J.17
+
+### Changed
+
+- renumbered TumW E.5.5/6 → 4/5
+
+
+## 2025.04.0 – 2025-05-01
+
+### Added
+
 - works: TumW A.12, C.2.3, C.3.16, C.4.3, C.5.S1, D.2.5/11/12, D.3.3, D.4.4, E.1.2, E.2.5/6, and G.16
 
 ### Changed
