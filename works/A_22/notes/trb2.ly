@@ -418,3 +418,41 @@ A-XXIIEtResurrexitTromboneII = {
     c r r2\fermata \bar "|." %178 finis
   }
 }
+
+A-XXIISanctusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoA-XXIISanctus
+    r2 c\fE
+    c r
+    r e
+    e r
+    c1 %5
+    h2 h4 h8 e
+    cis2 d
+    r h4 h8 d
+    h2 c4 c
+    cis e h4. h8 \noBreak %10
+    h1\fermata \bar "||"
+    \time 3/4 \tempoA-XXIIPleni R2.*2
+    e4 e d
+    e e r %15
+    R2.
+    e4 e d
+    e e c
+    c2.~
+    c~ %20
+    c
+    h
+    d4. d8 d4
+    d d r
+    c4. c8 h4 %25
+    c c r
+    c2 d4
+    e d2
+    e e4
+    c e e %30
+    f f2
+    e2.\fermata \bar "|." %32 finis
+  }
+}

@@ -847,3 +847,74 @@ A-XXIIEtResurrexitTenoreLyrics = \lyricmode {
   men, a --
   men. %178 finis
 }
+
+A-XXIISanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIISanctus
+    r2 \mvTr c\fE^\tutti
+    c r
+    r e
+    e r
+    c1 %5
+    h2 h4 h8 e
+    cis2 d
+    r h4 h8 d
+    h2 c4 c(
+    cis) e h4. h8 \noBreak %10
+    h1\fermata \bar "||"
+    \time 3/4 \tempoA-XXIIPleni R2.*2
+    e4 e d
+    e e r %15
+    R2.
+    e4 e d
+    e e c
+    \tieDashed c2.~
+    c~ %20
+    c \tieSolid
+    h
+    d4. d8 d4
+    d d r
+    c4. c8 h4 %25
+    c c r
+    c2 d4
+    e d2
+    e e4
+    c e e %30
+    f f2
+    e2.\fermata \bar "|." %32 finis
+  }
+}
+
+A-XXIISanctusTenoreLyrics = \lyricmode {
+  San --
+  ctus,
+  san --
+  ctus,
+  san -- %5
+  ctus Do -- mi -- nus
+  De -- us,
+  Do -- mi -- nus
+  De -- us, De --
+  us Sa -- ba -- %10
+  oth.
+
+  Ple -- ni sunt %14
+  coe -- li, %15
+
+  ple -- ni sunt
+  coe -- li et
+  ter --
+
+  ra %22
+  glo -- ri -- a
+  tu -- a,
+  glo -- ri -- a %25
+  tu -- a,
+  glo -- ri --
+  a tu --
+  a. O --
+  san -- na in %30
+  ex -- cel --
+  sis. %32 finis
+}

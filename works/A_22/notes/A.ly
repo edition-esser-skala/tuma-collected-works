@@ -920,3 +920,75 @@ A-XXIIEtResurrexitAltoLyrics = \lyricmode {
   _ men, a --
   men. %178 finis
 }
+
+A-XXIISanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIISanctus
+    r2 \mvTr a'\fE^\tutti
+    a r
+    r g
+    g r
+    f( fis) %5
+    e e4 e8 e
+    fis2 fis
+    r fis4 fis8 fis
+    e2 e4 g!~
+    g g fis4. fis8 \noBreak %10
+    e1\fermata \bar "||"
+    \time 3/4 \tempoA-XXIIPleni R2.*2
+    g4 g g
+    g g r %15
+    R2.
+    g4 g g
+    g g c,
+    \once \tieDashed c2.~
+    c %20
+    a
+    g
+    g'4. g8 fis4
+    g g r
+    g4. g8 g4 %25
+    g g r
+    f2 f4
+    g g2
+    g g4
+    a g e %30
+    a a2
+    g2.\fermata \bar "|." %32 finis
+  }
+}
+
+A-XXIISanctusAltoLyrics = \lyricmode {
+  San --
+  ctus,
+  san --
+  ctus,
+  san -- %5
+  ctus Do -- mi -- nus
+  De -- us,
+  Do -- mi -- nus
+  De -- us, De --
+  us Sa -- ba -- %10
+  oth.
+
+  Ple -- ni sunt %14
+  coe -- li, %15
+
+  ple -- ni sunt
+  coe -- li et
+  ter --
+  %20
+  _
+  ra
+  glo -- ri -- a
+  tu -- a,
+  glo -- ri -- a %25
+  tu -- a,
+  glo -- ri --
+  a tu --
+  a. O --
+  san -- na in %30
+  ex -- cel --
+  sis. %32 finis
+}

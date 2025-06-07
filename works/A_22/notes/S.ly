@@ -966,14 +966,79 @@ A-XXIIEtResurrexitSopranoLyrics = \lyricmode {
   men. %178 finis
 }
 
+A-XXIISanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIISanctus
+    \mvTr e'1\fE^\tutti
+    e2 r
+    c1
+    c2 r
+    a1
+    gis2 h4 e8 cis
+    ais2 h
+    r h4 d8 h
+    gis2 a!4 e'~
+    e e dis4. dis8 \noBreak
+    e1\fermata \bar "||"
+    \time 3/4 \tempoA-XXIIPleni R2.*2
+    c4 c h
+    c c r
+    R2.
+    c4 c h
+    c c e,
+    \once \tieDashed e2.~
+    e
+    d
+    d
+    h'4. h8 a4
+    h h r
+    e4. e8 d4
+    e e r
+    a,2 h4
+    c c( h)
+    c2 c4
+    c c c
+    c c2
+    c2.\fermata \bar "|."
+  }
+}
+
+A-XXIISanctusSopranoLyrics = \lyricmode {
+  San --
+  ctus,
+  san --
+  ctus,
+  san -- %5
+  ctus Do -- mi -- nus
+  De -- us,
+  Do -- mi -- nus
+  De -- us, De --
+  us Sa -- ba -- %10
+  oth.
+
+  Ple -- ni sunt %14
+  coe -- li, %15
+
+  ple -- ni sunt
+  coe -- li et
+  ter --
+  %20
+  _
+  ra
+  glo -- ri -- a
+  tu -- a,
+  glo -- ri -- a %25
+  tu -- a,
+  glo -- ri --
+  a tu --
+  a. O --
+  san -- na in %30
+  ex -- cel --
+  sis. %32 finis
+}
 
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
-
-
-% ## Benedictus
 
 % Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
 % O -- san -- na in ex -- cel -- sis.

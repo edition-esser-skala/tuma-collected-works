@@ -210,3 +210,27 @@ A-XXIIEtResurrexitClarinoII = {
     e r r2\fermata \bar "|." %179 finis
   }
 }
+
+A-XXIISanctusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIISanctus
+    R1*10 \noBreak %10
+    R1\fermata \bar "||"
+    \time 3/4 \tempoA-XXIIPleni R2. \noBreak
+    c'8\fE g c e d4
+    e c r
+    R2.
+    c8 g c e d4
+    e c r
+    R2.*6
+    g4 g8 g g g
+    c4 r r
+    e e8 e e e
+    f4 r r
+    R2.*2
+    r4 r c,
+    c c c
+    c2.\fermata \bar "|."
+  }
+}

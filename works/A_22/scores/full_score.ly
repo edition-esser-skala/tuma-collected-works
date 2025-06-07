@@ -807,8 +807,79 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Et resurrexit"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+  %           \set Staff.soloText = \markup \remark \medium "clno 1"
+  %           \partCombine #'(0 . 10) \A-XXIIEtResurrexitClarinoI \A-XXIIEtResurrexitClarinoII
+  %         >>
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "tr" "1, 2" }
+  %           \partCombine #'(0 . 10) \A-XXIIEtResurrexitTrombaI \A-XXIIEtResurrexitTrombaII
+  %         >>
+  %       >>
+  %       \new Staff {
+  %         \set Staff.instrumentName = "timp"
+  %         \A-XXIIEtResurrexitTimpani
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-XXIIEtResurrexitViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-XXIIEtResurrexitViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \A-XXIIEtResurrexitSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \A-XXIIEtResurrexitSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "A" "trb 1" }
+  %           \new Voice = "Alto" { \dynamicUp \A-XXIIEtResurrexitAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \A-XXIIEtResurrexitAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "T" "trb 2" }
+  %           \new Voice = "Tenore" { \dynamicUp \A-XXIIEtResurrexitTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \A-XXIIEtResurrexitTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \A-XXIIEtResurrexitBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \A-XXIIEtResurrexitBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \A-XXIIEtResurrexitOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XXIIEtResurrexitBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 } % 72 – 105
+  %   }
+  % }
   \bookpart {
-    \subsection "Et resurrexit"
+    \section "4" "Sanctus"
     \addTocEntry
     \score { %\articulate
       <<
@@ -816,66 +887,66 @@
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
             \set Staff.soloText = \markup \remark \medium "clno 1"
-            \partCombine #'(0 . 10) \A-XXIIEtResurrexitClarinoI \A-XXIIEtResurrexitClarinoII
+            \partCombine #'(0 . 10) \A-XXIISanctusClarinoI \A-XXIISanctusClarinoII
           >>
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "tr" "1, 2" }
-            \partCombine #'(0 . 10) \A-XXIIEtResurrexitTrombaI \A-XXIIEtResurrexitTrombaII
+            \partCombine #'(0 . 10) \A-XXIISanctusTrombaI \A-XXIISanctusTrombaII
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = "timp"
-          \A-XXIIEtResurrexitTimpani
+          \A-XXIISanctusTimpani
         }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \A-XXIIEtResurrexitViolinoI
+              \A-XXIISanctusViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \A-XXIIEtResurrexitViolinoII
+              \A-XXIISanctusViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \A-XXIIEtResurrexitSoprano }
+            \new Voice = "Soprano" { \dynamicUp \A-XXIISanctusSoprano }
           }
-          \new Lyrics \lyricsto Soprano \A-XXIIEtResurrexitSopranoLyrics
+          \new Lyrics \lyricsto Soprano \A-XXIISanctusSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "A" "trb 1" }
-            \new Voice = "Alto" { \dynamicUp \A-XXIIEtResurrexitAlto }
+            \new Voice = "Alto" { \dynamicUp \A-XXIISanctusAlto }
           }
-          \new Lyrics \lyricsto Alto \A-XXIIEtResurrexitAltoLyrics
+          \new Lyrics \lyricsto Alto \A-XXIISanctusAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "T" "trb 2" }
-            \new Voice = "Tenore" { \dynamicUp \A-XXIIEtResurrexitTenore }
+            \new Voice = "Tenore" { \dynamicUp \A-XXIISanctusTenore }
           }
-          \new Lyrics \lyricsto Tenore \A-XXIIEtResurrexitTenoreLyrics
+          \new Lyrics \lyricsto Tenore \A-XXIISanctusTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \A-XXIIEtResurrexitBasso }
+            \new Voice = "Basso" { \dynamicUp \A-XXIISanctusBasso }
           }
-          \new Lyrics \lyricsto Basso \A-XXIIEtResurrexitBassoLyrics
+          \new Lyrics \lyricsto Basso \A-XXIISanctusBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \A-XXIIEtResurrexitOrgano
+            \A-XXIISanctusOrgano
           }
         >>
-        \new FiguredBass { \A-XXIIEtResurrexitBassFigures }
+        \new FiguredBass { \A-XXIISanctusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 120 } % 72 – 105
+      \midi { \tempo 4 = 60 } % 140
     }
   }
 }

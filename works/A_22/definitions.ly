@@ -24,6 +24,9 @@ tempoA-XXIIEtResurrexit = \tempoMarkup "Allegro"
   tempoA-XXIIEtInSpiritum = \tempoMarkup "Andante"
   tempoA-XXIIEtVitam = \tempoMarkup "[Allegro]"
 
+tempoA-XXIISanctus = \tempoMarkup "Adagio"
+  tempoA-XXIIPleni = \tempoMarkup "Allegro"
+
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
 \include "notes/tr1.ly"

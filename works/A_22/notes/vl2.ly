@@ -514,3 +514,38 @@ A-XXIIEtResurrexitViolinoII = {
     e r r2\fermata \bar "|." %178 finis
   }
 }
+
+A-XXIISanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIISanctus
+    r2 c'\fE
+    c c16( d) c( d) h( c) h( c)
+    a4 r g2
+    g~ g8 \slurDashed e16( f) g( a) g( a) \slurSolid
+    f2 fis %5
+    e e4 e8 e
+    fis2 fis
+    d'16( e) d( e) cis( d) \hA cis( d) h4 r
+    e,2 e4 g~
+    g2 fis4. fis8 \noBreak %10
+    e1\fermata \bar "||"
+    \time 3/4 \tempoA-XXIIPleni R2.*2
+    g'4 g g
+    e r r %15
+    R2.
+    g4 g g
+    e r r
+    R2.*4
+    h4. h8 a4
+    h h r
+    e4. e8 d4
+    e r r
+    c4. c8 d4
+    c c h
+    c2 c4
+    c2.
+    c4 c2
+    c2.\fermata \bar "|."
+  }
+}

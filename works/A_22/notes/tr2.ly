@@ -196,3 +196,27 @@ A-XXIIEtResurrexitTrombaII = {
     c r r2\fermata \bar "|." %178 finis
   }
 }
+
+A-XXIISanctusTrombaII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIISanctus
+    R1*10 \noBreak %10
+    R1\fermata \bar "||"
+    \time 3/4 \tempoA-XXIIPleni c4\fE r r \noBreak
+    c r r
+    c r r
+    c r r %15
+    c r r
+    c r r
+    R2.*6 %23
+    g4 g8 g g g
+    c4 r r %25
+    c c8 c c c
+    c4 r r
+    R2.*2
+    r4 r c %30
+    c c c
+    c2.\fermata \bar "|." %32 finis
+  }
+}

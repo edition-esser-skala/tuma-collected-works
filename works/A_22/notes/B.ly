@@ -994,3 +994,75 @@ A-XXIIEtResurrexitBassoLyrics = \lyricmode {
   men, a --
   men. %178 finis
 }
+
+A-XXIISanctusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIISanctus
+    r2 \mvTr a\fE^\tutti
+    a r
+    r e'
+    e r
+    f4.( e8 dis2) %5
+    e e4 e8 e
+    e2 d!
+    r d4 d8 d
+    d2 c4 c8 h
+    ais2( h4.) h8 \noBreak %10
+    e,1\fermata \bar "||"
+    \time 3/4 \tempoA-XXIIPleni R2.*2
+    c'4 e g
+    c c r %15
+    R2.
+    c,4 e g
+    c c c,
+    a2.
+    g %20
+    fis
+    g
+    g'4. g8 d4
+    h g r
+    c'4. c8 g4 %25
+    e c r
+    f4.( e8) d4
+    c g'2
+    c, e4
+    f e c %30
+    f f2
+    c2.\fermata \bar "|." %32 finis
+  }
+}
+
+A-XXIISanctusBassoLyrics = \lyricmode {
+  San --
+  ctus,
+  san --
+  ctus,
+  san -- %5
+  ctus Do -- mi -- nus
+  De -- us,
+  Do -- mi -- nus
+  De -- us, De -- us
+  Sa -- ba -- %10
+  oth.
+
+  Ple -- ni sunt %14
+  coe -- li, %15
+
+  ple -- ni sunt
+  coe -- li et
+  ter --
+  _ %20
+  _
+  ra
+  glo -- ri -- a
+  tu -- a,
+  glo -- ri -- a %25
+  tu -- a,
+  glo -- ri --
+  a tu --
+  a. O --
+  san -- na in %30
+  ex -- cel --
+  sis. %32 finis
+}

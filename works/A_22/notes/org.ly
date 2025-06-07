@@ -1654,3 +1654,78 @@ A-XXIIEtResurrexitBassFigures = \figuremode {
   \bo <[4]>4 \bc <[3]>2.
   r1 %178 finis
 }
+
+A-XXIISanctusOrgano = {
+  \relative c {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIISanctus
+    \mvTr e''2\fE-\tutti \clef bass a,,,~
+    a r
+    \clef treble c'' \clef bass e,,
+    e r
+    f4. e8 dis2 %5
+    e e4 e8 e
+    e2 d!
+    r d4 d8 d
+    d2 c4 c8 h
+    ais2 h \noBreak %10
+    e,1\fermata \bar "||"
+    \time 3/4 \tempoA-XXIIPleni
+      c'4-\soloE r r \noBreak
+    c r r
+    c-\tutti e g
+    c c r %15
+    c, r r
+    c e g
+    c2 c,4
+    a2.
+    g %20
+    fis
+    g
+    g'4. g8 d4
+    h g r
+    c'4. c8 g4 %25
+    e c r
+    f4. e8 d4
+    c g2
+    c e4
+    f e c %30
+    f f,2
+    c'2.\fermata \bar "|." %32 finis
+  }
+}
+
+A-XXIISanctusBassFigures = \figuremode {
+  r1
+  r
+  r2 <6>
+  r1
+  r2 <7 5 [_+]> %5
+  <5 _+>2. <\t \t>8 <6\\ \t>
+  <[6\\] 4\+ 2\+>2 <6 _+>
+  r q
+  <4\+ 2> <6>4 <5[!] 3>8 <[\t \t]>
+  <7 5 [_+]>2 <[5\+] _+> %10
+  r1
+  r2.
+  r
+  r
+  r %15
+  r
+  r
+  r
+  r
+  <4 2> %20
+  <6 5>
+  r
+  r2 <_+>4
+  \bo <[6]>2.
+  r %25
+  <6>
+  r2 \bc <[6]>4
+  r <5 4> <\t 3>
+  r2.
+  r4 <[6]>2 %30
+  r2.
+  r %32 finis
+}
