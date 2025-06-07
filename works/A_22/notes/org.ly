@@ -1304,7 +1304,7 @@ A-XXIICredoOrgano = {
      g, c8 c-\soloE g' gis %45
      a a, e' e f f, c' cis
      d h c a f g e4
-     e' f8 g c,4 r\fermata \bar "|." %48 finis
+     e' f8 g c,4 r\fermata \bar "||" %48 finis
   }
 }
 
@@ -1381,7 +1381,7 @@ A-XXIIEtIncarnatusOrgano = {
     e,4-\tuttiE e'-! dis-! d-!
     \parOn cis-\parenthesize-! c-! h-! e-!
     e-! \parOff dis-\parenthesize-! << {
-      h'4.^\critnote h8
+      h'4.^\critnote h8 %65
       ais4 a gis g
       fis h h ais
     } \\ {

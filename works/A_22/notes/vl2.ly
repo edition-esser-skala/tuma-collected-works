@@ -414,7 +414,7 @@ A-XXIIEtIncarnatusViolinoII = {
     e2 e4 r
     fis2 fis4 r
     R1*3 %80
-    R1\fermata \bar "|." %81 finis
+    R1\fermata \bar "||" %81 finis
   }
 }
 
@@ -588,7 +588,7 @@ A-XXIIAgnusViolinoII = {
     d4 d8 g e e r e
     e4 c c2 \noBreak
     h1\fermata \bar "||"
-    \tempoA-XXIIDona R1*6 %24
+    \tempoA-XXIIDona \after 4*0 -\critnote R1*6 %24
     g2 a %25
     r4 d8 d h4. a16 h
     c4 r r8 c4 b8

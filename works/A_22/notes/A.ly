@@ -723,7 +723,7 @@ A-XXIIEtIncarnatusAlto = {
     dis\p dis dis e
     e2 a8([ g fis e]
     dis4) e e dis %80
-    e1\fermata \bar "|." %81 finis
+    e1\fermata \bar "||" %81 finis
   }
 }
 

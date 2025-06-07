@@ -383,7 +383,7 @@ A-XXIIEtIncarnatusTromboneI = {
     e2 e4 r
     fis2 fis4 r
     \after 4*0 -\critnote R1*3 %80
-    R1\fermata \bar "|." %81 finis
+    R1\fermata \bar "||" %81 finis
   }
 }
 

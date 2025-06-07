@@ -461,7 +461,7 @@ A-XXIIEtIncarnatusViolinoI = {
     d'!2 c!4 r
     e2 dis4 r
     R1*3 %80
-    R1\fermata \bar "|." %81 finis
+    R1\fermata \bar "||" %81 finis
   }
 }
 

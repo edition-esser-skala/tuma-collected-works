@@ -328,35 +328,35 @@ A-XXIIGloriaSoprano = {
     \mvTr e'4.\fE^\tutti e8 e4
     e4. e8 e d
     e4 e r
-    R2.*2
+    R2.*2 %5
     e4. e8 e4
     e4. e8 e e
     d4 d r
     R2.
-    g,8 a16 h c8 d e fis
+    g,8 a16 h c8 d e fis %10
     g4 g,2
     e' e4
     e d4. d8
     e4 r r
-    r e e
+    r e e %15
     e,2 e4
     e2 d4
     e8. e16 e4 r
     e'2 r4
-    e2 e4
+    e2 e4 %20
     dis4. dis8 dis4
     R2.
     r4 h h
     e,2 e4
-    h'2 h4
+    h'2 h4 %25
     c4. c8 c4
     c2 c4
     c2 c4~
     c h2
-    c4 c c
+    c4 c c %30
     c2.
     c4 h2
-    c4 r r\fermata \bar "||"
+    c4 r r\fermata \bar "||" %33 finis
   }
 }
 
@@ -538,7 +538,7 @@ A-XXIIDomineSoprano = {
     c r r2
     R1
     c4 c8 c c4( h)
-    c2 r\fermata \bar "|." %159 finis
+    c2 r\fermata \bar "||" %159 finis
   }
 }
 
@@ -778,7 +778,7 @@ A-XXIIEtIncarnatusSoprano = {
     fis,\p fis fis g
     g2 c8([ h a g]
     fis4) g \hA fis4. fis8 %80
-    e1\fermata \bar "|." %81 finis
+    e1\fermata \bar "||" %81 finis
   }
 }
 
@@ -974,33 +974,33 @@ A-XXIISanctusSoprano = {
     e2 r
     c1
     c2 r
-    a1
+    a1 %5
     gis2 h4 e8 cis
     ais2 h
     r h4 d8 h
     gis2 a!4 e'~
-    e e dis4. dis8 \noBreak
+    e e dis4. dis8 \noBreak %10
     e1\fermata \bar "||"
     \time 3/4 \tempoA-XXIIPleni R2.*2
     c4 c h
-    c c r
+    c c r %15
     R2.
     c4 c h
     c c e,
     \once \tieDashed e2.~
-    e
+    e %20
     d
     d
     h'4. h8 a4
     h h r
-    e4. e8 d4
+    e4. e8 d4 %25
     e e r
     a,2 h4
     c c( h)
     c2 c4
-    c c c
+    c c c %30
     c c2
-    c2.\fermata \bar "|."
+    c2.\fermata \bar "|." %32 finis
   }
 }
 
