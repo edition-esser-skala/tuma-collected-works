@@ -549,3 +549,83 @@ A-XXIISanctusViolinoII = {
     c2.\fermata \bar "|."
   }
 }
+
+A-XXIIOsannaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIIOsanna
+      \set Score.currentBarNumber = #45
+    r2 e'4\fE d
+    e r e d
+    e r r2
+    r4 g,8 a h g a h
+    c1~
+    c4 h8 a g2
+    g1
+    r4 h h g
+    r g g e
+    r g a2
+    g1~
+    g~
+    g~
+    g\fermata \bar "|."
+  }
+}
+
+A-XXIIAgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIIAgnus
+    g'4.\fE g8 gis4 gis8 gis
+    a4 a8 a a4 a
+    gis gis r2
+    g f
+    a g %5
+    h a4 h
+    a2 gis
+    R1*7 %14
+    r2 r4 e'8\fE e
+    d4 d8 g e e r e
+    e4 c c2 \noBreak
+    h1\fermata \bar "||"
+    \tempoA-XXIIDona R1*6 %24
+    g2 a %25
+    r4 d8 d h4. a16 h
+    c4 r r8 c4 b8
+    a g f e d d'4 c8
+    h!4. a16 g a2
+    g4 r r2 %30
+    R1*2
+    r2 r8 f'4 e8
+    d c h a g4 r
+    r8 e'4 d8 c h a4 %35
+    r8 d4 c8 h a g4
+    r8 c4 h16 a h4. e8
+    a,4. d8 g,2~
+    g4 r8 c4 b8 a h?16 cis
+    d2. e4~ %40
+    e d r8 d4 c8
+    h a g4 r8 g'4 f8
+    e d c4 r8 c4 b8
+    a g f a gis a16 h c4~
+    c h8 a gis4 r %45
+    R1
+    r2 a
+    h4 e8 e cis4. h16 \hA cis
+    dis4. cis16 \hA dis e4 r8 e~
+    e d c h a4 r8 d~ %50
+    d c h a g4 r8 c~
+    c b a4 g r
+    R1*3 %55
+    r2 g
+    a r4 d8 d
+    h4. a16 h c8 c4 b8
+    a g f e d4 r
+    R1 %60
+    r8 d'4 c8 h! a g f
+    e e'4 d8 c h a g
+    f f'4 e8 d c h a
+    h4 c2 h8 a
+    h2 c\fermata \bar "|." %65 finis
+  }
+}

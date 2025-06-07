@@ -32,5 +32,7 @@ toe: |
     & 87–89 & clno 2 & bars in \A1: 3×\wholeNoteRest \\
     & 91 & vl 2, S & 3rd \quarterNote\ in \A1 and \B1: e″4 \\
     & 147–178 & vl 2 & \B1 contains an alternative part where vl 2 plays unison with A. \\
+  5 & 16 & S & 1st \halfNote\ in \A1: \halfNoteRest \\
+    & 34–44 & in \A1 indicated by “da capo sin al segno” \\
 parts:
   ottoni: Clarino I, II in C\\Tromba I, II in C\\Timpani in C–G

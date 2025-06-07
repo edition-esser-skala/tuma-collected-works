@@ -597,3 +597,128 @@ A-XXIISanctusViolinoI = {
     g2.\fermata \bar "|." %32 finis
   }
 }
+
+A-XXIIBenedictusViolinoIeII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoA-XXIIBenedictus
+    a'4\fE h\trill c16( h) a8 r4
+    c d\trill e16( d) c8 r4
+    d e\trill f16( e) d8 r f
+    a,16( gis) gis8-! r e' g,?16( fis) fis8-! r d'
+    f,16( e) e8-! c'16 d \appoggiatura e32 d16.\trill c64( d) e4 r8 e %5
+    c'16 e, f e d c' h d, h' d, e d c h' a c,
+    a' c, d c h a' g b, a g' f a, gis f' e g,
+    fis e' d f, e fis? gis a h c d e fis gis a h
+    c, a' a, h h4 a8 a' r dis,
+    e e, r gis' a16 a, d h h4\trill %10
+    a r r2
+    R1*4 %15
+    e'4\p fis\trill g!16 \hA fis e8 r4
+    g a\trill h16 a g8 r4
+    d8. e32( fis) g8 h~ h16 e, fis e r8 a~
+    a16 a, h a fis4 g r
+    R1 %20
+    r4 r8 c'\fE e,16( dis) dis8-! r h'
+    d,16( cis) cis8-! r a' c,?16( h) h8-! g'4~
+    g16 a, h a g h e g h dis, e g, fis8 dis'
+    e e, r4 r2
+    R1 %25
+    r2 r4 r8 c''\p
+    e,16( dis) dis8-! r h' d,?16( cis) cis8-! r a'
+    c,16( h) h8 r g' \once \slurDashed b,16( a) a8 r4
+    R1*4 %32
+    r2 a'8\f g16 f e d c h \markCritnote
+    a4 h\trill c16( h) a8 r4
+    c d\trill e16( d) c8 r4 %35
+    d e\trill f16( e) d8 r f
+    a,16( gis) gis8-! r e' g,?16( fis) fis8-! r d'
+    f,16( e) e8-! c'16 d \appoggiatura e32 d16.\trill c64( d) e4 r8 e
+    c'16 e, f e d c' h d, h' d, e d c h' a c,
+    a' c, d c h a' g b, a g' f a, gis f' e g, %40
+    fis e' d f, e fis? gis a h c d e fis gis a h
+    c, a' a, h h4 a8 a' r dis,
+    e e, r gis' a16 a, d h h4\trill
+    a r r2\fermata \bar "||" %44 finis
+  }
+}
+
+A-XXIIOsannaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIIOsanna
+      \set Score.currentBarNumber = #45
+    r2 g''4\fE g
+    g r g g
+    g c,8 d e d e f
+    g2. f4
+    e1
+    d %50
+    e8 g f e d4 r
+    r d d h
+    r e e c
+    r e d d
+    e2 d4 e %55
+    d e d e
+    d1
+    e\fermata \bar "|." %58 finis
+  }
+}
+
+A-XXIIAgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIIAgnus
+    e'4.\fE e8 d4 d8 d
+    c4 c8 c c4 h8 a
+    h4 h h h
+    c2 c4 cis
+    d2. dis4 %5
+    e2 e~
+    e4 d! e2
+    R1*7 %14
+    r2 r4 e8\fE e %15
+    d4 d8 g e e r e
+    c4 c c2 \noBreak
+    h1\fermata \bar "||"
+    \tempoA-XXIIDona R1*6 %24
+    g2 a %25
+    r4 d8 d h4. a16 h
+    c4 r r8 c4 b8
+    a g f e d d'4 c8
+    h!4. a16 g a2
+    g4 r r2 %30
+    R1*2
+    r2 r8 f'4 e8
+    d c h a g4 r
+    r8 e'4 d8 c h a4 %35
+    r8 d4 c8 h a g4
+    r8 c4 h16 a h4. e8
+    a,4. d8 g,2~
+    g4 r8 c4 b8 a h?16 cis
+    d2. e4~ %40
+    e d r8 d4 c8
+    h a g4 r8 g'4 f8
+    e d c4 r8 c4 b8
+    a g f a gis a16 h c4~
+    c h8 a gis4 r %45
+    R1
+    r2 a
+    h4 e8 e cis4. h16 \hA cis
+    dis4. cis16 \hA dis e4 r8 e~
+    e d c h a4 r8 d~ %50
+    d c h a g4 r8 c~
+    c b a4 g r
+    R1*3 %55
+    r2 g
+    a r4 d8 d
+    h4. a16 h c8 c4 b8
+    a g f e d4 r
+    R1 %60
+    r8 d'4 c8 h! a g f
+    e e'4 d8 c h a g
+    f f'4 e8 d c h a
+    h4 c2 h8 a
+    h2 c\fermata \bar "|." %65 finis
+  }
+}

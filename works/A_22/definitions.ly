@@ -27,6 +27,12 @@ tempoA-XXIIEtResurrexit = \tempoMarkup "Allegro"
 tempoA-XXIISanctus = \tempoMarkup "Adagio"
   tempoA-XXIIPleni = \tempoMarkup "Allegro"
 
+tempoA-XXIIBenedictus = \tempoMarkup "Andante"
+tempoA-XXIIOsanna = \tempoMarkup "Allegro"
+
+tempoA-XXIIAgnus = \tempoMarkup "Adagio"
+tempoA-XXIIDona = \tempoMarkup "Allegro"
+
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
 \include "notes/tr1.ly"

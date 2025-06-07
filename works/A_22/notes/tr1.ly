@@ -220,3 +220,41 @@ A-XXIISanctusTrombaI = {
     c2.\fermata \bar "|." %32 finis
   }
 }
+
+A-XXIIOsannaTrombaI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIIOsanna
+      \set Score.currentBarNumber = #45
+    g'4\fE g g r
+    g g g r
+    R1*5 %51
+    r4 g g r
+    r g g r
+    R1
+    r2 r4 g %55
+    g r r g
+    g r r g
+    \pao c,1\fermata \bar "|." %58 finis
+  }
+}
+
+A-XXIIAgnusTrombaI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIIAgnus
+    R1*14 %14
+    r2 r4 g'\fE %15
+    g g8 g g4 r
+    R1 \noBreak
+    g2 r\fermata \bar "||"
+    \tempoA-XXIIDona R1*33 %51
+    r2 g4 r
+    g r8 g g4 r
+    r r8 g g4 r
+    R1*6 %60
+    g4 r r2
+    R1*3
+    g4 g8 g g2\fermata \bar "|." %65 finis
+  }
+}

@@ -1038,17 +1038,210 @@ A-XXIISanctusSopranoLyrics = \lyricmode {
   sis. %32 finis
 }
 
+A-XXIIBenedictusSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoA-XXIIBenedictus
+    R1*10 %10
+    \mvTr a'4\pE^\solo h\trill c16([ h)] a8 r4
+    c d\trill e16([ d)] c8 r4
+    d e\trill f16([ e)] d8 r f
+    a,16([ gis)] gis8 r e' g,?16([ fis)] fis8 r d'
+    f,16([ e)] e8 c'4 h8 c16 a d8. e16 %15
+    e4^\critnote r e8([ d16 c] h_[ a)] g!([ fis)]
+    g8 e r4 g'8([ fis16 e] d[ c)] h([ a)]
+    h8 g r h c4 cis8 cis
+    d4 dis8 dis e16[ g fis e] dis[ c? h a]
+    g[ e' d c] h[ a g fis] e[ h'] c a fis8. e16 %20
+    e4 r r2
+    R1*2
+    h'4. e8 c16([ h)] a8 r f'
+    a,16([ gis)] gis8 r e' g,?16([ fis)] fis8 d'4 %25
+    d8 c16 h c8 h16([ a)] gis4 c
+    fis, e8 e' e4 d8 d,
+    d'4 c8 c, c'[ d16 e] f[ e d c]
+    h[ c d c] h[ a] gis([ fis)] e8 h' c16[ d e gis,]
+    a[ h c e,] f[ g a cis,] d[ a' h cis] d[ e f a,] %30
+    gis[ fis] e8 d'4 c16([ f)] e d c([ h)] a([ gis)]
+    a4 f' e16[ a g! f] e[ d c h]
+    a[ d] c h \appoggiatura c8 h8. a16 a4 r \markCritnote
+    R1*10 %43
+    R1\fermata \bar "||" %44 finis
+  }
+}
 
+A-XXIIBenedictusSopranoLyrics = \lyricmode {
+  Be -- ne -- di -- ctus, %11
+  be -- ne -- di -- ctus,
+  be -- ne -- di -- ctus, qui
+  ve -- nit, qui ve -- nit, qui
+  ve -- nit in no -- mi -- ne Do -- mi -- %15
+  ni, be -- ne --
+  di -- ctus, be -- ne --
+  di -- ctus, qui ve -- nit in
+  no -- mi -- ne Do -- _
+  _ _ _ mi -- ni, Do -- mi -- %20
+  ni.
 
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
+  Be -- ne -- di -- ctus, qui %24
+  ve -- nit, qui ve -- nit in %25
+  no -- mi -- ne Do -- mi -- ni, qui
+  ve -- nit, qui ve -- nit in
+  no -- mi -- ne Do -- _
+  _ _ mi -- ni, qui ve --
+  _ _ _ _ %30
+  _ nit in no -- mi -- ne Do -- mi --
+  ni, in no -- _
+  _ mi -- ne Do -- mi -- ni. %33 finis
+}
 
+A-XXIIOsannaSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIIOsanna
+      \set Score.currentBarNumber = #45
+    r2 \mvDl e'4\fE^\tutti d
+    e r e d
+    e c8([ d] e[ d)] e([ f)]
+    g2. f4
+    e1
+    d %50
+    e8([ g)] f([ e)] d4 d
+    r d d h
+    r e e c
+    r e d d
+    e2 d4 e %55
+    d e d e
+    d1
+    e\fermata \bar "|." %58 finis
+  }
+}
 
-% ## Agnus Dei
+A-XXIIOsannaSopranoLyrics = \lyricmode {
+  O -- san -- %45
+  na, o -- san --
+  na in __ ex --
+  cel -- _
+  _
+  sis, %50
+  in ex -- cel -- sis,
+  o -- san -- na,
+  o -- san -- na,
+  o -- san -- na,
+  o -- san -- na %55
+  in ex -- cel -- _
+  _
+  sis. %f8 finis
+}
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+A-XXIIAgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIIAgnus
+    \mvTr e'4.\fE^\tutti e8 d4 d8 d
+    c4 c8 c c4 h8([ a)]
+    h4 h h h
+    c c c cis
+    d d d dis %5
+    e e e2~
+    e4 d! e2
+    R1*7 %14
+    r2 r4 \mvTr e8\fE^\tutti e %15
+    d4 d8 d e e r e
+    c4 c c2 \noBreak
+    h1\fermata \bar "||"
+    \tempoA-XXIIDona R1*6 %24
+    g2 a %25
+    r4 d8 d \once \stemUp h4.( a16[ h)]
+    c4 r r8 c4 b8
+    a[ g f e] d d'4 c8
+    h!4. a16[ g] a2
+    g4 r r2 %30
+    R1*2
+    r2 r8 f'4( e8
+    d[ c h a]) g4 r
+    r8 e'4( d8 c[ h)] a4 %35
+    r8 d4( c8 h_[ a)] g4
+    r8 c4 h16[ a] h4. e8
+    a,4. d8 g,2~
+    g4 r8 c4( b8 a h?16[ cis])
+    d2. e4~ %40
+    e d r8 d4( c8
+    h_[ a)] g4 r8 g'4( f8
+    e[ d)] c4 r8 c4 b8
+    a[ g f a] gis[ a16 h] c4~
+    c h8[ a] gis4 r %45
+    R1
+    r2 a
+    h4 e8 e cis4. h16[ \hA cis]
+    dis4. cis16[ \hA dis] e4 r8 e~
+    e[ d c h] a4 r8 d~ %50
+    d[ c h a] g4 r8 c~
+    c[ b] a4 g r
+    R1*3 %55
+    r2 g
+    a r4 d8 d
+    \once \stemUp h4.( a16[ h)] c8 c4( b8
+    a[ g f e]) d4 r
+    R1 %60
+    r8 d'4 c8 h![ a g f]
+    e e'4 d8 c[ h a g]
+    f f'4 e8 d[ c h a]
+    h4 c2 h8[ a]
+    h2 c\fermata \bar "|." %65 finis
+  }
+}
+
+A-XXIIAgnusSopranoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: Mi -- se --
+  re -- re, mi -- se --
+  re -- re, mi -- se -- %5
+  re -- re no --
+  _ bis.
+
+  A -- gnus %15
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun --
+  di:
+
+  Do -- na %25
+  no -- bis pa --
+  cem, pa -- _
+  _ _ _ _
+  _ _ _
+  cem, %30
+
+  pa -- %33
+  cem,
+  pa -- cem, %35
+  pa -- cem,
+  pa -- _ _ _
+  _ _ cem, __
+  pa --
+  cem, pa -- %40
+  cem, pa --
+  cem, pa --
+  cem, pa -- _
+  _ _ _
+  _ cem, %45
+
+  do --
+  na no -- bis pa -- _
+  _ _ cem, pa --
+  cem, pa -- %50
+  cem, pa --
+  _ cem,
+
+  do -- %56
+  na no -- bis
+  pa -- cem, pa --
+  cem,
+  %60
+  pa -- _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _
+  _ cem. %65 finis
+}

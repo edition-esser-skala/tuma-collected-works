@@ -992,3 +992,158 @@ A-XXIISanctusAltoLyrics = \lyricmode {
   ex -- cel --
   sis. %32 finis
 }
+
+A-XXIIOsannaAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIIOsanna
+      \set Score.currentBarNumber = #45
+    r2 \mvDl g'4\fE^\tutti g
+    g r g g
+    g r r2
+    r4 g8([ a] h[ g)] a[( h)]
+    c1~
+    c4 h8[ a] g2 %50
+    g4 g g g
+    r h h g
+    r g g e
+    r g a2
+    g g4 g %55
+    g g g g
+    g1
+    g\fermata \bar "|." %58 finis
+  }
+}
+
+A-XXIIOsannaAltoLyrics = \lyricmode {
+  O -- san -- %45
+  na, o -- san --
+  na
+  in __ ex --
+  cel --
+  _ _ %50
+  sis, o -- san -- na,
+  o -- san -- na,
+  o -- san -- na,
+  o -- san --
+  na in ex -- %55
+  cel -- sis, in ex --
+  cel --
+  sis. %58 finis
+}
+
+A-XXIIAgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIIAgnus
+    \mvTr g'4.\fE^\tutti g8 gis4 gis8 gis
+    a4 a8 a a4 a
+    gis gis r2
+    g4 g f f
+    a a g g %5
+    h h a h
+    a2 gis
+    R1*7 %14
+    r2 r4 \mvTr g8\fE^\tutti g %15
+    g4 g8 g g g r g
+    g4 fis8([ e)] \hA fis2 \noBreak
+    g1\fermata \bar "||"
+    \tempoA-XXIIDona R1*4 %22
+    c,2 e
+    r4 a8 a fis4.( e16[ \hA fis)]
+    g4 r r8 f4 e8 %25
+    d[ c h a] g g'4 f8
+    e2 g
+    f4. g8 a2
+    d, r
+    r8 g4( f!8 e[ d)] c4 %30
+    r8 a'4( g8 f[ e)] d4
+    r8 g4 f8 e4. d16[ c]
+    d4. e16[ d] c4 r
+    r2 r8 g'4( f8
+    e[ d)] c4 r8 f4( e8 %35
+    d[ c)] h4 r8 e4( d8
+    c[ h)] a a'4 gis8[ e g]~
+    g[ fis d f] f4 e8.[ d16]
+    e2. f8.[ g16]
+    a2. g4~ %40
+    g fis g r
+    r8 g4( f8 e[ d)] c4
+    r8 c'4( b8 a[ g)] f4
+    r8 f4( e8) d4 e~
+    e d e r %45
+    e4. e8 f4. a8
+    gis4.( fis16[ \hA gis)] a4 f(
+    e2) e
+    fis8([ g?] a4) gis r
+    r r8 a4( g8[ f e]) %50
+    d4 r8 g4 f8[ e d]
+    c4 f8.[ e16] d4 r
+    R1*4 %56
+    c2 f
+    r4 g8 g e4. d16[ e]
+    f2 g4 r8 g~
+    g[ f] e[ f16 g] a4. h16[ c] %60
+    h4 g2 g4
+    \once \tieDashed g1~
+    g
+    g2 g~
+    g g\fermata \bar "|." %65 finis
+  }
+}
+
+A-XXIIAgnusAltoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re, %5
+  mi -- se --  re -- re
+  no -- bis.
+
+  A -- gnus %15
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun --
+  di:
+
+  Do -- na %23
+  no -- bis pa --
+  cem, pa -- _ %25
+  _ _ _ _
+  cem, pa --
+  _ _ _
+  cem,
+  pa -- cem, %30
+  pa -- cem,
+  pa -- _ _ _
+  _ _ cem,
+  pa --
+  cem, pa -- %35
+  cem, pa --
+  cem, pa -- _
+  _ _
+  _ _
+  cem, pa -- %40
+  _ cem,
+  pa -- cem,
+  pa -- cem,
+  pa -- cem, pa --
+  _ cem, %45
+  do -- na no -- bis
+  pa -- cem, pa --
+  cem,
+  pa -- cem,
+  pa -- %%0
+  cem, pa -- _
+  _ _ cem,
+
+  do -- na %57
+  no -- bis pa -- _
+  _ cem, pa --
+  _ _ _ %60
+  cem, do -- na
+  no --
+
+  bis pa --
+  cem. %65 finis
+}

@@ -1066,3 +1066,162 @@ A-XXIISanctusBassoLyrics = \lyricmode {
   ex -- cel --
   sis. %32 finis
 }
+
+A-XXIIOsannaBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIIOsanna
+      \set Score.currentBarNumber = #45
+    r2 \mvDl c'4\fE^\tutti g
+    c, r c' g
+    c, r r2
+    R1*2
+    r4 g'8([ a] h[ g]) a([ h)] %50
+    c2 h4 h
+    h g r g
+    g e r e
+    e c f8([ g)] a([ h)]
+    c2 g4 c, %55
+    g' c, g' c
+    g1
+    c,\fermata \bar "|." %58 finis
+  }
+}
+
+A-XXIIOsannaBassoLyrics = \lyricmode {
+  O -- san -- %45
+  na, o -- san --
+  na
+
+  in __ ex -- %50
+  cel -- sis, o --
+  san -- na, o --
+  san -- na, o --
+  san -- na in ex --
+  cel -- sis, o --
+  san -- na in ex --
+  cel --
+  sis. %58 finis
+}
+
+A-XXIIAgnusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIIAgnus
+    \mvTr c4.\fE^\tutti c8 h4 h8 h
+    a4 a8 a f'4. f8
+    e4 e r2
+    e4 e f f
+    fis fis g g %5
+    g gis a g
+    f2 e
+    R1*7 %14
+    r2 r4 \mvTr c8\fE^\tutti c %15
+    g'4 g8 g c, c r c
+    a4 a a2 \noBreak
+    g1\fermata \bar "||"
+    \tempoA-XXIIDona c2 e \noBreak
+    r4 a8 a fis4.( e16[ \hA fis)] %20
+    g4 r r8 f4 e8
+    d[ c h a] g g'4 f8
+    e4 r8 f( c4 e
+    f) d r d
+    e2 f! %25
+    g4 r r2
+    c, e
+    r4 a8 a fis4. e16[ \hA fis]
+    g8[ d] g2 fis4
+    g r r2 %30
+    R1*2
+    g,2 a
+    r4 d8 d h4.( a16[ h)]
+    c4 r r2 %35
+    R1*2
+    r2 c
+    e r4 a8 a
+    fis4.( e16[ \hA fis] g4) e %40
+    c( d) g, r8 g'~
+    g8[ f! e d] c4 r8 c'~
+    c[ b a g] f4 r8 f~
+    f[ e d c] h!4 a
+    f'2 e4 r %45
+    R1
+    e4. e8 fis4. a8
+    gis4. fis16[ \hA gis] a4 g
+    fis2 e4 r
+    r8 a4( g!8 f[ e)] d4 %50
+    r8 g4 f8 e[ d] c4
+    f2 g4 r
+    R1*2
+    c,2 f %55
+    r4 g8 g e4.( d16[ e])
+    f8 f4( e8 d[ c h a)]
+    g4 r c2
+    f r4 g8 g
+    e4.( d16[ e] f2) %60
+    g g~
+    g g
+    g1
+    g2 g~
+    g c,\fermata \bar "|." %65 finis
+  }
+}
+
+A-XXIIAgnusBassoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re, %5
+  mi -- se --  re -- re
+  no -- bis.
+
+  A -- gnus %15
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun --
+  di:
+  Do -- na
+  no -- bis pa -- %20
+  cem, pa -- _
+  _ _ _ _
+  cem, pa --
+  cem, pa --
+  _ _ %25
+  cem,
+  do -- na
+  no -- bis pa -- _
+  _ _ _
+  cem, %30
+
+  do -- na %33
+  no -- bis pa --
+  cem, %35
+
+  do -- %38
+  na no -- bis
+  pa -- cem, %40
+  pa -- cem, pa --
+  cem, pa --
+  cem, pa --
+  _ cem,
+  pa -- cem, %45
+
+  do -- na no -- bis
+  pa -- _ _ _
+  _ cem,
+  pa -- cem, %50
+  pa -- _ _ _
+  _ cem,
+
+  do -- na %55
+  no -- bis pa --
+  cem, pa --
+  cem, do --
+  na no -- bis
+  pa -- %60
+  cem, do --
+  na
+  no --
+  bis pa --
+  cem. %65 finis
+}

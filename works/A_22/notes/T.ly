@@ -918,3 +918,176 @@ A-XXIISanctusTenoreLyrics = \lyricmode {
   ex -- cel --
   sis. %32 finis
 }
+
+A-XXIIOsannaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIIOsanna
+      \set Score.currentBarNumber = #45
+    r2 \mvDl c4\fE^\tutti h
+    c r c h
+    c r r2
+    R1
+    r4 c8([ d] e[ d]) e([ f)]
+    g2.( f4) %50
+    e r r d
+    d h r h
+    h g r g
+    g c c2
+    c h4 c %55
+    h c h c
+    c( h8_[ a] h2)
+    c1\fermata \bar "|." %58 finis
+  }
+}
+
+A-XXIIOsannaTenoreLyrics = \lyricmode {
+  O -- san -- %45
+  na, o -- san --
+  na
+
+  in __ ex --
+  cel -- %50
+  sis, o --
+  san -- na, o --
+  san -- na, o --
+  san -- na, o --
+  san -- na, o --
+  san -- na in ex --
+  cel --
+  sis. %58 finis
+}
+
+A-XXIIAgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIIAgnus
+    \mvTr c4.\fE^\tutti c8 d4 d8 d
+    e4 e8 e e4 d
+    e e r2
+    c4 c a a
+    a a h h %5
+    h h c h
+    c_( h8[ a)] h2
+    \mvTr h4.\pE^\solo c8 a4 h8 fis
+    g e r c' c4 h
+    h( a) h r %10
+    dis4. dis8 e4 e
+    r e8 h c4 h8([ a)]
+    fis2 e4 r
+    R1
+    r2 r4 \mvTr c'8\fE^\tutti c %15
+    c4 h8 h c c r c
+    c4 c c2 \noBreak
+    d1\fermata \bar "||"
+    \tempoA-XXIIDona R1*2 %20
+    g,2 a
+    r4 d8 d \once \stemUp h4.( a16[ h)]
+    c4 r r8 c4 b8
+    a[ g f e] d d'4 c8
+    h![ g] c2 d8[ c] %25
+    h4. c8 d[ e] d4
+    g,1
+    R
+    r2 r8 d'4( c8
+    h_[ a)] g4 r8 e'4( d8 %30
+    c[ h)] a4 r8 f'4 e8
+    d[ c] h4 c8[ g] c4~
+    c8[ h16 a] h4~ h8[ a16 gis] a8[ g]
+    f[ e d] d' d2
+    g,4 r r2 %35
+    R1*3
+    r8 c4 b8 a[ g f e]
+    d d'4 c8 h4. a16[ g] %40
+    a2 g8 \once \stemUp h4( a8
+    g[ a16 h]) c4 r8 e4( d8
+    c[ d16 e)] f4 r8 a,4( g8)
+    f4 r r2
+    a2 h4 e8 e %45
+    cis4. h16[ \hA cis] d8[ a] d4~
+    d8[ c16 d] h8[ e]~ e4 d8[ c]
+    h[ e,] h'4~ h8 a r4
+    a2 h8 e4 d!8
+    c([ h)] a4 r8 d4( c8 %50
+    h_[ a)] g4 r8 c4 b8
+    a[ g] f[ d'16 c] h4 r
+    R1
+    r2 g
+    a r4 d8 d %55
+    \once \stemUp h4.( a16[ h)] c8 c4( b8
+    a[ g)] f4 r2
+    g a
+    r4 d8 d \once \stemUp h4.( a16[ h)]
+    c4 c2 d4~ %60
+    d r d2~
+    d4 c e2~
+    e4 d f2~
+    f8[ e16 d] e8[ d16 c] \once \tieDashed d2~
+    d e\fermata \bar "|." %65 finis
+  }
+}
+
+A-XXIIAgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re, %5
+  mi -- se --  re -- re
+  no -- bis.
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: %10
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re
+  no -- bis.
+
+  A -- gnus %15
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun --
+  di:
+
+  Do -- na %21
+  no -- bis pa --
+  cem, pa -- _
+  _ _ _ _
+  _ _ _ %25
+  _ _ _ _
+  cem,
+
+  pa --
+  cem, pa -- %30
+  cem, pa -- _
+  _ _ _ _
+  _ _
+  _ cem, pa --
+  cem, %35
+
+  pa -- _ _ %39
+  _ _ _ _ _ %40
+  _ cem, pa --
+  cem, pa --
+  cem, pa --
+  cem,
+  do -- na no -- bis %45
+  pa -- _ _ _
+  _ _
+  _ _ cem,
+  do -- na no -- bis
+  pa -- cem, pa -- %50
+  cem, pa -- _
+  _ _ cem,
+
+  do --
+  na no -- bis %55
+  pa -- cem, pa --
+  cem,
+  do -- na
+  no -- bis pa --
+  cem, pa -- cem, __ %60
+  do --
+  na no --
+  bis pa --
+  _ _
+  cem. %65 finis
+}

@@ -220,17 +220,58 @@ A-XXIISanctusClarinoII = {
     \time 3/4 \tempoA-XXIIPleni R2. \noBreak
     c'8\fE g c e d4
     e c r
-    R2.
+    R2. %15
     c8 g c e d4
     e c r
-    R2.*6
+    R2.*6 %23
     g4 g8 g g g
-    c4 r r
+    c4 r r %25
     e e8 e e e
     f4 r r
     R2.*2
-    r4 r c,
+    r4 r c, %30
     c c c
-    c2.\fermata \bar "|."
+    c2.\fermata \bar "|." %32 finis
+  }
+}
+
+A-XXIIOsannaClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIIOsanna
+      \set Score.currentBarNumber = #45
+    e'4\fE d c r
+    e d c r
+    R1*5 %51
+    r4 d d r
+    r e e r
+    R1
+    r2 r4 c %55
+    g r r g
+    g2. g4
+    g1\fermata \bar "|." %58 finis
+  }
+}
+
+A-XXIIAgnusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIIAgnus
+    R1*14 %14
+    r2 r4 e'\fE %15
+    d d8 d c4 e
+    e c c2 \noBreak
+    g1\fermata \bar "||"
+    \tempoA-XXIIDona R1*20 %38
+    e'4. e8 c4 r
+    r d d e~ %40
+    e d d r
+    R1*11 %52
+    r8 g, g' f e d c d16 e
+    f8 e d e d4 r
+    R1*6 %60
+    d4 r r2
+    R1*3
+    d4 d8 d c2\fermata \bar "|." %65 finis
   }
 }

@@ -510,3 +510,91 @@ A-XXIISanctusTromboneI = {
     g2.\fermata \bar "|." %32 finis
   }
 }
+
+A-XXIIOsannaTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXIIOsanna
+      \set Score.currentBarNumber = #45
+    r2 g'4\fE g
+    g r g g
+    g r r2
+    r4 g8 a h g a h
+    c1~
+    c4 h8 a g2 %50
+    g4 g g g
+    r h h g
+    r g g e
+    r g a2
+    g g4 g %55
+    g g g g
+    g1
+    g\fermata \bar "|." %58 finis
+  }
+}
+
+A-XXIIAgnusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXIIAgnus
+    \mvTr g'4.\fE-\tutti g8 gis4 gis8 gis
+    a4 a8 a a4 a
+    gis gis r2
+    g4 g f f
+    a a g g %5
+    h h a h
+    a2 gis
+    \mvTr g\pE-\solo fis
+    e4 g fis2
+    e dis8 fis fis fis %10
+    fis2 r8 e e e
+    e2 e~
+    e4 dis e h'~
+    h a2 g8 a
+    fis2 e4 \mvTr g8\fE-\tutti g %15
+    g4 g8 g g g r g
+    g4 fis8 e \hA fis2 \noBreak
+    g1\fermata \bar "||"
+    \tempoA-XXIIDona R1*4 %22
+    c,2 e
+    r4 a8 a fis4. e16 \hA fis
+    g4 r r8 f4 e8 %25
+    d c h a g g'4 f8
+    e2 g
+    f4. g8 a2
+    d, r
+    r8 g4 f!8 e d c4 %30
+    r8 a'4 g8 f e d4
+    r8 g4 f8 e4. d16 c
+    d4. e16 d c4 r
+    r2 r8 g'4 f8
+    e d c4 r8 f4 e8 %35
+    d c h4 r8 e4 d8
+    c h a a'4 gis8 e g~
+    g fis d f f4 e8. d16
+    e2. f8. g16
+    a2. g4~ %40
+    g fis g r
+    r8 g4 f8 e d c4
+    r8 c'4 b8 a g f4
+    r8 f4 e8 d4 e~
+    e d e r %45
+    e4. e8 f4. a8
+    gis4. fis16 \hA gis a4 f
+    e2 e
+    fis8 g? a4 gis r
+    r r8 a4 g8 f e %50
+    d4 r8 g4 f8 e d
+    c4 f8. e16 d4 r
+    R1*4 %56
+    c2 f
+    r4 g8 g e4. d16 e
+    f2 g4 r8 g~
+    g f e f16 g a4. h16 c %60
+    h4 g2 g4
+    \once \tieDashed g1~
+    g
+    g2 g~
+    g g\fermata \bar "|." %65 finis
+  }
+}
