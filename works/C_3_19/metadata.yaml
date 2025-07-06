@@ -1,0 +1,28 @@
+title: Maria gustum sentio
+id: TumW C.3.19
+genre: motet
+festival: de B.M.V.
+scoring: S (solo), vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15708
+    rism: 600138959
+    date: 1745
+    url: https://data.onb.ac.at/rec/AC14297603
+    license: public domain
+    principal: true
+    notes: 9 parts (S solo, vl (4×), vlc, vlne, org, maestro di cappella)
+toe: |
+  10 & org & 7th \eighthNote\ in \B1: c8 (but \flat B8 in the da capo) \\
+  75 & – & the da capo is written out in \B1 \\
+lyrics:
+  Maria gustum sentio\\
+  quando tui fit mentio,\\
+  opinor hoc vocabulum\\
+  amoris esse pabulum.\\[1ex]
+  Lac et mel est haec vocula,\\
+  fluunt amoris pocula,\\
+  Maria quinque litteris\\
+  in cor meum dum mitteris.
