@@ -1,0 +1,19 @@
+\version "2.24.2"
+
+\include "../../../definitions_main.ly"
+\include "../definitions.ly"
+#(define option-instrument-name "cnto")
+\include "score_settings/one-staff.ly"
+
+\book {
+  \bookpart {
+    \section "D.2.2" "Confitebor"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \D-II-IICornetto }
+      >>
+    }
+  }
+}
