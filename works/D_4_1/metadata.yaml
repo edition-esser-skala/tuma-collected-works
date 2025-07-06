@@ -1,0 +1,19 @@
+title: Magnificat
+id: TumW D.4.1
+genre: canticle
+scoring: S, A, T, B (solo), S, A, T, B (coro), cnto, fag, 2 clno (C), 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15697
+    rism: 600138949
+    date: 1743
+    url: https://data.onb.ac.at/rec/AC14297591
+    license: public domain
+    principal: true
+    notes: 21 parts (S solo, A solo, T solo, B solo, S rip, A rip, T rip, B rip (2×), cnto, fag, clno 1, clno 2, trb 1, trb 2, vl 1, vl 2, vlc, vlne, org, maestro di cappella)
+toe: |
+  163 & cnto, S & 3rd \quarterNote\ in \B1: g′4 \\
+parts:
+  clno12: Clarino I, II in C
