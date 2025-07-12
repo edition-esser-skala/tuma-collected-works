@@ -1,0 +1,19 @@
+title: Salve Regina
+id: TumW E.4.3
+genre: antiphon
+scoring: S (solo), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ws
+    shelfmark: D 2/95
+    license: public domain
+    principal: true
+    notes: 5 parts (S solo, vl 1, vl 2, vla, vlne)
+toe: |
+  –   & org  & All bass figures have been added by the editor. \\
+  36  & vla  & 1st to 3rd \eighthNote\ in \B1: c″4. \\
+  44  & vl 2 & 1st \quarterNote\ in \B1: \flat b′8–\quaverRest \\
+  46  & S    & 2nd \eighthNote\ in \B1: \flat b′8 \\
+parts:
+  S_solo: Soprano solo
