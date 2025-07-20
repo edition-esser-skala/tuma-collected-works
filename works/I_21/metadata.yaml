@@ -1,0 +1,31 @@
+title: Trio
+id: TumW I.21
+genre: sonata
+scoring: vl, cemb
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Bsa
+    shelfmark: SA 3852
+    rism: 469385200
+    license: public domain
+    principal: true
+    notes: 2 parts (vl, cemb)
+toe: |
+  –   & –    & Although this work has been transmitted as a trio
+               for vl and cemb, it is equally likely that the original work
+               was a sonata for two vl and continuo. In this case,
+               the known sources would represent an arrangement.
+               To facilitate performance with the possibly original scoring,
+               bass figures have been added in all bars by the editor.
+               (In \B1, bass figures only appear in bars 77–81 and 227–235.) \\
+  123 & cemb & left hand, 1st \halfNote\ in \B1: \flat d2 \\
+  172 & vl   & 2nd \halfNote\ in \B1: \flat a′2 \\
+  196 & vl   & 3rd \eighthNote\ in \B1: g″8 \\
+  199 & vl   & bar missing in \B1 \\*
+  212 & cemb & 3rd \eighthNote\ in \B1: \flat d″8 \\
+acknowledgements: |
+  Permission of the Sing-Akademie zu Berlin\\%
+  to use their archival materials (\B1) for this edition\\%
+  is gratefully acknowledged.%
+  \hspace*{\fill}\raisebox{1.5mm}[0pt][0pt]{\includegraphics[width=6cm]{logo_bsa}}
