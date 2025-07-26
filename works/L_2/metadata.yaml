@@ -1,0 +1,25 @@
+title: Ouverture
+id: TumW L.2
+genre: ouverture
+scoring: 2 clno (C), 2 tr (C), timp (C–G), 2 vl, bc
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Gk
+    shelfmark: AMC, T. 8.
+    rism: 530012240
+    license: public domain
+    principal: true
+    notes: 11 parts (clno 1, clno 2, tr 1, tr 2, timp, vl 1 (2×), vl 2 (2×), b (2×))
+toe: |
+  –   & bc     & All bass figures have been added by the editor. \\
+  8   & vl 2   & 1st \halfNote\ in second vl 2 part of \B1: g′4–\crotchetRest \\
+  20  & bc     & 1st \quarterNote\ in second b part of \B1: g4 \\
+  29  & vl 2   & 3rd \eighthNote\ in second vl 2 part of \B1: d′8 \\
+  30  & vl 2   & 3rd \eighthNote\ in second vl 2 part of \B1: e′8 \\
+  39  & bc     & 3rd \eighthNote\ in \B1: B8 \\
+  78  & ottoni & In \B1, ottoni play in bar 77 instead of 78. \\
+  172 & clno 1 & bar in \B1: c″4–\halfNoteRest \\
+  172 & tr 1   & bar in \B1: g′4–\halfNoteRest \\
+parts:
+  ottoni: Clarino I, II in C\\Tromba I, II in C\\Timpani in C–G
