@@ -1,0 +1,20 @@
+title: Sinfonia
+id: TumW J.16
+genre: sinfonia
+scoring: 2 vl, vla, bc
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-LA
+    shelfmark: 360
+    rism: 603000432
+    date: 1740–1768
+    license: public domain
+    principal: true
+    notes: 4 parts (vl 1, vl 2, vla, bc)
+toe: |
+  –   & bc  & All bass figures have been added by the editor. \\
+  64  & vla & 3rd \quarterNote\ in \B1: g′4 \\
+  162 & vla & 4th \eighthNote\ in \B1: a′16.–g′32 \\
+  171 & vla & 3rd \eighthNote\ in \B1: \flat b′8 \\
+  202 & vla & 3rd \quarterNote\ in \B1: b4 \\
