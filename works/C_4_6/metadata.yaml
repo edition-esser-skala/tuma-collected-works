@@ -1,0 +1,26 @@
+title: Perfice gressus meos
+id: TumW C.4.6
+genre: offertory
+festival: Dominica sexagesimae
+scoring: S, A, T, B (coro), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: CZ-Pu
+    shelfmark: 59 R 1640
+    date: 1836-01-30
+    rism: 551003277
+    license: public domain
+    principal: true
+    notes: 9 parts (S, A, B (2×), vl 1, vl 2, vla, vlne, org) and full score (6 pages)
+toe: |
+  – & – & Dynamics and articulations in \B1 are most likely
+          not by Tůma\newline and thus have been removed. \\
+lyrics:
+  Perfice gressus meos in semitis tuis,\\
+  ut non moveantur vestigia mea:\\
+  inclina aurem tuam,\\
+  et exaudi verba mea:\\
+  mirifica misericordias tuas,\\
+  qui salvos facis sperantes in te, Domine.\\
+  (\bibleverse{Ps}(17/16:5-7))
