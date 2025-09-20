@@ -1,0 +1,16 @@
+\version "2.24.2"
+
+tempoC-III-XXIIIa = \tempoMarkup "Recitativo"
+tempoC-III-XXIIIb = \tempoMarkup "Aria · Tempo moderato"
+tempoC-III-XXIIIc = \tempoMarkup "Chorus · Un poco allegro"
+tempoC-III-XXIIId = \tempoMarkup "Un poco allegro"
+
+\include "notes/trb1.ly"
+\include "notes/trb2.ly"
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"
