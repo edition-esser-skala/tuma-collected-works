@@ -11,13 +11,11 @@ sources:
     date: 1745
     license: public domain
     principal: true
-    notes: 18 parts (S solo, A solo, T solo, B solo, S rip, A rip, T rip, B rip, trb 1, trb 2, vl~1/vla, vl 1, vl 2 (2×), vlc, vlne, org (2×))
   B2:
     siglum: A-GÖ
     shelfmark: 2587
     date: 1748-01-23
     license: public domain
-    notes: 11 parts (S solo and rip, A solo and rip, T solo and rip, B solo and rip, trb 1, trb 2, vl 1, vl 2, vla, vla da gamba, org)
 toe: |
   1–65 & –     & Inconsistent uses of \wholeNoteDotted\
                  vs \wholeNote–\halfNoteRest\ have been emended

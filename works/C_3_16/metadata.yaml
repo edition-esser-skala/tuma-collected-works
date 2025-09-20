@@ -13,14 +13,12 @@ sources:
     url: https://data.onb.ac.at/rec/AC14297602
     license: public domain
     principal: true
-    notes: 9 parts (B solo, vl 1 (2×), vl 2 (2×), vlc, vlne, org, maestro di cappella)
   B2:
     siglum: D-OB
     shelfmark: MO 812
     rism: 450008348
     date: ca. 1740
     license: public domain
-    notes: 4 parts (B solo, vl 1, vl 2, org)
 toe: |
   –    & –    & \B2 contains \textit{Voluntarie sacrificabo tibi}
                 (TumW C.3.14) as a second recitativo and aria. \\

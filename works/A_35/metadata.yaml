@@ -10,7 +10,6 @@ sources:
     date: 1755
     license: public domain
     principal: true
-    notes: 9 parts (S, A, T, B, trb 1, trb 2, vl 1, vl 2, org)
 tocstyle: default
 toe: |
   1 & 8     & vl 2  & 2nd \eighthNote\ in \B1: \sharp c′8 \\

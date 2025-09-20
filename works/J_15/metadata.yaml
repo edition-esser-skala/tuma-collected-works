@@ -11,13 +11,12 @@ sources:
     date: 1730–1760
     license: public domain
     principal: true
-    notes: 3 parts (vl 1, vl 2, b)
   B2:
     siglum: D-Bsa
     shelfmark: SA 3571 (7)
     rism: 469354107
     license: public domain
-    notes: only comprises the fugue; 3 parts (vl 1, vl 2, b)
+    notes: only comprises the fugue
 toe: |
   –    & bc   & All bass figures have been added by the editor, except those
                 in the fugue (bars 7–56), which are taken from \B2. \\

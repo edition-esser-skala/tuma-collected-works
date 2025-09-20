@@ -10,7 +10,6 @@ sources:
     rism: 600025926
     license: public domain
     principal: true
-    notes: 3 parts (vl 1, vl 2, b)
 toe: |
   2   & bc   & last \eighthNote\ in \B1: A8 \\
   25  & vl 2 & 1st \quarterNote\ in \B1: d′4 \\

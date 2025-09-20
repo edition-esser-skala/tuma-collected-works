@@ -9,13 +9,11 @@ sources:
     shelfmark: 2588
     license: public domain
     principal: true
-    notes: 5 parts (S, A, T, B, and mdc, in the hand of Joseph Leysser)
   B2:
     siglum: A-Wn
     shelfmark: SA.67.H.4
     url: https://data.onb.ac.at/rec/AC14297596
     license: public domain
-    notes: full score (88 pages)
 imslp: Miserere_in_c_minor_(Tůma,_František_Ignác_Antonín)
 tocstyle: default
 toe: |

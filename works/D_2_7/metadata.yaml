@@ -12,7 +12,6 @@ sources:
     url: https://data.onb.ac.at/rec/AC14297571
     license: public domain
     principal: true
-    notes: 22 parts (S solo, A solo, T solo, B solo, S rip (2×), A rip (2×), T rip (2×), B rip (2×), cnto, fag, trb 1, trb 2, vl 1, vl 2, vlc, vlne, org, maestro di cappella)
   D1:
     siglum: D-Dl
     shelfmark: Mus.2968-E-500
@@ -20,7 +19,7 @@ sources:
     date: 1890–1910
     url: https://digital.slub-dresden.de/id480932956
     license: public domain
-    notes: full score (13 pages), comprising the chorus and a piano reduction
+    notes: chorus and piano reduction
 imslp: De_profundis_(Tůma,_František_Ignác_Antonín)
 toe: |
   11–13 & fag & 2nd \halfNote\ of bar 11

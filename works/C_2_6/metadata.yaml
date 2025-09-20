@@ -13,14 +13,12 @@ sources:
     url: https://data.onb.ac.at/rec/AC14297580
     license: public domain
     principal: true
-    notes: 7 parts (A solo, trb, vl 1, vl 2, vlc, org, maestro di cappella)
   B2:
     siglum: A-LA
     shelfmark: 525
     rism: 603002305
     date: 1760–1768
     license: public domain
-    notes: 6 parts (A solo, trb, vl 1, vl 2, vlne, org)
 imslp: Regis_superni_nuntia_(Tůma,_František_Ignác_Antonín)
 parts:
   A_solo: Alto solo

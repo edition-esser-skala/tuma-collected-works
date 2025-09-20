@@ -11,19 +11,16 @@ sources:
     date: 1735–1768
     license: public domain
     principal: true
-    notes: 9 parts (S, A, T, B, trb 1, trb 2, vl, vlne, org)
   B2:
     siglum: A-KR
     shelfmark: A 3/15
     rism: 600178673
     date: ca. 1770
     license: public domain
-    notes: 9 parts (S, A, T, B, trb 1, trb 2, vl, vlne, org)
   B3:
     siglum: A-KN
     shelfmark: 456
     license: public domain
-    notes: 14 parts (S (2×), A (2×), T (2×), B (2×), vl 1, vl 2, vla, vlne, org (2×))
 tocstyle: default
 toe: |
   – & – & –  & trb 1/2, vl 1/2, and vla always play colla parte

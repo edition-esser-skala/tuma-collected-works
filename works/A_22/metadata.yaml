@@ -10,13 +10,11 @@ sources:
     shelfmark: E 3/26
     license: public domain
     principal: true
-    notes: full score (42 pages)
   B1:
     siglum: A-Ws
     shelfmark: E 3/20
     date: 1739
     license: public domain
-    notes: 26 parts (S solo, A solo, T solo, B solo, S rip, A rip, T rip, B rip, clno 1, clno 2, tr 1, tr 2, trb 1, trb 2, timp, vl 1 (3×), vl 2 (3×), vlc, vlne, fag, org, maestro di cappella)
 tocstyle: default
 toe: |
   1 & 158–215 & vl 2   & \B1 contains an alternative part

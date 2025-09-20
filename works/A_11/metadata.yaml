@@ -10,13 +10,11 @@ sources:
     date: 1754
     license: public domain
     principal: true
-    notes: 9 parts (S, A, T, B, trb 1, trb 2, vl 1, vl 2, org)
   B2:
     siglum: A-WIL
     shelfmark: 1093
     date: 1734–1750
     license: public domain
-    notes: 10 parts (S, A, T, B, trb 1, trb 2, vl 1, vl 2, vlne, org)
 tocstyle: default
 toe: |
   – & –     & –     & This mass is related to the mass TumW A.9,

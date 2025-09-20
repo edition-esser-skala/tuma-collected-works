@@ -12,28 +12,26 @@ sources:
     url: https://data.onb.ac.at/rec/AC14297556
     license: public domain
     principal: true
-    notes: "1 fascicle, comprising the Introitus and Kyrie (21 parts: S solo, A solo, T solo, B solo, S rip, A rip (2×), T rip, B rip, cnto, fag, clno 1, clno 2, trb 1, trb 2, vl 1, vl 2, vlc, vlne, org, maestro di cappella)"
+    notes: Introitus and Kyrie
   B2:
     siglum: A-Wn
     shelfmark: HK.793*
     date: 1742
     url: https://data.onb.ac.at/rec/AC14289336
     license: public domain
-    notes: "3 fascicles, comprising the Dies irae (20 parts: S solo, A solo, T solo, B solo, S rip, A rip, T rip, B rip, cnto, fag, clno 1, clno 2, trb 1, trb 2, vl 1, vl 2, vlc, vlne, org, maestro di cappella), Offertorium (22 parts: A solo, T solo, S rip (2×), A rip (2×), T rip (2×), B rip (2×), cnto, fag, trb 1, trb 2, vl 1 (2×), vl 2 (2×), vlc, vlne, org, maestro di cappella), as well as Sanctus, Benedictus, and Agnus Dei (22 parts: S solo, A solo, T solo, B solo, S rip, A rip, T rip, B rip, cnto, fag, clno 1, clno 2, trb 1, trb 2, vl 1 (2×), vl 2 (2×), vlc, vlne, org, maestro di cappella)"
+    notes: Dies irae, Offertorium, Sanctus, Benedictus, and Agnus Dei
   B3:
     siglum: A-KR
     shelfmark: D 41/11
     rism: 600178674
     date: 1740–1760
     license: public domain
-    notes: 13 parts (S, A, T, B, clno 1, clno 2, trb 1, trb 2, timp, vl 1, vl 2, vlne, org)
   D1:
     siglum: D-Dl
     shelfmark: Mus.2968-D-504
     rism: 1001167112
     date: 1890–1910
     license: public domain
-    notes: full score, 159 pages
 tocstyle: default
 toe: |
   – & –   & –        & Tůma's requiem has long been considered incomplete,

@@ -11,7 +11,6 @@ sources:
     date: 1762-12-12
     license: public domain
     principal: true
-    notes: 9 parts (S solo and coro, A coro, T coro, B coro, clno 1, clno 2, vl 1, vl 2, org)
 toe: |
   11  & org  & bar in \B1: A2–d8–\sharp A8–\crotchetRest \\
   78  & S    & 4th \eighthNote\ in \B1: g′8 \\

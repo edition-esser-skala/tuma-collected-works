@@ -13,7 +13,6 @@ sources:
     url: https://data.onb.ac.at/rec/AC14297618
     license: public domain
     principal: true
-    notes: 24 parts (S (3×), A (3×), T (3×), B (3×), cnto, fag, trb 1, trb 2, vl (2×), vla (2×), vlc, vlne, org, maestro di cappella)
   D1:
     siglum: D-Dl
     shelfmark: Mus.2968-D-509
@@ -21,7 +20,6 @@ sources:
     rism: 1001001595
     url: https://digital.slub-dresden.de/id480932069
     license: public domain
-    notes: full score
 imslp: Stabat_mater_(A-Wn_Mus.Hs.15725)_(Tůma,_František_Ignác_Antonín)
 toe: |
   6f & org & Notes in treble clef were added by the editor. \\

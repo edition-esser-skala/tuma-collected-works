@@ -10,7 +10,6 @@ sources:
     date: 1751
     license: public domain
     principal: true
-    notes: 9 parts (S, A, T, B, trb 1, trb 2, vl 1, vl 2, org)
 toe: |
   12     & vl 1  & 3rd \quarterNote\ in \B1: c″8–c″8 \\
   20     & vl 2  & 4th \quarterNote\ in \B1: \flat e4 \\
