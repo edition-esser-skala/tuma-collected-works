@@ -1,0 +1,16 @@
+title: Laudate pueri
+id: TumW D.2.16
+genre: psalm
+scoring: S, A, T, B (solo), S, A, T, B (coro), cnto, fag, 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15688/1
+    rism: 600139024
+    date: 1741
+    url: https://data.onb.ac.at/rec/AC14297583
+    license: public domain
+    principal: true
+toe: |
+  97 & trb 2, T & 3rd \quarterNote\ in \B1: e′4 \\
