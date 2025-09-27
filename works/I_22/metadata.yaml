@@ -1,0 +1,18 @@
+title: Sonata
+id: TumW I.22
+genre: sonata
+scoring: 2 vl, bc
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: CZ-Bu
+    shelfmark: RKPMus-0450.213
+    rism: 553014635
+    license: public domain
+    principal: true
+toe: |
+  –   & bc   & All bass figures have been added by the editor. \\
+  17  & vl 2 & 2nd/3rd \eighthNote\ in \B1: c″16–b′16–c″8 \\
+  125 & bc   & 1st \quarterNote\ in \B1: g4 \\
+  171 & vl 1 & 2nd \eighthNote\ in \B1: \flat e′8 \\
+  200 & bc   & 3rd \eighthNote\ in \B1 d8 \\
