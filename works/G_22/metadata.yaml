@@ -1,0 +1,85 @@
+title: Litaniae de venerabili sacramento
+id: TumW G.22
+genre: litany
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-H
+    shelfmark: 881
+    license: public domain
+    principal: true
+toe: |
+  2   & T    & 4th \quarterNote\ in \B1: \sharp c′4 \\
+  75–128 & vl & Staccatos have been tacitly emended in this section. \\
+  85  & vl 2 & 14th to 16th \sixteenthNote\ in \B1: c″16–c″8 \\
+  118 & vl 2 & 1st \eighthNote\ in \B1: b8 \\
+  161 & vl 2 & 4th \eighthNote\ in \B1: b′16–a′16 \\
+  214 & vl 1 & last \eighthNote\ in \B1: \flat e″8 \\
+  229 & vl 1 & last \eighthNote\ in \B1: \sharp c″8 \\
+  274 & T    & 1st \quarterNote\ in \B1: \crotchetRest \\
+  309 & S    & 2nd \halfNote\ in \B1: d″8.–d″16–d″8–\quaverRest \\
+  324 & vl 2 & 4th \eighthNote\ in \B1: b′8 \\
+  331 & T    & 3rd \quarterNote\ in \B1: \sharp f′4 \\
+lyrics:
+  \begin{multicols}{2}
+  Kyrie eleison,\\
+  Christe eleison,\\
+  Kyrie eleison.\\
+  Christe, audi nos,\\
+  Christe, exaudi nos.\\
+  Pater de coelis, Deus,\\
+  Fili Redemptor mundi, Deus,\\
+  Spiritus Sancte, Deus,\\
+  Sancta Trinitas, unus Deus,\\
+  miserere nobis.\\[1ex]
+  Jesu Fili Dei vivi,\\
+  Jesu Fili Mariae Virginis,\\
+  Jesu potentissime,\\
+  Jesu fortissime,\\
+  Jesu perfectissime,\\
+  Jesu gloriosissime,\\
+  Jesu mirifice,\\
+  Jesu charissime,\\
+  Jesu iucundissime,\\
+  Jesu clarior sole,\\
+  Jesu pulchrior luna,\\
+  Jesu splendidior stellis,\\
+  Jesu admirabilis,\\
+  Jesu delectabilis,\\
+  Jesu honorabilis,\\
+  miserere nobis.\\[1ex]
+  Jesu humillime,\\
+  Jesu pauperrime,\\
+  Jesu mitissime,\\
+  Jesu patientissime,\\
+  Jesu obedientissime,\\
+  Jesu castissime,\\
+  miserere nobis.\\[1ex]
+  Jesu pater pauperum,\\
+  Jesu consolator afflictorum,\\
+  Jesu thesaure fidelium,\\
+  Jesu gemma pretiosa,\\
+  Jesu armarium perfectionis,\\
+  Jesu lux vera,\\
+  Jesu sapientia aeterna,\\
+  Jesu bonitas infinita,\\
+  Jesu bone pastor ovium,\\
+  miserere nobis.\\[1ex]
+  Jesu gaudium Angelorum,\\
+  Jesu Rex Patriarcharum,\\
+  Jesu inspirator Prophetarum,\\
+  Jesu Magister Apostolorum,\\
+  Jesu Doctor Evangelistarum,\\
+  Jesu fortitudo Martyrum,\\
+  Jesu lumen Confessorum,\\
+  Jesu sponse Virginum,\\
+  Jesu corona Sanctorum omnium,\\
+  miserere nobis.\\[1ex]
+  Agnus Dei, qui tollis peccata mundi:\\
+  Parce nobis Jesu.\\
+  Agnus Dei, qui tollis peccata mundi:\\
+  Exaudi nos Jesu.\\
+  Agnus Dei, qui tollis peccata mundi:\\
+  Miserere nobis Jesu.
+  \end{multicols}
