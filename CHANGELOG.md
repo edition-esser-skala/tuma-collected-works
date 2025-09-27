@@ -1,5 +1,17 @@
 # Changelog
 
+## 2025.09.0 – 2025-09-27
+
+### Added
+
+- works: TumW C.3.23, C.4.6, D.2.4/13/16/21, D.4.2, E.1.3, E.5.8, G.22, H.3, I.22, and J.18
+- general preface: full editorial guidelines
+
+### Removed
+
+- indication of extent (pages in full score, number of parts) from the notes field
+
+
 ## 2025.07.0 – 2025-07-27
 
 ### Added
