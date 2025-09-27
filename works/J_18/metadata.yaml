@@ -1,0 +1,26 @@
+title: Sinfonia
+id: TumW J.18
+genre: sinfonia
+scoring: 2 vl, bc
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: S-Skma
+    shelfmark: Alströmer saml. 170:2
+    rism: 190023372
+    license: public domain
+    principal: true
+toe: |
+  1   & bc   & All bass figures have been added by the editor. \\
+  16  & vl 1 & 4th \eighthNote\ in \B1: e′8 \\
+  16  & vl 2 & last \eighthNote\ in \B1: e′8 \\
+  27  & vl 2 & 2nd \halfNote\ in \B1: 4×c″8 \\
+  28  & bc   & 6th \eighthNote\ in \B1: g8 \\
+  58  & vl 2 & 3rd \eighthNote\ in \B1: d″8 \\
+  59  & vl 2 & 3rd \eighthNote\ in \B1: d″8 \\
+  60  & vl 2 & 3rd \eighthNote\ in \B1: d′8 \\
+  84  & vl 2 & 3rd \quarterNote\ in \B1: e″8.–d″32–c″32 \\
+  90  & bc   & 3rd \quarterNote\ in \B1: c4 \\
+  115 & vl 1 & last \sixteenthNote\ in \B1: e″16 \\
+  166 & vl 1 & 3rd \eighthNote\ in \B1: \sharp f″8 \\
+  176 & vl 1 & 2nd \eighthNote\ in \B1: b′8 \\
