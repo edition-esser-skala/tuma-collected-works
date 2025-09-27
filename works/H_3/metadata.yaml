@@ -1,0 +1,45 @@
+title: Te Deum
+id: TumW H.3
+genre: hymn
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), 2 tr (C), timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-WIL
+    shelfmark: 1091
+    rism: 600077630
+    date: 1745
+    license: public domain
+    principal: true
+toe: |
+  1   & vl 1   & 2nd \halfNote\ in \B1:
+                 g″16–d″16–d″16–g″16–g″16–e″16–e″16–g″16 \\
+  2   & vl 2   & 1st \sixteenthNote\ in \B1: g″16 \\
+  4   & vl 2   & last \sixteenthNote\ in \B1: f″16 \\
+  5   & vl 2   & 7th \sixteenthNote\ in \B1: g″16 \\
+  18  & vl 2   & 3rd \sixteenthNote\ in \B1: d″16 \\
+  30  & clno 2 & 4th \eighthNote\ in \B1: e″8 \\
+  31  & clno 2 & last \eighthNote\ in \B1: g′16–g′16 \\
+  32  & vl 1   & 4th \quarterNote\ in \B1: e″16–g″16–f″16–g″16 \\
+  32  & T      & 1st \halfNote\ in \B1: e′2 \\
+  36  & clno 1 & 1st \quarterNote\ in \B1: e″4 \\
+  121 & vl 2   & 5th \eighthNote\ in \B1: e′8 \\
+  126–140 & vl & in \B1 indicated by “da capo sino al segno” \\
+  149 & vl 1   & 1st \halfNote\ in \B1: c″8–b′8–\crotchetRest \\
+  154–165 & –  & The missing instrumental accompaniment in bars 156, 158,
+                 160, and 163–165 possibly indicates that originally,
+                 the scoring also comprised two trombones (as would be
+                 typical for Tůma’s compositions from this period),
+                 which were lost during the copying process. \\
+  154 & B      & bar in \B1: c2–c4–c4 \\
+  159 & T      & 1st \halfNote\ in \B1: e′4–e′4 \\
+  179 & vl 2   & 4th \eighthNote\ in \B1: d″8 \\
+  179 & B      & 2nd \halfNote\ in \B1: g8–G8–\crotchetRest \\
+  191 & vl 1   & 7th \sixteenthNote\ in \B1: c″16 \\
+  206 & vl 2   & 2nd \eighthNote\ in \B1: b8 \\
+  210 & T      & last \eighthNote\ in \B1: b8 \\
+  216 & A      & 1st \eighthNote\ in \B1: e′8 \\
+  221 & vl 2   & 4th \quarterNote\ in \B1: g′4 \\
+  230 & clno 1 & 2nd \halfNote\ in \B1: \crotchetRest–c″4 \\
+parts:
+  ottoni: Clarino I, II in C\\Tromba I, II in C\\Timpani in C–G
