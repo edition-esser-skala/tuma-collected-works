@@ -1,0 +1,19 @@
+title: Missa patientiae
+id: TumW A.24
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro),\\2 clno (C), 2 tr (C), 2 trb, timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ws
+    shelfmark: E 3/18
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 71–74 & vl   & grace notes added by editor \\
+    & 106–125 & vl & in \B1 indicated by “da capo” \\
+    & 148f & vl 2 & 2nd \halfNote\ of bar 148 in \B1: f′2;
+                    1st \halfNote\ of bar 149: g′2 \\
+parts:
+  ottoni: Clarino I, II in C\\Tromba I, II in C\\Timpani in C–G
