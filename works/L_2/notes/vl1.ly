@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-L-IIIViolinoI = {
+L-IIViolinoI = {
   \relative c' {
     \clef treble
-    \key c \dorian \time 4/4 \tempoL-III
+    \key c \dorian \time 4/4 \tempoL-II
     c'2 as'8 f, as f
     b2 g'8 es, g es
     as2 f'8 d, f d

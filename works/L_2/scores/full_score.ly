@@ -6,7 +6,7 @@
 
 \book {
   \bookpart {
-    \section "L.3" "Fuga"
+    \section "L.2" "Fuga"
     \addTocEntry
     \paper {
       systems-per-page = #4
@@ -19,20 +19,20 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \L-IIIViolinoI
+              \L-IIViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \L-IIIViolinoII
+              \L-IIViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
             % \transpose c c,
-            \L-IIIContinuo
+            \L-IIContinuo
           }
         >>
-        \new FiguredBass { \L-IIIBassFigures }
+        \new FiguredBass { \L-IIBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 105 }

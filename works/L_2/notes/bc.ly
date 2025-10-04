@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-L-IIIContinuo = {
+L-IIContinuo = {
   \relative c {
     \clef bass
-    \key c \dorian \time 4/4 \tempoL-III
+    \key c \dorian \time 4/4 \tempoL-II
     R1*5 %5
     r2 c
     a'8 f, a f b2
@@ -61,7 +61,7 @@ L-IIIContinuo = {
   }
 }
 
-L-IIIBassFigures = \figuremode {
+L-IIBassFigures = \figuremode {
   r1*6 %6
   <6>1
   q

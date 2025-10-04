@@ -2,16 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "L.3" "Fuga"
+    \section "L.2" "Fuga"
     \addTocEntry
+    \paper { system-count = #13 }
     \score {
       <<
-        \new Staff { \L-IIIContinuo }
+        \new Staff { \L-IIViolinoII }
       >>
     }
   }
