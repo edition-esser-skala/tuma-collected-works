@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-L-IIClarinoI = {
+L-IClarinoI = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoL-IIa
+    \key c \major \time 4/4 \tempoL-Ia
     r2 \pa c16. c32 e16. c32 e16. e32 g16. g32 \pd
     c4 r e,16. e32 g16. e32 g16. g32 c16. c32
     e4 r c16. c32 e16. c32 c16. c32 g16. g32
@@ -11,7 +11,7 @@ L-IIClarinoI = {
     R1*7 %11
     g'4 fis8.\trill e32( \hA fis) g8 g16 g g8 g \noBreak
     g g16 g g8 g g2\fermata \bar ":|."
-    \time 3/8 \tempoL-IIb \newSpacingSection
+    \time 3/8 \tempoL-Ib \newSpacingSection
       R4.*22 %35
     \pa g8 d d \pd
     e f16 g d8
@@ -52,10 +52,10 @@ L-IIClarinoI = {
     e8 c c
     \pa e g g \pd \noBreak
     e r r\fermata \bar "||"
-    \time 3/4 \tempoL-IIc \newSpacingSection
+    \time 3/4 \tempoL-Ic \newSpacingSection
       R2.*22 \noBreak %135
     R2.\fermata \markFugaDaCapo \bar "||"
-    \tempoL-IId c,8 c e e g4 \noBreak
+    \tempoL-Id c,8 c e e g4 \noBreak
     c,8 c e e g4
     R2.
     g4 e r %140
@@ -77,6 +77,6 @@ L-IIClarinoI = {
     e g8( f) g4 %170
     e d2 \noBreak
     c^\critnote r4\fermata \bar ":|.|:"
-    \tempoL-IIe \after 4*0 -\markup \remark "Trio tacet" R2.*22 \markMenuetDaCapo \bar ":|." %194 finis
+    \tempoL-Ie \after 4*0 -\markup \remark "Trio tacet" R2.*22 \markMenuetDaCapo \bar ":|." %194 finis
   }
 }

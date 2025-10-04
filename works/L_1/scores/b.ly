@@ -7,11 +7,11 @@
 
 \book {
   \bookpart {
-    \section "L.2" "Ouverture"
+    \section "L.1" "Ouverture"
     \addTocEntry
     \score {
       <<
-        \new Staff { \L-IIContinuo }
+        \new Staff { \L-IContinuo }
       >>
     }
   }

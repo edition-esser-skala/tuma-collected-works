@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-L-IIClarinoII = {
+L-IClarinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoL-IIa
+    \key c \major \time 4/4 \tempoL-Ia
     r2 c16. c32 e16. c32 e16. e32 e16. e32
     e4 r c16. c32 e16. c32 e16. e32 g16. g32
     c4 r e,16. e32 g16. e32 e16. e32 c16. c32
@@ -11,7 +11,7 @@ L-IIClarinoII = {
     R1*7 %11
     d'4 d d8 d16 d d8 d \noBreak
     d d16 d d8 d d2\fermata \bar ":|."
-    \time 3/8 \tempoL-IIb \newSpacingSection
+    \time 3/8 \tempoL-Ib \newSpacingSection
       R4.*22 %35
     g,8 g d'
     c d16 e g,8
@@ -52,10 +52,10 @@ L-IIClarinoII = {
     c e, e
     c' c16 c c c \noBreak
     c8 r r\fermata \bar "||"
-    \time 3/4 \tempoL-IIc \newSpacingSection
+    \time 3/4 \tempoL-Ic \newSpacingSection
       R2.*22 \noBreak %135
     R2.\fermata \markFugaDaCapo \bar "||"
-    \tempoL-IId c,8 c e e g4 \noBreak
+    \tempoL-Id c,8 c e e g4 \noBreak
     c,8 c e e g4
     R2.
     g4 e r %140
@@ -77,6 +77,6 @@ L-IIClarinoII = {
     c e8( d) e4 %170
     c g2 \noBreak
     e r4\fermata \bar ":|.|:"
-    \tempoL-IIe \after 4*0 -\markup \remark "Trio tacet" R2.*22 \markMenuetDaCapo \bar ":|." %194 finis
+    \tempoL-Ie \after 4*0 -\markup \remark "Trio tacet" R2.*22 \markMenuetDaCapo \bar ":|." %194 finis
   }
 }

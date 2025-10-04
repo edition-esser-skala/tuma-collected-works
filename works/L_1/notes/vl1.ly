@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-L-IIViolinoI = {
+L-IViolinoI = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoL-IIa
+    \key c \major \time 4/4 \tempoL-Ia
     c'8. \tuplet 3/2 16 { g32 a h } c16. c32 e16. e32 c4 r
     e8. \tuplet 3/2 16 { c32 d e } e16. e32 g16. g32 e4 r
     g8. \tuplet 3/2 16 { e32 f g } g16. g32 c16. c32 c,4 r
@@ -17,7 +17,7 @@ L-IIViolinoI = {
     e'16 fis g a d, fis g a c, fis g a h, fis' g a
     h,4 a\trill g8 g16 g g8 g \noBreak
     g1 \bar ":|."
-    \time 3/8 \tempoL-IIb \newSpacingSection
+    \time 3/8 \tempoL-Ib \newSpacingSection
       R4.*6 %19
     g8 g' g %20
     g fis16( g) a8~
@@ -100,7 +100,7 @@ L-IIViolinoI = {
     e8 c c
     e16 d c8 h \noBreak
     c r r\fermata \bar "||"
-    \time 3/4 \tempoL-IIc \newSpacingSection
+    \time 3/4 \tempoL-Ic \newSpacingSection
       e4 a, a'~ \noBreak
     a gis4. fis16( \hA gis) %115
     a2 f4~
@@ -124,7 +124,7 @@ L-IIViolinoI = {
     a4 f' e
     r dis2\p \noBreak %135
     e2.\fermata \markFugaDaCapo \bar "||"
-    \tempoL-IId e8( f) g2 \noBreak
+    \tempoL-Id e8( f) g2 \noBreak
     e8( f) g2
     f4 d c
     h c r %140
@@ -160,7 +160,7 @@ L-IIViolinoI = {
     e8( f) g2 %170
     c,4 d h \noBreak
     c c, r\fermata \bar ":|.|:"
-    \tempoL-IIe \tuplet 3/2 4 { e'8 f e } f4 d \noBreak
+    \tempoL-Ie \tuplet 3/2 4 { e'8 f e } f4 d \noBreak
     \tuplet 3/2 4 { e8 f e } f4 d
     \tuplet 3/2 4 { e8 f e } f4 d %175
     c8( h) a2

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-L-IIContinuo = {
+L-IContinuo = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoL-IIa
+    \key c \major \time 4/4 \tempoL-Ia
     c8^\critnote c c c c4 r
     c8 c c c c4 r
     c'8 c c c c,4 r
@@ -17,7 +17,7 @@ L-IIContinuo = {
     c,4 h a g
     d' d, g2 \noBreak
     g1\fermata \bar ":|."
-    \time 3/8 \tempoL-IIb \newSpacingSection
+    \time 3/8 \tempoL-Ib \newSpacingSection
       c4 e8 \noBreak
     d4 f8 %15
     e4 g8
@@ -112,7 +112,7 @@ L-IIContinuo = {
     c,4.
     c8 g' g,
     c r r\fermata \bar "||"
-    \time 3/4 \tempoL-IIc \newSpacingSection
+    \time 3/4 \tempoL-Ic \newSpacingSection
       R2.*2 %115
     a'4 a, a'
     gis2.
@@ -135,7 +135,7 @@ L-IIContinuo = {
     a a' g!
     r f2\p \noBreak %135
     e2.\fermata \markFugaDaCapo \bar "||"
-    \tempoL-IId c4 c' c, \noBreak
+    \tempoL-Id c4 c' c, \noBreak
     c c' c,
     d f2
     g4 c, r %140
@@ -171,7 +171,7 @@ L-IIContinuo = {
     c c' c, %170
     c g' g, \noBreak
     c2 r4\fermata \bar ":|.|:"
-    \tempoL-IIe a'4 a, r \noBreak
+    \tempoL-Ie a'4 a, r \noBreak
     a' a, r
     a' a, gis' %175
     a e a,
@@ -196,7 +196,7 @@ L-IIContinuo = {
   }
 }
 
-L-IIBassFigures = \figuremode {
+L-IBassFigures = \figuremode {
   r1
   r
   r

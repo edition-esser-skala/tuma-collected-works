@@ -9,7 +9,7 @@
 
 \book {
   \bookpart {
-    \section "L.2" "Ouverture"
+    \section "L.1" "Ouverture"
     \addTocEntry
     \score {
       <<
@@ -18,21 +18,21 @@
             \set GrandStaff.instrumentName = \transposedNameShort "clno" "C" ""
             \new Staff {
               \set Staff.instrumentName = "1"
-              \L-IIClarinoI
+              \L-IClarinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \L-IIClarinoII
+              \L-IClarinoII
             }
           >>
         >>
         \new Staff \with { \smallStaffDistance } {
           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "tr" "C" "" "1, 2" }
-          \partCombine #'(0 . 10) \L-IITrombaI \L-IITrombaII
+          \partCombine #'(0 . 10) \L-ITrombaI \L-ITrombaII
         }
         \new Staff {
           \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
-          \L-IITimpani
+          \L-ITimpani
         }
       >>
     }

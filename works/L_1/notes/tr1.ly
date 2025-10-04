@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-L-IITrombaI = {
+L-ITrombaI = {
   \relative c' {
     \clef alto
-    \key c \major \time 4/4 \tempoL-IIa
+    \key c \major \time 4/4 \tempoL-Ia
     r2 g'8 g16 g g8 g
     g4 r g8 g16 g g8 g
     g4 r g8 g16 g g8 g
@@ -11,7 +11,7 @@ L-IITrombaI = {
     R1*7 %11
     r2 g8 g16 g g8 g \noBreak
     g g16 g g8 g g2\fermata \bar ":|."
-    \time 3/8 \tempoL-IIb \newSpacingSection
+    \time 3/8 \tempoL-Ib \newSpacingSection
       R4.*22 %35
     g8 g g
     g g16 g g8
@@ -43,10 +43,10 @@ L-IITrombaI = {
     \pa g g16 g g8 \pd
     g g g \noBreak
     g r r\fermata \bar "||"
-    \time 3/4 \tempoL-IIc \newSpacingSection
+    \time 3/4 \tempoL-Ic \newSpacingSection
       R2.*22 \noBreak %135
     R2.\fermata \markFugaDaCapo \bar "||"
-    \tempoL-IId g4 g g \noBreak
+    \tempoL-Id g4 g g \noBreak
     g g8 g g4
     R2.
     g4 g r %140
@@ -68,6 +68,6 @@ L-IITrombaI = {
     r g g %170
     g g8 g g g \noBreak
     g2^\critnote r4\fermata \bar ":|.|:"
-    \tempoL-IIe \after 4*0 -\markup \remark "Trio tacet" R2.*22 \markMenuetDaCapo \bar ":|." %194 finis
+    \tempoL-Ie \after 4*0 -\markup \remark "Trio tacet" R2.*22 \markMenuetDaCapo \bar ":|." %194 finis
   }
 }

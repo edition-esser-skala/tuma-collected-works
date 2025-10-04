@@ -2,17 +2,16 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "bc")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "L.2" "Ouverture"
+    \section "L.1" "Ouverture"
     \addTocEntry
     \score {
       <<
-        \new Staff { \L-IIContinuo }
-        \new FiguredBass { \L-IIBassFigures }
+        \new Staff { \L-IViolinoII }
       >>
     }
   }

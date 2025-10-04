@@ -11,11 +11,11 @@ markMenuetDaCapo = {
 }
 markR = \mark "R"
 
-tempoL-IIa = \tempoMarkup "[Tempo deest]"
-tempoL-IIb = \tempoMarkup "Fuga · [Tempo deest]"
-tempoL-IIc = \tempoMarkup "Adagio"
-tempoL-IId = \tempoMarkup "Menuet · [Tempo deest]"
-tempoL-IIe = \tempoMarkup "Trio Polonese"
+tempoL-Ia = \tempoMarkup "[Tempo deest]"
+tempoL-Ib = \tempoMarkup "Fuga · [Tempo deest]"
+tempoL-Ic = \tempoMarkup "Adagio"
+tempoL-Id = \tempoMarkup "Menuet · [Tempo deest]"
+tempoL-Ie = \tempoMarkup "Trio Polonese"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
