@@ -79,3 +79,212 @@ A-XXIVKyrieFugaTromboneI = {
     r8 g g4 g r\fermata \bar "|." %169 finis
   }
 }
+
+A-XXIVGloriaTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXIVGloria
+    R1
+    r2 g'8\fE g16 g g8 g
+    g g r4 g8 g g g
+    g g r4 r2
+    R1 %5
+    g8\fE g16 g g8 g g g r4
+    g8 g16 g g8 g a a r4
+    a8 g f a g2
+    g4 r r2
+    \after 4*3 \tempoA-XXIVEtInTerra R1 %10
+    r4 c,8 c c4 c
+    cis r d r
+    dis r8 \hA dis e8. e16 e4
+    r2 fis8 g16 a h8 h
+    h4 a2 g4 %15
+    r8 d4 d8 e4. e8
+    d4 e d2
+    e4 r r2
+    R1*35 \bar "|" %53 finis
+  }
+}
+
+A-XXIVGratiasTromboneI = {
+  \relative c' {
+    \clef alto
+    \key e \phrygian \time 4/4 \tempoA-XXIVGratias
+      \set Score.currentBarNumber = #54
+    e4 fis8 g \hA fis4. g16 a
+    g4 fis8 e h' h, r h~ %55
+    h c16 d! e8 d d8(\trill cis) r \hA cis~
+    cis d16 e fis8 e e\trill dis r fis~
+    fis g16 a h8 a a\trill g f4~
+    f16 dis e8 a4~ a16 fis g e \hA fis4
+    e r r2 %60
+    R1
+    r2 e8 fis16 g a8 g
+    g fis r4 fis8 g16 a h8 a
+    a g r4 r2
+    R1 %65
+    r4 r8 d~ d16 e c d h g' fis g
+    e fis d e c a' g a fis d e \hA fis g4~
+    g8 a16 e fis8. g16 g4 r
+    d8 e16 d c8 d16 c h8 g r4
+    g8 a16 h c8 h h a r4 %70
+    a8 h16 c d8 c c h r4
+    h8 cis16 dis e8 e e \hA dis r4
+    R1
+    r2 r4 r8 h~
+    h c16 d e8 d d cis r \hA cis~ %75
+    cis d16 e fis8 e e dis r fis~
+    fis g16 a h8 a a\trill g f4~
+    f16 dis e8 a4~ a16 fis g e fis4\trill
+    e r r2\fermata \bar "||" %79 finis
+  }
+}
+
+A-XXIVDomineTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoA-XXIVDomine
+      \set Score.currentBarNumber = #80
+    R2.*3 %82
+    g'4.\fE g8 g4
+    g4. g8 g4
+    g g r %85
+    R2.*2
+    g4 r r
+    a r r
+    g r r %90
+    a2 a4
+    g g r
+    R2.
+    r4 g2~
+    g g4 %95
+    fis2.
+    g4 g e
+    a8 b a g f! e
+    f e f d e f
+    g a g f e d %100
+    e4 d e~
+    e2 f8 g
+    f2 e4
+    d2.
+    g2 g4 %105
+    g g fis
+    g r r
+    R2.*27 %134
+    fis4.\fE fis8 fis4 %135
+    e4. e8 e4
+    fis fis r
+    R2.*4 %141
+    g4.\fE g8 g4
+    fis4. fis8 fis4
+    g g r
+    R2.*24 %168
+    d4.\fE d8 d4
+    fis4. fis8 fis4 %170
+    e2 e4
+    f!2 g4
+    g2.
+    g4 r r
+    R2.*8 %182
+    g4. g8 e4
+    a8 b a g f e
+    f e f d e f %185
+    g a g f e d
+    e d c4 r
+    r g'2~
+    g g4
+    fis2. %190
+    f4. e8 d4
+    e2.~
+    e8 f e d e c
+    d2.~
+    d %195
+    e\fermata \bar "||" %196 finis
+  }
+}
+
+A-XXIVQuiTollisTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \dorian \time 4/4 \tempoA-XXIVQuiTollis
+      \set Score.currentBarNumber = #197
+    R1*8 %204
+    r2 c\fE %205
+    es4 e8 e f g as4
+    h,2 c4 c
+    d es r8 g, g' f
+    es d c es~ es d16 c d8 c
+    b g g'4 g g %210
+    g fis g2
+    R1
+    r4 g8 g g2
+    f4 f8 f f4 f
+    r f8 f es4 es %215
+    d2 d
+    R1*5 %221
+    c2 es4 e8 e
+    f g as4 h,2
+    c4 es d2~
+    d es8 f g4 %225
+    a4. fis8 d4 d
+    es g g f
+    g2 r\fermata
+    a4. a8 a2
+    a8 a a a gis4 a~ %230
+    a8 gis16 fis gis8 g~ g f16 e f4~
+    f e8 d \hA e2
+    r4 f f g8 g
+    c,4 f8 f f4 f
+    r a8 g fis4 g8 f %235
+    e2 r4 \hA e8 e
+    d2 d4 g8 f!
+    e2 e
+    e4 dis8 cis \hA dis2
+    e1\fermata \bar "||" %240 finis
+  }
+}
+
+A-XXIVCumSanctoTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXIVCumSancto
+      \set Score.currentBarNumber = #297
+    r4 e\fE e e
+    e d e2\fermata \bar "||"
+    \tempoA-XXIVInGloria R1*6 %304
+    c2 g'4. g8 %305
+    e2 a4. a8
+    fis g4 \hA fis8 g4 r
+    r8 c, d16 c d e f8 f, f'4
+    r8 d e16 d e f g8 e d4
+    e2 d4. g8 %310
+    g2 e4 r
+    r2 r4 e~
+    e8 a4 a8 fis2
+    h4. h8 gis a4 \hA gis8
+    a4 e a4. a8 %315
+    fis2 h8 a h4
+    e,8 f e a16 g fis8 g a4
+    g8 gis a16 \hA gis a h c8 c, c'4
+    r8 a g16 f? g a h8 h, h'4
+    r8 g f16 e f g a8 a, a'4 %320
+    d, r r2
+    R1*2
+    g2. f8 e
+    f2. e8 d %325
+    e2. d8 c
+    d2 e
+    R1
+    r2 r4 c~
+    c f2 d4~ %330
+    d g2 g4
+    a2 g8 d e16 d e f
+    g8 g, g'4 r8 h,16 c d c d e
+    f8 f, f'4 r8 h, c16 h c d
+    e8 e, e'4 fis2 %335
+    g4 f e4. d16 c
+    d2 e4 r
+    R1
+    g8 g g4 g r\fermata \bar "|." %339 finis
+  }
+}

@@ -82,3 +82,173 @@ A-XXIVKyrieFugaTromboneII = {
     r8 c c h c4 r\fermata \bar "|." %169 finis
   }
 }
+
+A-XXIVGloriaTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoA-XXIVGloria
+    R1
+    r2 e8\fE e16 e e8 d
+    e e r4 c8 c d d
+    d d r4 r2
+    R1 %5
+    d8\fE d16 d d8 d e e r4
+    e8 e e e f f r4
+    f8 f f f d2
+    e4 r r2
+    \after 4*3 \tempoA-XXIVEtInTerra R1 %10
+    r4 a,8 a a4 e
+    e r fis r
+    fis r8 \hA fis g8. g16 g4
+    R1*2 %15
+    a8 h16 c d8 d d4 c
+    h8 g c2 h4
+    c r r2
+    R1*35 \bar "|" %53 finis
+  }
+}
+
+A-XXIVDomineTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 3/4 \tempoA-XXIVDomine
+      \set Score.currentBarNumber = #80
+    R2.*3 %82
+    e4.\fE e8 e4
+    d4. d8 d4
+    e e r %85
+    R2.*2
+    e4 r r
+    e r r
+    e r r %90
+    d2 d4
+    d d r
+    R2.*9 %101
+    r4 c a
+    d8 e d c h a
+    h a h g a h
+    c2 h4 %105
+    a a4. g8
+    g4 r r
+    R2.*27 %134
+    a4.\fE a8 a4 %135
+    a4. a8 a4
+    a a r
+    R2.*4 %141
+    d4.\fE d8 d4
+    d4. d8 d4
+    d d r
+    R2.*24 %168
+    h4.\fE h8 h4
+    h4. h8 h4 %170
+    g2 g4
+    c2 h8 a
+    g4 c2
+    h4 r r
+    R2.*4 %178
+    c4. c8 h4
+    e8 f e d c h %180
+    c h c a h c
+    d e d c h a
+    h a g4 r
+    r c2~
+    c c4 %185
+    h2.~
+    h4 a d
+    g,2 r4
+    r e' c
+    a2 d4~ %190
+    d8 c h4. a8
+    g2 r4
+    g2.
+    g
+    g %195
+    g\fermata \bar "||" %196 finis
+  }
+}
+
+A-XXIVQuiTollisTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \dorian \time 4/4 \tempoA-XXIVQuiTollis
+      \set Score.currentBarNumber = #197
+    R1*6 %202
+    g2\fE b4 h8 h
+    c d es4 fis,2
+    g4 b as4. g16 f %205
+    es8 c c' b as g f \hA as~
+    as g16 f g8 f es c as'4
+    h c d g,8 g
+    g4. c16 b a!4. a8
+    g4 es'8 es e4 e %210
+    d2 d
+    r r4 des8 des
+    des2 c~
+    c4 c8 c b4 b
+    r b8 b b4 b %215
+    a2 g
+    R1*7 %223
+    r2 g
+    b4 h8 h c d es4 %225
+    fis,2 g4 g
+    g es' es d8 c
+    d2 r\fermata
+    e4. e8 d2
+    a8 a a a h4 e %230
+    e2. d4~
+    d2 cis
+    r4 a b b8 b
+    a4 b8 b b4 a
+    r a8 c d2 %235
+    h r4 c8 c
+    a2 b4 b8 b
+    c2. e4
+    h1
+    h\fermata \bar "||" %240 finis
+  }
+}
+
+A-XXIVCumSanctoTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoA-XXIVCumSancto
+      \set Score.currentBarNumber = #297
+    r4 a\fE a gis
+    a4. a8 h2\fermata \bar "||"
+    \tempoA-XXIVInGloria R1*3 %301
+    r2 g
+    c4. c8 a2
+    d4. d8 h c4 h8
+    c4 r r8 g a16 g a h %305
+    c8 c, c'4 r8 a8 h16 a h c
+    d8 h a4 g8 h c h
+    e a, h16 a h c d8 d, d'4
+    r8 h c16 h c d e8 e, f g
+    g2 r8 h c16 h c d %310
+    e8 e, e'4 r8 c d16 c d e
+    a,8 d c d e4 r
+    r a,2 d4~
+    d h8 h h c h e
+    e4 c d4. d8 %315
+    d2 d8 c h4
+    a2 h4 a
+    h r r8 a h16 a h c
+    d8 d, d'4 r8 g, a16 g a h
+    c8 c, c'4 c a %320
+    h r r2
+    R1*5 %326
+    g2 c4. c8
+    a2 d4. d8
+    h4. a8 g4 g
+    a4. a8 a2 %330
+    d e
+    d d8 h c16 h c d
+    e8 e, e'4 r8 g,16 a h a h c
+    d8 d, d'4 r8 g, a16 g a h
+    c8 c, c'4 r8 c a16 h c a %335
+    g8 a h4 g2~
+    g g4 r
+    R1
+    d'8 e d4 e r\fermata \bar "|." %339 finis
+  }
+}
