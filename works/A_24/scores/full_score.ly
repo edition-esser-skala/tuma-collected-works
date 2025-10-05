@@ -631,7 +631,7 @@
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = "vl"
+            \set GrandStaff.instrumentName = "trb"
             \new Staff {
               \set Staff.instrumentName = "1"
               \A-XXIVEtIncarnatusTromboneI
@@ -1011,13 +1011,13 @@
           \new Lyrics \lyricsto Soprano \A-XXIVAgnusSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "A" "trb 1" }
+            \set Staff.instrumentName = "A"
             \new Voice = "Alto" { \dynamicUp \A-XXIVAgnusAlto }
           }
           \new Lyrics \lyricsto Alto \A-XXIVAgnusAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "T" "trb 2" }
+            \set Staff.instrumentName = "T"
             \new Voice = "Tenore" { \dynamicUp \A-XXIVAgnusTenore }
           }
           \new Lyrics \lyricsto Tenore \A-XXIVAgnusTenoreLyrics

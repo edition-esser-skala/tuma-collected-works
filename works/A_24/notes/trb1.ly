@@ -456,7 +456,7 @@ A-XXIVOsannaTromboneI = {
     \clef alto
     \key c \major \time 4/4 \tempoA-XXIVOsanna
       \set Score.currentBarNumber = #44
-    \mvTr c2\fE^\tutti d
+    c2\fE d
     e f8 g a h %45
     c4 c, r g'~
     g8 fis a4~ a8 g h4~
