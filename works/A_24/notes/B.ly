@@ -485,3 +485,222 @@ A-XXIVCumSanctoBassoLyrics = \lyricmode {
 
   a -- men, a -- men. %339 finis
 }
+
+A-XXIVCredoBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIVCredo
+    R1*4
+    \mvTr c2\fE^\tutti e4.( f8) %5
+    g4 e a2
+    g4. e8 f([ c)] f([ d)]
+    e([ c f a] f[ d g g,)]
+    c4 e8 c g'8. g,16 g4
+    c8([ d e a,] d4.) d8 %10
+    g,4 r g'8 f!16([ e)] f8 g
+    e c a h c([ d)] e([ f)]
+    g([ e)] f([ d)] c([ h c e)]
+    g4 h8 a gis4. gis8
+    a2 f8 e dis8. dis16 %15
+    e8 a, a a e'4. e8
+    a,4 a' a g!8 g
+    f4. f8 e e e e
+    e2 d4 d8 d
+    d2 c4 a %20
+    f'2 e4 r
+    R1*4 %25
+    r2 a
+    a8 a, r a' a16([ g f e] d[ cis h a]
+    f'8) d r d f2
+    g4 g h2
+    c4 c, g' c,8 c %30
+    g'2( g,)
+    c1\fermata \bar "||" %32 finis
+  }
+}
+
+A-XXIVCredoBassoLyrics = \lyricmode {
+  Et ex __ %5
+  Pa -- tre na --
+  tum, ex Pa -- tre
+  na --
+  tum an -- te o -- mni -- a
+  sae -- cu -- %10
+  la, ge -- ni -- tum non
+  fa -- ctum, con -- sub -- stan -- ti --
+  a -- lem Pa --
+  tri, per quem o -- mni --
+  a, per quem o -- mni -- %15
+  a, o -- mni -- a fa -- cta
+  sunt, qui pro -- pter nos
+  ho -- mi -- nes et pro -- pter
+  no -- stram, pro -- pter
+  no -- stram sa -- %20
+  lu -- tem
+
+  de -- %26
+  scen -- dit, de -- scen --
+  dit de coe --
+  lis, de coe --
+  lis, de -- scen -- dit de %30
+  coe --
+  lis. %32 finis
+}
+
+A-XXIVEtIncarnatusBasso = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \autoBeamOff \tempoA-XXIVEtIncarnatus
+      \set Score.currentBarNumber = #33
+    R1*23 %55
+    r2 \mvTr e4.\fE^\tutti e8
+    f4 fis g gis
+    a dis, e8([ \hA dis)] e4
+    r2 e
+    d! r %60
+    r d
+    c! r
+    R1
+    r2 f,4\p f
+    f f e2\fermata %65
+    r4 a e'4. e8
+    a,1\fermata \bar "||" %67 finis
+  }
+}
+
+A-XXIVEtIncarnatusBassoLyrics = \lyricmode {
+  Cru -- ci -- %56
+  fi -- xus e -- ti --
+  am pro no -- bis,
+  pas --
+  sus, %60
+  pas --
+  sus
+
+  et se --
+  pul -- tus est, %65
+  se -- pul -- tus
+  est. %67 finis
+}
+
+A-XXIVEtResurrexitBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIVEtResurrexit
+      \set Score.currentBarNumber = #68
+    R1
+    r2 \mvTr c4\fE^\tutti e8 g
+    c c r4 c h8 a %70
+    g g r h, c h16 c d4
+    g, r r2
+    R1
+    r2 r4 g'
+    c2 g4 g8 f %75
+    e4 e8 e e4 e8 e
+    e4 e r2
+    r r4 r8 c
+    c8. c16 e8 g c c h g
+    c8. c16 c4 r2 %80
+    a4. a8 g4. f8
+    e4 e d d
+    c c r a
+    f'4. f8 e4 e8 e
+    a4 f8 e d([ e)] f d %85
+    g c, g4 c r
+    R1*4 %90
+    r2 r4 \mvTr e\pE^\solo
+    e a f g8 d
+    e8. d16 c4 r a'
+    a g8([ f)] e([ f16 g] a8[ g]
+    f) e d d b'4. b8 %95
+    a4 r r2
+    R1*8 %104
+    r4 \mvTr g\fE^\tuttiE a2 %105
+    e4. e8 f f g8. g16
+    c,4 r r2
+    r8 d16([ e] f[ e f g] a8) e a4~
+    a g2 f4~
+    f e r e~ %110
+    e d2 cis4
+    d r r2
+    R1
+    a'2 c!
+    g4. g8 a a h8. h16 %115
+    e,4 r8 c d d e8. e16
+    a,4 a2 a4
+    f'2 e4 r
+    R1
+    r8 e16[ fis] g[ \hA fis g a] h8[ \hA fis] h4~ %120
+    h8[ e,] a2 g8[ a]
+    h4 h, h2~
+    h1
+    e2 r
+    R1*6 %130
+    g2 a
+    e8 e e f g4 g8 g
+    c,2 g~
+    g1
+    r4 g'2 f4 %135
+    e2 d4 c
+    g1
+    c4 g' c, r\fermata \bar "|." %138 finis
+  }
+}
+
+A-XXIVEtResurrexitBassoLyrics = \lyricmode {
+  Et re -- sur -- %69
+  re -- xit ter -- ti -- a %70
+  di -- e se -- cun -- dum Scri -- ptu --
+  ras,
+
+  in
+  coe -- lum, se -- det, %75
+  se -- det ad dex -- te -- ram
+  Pa -- tris.
+  Et
+  i -- te -- rum ven -- tu -- rus est cum
+  glo -- ri -- a %80
+  iu -- di -- ca -- re,
+  iu -- di -- ca -- re
+  vi -- vos et
+  mor -- tu -- os, cu -- ius
+  re -- gni non e -- rit, non %85
+  e -- rit fi -- nis.
+
+  Et %91
+  u -- nam san -- ctam ca --
+  tho -- li -- cam et
+  a -- po -- sto --
+  li -- cam Ec -- cle -- si -- %95
+  am.
+
+  Et vi -- %105
+  tam ven -- tu -- ri sae -- cu --
+  li,
+  a -- men, a --
+  _ _
+  men, a -- %110
+  _ _
+  men,
+
+  et vi --
+  tam ven -- tu -- ri sae -- cu -- %115
+  li, ven -- tu -- ri sae -- cu --
+  li, a -- men,
+  a -- men,
+
+  a -- _ _ _ %120
+  _ _
+  _ men, a --
+
+  men,
+
+  et vi -- %131
+  tam ven -- tu -- ri sae -- cu -- li,
+  a -- men, __
+
+  a -- men, %135
+  a -- _ _
+  _
+  men, a -- men. %138 finis
+}

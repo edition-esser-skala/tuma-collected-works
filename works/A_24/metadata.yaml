@@ -16,5 +16,6 @@ toe: |
     & 148f  & vl 2 & 2nd \halfNote\ of bar 148 in \B1: f′2;
                      1st \halfNote\ of bar 149: g′2 \\
   2 & 308   & vl 2 & 6th \eighthNote\ in \B1: c′8 \\
+  3 & 109   & vl 2 & 2nd \quarterNote\ in \B1: e′8–e′8 \\
 parts:
   ottoni: Clarino I, II in C\\Tromba I, II in C\\Timpani in C–G

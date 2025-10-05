@@ -499,3 +499,123 @@ A-XXIVCumSanctoViolinoI = {
     h8 c h4 c r\fermata \bar "|." %339 finis
   }
 }
+
+A-XXIVCredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIVCredo
+    R1*6 %6
+    g'2\fE a4. h8
+    c4 a8 a d2
+    c8 e e4 d d8 h
+    e4 e8 c a h a4 %10
+    g r r2
+    r4 r8 d'4 c16 h c8 d
+    h a16 g a8 h c d e4
+    d d8 d d4. d8
+    c4 c8 c c4. c8 %15
+    h4 c h4. h8
+    a4 e' f e~
+    e d e e8 cis
+    ais2 h4 h8 d
+    gis,2 a4 a %20
+    a2 gis4 e'
+    e8 e, r e' e16 d c h a gis fis e
+    c'8 a r e'16 d cis8. d16 e f e f
+    e2 a,8 a a d16 c
+    h4~ h16 c h c h4~ h16 c h c %25
+    h4. h8 c16 d c d e d e d
+    cis8. d16 e f e f e2
+    a,4 a d2
+    h4 r8 g' g16 f e d c h a g
+    e'4 e d e8 e %30
+    d1
+    e\fermata \bar "||" %32 finis
+  }
+}
+
+A-XXIVEtIncarnatusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoA-XXIVEtIncarnatus
+      \set Score.currentBarNumber = #33
+    R1*16 %48
+    a'4.\fE a8 b4 h
+    c cis d gis, %50
+    a8 gis a4 r8 c4 h8
+    a d4 c8 h e4 d8
+    c4. h16 a g!4 f!
+    e c'8 cis d4 d
+    e4. e8 a,4 h %55
+    c8 h a4 gis4. gis8
+    a4. a8 h4 h
+    a2 gis
+    r ais
+    h fis'8( d) ais( h) %60
+    g( fis) ais,( h) gis'2
+    a! e'8( c) gis( a)
+    f!( e) \once \slurDashed gis,( a) r2
+    R1*3 %66
+    R1\fermata \bar "||" %67 finis
+  }
+}
+
+A-XXIVEtResurrexitViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIVEtResurrexit
+      \set Score.currentBarNumber = #68
+    R1
+    r2 e'4\fE g8 g
+    e e r4 g g8 fis %70
+    g4 r8 g e a fis4
+    r8 g,,16 g h h d d g g h, h d d g g
+    h4 r r2
+    r r4 d8 g16 f!
+    e2 d4 d8 d %75
+    d4 d8 d c4 c8 c
+    h4 h r2
+    r r4 r8 c
+    c4 c8 h c4 d
+    c r r2 %80
+    c4. c8 h4. a8
+    gis4 gis gis gis
+    a a r a
+    a2 gis4 h8 e
+    cis4 d8 e f16 e d8 r d %85
+    h c4 h8 c4 r
+    R1*16 %102
+    c2\fE e
+    h4. h8 c c d8. d16
+    g,4 r r8 f16([ g] a[ g a h] %105
+    c8) g c2 b4~
+    b a2 gis4
+    a f e4. c'8
+    h2 a4 r
+    R1 %110
+    r2 e'
+    f c4. c8
+    d d e8. e16 a,2
+    r r8 a16 h c h c d
+    e8 h e2 dis4 %115
+    e r r2
+    R1
+    r8 a,16 h c h c d e8 h e4~
+    e d c2
+    h1 %120
+    c2 h4. a16 g
+    fis4 h2 a4
+    g2 fis
+    e r
+    R1*5 %129
+    c'2 e %130
+    h8 h h h a4. h8
+    c2 g~
+    g g8 g16 a h a h c
+    d8 a h4 c8 g c4
+    h2 g %135
+    g4 r d' e
+    d1
+    c4 h c r\fermata \bar "|." %138 finis
+  }
+}

@@ -252,3 +252,134 @@ A-XXIVCumSanctoTromboneII = {
     d'8 e d4 e r\fermata \bar "|." %339 finis
   }
 }
+
+A-XXIVCredoTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoA-XXIVCredo
+    R1*2
+    g4\fE g a a8 h
+    c4 a d4. d8
+    c2 c %5
+    e2. d4~
+    d e a, d
+    c c c h
+    c8 c c c h h h h
+    c8. c16 c4 r r8 d~ %10
+    d c16 h c8 d h g c h16 a
+    g8 c c d g,4 g
+    g8 c a f g g c4
+    h h8 h h4. h8
+    a4 a8 a a4. a8 %15
+    gis4 a2 \hA gis4
+    a c c h8 h
+    c4 a h8 h e e
+    cis2 h4 d8 d
+    h2 a4 a %20
+    a2 h4 r
+    R1*3
+    e2 e8 e, r e' %25
+    e16 d c h a gis fis e c'8 a r a
+    a2 cis4 e
+    d2 a
+    h d
+    c4 c h c8 c %30
+    c4 h8 a h2
+    c1\fermata \bar "||" %32 finis
+  }
+}
+
+A-XXIVEtIncarnatusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key a \minor \time 4/4 \tempoA-XXIVEtIncarnatus
+      \set Score.currentBarNumber = #33
+    R1*9
+    \mvTr h4\pE_\solo e4. fis16 cis dis8. e16
+    e4 r8 c h4.\trill h8
+    a4 r r8 a d16 c d8
+    h16 a g8 r4 r8 g c16 h c8
+    a4 r8 c~ c h16 a h8 fis'~
+    fis e16 dis e8 d c4 c
+    h16 h c d c4\trill h2
+    R1*5
+    \mvTr a4.\fE-\tutti a8 b4 h
+    c cis d gis, %55
+    a8 h c4 h8 c c h
+    a d d c h e4 d8
+    c2 h
+    r cis
+    d! r %60
+    r h
+    c! r
+    r a4\p a
+    a a a c
+    c h8 a h2\fermata %65
+    r4 a2 gis4
+    a1\fermata \bar "||" %67 finis
+  }
+}
+
+A-XXIVEtResurrexitTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoA-XXIVEtResurrexit
+      \set Score.currentBarNumber = #68
+    R1
+    r2 e4\fE e8 d
+    e e r4 e d8 c %70
+    d d r d c d16 e d4
+    d r r2
+    r g,8 a a h
+    h c c a h4 h8 h
+    c2 h4 h8 h %75
+    h4 h8 e e4 e8 e
+    e4 e r2
+    r r4 r8 e
+    e8. e16 e8 d e e d d
+    e8. e16 e4 r2 %80
+    a,4. a8 h4 h
+    h h h h
+    c c r c
+    c h8 a h4 h8 h
+    a4 a8 a a a r d %85
+    d e d4 e r
+    R1*12 %98
+    c2\fE e
+    h4 r8 h c c d8. d16 %100
+    g,4 r r8 f16 g a g a h
+    c8 g c2 b4~
+    b a4. h8 c h16 a
+    g4 e a d
+    h h c4. c8 %105
+    g4 g' f8 e d4
+    e4. f8 h,!2
+    a r
+    r a
+    c g4. g8 %110
+    a a h8. h16 e,4 r
+    r8 d16 e f e f g a8 e a4
+    h cis d8 a d4~
+    d c8 d e4. d16 c
+    h2 c4 h %115
+    h e f e8 d
+    cis4 d2 c4~
+    c h8 a gis4 r
+    r2 r8 a16 h c h c d
+    e8 h e2 dis4 %120
+    e fis dis e
+    \once \tieDashed h1~
+    h
+    h2 r
+    R1*6 %130
+    r2 c
+    e h8 h h h
+    c4 c8 c h4 g
+    g1
+    g8 g16 a h a h c %135
+    d8 a h4
+    c8 g c4 h c~
+    c h8 a h2
+    c4 d e r\fermata \bar "|." %139 finis
+  }
+}

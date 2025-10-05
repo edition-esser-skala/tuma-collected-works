@@ -14,6 +14,10 @@ tempoA-XXIVQuoniam = \tempoMarkup "Allegro"
 tempoA-XXIVCumSancto = \tempoMarkup "Adagio"
   tempoA-XXIVInGloria = \tempoMarkup "Allegro"
 
+tempoA-XXIVCredo = \tempoMarkup "Allegro"
+tempoA-XXIVEtIncarnatus = \tempoMarkup "Adagio"
+tempoA-XXIVEtResurrexit = \tempoMarkup "Allegro"
+
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
 \include "notes/tr1.ly"

@@ -167,3 +167,63 @@ A-XXIVCumSanctoClarinoI = {
     d8 c d4 c r\fermata \bar "|." %339 finis
   }
 }
+
+A-XXIVCredoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIVCredo
+    R1*8 %8
+    e'4\fE e8 e d4 r
+    e g fis8 g4 \hA fis8 %10
+    g4 r r2
+    R1
+    r2 r4 e
+    d r r2
+    R1 %15
+    r2 r4 \pa e,8 e16 e
+    e4 \pd r r2
+    R1*11 %28
+    r2 r4 g'
+    e r d e %30
+    d r d2
+    e1\fermata \bar "||" %32 finis
+  }
+}
+
+A-XXIVEtResurrexitClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIVEtResurrexit
+      \set Score.currentBarNumber = #68
+    \pa r8 c16\fE c e e g g c c e, e \pd g g c c
+    e e c c e e g g e4 r
+    r8 e,16 e g g c c e4 r %70
+    r8 d16 d d4 r2
+    d4 r d r
+    d r r2
+    R1
+    r4 e d r %75
+    R1
+    r2 r8 c,16 c e e g g
+    \pa c c e, e \pd g g c c e e c c e e g g
+    e4 r r2
+    r8 e,16 e g g c c g g c c e e g g %80
+    e4 r r2
+    \pa e,8 e16 e e e e e e8 e16 e e e e e
+    e8 e16 e e e e e e4 \pd r
+    R1*2 %85
+    r8 g' g4 e r
+    R1*37 %123
+    r2 g\fE
+    a e4. e8 %125
+    f f g g \pa c,4 r
+    r8 c16 d e d e fis g8 d g4~
+    g f2 e4
+    d16 e d e \pd f8 e d4 r
+    R1*2 %131
+    r2 r4 g
+    \pa e d8 c \pd d4 r
+    R1*4 %137
+    r4 d c r\fermata \bar "|." %138 finis
+  }
+}

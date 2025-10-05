@@ -102,3 +102,52 @@ A-XXIVCumSanctoTrombaI = {
     g8 g g4 g r\fermata \bar "|." %339 finis
   }
 }
+
+A-XXIVCredoTrombaI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXIVCredo
+    R1*8 %8
+    g'4\fE g8 g g4 r
+    g g \pa r g \pd %10
+    g r r2
+    R1
+    r2 r4 g
+    g r r2
+    R1*14 %28
+    r2 r4 g
+    g r g g %30
+    g r g2
+    g1\fermata \bar "||" %32 finis
+  }
+}
+
+A-XXIVEtResurrexitTrombaI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXIVEtResurrexit
+      \set Score.currentBarNumber = #68
+    \pao c4\fE r \pao c r
+    \pao c r g' r
+    r8 g16 g g g g g g4 r %70
+    r8 g16 g g4 r2
+    g4 r g r
+    g r r2
+    R1
+    r4 g g r %75
+    R1
+    r2 \pa r8 c, c4
+    c \pd r r8 g'16 g g g g g
+    g4 r r2
+    \pao c,4 r g' r %80
+    R1*5 %85
+    r8 g g4 g r
+    R1*42 %128
+    g4\fE r8 g g4 r
+    R1*2 %131
+    r2 r4 g
+    g r g r
+    R1*4 %137
+    r4 g g r\fermata \bar "|." %138 finis
+  }
+}
