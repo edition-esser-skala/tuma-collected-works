@@ -227,3 +227,66 @@ A-XXIVEtResurrexitClarinoI = {
     r4 d c r\fermata \bar "|." %138 finis
   }
 }
+
+A-XXIVSanctusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIVSanctus
+    R1*9 %9
+    \tempoA-XXIVPleni r2 g''16\fE f g a f e f g %10
+    e4 r g16 f g a f e f g
+    e4 r r2
+    r g4 r
+    r2 g16 f g a f e f g
+    e4 r r2 %15
+    R1
+    r2 g16 f g a f e f g
+    e4 r r2
+    r r4 a
+    g1\fermata \bar "|." %20 finis
+  }
+}
+
+A-XXIVOsannaClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIVOsanna
+      \set Score.currentBarNumber = #44
+    R1*5 %48
+    g''2\fE f
+    g a4. a8 %50
+    g4 r r2
+    R1*2
+    r2 r4 g
+    e r r2 %55
+    R1
+    d4 r r2
+    R1*2
+    r4 d e e %60
+    d2 e4 r\fermata \bar "|." %61 finis
+  }
+}
+
+A-XXIVAgnusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIVAgnus
+    R1*14 %14
+    r4 g''\fE e2 \noBreak %15
+    d1\fermata \bar "||"
+    \time 3/4 \tempoA-XXIVDona \newSpacingSection
+      R2.*53 %69
+    r4 e\fE g %70
+    f d e
+    r e g
+    f d e
+    R2.*4 %77
+    \pa e4 d2
+    c4 g'2~
+    g4 a8 g a4~ %80
+    a h8 a h4
+    c2 c,4
+    d2. \pd
+    e\fermata \bar "|." %84 finis
+  }
+}

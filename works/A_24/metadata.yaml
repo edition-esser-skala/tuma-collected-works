@@ -1,4 +1,4 @@
-title: Missa patientiae
+title: Missa patientiæ
 id: TumW A.24
 genre: mass
 scoring: S, A, T, B (solo), S, A, T, B (coro),\\2 clno (C), 2 tr (C), 2 trb, timp (C–G), 2 vl, b, org
@@ -17,5 +17,7 @@ toe: |
                      1st \halfNote\ of bar 149: g′2 \\
   2 & 308   & vl 2 & 6th \eighthNote\ in \B1: c′8 \\
   3 & 109   & vl 2 & 2nd \quarterNote\ in \B1: e′8–e′8 \\
+  6 & 12    & T    & 4th \quarterNote\ in \B1: e′8–e′8 \\
+    & 14    & B    & 1st \halfNote\ in \B1 \sharp c2 \\
 parts:
   ottoni: Clarino I, II in C\\Tromba I, II in C\\Timpani in C–G

@@ -989,3 +989,224 @@ A-XXIVEtResurrexitAltoLyrics = \lyricmode {
   a --
   men, a -- men. %138 finis
 }
+
+A-XXIVSanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIVSanctus
+    r2 \mvTr a'~\fE^\tutti
+    a ais
+    r4 r8 fis~ fis2
+    g r
+    g4 f!8[ e] dis4 e~ %5
+    e dis e2
+    g!4 g8 e e4 e8 e
+    e4 e e d
+    e1
+    \tempoA-XXIVPleni g4 g8 g g g r4 %10
+    g g8 g g g r4
+    r g g2~
+    g4 fis g r
+    g g8 g g g r4
+    e e8 e f f r4 %15
+    f f8 f g4 g8 g
+    g2 g4 r
+    r g a g8 g
+    a a g g a2
+    g1\fermata \bar "|." %20 finis
+  }
+}
+
+A-XXIVSanctusAltoLyrics = \lyricmode {
+  San --
+  ctus,
+  san --
+  ctus,
+  san -- _ _ _ %5
+  _ ctus
+  Do -- mi -- nus, Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth.
+  Ple -- ni sunt coe -- li, %10
+  ple -- ni sunt coe -- li
+  et ter --
+  _ ra
+  glo -- ri -- a tu -- a,
+  glo -- ri -- a tu -- a, %15
+  glo -- ri -- a, glo -- ri -- a
+  tu -- a.
+  O -- san -- na, o --
+  san -- na in ex -- cel --
+  sis. %20 finis
+}
+
+A-XXIVOsannaAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIVOsanna
+      \set Score.currentBarNumber = #44
+    \mvTr c2\fE^\tutti d
+    e f8([ g)] a([ h)] %45
+    c4 c, r g'~
+    g8[ fis] a4~ a8[ g] h4~
+    h8[ a] c4 h8[ a g f]
+    e4 e f2
+    g a4 a %50
+    g f8([ e)] d4 d
+    c2 h
+    R1
+    c2 d
+    e f8([ g)] a([ h)] %55
+    c4 c,2 r4
+    r d~ d8[ c] e4~
+    e8[ d] f4~ f8[ e] g4~
+    g8[ f] a4 g8[ f] e4
+    d2 e4 g8 g %60
+    g2 g4 r\fermata \bar "|." %61 finis
+  }
+}
+
+A-XXIVOsannaAltoLyrics = \lyricmode {
+  O -- san -- %44
+  na in ex -- cel -- %45
+  sis, o --
+  san -- _
+  _ _
+  na, o -- san --
+  na in ex -- %50
+  cel -- sis, in ex --
+  cel -- sis,
+
+  o -- san --
+  na in ex -- %55
+  cel -- sis,
+  o -- san --
+  _ _
+  _ _ _
+  _ na in ex -- %60
+  cel -- sis. %61 finis
+}
+
+A-XXIVAgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIVAgnus
+    R1*11 %11
+    r2 r4 \mvTr a'8\fE^\tutti a
+    a4 a8 a a4 g8 g
+    g4 g fis fis8 f
+    f4 f e2 \noBreak %15
+    d1\fermata \bar "||"
+    \time 3/4 \tempoA-XXIVDona \newSpacingSection
+      R2.*6 %22
+    r4 r \mvTr d~\pE^\solo
+    d e8[ d] e4~
+    e fis8[ e] \hA fis4 %25
+    g2 d4
+    r c2
+    d2.
+    e8([ d e fis] g4)
+    a fis2 %30
+    g r4
+    R2.*7 %38
+    r4 r e~
+    e f8[ e] fis4 %40
+    g gis8[ fis] \hA gis4
+    a2 e4
+    f!( fis2)
+    g!4 a2
+    h2. %45
+    e,2 a4~
+    a a( gis)
+    a r r
+    R2.*3 %51
+    r4 e g!
+    f( d) e
+    r e g
+    f( d) e %55
+    R2.*2
+    \mvTr c4\fE^\tutti e8[ d] e4
+    f fis8[ e] \hA fis4
+    g f e %60
+    d g f
+    e2.
+    d~
+    d4 d\p g
+    f!( d) e %65
+    r d g
+    f( d) e
+    r d( g)
+    e d2
+    c4 r r %70
+    R2.*3
+    c4\p f e
+    d g f %75
+    e f2~
+    f4 g2~
+    g4 g2\f
+    g4 r r
+    R2.*2 %81
+    g4. g8 a4
+    a g2
+    g2.\fermata \bar "|." %84 finis
+  }
+}
+
+A-XXIVAgnusAltoLyrics = \lyricmode {
+  A -- gnus %12
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun -- di, pec --
+  ca -- ta mun -- %15
+  di:
+
+  pa -- %23
+  _ _
+  _ _ %25
+  _ cem,
+  do --
+  na
+  no --
+  bis pa -- %30
+  cem,
+
+  pa -- %39
+  _ _ %40
+  _ _ _
+  _ cem,
+  pa --
+  cem, pa --
+  cem, %45
+  no -- bis __
+  pa --
+  cem,
+
+  do -- na %52
+  no -- bis,
+  no -- bis
+  pa -- cem, %55
+
+  pa -- _ _ %58
+  _ _ _
+  _ _ _ %60
+  cem, pa -- _
+  _
+  cem, __
+  do -- na,
+  do -- na %65
+  no -- bis
+  pa -- cem,
+  pa --
+  cem, pa --
+  cem, %70
+
+  pa -- _ _ %74
+  _ _ _ %75
+  _ _
+  cem, __
+  pa --
+  cem,
+
+  do -- na no -- %82
+  bis pa --
+  cem. %84 finis
+}

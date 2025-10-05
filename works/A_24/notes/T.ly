@@ -795,3 +795,207 @@ A-XXIVEtResurrexitTenoreLyrics = \lyricmode {
   _ _
   men, a -- men. %138 finis
 }
+
+A-XXIVSanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIVSanctus
+    r2 \mvTr c(\fE^\tutti
+    cis) cis
+    r4 r8 h~ h2
+    h r
+    e4 c!8[ e,] fis4 g8[ a] %5
+    h2 h
+    c4 c8 c h4 h8 h
+    h4 a a4. a8
+    h1
+    \tempoA-XXIVPleni e4 e8 d e e r4 %10
+    e e8 d e e r4
+    r c d2(
+    e4 d8[ c)] d4 r
+    d d8 d e e r4
+    c c8 c c c r4 %15
+    c c8 c d4 e8 e
+    d2 e4 r
+    r e f e8 e
+    f f c e f2
+    e1\fermata \bar "|." %20 finis
+  }
+}
+
+A-XXIVSanctusTenoreLyrics = \lyricmode {
+  San --
+  ctus,
+  san --
+  ctus,
+  san -- _ _ _ %5
+  _ ctus
+  Do -- mi -- nus, Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth.
+  Ple -- ni sunt coe -- li, %10
+  ple -- ni sunt coe -- li
+  et ter --
+  ra
+  glo -- ri -- a tu -- a,
+  glo -- ri -- a tu -- a, %15
+  glo -- ri -- a, glo -- ri -- a
+  tu -- a.
+  O -- san -- na, o --
+  san -- na in ex -- cel --
+  sis. %20 finis
+}
+
+A-XXIVOsannaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIVOsanna
+      \set Score.currentBarNumber = #44
+    R1*7 %50
+    r2 \mvTr g\fE^\tutti
+    a h
+    c8([ d]) e([ fis)] g4 g,
+    r c~ c8[ h] d4~
+    d8[ c] e4~ e8[ d] f4 %55
+    e8[ d c h] a2
+    h4 g \tieDashed g2~
+    g1~ \tieSolid
+    g
+    g2. c8 c %60
+    c4( h) c r\fermata \bar "|." %61 finis
+  }
+}
+
+A-XXIVOsannaTenoreLyrics = \lyricmode {
+  O -- %51
+  san -- na
+  in ex -- cel -- sis,
+  o -- san --
+  _ _ %55
+  _ na
+  in ex -- cel --
+
+  sis, in ex -- %60
+  cel -- sis. %61 finis
+}
+
+A-XXIVAgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIVAgnus
+    r4 \mvTr c8\pE^\solo c d4 d8 d
+    c4 c8 c c4 h8([ a)]
+    h4 h r e8 cis
+    ais2 h4 d8 h
+    gis2 a4 a8 a %5
+    a4 g fis2
+    e4 r r2
+    R1*4 %11
+    r2 r4^\critnote \mvTr c'8\fE^\tutti c
+    c4 c8 c h4 h8 h
+    a4 a a a8 a
+    g4 g g2 \noBreak %15
+    g1\fermata \bar "||"
+    \time 3/4 \tempoA-XXIVDona \newSpacingSection
+      R2.*9 %25
+    r4 \mvTr g2~\pE^\solo
+    g4 a8[ g] a4~
+    a h8[ a] h4
+    c2 d4
+    e a,2 %30
+    g r4
+    R2.*10 %41
+    a4 c8[ h] cis4
+    d dis8[ cis] \hA dis4
+    e d c
+    h e d %45
+    c2.
+    h4 h2
+    a4 r r
+    R2.*3 %51
+    r4 c e
+    d( h) c
+    r c e
+    d( h) c %55
+    R2.*4
+    \mvTr g4\fE^\tutti a8[ g] a4~ %60
+    a h8[ a] h4
+    c c h
+    a d c
+    h h\p e
+    d( h) c %65
+    r h e
+    d( h) c
+    r h2
+    c4 c( h)
+    c r r %70
+    R2.*4
+    r4 r g~\p %75
+    g a8[ g] a4~
+    a h8[ a] h4
+    c c(\f h)
+    c r r
+    R2.*2 %81
+    e4. e8 e4
+    d d2
+    e2.\fermata \bar "|." %84 finis
+  }
+}
+
+A-XXIVAgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: Mi -- se --
+  re -- re, mi -- se --
+  re -- re, mi -- se -- %5
+  re -- re no --
+  bis.
+
+  A -- gnus %12
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun -- di, pec --
+  ca -- ta mun -- %15
+  di:
+
+  pa -- %26
+  _ _
+  _ _
+  _ _
+  cem, pa -- %30
+  cem,
+
+  pa -- _ _ %42
+  _ _ _
+  _ _ _
+  _ _ _ %45
+  _
+  cem, pa --
+  cem,
+
+  do -- na %52
+  no -- bis
+  pa -- cem,
+  pa -- cem, %55
+
+  pa -- _ _ %60
+  _ _
+  cem, pa -- _
+  _ _ _
+  cem, do -- na
+  no -- bis, %65
+  no -- bis
+  pa -- cem,
+  no --
+  bis pa --
+  cem, %70
+
+  pa -- %75
+  _ _
+  _ _
+  cem, pa --
+  cem,
+
+  do -- na no -- %82
+  bis pa --
+  cem. %84 finis
+}

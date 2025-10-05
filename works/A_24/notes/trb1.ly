@@ -423,3 +423,102 @@ A-XXIVEtResurrexitTromboneI = {
     g4 g g r\fermata \bar "|." %138 finis
   }
 }
+
+A-XXIVSanctusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXIVSanctus
+    r2 a'~\fE
+    a ais
+    r4 r8 \once \tieDashed fis~ fis2
+    g r
+    g4 f!8 e dis4 e~ %5
+    e dis e2
+    g!4 g8 e e4 e8 e
+    e4 e e d
+    e1
+    \tempoA-XXIVPleni g4 g8 g g g r4 %10
+    g g8 g g g r4
+    r g g2~
+    g4 fis g r
+    g g8 g g g r4
+    e e8 e f f r4 %15
+    f f8 f g4 g8 g
+    g2 g4 r
+    r g a g8 g
+    a a g g a2
+    g1\fermata \bar "|." %20 finis
+  }
+}
+
+A-XXIVOsannaTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXIVOsanna
+      \set Score.currentBarNumber = #44
+    \mvTr c2\fE^\tutti d
+    e f8 g a h %45
+    c4 c, r g'~
+    g8 fis a4~ a8 g h4~
+    h8 a c4 h8 a g f
+    e4 e f2
+    g a4 a %50
+    g f8 e d4 d
+    c2 h
+    R1
+    c2 d
+    e f8 g a h %55
+    c4 c,2 r4
+    r d~ d8 c e4~
+    e8 d f4~ f8 e g4~
+    g8 f a4 g8 f e4
+    d2 e4 g8 g %60
+    g2 g4 r\fermata \bar "|." %61 finis
+  }
+}
+
+A-XXIVAgnusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXIVAgnus
+    \mvTr g'2\pE-\solo gis
+    a1
+    gis2 g
+    fis1
+    e %5
+    dis4 e2 \hA dis4
+    e r r2
+    R1*4 %11
+    r2 r4 \mvTr a8\fE-\tutti a
+    a4 a8 a a4 g8 g
+    g4 g fis fis8 f
+    f4 f e2 \noBreak %15
+    d1\fermata \bar "||"
+    \time 3/4 \tempoA-XXIVDona \newSpacingSection
+      R2.*41 %57
+    c4\fE e8 d e4
+    f fis8 e \hA fis4
+    g f e %60
+    d g f
+    e2.
+    d~
+    d4 d\p g
+    f! d e %65
+    r d g
+    f d e
+    r d g
+    e d2
+    c4 r r %70
+    R2.*3
+    c4\p f e
+    d g f %75
+    e f2~
+    f4 g2~
+    g4 g2\f
+    g4 r r
+    R2.*2 %81
+    g4. g8 a4
+    a g2
+    g2.\fermata \bar "|." %84 finis
+  }
+}

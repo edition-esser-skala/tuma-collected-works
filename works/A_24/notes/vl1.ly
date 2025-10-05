@@ -619,3 +619,128 @@ A-XXIVEtResurrexitViolinoI = {
     c4 h c r\fermata \bar "|." %138 finis
   }
 }
+
+A-XXIVSanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIVSanctus
+    e'1~\fE
+    e2 e
+    d dis
+    e h~
+    h4 a2 g4 %5
+    fis2 e
+    e'4. e8 d!4. d8
+    c2. h8 a
+    gis1
+    \tempoA-XXIVPleni r16 g'! f g e g d g e4 r %10
+    r16 g f g e g d g e4 r
+    R1
+    r2 d16( c d e) c( h c d)
+    h4. g'8 e4 r
+    r2 c16( b c d) \hA b( a \hA b c) %15
+    a4 f'2 e4
+    d2 c4 r
+    r c c2
+    c1
+    c\fermata \bar "|." %20 finis
+  }
+}
+
+A-XXIVBenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \tempoA-XXIVBenedictus
+    e'4.\fE h8 c4 h16 a g fis
+    g fis e8 r16 h' h e e dis dis8 r16 h h fis'
+    fis e e8 r16 e e h' c h a g a g fis e
+    dis4 r r2
+    r8 e16( fis) e( fis e fis) dis h d( e) d( e d e) %5
+    cis a c( d) c( d c d) h8 e16( dis) dis8 g16( fis)
+    fis8 \once \slurDashed a16( g) g8 c16( h) h8 e,16( fis) fis4
+    e8 a,16( g) g8 f16 e dis h e fis fis4
+    e r r2
+    R1*6 %15
+    r8 h'16(\p cis) h( \hA cis h \hA cis) ais fis a( h) a( h a h)
+    gis e r8 r4 r2
+    r8 a16( h) a( h a h) gis e \slurDashed g( a) g( a g a) \slurSolid
+    fis d r8 r4 r2
+    R1*4 %23
+    h'4.\f fis8 g4 fis16 e d cis
+    d8 h r16 fis' fis h h( ais) ais8 r16 fis fis cis' %25
+    cis( h) h8 r16 h h e e( dis) dis8 r16 h h fis'
+    \once \slurDashed fis( e) e8 r4 r2
+    R1*3 %30
+    r8 e16(\p fis) e( fis e fis) dis h d( e) d( e d e)
+    cis a r8 r4 r2
+    r8 d16( e) d( e d e) cis a c( d) c( d c d)
+    h g r8 r4 r2
+    R1*5 %39
+    r2 r8 e'16(\f fis) e( fis e fis) %40
+    dis h d( e) d( e d e) cis a c( d) c( d c d)
+    h8 e16( dis) dis8 g16( fis) fis8 \once \slurDashed a16( g) g8 c16( h)
+    h8 e,16 fis fis4 e r\fermata \bar "||" %43 finis
+  }
+}
+
+A-XXIVOsannaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIVOsanna
+      \set Score.currentBarNumber = #44
+    R1*2 %45
+    r2 g'\fE
+    a h
+    c8 d e fis g4 g,~
+    g c~ c8 h d4~
+    d8 c e4~ e8 d f4 %50
+    e d8 c h4 h
+    c2 d
+    e4. e8 d2
+    e4 e,8 f g2~
+    g4 c8 h a2 %55
+    g2. f8 e
+    d2 e
+    f g
+    a h4 c~
+    c h c e %60
+    d2 e4 r\fermata \bar "|." %61 finis
+  }
+}
+
+A-XXIVAgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXIVAgnus
+    R1*6 %6
+    r2 d'\p
+    g fis~
+    fis e~
+    e d %10
+    c4 e d c
+    h2 a4 e'\fE
+    d4. d8 d4. d8
+    e2. d4
+    d2. c4 \noBreak %15
+    h1\fermata \bar "||"
+    \time 3/4 \tempoA-XXIVDona \newSpacingSection
+      R2.*38 %54
+    r4 r g~\fE %55
+    g a8 g a4~
+    a h8 a h4
+    c c h
+    a d c
+    h c2 %60
+    d2.
+    g,
+    a
+    h4 r r
+    R2.*13 %77
+    e4\fE d2
+    c4 r r
+    R2.*2 %81
+    c2 c4~
+    c c h
+    c2.\fermata \bar "|." %84 finis
+  }
+}

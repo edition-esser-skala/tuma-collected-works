@@ -704,3 +704,235 @@ A-XXIVEtResurrexitBassoLyrics = \lyricmode {
   _
   men, a -- men. %138 finis
 }
+
+A-XXIVSanctusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIVSanctus
+    r2 \mvTr a'(\fE^\tutti
+    g) fis
+    r4 r8 h,( a2)
+    g r
+    c! h~ %5
+    h e
+    c4 c8 c gis4 gis8 gis
+    a4 a f'4. f8
+    e1
+    \tempoA-XXIVPleni c4 e8 g c c r4
+    c, e8 g c c r4
+    r c, h2(
+    a) g4 r
+    g' g8 g c c, r4
+    c c8 c f f, r4
+    f' e8 d g4 c,8 c
+    g2 c4 r
+    r c f c8 c
+    f f e c f2
+    c1\fermata \bar "|."
+  }
+}
+
+A-XXIVSanctusBassoLyrics = \lyricmode {
+  San --
+  ctus,
+  san --
+  ctus,
+  san -- _ %5
+  ctus
+  Do -- mi -- nus, Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth.
+  Ple -- ni sunt coe -- li, %10
+  ple -- ni sunt coe -- li
+  et ter --
+  ra
+  glo -- ri -- a tu -- a,
+  glo -- ri -- a tu -- a, %15
+  glo -- ri -- a, glo -- ri -- a
+  tu -- a.
+  O -- san -- na, o --
+  san -- na in ex -- cel --
+  sis. %20 finis
+}
+
+
+A-XXIVBenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 4/4 \autoBeamOff \tempoA-XXIVBenedictus
+    R1*11 %11
+    \mvTr h'4.\pE^\solo fis8 g4 fis16([ e)] d([ cis)]
+    d8 h r h' h16([ ais)] ais8 r a
+    a16 gis gis8 r g fis e16 d e8. e16
+    fis4 ais gis8 \hA ais16 h cis8. cis16 %15
+    fis,4 r r2
+    r4 gis fis8 \hA gis16 a h8. h16
+    e,4 r r g~
+    g8[ fis16 e] fis8 e16([ d)] e8 a, a'4~
+    a8[ g16 fis] g8 fis16([ e)] fis8 h, h'4 %20
+    h8 ais r fis g8.[ fis32 e] a16[ e fis g]
+    fis8.[ e32 d] g16[ d e fis] e8.[ d32 cis] fis16[ \hA cis d e]
+    d cis h8 r h' h h16 cis ais8. ais16
+    h4 r r2
+    R1*3 %27
+    r4 g fis8.[ g32 a] h16[ gis a h]
+    e,8.[ fis32 g] a16[ fis g a] d,8 h' a([ g)]
+    fis4 r r2 %30
+    r4 gis fis( \hA gis)
+    a r r2
+    r4 fis e( fis)
+    g g~ g8[ fis16 e] fis8 e16([ d)]
+    e8 a, a'4~ a8[ g16 fis] g8 fis16([ e)] %35
+    fis8 h, h'4 h16([ ais)] ais8 r a
+    a16([ gis)] gis8 r g fis8.[ g32 a] h16[ gis a h]
+    e,8.[ fis32 g] a16[ fis g a] d,4 r8 g
+    a a,16 a h8. h16 e4 r
+    R1*3 %42
+    R1\fermata \bar "||" %43 finis
+  }
+}
+
+A-XXIVBenedictusBassoLyrics = \lyricmode {
+  Be -- ne -- di -- ctus, qui %12
+  ve -- nit, qui ve -- nit in
+  no -- mi -- ne, in no -- mi -- ne Do -- mi --
+  ni, in no -- mi -- ne Do -- mi -- %15
+  ni,
+  in no -- mi -- ne Do -- mi --
+  ni, be --
+  _ ne -- di -- ctus, be --
+  _ ne -- di -- ctus, qui %20
+  ve -- nit in no -- _
+  _ _ _ _
+  _ mi -- ne, in no -- mi -- ne Do -- mi --
+  ni.
+
+  Qui ve -- _ %28
+  _ _ nit, qui ve --
+  nit, %30
+  qui ve --
+  nit,
+  qui ve --
+  nit, be -- _ ne --
+  di -- ctus, be -- _ ne -- %35
+  di -- ctus, qui ve -- nit, qui
+  ve -- nit, qui ve -- _
+  _ _ nit in
+  no -- mi -- ne Do -- mi -- ni. %39 finis
+}
+
+A-XXIVOsannaBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIVOsanna
+      \set Score.currentBarNumber = #44
+    R1*5 %48
+    \mvTr c2\fE^\tutti d
+    e f8([ g)] a([ h)] %50
+    c4 c, r g'~
+    g8[ fis] a4~ a8[ g] h4~
+    h8[ a] c4 h8[ a g f]
+    e4 a g2
+    c, d %55
+    e f4 f
+    g1
+    g,2 g4 g
+    g1~
+    g2 c4 c8 c %60
+    g'2 c,4 r\fermata \bar "|." %61 finis
+  }
+}
+
+A-XXIVOsannaBassoLyrics = \lyricmode {
+  O -- san -- %49
+  na in ex -- %50
+  cel -- sis, o --
+  san -- _
+  _ _
+  _ _ na
+  in ex -- %55
+  cel -- sis, o --
+  san --
+  na in ex --
+  cel --
+  sis, in ex -- %60
+  cel -- sis. %61 finis
+}
+
+A-XXIVAgnusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXIVAgnus
+    R1*11 %11
+    r2 r4 \mvTr a'8\fE^\tutti a
+    fis4 fis8 fis g!4 g8 g
+    cis,4^\critnote cis d d8 d
+    h4 h c2 \noBreak %15
+    g1\fermata \bar "||"
+    \time 3/4 \tempoA-XXIVDona \newSpacingSection
+      R2.*27 %43
+    \mvTr e'4\pE^\solo f8[ e] fis4
+    g gis8[ fis] \hA gis4 %45
+    a4. g8 f4
+    d e2
+    a,4 a' c
+    h( gis) a
+    r a c %50
+    h( gis) a
+    R2.*10 %61
+    \mvTr c,4\fE^\tutti e8[ d] e4
+    f fis8[ e] \hA fis4
+    g g,2\p
+    g2. %65
+    g
+    g
+    g
+    c4 g'( g,)
+    c r r %70
+    R2.*5 %75
+    c4\p f e
+    d g f
+    e g2\f
+    c,4 r r
+    R2.*2 %81
+    c'4. h8 a4
+    f g2
+    c,2.\fermata \bar "|." %84 finis
+  }
+}
+
+A-XXIVAgnusBassoLyrics = \lyricmode {
+  A -- gnus %12
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun -- di, pec --
+  ca -- ta mun -- %15
+  di:
+
+  pa -- _ _ %44
+  _ _ _ %45
+  _ _ _
+  cem, pa --
+  cem, do -- na
+  no -- bis,
+  no -- bis %50
+  pa -- cem,
+
+  pa -- _ _ %62
+  _ _ _
+  cem, do --
+  na %65
+  no --
+  bis
+  pa --
+  cem, pa --
+  cem, %70
+
+  pa -- _ _ %76
+  _ _ _
+  cem, pa --
+  cem,
+
+  do -- na no -- %82
+  bis pa --
+  cem. %84 finis
+}

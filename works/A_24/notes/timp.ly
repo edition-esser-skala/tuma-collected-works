@@ -151,3 +151,56 @@ A-XXIVEtResurrexitTimpani = {
     r4 g c r\fermata \bar "|." %138 finis
   }
 }
+
+A-XXIVSanctusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XXIVSanctus
+    R1*9 %9
+    \tempoA-XXIVPleni r2 c4\fE r8 g %10
+    c4 r c r8 g
+    c4 r r2
+    r g4 r
+    r2 c4 r8 g
+    c4 r r2 %15
+    R1
+    r2 c4 r8 g
+    c4 r r2
+    r r4 c8 c16 c
+    c1\fermata \bar "|." %20 finis
+  }
+}
+
+A-XXIVOsannaTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XXIVOsanna
+      \set Score.currentBarNumber = #44
+    R1*10 %53
+    r2 r4 g\fE
+    c r r2 %55
+    R1
+    g4 r r2
+    R1*2
+    r4 g c c %60
+    g2 c4 r\fermata \bar "|." %61 finis
+  }
+}
+
+A-XXIVAgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XXIVAgnus
+    R1*14 %14
+    r4 g\fE c2 \noBreak %15
+    g1\fermata \bar "||"
+    \time 3/4 \tempoA-XXIVDona \newSpacingSection
+      R2.*61 %77
+    c4\fE g g
+    c r r
+    R2.*2 %81
+    c4 c r
+    r g g
+    c2.\fermata \bar "|." %84 finis
+  }
+}

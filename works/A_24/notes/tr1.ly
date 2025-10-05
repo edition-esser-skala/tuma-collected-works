@@ -151,3 +151,56 @@ A-XXIVEtResurrexitTrombaI = {
     r4 g g r\fermata \bar "|." %138 finis
   }
 }
+
+A-XXIVSanctusTrombaI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXIVSanctus
+    R1*9 %9
+    \tempoA-XXIVPleni r2 g'4\fE r8 g %10
+    g4 r g r8 g
+    g4 r r2
+    r g4 r
+    r2 g4 r8 g
+    g4 r r2 %15
+    R1
+    r2 g4 r8 g
+    g4 r r2
+    r r4 \pa c,8 c16 c
+    c1\fermata \pd \bar "|." %20 finis
+  }
+}
+
+A-XXIVOsannaTrombaI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXIVOsanna
+      \set Score.currentBarNumber = #44
+    R1*10 %53
+    r2 r4 g'
+    g r r2 %55
+    R1
+    g4 r r2
+    R1*2
+    r4 g g g %60
+    g2 g4 r\fermata \bar "|." %61 finis
+  }
+}
+
+A-XXIVAgnusTrombaI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXIVAgnus
+    R1*14 %14
+    r4 g'\fE g2 \noBreak %15
+    g1\fermata \bar "||"
+    \time 3/4 \tempoA-XXIVDona \newSpacingSection
+      R2.*61 %77
+    g4\fE g g
+    g r r
+    R2.*2 %81
+    g4 g r
+    r g g8 g
+    g2.\fermata \bar "|." %84 finis
+  }
+}

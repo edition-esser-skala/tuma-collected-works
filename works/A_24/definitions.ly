@@ -18,6 +18,15 @@ tempoA-XXIVCredo = \tempoMarkup "Allegro"
 tempoA-XXIVEtIncarnatus = \tempoMarkup "Adagio"
 tempoA-XXIVEtResurrexit = \tempoMarkup "Allegro"
 
+tempoA-XXIVSanctus = \tempoMarkup "Adagio"
+  tempoA-XXIVPleni = \tempoMarkup "Allegro"
+
+tempoA-XXIVBenedictus = \tempoMarkup "Andante"
+  tempoA-XXIVOsanna = \tempoMarkup "Allegro"
+
+tempoA-XXIVAgnus = \tempoMarkup "Adagio"
+  tempoA-XXIVDona = \tempoMarkup "Allegro"
+
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
 \include "notes/tr1.ly"
