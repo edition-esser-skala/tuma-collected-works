@@ -1,5 +1,17 @@
 # Changelog
 
+## 2025.10.0 – 2025-11-01
+
+### Added
+
+- works: TumW A.24
+
+### Changed
+
+- renumbered TumW L.2/3 → 1/2
+- composer name from work metadata is now used for the title page
+
+
 ## 2025.09.0 – 2025-09-27
 
 ### Added
