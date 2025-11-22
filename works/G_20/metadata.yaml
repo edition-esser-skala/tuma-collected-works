@@ -1,0 +1,45 @@
+title: Litaniæ lauretanæ
+id: TumW G.20
+genre: litany
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: CZ-Bm
+    shelfmark: A 20181
+    date: 1758
+    license: public domain
+    principal: true
+toe: |
+  36  & clno 1 & 3td \halfNote\ in \B1: g″2 \\
+  63  & clno 2 & bar in \B1: d″2–d″1 \\
+  65  & clno 2 & bar in \B1: e″2–e″1 \\
+  65  & org    & bar in \B1: c2–e1 \\
+  70  & vl 2   & 2nd/3rd \halfNote\ in \B1: \flat b′2–c″2 \\
+  71  & clno 1 & 3rd \halfNote\ in \B1: a″2 \\
+  91  & vl 2   & 1st \halfNote\ in \B1: d″2 \\
+  129 & T      & 7th \eighthNote\ in \B1: c′8 \\
+  131 & B      & 2nd/3rd \eighthNote\ in \B1: B8–A8 \\
+  145 & clno 2 & 1st \halfNote\ in \B1: d″4–d″8–c″8 \\
+  146 & org    & 4th \eighthNote\ in \B1: d′8 \\
+  148 & A      & 2nd to 4th \quarterNote\ in \B1: e′2–d′4 \\
+  152 & T      & last \eighthNote\ in \B1: b8 \\
+  153 & B      & 2nd \halfNote\ in \B1: c4–\crotchetRest \\
+  154 & vl 2   & grace note missing in \B1 \\
+  155 & vl     & grace note missing in \B1 \\
+  156 & vl 1   & last \sixteenthNote\ in \B1: f′16 \\
+  157 & vl 1   & last \sixteenthNote\ in \B1: g′16 \\
+  173 & vl 2   & grace note missing in \B1 \\
+  184 & A      & 4th \quarterNote\ in \B1: g′8.–g′16 \\
+  196 & vl 1   & grace note missing in \B1 \\
+  197 & vl 2   & grace note missing in \B1 \\
+  206 & vl 1   & bar in \B1: e″2–e″1 \\
+  212 & T      & 3rd \halfNote\ in \B1: b2 \\
+  213 & vl 2   & bar in \B1: \sharp f′2–e′1 \\
+  218 & org    & bar in \B1: \sharp f1–\sharp f2 \\
+  224 & org    & bar in \B1: \halfNoteRest–\halfNoteRest–A2 \\
+  252 & clno 1 & 2nd \halfNote\ in \B1: f″2 \\
+  275 & clno 2 & 3rd \eighthNote\ in \B1: d″8 \\
+  280 & T      & bar in \B1: c′1 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
