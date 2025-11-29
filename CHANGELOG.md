@@ -1,5 +1,12 @@
 # Changelog
 
+## 2025.11.0 – 2025-11-29
+
+### Added
+
+- works: TumW G.20 (unreleased)
+
+
 ## 2025.10.0 – 2025-11-01
 
 ### Added
