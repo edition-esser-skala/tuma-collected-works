@@ -1,0 +1,23 @@
+title: Tradiderunt me in manus impiorum
+id: TumW C.3.22
+genre: motet
+festival: de Passione Christi
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: CZ-Pn
+    shelfmark: XLVI A 267
+    license: public domain
+    principal: true
+lyrics:
+  Tradiderunt me in manus impiorum,\\
+  et inter iniquos proiecerunt me,\\
+  et non pepercerunt animae meae.\\
+  (\bibleverse{Job}(16:11))\clearpage
+  Congregati sunt adversum me fortes\\
+  et sicut gigantes steterunt contra me\\
+  terribilibus oculis intuentes\\
+  et plaga crudeli percutientes\\
+  subsannaverunt me.\\
+  (\bibleverse{Luk}(22:63))
