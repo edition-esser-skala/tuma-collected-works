@@ -1,0 +1,37 @@
+title: Tochter Sion ſey erfreyt
+id: TumW C.3.27
+genre: motet
+festival: de Nativitate Domini
+scoring: S (solo), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-GÖ
+    shelfmark: 3592
+    date: 1766-12-14
+    license: public domain
+    principal: true
+  B2:
+    siglum: A-GE
+    shelfmark: III 1
+    rism: 601000210
+    license: public domain
+    notes: only vl 2 part
+toe: |
+  –  & org & All bass figures have been added by the editor .\\
+  99 & vla & last \sixteenthNote\ in \B1: b16 \\
+parts:
+  S_solo: Soprano solo
+lyrics:
+  Tochter Sion ſey erfreyt,\\
+  Jacobs Stern iſt aufgegangen,\\
+  auf ihr Hertzen, ſeyt bereith,\\
+  Euren König zu empfangen.\\
+  Dan der Herſcher aller Welt\\
+  eylt herab von Himmelszelt.\\[1ex]
+  Gottes eingebohrner Sohn\\
+  kombt zu unß auf dieſe Erden,\\
+  er verlaßt des Höchſten Thron,\\
+  umb unß Menſchen gleich zu werden.\\
+  O ihr Hertzen, breit die Nacht,\\
+  die unß diſen Schaz gebracht.
