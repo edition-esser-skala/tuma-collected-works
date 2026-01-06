@@ -1,0 +1,19 @@
+title: Confitebor
+id: TumW C.4.7
+genre: offertorium
+festival: pro Dominica Passionis
+ark: 68748/e1ftc47
+scoring: S, A, T, B (coro), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: CZ-Pn
+    shelfmark: XLVI A 274
+    license: public domain
+    principal: true
+lyrics: |
+  Confitebor tibi Domine in toto corde meo.\\
+  Retribue servo tuo,\\
+  vivam et custodiam sermones tuos.\\
+  Vivifica me secundum verbum tuum Domine.\\
+  (\bibleverse{Ps}(119/118:7,10,17,25))
