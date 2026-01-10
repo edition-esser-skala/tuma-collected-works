@@ -1,0 +1,20 @@
+title: Improperium expectavit
+id: TumW C.4.8
+genre: offertorium
+festival: pro Dominica Palmarum
+ark: 68748/e1ftc48
+scoring: S, A, T, B (coro), 2 trb, 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: CZ-Pn
+    shelfmark: XLVI A 273
+    license: public domain
+    principal: true
+lyrics: |
+  Improperium expectavit cor meum et miseriam,\\
+  et sustinui qui simul mecum contristaretur, et non fuit.\\
+  Consolantem me quaesivi, et non inveni,\\
+  et dederunt in escam meam fel,\\
+  et in siti mea potaverunt me aceto.\\
+  (\bibleverse{Ps}(69/68:21-22))

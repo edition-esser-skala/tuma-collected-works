@@ -1,0 +1,113 @@
+\version "2.24.2"
+
+C-IV-VIIITromboneII = {
+  \relative c' {
+    \clef tenor
+    \twotwotime \key c \major \time 2/2 \tempoC-IV-VIII
+    R1*3
+    g2.\f g4
+    a2 a %5
+    h c~
+    c h
+    c4 d8 e f2~
+    f e
+    d2. e4 %10
+    f1
+    f2 e4 d
+    c2. c4
+    c1
+    R1*2 %16
+    h2 c
+    c4 h a2
+    a1
+    h2 h %20
+    h c~
+    c e
+    d1
+    d
+    g,2. a4 %25
+    h2 a
+    h1
+    R1*3 %30
+    r2 a
+    a h
+    c2. h4
+    a1
+    g %35
+    c~
+    c2 d
+    e2. d4
+    c1~
+    c2 h~ %40
+    h4 a a2
+    a g4 f
+    g2 g
+    R1*10 %53
+    e'1
+    f %55
+    e
+    a,2 e'~
+    e h
+    d c4 d
+    e c g a %60
+    h c d2~
+    d4 c a2
+    h e
+    a, d
+    g, a4 h %65
+    c2 c
+    h1 \noBreak
+    a\fermata \bar "||"
+    c \noBreak
+    e %70
+    a,2 h
+    c4 d e2
+    e d4 c
+    h2 c4 h
+    a2. h4 %75
+    c1
+    d
+    c
+    h
+    R1*3 %82
+    r2 h
+    c4 d e2
+    e d4 c %85
+    h2 d
+    a1
+    r2 c
+    e1
+    a,4 h c a %90
+    f2 g
+    a4 h c d8 e
+    f2 e4 d
+    e d c h
+    a2 h %95
+    h a~
+    a4 g g2~
+    g fis
+    g1
+    R1*3 %102
+    r2 c
+    h g
+    a4. c8 d2~ %105
+    d c~
+    c h
+    c4. e8 f2~
+    f e
+    d1 %110
+    g,2 a
+    b1
+    c2 r
+    r c
+    h! g %115
+    a h
+    c1
+    d2 c
+    h d
+    e e %120
+    d1~
+    d
+    e\breve*1/2\fermata \bar "|." %123 finis
+  }
+}
