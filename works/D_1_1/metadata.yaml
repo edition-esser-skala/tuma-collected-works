@@ -1,0 +1,23 @@
+title: Vesperæ de Confessore
+subtitle: Dixit Dominus · Confitebor · Beatus vir · \\Laudate pueri · Laudate Dominum · Magnificat
+id: TumW D.1.1
+genre: gradual
+scoring: S, A, T, B (solo), S, A, T, B (coro), cnto, fag, 2 clno (C), 2 trb, timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15726
+    rism: 600138835
+    url: https://data.onb.ac.at/rec/AC14297620
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 5  & trb 2 & 4th \eighthNote\ in \B1: e′8 \\
+    & 9  & timp  & 3rd \quarterNote\ in \B1: G4 \\
+    & 18 & B     & 2nd \halfNote\ in \B1: f8–f8–g8–g8 \\
+    & 23 & cnto  & 1st \quarterNote\ in \B1: b′4 \\
+  2 & 10 & trb 2, T & 3rd \quarterNote\ in \B1: \flat b4 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
