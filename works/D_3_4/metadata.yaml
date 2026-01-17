@@ -1,0 +1,31 @@
+title: Miserere
+id: TumW D.3.4
+genre: psalm
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, vla, b, org
+license: cc-by-sa-4.0
+ark: 68748/e1fit1d34
+sources:
+  B1:
+    siglum: A-KR
+    shelfmark: F 21/12
+    rism: 600178680
+    license: public domain
+    principal: true
+toe: |
+  19   & trb 1 & 4th \quarterNote\ in \B1: e′16–d′16–c′8 \\
+  78   & vlne  & 2nd/3rd \quarterNote\ in \B1: 4×\eighthNote \\
+  124  & vlne  & 5th \eighthNote\ in \B1: F16–G16 \\
+  139  & vl 2  & 12th \sixteenthNote\ in \B1: g″8 \\
+  147  & A     & 1st \eighthNote\ in \B1: f′8 \\
+  153  & trb 2 & bar in \B1: b2–\halfNoteRest \\
+  153  & S     & bar in \B1: g′1 \\
+  179  & B     & 2nd \quarterNote\ in \B1: g4 \\
+  184  & S     & 1st \quarterNote\ in \B1: \flat b′8–\flat a′8 \\
+  186  & S     & last \sixteenthNote\ in \B1: a′16 \\
+  252  & S     & 4th \eighthNote\ in \B1: c′8 \\
+  %305 & vl 1  & G major or minor ? \\
+  316f & trb 1 & bars in \B1: \flat c′2–\flat b2–c′4 \\
+  355  & trb 1 & 1st \quarterNote\ in \B1: \sharp f′8.–e′16 \\
+  356  & S     & 1st \halfNote\ in \B1: g′4.–\sharp f′8 \\
+  359  & B     & 12th \sixteenthNote\ in \B1: \flat b16 \\
+  372  & trb 1, vl 2, A & 2nd \quarterNote\ in \B1: e′4 \\
