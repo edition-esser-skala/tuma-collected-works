@@ -1,0 +1,22 @@
+title: Confitebor
+subtitle: fragment
+id: TumW D.2.3
+genre: psalm
+scoring: S, A, T, B (solo), S, A, T, B (coro), cnto, fag, 2 trb, 2 vl, b, org
+ark: 68748/e1fitd23
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15678
+    rism: 600137241
+    date: 1742
+    url: https://data.onb.ac.at/rec/AC14297570
+    license: public domain
+    principal: true
+toe: |
+  –   & – & The single extant source \B1 only comprises five parts
+            (S, A, T, B, and vl 1). \\
+  103 & A & 1st \quarterNote\ in \B1: e′4 \\*
+  130 & B & 6th \eighthNote\ in \B1: F8 \\
+enlargefirstpage: true
