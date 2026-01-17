@@ -129,3 +129,93 @@ D-I-IBeatusFagotto = {
     b1.\fermata \bar "|." %102 finis
   }
 }
+
+D-I-IPueriFagotto = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \tempoD-I-IPueri
+    R1*9 %9
+    r2 r4 c'\fE %10
+    h c8 as g2
+    r4 a8 h c f, g g,
+    c4 r r2
+    R1*3 %16
+    c4\fE b!8 es as as, c4
+    des es as,8 as as4
+    es' e f f,
+    r2 b8 b c4 %20
+    f, r r2
+    R1*6 %27
+    r2 r4 b'8\fE b
+    b b, b'16 as g f g8 es g as
+    es8. f16 g8 as as4 g8 es %30
+    d4. d8 es4 c
+    g4. as8 b4 c8 g
+    as4 b es, r
+    r2 es'8 g b b,
+    es4 r r2\fermata \bar "|." %35 finis
+  }
+}
+
+D-I-IDominumFagotto = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \tempoD-I-IDominum
+    R1*6 %6
+    d2\fE d4 r
+    r d c2
+    b1
+    a4 r r2
+    R1
+    r2 r4 g'
+    fis f e fis
+    g g, d' d
+    c2 b %15
+    es4 c d2
+    g,4 r g'2
+    f! es8 d c4
+    c2 d
+    es d %20
+    g4. g8 fis g f es
+    d es d c b a16 g a4
+    g8 g' fis4 g8 e d16 \hA e f8
+    e d cis4 d8 d4 cis8
+    d4. es16 f g4. e16 fis %25
+    g4 fis g r
+    r2 d4. c!8
+    c b16 a b8 b a4. d8
+    g,2 a4 d
+    es! c8 d g, g'4 f8 %30
+    es d16 c h8 g c2
+    g1\fermata \bar "|." %32 finis
+  }
+}
+
+D-I-IMagnificatFagotto = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoD-I-IMagnificat
+    r4 c\fE g' g,
+    c r a2
+    fis4 g d'2~
+    d g,\fermata
+    \tempoD-I-IMagnificatB r8 c' h g c4 h8 a16 g %5
+    c4 h8 g c4 g8 c
+    g4 g, c r
+    R1*3 %10
+    r4 e\fE f e8 f
+    g4 g, c r
+    R1*6 %18
+    r2 r8 c\fE e g
+    c2 r8 a a4 %20
+    g2 r4 r8 g
+    g e c8. a16 a'8 f d8. h16
+    h'8 g e4 f e8 f
+    g4 g, c r
+    R1*20 %44
+    r2 r4 g'8\fE g %45
+    g g, g' e16 f g8 c, g' g,
+    c4 r r2
+    c8 e16 f g8 g, c4 r\fermata \bar "|." %48 finis
+  }
+}

@@ -157,3 +157,97 @@ D-I-IBeatusTromboneII = {
     d1.\fermata \bar "|." %102 finis
   }
 }
+
+D-I-IPueriTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key es \major \time 4/4 \tempoD-I-IPueri
+    R1*9 %9
+    r2 r4 es8\fE es %10
+    d d es c d16 d d8 r4
+    r c8 d16 d c8 c16 c c8 h
+    c4 r r2
+    R1*3 %16
+    r4 des8\fE es es es,16 es es'4
+    f8 f es8. es16 es8 es es es16 es
+    es8 es c c c8. c16 c4
+    r2 b8 b16 b g4 %20
+    f r r2
+    R1*7 %28
+    r2 r4 es'8\fE es
+    es es,16 es es'8 d16 c d8 b es es %30
+    f2. es4
+    b4. c8 b8. as16 g8 b
+    c4 b b r
+    r2 es8 es es d
+    es4 r r2\fermata \bar "|." %35 finis
+  }
+}
+
+D-I-IDominumTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key g \minor \time 4/4 \tempoD-I-IDominum
+    \mvTr d4.\pE-\solo c8 d4 c
+    d8 b16 a b c d c b4 r
+    r8 es16( d) es( d) es( d) c4 r
+    r8 d16( c) d( c) d( c) b4 r8 es
+    d2 b8 b16( a) b d c b %5
+    a8 b16 c a4\trill g r
+    \mvTr d'4.\fE-\tutti d8 d4 d8 d
+    \once \tieDashed d1~
+    d4 d8 d d4. d8
+    cis4 r r2 %10
+    R1
+    r4 d h b
+    a h8 h c2
+    b a4 d
+    d d8 d d4 d8 d %15
+    b b es es d2
+    d4 r d d8 d
+    d4 d8 d es f es4
+    es es es d8 d
+    \once \stemUp b4 a8 g a2 %20
+    R1*2
+    d4. c8 h c b a
+    g b a g f e16 d \hA e4
+    d a'8 g16 a b8 c b g16 a %25
+    b8 d d4. es8 d c
+    b g f! e d4 r
+    r8 d'4 d8 d c16 c c8 a
+    b4 b b8 a a4
+    g es'8 d d d4 d8 %30
+    es es d4. c16 h c4~
+    c h8 a \hA h2\fermata \bar "|." %32 finis
+  }
+}
+
+D-I-IMagnificatTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoD-I-IMagnificat
+    r4 e\fE d4. d8
+    e4 e2 e8 e
+    d4 d d2~
+    d4. d8 d2\fermata
+    \tempoD-I-IMagnificatB r8 c d d d c d d16 d %5
+    e8 c16 c d8 d d c h c
+    c h16 a h4 c r
+    R1*3 %10
+    r4 e8\fE e c d e d
+    d2 e4 r
+    R1*6 %18
+    r2 r8 e\fE e d
+    e8. e16 e4 r8 c c c %20
+    d4 d r r8 h
+    h g16 g e8 e16 c' c8 a16 a f8 f16 d'
+    d8 h16 h g8 c c c c c
+    c4 h c r
+    R1*19 %43
+    r2 r4 c8\fE c
+    c c,16 c c' d h c d8 g, g g %45
+    g g16 g g8. a16 h8 c c h
+    c4 r r2
+    e8 e d4 e r\fermata \bar "|." %48 finis
+  }
+}

@@ -7,11 +7,61 @@
 
 \book {
   \bookpart {
-    \section "D-I-IDixit" ""
+    \section "1" "Dixit Dominus"
     \addTocEntry
     \score {
       <<
         \new Staff { \D-I-IDixitTromboneI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Confitebor"
+    \addTocEntry
+    \paper { system-count = #5 }
+    \score {
+      <<
+        \new Staff { \D-I-IConfiteborTromboneI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Beatus vir"
+    \addTocEntry
+    \paper { system-count = #14 }
+    \score {
+      <<
+        \new Staff { \D-I-IBeatusTromboneI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Laudate pueri"
+    \addTocEntry
+    \paper { system-count = #5 }
+    \score {
+      <<
+        \new Staff { \D-I-IPueriTromboneI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Laudate Dominum"
+    \addTocEntry
+    \paper { system-count = #7 }
+    \score {
+      <<
+        \new Staff { \D-I-IDominumTromboneI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Magnificat"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \D-I-IMagnificatTromboneI }
       >>
     }
   }

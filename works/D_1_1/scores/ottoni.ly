@@ -10,7 +10,7 @@
 
 \book {
   \bookpart {
-    \section "D-I-IDixit" ""
+    \section "1" "Dixit Dominus"
     \addTocEntry
     \score {
       <<
@@ -31,6 +31,27 @@
           \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
           \D-I-IDixitTimpani
         }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Magnificat"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \D-I-IMagnificatClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \D-I-IMagnificatClarinoII
+            }
+          >>
+        >>
+        \new Staff { \D-I-IMagnificatTimpani }
       >>
     }
   }

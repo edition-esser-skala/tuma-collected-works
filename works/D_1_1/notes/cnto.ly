@@ -132,3 +132,89 @@ D-I-IBeatusCornetto = {
     b1.\fermata \bar "|." %102 finis
   }
 }
+
+D-I-IPueriCornetto = {
+  \relative c' {
+    \clef soprano
+    \key es \major \time 4/4 \tempoD-I-IPueri
+    R1*9 %9
+    r4 r8 g''\fE g2 %10
+    g4 r r8 g, d' es
+    f4 f es8 d16 d d4
+    c r r2
+    R1*3 %16
+    es8.\fE es16 des8 des c c r c
+    b b b8. b16 c8 c c c16 c
+    b8 b b b b8. as16 as4
+    as8 b c b16 c des8 des16 des c4 %20
+    c r r2
+    R1*9 %30
+    r2 r4 es8\fE es
+    es es,16 es es'8 d16 c d8 b es es
+    es4 d es r
+    r2 b8 b b4
+    b r r2\fermata \bar "|." %35 finis
+  }
+}
+
+D-I-IDominumCornetto = {
+  \relative c' {
+    \clef soprano
+    \key g \minor \time 4/4 \tempoD-I-IDominum
+    R1*6 %6
+    a'4.\fE a8 a4 a8 a
+    \once \tieDashed a1~
+    a4 a8 a a4 g
+    a r r d %10
+    cis c h b8 b
+    a2 g4 b
+    c d g, a8 a
+    a4 g fis a
+    a a8 a b4 b8 b %15
+    b b a a a2
+    g4 r h h8 h
+    h4 h8 h c c c4
+    c c a d8 d
+    d4 c d2 %20
+    R1*5 %25
+    d4. c8 h c b a
+    g b a g f e16 d \hA e4
+    d r r2
+    r8 d'4 d8 d c16 c c8 c
+    b a16 g a4 g8 g16 a h c a \hA h %30
+    c d h c d  es c d es2
+    d1\fermata \bar "|." %32 finis
+  }
+}
+
+D-I-IMagnificatCornetto = {
+  \relative c' {
+    \clef soprano
+    \key c \major \time 4/4 \tempoD-I-IMagnificat
+    r4 c'\fE h4. h8
+    c4 c2 c8 c
+    c4 h a h
+    a4. a8 g2\fermata
+    \tempoD-I-IMagnificatB r8 e' d h e e d c16 h %5
+    e8 e16 e d8 h e e d e
+    d2 e4 r
+    R1*3 %10
+    r4 c8\fE c c c c c
+    c4 h c r
+    R1*6 %18
+    r2 r8 c\fE c h
+    c8. c16 c4 r8 c c c %20
+    h4 h r8 d d h16 h
+    g8 g16 e' e8 c16 c a8 a16 f' f8 d16 d
+    h8 h e e c d e d
+    d d d4 e r
+    R1*17 %41
+    r2 r4 c8\fE c
+    c c,16 c c' d h c d8 g, h d16 c
+    h8 d e4 d8 e e c16 d
+    e8 e e d16 c h4. c8 %45
+    c h16 a h8 c g g g4
+    g r r2
+    c8 c c h c4 r\fermata \bar "|." %48 finis
+  }
+}

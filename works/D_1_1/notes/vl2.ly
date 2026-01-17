@@ -150,3 +150,121 @@ D-I-IBeatusViolinoII = {
     b1.\fermata \bar "|." %102 finis
   }
 }
+
+D-I-IPueriViolinoII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoD-I-IPueri
+    r8 g'\pE as16( g) g8-! r b c16( b) b8-!
+    r2 r8 g' as16( g) g( f)
+    es4 r r2
+    r8 d es16( d) d( c) d4 r
+    r2 r8 b c16( b) b8-! %5
+    R1
+    r8 d es16( d) d( c) b4 r
+    r8 b' \slurDashed c16( b) b8-\parenthesize-! r2
+    r8 b,, c16( b) b( a?) \slurSolid g4 r
+    r r8 g''\fE g2 %10
+    g4. c,8 h2
+    r4 f8 g g as g4
+    g8 es' f16( es) es( d) c4 r
+    R1*2 %15
+    r2 r8 es, f16( es) es( d)
+    c8 as'4 g8 as2~
+    as8 as as g as as as as16 as
+    as8 g g g g8. f16 f4
+    f8 g as g16 as f4. e8 %20
+    f c' des16( c) c8-\parenthesize-! r b b16( as) as( g)
+    as4 r r2
+    R1
+    r2 r8 g'\p as16( g) g8-\parenthesize-!
+    r f g16( f) f( es) es4 r %25
+    r2 r8 d es16( d) d8-!
+    r c d16( c) c( b) b8 b, b4
+    R1*2
+    r2 r4 b'8\f b %30
+    b b,16 b b' as g f g8 es g g
+    g4. f8 f4 es
+    f2 g8 g'\p as16( g) g8-!
+    r f g16( f) f( es) es8\f b b4
+    g r r2\fermata \bar "|." %35 finis
+  }
+}
+
+D-I-IDominumViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoD-I-IDominum
+    R1*6 %6
+    a'4.\fE a8 a4 a8 a
+    a1~
+    a2. g4
+    a a fis f %10
+    e4. fis8 g d g4~
+    g fis g d
+    d d e d
+    d2 d4 fis
+    fis fis8 fis g2~ %15
+    g2. fis4
+    g r g g8 g
+    g4 g8 g g f g4
+    g g fis fis8 fis
+    g2 fis %20
+    R1*3
+    r2 r8 g4 g8
+    fis g f es d es d c %25
+    b a16 g a4 g8 g' fis4
+    g d8 e f4 g8 a
+    fis g r4 r8 a4 a8
+    a g16 g g8 g e e fis4
+    g8 g4 fis8 g g16 a h c a \hA h %30
+    c d h c d es c d es2
+    d1\fermata \bar "|." %32 finis
+  }
+}
+
+D-I-IMagnificatViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoD-I-IMagnificat
+    r4 c'\fE h4. h8
+    c4 c2 c4~
+    c h a h
+    a2 g\fermata
+    r8 g g g g16 a g a g a g a %5
+    g a g a g a g a g a g a g a g a
+    g2 g4 r
+    R1*3 %10
+    r4 c8\fE c c c c c
+    c4 h c r8 a
+    d4 g, r2
+    r r8 h e,4
+    r8 a d,4 r2 %15
+    R1*4
+    r8 c16\f c e e g g c4 r %20
+    r8 g,16 g h h d d g8 d' d h16 h
+    g8 g16 e' e8 c16 c a8 a16 f' f8 d16 d
+    h8 h e e c d e d
+    d2 e4 r8 a,
+    d4 g, g\p e'~ %25
+    e8. a16 gis(-. f!-. e-. d-.) c h a e a,8 h
+    c h a4 gis r8 a'
+    h4 e,8 a cis2
+    a4 r g2~
+    g16 c(-.\f d-. e-.) f(-. g-. a-. h-.) c8 c, e,([-.\p e-.)] %30
+    c(-. c-. c-. c-.) h4 r
+    R1*2
+    r8 h' c4 a d,
+    R1
+    r8 c' d4 h e,
+    R1
+    r8 h' c4 fis, g
+    R1*4
+    r2 r4 g8\fE g
+    g g,16 g g' a e f g8 c, g' e16 f
+    g2 f8 f4 e8
+    d4. e8 d e d4
+    g8 c,-!\p d4 h c
+    e\f d c r\fermata \bar "|."
+  }
+}

@@ -30,3 +30,27 @@ D-I-IDixitClarinoII = {
     g r r2\fermata \bar "|." %45 finis
   }
 }
+
+D-I-IMagnificatClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoD-I-IMagnificat
+    R1*4 \tempoD-I-IMagnificatB
+    r8 c'\fE d d c4 g8 d' %5
+    c4 g8 g g4 g8 g
+    g2 e4 r
+    R1*3 %10
+    r4 c'\fE c c8 c
+    g2 e4 r
+    R1*7 %19
+    r8 c16\fE c e e g g c4 r %20
+    r8 g16 g g g g g g4 r
+    R1
+    r2 r4 e'8 d
+    d2 e4 r
+    R1*21 %45
+    r2 d8\fE c g g16 g
+    g4 r r2
+    e'8 e d4 e r\fermata \bar "|." %48 finis
+  }
+}

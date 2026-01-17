@@ -333,3 +333,203 @@ D-I-IBeatusSopranoLyrics = \lyricmode {
   a -- men, a --
   men. %102 finis
 }
+
+D-I-IPueriSoprano = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \autoBeamOff \tempoD-I-IPueri
+    R1*3
+    r2 r8 \mvTr d'\pE^\solo d d
+    d c16 c c8 c c b r4 %5
+    r8 b c4 a8 b16 c \hA a8. a16
+    b4 r r2
+    R1*2
+    r4 r8 \mvTr g'\fE^\tutti g2 %10
+    g4 r r8 g, d' es
+    f4 f es8 d16 d d4
+    c r \mvTr es\pE^\solo r
+    r d8 d es d c8. c16
+    h4 r r8 c es c %15
+    c c c([ h)] c4 r
+    \mvTr es8.\fE^\tutti es16 des8 des c c r c
+    b b b8. b16 c8 c c c16 c
+    b8 b b b b8. as16 as4
+    as8 b c b16 c des8 des16 des c4 %20
+    c r r r8 \mvTr c\pE^\solo
+    c f es! des c as r4
+    b8 b es des c2
+    d8 es es([ d)] es4 r
+    r2 r4 b8 es %25
+    es d16 d es4 d r
+    r2 r4 r8 d
+    es d es4 d r
+    R1*2 %30
+    r2 r4 \mvTr es8\fE^\tutti es
+    es es,16 es es'8 d16([ c)] d8 b es es
+    es4( d) es r
+    r2 b8 b b4
+    b r r2\fermata \bar "|." %35 finis
+  }
+}
+
+D-I-IPueriSopranoLyrics = \lyricmode {
+  Sit no -- men %4
+  Do -- mi -- ni be -- ne -- di -- ctum, %5
+  nunc et us -- que in sae -- cu --
+  lum.
+
+  Ex -- cel -- %10
+  sus et su -- per
+  coe -- los glo -- ri -- a e --
+  ius. Quis?
+  qui in al -- tis ha -- bi --
+  tat, in coe -- lo %15
+  et in ter -- ra?
+  Su -- sci -- tans a ter -- ra, a
+  ter -- ra in -- o -- pem, ut col -- lo -- cet
+  e -- um cum prin -- ci -- pi -- bus,
+  cum prin -- ci -- pi -- bus po -- pu -- li su -- %20
+  i. Qui
+  ha -- bi -- ta -- re fa -- cit
+  ma -- trem fi -- li -- o --
+  rum lae -- tan -- tem.
+  et Spi -- %25
+  ri -- tu -- i San -- cto,
+  et
+  nunc et sem -- per
+
+  et in %31
+  sae -- cu -- la sae -- cu -- lo -- rum, a -- men,
+  a -- men,
+  a -- men, a --
+  men. %35 finis
+}
+
+D-I-IDominumSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoD-I-IDominum
+    R1*6 %6
+    \mvTr a'4.\fE^\tutti a8 a4 a8 a
+    \once \tieDashed a1~
+    a4 a8 a a4 g
+    a r r d %10
+    cis c h b8 b
+    a2 g4 b
+    c d g, a8 a
+    a4( g) fis a
+    a a8 a b4 b8 b %15
+    b b a a a2
+    g4 r h h8 h
+    h4 h8 h c c c4
+    c c a d8 d
+    d4( c) d2 %20
+    R1*5 %25
+    d4. c8 h c b a
+    g b a g f e16([ d)] \hA e4
+    d r r2
+    r8 d'4 d8 d c16 c c8 c
+    b a16([ g)] a4 g8 g16[ a] h[ c a \hA h] %30
+    c[ d h c] d [ es c d] es2
+    d1\fermata \bar "|." %32 finis
+  }
+}
+
+D-I-IDominumSopranoLyrics = \lyricmode {
+  Quo -- ni -- am con -- fir -- %7
+  ma --
+  ta est su -- per
+  nos mi -- %10
+  se -- ri -- cor -- di -- a
+  e -- ius, mi --
+  se -- ri -- cor -- di -- a
+  e -- ius, et
+  ve -- ri -- tas Do -- mi -- ni %15
+  ma -- net in ae -- ter --
+  num. Glo -- ri -- a
+  Pa -- tri et Fi -- li -- o
+  et Spi -- ri -- tu -- i
+  San -- cto, %20
+
+  si -- cut e -- rat in prin -- %26
+  ci -- pi -- o et nunc et sem --
+  per
+  et in sae -- cu -- la sae -- cu --
+  lo -- rum, a -- men, a -- _ %30
+  _ _ _
+  men. %32 finis
+}
+
+D-I-IMagnificatSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoD-I-IMagnificat
+    r4 \mvTr c'\fE^\tutti h4. h8
+    c4 c2 c8 c
+    c4 h a( h
+    a4.) a8 g2\fermata
+    \tempoD-I-IMagnificatB r8 e' d h e e d c16 h %5
+    e8 e16 e d8 h e e d e
+    d2 e4 r8 \mvTr e\pE^\solo
+    d c16([ h)] c4 h8 e, fis gis
+    a h16 c d8 c c h h e
+    cis cis16 cis d8 e f([ e)] d c %10
+    h16([ a)] g8 \mvTr c\fE^\tutti c c c c c
+    c4( h) c r
+    R1*6 %18
+    r2 r8 \mvTr c\fE^\tutti c h
+    c8. c16 c4 r8 c c c16 c %20
+    h4 h r8 d d h16 h
+    g8 g16 e' e8 c16 c a8 a16 f' f8 d16 d
+    h8 h e e c d e d
+    d d d4 e r
+    R1*8 %32
+    r8 \mvTr c\pE^\solo h fis g a16 h c8 h16 a
+    h([ a)] g8 r4 d'8 d d4
+    d8 h e d c h16 a h4 %35
+    a r r2
+    R1*5 %41
+    r2 r4 \mvTr c8\fE^\tutti c
+    c c,16 c c'([ d)] h([ c)] d8 g, h d16([ c)]
+    h8 d e4 d8 e e c16 d
+    e8 e e d16([ c)] h4. c8 %45
+    c([ h16 a] h8) c g g g4
+    g r r2
+    c8 c c([ h)] c4 r\fermata \bar "|." %48 finis
+  }
+}
+
+D-I-IMagnificatSopranoLyrics = \lyricmode {
+  Ma -- gni -- fi --
+  cat a -- ni -- ma
+  me -- a Do --
+  mi -- num,
+  et ex -- ul -- ta -- vit spi -- ri -- tus %5
+  me -- us in De -- o sa -- lu -- ta -- ri
+  me -- o. Qui --
+  a re -- spe -- xit hu -- mi -- li --
+  ta -- tem an -- cil -- lae su -- ae. Ec -- ce
+  e -- nim ex hoc be -- a -- tam me %10
+  di -- cent o -- mnes ge -- ne -- ra -- ti --
+  o -- nes.
+
+  Fe -- cit po -- %19
+  ten -- ti -- am in bra -- chi -- o %20
+  su -- o, dis -- per -- sit su --
+  per -- bos, dis -- per -- sit su -- per -- bos, dis -- per -- sit su --
+  per -- bos men -- te cor -- dis, men -- te
+  cor -- dis su -- i.
+
+  Su -- sce -- pit Is -- ra -- el pu -- e -- rum %33
+  su -- um, re -- cor -- da --
+  tus mi -- se -- ri -- cor -- di -- ae su -- %35
+  ae.
+
+  et in %42
+  sae -- cu -- la sae -- cu -- lo -- rum, a -- men,
+  a -- men, a -- men, in sae -- cu -- la
+  sae -- cu -- lo -- rum, a -- men, %45
+  a -- men, a -- men, a --
+  men,
+  a -- men, a -- men. %48 finis
+}

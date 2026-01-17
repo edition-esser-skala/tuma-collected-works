@@ -337,3 +337,219 @@ D-I-IBeatusAltoLyrics = \lyricmode {
   a -- men, a --
   men. %102 finis
 }
+
+D-I-IPueriAlto = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \autoBeamOff \tempoD-I-IPueri
+    R1*3
+    r2 r8 \mvTr f\pE^\solo f f
+    f es16 es es8 es es d r f %5
+    g4 g8 es es d16 es c8. c16
+    d4 r r2
+    R1*2
+    r2 r4 \mvTr g8\fE^\tutti g %10
+    g g g f g16 g g8 r4
+    r f8 g16 g g8 as!16 as g4
+    g r r \mvTr g\pE^\solo
+    g8 g g g16 g g8 g g([ f)]
+    g4 r r8 g g g %15
+    as as g4 g r
+    \mvTr g8\fE^\tutti as as g as as r as
+    as as as g as as as as16 as
+    as8 g g g g8. f16 f4
+    f8 g as g16 as f8 f16 f f8([ e)] %20
+    f4 r r2
+    r \mvTr es8.\pE^\solo es16 as8 as
+    as g r4 es8 es as g
+    f g16 g f4 g r
+    r2 r4 g8 g %25
+    f f16 f g4 f r
+    r2 r4 r8 f
+    g f g4 f r
+    R1
+    r2 r4 \mvTr b8\fE^\tutti b %30
+    b b,16 b b'([ as)] g([ f)] g8 es g g
+    g4. f8 f4 es
+    f2 g4 r
+    r2 g8 g f4
+    g r r2\fermata \bar "|." %35 finis
+  }
+}
+
+D-I-IPueriAltoLyrics = \lyricmode {
+  Sit no -- men %4
+  Do -- mi -- ni be -- ne -- di -- ctum, ex %5
+  hoc nunc et us -- que in sae -- cu --
+  lum.
+
+  su -- per %10
+  o -- mnes gen -- tes Do -- mi -- nus,
+  glo -- ri -- a, glo -- ri -- a e --
+  ius. Quis
+  si -- cut Do -- mi -- nus De -- us no --
+  ster, in coe -- lo %15
+  et in ter -- ra?
+  Su -- sci -- tans a ter -- ra, a
+  ter -- ra in -- o -- pem, ut col -- lo -- cet
+  e -- um cum prin -- ci -- pi -- bus,
+  cum prin -- ci -- pi -- bus po -- pu -- li su -- %20
+  i.
+  ste -- ri -- lem in
+  do -- mo, ma -- trem fi -- li --
+  o -- rum lae -- tan -- tem.
+  et Spi -- %25
+  ri -- tu -- i San -- cto,
+  et
+  nunc et sem -- per
+
+  et in %30
+  sae -- cu -- la sae -- cu -- lo -- rum, a -- men,
+  a -- men, a -- men,
+  a -- men,
+  a -- men, a --
+  men. %35 finis
+}
+
+D-I-IDominumAlto = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoD-I-IDominum
+    R1*6 %6
+    \mvTr f4.\fE^\tutti f8 f4 f8 f
+    \once \tieDashed f1~
+    f4 f8 f d4. d8
+    e4 a fis f %10
+    e4. fis8 g([ d)] g4~
+    g fis g d
+    d d e d8 d
+    d2 d4 fis
+    fis fis8 fis g4 g8 g %15
+    g g g g g4( fis)
+    g r g g8 g
+    g4 g8 g g f! g4
+    g g fis fis8 fis
+    g2 fis %20
+    R1*3
+    r2 r8 g4 g8
+    fis g f es d es d c %25
+    b a16([ g)] a4 g8 g' fis4
+    g d8([ e)] f4 g8([ a)]
+    fis g r4 r8 a4 a8
+    a g16 g g8 g e e fis4
+    g8 g4( fis8) g g4 g8 %30
+    g4 g g2
+    g1\fermata \bar "|." %32 finis
+  }
+}
+
+D-I-IDominumAltoLyrics = \lyricmode {
+  Quo -- ni -- am con -- fir -- %7
+  ma --
+  ta est su -- per
+  nos mi -- se -- ri -- %10
+  cor -- di -- a __ e --
+  _ ius, mi --
+  se -- ri -- cor -- di -- a
+  e -- ius, et
+  ve -- ri -- tas Do -- mi -- ni %15
+  ma -- net in ae -- ter --
+  num. Glo -- ri -- a
+  Pa -- tri et Fi -- li -- o
+  et Spi -- ri -- tu -- i
+  San -- cto, %20
+
+  si -- cut %24
+  e -- rat in prin -- ci -- pi -- o et %25
+  nunc et sem -- per, et sem --
+  per, et nunc et
+  sem -- per et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men, a -- men, a -- men, %30
+  a -- men, a --
+  men. %32 finis
+}
+
+D-I-IMagnificatAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoD-I-IMagnificat
+    r4 \mvTr g'\fE^\tutti g4. g8
+    g4 r a a8 a
+    a4 g fis8[ d] g4~
+    g fis g2\fermata
+    \tempoD-I-IMagnificatB r8 g g g g16[ a g a] g[ a g a] %5
+    g[ a g a] g[ a g a] g[ a g a] g[ a] g([ a)]
+    g8 g16 g g4 g r
+    R1*3 %10
+    r4 \mvTr g8\fE^\tutti g a a g a
+    g2 g4 r
+    r \mvTr g8\pE^\solo g e d16([ c)] a'8 g
+    fis g16 e \hA fis8. fis16 g4 r
+    r8 d d d e16([ fis)] g8 g([ \hA fis)] %15
+    g4 r r2
+    R1*2
+    r2 r8 \mvTr g\fE^\tutti g g
+    g8. g16 g4 r8 g g fis16 fis %20
+    g4 g r r8 d
+    d e16 g g8 e16 e c8 f16 f a8 a16 g
+    g8 g16 g g8 g a a g a
+    g2 g4 r
+    R1*7 %31
+    r8 \mvTr fis\pE^\solo h a a g r e
+    e e16 e e8([ dis]) e4 r
+    R1*2 %35
+    r2 e4 e8 e
+    f8. f16 e8 e d c16([ h)] c4
+    h r d8. d16 d8 d
+    e4 fis8 fis g a16 e fis8. fis16
+    g4 r r2 %40
+    R1*2
+    r2 r4 \mvTr g8\fE^\tutti g
+    g g,16 g g'([ a)] e([ f)] g8 c, g' e16([ f)]
+    g2 f8 f4 e8 %45
+    d4. e8 d e d4
+    e r r2
+    g8 g g4 g r\fermata \bar "|." %48 finis
+  }
+}
+
+D-I-IMagnificatAltoLyrics = \lyricmode {
+  Ma -- gni -- fi --
+  cat a -- ni -- ma
+  me -- a Do -- _
+  mi -- num,
+  et ex -- ul -- ta -- _ %5
+  _ _ _ _ vit
+  spi -- ri -- tus me -- us
+
+  o -- mnes ge -- ne -- ra -- ti -- %11
+  o -- nes.
+  Qui -- a fe -- cit mi -- hi
+  ma -- gna, qui po -- tens est,
+  et san -- ctum no -- men e -- %15
+  ius.
+
+  Fe -- cit po -- %19
+  ten -- ti -- am in bra -- chi -- o %20
+  su -- o, dis --
+  per -- sit su -- per -- bos, dis -- per -- sit su -- per -- bos, dis --
+  per -- sit su -- per -- bos men -- te cor -- dis
+  su -- i.
+
+  im -- ple -- vit bo -- nis di -- %32
+  mi -- sit in -- a -- nes.
+
+  Si -- cut lo -- %36
+  cu -- tus est ad pa -- tres no --
+  stros, A -- bra -- ham et
+  se -- mi -- ni e -- ius in sae -- cu --
+  la. %40
+
+  et in %43
+  sae -- cu -- la sae -- cu -- lo -- rum, a -- men,
+  a -- men, a -- men, %45
+  a -- men, a -- men, a --
+  men,
+  a -- men, a -- men. %48 finis
+}
