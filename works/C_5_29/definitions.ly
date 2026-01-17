@@ -6,7 +6,7 @@ markTuncDaCapo = {
 }
 
 tempoC-V-XXIXa = \tempoMarkup "Adagio"
-tempoC-V-XXIXb = \tempoMarkup \markup \concat { "Tunc unus · Un poco andante " \smaller \smaller \critnote }
+tempoC-V-XXIXb = \tempoTitleMarkup "Tunc unus" "Un poco andante"
 tempoC-V-XXIXc = \tempoMarkup "Adagio a 3"
 
 \include "notes/vl1.ly"

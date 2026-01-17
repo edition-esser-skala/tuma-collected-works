@@ -708,7 +708,7 @@ D-III-VIIIhOrgano = {
   \relative c {
     \clef bass
     \key d \minor \time 3/4 \tempoD-III-VIIIh
-    \mvTr d8\pE-\soloE ^\tweak TextScript.X-offset #0 ^\org d'-! r d,16-! c-! b8 a
+    \mvTr d8\pE-\soloE ^\mvTz^\org d'-! r d,16-! c-! b8 a
     g b'-! r e,16 d cis8 h
     a cis'-! r e16-! d-! cis8-! b!-!
     a-! d-! b a16 g a8 a,

@@ -4,7 +4,7 @@ C-III-VIIIOrgano = {
   \relative c {
     \clef bass
     \key e \minor \time 4/4 \tempoC-III-VIIIVilescit
-    \mvTr e1\pE-\soloE ^\tweak TextScript.X-offset #0 ^\critnote
+    \mvTr e1\pE-\soloE ^\mvTz^\critnote
     e16\fE e e e e e e e e2\pE
     cis ais~
     ais h16\fE h h h h h h h

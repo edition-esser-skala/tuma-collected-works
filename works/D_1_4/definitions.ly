@@ -3,7 +3,7 @@
 tempoD-I-IVDixit = \tempoMarkup "Moderato"
 tempoD-I-IVConfitebor = \tempoMarkup "Moderato"
 tempoD-I-IVBeatus = \tempoMarkup "Moderato"
-tempoD-I-IVLaudatePueri = \tempoMarkup "[Tempo deest]"
+tempoD-I-IVLaudatePueri = \tempoMarkup "[no tempo]"
 tempoD-I-IVLaudateDominum = \tempoMarkup "A capella"
 tempoD-I-IVMagnificat = \tempoMarkup "Grave"
   tempoD-I-IVMagnificatB = \tempoMarkup "Allegro"

@@ -1,6 +1,6 @@
 \version "2.24.2"
 
-tempoE-II-VIa = \tempoMarkup "[Tempo deest]"
+tempoE-II-VIa = \tempoMarkup "[no tempo]"
 tempoE-II-VIb = \tempoMarkup "Largo"
 
 \include "notes/cnto.ly"

@@ -80,7 +80,7 @@ A-XXVIIGloriaTromboneI = {
     cis e g8 r a,-\parenthesize-! \once \slurDashed g'( f) r16 f d c
     h d f8 r g,-\parenthesize-! \once \slurDashed f'( e) r e %40
     f e16 d gis8 fis16 e a8 f16 d h4\trill
-    a \mvTr e'8\fE-\tutti \tweak TextScript.X-offset #0 ^\critnote e16 f g8 e f d
+    a \mvTr e'8\fE-\tutti ^\mvTz^\critnote e16 f g8 e f d
     e e r4 r2
     R1
     g2~ g8 e16 f g a f g %45

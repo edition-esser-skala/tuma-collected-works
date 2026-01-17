@@ -5,7 +5,7 @@ tempoD-III-IAmplius = \tempoMarkup "Larghetto"
   tempoD-III-IAmpliusB = \tempoMarkup "Adagio"
   tempoD-III-IAmpliusC = \tempoMarkup "Andante"
 tempoD-III-IAuditui = \tempoMarkup "Andante"
-tempoD-III-IDocebo = \tempoMarkup "[Tempo deest]"
+tempoD-III-IDocebo = \tempoMarkup "[no tempo]"
 tempoD-III-ISacrificium = \tempoMarkup "Grave"
   tempoD-III-ISacrificiumB = \tempoMarkup "Andante"
 

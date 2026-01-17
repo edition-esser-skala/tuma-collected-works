@@ -93,7 +93,7 @@ D-IV-IViolinoI = {
     d(-. d-. d-. d-.) c4 r\fermata \bar "||"
     \time 3/4 \tempoD-IV-Ie \newSpacingSection
       \mvTr e'4-!\fE-\unisono
-      ^\tweak TextScript.X-offset #0
+      ^\mvTz
       ^\markup \remark "cantabile" a,-! f' \noBreak %95
     \appoggiatura e d2 c4
     h d8( c) h( a)

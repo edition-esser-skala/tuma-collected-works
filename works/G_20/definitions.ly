@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-tempoG-XXa = \tempoMarkup "[Tempo deest]"
-tempoG-XXb = \tempoMarkup "[Tempo deest]" %75
+tempoG-XXa = \tempoMarkup "[no tempo]"
+tempoG-XXb = \tempoMarkup "[no tempo]" %75
 tempoG-XXc = \tempoMarkup "Tempo giusto" %90
-tempoG-XXd = \tempoMarkup "[Tempo deest]" %160
+tempoG-XXd = \tempoMarkup "[no tempo]" %160
 tempoG-XXe = \tempoMarkup "Allabreve" %240
 tempoG-XXf = \tempoMarkup "Largo" %60
 

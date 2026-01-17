@@ -1,6 +1,6 @@
 \version "2.24.2"
 
-tempoD-II-XI = \tempoMarkup "[Tempo deest]"
+tempoD-II-XI = \tempoMarkup "[no tempo]"
 
 \include "notes/trb1.ly"
 \include "notes/trb2.ly"

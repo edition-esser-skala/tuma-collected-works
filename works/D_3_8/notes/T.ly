@@ -466,8 +466,7 @@ D-III-VIIIgTenore = {
     b!4 g d'2~
     d d4 r
     R1 %10
-    \set Staff.forceClef = ##t
-      r4 \mvDl d\pE^\markup \remark "T 1 solo" es d
+    \fC r4 \mvDl d\pE^\markup \remark "T 1 solo" es d
     r d es d
     r g8 f!16([ es)] f8 b, es4
     d r r2

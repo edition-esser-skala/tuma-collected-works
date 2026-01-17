@@ -2,7 +2,7 @@
 
 tempoA-XXXVKyrie = \tempoMarkup "Adagio"
   tempoA-XXXVKyrieB = \tempoMarkup "Andante"
-tempoA-XXXVGloria = \tempoMarkup "[Tempo deest]"
+tempoA-XXXVGloria = \tempoMarkup "[no tempo]"
   tempoA-XXXVQuiTollis = \tempoMarkup "Adagio"
   tempoA-XXXVQuoniam = \tempoMarkup "Allegro"
   tempoA-XXXVAmen = \tempoMarkup "Allegro assai"

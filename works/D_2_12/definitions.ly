@@ -1,6 +1,6 @@
 \version "2.24.2"
 
-tempoD-II-XIIa = \tempoMarkup "[Tempo deest]"
+tempoD-II-XIIa = \tempoMarkup "[no tempo]"
 tempoD-II-XIIb = \tempoMarkup "Largo"
 tempoD-II-XIIc = \tempoMarkup "Allegro"
 

@@ -1,13 +1,13 @@
 \version "2.24.2"
 
 tempoF-IIIStabatMater = \tempoMarkup "Larghetto"
-tempoF-IIIOQuam = \tempoMarkup "[Tempo deest]"
+tempoF-IIIOQuam = \tempoMarkup "[no tempo]"
 tempoF-IIIQuisEst = \tempoMarkup "Andante"
   tempoF-IIIProPeccatis = \tempoMarkup "Larghetto"
   tempoF-IIIEiaMater = \tempoMarkup "Andante"
-tempoF-IIISancta = \tempoMarkup "[Tempo deest]"
+tempoF-IIISancta = \tempoMarkup "[no tempo]"
 tempoF-IIIFacTecum = \tempoMarkup "Larghetto"
-tempoF-IIIFacPlagis = \tempoMarkup "[Tempo deest]"
+tempoF-IIIFacPlagis = \tempoMarkup "[no tempo]"
   tempoF-IIIMorietur = \tempoMarkup "Adagio"
   tempoF-IIIFacUt = \tempoMarkup "Andante"
 

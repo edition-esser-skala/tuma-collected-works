@@ -4,7 +4,7 @@ tempoC-II-Ia = \tempoMarkup "Larghetto"
 tempoC-II-Ib = \tempoMarkup "Andante"
 tempoC-II-Ic = \tempoMarkup "Allegro"
 tempoC-II-Id = \tempoMarkup "Adagio"
-tempoC-II-Ie = \tempoMarkup "[Tempo deest]"
+tempoC-II-Ie = \tempoMarkup "[no tempo]"
 tempoC-II-If = \tempoMarkup "[Adagio]"
 
 \include "notes/cnto.ly"

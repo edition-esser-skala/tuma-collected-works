@@ -1,8 +1,8 @@
 \version "2.24.2"
 
 tempoC-III-XXIIIa = \tempoMarkup "Recitativo"
-tempoC-III-XXIIIb = \tempoMarkup "Aria · Tempo moderato"
-tempoC-III-XXIIIc = \tempoMarkup "Chorus · Un poco allegro"
+tempoC-III-XXIIIb = \tempoTitleMarkup "Aria" "Tempo moderato"
+tempoC-III-XXIIIc = \tempoTitleMarkup "Chorus" "Un poco allegro"
 tempoC-III-XXIIId = \tempoMarkup "Un poco allegro"
 
 \include "notes/trb1.ly"

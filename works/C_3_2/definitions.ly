@@ -6,10 +6,10 @@ markDaCapoFAS = {
   \mark \markup \remark "Da capo fin’al segno"
 }
 
-tempoC-III-IIa = \tempoMarkup "Recitativo · Adagio"
-tempoC-III-IIb = \tempoMarkup "Aria · Andante"
-tempoC-III-IIc = \tempoMarkup "Recitativo · Adagio"
-tempoC-III-IId = \tempoMarkup "Aria · Andante"
+tempoC-III-IIa = \tempoTitleMarkup "Recitativo" "Adagio"
+tempoC-III-IIb = \tempoTitleMarkup "Aria" "Andante"
+tempoC-III-IIc = \tempoTitleMarkup "Recitativo" "Adagio"
+tempoC-III-IId = \tempoTitleMarkup "Aria" "Andante"
 tempoC-III-IIe = \tempoMarkup "Allegretto"
 
 \include "notes/cnto.ly"

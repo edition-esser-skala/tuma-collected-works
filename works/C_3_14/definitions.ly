@@ -5,8 +5,8 @@ markAriaDaCapo = {
   \mark \markup \concat { \remark "Aria da capo " \smaller \smaller \critnote}
 }
 
-tempoC-III-XIVa = \tempoMarkup "Recitativo · Adagio"
-tempoC-III-XIVb = \tempoMarkup "Aria · Andante"
+tempoC-III-XIVa = \tempoTitleMarkup "Recitativo" "Adagio"
+tempoC-III-XIVb = \tempoTitleMarkup "Aria" "Andante"
 tempoC-III-XIVc = \tempoMarkup "Allegretto"
 
 \include "notes/vl1.ly"

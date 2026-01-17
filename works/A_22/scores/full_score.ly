@@ -14,7 +14,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \A-XXIIKyrieClarinoI \A-XXIIKyrieClarinoII
           >>
           \new Staff <<
@@ -140,7 +140,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \A-XXIIKyrieFugaClarinoI \A-XXIIKyrieFugaClarinoII
           >>
           \new Staff <<
@@ -211,7 +211,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \A-XXIIGloriaClarinoI \A-XXIIGloriaClarinoII
           >>
           \new Staff <<
@@ -282,7 +282,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \A-XXIILaudamusClarinoI \A-XXIILaudamusClarinoII
           >>
           \new Staff <<
@@ -388,7 +388,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \A-XXIIDomineClarinoI \A-XXIIDomineClarinoII
           >>
           \new Staff <<
@@ -604,7 +604,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \A-XXIICumSanctoClarinoI \A-XXIICumSanctoClarinoII
           >>
           \new Staff <<
@@ -675,7 +675,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \A-XXIICredoClarinoI \A-XXIICredoClarinoII
           >>
           \new Staff <<
@@ -815,7 +815,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \A-XXIIEtResurrexitClarinoI \A-XXIIEtResurrexitClarinoII
           >>
           \new Staff <<
@@ -886,7 +886,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \A-XXIISanctusClarinoI \A-XXIISanctusClarinoII
           >>
           \new Staff <<
@@ -994,7 +994,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \A-XXIIOsannaClarinoI \A-XXIIOsannaClarinoII
           >>
           \new Staff <<
@@ -1065,7 +1065,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \A-XXIIAgnusClarinoI \A-XXIIAgnusClarinoII
           >>
           \new Staff \with { \smallStaffDistance } <<

@@ -1,15 +1,15 @@
 \version "2.24.2"
 
 tempoD-III-VIIa = \tempoMarkup "Adagio"
-tempoD-III-VIIb = \tempoMarkup "Amplius · Andante" % 4 = 70
-tempoD-III-VIIc = \tempoMarkup "Tibi soli · Adagio" % 4 = 60
+tempoD-III-VIIb = \tempoTitleMarkup "Amplius" "Andante" % 4 = 70
+tempoD-III-VIIc = \tempoTitleMarkup "Tibi soli" "Adagio" % 4 = 60
 tempoD-III-VIId = \tempoMarkup "Andante" % 4 = 75
-tempoD-III-VIIe = \tempoMarkup "Auditui · Andante" % 4 = 105
-tempoD-III-VIIf = \tempoMarkup "Docebo · [Tempo deest]" % 4 = 80
-tempoD-III-VIIg = \tempoMarkup "Sacrificum · Adagio" % 4 = 55
+tempoD-III-VIIe = \tempoTitleMarkup "Auditui" "Andante" % 4 = 105
+tempoD-III-VIIf = \tempoTitleMarkup "Docebo" "[no tempo]" % 4 = 80
+tempoD-III-VIIg = \tempoTitleMarkup "Sacrificum" "Adagio" % 4 = 55
 tempoD-III-VIIh = \tempoMarkup "Andante" % 4 = 75
-tempoD-III-VIIi = \tempoMarkup "Gloria · [Tempo deest]" % 2 = 80
-tempoD-III-VIIj = \tempoMarkup "Et in sæcula · [Allegro]" % 4 = 120
+tempoD-III-VIIi = \tempoTitleMarkup "Gloria" "[no tempo]" % 2 = 80
+tempoD-III-VIIj = \tempoTitleMarkup "Et in sæcula" "[Allegro]" % 4 = 120
 
 \include "notes/cnto.ly"
 \include "notes/fag.ly"

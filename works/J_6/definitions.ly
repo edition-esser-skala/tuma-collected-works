@@ -12,7 +12,7 @@ sempre = \markup \remark "sempre"
 
 tempoJ-VIIntro = \tempoMarkup "Lento"
 tempoJ-VIFuga = \tempoMarkup "Allegro"
-tempoJ-VIMenuet = \tempoMarkup "[Tempo deest]"
+tempoJ-VIMenuet = \tempoMarkup "[no tempo]"
   tempoJ-VIMenuetB = \tempoMarkup "Trio"
 tempoJ-VICapricio = \tempoMarkup "Allabreve"
 

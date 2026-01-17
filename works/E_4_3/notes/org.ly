@@ -4,7 +4,7 @@ E-IV-IIIOrgano = {
   \relative c {
     \clef bass
     \key es \major \time 3/4 \tempoE-IV-IIIa
-    \mvTr es4\fE-\soloE ^\tweak TextScript.X-offset #0 ^\critnote r8 es es d
+    \mvTr es4\fE-\soloE ^\mvTz^\critnote r8 es es d
     c4 r8 c c b
     as2 b4
     es r d

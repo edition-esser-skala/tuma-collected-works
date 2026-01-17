@@ -1,7 +1,7 @@
 \version "2.24.2"
 
 tempoG-IVKyrie = \tempoMarkup "Larghetto"
-tempoG-IVSancta = \tempoMarkup "[Tempo deest]"
+tempoG-IVSancta = \tempoMarkup "[no tempo]"
 tempoG-IVSpeculum = \tempoMarkup "Affettuoso"
 tempoG-IVSalus = \tempoMarkup "Adagio"
   tempoG-IVRegina = \tempoMarkup "Vivace"

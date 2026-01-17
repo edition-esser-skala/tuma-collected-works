@@ -12,7 +12,7 @@ markAlleluiaDaCapo = {
 }
 
 tempoC-IV-IIa = \tempoMarkup "Andante"
-tempoC-IV-IIb = \tempoMarkup "Alleluia · Allegro"
+tempoC-IV-IIb = \tempoTitleMarkup "Alleluia" "Allegro"
 tempoC-IV-IIc = \tempoMarkup "Adagio"
 
 \include "notes/cnto.ly"

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-tempoC-III-VIIIVilescit = \tempoMarkup "Recitativo · Adagio"
-tempoC-III-VIIIOter = \tempoMarkup "Aria · Allegretto"
-tempoC-III-VIIIInter = \tempoMarkup "Recitativo · Adagio"
-tempoC-III-VIIIOvera = \tempoMarkup "Aria · Allegro ma non presto"
+tempoC-III-VIIIVilescit = \tempoTitleMarkup "Recitativo" "Adagio"
+tempoC-III-VIIIOter = \tempoTitleMarkup "Aria" "Allegretto"
+tempoC-III-VIIIInter = \tempoTitleMarkup "Recitativo" "Adagio"
+tempoC-III-VIIIOvera = \tempoTitleMarkup "Aria" "Allegro ma non presto"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

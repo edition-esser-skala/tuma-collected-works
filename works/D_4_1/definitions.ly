@@ -6,7 +6,7 @@ tempoD-IV-Ic = \tempoMarkup "Adagio" % 60
 tempoD-IV-Id = \tempoMarkup "Allegro" % 80
 tempoD-IV-Ie = \tempoMarkup "Andante" % 90
 tempoD-IV-If = \tempoMarkup "Andante" % 60
-tempoD-IV-Ig = \tempoMarkup "[Tempo deest]" % 135
+tempoD-IV-Ig = \tempoMarkup "[no tempo]" % 135
 
 \include "notes/cnto.ly"
 \include "notes/fag.ly"

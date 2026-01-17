@@ -1,11 +1,11 @@
 \version "2.24.2"
 
 tempoD-I-IDixit = \tempoMarkup "Allegro"
-tempoD-I-IConfitebor = \tempoMarkup "[Tempo deest]"
-tempoD-I-IBeatus = \tempoMarkup "[Tempo deest]"
+tempoD-I-IConfitebor = \tempoMarkup "[no tempo]"
+tempoD-I-IBeatus = \tempoMarkup "[no tempo]"
   tempoD-I-IBeatusB = \tempoMarkup "Andante"
-tempoD-I-IPueri = \tempoMarkup "[Tempo deest]"
-tempoD-I-IDominum = \tempoMarkup "[Tempo deest]"
+tempoD-I-IPueri = \tempoMarkup "[no tempo]"
+tempoD-I-IDominum = \tempoMarkup "[no tempo]"
 tempoD-I-IMagnificat = \tempoMarkup "Adagio"
   tempoD-I-IMagnificatB = \tempoMarkup "Allegro"
 

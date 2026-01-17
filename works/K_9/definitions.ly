@@ -1,8 +1,8 @@
 \version "2.24.2"
 
-tempoK-IXIntrata = \tempoMarkup "[Tempo deest]"
-tempoK-IXBourree = \tempoMarkup "[Tempo deest]"
-tempoK-IXMenuette = \tempoMarkup "[Tempo deest]"
+tempoK-IXIntrata = \tempoMarkup "[no tempo]"
+tempoK-IXBourree = \tempoMarkup "[no tempo]"
+tempoK-IXMenuette = \tempoMarkup "[no tempo]"
 tempoK-IXPastorella = \tempoMarkup "Allegro"
 
 \include "notes/vl1.ly"
