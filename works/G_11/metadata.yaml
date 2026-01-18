@@ -1,0 +1,27 @@
+title: Litaniæ lauretanæ
+id: TumW G.11
+genre: litany
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1fitg11
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-WIL
+    shelfmark: 1097
+    rism: 600077636
+    date: 1745
+    license: public domain
+    principal: true
+  B2:
+    siglum: CZ-K
+    shelfmark: 125
+    rism: 1001016978
+    license: public domain
+toe: |
+  7   & vl 2 & 2nd \halfNote\ in \B1 and \B2: g′2 \\
+  55  & S    & in \B1 and \B2 indeed unison with T \\
+  94  & –    & tempo indication in vl 1, vl 2, and S part
+               of \B1 and \B2: “Adagio” \\
+  102 & vl   & grace note missing in \B1 and \B2 \\
+  103 & vl 2 & 6th \eighthNote\ in \B1 and \B2: e″8 \\
+  104 & vl 2 & 5th \eighthNote\ in \B1 and \B2: g′8 \\
