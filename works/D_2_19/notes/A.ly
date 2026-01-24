@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XXAlto = {
+D-II-XIXAlto = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/4 \autoBeamOff \tempoD-II-XX
+    \key d \minor \time 4/4 \autoBeamOff \tempoD-II-XIX
     r2 \mvTr a4\fE^\tutti a8 a
     d4 e f e8 d
     e e e a f f g4
@@ -38,7 +38,7 @@ D-II-XXAlto = {
   }
 }
 
-D-II-XXAltoLyrics = \lyricmode {
+D-II-XIXAltoLyrics = \lyricmode {
   Si -- cut iu --
   ra -- vit Do -- mi -- no,
   vo -- tum vo -- vit De -- o Ia --

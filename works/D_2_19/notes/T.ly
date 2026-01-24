@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XXTenore = {
+D-II-XIXTenore = {
   \relative c' {
     \clef "treble_8"
-    \key d \minor \time 4/4 \autoBeamOff \tempoD-II-XX
+    \key d \minor \time 4/4 \autoBeamOff \tempoD-II-XIX
     R1
     r2 \mvTr d,4\fE^\tutti d8 d
     a'8. a16 a8 a b4 a8([ g)]
@@ -38,7 +38,7 @@ D-II-XXTenore = {
   }
 }
 
-D-II-XXTenoreLyrics = \lyricmode {
+D-II-XIXTenoreLyrics = \lyricmode {
   Si in -- tro -- %2
   i -- e -- ro in ta -- ber --
   na -- cu -- lum do -- mus me --

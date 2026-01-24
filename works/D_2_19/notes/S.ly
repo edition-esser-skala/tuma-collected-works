@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XXSoprano = {
+D-II-XIXSoprano = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/4 \autoBeamOff \tempoD-II-XX
+    \key d \minor \time 4/4 \autoBeamOff \tempoD-II-XIX
     \mvTr d2\fE^\tutti a'4 a
     b a8 g a4 d,8 d'
     d d cis cis d4 c8 b
@@ -38,7 +38,7 @@ D-II-XXSoprano = {
   }
 }
 
-D-II-XXSopranoLyrics = \lyricmode {
+D-II-XIXSopranoLyrics = \lyricmode {
   Me -- men -- to,
   Do -- mi -- ne, Da -- vid et
   o -- mnis man -- sue -- tu -- di -- nis
