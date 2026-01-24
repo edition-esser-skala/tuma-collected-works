@@ -1,0 +1,24 @@
+title: Partita
+id: TumW K.3
+genre: partita
+scoring: 2 vl, bc
+ark: 68748/e1fitk3
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2968-P-515
+    rism: 1001167089
+    url: http://digital.slub-dresden.de/id1898781001
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  – & –  & b    & All bass figures have been added by the editor. \\
+  3 & 25 & vl 1 & 2nd \quarterNote\ in \B1: d″4 \\
+    & 33 & vl 1 & 2nd \quarterNote\ in \B1: b′4 \\
+    & 61 & vl 2 & 3rd \quarterNote\ in \B1: a″4 \\
+  4 & 9  & vl 2 & 4th \eighthNote\ in \B1: c′′′ \\
+  %1 & 48 & org f?
+  %2 repeat?
+  %4 70–72 vl 2?
