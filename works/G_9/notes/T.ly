@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XVITenore = {
+G-IXTenore = {
   \relative c' {
     \clef "treble_8"
-    \key e \minor \time 3/4 \tempoG-XVIa \autoBeamOff
+    \key e \minor \time 3/4 \tempoG-IXa \autoBeamOff
     R2.*10 %10
     \mvTr h4\fE^\tutti g8([ a)] h4~
     h8 g g([ a)] h4~
@@ -62,7 +62,7 @@ G-XVITenore = {
     h4 r r %70
     R2.*2 \noBreak
     R2.\fermata \bar "||"
-    \time 4/4 \tempoG-XVIb \newSpacingSection
+    \time 4/4 \tempoG-IXb \newSpacingSection
       \mvTr d4\fE^\tutti c8 a h h d4 \noBreak
     c8 h a4 g r %75
     R1
@@ -89,7 +89,7 @@ G-XVITenore = {
     d d d4 d r
     R1 \noBreak
     R\fermata \bar "||"
-    \tempoG-XVIc R1*14 %133
+    \tempoG-IXc R1*14 %133
     r2 \mvTr d4.\pE^\solo e8
     d g16([ e)] \appoggiatura d c8. c16 h4 r %135
     r2 d4 g,8 g'
@@ -107,7 +107,7 @@ G-XVITenore = {
     c( h) c r %155
     r2 r8 e e f \noBreak
     d2 e4 r\fermata \bar "||"
-    \tempoG-XVId R1*4 %161
+    \tempoG-IXd R1*4 %161
     \mvTr a,2.\fE^\tutti a4
     d4. d8 c4 c
     c h8([ a)] h4 h
@@ -118,7 +118,7 @@ G-XVITenore = {
     a,4. h8 h4 h8 h
     c c h4 h r %170
     R1*2
-    r2 r4 \tempoG-XVIe r8 c
+    r2 r4 \tempoG-IXe r8 c
     h8. c16 d8 h c h c4
     h4. h8 a gis a4 %175
     gis r8 c a4 r8 d
@@ -126,7 +126,7 @@ G-XVITenore = {
     a r r2
     r4 a a a \noBreak
     a( gis) a r\fermata \bar "||" %180
-    \twotwotime \time 2/2 \tempoG-XVIf \newSpacingSection
+    \twotwotime \time 2/2 \tempoG-IXf \newSpacingSection
       \mvTr e'1\fE^\tutti \noBreak
     e2( dis)
     e1
@@ -198,7 +198,7 @@ G-XVITenore = {
     e1
     e~ \noBreak
     e\fermata \bar "||"
-    \time 4/4 \tempoG-XVIg \newSpacingSection
+    \time 4/4 \tempoG-IXg \newSpacingSection
       R1*7 %266
     \mvTr a,4.\pE^\solo a8 a4 a8 a
     dis4 cis8 \hA dis e h r4
@@ -211,7 +211,7 @@ G-XVITenore = {
     r2 r4 \mvTr h8\fE^\tutti h %275
     a4 a8 a h4 h8 h
     e4. e8 e4 dis
-    \tempoG-XVIh R1
+    \tempoG-IXh R1
     r2 h4. h8
     c!4 cis d!4.( dis8) %280
     e4 e4. h8 e[( d]
@@ -224,7 +224,7 @@ G-XVITenore = {
   }
 }
 
-G-XVITenoreLyrics = \lyricmode {
+G-IXTenoreLyrics = \lyricmode {
   Ky -- ri -- e __ %11
   e -- lei -- son, __
   e -- lei --

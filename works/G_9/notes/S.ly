@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XVISoprano = {
+G-IXSoprano = {
   \relative c' {
     \clef treble
-    \key e \minor \time 3/4 \tempoG-XVIa \autoBeamOff
+    \key e \minor \time 3/4 \tempoG-IXa \autoBeamOff
     R2.*10 %10
     \mvTr e'4\fE^\tutti c h
     r8 c h([ c)] h4
@@ -59,7 +59,7 @@ G-XVISoprano = {
     e4 r r %70
     R2.*2 \noBreak
     R2.\fermata \bar "||"
-    \time 4/4 \tempoG-XVIb \newSpacingSection
+    \time 4/4 \tempoG-IXb \newSpacingSection
       \mvTr d'4\fE^\tutti e8 d16([ c)] h([ a)] g8 h4 \noBreak
     a8 g g([ fis)] g4 r %75
     R1
@@ -91,7 +91,7 @@ G-XVISoprano = {
     a, h a4 g r
     R1 \noBreak
     R\fermata \bar "||"
-    \tempoG-XVIc r2 r4 \mvTr e'\pE^\solo \noBreak %120
+    \tempoG-IXc r2 r4 \mvTr e'\pE^\solo \noBreak %120
     d8 e16([ f)] h,4\trill c r
     r e d8 e16([ f)] h,4\trill
     c r r8 d h a16([ h)]
@@ -112,7 +112,7 @@ G-XVISoprano = {
     d2 c4 r %155
     r2 r8 c c c \noBreak
     c([ h16 a] h4)\trill c r\fermata \bar "||"
-    \tempoG-XVId R1*4 %161
+    \tempoG-IXd R1*4 %161
     \mvTr c4.\fE^\tutti c8 d4 c
     h4. h8 c a e'4~
     e dis e h
@@ -123,7 +123,7 @@ G-XVISoprano = {
     dis4. dis8 e4 h8 e
     c a fis4 e r %170
     R1*2
-    r2 r4 \tempoG-XVIe r8 e'
+    r2 r4 \tempoG-IXe r8 e'
     d8. c16 h8 d e d e4
     d4. e8 c h c4 %175
     h8 e, e'4~ e8 a, d4~
@@ -131,7 +131,7 @@ G-XVISoprano = {
     a4 r r2
     r4 c h h \noBreak
     h2 a4 r\fermata \bar "||" %180
-    \twotwotime \time 2/2 \tempoG-XVIf \newSpacingSection
+    \twotwotime \time 2/2 \tempoG-IXf \newSpacingSection
       \mvTr h1\fE^\tutti \noBreak
     h
     h
@@ -204,7 +204,7 @@ G-XVISoprano = {
     c1
     h~ \noBreak
     h\fermata \bar "||"
-    \time 4/4 \tempoG-XVIg \newSpacingSection
+    \time 4/4 \tempoG-IXg \newSpacingSection
       \mvTr h4.\pE^\solo d8 cis([ ais)] h r \noBreak %260
     r4 r8 d cis([ ais)] h r
     r4 r8 h h8.[( d32 cis] h8) h
@@ -216,7 +216,7 @@ G-XVISoprano = {
     r2 r4 \mvTr d8\fE^\tutti d %275
     dis4 cis8 \hA dis e h h4
     h a h h
-    \tempoG-XVIh r4 e4.( h8) e([ d!)]
+    \tempoG-IXh r4 e4.( h8) e([ d!)]
     cis([ d16 e] fis8[ e] dis[ cis]) \hA dis4
     e4.( dis16[ e] fis2) %280
     h,4 r r2
@@ -229,7 +229,7 @@ G-XVISoprano = {
   }
 }
 
-G-XVISopranoLyrics = \lyricmode {
+G-IXSopranoLyrics = \lyricmode {
   Ky -- ri -- e %11
   e -- lei -- son,
   e -- lei --

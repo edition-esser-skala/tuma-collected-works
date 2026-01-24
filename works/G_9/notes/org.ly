@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XVIOrgano = {
+G-IXOrgano = {
   \relative c {
     \clef bass
-    \key e \minor \time 3/4 \tempoG-XVIa
+    \key e \minor \time 3/4 \tempoG-IXa
     \mvTr e2\fE-\solo dis4
     e2 dis4
     e dis h
@@ -77,7 +77,7 @@ G-XVIOrgano = {
     a2 a4
     h h' h, \noBreak
     e r r\fermata \bar "||"
-    \time 4/4 \tempoG-XVIb \newSpacingSection
+    \time 4/4 \tempoG-IXb \newSpacingSection
       \mvTr g4\fE-\tutti c,8 d g4 g,8 g' \noBreak
     c, c d4 g, r8 g'-\solo %75
     fis4 r8 f e4 r8 fis
@@ -124,7 +124,7 @@ G-XVIOrgano = {
     d g d4 g, c8-\solo c
     h h c d h4 c8 c \noBreak
     h e c d g,4 r\fermata \bar "||"
-    \tempoG-XVIc \mvTr c8\pE-\solo e h g c4 r8 c \noBreak %120
+    \tempoG-IXc \mvTr c8\pE-\solo e h g c4 r8 c \noBreak %120
     d4 r8 g, c e h g
     c4 r8 c d4 r8 g,
     c c c c h g r g
@@ -162,7 +162,7 @@ G-XVIOrgano = {
     g2 c4 r8 c-\solo %155
     d4 r8 h c c'-\tutti a f \noBreak
     g4 g, c r\fermata \bar "||"
-    \tempoG-XVId \mvTr a2\pE-\solo a \noBreak
+    \tempoG-IXd \mvTr a2\pE-\solo a \noBreak
     a f'
     e d~ %160
     d4 r8 dis e4 e,
@@ -177,7 +177,7 @@ G-XVIOrgano = {
     a,4 h e, r8 \mvTr e'\pE-\solo %170
     fis4 r8 dis e4 r8 gis
     a4 a, a r8 ais
-    h2 e,4 \tempoG-XVIe r8 \mvTr c'\fE-\tutti
+    h2 e,4 \tempoG-IXe r8 \mvTr c'\fE-\tutti
     g' a h g c g c,16 d e f
     g8 a h gis a e a,16 h c d %175
     e4 r8 c f4 r8 h,
@@ -185,7 +185,7 @@ G-XVIOrgano = {
     a, r8 \mvTr a\pE-\solo h4 r8 gis
     a4 \mvTr a'\fE-\tutti dis,2 \noBreak
     e4 e, a r\fermata \bar "||" %180
-    \twotwotime \time 2/2 \tempoG-XVIf \newSpacingSection
+    \twotwotime \time 2/2 \tempoG-IXf \newSpacingSection
       \mvTr e'1\fE-\tutti \noBreak
     h
     e,
@@ -278,7 +278,7 @@ G-XVIOrgano = {
     c4 a c d
     e1~ \noBreak
     e\fermata \bar "||"
-    \time 4/4 \tempoG-XVIg \newSpacingSection
+    \time 4/4 \tempoG-IXg \newSpacingSection
       \mvTr h4\pE-\solo d8 h e4 d \noBreak %260
     cis h e d
     cis h h' eis,
@@ -297,7 +297,7 @@ G-XVIOrgano = {
     g,4 r8 d' g,4 \mvTr g'\fE-\tutti %275
     fis2 e
     c h
-    \tempoG-XVIh e4. fis8 g4 gis
+    \tempoG-IXh e4. fis8 g4 gis
     a4. ais8 h4 h
     h8 e, a g! fis g16 a h8 a %280
     g e g fis e d c h
@@ -310,7 +310,7 @@ G-XVIOrgano = {
   }
 }
 
-G-XVIBassFigures = \figuremode {
+G-IXBassFigures = \figuremode {
   <5>4 <6> q
   <5>8 <6> <5> <6> q4
   <5>8 <6> q4 <7 [_+]>

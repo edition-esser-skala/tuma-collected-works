@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XVIAlto = {
+G-IXAlto = {
   \relative c' {
     \clef treble
-    \key e \minor \time 3/4 \tempoG-XVIa \autoBeamOff
+    \key e \minor \time 3/4 \tempoG-IXa \autoBeamOff
     R2.*10 %10
     \mvTr g'4.\fE^\tutti g8 fis4
     g g fis
@@ -62,7 +62,7 @@ G-XVIAlto = {
     e r r %70
     R2.*2 \noBreak
     R2.\fermata \bar "||"
-    \time 4/4 \tempoG-XVIb \newSpacingSection
+    \time 4/4 \tempoG-IXb \newSpacingSection
       \mvTr g4\fE^\tutti g8 fis g d g4 \noBreak
     e8 e d4 d r %75
     R1
@@ -92,7 +92,7 @@ G-XVIAlto = {
     fis g g([ fis)] g4 r
     R1 \noBreak
     R\fermata \bar "||"
-    \tempoG-XVIc r2 r4 \mvTr g\pE^\solo %120
+    \tempoG-IXc r2 r4 \mvTr g\pE^\solo %120
     f8 f \appoggiatura e d4 e r
     r g f8 f d4\trill
     e r r8 h d c16([ d)]
@@ -113,7 +113,7 @@ G-XVIAlto = {
     g2 g4 r %155
     r2 r8 g a a \noBreak
     g2 g4 r\fermata \bar "||"
-    \tempoG-XVId R1*4 %161
+    \tempoG-IXd R1*4 %161
     \mvTr e4.\fE^\tutti e8 f4 e
     gis4. gis8 a4 a
     a4. a8 gis4 gis
@@ -124,7 +124,7 @@ G-XVIAlto = {
     fis4. fis8 g4 g8 e
     e e e([ dis)] e4 r %170
     R1*2
-    r2 r4 \tempoG-XVIe r8 g
+    r2 r4 \tempoG-IXe r8 g
     g8. g16 g8 g g g g4
     g4. e8 e e e4 %175
     e r8 a a4 r8 fis!
@@ -132,7 +132,7 @@ G-XVIAlto = {
     e r r2
     r4 e fis! fis \noBreak
     e2 e4 r\fermata \bar "||" %180
-    \twotwotime \time 2/2 \tempoG-XVIf \newSpacingSection
+    \twotwotime \time 2/2 \tempoG-IXf \newSpacingSection
       \mvTr g1\fE^\tutti \noBreak
     fis
     g
@@ -210,7 +210,7 @@ G-XVIAlto = {
     \once \tieDashed a1~
     a2 gis4 fis \noBreak
     gis1\fermata \bar "||"
-    \time 4/4 \tempoG-XVIg \newSpacingSection
+    \time 4/4 \tempoG-IXg \newSpacingSection
       \mvTr d4.\pE^\solo fis8 e([ cis)] d r \noBreak %260
     r4 r8 fis e([ cis)] d r
     r4 r8 d d8.([ fis32 e] d8) d
@@ -222,7 +222,7 @@ G-XVIAlto = {
     r2 r4 \mvTr g8\fE^\tutti g %275
     a4 a8 a g4 g8 g
     g4 fis8([ e)] fis4 fis
-    \tempoG-XVIh r2 r4 h~
+    \tempoG-IXh r2 r4 h~
     h8 e, a g fis([ e)] fis4
     R1 %280
     e4. fis8 g4 gis
@@ -235,7 +235,7 @@ G-XVIAlto = {
   }
 }
 
-G-XVIAltoLyrics = \lyricmode {
+G-IXAltoLyrics = \lyricmode {
   Ky -- ri -- e %11
   e -- lei -- son,
   e -- lei --

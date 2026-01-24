@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XVIBasso = {
+G-IXBasso = {
   \relative c {
     \clef bass
-    \key e \minor \time 3/4 \tempoG-XVIa \autoBeamOff
+    \key e \minor \time 3/4 \tempoG-IXa \autoBeamOff
     R2.*10 %10
     \mvTr e4\fE^\tutti e dis
     e e dis
@@ -62,7 +62,7 @@ G-XVIBasso = {
     e4 r r %70
     R2.*2 \noBreak
     R2.\fermata \bar "||"
-    \time 4/4 \tempoG-XVIb \newSpacingSection
+    \time 4/4 \tempoG-IXb \newSpacingSection
       \mvTr g4\fE^\tutti c,8 d g g, g'4 \noBreak
     c,8 c d4 g, r %75
     R1
@@ -81,7 +81,7 @@ G-XVIBasso = {
     d g d4 g, r
     R1 \noBreak
     R\fermata \bar "||"
-    \tempoG-XVIc
+    \tempoG-IXc
       \mvTr c'8.\pE^\solo h32([ a)] g8 f e16. d32 c8 r4 \noBreak %120
     r2 c'8. h32([ a)] g8 f
     e16. d32 c8 r4 r2
@@ -104,7 +104,7 @@ G-XVIBasso = {
     g2 c4 r %155
     r2 r8 c' a f \noBreak
     g2 c,4 r\fermata \bar "||"
-    \tempoG-XVId R1*4 %161
+    \tempoG-IXd R1*4 %161
     \mvTr a2.\fE^\tutti a4
     a4. a8 a4 a
     f'4. f8 e4 e
@@ -115,7 +115,7 @@ G-XVIBasso = {
     e4. e8 e4 e8 e
     a, a h4 e, r %170
     R1*2
-    r2 r4 \tempoG-XVIe r8 c'
+    r2 r4 \tempoG-IXe r8 c'
     g'8. a16 h8 g c g c,16([ d e f)]
     g4 r8 gis a e a,16([ h c d)] %175
     e4 r8 c f4 r8 h,
@@ -123,7 +123,7 @@ G-XVIBasso = {
     a, r r2
     r4 a' dis, dis \noBreak
     e2 a,4 r\fermata \bar "||" %180
-    \twotwotime \time 2/2 \tempoG-XVIf \newSpacingSection
+    \twotwotime \time 2/2 \tempoG-IXf \newSpacingSection
       \mvTr e'1\fE^\tutti \noBreak
     h
     e,
@@ -190,7 +190,7 @@ G-XVIBasso = {
     c4 a c d
     e1 \noBreak
     e\fermata \bar "||"
-    \time 4/4 \tempoG-XVIg \newSpacingSection
+    \time 4/4 \tempoG-IXg \newSpacingSection
       R1*7 %266
     \mvTr fis4.\pE^\solo fis8 fis4 fis8 fis
     fis4 fis8 fis e e r4
@@ -203,7 +203,7 @@ G-XVIBasso = {
     r2 r4 \mvTr g8\fE^\tutti g %275
     fis4 fis8 fis e4 e8 e
     c4. c8 h4 h
-    \tempoG-XVIh e4. fis8 g4 gis
+    \tempoG-IXh e4. fis8 g4 gis
     a4.( ais8) h4 h~
     h8 e, a([ g!] fis[ g16 a] h8[ a] %280
     g) e g fis e([ d c h)]
@@ -216,7 +216,7 @@ G-XVIBasso = {
   }
 }
 
-G-XVIBassoLyrics = \lyricmode {
+G-IXBassoLyrics = \lyricmode {
   Ky -- ri -- e %11
   e -- lei -- son,
   e -- lei -- son,
