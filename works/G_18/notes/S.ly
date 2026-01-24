@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XVIISoprano = {
+G-XVIIISoprano = {
   \relative c' {
     \clef treble
-    \key g \major \time 4/4 \tempoG-XVIIa \autoBeamOff
+    \key g \major \time 4/4 \tempoG-XVIIIa \autoBeamOff
     R1*3
     \mvTr d'4.\fE^\tutti d8 cis4( c)
     h e cis \once \tieDashed d~ %5
@@ -19,7 +19,7 @@ G-XVIISoprano = {
     d4 c2 h4 %15
     a1 \noBreak
     h\fermata \bar "||"
-    \time 3/4 \tempoG-XVIIb \newSpacingSection
+    \time 3/4 \tempoG-XVIIIb \newSpacingSection
       \mvTr d2\pE^\solo g,4 \noBreak
     e' d c
     h8([ a)] g4 r %20
@@ -102,7 +102,7 @@ G-XVIISoprano = {
     g^\critnote g2
     g( fis4) \noBreak
     g2.\fermata \bar "||"
-    \time 4/4 \tempoG-XVIIc \newSpacingSection
+    \time 4/4 \tempoG-XVIIIc \newSpacingSection
       \mvTr h4.\fE^\tutti h8 h4 h \noBreak
     ais2 h4 h %125
     h8 h16 h h8 h h4 ais
@@ -114,7 +114,7 @@ G-XVIISoprano = {
     cis( h!2 ais4)
     h h h2 \noBreak
     h1\fermata \bar "||"
-    \twotwotime \time 2/2 \tempoG-XVIId \newSpacingSection
+    \twotwotime \time 2/2 \tempoG-XVIIId \newSpacingSection
       R1*13 %147
     \mvTr d1\fE^\tutti
     d2 d4 d
@@ -146,7 +146,7 @@ G-XVIISoprano = {
     a4 d, g2
     g( fis) \noBreak
     g1\fermata \bar "||"
-    \time 4/4 \tempoG-XVIIe \newSpacingSection
+    \time 4/4 \tempoG-XVIIIe \newSpacingSection
       R1*6 %184
     r2 \mvTr d'\pE^\solo %185
     d4 cis c2
@@ -159,7 +159,7 @@ G-XVIISoprano = {
   }
 }
 
-G-XVIISopranoLyrics = \lyricmode {
+G-XVIIISopranoLyrics = \lyricmode {
   Chri -- ste, Chri -- %4
   ste e -- lei -- _ %5
   _ son, Chri --

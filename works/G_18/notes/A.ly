@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XVIIAlto = {
+G-XVIIIAlto = {
   \relative c' {
     \clef treble
-    \key g \major \time 4/4 \tempoG-XVIIa \autoBeamOff
+    \key g \major \time 4/4 \tempoG-XVIIIa \autoBeamOff
     R1*2
     r2 \mvTr g'4.\fE^\tutti g8
     fis4( f) e d
@@ -20,7 +20,7 @@ G-XVIIAlto = {
     e a fis g %15
     g( fis8[ e] fis2) \noBreak
     g1\fermata \bar "||"
-    \time 3/4 \tempoG-XVIIb \newSpacingSection
+    \time 3/4 \tempoG-XVIIIb \newSpacingSection
       R2.*3 %20
     r8 \mvTr h\pE^\soloE g h c([ h)]
     h4 g h
@@ -100,7 +100,7 @@ G-XVIIAlto = {
     d4 e2
     d2. \noBreak
     d\fermata \bar "||"
-    \time 4/4 \tempoG-XVIIc \newSpacingSection
+    \time 4/4 \tempoG-XVIIIc \newSpacingSection
       \mvTr fis4.\fE^\tutti fis8 g4 fis \noBreak
     fis2 fis4 fis %125
     gis?8 gis16 gis gis8 gis fis4 fis
@@ -112,7 +112,7 @@ G-XVIIAlto = {
     fis1
     fis4 fis g!2 \noBreak
     fis1\fermata \bar "||"
-    \twotwotime \time 2/2 \tempoG-XVIId \newSpacingSection
+    \twotwotime \time 2/2 \tempoG-XVIIId \newSpacingSection
       R1*9 %143
     \mvTr g1\fE^\tuttiE
     g2 g %145
@@ -149,7 +149,7 @@ G-XVIIAlto = {
     d d
     d1 \noBreak
     d\fermata \bar "||"
-    \time 4/4 \tempoG-XVIIe \newSpacingSection
+    \time 4/4 \tempoG-XVIIIe \newSpacingSection
       R1*4 %182
     \mvTr fis4.\pE^\solo a8 d,4 d8 e
     fis([ g)] a d, g4. g8
@@ -164,7 +164,7 @@ G-XVIIAlto = {
   }
 }
 
-G-XVIIAltoLyrics = \lyricmode {
+G-XVIIIAltoLyrics = \lyricmode {
   Chri -- ste, %3
   Chri -- ste e --
   lei -- son, e -- %5

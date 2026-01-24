@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XVIIViolinoII = {
+G-XVIIIViolinoII = {
   \relative c' {
     \clef treble
-    \key g \major \time 4/4 \tempoG-XVIIa
+    \key g \major \time 4/4 \tempoG-XVIIIa
     R1*2
     r2 g'4.\fE g8
     fis4 f e d
@@ -20,7 +20,7 @@ G-XVIIViolinoII = {
     e a fis g %15
     g fis8 e fis2 \noBreak
     g1\fermata \bar "||"
-    \time 3/4 \tempoG-XVIIb \newSpacingSection
+    \time 3/4 \tempoG-XVIIIb \newSpacingSection
       R2.*2
     r8 g\pE h g c h %20
     h4 r r
@@ -99,7 +99,7 @@ G-XVIIViolinoII = {
     d4 e2
     d2. \noBreak
     d\fermata \bar "||"
-    \time 4/4 \tempoG-XVIIc \newSpacingSection
+    \time 4/4 \tempoG-XVIIIc \newSpacingSection
       fis8\fE fis fis fis g g fis fis \noBreak
     fis fis fis fis fis fis fis fis %125
     gis gis gis gis fis4 fis
@@ -111,7 +111,7 @@ G-XVIIViolinoII = {
     fis fis fis fis fis fis fis fis
     fis fis fis fis g! g g g \noBreak
     fis1\fermata \bar "||"
-    \twotwotime \time 2/2 \tempoG-XVIId \newSpacingSection
+    \twotwotime \time 2/2 \tempoG-XVIIId \newSpacingSection
       R1*9 %143
     g1\fE
     g2 g %145
@@ -148,7 +148,7 @@ G-XVIIViolinoII = {
     d d
     d1 \noBreak
     d\fermata \bar "||"
-    \time 4/4 \tempoG-XVIIe \newSpacingSection
+    \time 4/4 \tempoG-XVIIIe \newSpacingSection
       h4\pE r h8 h h h \noBreak
     h4 r e8 e d d %180
     d d d d d4 r
