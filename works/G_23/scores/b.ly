@@ -2,16 +2,16 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "b")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "G.22" "Litaniae de venerabili sacramento"
+    \section "G.23" "Litaniae de venerabili sacramento"
     \addTocEntry
     \score {
       <<
-        \new Staff { \G-XXIIViolinoI }
+        \new Staff { \G-XXIIIOrgano }
       >>
     }
   }

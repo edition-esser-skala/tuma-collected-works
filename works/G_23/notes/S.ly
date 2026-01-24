@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XXIISoprano = {
+G-XXIIISoprano = {
   \relative c' {
     \clef treble
-    \key h \minor \time 3/2 \tempoG-XXIIa \autoBeamOff
+    \key h \minor \time 3/2 \tempoG-XXIIIa \autoBeamOff
     \mvTr h'2.\pE^\solo fis4 fis2
     d'2. h4 h2
     c h( ais)
@@ -66,7 +66,7 @@ G-XXIISoprano = {
     ais2. ais4 h2
     h h( ais)\trill \noBreak
     h1.\fermata \bar "||"
-    \key g \major \time 4/4 \tempoG-XXIIb \newSpacingSection
+    \key g \major \time 4/4 \tempoG-XXIIIb \newSpacingSection
       R1*29 %103
     r2 \mvTr h4\fE^\tutti ais
     d8([ cis)] h ais h8. h16 h8 r %105
@@ -93,7 +93,7 @@ G-XXIISoprano = {
     d,8([ a'] c4 d,8[ g] b4)
     a8 g4 g8 fis g g([ fis)] \noBreak
     g4 r r2\fermata \bar "||"
-    \time 3/4 \tempoG-XXIIc \newSpacingSection
+    \time 3/4 \tempoG-XXIIIc \newSpacingSection
       R2.*6 %134
     \mvTr h2\pE^\solo e4 %135
     c2 c4
@@ -142,7 +142,7 @@ G-XXIISoprano = {
     d4 c h
     a a2 \noBreak
     g2.\fermata \bar "||" %195
-    \tempoG-XXIId R2.*2
+    \tempoG-XXIIId R2.*2
     \mvTr h2\fE^\tutti h4
     \key g \minor R2.*2 %200
     b2 b4
@@ -193,7 +193,7 @@ G-XXIISoprano = {
     a a2
     g4 r r \noBreak %275
     R2.\fermata \bar "||"
-    \key d \major \time 4/4 \tempoG-XXIIe \newSpacingSection
+    \key d \major \time 4/4 \tempoG-XXIIIe \newSpacingSection
       R1*29 %305
     r2 r4 \mvTr e'8\fE^\tutti d
     cis fis e16([ d)] cis([ h)] cis([ h)] a8 r4
@@ -208,7 +208,7 @@ G-XXIISoprano = {
     d( cis) d r
     R1*3 \noBreak
     R1\fermata \bar "||" %320
-    \tempoG-XXIIf \mvTr h4\fE^\tutti h c c8 c \noBreak
+    \tempoG-XXIIIf \mvTr h4\fE^\tutti h c c8 c \noBreak
     h4 h r2
     r r4 e
     e d!8([ cis)] d2
@@ -228,7 +228,7 @@ G-XXIISoprano = {
     r fis'4 fis
     e e8 e d4 d8 cis
     h4 h ais ais\fermata %340
-    \tempoG-XXIIg R1*4
+    \tempoG-XXIIIg R1*4
     r2 h4 cis %345
     d ais h8 d cis h
     ais fis h2 a4~
@@ -236,7 +236,7 @@ G-XXIISoprano = {
     d4 cis h4. h8
     cis4 ais h2 %350
     ais r\fermata
-    \tempoG-XXIIh a4. a8 g4 g
+    \tempoG-XXIIIh a4. a8 g4 g
     R1
     h4 h ais ais
     R1 %355
@@ -245,7 +245,7 @@ G-XXIISoprano = {
   }
 }
 
-G-XXIISopranoLyrics = \lyricmode {
+G-XXIIISopranoLyrics = \lyricmode {
   Ky -- ri -- e,
   Ky -- ri -- e
   e -- lei --

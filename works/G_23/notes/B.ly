@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XXIIBasso = {
+G-XXIIIBasso = {
   \relative c {
     \clef bass
-    \key h \minor \time 3/2 \tempoG-XXIIa \autoBeamOff
+    \key h \minor \time 3/2 \tempoG-XXIIIa \autoBeamOff
     R1.*17 %17
     r2 \mvTr fis\fE^\tutti eis
     fis4. fis,8 fis2 r
@@ -39,7 +39,7 @@ G-XXIIBasso = {
     fis'2. e4 d2
     e fis1 \noBreak
     h,1.\fermata \bar "||"
-    \key g \major \time 4/4 \tempoG-XXIIb \newSpacingSection
+    \key g \major \time 4/4 \tempoG-XXIIIb \newSpacingSection
       \mvTr g'4.\pE^\solo h8 e, c' e, fis \noBreak %75
     g g, r4 r2
     R1*4 %80
@@ -78,7 +78,7 @@ G-XXIIBasso = {
     \once \tieDashed d~ d4 cis
     d8 e h([ c)] d e c([ d)] \noBreak
     g,4 r r2\fermata \bar "||"
-    \time 3/4 \tempoG-XXIIc \newSpacingSection R2.*37 %165
+    \time 3/4 \tempoG-XXIIIc \newSpacingSection R2.*37 %165
     \mvTr a'2\pE^\solo c4
     h2 h4
     a a h8([ a)]
@@ -109,7 +109,7 @@ G-XXIIBasso = {
     d~
     d \noBreak
     g,\fermata \bar "||" %195
-    \tempoG-XXIId R2.*2
+    \tempoG-XXIIId R2.*2
     \mvTr g'2\fE^\tutti g,4
     \key g \minor R2.*2 %200
     g'2 g4
@@ -160,7 +160,7 @@ G-XXIIBasso = {
     c( d2)
     g,4 r r \noBreak %275
     R2.\fermata \bar "||"
-    \key d \major \time 4/4 \tempoG-XXIIe \newSpacingSection
+    \key d \major \time 4/4 \tempoG-XXIIIe \newSpacingSection
       R1*19 %295
     \mvTr e'4\pE^\solo a g!8([ e)] a,([ g')]
     fis([ d)] fis([ a)] g([ e)] a,([ g')]
@@ -185,7 +185,7 @@ G-XXIIBasso = {
     a( a,) d r
     R1*3 \noBreak
     R1\fermata \bar "||" %320
-    \tempoG-XXIIf \mvTr h4\fE^\tutti h h a8 a \noBreak
+    \tempoG-XXIIIf \mvTr h4\fE^\tutti h h a8 a \noBreak
     a4 g r2
     r r4 g'
     fis fis eis2
@@ -205,7 +205,7 @@ G-XXIIBasso = {
     r d!4 d
     cis fis8 fis h,4 h8 a!
     g4 g fis fis\fermata %340
-    \tempoG-XXIIg fis'4. fis8 g4 dis
+    \tempoG-XXIIIg fis'4. fis8 g4 dis
     e8 g fis e d( h'4 ais8)
     h4 fis8 fis g4 e~
     e d( e) fis
@@ -215,7 +215,7 @@ G-XXIIBasso = {
     d ais h8 d cis h
     ais([ fis)] fis'4 g2 %350
     fis r\fermata
-    \tempoG-XXIIh dis4. dis8 e4 e
+    \tempoG-XXIIIh dis4. dis8 e4 e
     R1
     e4 e e e
     R1 %355
@@ -224,7 +224,7 @@ G-XXIIBasso = {
   }
 }
 
-G-XXIIBassoLyrics = \lyricmode {
+G-XXIIIBassoLyrics = \lyricmode {
   Chri -- ste, %18
   au -- di nos,
   Chri -- ste, %20

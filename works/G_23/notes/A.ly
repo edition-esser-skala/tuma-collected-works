@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XXIIAlto = {
+G-XXIIIAlto = {
   \relative c' {
     \clef treble
-    \key h \minor \time 3/2 \tempoG-XXIIa \autoBeamOff
+    \key h \minor \time 3/2 \tempoG-XXIIIa \autoBeamOff
     R1.
     \mvTr fis2.\pE^\solo fis4 fis2
     g fis( e)
@@ -66,7 +66,7 @@ G-XXIIAlto = {
     fis'2. fis4 fis2
     g fis1 \noBreak
     fis1.\fermata \bar "||"
-    \key g \major \time 4/4 \tempoG-XXIIb \newSpacingSection
+    \key g \major \time 4/4 \tempoG-XXIIIb \newSpacingSection
       R1*18 %92
     r2 \mvTr a4.\pE^\solo g16([ fis)]
     e8([ fis)] g([ e)] fis g a g16([ fis)]
@@ -103,7 +103,7 @@ G-XXIIAlto = {
     fis4.( g16[ fis)] g2
     fis8 e d([ e] d) h e([ d)] \noBreak
     d4 r r2\fermata \bar "||"
-    \time 3/4 \tempoG-XXIIc \newSpacingSection
+    \time 3/4 \tempoG-XXIIIc \newSpacingSection
       R2.*9 %137
     \mvTr e2\pE^\solo h'4
     g2 g4
@@ -148,7 +148,7 @@ G-XXIIAlto = {
     fis2 g4~
     g g( fis) \noBreak
     g2.\fermata \bar "||" %195
-    \tempoG-XXIId R2.*2
+    \tempoG-XXIIId R2.*2
     \mvTr g2\fE^\tutti g4
     \key g \minor R2.*2 %200
     g2 g4
@@ -221,7 +221,7 @@ G-XXIIAlto = {
     g g( fis)
     g r r \noBreak %275
     R2.\fermata \bar "||"
-    \key d \major \time 4/4 \tempoG-XXIIe \newSpacingSection
+    \key d \major \time 4/4 \tempoG-XXIIIe \newSpacingSection
       R1*29 %305
     r2 r4 \mvTr h8\fE^\tutti h
     a a h h a a r4
@@ -236,7 +236,7 @@ G-XXIIAlto = {
     a2 a4 r
     R1*3 \noBreak
     R1\fermata \bar "||" %320
-    \tempoG-XXIIf \mvTr fis4\fE^\tutti fis g a8 a \noBreak
+    \tempoG-XXIIIf \mvTr fis4\fE^\tutti fis g a8 a \noBreak
     fis4 g r2
     r r4 h
     ais4 ais h2
@@ -256,7 +256,7 @@ G-XXIIAlto = {
     r a4 h
     h ais8 ais h4 fis8 fis
     fis4 e fis fis\fermata %340
-    \tempoG-XXIIg R1*3
+    \tempoG-XXIIIg R1*3
     fis4 fis g dis
     e8 g fis e d( h'4 ais8 %345
     h) g fis2 e4~
@@ -265,7 +265,7 @@ G-XXIIAlto = {
     fis2 fis
     fis fis4( e) %350
     fis2 r\fermata
-    \tempoG-XXIIh fis4. fis8 fis4 e
+    \tempoG-XXIIIh fis4. fis8 fis4 e
     R1
     g4 g fis fis
     R1 %355
@@ -274,7 +274,7 @@ G-XXIIAlto = {
   }
 }
 
-G-XXIIAltoLyrics = \lyricmode {
+G-XXIIIAltoLyrics = \lyricmode {
   Ky -- ri -- e %2
   e -- lei --
   son,

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XXIIOrgano = {
+G-XXIIIOrgano = {
   \relative c {
     \clef bass
-    \key h \minor \time 3/2 \tempoG-XXIIa
+    \key h \minor \time 3/2 \tempoG-XXIIIa
     \mvTr h2\pE-\solo h' r
     h, h' r
     e, d cis
@@ -75,7 +75,7 @@ G-XXIIOrgano = {
     fis2.\f e4 d2
     e fis1 \noBreak
     h,1.\fermata \bar "||"
-    \key g \major \time 4/4 \tempoG-XXIIb \newSpacingSection
+    \key g \major \time 4/4 \tempoG-XXIIIb \newSpacingSection
       \mvTr g8\pE-\solo a h g c4 r8 d \noBreak %75
     g,4 h'\fE c r8 a
     h4 r8 g a4 r8 fis
@@ -130,7 +130,7 @@ G-XXIIOrgano = {
     d d d d d d cis cis
     d e h c d e c d \noBreak
     g,4 r r2\fermata \bar "||"
-    \time 3/4 \tempoG-XXIIc \newSpacingSection
+    \time 3/4 \tempoG-XXIIIc \newSpacingSection
       r8 \mvTr e''\fE-\solo e, e'16( d) c8 h \noBreak
     a a a, a'16( g) fis8 e %130
     dis h' h, h'16( a) g8 fis
@@ -196,7 +196,7 @@ G-XXIIOrgano = {
     d~
     d \noBreak
     g,\fermata \bar "||" %195
-    \tempoG-XXIId \mvTr g4\fE-\solo r r \noBreak
+    \tempoG-XXIIId \mvTr g4\fE-\solo r r \noBreak
     g'-! d-! h-!
     g2.-\tutti
     \key g \minor R2.
@@ -277,7 +277,7 @@ G-XXIIOrgano = {
     c d2
     g4-! d-! b-! \noBreak %275
     g-! r r\fermata \bar "||"
-    \key d \major \time 4/4 \tempoG-XXIIe \newSpacingSection
+    \key d \major \time 4/4 \tempoG-XXIIIe \newSpacingSection
       \mvTr d'8\pE-\solo e fis cis d e fis g \noBreak
     d fis g e fis4 r8 e
     d h' g a d,4 r8 fis\fE
@@ -322,7 +322,7 @@ G-XXIIOrgano = {
     d fis e cis d fis a g
     fis e d a h fis' g a \noBreak
     d,4 r r2\fermata \bar "||" %320
-    \tempoG-XXIIf \mvTr h2~\fE-\tutti h4 a~ \noBreak
+    \tempoG-XXIIIf \mvTr h2~\fE-\tutti h4 a~ \noBreak
     a g r2
     r r4 g'
     fis2 eis
@@ -342,7 +342,7 @@ G-XXIIOrgano = {
     r d!
     cis4 fis h,4. a!8
     g2 fis\fermata %340
-    \tempoG-XXIIg fis'4.-! fis8-! g4-! dis-!
+    \tempoG-XXIIIg fis'4.-! fis8-! g4-! dis-!
     e8-! g-! fis-! e-! << {
       h'4 cis
       d ais h8 d cis h
@@ -364,7 +364,7 @@ G-XXIIOrgano = {
     d ais h8 d cis h
     ais fis fis'4 g2 %350
     fis r\fermata
-    \tempoG-XXIIh dis2 e
+    \tempoG-XXIIIh dis2 e
     R1
     e2~ e
     R1 %355
@@ -373,7 +373,7 @@ G-XXIIOrgano = {
   }
 }
 
-G-XXIIBassFigures = \figuremode {
+G-XXIIIBassFigures = \figuremode {
   r1.
   r
   <6!>2 <6> <6\\>

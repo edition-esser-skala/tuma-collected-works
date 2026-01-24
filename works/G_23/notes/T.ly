@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XXIITenore = {
+G-XXIIITenore = {
   \relative c' {
     \clef "treble_8"
-    \key h \minor \time 3/2 \tempoG-XXIIa \autoBeamOff
+    \key h \minor \time 3/2 \tempoG-XXIIIa \autoBeamOff
     R1.
     \mvTr h2.\pE^\solo d4^\critnote d2
     e h( cis)
@@ -65,7 +65,7 @@ G-XXIITenore = {
     cis'2. cis4 d2
     cis cis1\trill \noBreak
     h1.\fermata \bar "||"
-    \key g \major \time 4/4 \tempoG-XXIIb \newSpacingSection
+    \key g \major \time 4/4 \tempoG-XXIIIb \newSpacingSection
       R1*29 %103
     r2 \mvTr d4\fE^\tutti cis
     fis8([ e)] d cis d8. d16 d8 dis %105
@@ -91,7 +91,7 @@ G-XXIITenore = {
     a4 a d e
     d8 h h h a g a4 \noBreak
     g r r2\fermata \bar "||"
-    \time 3/4 \tempoG-XXIIc \newSpacingSection
+    \time 3/4 \tempoG-XXIIIc \newSpacingSection
       R2.*35 %163
     \mvTr e'2\pE^\solo f8([ e)]
     d4 d e8([ d)] %165
@@ -125,7 +125,7 @@ G-XXIITenore = {
     a4. h16[ c] d4
     d2. \noBreak
     d\fermata \bar "||" %195
-    \tempoG-XXIId R2.*2
+    \tempoG-XXIIId R2.*2
     \mvTr d2\fE^\tuttiE d4
     \key g \minor R2.*2 %200
     d2 d4
@@ -198,7 +198,7 @@ G-XXIITenore = {
     es'(^\critnote d2)
     d4 r r \noBreak %275
     R2.\fermata \bar "||"
-    \key d \major \time 4/4 \tempoG-XXIIe \newSpacingSection
+    \key d \major \time 4/4 \tempoG-XXIIIe \newSpacingSection
       \mvTr d4\pE^\solo a fis16[ a g h] a[ d cis h] \noBreak
     a[ fis g a] h[ a h cis] d[ fis, g a] h[ cis d e]
     fis8 e16 d e8 d16([ cis)] d8 a r4
@@ -227,7 +227,7 @@ G-XXIITenore = {
     e2 d4 r
     R1*3 \noBreak
     R1\fermata \bar "||" %320
-    \tempoG-XXIIf \mvTr d4\fE^\tutti dis e fis8 fis \noBreak
+    \tempoG-XXIIIf \mvTr d4\fE^\tutti dis e fis8 fis \noBreak
     dis4 e r2
     r r4 h
     cis! fis, gis2
@@ -247,7 +247,7 @@ G-XXIITenore = {
     r d4 d
     e cis8 cis d4 h8 cis
     d4 cis8([ h)] cis4 cis\fermata %340
-    \tempoG-XXIIg R1
+    \tempoG-XXIIIg R1
     r2 h4 cis
     d ais h8 d cis h
     ais fis h4. g8 a4
@@ -258,7 +258,7 @@ G-XXIITenore = {
     h4 cis d4. d8
     cis4 cis h2 %350
     cis r\fermata
-    \tempoG-XXIIh h4. h8 h4 h
+    \tempoG-XXIIIh h4. h8 h4 h
     R1
     e4 e cis cis
     R1 %355
@@ -267,7 +267,7 @@ G-XXIITenore = {
   }
 }
 
-G-XXIITenoreLyrics = \lyricmode {
+G-XXIIITenoreLyrics = \lyricmode {
   Ky -- ri -- e %2
   e -- lei --
   son,
