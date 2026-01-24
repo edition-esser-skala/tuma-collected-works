@@ -1,0 +1,18 @@
+composer:
+  last: Anonymus
+title: Stabat mater
+id: TumW F.S1
+genre: sequence
+scoring: S, A, T, B (coro), 2 vl, vla, b, org
+ark: 68748/e1fitf4
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: CZ-Pn
+    shelfmark: XLVI A 266
+    date: 1845
+    license: public domain
+    principal: true
+toe: |
+  9–11 & – & treble ottavo clef added by editor \\
+  19   & A & 7th \eighthNote\ in \B1: \flat e′8 \\
