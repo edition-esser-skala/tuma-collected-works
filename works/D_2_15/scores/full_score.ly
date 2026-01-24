@@ -6,7 +6,7 @@
 
 \book {
   \bookpart {
-    \section "D.2.16" "Laudate pueri"
+    \section "D.2.15" "Laudate pueri"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -14,22 +14,22 @@
         \new StaffGroup <<
           \new Staff \with { \smallStaffDistance } {
             \set Staff.instrumentName = "Cornetto"
-            \D-II-XVICornetto
+            \D-II-XVCornetto
           }
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "Trombone"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \D-II-XVITromboneI
+              \D-II-XVTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \D-II-XVITromboneII
+              \D-II-XVTromboneII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "Fagotto"
-            \D-II-XVIFagotto
+            \D-II-XVFagotto
           }
         >>
         \new StaffGroup <<
@@ -37,47 +37,47 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \D-II-XVIViolinoI
+              \D-II-XVViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \D-II-XVIViolinoII
+              \D-II-XVViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \incipitSoprano
-            \new Voice = "Soprano" { \dynamicUp \D-II-XVISoprano }
+            \new Voice = "Soprano" { \dynamicUp \D-II-XVSoprano }
           }
-          \new Lyrics \lyricsto Soprano \D-II-XVISopranoLyrics
+          \new Lyrics \lyricsto Soprano \D-II-XVSopranoLyrics
 
           \new Staff {
             \incipitAlto
-            \new Voice = "Alto" { \dynamicUp \D-II-XVIAlto }
+            \new Voice = "Alto" { \dynamicUp \D-II-XVAlto }
           }
-          \new Lyrics \lyricsto Alto \D-II-XVIAltoLyrics
+          \new Lyrics \lyricsto Alto \D-II-XVAltoLyrics
 
           \new Staff {
             \incipitTenore
-            \new Voice = "Tenore" { \dynamicUp \D-II-XVITenore }
+            \new Voice = "Tenore" { \dynamicUp \D-II-XVTenore }
           }
-          \new Lyrics \lyricsto Tenore \D-II-XVITenoreLyrics
+          \new Lyrics \lyricsto Tenore \D-II-XVTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \D-II-XVIBasso }
+            \new Voice = "Basso" { \dynamicUp \D-II-XVBasso }
           }
-          \new Lyrics \lyricsto Basso \D-II-XVIBassoLyrics
+          \new Lyrics \lyricsto Basso \D-II-XVBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
             % \transpose c c,
-            \D-II-XVIOrgano
+            \D-II-XVOrgano
           }
         >>
-        \new FiguredBass { \D-II-XVIBassFigures }
+        \new FiguredBass { \D-II-XVBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 75 } % 60 – 144 – 60

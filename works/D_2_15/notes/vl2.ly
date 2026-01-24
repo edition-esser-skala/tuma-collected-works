@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XVIViolinoII = {
+D-II-XVViolinoII = {
   \relative c' {
     \clef treble
-    \key a \minor \time 4/4 \tempoD-II-XVIa
+    \key a \minor \time 4/4 \tempoD-II-XVa
     R1*8 %8
     r8 c'\pE e g c4 c,
     c,\pp h a2 %10
@@ -17,12 +17,12 @@ D-II-XVIViolinoII = {
     r a, a2
     gis4 r r2
     r4 c,8 c c d16 e fis gis a h
-    c2 r4\fermata \tempoD-II-XVIb e,8\p e
+    c2 r4\fermata \tempoD-II-XVb e,8\p e
     f2. e4~ %25
     e d e r8 e
     e4 c h c \noBreak
     h2 a4 r\fermata \bar "||"
-    \time 3/4 \tempoD-II-XVIc \newSpacingSection
+    \time 3/4 \tempoD-II-XVc \newSpacingSection
       c4\fE c8 c e g \noBreak
     c4 c, c'~ %30
     c h8 a h4
@@ -86,7 +86,7 @@ D-II-XVIViolinoII = {
     d2.
     a2 h4 \noBreak
     c2.\fermata \bar "||"
-    \time 4/4 \tempoD-II-XVId \newSpacingSection
+    \time 4/4 \tempoD-II-XVd \newSpacingSection
       R1 \noBreak
     r4 a8 a, c cis16 cis d8 dis %100
     e16 dis e8 r16 e fis gis a e a4 gis8

@@ -7,12 +7,12 @@
 
 \book {
   \bookpart {
-    \section "D.2.16" "Laudate pueri"
+    \section "D.2.15" "Laudate pueri"
     \addTocEntry
     \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \D-II-XVIViolinoII }
+        \new Staff { \D-II-XVViolinoII }
       >>
     }
   }

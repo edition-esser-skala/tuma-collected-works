@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XVIAlto = {
+D-II-XVAlto = {
   \relative c' {
     \clef treble
-    \key a \minor \time 4/4 \tempoD-II-XVIa \autoBeamOff
+    \key a \minor \time 4/4 \tempoD-II-XVa \autoBeamOff
     R1*3
     r2 r4 r8 \mvTr gis'\pE^\solo
     a gis16([ a)] h8 a16([ \hA gis)] a4 h8 a %5
@@ -21,12 +21,12 @@ D-II-XVIAlto = {
     r a8 a a a16 a a8 a
     gis gis r4 r2
     r4 c,8 c c([ d16 e] fis[ gis)] a([ h)]
-    c8. c16 c4 r\fermata \tempoD-II-XVIb e,8\p e
+    c8. c16 c4 r\fermata \tempoD-II-XVb e,8\p e
     f2. e8 e %25
     e4 d e r8 e
     e e c c h4( c \noBreak
     h2) a4 r\fermata \bar "||"
-    \time 3/4 \tempoD-II-XVIc \newSpacingSection
+    \time 3/4 \tempoD-II-XVc \newSpacingSection
       R2.*59 %87
     \mvTr a'4.\fE^\tutti a8 a4
     gis gis gis
@@ -39,7 +39,7 @@ D-II-XVIAlto = {
     a4. a8 a4
     f a g \noBreak
     g2 g4\fermata \bar "||"
-    \time 4/4 \tempoD-II-XVId \newSpacingSection
+    \time 4/4 \tempoD-II-XVd \newSpacingSection
       R1 \noBreak
     r4 a8 a, c cis16 cis d8 dis %100
     e16([ dis)] e8 r16 e([ fis gis] a[ e] a4 gis8)
@@ -52,7 +52,7 @@ D-II-XVIAlto = {
   }
 }
 
-D-II-XVIAltoLyrics = \lyricmode {
+D-II-XVAltoLyrics = \lyricmode {
   Sit %4
   no -- men Do -- mi -- ni be -- ne -- %5
   di -- ctum, ex hoc

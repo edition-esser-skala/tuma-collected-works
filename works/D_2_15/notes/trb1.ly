@@ -1,21 +1,21 @@
 \version "2.24.2"
 
-D-II-XVITromboneI = {
+D-II-XVTromboneI = {
   \relative c' {
     \clef alto
-    \key a \minor \time 4/4 \tempoD-II-XVIa
+    \key a \minor \time 4/4 \tempoD-II-XVa
     R1*18 %18
     r2 a'4\fE r
     h r a r %20
     r a8 a a a16 a a8 a
     gis gis r4 r2
     r4 c,8 c c d16 e fis gis a h
-    c8. c16 c4 r\fermata \tempoD-II-XVIb e,8\p e
+    c8. c16 c4 r\fermata \tempoD-II-XVb e,8\p e
     f2. e8 e %25
     e4 d e r8 e
     e e c c h4 c \noBreak
     h2 a4 r\fermata \bar "||"
-    \time 3/4 \tempoD-II-XVIc \newSpacingSection
+    \time 3/4 \tempoD-II-XVc \newSpacingSection
       R2.*59 %87
     a'4.\fE a8 a4
     gis gis gis
@@ -28,7 +28,7 @@ D-II-XVITromboneI = {
     a4. a8 a4
     f a g \noBreak
     g2 g4\fermata \bar "||"
-    \time 4/4 \tempoD-II-XVId \newSpacingSection
+    \time 4/4 \tempoD-II-XVd \newSpacingSection
       R1 \noBreak
     r4 a8 a, c cis16 cis d8 dis %100
     e16 dis e8 r16 e fis gis a e a4 gis8

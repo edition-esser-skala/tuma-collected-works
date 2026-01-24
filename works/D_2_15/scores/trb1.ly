@@ -2,17 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "trb 2")
+#(define option-instrument-name "trb 1")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "D.2.16" "Laudate pueri"
+    \section "D.2.15" "Laudate pueri"
     \addTocEntry
     \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \D-II-XVITromboneII }
+        \new Staff { \D-II-XVTromboneI }
       >>
     }
   }

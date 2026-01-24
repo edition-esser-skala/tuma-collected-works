@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-tempoD-II-XVIa = \tempoMarkup "[Andante]"
-tempoD-II-XVIb = \tempoMarkup "Adagio"
-tempoD-II-XVIc = \tempoMarkup "Vivace"
-tempoD-II-XVId = \tempoMarkup "Andante"
+tempoD-II-XVa = \tempoMarkup "[Andante]"
+tempoD-II-XVb = \tempoMarkup "Adagio"
+tempoD-II-XVc = \tempoMarkup "Vivace"
+tempoD-II-XVd = \tempoMarkup "Andante"
 
 \include "notes/cnto.ly"
 \include "notes/fag.ly"

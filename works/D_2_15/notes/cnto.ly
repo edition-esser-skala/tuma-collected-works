@@ -1,21 +1,21 @@
 \version "2.24.2"
 
-D-II-XVICornetto = {
+D-II-XVCornetto = {
   \relative c' {
     \clef soprano
-    \key a \minor \time 4/4 \tempoD-II-XVIa
+    \key a \minor \time 4/4 \tempoD-II-XVa
     R1*18 %18
     r2 e'4\fE r
     e r e c8 c %20
     c4 e8 e e e e d
     e4 e,8 e e fis16 gis a h c d
     e2. e4
-    e2 r4\fermata \tempoD-II-XVIb r
+    e2 r4\fermata \tempoD-II-XVb r
     r c8\p c h4 h8 h %25
     a4. a8 gis4 r8 h
     c c a a gis4 a~ \noBreak
     a gis a r\fermata \bar "||"
-    \time 3/4 \tempoD-II-XVIc \newSpacingSection
+    \time 3/4 \tempoD-II-XVc \newSpacingSection
       R2.*59 %87
     c4.\fE c8 c4
     h h h
@@ -28,7 +28,7 @@ D-II-XVICornetto = {
     d4. d8 d4
     a a h \noBreak
     c!2 c4\fermata \bar "||"
-    \time 4/4 \tempoD-II-XVId \newSpacingSection
+    \time 4/4 \tempoD-II-XVd \newSpacingSection
       r4 e8 e, f fis16 fis g8 gis \noBreak
     a16 gis a8 r4 r16 a8 g16 fis h8 a16 %100
     gis8 h e8. d16 c8. h32 a h4\trill

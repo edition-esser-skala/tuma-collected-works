@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XVISoprano = {
+D-II-XVSoprano = {
   \relative c' {
     \clef treble
-    \key a \minor \time 4/4 \tempoD-II-XVIa \autoBeamOff
+    \key a \minor \time 4/4 \tempoD-II-XVa \autoBeamOff
     R1*3
     r2 r4 r8 \mvTr h'\pE^\solo
     c h16([ c)] d8 c16([ h)] c4 d8 c %5
@@ -21,12 +21,12 @@ D-II-XVISoprano = {
     c4 e8 e e e e([ d)]
     e4 e,8 e e([ fis16 gis] a[ h)] c([ d)]
     e2. e4
-    e2 r4\fermata \tempoD-II-XVIb r
+    e2 r4\fermata \tempoD-II-XVb r
     r c8\p c h4 h8 h %25
     a4. a8 gis4 r8 h
     c c a a gis4 a~ \noBreak
     a gis a r\fermata \bar "||"
-    \time 3/4 \tempoD-II-XVIc \newSpacingSection
+    \time 3/4 \tempoD-II-XVc \newSpacingSection
       R2.*42 %70
     \mvTr e'4\pE^\solo e e
     e( d) d
@@ -54,7 +54,7 @@ D-II-XVISoprano = {
     d4. d8 d4
     a a h \noBreak
     c!2 c4\fermata \bar "||"
-    \time 4/4 \tempoD-II-XVId \newSpacingSection
+    \time 4/4 \tempoD-II-XVd \newSpacingSection
       r4 e8 e, f fis16 fis g8 gis \noBreak
     a16([ gis)] a8 r4 r16 a8[( g16] fis[ h8 a16] %100
     gis8) h e8.([ d16] c8.[ h32 a] h4)\trill
@@ -67,7 +67,7 @@ D-II-XVISoprano = {
   }
 }
 
-D-II-XVISopranoLyrics = \lyricmode {
+D-II-XVSopranoLyrics = \lyricmode {
   Sit %4
   no -- men Do -- mi -- ni be -- ne -- %5
   di -- ctum, ex hoc nunc et __

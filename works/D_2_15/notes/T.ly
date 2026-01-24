@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XVITenore = {
+D-II-XVTenore = {
   \relative c' {
     \clef "treble_8"
-    \key a \minor \time 4/4 \tempoD-II-XVIa \autoBeamOff
+    \key a \minor \time 4/4 \tempoD-II-XVa \autoBeamOff
     r8 \mvTr a\pE^\solo e'4~ e16[ f d e] c4~
     c16[ d h c] a4 a8 h16 c h8. a16
     gis8 h e4~ e16[ f d e] cis4
@@ -21,12 +21,12 @@ D-II-XVITenore = {
     r c8 c c c16 c a8 a
     h h r4 r2
     r4 a8 a a4. a8
-    a8. a16 a4 r\fermata \tempoD-II-XVIb r
+    a8. a16 a4 r\fermata \tempoD-II-XVb r
     r a8\p a h4 h8 h %25
     c4 h8([ a)] h4 r8 h
     a a e e e2~ \noBreak
     e e4 r\fermata \bar "||"
-    \time 3/4 \tempoD-II-XVIc \newSpacingSection
+    \time 3/4 \tempoD-II-XVc \newSpacingSection
       R2.*42 %70
     \mvTr c'4\pE^\solo c c
     c( h) h
@@ -54,7 +54,7 @@ D-II-XVITenore = {
     f4. f8 f4
     d f d^\critnote
     e2 e4\fermata \bar "||"
-    \time 4/4 \tempoD-II-XVId \newSpacingSection R1*2 %100
+    \time 4/4 \tempoD-II-XVd \newSpacingSection R1*2 %100
     r2 r4 e8 e,
     f fis16 fis g8 gis a16([ gis)] a8 r4
     r2 r16 a8[( g16] fis[ h8 a16]
@@ -65,7 +65,7 @@ D-II-XVITenore = {
   }
 }
 
-D-II-XVITenoreLyrics = \lyricmode {
+D-II-XVTenoreLyrics = \lyricmode {
   Lau -- da -- _
   te pu -- e -- ri Do -- mi --
   num: Lau -- da -- _

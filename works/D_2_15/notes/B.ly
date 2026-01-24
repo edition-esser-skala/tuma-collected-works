@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XVIBasso = {
+D-II-XVBasso = {
   \relative c {
     \clef bass
-    \key a \minor \time 4/4 \tempoD-II-XVIa \autoBeamOff
+    \key a \minor \time 4/4 \tempoD-II-XVa \autoBeamOff
     r4 r8 \mvTr e\pE^\solo a4~ a16[ b g( a)]
     f4~ f16[ g] e([ f)] d8 d16 d dis8. dis16
     e4 r8 e a4~ a16[ b g a]
@@ -20,12 +20,12 @@ D-II-XVIBasso = {
     r a8 a a a16 a f8 f
     e e r4 r2
     r4 a,8 a a([ h16 c] d[ e)] fis([ gis)]
-    a8. a16 a4 r\fermata \tempoD-II-XVIb r
+    a8. a16 a4 r\fermata \tempoD-II-XVb r
     r a,8\p a gis4 g8 g %25
     fis4 f e r8 gis'
     a a a, a \once \tieDashed e2~ \noBreak
     e a4 r\fermata \bar "||"
-    \time 3/4 \tempoD-II-XVIc \newSpacingSection
+    \time 3/4 \tempoD-II-XVc \newSpacingSection
       R2.*6 %34
     \mvTr c4.\pE^\solo c8 e g %35
     c4 c, c'
@@ -70,7 +70,7 @@ D-II-XVIBasso = {
     d,4. d8 d4
     d f g \noBreak
     c,2 c4\fermata \bar "||"
-    \time 4/4 \tempoD-II-XVId \newSpacingSection R1*3 %101
+    \time 4/4 \tempoD-II-XVd \newSpacingSection R1*3 %101
     r16 d8([ c16] h[ e8 d16] c8) a r4
     r a'8 a, c cis16 cis d8 dis
     e16([ dis)] e8 r e( f) fis g([ gis)]
@@ -80,7 +80,7 @@ D-II-XVIBasso = {
   }
 }
 
-D-II-XVIBassoLyrics = \lyricmode {
+D-II-XVBassoLyrics = \lyricmode {
   Lau -- da --
   _ te pu -- e -- ri Do -- mi --
   num: Lau -- da --

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XVIOrgano = {
+D-II-XVOrgano = {
   \relative c {
     \clef bass
-    \key a \minor \time 4/4 \tempoD-II-XVIa
+    \key a \minor \time 4/4 \tempoD-II-XVa
     \mvTr a'4\pE-\solo gis a a8 g?
     f4 f8 e d4 dis
     e gis a a,
@@ -27,12 +27,12 @@ D-II-XVIOrgano = {
     r a a f
     e \clef treble e'8 e e fis16 gis a h c d
     e4 \clef bass a,,,8 a a h16 c d e fis gis
-    a2 r4\fermata \tempoD-II-XVIb \clef "treble_8" e'8\p e
+    a2 r4\fermata \tempoD-II-XVb \clef "treble_8" e'8\p e
     f4 \clef bass a,, gis g %25
     fis f e r8 gis'
     a4 a, \once \tieDashed e2~ \noBreak
     e a4 r\fermata \bar "||"
-    \time 3/4 \tempoD-II-XVIc \newSpacingSection
+    \time 3/4 \tempoD-II-XVc \newSpacingSection
       \mvTr c2\fE-\solo r4 \noBreak
     c2 c4 %30
     g'2 g,4
@@ -103,7 +103,7 @@ D-II-XVIOrgano = {
     d,2.
     d4 f g \noBreak
     c,2.\fermata \bar "||"
-    \clef treble \time 4/4 \tempoD-II-XVId \newSpacingSection
+    \clef treble \time 4/4 \tempoD-II-XVd \newSpacingSection
       r4 e''8-! e,-! f-! fis16-! fis-! g8-! gis16-! gis-! \noBreak
     a-! gis-! a8-! << {
       r4 r16 a8 g16 fis h8 a16 %100
@@ -126,7 +126,7 @@ D-II-XVIOrgano = {
   }
 }
 
-D-II-XVIBassFigures = \figuremode {
+D-II-XVBassFigures = \figuremode {
   r4 <[6]>2.
   r <6 [_+]>8 <5>
   <_+>2. q4
