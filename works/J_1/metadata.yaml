@@ -1,0 +1,22 @@
+title: Sinfonia
+id: TumW J.1
+genre: sinfonia
+scoring: 2 vl, vla, bc
+ark: 68748/e1fitj1
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2968-P-502
+    rism: 1001167125
+    url: https://digital.slub-dresden.de/id1898731381
+    date: 1890–1910
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  – & –   & bc  & All bass figures have been added by the editor. \\
+  3 & 109 & vla & grace note added by editor \\
+  %2 & 34 ??
+  %  & 36 & vl 1 vs 2 vs T 39
+  %  repeats?
