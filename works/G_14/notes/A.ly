@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XXAlto = {
+G-XIVAlto = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/2 \tempoG-XXa \autoBeamOff
+    \key c \major \time 3/2 \tempoG-XIVa \autoBeamOff
     R1.*15 %15
     \mvTr g'2.\pE^\soloE g4 g2
     g gis4( a fis \hA gis
@@ -62,7 +62,7 @@ G-XXAlto = {
     e2 r r
     R1.*14 \noBreak %91
     R1.\fermata \bar "||"
-    \time 4/4 \tempoG-XXb \newSpacingSection R1*13 %105
+    \time 4/4 \tempoG-XIVb \newSpacingSection R1*13 %105
     r2 \once \stemUp \mvTr h'4(\pE^\solo a16[ g)] fis([ e)]
     dis4 e8 fis g \hA fis g4
     fis8 fis fis h gis4 a8([ h)]
@@ -105,7 +105,7 @@ G-XXAlto = {
     d d8 e16([ f)] g4 g
     a a g g8 g \noBreak
     g2 g\fermata \bar "||"
-    \tempoG-XXc R1*8 %161
+    \tempoG-XIVc R1*8 %161
     \mvTr h8.\pE^\soloE e,16 e8 c' h8. e,16 e8 h'
     a g16([ fis)] g4 fis fis8 h
     gis4 a8([ h)] c8. h16 a8 a
@@ -135,7 +135,7 @@ G-XXAlto = {
     fis4( g \hA fis2) %195
     e4 r r2
     R1*7 %203
-    \time 3/2 \tempoG-XXd \newSpacingSection
+    \time 3/2 \tempoG-XIVd \newSpacingSection
       r2 \mvTr g\fE^\tutti g \noBreak
     fis1 fis2 %205
     e1 e2
@@ -164,7 +164,7 @@ G-XXAlto = {
     e1 e2
     d1 d2 \noBreak %230
     d d1
-    \time 2/2 \tempoG-XXe \newSpacingSection
+    \time 2/2 \tempoG-XIVe \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2
       e2 r r1 \noBreak
     R\breve
@@ -197,7 +197,7 @@ G-XXAlto = {
     a a g g %260
     g\breve \noBreak
     g\fermata \bar "||"
-    \time 4/4 \tempoG-XXf \newSpacingSection
+    \time 4/4 \tempoG-XIVf \newSpacingSection
       \unset Staff.timeSignatureFraction
       r2 \mvTr a\fE^\tutti \noBreak
     a f4 f8 a
@@ -217,7 +217,7 @@ G-XXAlto = {
   }
 }
 
-G-XXAltoLyrics = \lyricmode {
+G-XIVAltoLyrics = \lyricmode {
   Ky -- ri -- e %16
   e -- lei --
   son, e --

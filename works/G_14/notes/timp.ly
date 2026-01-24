@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XXTimpani = {
+G-XIVTimpani = {
   \relative c {
     \clef bass
-    \key c \major \time 3/2 \tempoG-XXa
+    \key c \major \time 3/2 \tempoG-XIVa
     c1\fE c2
     g r r
     R1.*12 %14
@@ -31,13 +31,13 @@ G-XXTimpani = {
     r2 r g %90
     c g2. g4 \noBreak
     c2 r r\fermata \bar "||"
-    \time 4/4 \tempoG-XXb \newSpacingSection R1*51 %143
+    \time 4/4 \tempoG-XIVb \newSpacingSection R1*51 %143
     r2 r4 g\fE
     c8 c16 c c8 c g4 r %145
     R1*6 %151
     r2 g8 g c c \noBreak
     g g16 g g8 g c2\fermata \bar "||"
-    \tempoG-XXc R1*28 %181
+    \tempoG-XIVc R1*28 %181
     r2 r4 c\fE
     g8 g16 g g8 g c8. c16 c4
     r c g8 g g g
@@ -47,14 +47,14 @@ G-XXTimpani = {
     r8 g g g c4. c8
     g2 r %190
     R1*13 \bar "||" %203
-    \time 3/2 \tempoG-XXd \newSpacingSection R1.*22 %225
+    \time 3/2 \tempoG-XIVd \newSpacingSection R1.*22 %225
     r2 g\fE g
     c c c
     R1.
     c2 c c
     c1 r2 \noBreak %230
     r g g
-    \time 2/2 \tempoG-XXe \newSpacingSection
+    \time 2/2 \tempoG-XIVe \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2
       c r r1
     R\breve*7 %239
@@ -68,7 +68,7 @@ G-XXTimpani = {
     r1 g2 c %260
     g g g g4 g \noBreak
     c\breve\fermata \bar "||"
-    \time 4/4 \tempoG-XXf \newSpacingSection
+    \time 4/4 \tempoG-XIVf \newSpacingSection
       \unset Staff.timeSignatureFraction
       R1*11 %273
     r4 c8\fE c g g16 g g8 g

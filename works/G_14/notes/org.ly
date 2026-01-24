@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XXOrgano = {
+G-XIVOrgano = {
   \relative c {
     \clef bass
-    \key c \major \time 3/2 \tempoG-XXa
+    \key c \major \time 3/2 \tempoG-XIVa
     \mvTr c'1\fE-\soloE c2
     h h1
     a1 a2
@@ -96,7 +96,7 @@ G-XXOrgano = {
     a a h %90
     c g g, \noBreak
     c r r\fermata \bar "||"
-    \time 4/4 \tempoG-XXb \newSpacingSection
+    \time 4/4 \tempoG-XIVb \newSpacingSection
       \mvTr a8\pE-\solo c d f e d c gis \noBreak
     a e' a,16 h c d e8 fis gis e
     a g f e d e f d %95
@@ -158,7 +158,7 @@ G-XXOrgano = {
     g g8 f e4 e
     f2 g4 c, \noBreak
     g2 c\fermata \bar "||"
-    \tempoG-XXc \mvTr e4.\fE-\solo fis8 g8. a16 g8 \hA fis \noBreak
+    \tempoG-XIVc \mvTr e4.\fE-\solo fis8 g8. a16 g8 \hA fis \noBreak
     g8. a16 g8 fis? e g a ais %155
     r h16 h, h'8 a gis gis gis gis
     r a c h ais fis gis \hA ais
@@ -208,7 +208,7 @@ G-XXOrgano = {
     e g a a g g a a
     g g fis e dis e a h \noBreak
     c4 a4. g8 a h
-    \time 3/2 \tempoG-XXd \newSpacingSection
+    \time 3/2 \tempoG-XIVd \newSpacingSection
       e,2 e-\tutti e \noBreak
     e1 d!2 %205
     cis1 c2
@@ -237,7 +237,7 @@ G-XXOrgano = {
     \clef bass c, d e
     f1 fis2~ \noBreak %230
     fis g1
-    \time 4/2 \tempoG-XXe \newSpacingSection
+    \time 4/2 \tempoG-XIVe \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2
       c,2-! \clef treble g''-! c1-! \noBreak
     h-! \parOn c4-\parenthesize-! d-! e2-!
@@ -284,7 +284,7 @@ G-XXOrgano = {
     f f g c, %260
     g\breve
     c\fermata \bar "||"
-    \time 4/4 \tempoG-XXf \newSpacingSection
+    \time 4/4 \tempoG-XIVf \newSpacingSection
       \unset Staff.timeSignatureFraction
       r2 \mvTr a'\fE-\tuttiE \noBreak
     a b4. a8
@@ -308,7 +308,7 @@ G-XXOrgano = {
   }
 }
 
-G-XXBassFigures = \figuremode {
+G-XIVBassFigures = \figuremode {
   r1.
   <6>2 <6\\>1
   r <6>2

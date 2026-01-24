@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XXViolinoII = {
+G-XIVViolinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/2 \tempoG-XXa
+    \key c \major \time 3/2 \tempoG-XIVa
     e'1\fE e2
     d d1
     c c2
@@ -67,7 +67,7 @@ G-XXViolinoII = {
     c c d %90
     c^\critnote c h \noBreak
     c r r\fermata \bar "||"
-    \time 4/4 \tempoG-XXb \newSpacingSection
+    \time 4/4 \tempoG-XIVb \newSpacingSection
       R1 \noBreak
     r2 r8 h\pE h4
     r2 r8 g a4 %95
@@ -121,7 +121,7 @@ G-XXViolinoII = {
     d d8 e16 f g4 g
     a a g g8 g \noBreak
     g2 g\fermata \bar "||"
-    \tempoG-XXc r8 h'\fE h h e,16( dis) e c' \appoggiatura c8 h8.^\critnote dis,16 \noBreak
+    \tempoG-XIVc r8 h'\fE h h e,16( dis) e c' \appoggiatura c8 h8.^\critnote dis,16 \noBreak
     e16( dis) e c' \appoggiatura c8 h8.^\critnote dis,16 \once \slurDashed e( \hA dis) e g fis8. ais,16 %155
     h ais h8 r d d8. c16 h a gis e
     a gis a8 r e' e8. d16 cis h ais fis
@@ -170,7 +170,7 @@ G-XXViolinoII = {
     g' fis e8 c'16 e, e8 h'16 e, e8 c'16 e, e8
     h'16 e, e8 a4~ a16 fis g e \hA fis4 \noBreak
     e16 e, e8 c'16 e, e8 dis16 h e a fis4
-    \time 3/2 \tempoG-XXd \newSpacingSection
+    \time 3/2 \tempoG-XIVd \newSpacingSection
       e2 h' h \noBreak
     ais1 h2 %205
     h1 ais2
@@ -195,7 +195,7 @@ G-XXViolinoII = {
     e1 e2
     d1 d2 \noBreak %230
     d d1
-    \time 2/2 \tempoG-XXe \newSpacingSection
+    \time 2/2 \tempoG-XIVe \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2
       e2 r r1 \noBreak
     R\breve
@@ -228,7 +228,7 @@ G-XXViolinoII = {
     a g %260
     g\breve \noBreak
     g\fermata \bar "||"
-    \time 4/4 \tempoG-XXf \newSpacingSection
+    \time 4/4 \tempoG-XIVf \newSpacingSection
       \unset Staff.timeSignatureFraction
       e'1\fE \noBreak
     f

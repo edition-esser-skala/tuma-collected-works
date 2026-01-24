@@ -1,8 +1,8 @@
 title: Litaniæ lauretanæ
-id: TumW G.20
+id: TumW G.14
 genre: litany
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
-ark: 68748/e1fitg20
+ark: 68748/e1fitg14
 license: cc-by-sa-4.0
 sources:
   B1:
@@ -12,7 +12,7 @@ sources:
     license: public domain
     principal: true
 toe: |
-  36  & clno 1 & 3td \halfNote\ in \B1: g″2 \\
+  36  & clno 1 & 3rd \halfNote\ in \B1: g″2 \\
   63  & clno 2 & bar in \B1: d″2–d″1 \\
   65  & clno 2 & bar in \B1: e″2–e″1 \\
   65  & org    & bar in \B1: c2–e1 \\

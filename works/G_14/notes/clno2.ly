@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XXClarinoII = {
+G-XIVClarinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/2 \tempoG-XXa
+    \key c \major \time 3/2 \tempoG-XIVa
     e'1 e2
     d d1
     c c2
@@ -50,7 +50,7 @@ G-XXClarinoII = {
     r2 c d %90
     g, g g \noBreak
     e r r\fermata \bar "||"
-    \time 4/4 \tempoG-XXb \newSpacingSection R1*47 %139
+    \time 4/4 \tempoG-XIVb \newSpacingSection R1*47 %139
     R1 %140
     r4 c'\fE g c
     R1
@@ -61,7 +61,7 @@ G-XXClarinoII = {
     r4 d e e
     c c g g8 g \noBreak
     g2 g\fermata \bar "||"
-    \tempoG-XXc R1*28 %181
+    \tempoG-XIVc R1*28 %181
     r2 r4 e'\fE
     d d e8. e16 e8 e
     e4 e d d8 d
@@ -72,7 +72,7 @@ G-XXClarinoII = {
     g,4 g g c8 c
     g4 g r2 %190
     R1*13 %203
-    \time 3/2 \tempoG-XXd \newSpacingSection R1.*18 %221
+    \time 3/2 \tempoG-XIVd \newSpacingSection R1.*18 %221
     d'2\fE d d
     c1 c2
     c c c
@@ -83,7 +83,7 @@ G-XXClarinoII = {
     c2 c c
     c c c \noBreak %230
     c g1
-    \time 2/2 \tempoG-XXe \newSpacingSection
+    \time 2/2 \tempoG-XIVe \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2
       g2 r r1 \noBreak
     R\breve*7 %239
@@ -101,7 +101,7 @@ G-XXClarinoII = {
     c f d e
     d\breve \noBreak
     e\fermata \bar "||"
-    \time 4/4 \tempoG-XXf \newSpacingSection
+    \time 4/4 \tempoG-XIVf \newSpacingSection
       \unset Staff.timeSignatureFraction
       R1*11 %273
     r4 e8\fE d16 c g4 g8 g

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XXTenore = {
+G-XIVTenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \major \time 3/2 \tempoG-XXa \autoBeamOff
+    \key c \major \time 3/2 \tempoG-XIVa \autoBeamOff
     R1.*15 %15
     \mvTr c2.\pE^\solo c4 c2
     h h1
@@ -64,7 +64,7 @@ G-XXTenore = {
     g2 r r
     R1.*14 \noBreak %91
     R1.\fermata \bar "||"
-    \time 4/4 \tempoG-XXb \newSpacingSection
+    \time 4/4 \tempoG-XIVb \newSpacingSection
       R1*20 %112
     r2 r4 r8 \mvTr h\pE^\soloE
     h e d! c h g r e'
@@ -104,7 +104,7 @@ G-XXTenore = {
     h4 r r c8 h
     a4 a h c8 c^\critnote \noBreak
     c4( h) c2\fermata \bar "||"
-    \tempoG-XXc R1*13 %166
+    \tempoG-XIVc R1*13 %166
     r2 \mvTr fis8\pE^\soloE e16([ d)] e8 d16 cis
     d8. cis16 h8 fis h cis d4
     cis cis8 d16([ e)] d8([ cis)] d4
@@ -129,7 +129,7 @@ G-XXTenore = {
     h4 h h2 %195
     h4 r r2
     R1*7 %203
-    \time 3/2 \tempoG-XXd \newSpacingSection
+    \time 3/2 \tempoG-XIVd \newSpacingSection
       r2 \mvTr e\fE^\tuttiE e \noBreak
     cis1 d!2 %205
     e1 e2
@@ -156,7 +156,7 @@ G-XXTenore = {
     g2 g g
     a1 a2 \noBreak %230
     a g1
-    \time 2/2 \tempoG-XXe \newSpacingSection
+    \time 2/2 \tempoG-XIVe \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2
       g2 r r1 \noBreak
     R\breve*4 %236
@@ -184,7 +184,7 @@ G-XXTenore = {
     a, f'4( e) d2 e %260
     d\breve \noBreak
     e\fermata \bar "||"
-    \time 4/4 \tempoG-XXf \newSpacingSection
+    \time 4/4 \tempoG-XIVf \newSpacingSection
       \unset Staff.timeSignatureFraction
       r2 \mvTr c\fE^\tuttiE \noBreak
     c d4 d8 d
@@ -204,7 +204,7 @@ G-XXTenore = {
   }
 }
 
-G-XXTenoreLyrics = \lyricmode {
+G-XIVTenoreLyrics = \lyricmode {
   Ky -- ri -- e %16
   e -- lei --
   son, e --

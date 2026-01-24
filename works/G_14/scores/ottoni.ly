@@ -10,7 +10,7 @@
 
 \book {
   \bookpart {
-    \section "G.20" "Litaniæ lauretanæ"
+    \section "G.14" "Litaniæ lauretanæ"
     \addTocEntry
     \score {
       <<
@@ -19,17 +19,17 @@
             \set GrandStaff.instrumentName = \transposedNameShort "clno" "C" ""
             \new Staff {
               \set Staff.instrumentName = "1"
-              \G-XXClarinoI
+              \G-XIVClarinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \G-XXClarinoII
+              \G-XIVClarinoII
             }
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
-          \G-XXTimpani
+          \G-XIVTimpani
         }
       >>
     }

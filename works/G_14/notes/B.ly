@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XXBasso = {
+G-XIVBasso = {
   \relative c {
     \clef bass
-    \key c \major \time 3/2 \tempoG-XXa \autoBeamOff
+    \key c \major \time 3/2 \tempoG-XIVa \autoBeamOff
     R1.*23 %23
     \mvTr g'2.\pE^\soloE f4 e2
     c d1 %25
@@ -53,7 +53,7 @@ G-XXBasso = {
     c2 r r
     R1.*14 \noBreak %91
     R1.\fermata \bar "||"
-    \time 4/4 \tempoG-XXb \newSpacingSection
+    \time 4/4 \tempoG-XIVb \newSpacingSection
       R1*30 %122
     r2 \mvTr g'4.\fE^\tutti g8
     fis?4. h8 e,4. e8
@@ -84,7 +84,7 @@ G-XXBasso = {
     g g8 f e4 e
     f f g c,8 c \noBreak
     g2 \mvTrr c\fermata^\critnote \bar "||"
-    \tempoG-XXc R1*20 %173
+    \tempoG-XIVc R1*20 %173
     r2 \mvTr fis?4.\pE^\solo h8
     ais([ g!)] fis([ e)] d([ cis)] h h' %175
     a4 g8([ fis?)] g([ \hA fis)] e g
@@ -109,7 +109,7 @@ G-XXBasso = {
     a g8([ a)] h2 %195
     e,4 r r2
     R1*7 %203
-    \time 3/2 \tempoG-XXd \newSpacingSection
+    \time 3/2 \tempoG-XIVd \newSpacingSection
       r2 \mvTr e\fE^\tuttiE e \noBreak
     e1 d!2 %205
     cis1 c2
@@ -134,7 +134,7 @@ G-XXBasso = {
     c2 d e
     f1 fis2 \noBreak %230
     fis g1
-    \time 2/2 \tempoG-XXe \newSpacingSection
+    \time 2/2 \tempoG-XIVe \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2
       c,2 r r1 \noBreak
     R\breve*7 %239
@@ -158,7 +158,7 @@ G-XXBasso = {
     f f g c, %260
     g\breve \noBreak
     c\fermata \bar "||"
-    \time 4/4 \tempoG-XXf \newSpacingSection
+    \time 4/4 \tempoG-XIVf \newSpacingSection
       \unset Staff.timeSignatureFraction
       r2 \mvTr a'4\fE^\tutti a \noBreak
     a a b b8 a
@@ -178,7 +178,7 @@ G-XXBasso = {
   }
 }
 
-G-XXBassoLyrics = \lyricmode {
+G-XIVBassoLyrics = \lyricmode {
   Ky -- ri -- e %24
   e -- lei -- %25
   son,

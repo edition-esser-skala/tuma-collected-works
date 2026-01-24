@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XXSoprano = {
+G-XIVSoprano = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/2 \tempoG-XXa \autoBeamOff
+    \key c \major \time 3/2 \tempoG-XIVa \autoBeamOff
     R1.*15 %15
     \mvTr e'2.\pE^\solo e4 e2
     d d1
@@ -63,7 +63,7 @@ G-XXSoprano = {
     c2 r r
     R1.*14 \noBreak %91
     R1.\fermata \bar "||"
-    \time 4/4 \tempoG-XXb \newSpacingSection
+    \time 4/4 \tempoG-XIVb \newSpacingSection
       \mvTr e4\pE^\solo d16([ c)] h([ a)] gis4 a8 h \noBreak
     c h c4 h h8 e
     cis4. d16([ e)] f8. e16 d8 a16 d %95
@@ -102,7 +102,7 @@ G-XXSoprano = {
     g r4 e'8 d
     c4. f8 d4 e8 e \noBreak
     d2 e\fermata \bar "||"
-    \tempoG-XXc R1*22 %175
+    \tempoG-XIVc R1*22 %175
     r2 r4 \mvTr e\pE^\solo
     dis8([ c!)] h([ a)] g fis e e'
     d4 c8([ h)] c([ h)] a4
@@ -125,7 +125,7 @@ G-XXSoprano = {
     dis e e( \hA dis) %195
     e r r2
     R1*7 %203
-    \time 3/2 \tempoG-XXd \newSpacingSection
+    \time 3/2 \tempoG-XIVd \newSpacingSection
       r2 \mvTr h\fE^\tutti h \noBreak
     ais1 h2 %205
     h1 ais2
@@ -152,7 +152,7 @@ G-XXSoprano = {
     c1 c2
     c1 c2 \noBreak %230
     c c( h)
-    \time 2/2 \tempoG-XXe \newSpacingSection
+    \time 2/2 \tempoG-XIVe \newSpacingSection
      \set Staff.timeSignatureFraction = 2/2
      c g c1 \noBreak
     h c4( d) e2
@@ -185,7 +185,7 @@ G-XXSoprano = {
     c d4( c) h2 c %260
     c( h4 \once \stemDown a h1) \noBreak
     c\breve\fermata \bar "||"
-    \time 4/4 \tempoG-XXf \newSpacingSection
+    \time 4/4 \tempoG-XIVf \newSpacingSection
      \unset Staff.timeSignatureFraction
      \mvTr e2\fE^\tutti e \noBreak
     f1
@@ -209,7 +209,7 @@ G-XXSoprano = {
   }
 }
 
-G-XXSopranoLyrics = \lyricmode {
+G-XIVSopranoLyrics = \lyricmode {
   Ky -- ri -- e %16
   e -- lei --
   son, e --
