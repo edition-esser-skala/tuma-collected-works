@@ -1,7 +1,7 @@
 \version "2.24.2"
 
-tempoD-II-XXIa = \tempoMarkup "Alla capella · Vivace"
-tempoD-II-XXIb = \tempoMarkup "Adagio"
+tempoD-II-XXa = \tempoMarkup "Alla capella · Vivace"
+tempoD-II-XXb = \tempoMarkup "Adagio"
 
 \include "notes/cnto.ly"
 \include "notes/fag.ly"

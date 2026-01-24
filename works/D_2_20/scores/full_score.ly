@@ -13,7 +13,7 @@
 
 \book {
   \bookpart {
-    \section "D.2.21" "Nisi Dominus"
+    \section "D.2.20" "Nisi Dominus"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -21,36 +21,36 @@
         \new ChoirStaff <<
           \new Staff {
             \incipit \markup \center-column { "Soprano" "Cornetto" "Violino" } "soprano" #-20.5 #-0.3
-            \new Voice = "Soprano" { \dynamicUp \D-II-XXISoprano }
+            \new Voice = "Soprano" { \dynamicUp \D-II-XXSoprano }
           }
-          \new Lyrics \lyricsto Soprano \D-II-XXISopranoLyrics
+          \new Lyrics \lyricsto Soprano \D-II-XXSopranoLyrics
 
           \new Staff {
             \incipit \markup \center-column { "Alto" "Trombone I" "Viola" } "alto" #-22 #-0.3
-            \new Voice = "Alto" { \dynamicUp \D-II-XXIAlto }
+            \new Voice = "Alto" { \dynamicUp \D-II-XXAlto }
           }
-          \new Lyrics \lyricsto Alto \D-II-XXIAltoLyrics
+          \new Lyrics \lyricsto Alto \D-II-XXAltoLyrics
 
           \new Staff {
             \incipit \markup \center-column { "Tenore" "Trombone II" } "tenor" #-22.4 #-0.3
-            \new Voice = "Tenore" { \dynamicUp \D-II-XXITenore }
+            \new Voice = "Tenore" { \dynamicUp \D-II-XXTenore }
           }
-          \new Lyrics \lyricsto Tenore \D-II-XXITenoreLyrics
+          \new Lyrics \lyricsto Tenore \D-II-XXTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \D-II-XXIBasso }
+            \new Voice = "Basso" { \dynamicUp \D-II-XXBasso }
           }
-          \new Lyrics \lyricsto Basso \D-II-XXIBassoLyrics
+          \new Lyrics \lyricsto Basso \D-II-XXBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo," "Fagotto" "e Bassi" }
             % \transpose c c,
-            \D-II-XXIOrgano
+            \D-II-XXOrgano
           }
         >>
-        \new FiguredBass { \D-II-XXIBassFigures }
+        \new FiguredBass { \D-II-XXBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 90 }

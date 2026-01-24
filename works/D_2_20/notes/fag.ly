@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XXIFagotto = {
+D-II-XXFagotto = {
   \relative c {
     \clef bass
-    \key d \dorian \time 4/4 \tempoD-II-XXIa
+    \key d \dorian \time 4/4 \tempoD-II-XXa
     d4. d8 e4. e8
     f4. f8 e d16 c h8 e16 d
     c4 f e2
@@ -63,7 +63,7 @@ D-II-XXIFagotto = {
     a1~
     a
     a2 d4 r
-    r2 \tempoD-II-XXIb g,
+    r2 \tempoD-II-XXb g,
     d'1\fermata \bar "|." %65 finis
   }
 }

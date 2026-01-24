@@ -2,17 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "trb 1")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "D.2.21" "Nisi Dominus"
+    \section "D.2.20" "Nisi Dominus"
     \addTocEntry
     \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \D-II-XXITromboneI }
+        \new Staff { \D-II-XXViolinoII }
       >>
     }
   }

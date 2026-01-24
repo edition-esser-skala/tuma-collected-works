@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XXIOrgano = {
+D-II-XXOrgano = {
   \relative c {
     \clef bass
-    \key d \dorian \time 4/4 \tempoD-II-XXIa
+    \key d \dorian \time 4/4 \tempoD-II-XXa
     d4.-! d8-! e4.-! e8-!
     f4. f8 e d16 c h8 e16 d
     c4 f e2
@@ -74,12 +74,12 @@ D-II-XXIOrgano = {
     a1~-\tasto
     a
     a2 d4 r
-    r2 \tempoD-II-XXIb g,
+    r2 \tempoD-II-XXb g,
     d1\fermata \bar "|." %65 finis
   }
 }
 
-D-II-XXIBassFigures = \figuremode {
+D-II-XXBassFigures = \figuremode {
   r1
   <3>4. <\t>8 <5> <6> <8> <5>
   <6>2 <5 4>4 <\t _+>

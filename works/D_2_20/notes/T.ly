@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XXITenore = {
+D-II-XXTenore = {
   \relative c' {
     \clef "treble_8"
-    \key d \dorian \time 4/4 \tempoD-II-XXIa \autoBeamOff
+    \key d \dorian \time 4/4 \tempoD-II-XXa \autoBeamOff
     R1
     a4. a8 h4. h8
     c c c a a4 gis8 gis
@@ -65,12 +65,12 @@ D-II-XXITenore = {
     e,4 cis'~ cis8[ d16 \hA cis] h8[ \once \tieDashed d]~
     d[ e16 d] cis8 e a,2~
     a a4 r
-    r2 \tempoD-II-XXIb d
+    r2 \tempoD-II-XXb d
     d1\fermata \bar "|." %65 finis
   }
 }
 
-D-II-XXITenoreLyrics = \lyricmode {
+D-II-XXTenoreLyrics = \lyricmode {
   Ni -- si Do -- mi -- %2
   nus ae -- di -- fi -- ca -- ve -- rit
   do -- _

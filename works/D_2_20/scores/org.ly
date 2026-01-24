@@ -2,16 +2,18 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "cnto")
+#(define option-instrument-name "org")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "D.2.21" "Nisi Dominus"
+    \section "D.2.20" "Nisi Dominus"
     \addTocEntry
+    \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \D-II-XXICornetto }
+        \new Staff { \D-II-XXOrgano }
+        \new FiguredBass { \D-II-XXBassFigures }
       >>
     }
   }

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XXISoprano = {
+D-II-XXSoprano = {
   \relative c' {
     \clef treble
-    \key d \dorian \time 4/4 \tempoD-II-XXIa \autoBeamOff
+    \key d \dorian \time 4/4 \tempoD-II-XXa \autoBeamOff
     R1*2
     a'4. a8 h4. h8
     c c c c b8. c16 d4
@@ -62,12 +62,12 @@ D-II-XXISoprano = {
     cis4 a8 a a2
     a cis4 d
     d( cis) d r
-    r2 \tempoD-II-XXIb b
+    r2 \tempoD-II-XXb b
     a1\fermata \bar "|." %65 finis
   }
 }
 
-D-II-XXISopranoLyrics = \lyricmode {
+D-II-XXSopranoLyrics = \lyricmode {
   Ni -- si Do -- mi -- %3
   nus ae -- di -- fi -- ca -- ve -- rit
   do -- mum, %5

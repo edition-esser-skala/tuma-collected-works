@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-D-II-XXIAlto = {
+D-II-XXAlto = {
   \relative c' {
     \clef treble
-    \key d \dorian \time 4/4 \tempoD-II-XXIa \autoBeamOff
+    \key d \dorian \time 4/4 \tempoD-II-XXa \autoBeamOff
     R1*3
     r2 d4. d8
     e4. e8 f4 f %5
@@ -62,12 +62,12 @@ D-II-XXIAlto = {
     e4 e4. f16[ e] d8[ f]~
     f[ g16 f] e8[ g]~ g4 f
     e2 d4 r
-    r2 \tempoD-II-XXIb g~
+    r2 \tempoD-II-XXb g~
     g4 fis8[ e] \hA fis2\fermata \bar "|." %65 finis
   }
 }
 
-D-II-XXIAltoLyrics = \lyricmode {
+D-II-XXAltoLyrics = \lyricmode {
   Ni -- si %4
   Do -- mi -- nus ae -- %5
   di -- fi -- ca -- ve -- rit
