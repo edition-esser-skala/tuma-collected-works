@@ -2,68 +2,86 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 2")
+#(define option-instrument-name "b")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "F.5" "Stabat mater"
+    \section "F.4" "Stabat mater"
     \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \F-VaViolinoII }
+        \new Staff { \F-IVaOrgano }
       >>
     }
   }
   \bookpart {
     \subsection "O quam tristis et afflicta"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \F-VbViolinoII }
+        \new Staff { \F-IVbOrgano }
       >>
     }
   }
   \bookpart {
     \subsection "Pro peccatis suæ gentis"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \F-VcViolinoII }
+        \new Staff { \F-IVcOrgano }
       >>
     }
-    \tacet "subsection" "Eia mater fons amoris"
+  }
+  \bookpart {
+    \subsection "Eia mater fons amoris"
+    \addTocEntry
+    \paper { systems-per-page = #7 }
+    \score {
+      <<
+        \new Staff { \F-IVdOrgano }
+      >>
+    }
   }
   \bookpart {
     \subsection "Sancta mater, istud agas"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \F-VeViolinoII }
+        \new Staff { \F-IVeOrgano }
       >>
     }
   }
   \bookpart {
     \subsection "Fac me tecum pie flere"
     \addTocEntry
-    \paper { system-count = #12 }
     \score {
       <<
-        \new Staff { \F-VfViolinoII }
+        \new Staff { \F-IVfOrgano }
       >>
     }
-    \tacet "subsection" "Fac me plagis vulnerari"
+  }
+  \bookpart {
+    \subsection "Fac me plagis vulnerari"
+    \addTocEntry
+    \paper { systems-per-page = #5 }
+    \score {
+      <<
+        \new Staff { \F-IVgOrgano }
+      >>
+    }
   }
   \bookpart {
     \subsection "Quando corpus morietur"
     \addTocEntry
+    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \F-VhViolinoII }
+        \new Staff { \F-IVhOrgano }
       >>
     }
   }

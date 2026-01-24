@@ -2,20 +2,29 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "trb 1")
+#(define option-instrument-name "vl 1")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "F.5" "Stabat mater"
+    \section "F.4" "Stabat mater"
     \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \F-VaTromboneI }
+        \new Staff { \F-IVaViolinoI }
       >>
     }
-    \tacet "subsection" "O quam tristis et afflicta"
+  }
+  \bookpart {
+    \subsection "O quam tristis et afflicta"
+    \addTocEntry
+    \paper { systems-per-page = #8 }
+    \score {
+      <<
+        \new Staff { \F-IVbViolinoI }
+      >>
+    }
   }
   \bookpart {
     \subsection "Pro peccatis suæ gentis"
@@ -23,7 +32,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \F-VcTromboneI }
+        \new Staff { \F-IVcViolinoI }
       >>
     }
     \tacet "subsection" "Eia mater fons amoris"
@@ -31,31 +40,30 @@
   \bookpart {
     \subsection "Sancta mater, istud agas"
     \addTocEntry
-    \paper { systems-per-page = #7 }
+    \paper { systems-per-page = #8 }
     \score {
       <<
-        \new Staff { \F-VeTromboneI }
+        \new Staff { \F-IVeViolinoI }
       >>
     }
-    \tacet "subsection" "Fac me tecum pie flere"
   }
   \bookpart {
-    \subsection "Fac me plagis vulnerari"
+    \subsection "Fac me tecum pie flere"
     \addTocEntry
-    \paper { systems-per-page = #5 }
+    \paper { system-count = #12 }
     \score {
       <<
-        \new Staff { \F-VgTromboneI }
+        \new Staff { \F-IVfViolinoI }
       >>
     }
+    \tacet "subsection" "Fac me plagis vulnerari"
   }
   \bookpart {
     \subsection "Quando corpus morietur"
     \addTocEntry
-    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \F-VhTromboneI }
+        \new Staff { \F-IVhViolinoI }
       >>
     }
   }

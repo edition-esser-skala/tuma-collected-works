@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-F-VaAlto = {
+F-IVaAlto = {
   \relative c' {
     \clef treble
-    \key f \dorian \time 4/4 \tempoF-Vaa \autoBeamOff
+    \key f \dorian \time 4/4 \tempoF-IVaa \autoBeamOff
     r2 \mvTr f8([\fE^\tutti as)] g([ f)]
     e2 f8 des([ c)] b
     as4. as'8 g4 g
@@ -20,7 +20,7 @@ F-VaAlto = {
     f4( es f2)
     b, f'4 f %15
     \once \tieDashed f2~ f8[ as g f]
-    e2 \tempoF-Vab r
+    e2 \tempoF-IVab r
     R1
     f8([ ges)] f([ es)] des([ es)] \hA des([ c)]
     b4 es es es, %20
@@ -33,7 +33,7 @@ F-VaAlto = {
   }
 }
 
-F-VaAltoLyrics = \lyricmode {
+F-IVaAltoLyrics = \lyricmode {
   Sta -- bat
   ma -- ter, ma -- ter
   do -- lo -- ro -- sa,
@@ -62,10 +62,10 @@ F-VaAltoLyrics = \lyricmode {
   di -- us. %26 finis
 }
 
-F-VbAlto = {
+F-IVbAlto = {
   \relative c' {
     \clef treble
-    \key c \dorian \time 4/4 \autoBeamOff \tempoF-Vb
+    \key c \dorian \time 4/4 \autoBeamOff \tempoF-IVb
       \set Score.currentBarNumber = #27
     R1*21 %47
     r4 \mvTr g'8\pE^\solo g f4 f
@@ -88,7 +88,7 @@ F-VbAlto = {
   }
 }
 
-F-VbAltoLyrics = \lyricmode {
+F-IVbAltoLyrics = \lyricmode {
   Quis est ho -- mo, %48
   qui non fle --
   _ ret, Chri -- sti %50
@@ -108,10 +108,10 @@ F-VbAltoLyrics = \lyricmode {
   fi -- li -- o? %64 finis
 }
 
-F-VcAlto = {
+F-IVcAlto = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoF-Vca
+    \key g \minor \time 4/4 \autoBeamOff \tempoF-IVca
       \set Score.currentBarNumber = #65
     \mvTr g'4.\fE^\tutti g8 a g r g
     a g r g g f! r f
@@ -126,7 +126,7 @@ F-VcAlto = {
     g2~ g8 g es es %75
     d2. d4
     d c d r
-    \tempoF-Vcb r a'8 a as4 as
+    \tempoF-IVcb r a'8 a as4 as
     as8([ f!)] d([ as')] g4 g
     es es es( f8) fis %80
     g4 g r2
@@ -143,7 +143,7 @@ F-VcAlto = {
   }
 }
 
-F-VcAltoLyrics = \lyricmode {
+F-IVcAltoLyrics = \lyricmode {
   Pro pec -- ca -- tis, pec -- %65
   ca -- tis, pec -- ca -- tis, pec --
   ca -- tis su -- ae gen -- tis vi -- dit
@@ -171,10 +171,10 @@ F-VcAltoLyrics = \lyricmode {
   spi -- ri -- tum. %89 finis
 }
 
-F-VeAlto = {
+F-IVeAlto = {
   \relative c' {
     \clef treble
-    \key d \phrygian \time 4/4 \autoBeamOff \tempoF-Ve
+    \key d \phrygian \time 4/4 \autoBeamOff \tempoF-IVe
       \set Score.currentBarNumber = #123
     r4 \mvTr f8\fE^\tutti f a4 a
     r2 r4 f8 f
@@ -206,7 +206,7 @@ F-VeAlto = {
   }
 }
 
-F-VeAltoLyrics = \lyricmode {
+F-IVeAltoLyrics = \lyricmode {
   San -- cta ma -- ter, %123
   i -- stud
   a -- gas, %125
@@ -237,10 +237,10 @@ F-VeAltoLyrics = \lyricmode {
   di -- vi -- de. %149 finis
 }
 
-F-VfAlto = {
+F-IVfAlto = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoF-Vf
+    \key g \minor \time 4/4 \autoBeamOff \tempoF-IVf
       \set Score.currentBarNumber = #150
     R1*6 %155
     r2 \mvTr d4.\pE^\solo g8
@@ -278,7 +278,7 @@ F-VfAlto = {
   }
 }
 
-F-VfAltoLyrics = \lyricmode {
+F-IVfAltoLyrics = \lyricmode {
   Fac me %156
   te -- cum pi -- e
   fle -- re, cru -- ci --
@@ -311,10 +311,10 @@ F-VfAltoLyrics = \lyricmode {
   re. %187 finis
 }
 
-F-VgAlto = {
+F-IVgAlto = {
   \relative c' {
     \clef treble
-    \key es \major \time 3/2 \autoBeamOff \tempoF-Vg
+    \key es \major \time 3/2 \autoBeamOff \tempoF-IVg
       \set Score.currentBarNumber = #193
     R1.*28 %220
     r2 \mvTr g'\pE^\solo g
@@ -332,7 +332,7 @@ F-VgAlto = {
   }
 }
 
-F-VgAltoLyrics = \lyricmode {
+F-IVgAltoLyrics = \lyricmode {
   Chri -- ste, %221
   cum sit hinc ex --
   i -- re,
@@ -345,14 +345,14 @@ F-VgAltoLyrics = \lyricmode {
   ae. %230 finis
 }
 
-F-VhAlto = {
+F-IVhAlto = {
   \relative c' {
     \clef treble
-    \key f \dorian \time 4/4 \autoBeamOff \tempoF-Vha
+    \key f \dorian \time 4/4 \autoBeamOff \tempoF-IVha
       \set Score.currentBarNumber = #233
     \mvTr f4.\fE^\tutti f8 f4 f
     e4. e8 f4 f\fermata
-    \tempoF-Vhb R1*7 %241
+    \tempoF-IVhb R1*7 %241
     r2 f4. f8
     e4. e8 f4. fis8
     g[ f] es[ d16 c] d2
@@ -388,7 +388,7 @@ F-VhAlto = {
   }
 }
 
-F-VhAltoLyrics = \lyricmode {
+F-IVhAltoLyrics = \lyricmode {
   Quan -- do cor -- pus %233
   mo -- ri -- e -- tur,
 

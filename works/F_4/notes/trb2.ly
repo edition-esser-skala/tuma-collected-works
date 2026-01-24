@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-F-VaTromboneII = {
+F-IVaTromboneII = {
   \relative c' {
     \clef tenor
-    \key f \dorian \time 4/4 \tempoF-Vaa
+    \key f \dorian \time 4/4 \tempoF-IVaa
     R1*2
     c2~\fE c8 des c b
     as f c'4 des2
@@ -19,7 +19,7 @@ F-VaTromboneII = {
     b2 d
     es4. b8 c2 %15
     d4 d, f2
-    g \tempoF-Vab r
+    g \tempoF-IVab r
     c8 des c b as b as g?
     f4 a b f
     b8 c b as g as g f %20
@@ -32,10 +32,10 @@ F-VaTromboneII = {
   }
 }
 
-F-VcTromboneII = {
+F-IVcTromboneII = {
   \relative c' {
     \clef tenor
-    \key g \minor \time 4/4 \tempoF-Vca
+    \key g \minor \time 4/4 \tempoF-IVca
       \set Score.currentBarNumber = #65
     d4.\fE d8 d d r d
     d d r d c c r c
@@ -50,7 +50,7 @@ F-VcTromboneII = {
     b2 c4 c8 c %75
     a4 a8 a b4 a
     b a8 g a4 r
-    \tempoF-Vcb r d8 d d4 d
+    \tempoF-IVcb r d8 d d4 d
     d d b8 g es g
     b4 b c2 %80
     d4 d r2
@@ -64,10 +64,10 @@ F-VcTromboneII = {
   }
 }
 
-F-VeTromboneII = {
+F-IVeTromboneII = {
   \relative c' {
     \clef tenor
-    \key d \phrygian \time 4/4 \tempoF-Ve
+    \key d \phrygian \time 4/4 \tempoF-IVe
       \set Score.currentBarNumber = #123
     r4 c\fE c c
     r2 r4 c
@@ -99,10 +99,10 @@ F-VeTromboneII = {
   }
 }
 
-F-VgTromboneII = {
+F-IVgTromboneII = {
   \relative c' {
     \clef tenor
-    \key es \major \time 3/2 \tempoF-Vg
+    \key es \major \time 3/2 \tempoF-IVg
       \set Score.currentBarNumber = #193
     b1\pE b2
     as b1
@@ -140,10 +140,10 @@ F-VgTromboneII = {
   }
 }
 
-F-VhTromboneII = {
+F-IVhTromboneII = {
   \relative c' {
     \clef tenor
-    \key f \dorian \time 4/4 \tempoF-Vha
+    \key f \dorian \time 4/4 \tempoF-IVha
       \set Score.currentBarNumber = #233
     c4.\fE c8 des4 des
     g,4. c8 c4 c\fermata

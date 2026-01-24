@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-F-VaSoprano = {
+F-IVaSoprano = {
   \relative c' {
     \clef treble
-    \key f \dorian \time 4/4 \tempoF-Vaa \autoBeamOff
+    \key f \dorian \time 4/4 \tempoF-IVaa \autoBeamOff
     \mvTr c'2\fE^\tutti c
     c8[ des c b] as[ b as g]
     f2 g4 c~
@@ -20,7 +20,7 @@ F-VaSoprano = {
     b2( as!)
     ges4 b8 b a2 %15
     h1
-    c2 \tempoF-Vab c8([ des)] c([ b)]
+    c2 \tempoF-IVab c8([ des)] c([ b)]
     as([ b)] as([ g)] f4 c'
     des f, b8([ c)] b([ as!)]
     g([ as)] g([ f)] es4 b' %20
@@ -33,7 +33,7 @@ F-VaSoprano = {
   }
 }
 
-F-VaSopranoLyrics = \lyricmode {
+F-IVaSopranoLyrics = \lyricmode {
   Sta -- bat
   ma -- _
   _ ter do --
@@ -62,10 +62,10 @@ F-VaSopranoLyrics = \lyricmode {
   gla -- di -- us. %26 finis
 }
 
-F-VbSoprano = {
+F-IVbSoprano = {
   \relative c' {
     \clef treble
-    \key c \dorian \time 4/4 \autoBeamOff \tempoF-Vb
+    \key c \dorian \time 4/4 \autoBeamOff \tempoF-IVb
       \set Score.currentBarNumber = #27
     R1*3
     r2 \mvTr g'4\pE^\solo es' %30
@@ -90,7 +90,7 @@ F-VbSoprano = {
   }
 }
 
-F-VbSopranoLyrics = \lyricmode {
+F-IVbSopranoLyrics = \lyricmode {
   O quam %30
   tri -- stis et af --
   fli -- cta fu -- it il -- la
@@ -110,10 +110,10 @@ F-VbSopranoLyrics = \lyricmode {
   ti.
 }
 
-F-VcSoprano = {
+F-IVcSoprano = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoF-Vca
+    \key g \minor \time 4/4 \autoBeamOff \tempoF-IVca
       \set Score.currentBarNumber = #65
     \mvTr b'4.\fE^\tutti d8 c b r b
     a h r h c a r a
@@ -128,7 +128,7 @@ F-VcSoprano = {
     g,[ b es, es'] c[ es a, c] %75
     fis,[ a d, d'] b[ c] d4
     g,4. g8 fis4 r
-    \tempoF-Vcb r fis8 fis f4 f
+    \tempoF-IVcb r fis8 fis f4 f
     f4. f8 g([ as)] b([ c)]
     des([ b)] es,([ des')] c4. c8 %80
     c4 h g\p g
@@ -145,7 +145,7 @@ F-VcSoprano = {
   }
 }
 
-F-VcSopranoLyrics = \lyricmode {
+F-IVcSopranoLyrics = \lyricmode {
   Pro pec -- ca -- tis, pec -- %65
   ca -- tis, pec -- ca -- tis, pec --
   ca -- tis su -- ae gen -- tis
@@ -173,10 +173,10 @@ F-VcSopranoLyrics = \lyricmode {
   spi -- ri -- tum. %89 finis
 }
 
-F-VdSoprano = {
+F-IVdSoprano = {
   \relative c' {
     \clef treble
-    \key f \dorian \time 4/4 \autoBeamOff \tempoF-Vd
+    \key f \dorian \time 4/4 \autoBeamOff \tempoF-IVd
       \set Score.currentBarNumber = #92
     \mvTr c'4.\pE^\solo f,8 ges4 f
     b~ b16[ des] c([ b)] as([ g)] f8 r4
@@ -205,7 +205,7 @@ F-VdSoprano = {
   }
 }
 
-F-VdSopranoLyrics = \lyricmode {
+F-IVdSopranoLyrics = \lyricmode {
   E -- ia, ma -- ter, %92
   fons __ a -- mo -- ris,
 
@@ -230,10 +230,10 @@ F-VdSopranoLyrics = \lyricmode {
   _ _ _ ce -- am. %117 finis
 }
 
-F-VeSoprano = {
+F-IVeSoprano = {
   \relative c' {
     \clef treble
-    \key d \phrygian \time 4/4 \autoBeamOff \tempoF-Ve
+    \key d \phrygian \time 4/4 \autoBeamOff \tempoF-IVe
       \set Score.currentBarNumber = #123
     r4 \mvTr c'8\fE^\tutti c f4 f
     r2 r4 es8 es
@@ -264,7 +264,7 @@ F-VeSoprano = {
   }
 }
 
-F-VeSopranoLyrics = \lyricmode {
+F-IVeSopranoLyrics = \lyricmode {
   San -- cta ma -- ter, %123
   i -- stud
   a -- gas, %125
@@ -293,10 +293,10 @@ F-VeSopranoLyrics = \lyricmode {
   di -- vi -- de. %149 finis
 }
 
-F-VgSoprano = {
+F-IVgSoprano = {
   \relative c' {
     \clef treble
-    \key es \major \time 3/2 \autoBeamOff \tempoF-Vg
+    \key es \major \time 3/2 \autoBeamOff \tempoF-IVg
       \set Score.currentBarNumber = #193
     R1.*28 %220
     r2 \mvTr b'\pE^\solo b
@@ -314,7 +314,7 @@ F-VgSoprano = {
   }
 }
 
-F-VgSopranoLyrics = \lyricmode {
+F-IVgSopranoLyrics = \lyricmode {
   Chri -- ste, %221
   cum sit hinc ex --
   i -- re,
@@ -327,10 +327,10 @@ F-VgSopranoLyrics = \lyricmode {
   ae. %230 finis
 }
 
-F-VhSoprano = {
+F-IVhSoprano = {
   \relative c' {
     \clef treble
-    \key f \dorian \time 4/4 \autoBeamOff \tempoF-Vha
+    \key f \dorian \time 4/4 \autoBeamOff \tempoF-IVha
       \set Score.currentBarNumber = #233
     \mvTr c'4.\fE^\tutti c8 b4 b
     b4. b8 as4 as\fermata
@@ -371,7 +371,7 @@ F-VhSoprano = {
   }
 }
 
-F-VhSopranoLyrics = \lyricmode {
+F-IVhSopranoLyrics = \lyricmode {
   Quan -- do cor -- pus %233
   mo -- ri -- e -- tur,
 

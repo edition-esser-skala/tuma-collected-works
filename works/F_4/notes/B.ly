@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-F-VaBasso = {
+F-IVaBasso = {
   \relative c {
     \clef bass
-    \key f \dorian \time 4/4 \tempoF-Vaa \autoBeamOff
+    \key f \dorian \time 4/4 \tempoF-IVaa \autoBeamOff
     R1
     r2 \mvTr f~\fE^\tutti
     f8[ as] g([ f)] e2(
@@ -20,7 +20,7 @@ F-VaBasso = {
     ges'2 f
     es2. es4 %15
     d!2( des)
-    c \tempoF-Vab r
+    c \tempoF-IVab r
     r f8([ ges)] f([ es!)]
     des([ es)] \hA des([ c)] b4 \hA des
     es es, es'8([ f)] es([ des)] %20
@@ -33,7 +33,7 @@ F-VaBasso = {
   }
 }
 
-F-VaBassoLyrics = \lyricmode {
+F-IVaBassoLyrics = \lyricmode {
   Sta -- %2
   bat do --
   lo -- ro --
@@ -61,10 +61,10 @@ F-VaBassoLyrics = \lyricmode {
   _ di -- us. %26 finis
 }
 
-F-VbBasso = {
+F-IVbBasso = {
   \relative c {
     \clef bass
-    \key c \dorian \time 4/4 \autoBeamOff \tempoF-Vb
+    \key c \dorian \time 4/4 \autoBeamOff \tempoF-IVb
       \set Score.currentBarNumber = #27
     R1*21 %47
     r4 \mvTr es8\pE^\solo es b'4 b
@@ -87,7 +87,7 @@ F-VbBasso = {
   }
 }
 
-F-VbBassoLyrics = \lyricmode {
+F-IVbBassoLyrics = \lyricmode {
   Quis est ho -- mo, %48
   qui non fle -- _
   _ ret, Chri -- sti %50
@@ -107,10 +107,10 @@ F-VbBassoLyrics = \lyricmode {
   fi -- li -- o? %64 finis
 }
 
-F-VcBasso = {
+F-IVcBasso = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \autoBeamOff \tempoF-Vca
+    \key g \minor \time 4/4 \autoBeamOff \tempoF-IVca
       \set Score.currentBarNumber = #65
     \mvTr g'4.\fE^\tutti b8 fis g r g
     fis f r f e es r es
@@ -125,7 +125,7 @@ F-VcBasso = {
     es4.( f16[ g]) es4 c %75
     d4.( e16[ fis] g4) f?
     es4. es8 d4 r
-    \tempoF-Vcb r d8 d h4 h
+    \tempoF-IVcb r d8 d h4 h
     b b es es
     g, g as4. as8 %80
     g4 g r2
@@ -142,7 +142,7 @@ F-VcBasso = {
   }
 }
 
-F-VcBassoLyrics = \lyricmode {
+F-IVcBassoLyrics = \lyricmode {
   Pro pec -- ca -- tis, pec -- %65
   ca -- tis, pec -- ca -- tis, pec --
   ca -- tis su -- ae gen -- tis
@@ -170,10 +170,10 @@ F-VcBassoLyrics = \lyricmode {
   spi -- ri -- tum. %89 finis
 }
 
-F-VeBasso = {
+F-IVeBasso = {
   \relative c {
     \clef bass
-    \key d \phrygian \time 4/4 \autoBeamOff \tempoF-Ve
+    \key d \phrygian \time 4/4 \autoBeamOff \tempoF-IVe
       \set Score.currentBarNumber = #123
     r4 \mvTr a!8\fE^\tutti a a4 a
     r2 r4 a8 a
@@ -205,7 +205,7 @@ F-VeBasso = {
   }
 }
 
-F-VeBassoLyrics = \lyricmode {
+F-IVeBassoLyrics = \lyricmode {
   San -- cta ma -- ter, %123
   i -- stud
   a -- gas, %125
@@ -235,10 +235,10 @@ F-VeBassoLyrics = \lyricmode {
   di -- vi -- de. %149 finis
 }
 
-F-VgBasso = {
+F-IVgBasso = {
   \relative c {
     \clef bass
-    \key es \major \time 3/2 \autoBeamOff \tempoF-Vg
+    \key es \major \time 3/2 \autoBeamOff \tempoF-IVg
       \set Score.currentBarNumber = #193
     b'2(\pE^\solo g) es
     c' b r
@@ -272,7 +272,7 @@ F-VgBasso = {
   }
 }
 
-F-VgBassoLyrics = \lyricmode {
+F-IVgBassoLyrics = \lyricmode {
   Fac __ me %193
   pla -- gis
   vul -- ne -- %195
@@ -302,10 +302,10 @@ F-VgBassoLyrics = \lyricmode {
   i. %219 finis
 }
 
-F-VhBasso = {
+F-IVhBasso = {
   \relative c {
     \clef bass
-    \key f \dorian \time 4/4 \autoBeamOff \tempoF-Vha
+    \key f \dorian \time 4/4 \autoBeamOff \tempoF-IVha
       \set Score.currentBarNumber = #233
     \mvTr f4.\fE^\tutti f8 f4 f
     f4. f8 f4 f,\fermata
@@ -351,7 +351,7 @@ F-VhBasso = {
   }
 }
 
-F-VhBassoLyrics = \lyricmode {
+F-IVhBassoLyrics = \lyricmode {
   Quan -- do cor -- pus %233
   mo -- ri -- e -- tur,
 

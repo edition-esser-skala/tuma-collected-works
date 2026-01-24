@@ -7,13 +7,13 @@
 
 \book {
   \bookpart {
-    \section "F.5" "Stabat mater"
+    \section "F.4" "Stabat mater"
     \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \F-VaOrgano }
-        \new FiguredBass { \F-VaBassFigures }
+        \new Staff { \F-IVaOrgano }
+        \new FiguredBass { \F-IVaBassFigures }
       >>
     }
   }
@@ -23,8 +23,8 @@
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \F-VbOrgano }
-        \new FiguredBass { \F-VbBassFigures }
+        \new Staff { \F-IVbOrgano }
+        \new FiguredBass { \F-IVbBassFigures }
       >>
     }
   }
@@ -34,8 +34,8 @@
     \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \F-VcOrgano }
-        \new FiguredBass { \F-VcBassFigures }
+        \new Staff { \F-IVcOrgano }
+        \new FiguredBass { \F-IVcBassFigures }
       >>
     }
   }
@@ -45,8 +45,8 @@
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \F-VdOrgano }
-        \new FiguredBass { \F-VdBassFigures }
+        \new Staff { \F-IVdOrgano }
+        \new FiguredBass { \F-IVdBassFigures }
       >>
     }
   }
@@ -56,8 +56,8 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \F-VeOrgano }
-        \new FiguredBass { \F-VeBassFigures }
+        \new Staff { \F-IVeOrgano }
+        \new FiguredBass { \F-IVeBassFigures }
       >>
     }
   }
@@ -66,8 +66,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \F-VfOrgano }
-        \new FiguredBass { \F-VfBassFigures }
+        \new Staff { \F-IVfOrgano }
+        \new FiguredBass { \F-IVfBassFigures }
       >>
     }
   }
@@ -77,8 +77,8 @@
     \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \F-VgOrgano }
-        \new FiguredBass { \F-VgBassFigures }
+        \new Staff { \F-IVgOrgano }
+        \new FiguredBass { \F-IVgBassFigures }
       >>
     }
   }
@@ -88,8 +88,8 @@
     \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \F-VhOrgano }
-        \new FiguredBass { \F-VhBassFigures }
+        \new Staff { \F-IVhOrgano }
+        \new FiguredBass { \F-IVhBassFigures }
       >>
     }
   }

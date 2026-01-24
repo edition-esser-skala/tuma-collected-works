@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-F-VaTenore = {
+F-IVaTenore = {
   \relative c' {
     \clef "treble_8"
-    \key f \dorian \time 4/4 \tempoF-Vaa \autoBeamOff
+    \key f \dorian \time 4/4 \tempoF-IVaa \autoBeamOff
     R1*2
     \mvTr c2~\fE^\tutti c8[ des] c([ b)]
     as f c' c des2
@@ -19,7 +19,7 @@ F-VaTenore = {
     b2( d)
     es4 es8 b c2 %15
     d4 d, f2
-    g \tempoF-Vab r
+    g \tempoF-IVab r
     c8([ des)] c([ b)] as([ b)] as([ g?)]
     f4 a b f
     b8([ c)] b([ as)] g([ as)] g([ f)] %20
@@ -32,7 +32,7 @@ F-VaTenore = {
   }
 }
 
-F-VaTenoreLyrics = \lyricmode {
+F-IVaTenoreLyrics = \lyricmode {
   Sta -- bat %3
   ma -- ter do -- lo -- ro --
   sa iux -- ta __ %5
@@ -59,10 +59,10 @@ F-VaTenoreLyrics = \lyricmode {
   gla -- di -- us. %26 finis
 }
 
-F-VbTenore = {
+F-IVbTenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \dorian \time 4/4 \autoBeamOff \tempoF-Vb
+    \key c \dorian \time 4/4 \autoBeamOff \tempoF-IVb
       \set Score.currentBarNumber = #27
     R1*21 %47
     r4 \mvTr es8\pE^\solo es es4 d
@@ -85,7 +85,7 @@ F-VbTenore = {
   }
 }
 
-F-VbTenoreLyrics = \lyricmode {
+F-IVbTenoreLyrics = \lyricmode {
   Quis est ho -- mo, %48
   qui non fle --
   _ ret, Chri -- sti %50
@@ -105,10 +105,10 @@ F-VbTenoreLyrics = \lyricmode {
   fi -- li -- o? %64 finis
 }
 
-F-VcTenore = {
+F-IVcTenore = {
   \relative c' {
     \clef "treble_8"
-    \key g \minor \time 4/4 \autoBeamOff \tempoF-Vca
+    \key g \minor \time 4/4 \autoBeamOff \tempoF-IVca
       \set Score.currentBarNumber = #65
     \mvTr d4.\fE^\tutti d8 d d r d
     d d r d c c r c
@@ -123,7 +123,7 @@ F-VcTenore = {
     b2 c4 c8 c %75
     a4 a8 a b4 a
     b a8([ g)] a4 r
-    \tempoF-Vcb r d8 d d4 d
+    \tempoF-IVcb r d8 d d4 d
     d d b8([ g)] es([ g)]
     b4 b c4. c8 %80
     d4 d r2
@@ -140,7 +140,7 @@ F-VcTenore = {
   }
 }
 
-F-VcTenoreLyrics = \lyricmode {
+F-IVcTenoreLyrics = \lyricmode {
   Pro pec -- ca -- tis, pec -- %65
   ca -- tis, pec -- ca -- tis, pec --
   ca -- tis su -- ae gen -- tis
@@ -168,10 +168,10 @@ F-VcTenoreLyrics = \lyricmode {
   spi -- ri -- tum. %89 finis
 }
 
-F-VeTenore = {
+F-IVeTenore = {
   \relative c' {
     \clef "treble_8"
-    \key d \phrygian \time 4/4 \autoBeamOff \tempoF-Ve
+    \key d \phrygian \time 4/4 \autoBeamOff \tempoF-IVe
       \set Score.currentBarNumber = #123
     r4 \mvTr c8\fE^\tutti c c4 c
     r2 r4 c8 c
@@ -203,7 +203,7 @@ F-VeTenore = {
   }
 }
 
-F-VeTenoreLyrics = \lyricmode {
+F-IVeTenoreLyrics = \lyricmode {
   San -- cta ma -- ter, %123
   i -- stud
   a -- gas, %125
@@ -233,10 +233,10 @@ F-VeTenoreLyrics = \lyricmode {
   di -- vi -- de. %149 finis
 }
 
-F-VfTenore = {
+F-IVfTenore = {
   \relative c' {
     \clef "treble_8"
-    \key g \minor \time 4/4 \autoBeamOff \tempoF-Vf
+    \key g \minor \time 4/4 \autoBeamOff \tempoF-IVf
       \set Score.currentBarNumber = #150
     R1*7 %156
     \mvTr a4.\pE^\solo c8 c4 b
@@ -275,7 +275,7 @@ F-VfTenore = {
   }
 }
 
-F-VfTenoreLyrics = \lyricmode {
+F-IVfTenoreLyrics = \lyricmode {
   Fac me te -- cum %157
   pi -- e fle -- re,
   cru -- ci -- fi -- xo
@@ -308,10 +308,10 @@ F-VfTenoreLyrics = \lyricmode {
   re.
 }
 
-F-VgTenore = {
+F-IVgTenore = {
   \relative c' {
     \clef "treble_8"
-    \key es \major \time 3/2 \autoBeamOff \tempoF-Vg
+    \key es \major \time 3/2 \autoBeamOff \tempoF-IVg
       \set Score.currentBarNumber = #193
     R1.*30 %222
     r2 \mvTr c\pE^\solo es
@@ -327,7 +327,7 @@ F-VgTenore = {
   }
 }
 
-F-VgTenoreLyrics = \lyricmode {
+F-IVgTenoreLyrics = \lyricmode {
   Da per %223
   ma -- trem ve --
   ni -- re ad __ %225
@@ -338,10 +338,10 @@ F-VgTenoreLyrics = \lyricmode {
   ae. %230 finis
 }
 
-F-VhTenore = {
+F-IVhTenore = {
   \relative c' {
     \clef "treble_8"
-    \key f \dorian \time 4/4 \autoBeamOff \tempoF-Vha
+    \key f \dorian \time 4/4 \autoBeamOff \tempoF-IVha
       \set Score.currentBarNumber = #233
     \mvTr c4.\fE^\tutti c8 des4 des
     g,4. c8 c4 c\fermata
@@ -388,7 +388,7 @@ F-VhTenore = {
   }
 }
 
-F-VhTenoreLyrics = \lyricmode {
+F-IVhTenoreLyrics = \lyricmode {
   Quan -- do cor -- pus %233
   mo -- ri -- e -- tur,
   fac ut a -- ni -- %235

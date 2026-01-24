@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-F-VaOrgano = {
+F-IVaOrgano = {
   \relative c {
     \clef treble
-    \key f \dorian \time 4/4 \tempoF-Vaa
+    \key f \dorian \time 4/4 \tempoF-IVaa
     << {
       \mvTr c''2\fE_\tutti c
       c8 des c b
@@ -25,7 +25,7 @@ F-VaOrgano = {
     ges'2 f
     es es %15
     d! des
-    c \clef treble \tempoF-Vab c''8( des) c( b!)
+    c \clef treble \tempoF-IVab c''8( des) c( b!)
     \clef "treble_8" c, des c b \clef bass f( ges) f( es!)
     des( es) \hA des c b4 \hA des
     es es, es'8( f) es( des) %20
@@ -38,7 +38,7 @@ F-VaOrgano = {
   }
 }
 
-F-VaBassFigures = \figuremode {
+F-IVaBassFigures = \figuremode {
   r1
   r2 <5 3>8 <6- 4> <5 3> <4 2>
   r4 <4> <6>8 <7-> <6> <5>
@@ -67,10 +67,10 @@ F-VaBassFigures = \figuremode {
   <_->2 <_!> %26 finis
 }
 
-F-VbOrgano = {
+F-IVbOrgano = {
   \relative c {
     \clef bass
-    \key c \dorian \time 4/4 \tempoF-Vb
+    \key c \dorian \time 4/4 \tempoF-IVb
       \set Score.currentBarNumber = #27
     \mvTr c2\pE-\solo c4 \once \tieDashed b~
     b as2 g4
@@ -113,7 +113,7 @@ F-VbOrgano = {
   }
 }
 
-F-VbBassFigures = \figuremode {
+F-IVbBassFigures = \figuremode {
   r2 <4\+ 2>4 <6> %27
   <4! 2> <6[!]> \bo <[4 2]> \bc <[6- _]>
   <6> <6- _->8 <5[!] \t> <_!>2
@@ -154,10 +154,10 @@ F-VbBassFigures = \figuremode {
   <4> <3> <[_!]>2 %64 finis
 }
 
-F-VcOrgano = {
+F-IVcOrgano = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \tempoF-Vca
+    \key g \minor \time 4/4 \tempoF-IVca
       \set Score.currentBarNumber = #65
     \mvTr g'4.\fE-\tutti b8 fis g r g
     fis f  r f e es r es
@@ -177,7 +177,7 @@ F-VcOrgano = {
     es r es c %75
     d r g f!
     es2 d4 r
-    \tempoF-Vcb r d h2
+    \tempoF-IVcb r d h2
     b es
     g, as %80
     g r
@@ -192,7 +192,7 @@ F-VcOrgano = {
   }
 }
 
-F-VcBassFigures = \figuremode {
+F-IVcBassFigures = \figuremode {
   r2 <6 5> %65
   <6>8 <4! 2>4 <\t \t>8 <6> <4 2>4 <\t \t>8
   <_+> <6> <6\\>4 <[_+]>2
@@ -220,10 +220,10 @@ F-VcBassFigures = \figuremode {
   r %91 finis
 }
 
-F-VdOrgano = {
+F-IVdOrgano = {
   \relative c {
     \clef bass
-    \key f \dorian \time 4/4 \tempoF-Vd
+    \key f \dorian \time 4/4 \tempoF-IVd
       \set Score.currentBarNumber = #92
     \mvTr f,4\pE-\solo as b as
     g8 g'16 f e8 c f4 r8 f,\fE
@@ -259,7 +259,7 @@ F-VdOrgano = {
   }
 }
 
-F-VdBassFigures = \figuremode {
+F-IVdBassFigures = \figuremode {
   r4 <6> <6- _-> <6> %92
   <6!>8 <\t>2..
   <_!>2 <4>8 <3>4 <6 [_-]>8
@@ -293,10 +293,10 @@ F-VdBassFigures = \figuremode {
   r4 <_->8 <_!> r2 %122 finis
 }
 
-F-VeOrgano = {
+F-IVeOrgano = {
   \relative c {
     \clef bass
-    \key d \phrygian \time 4/4 \tempoF-Ve
+    \key d \phrygian \time 4/4 \tempoF-IVe
       \set Score.currentBarNumber = #123
     r4 \mvTr a!\fE-\tutti a2
     r r4 a
@@ -328,7 +328,7 @@ F-VeOrgano = {
   }
 }
 
-F-VeBassFigures = \figuremode {
+F-IVeBassFigures = \figuremode {
   r4 <6> <\t>2 %123
   r2. <6 5>4
   <5 4> <\t 3>2. %125
@@ -358,10 +358,10 @@ F-VeBassFigures = \figuremode {
   <5[!] 4> <\t _+>2. %149 finis
 }
 
-F-VfOrgano = {
+F-IVfOrgano = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \tempoF-Vf
+    \key g \minor \time 4/4 \tempoF-IVf
       \set Score.currentBarNumber = #150
     \mvTr g4\fE-\solo r8 a b4 c8 d
     g,4 r8 g' f! r r f
@@ -409,7 +409,7 @@ F-VfOrgano = {
   }
 }
 
-F-VfBassFigures = \figuremode {
+F-IVfBassFigures = \figuremode {
   r2.. <_+>8 %150
   r4. <4\+ 2>8 <6>4. <4! 2>8
   <6>4. <6->8 <[5!] _+>2
@@ -455,10 +455,10 @@ F-VfBassFigures = \figuremode {
   r4 \bo <[6 4]>8 \bc <[5 _+]> r2 %192 finis
 }
 
-F-VgOrgano = {
+F-IVgOrgano = {
   \relative c {
     \clef bass
-    \key es \major \time 3/2 \tempoF-Vg
+    \key es \major \time 3/2 \tempoF-IVg
       \set Score.currentBarNumber = #193
     \mvTr es1.\pE-\solo
     as,2 es' r
@@ -503,7 +503,7 @@ F-VgOrgano = {
   }
 }
 
-F-VgBassFigures = \figuremode {
+F-IVgBassFigures = \figuremode {
   r1. %193
   r
   <[6 5]> %195
@@ -546,14 +546,14 @@ F-VgBassFigures = \figuremode {
   r2. %232 finis
 }
 
-F-VhOrgano = {
+F-IVhOrgano = {
   \relative c {
     \clef bass
-    \key f \dorian \time 4/4 \tempoF-Vha
+    \key f \dorian \time 4/4 \tempoF-IVha
       \set Score.currentBarNumber = #233
     \mvTr f,1\fE-\tutti
     f2 f'4 f,\fermata
-    \clef "treble_8" \tempoF-Vhb c''4.-! c8-! a4.-! a8-! %235
+    \clef "treble_8" \tempoF-IVhb c''4.-! c8-! a4.-! a8-! %235
     b4.-! h8-! c-! b-! as-! g16-! f-!
     g2-! \clef bass f4.-! f8
     << { c'8 g c b as4 } \\ { e4. e8 f4. fis8 } >>
@@ -596,7 +596,7 @@ F-VhOrgano = {
   }
 }
 
-F-VhBassFigures = \figuremode {
+F-IVhBassFigures = \figuremode {
   <8 5>2 <6- 4> %233
   <7! 4 2> <8 5>
   r1 %235

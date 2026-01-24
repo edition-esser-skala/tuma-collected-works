@@ -2,17 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "trb 2")
+#(define option-instrument-name "trb 1")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "F.5" "Stabat mater"
+    \section "F.4" "Stabat mater"
     \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \F-VaTromboneII }
+        \new Staff { \F-IVaTromboneI }
       >>
     }
     \tacet "subsection" "O quam tristis et afflicta"
@@ -23,7 +23,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \F-VcTromboneII }
+        \new Staff { \F-IVcTromboneI }
       >>
     }
     \tacet "subsection" "Eia mater fons amoris"
@@ -34,7 +34,7 @@
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \F-VeTromboneII }
+        \new Staff { \F-IVeTromboneI }
       >>
     }
     \tacet "subsection" "Fac me tecum pie flere"
@@ -45,7 +45,7 @@
     \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \F-VgTromboneII }
+        \new Staff { \F-IVgTromboneI }
       >>
     }
   }
@@ -55,7 +55,7 @@
     \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \F-VhTromboneII }
+        \new Staff { \F-IVhTromboneI }
       >>
     }
   }
