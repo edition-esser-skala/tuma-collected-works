@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-F-VIaOrgano = {
+F-VaOrgano = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \tempoF-VIa
+    \key g \minor \time 4/4 \tempoF-Va
     \mvTr g'8\fE-\soloE f es d es d c b
     c a d d, g4 g'
     f es d c
@@ -61,7 +61,7 @@ F-VIaOrgano = {
   }
 }
 
-F-VIaBassFigures = \figuremode {
+F-VaBassFigures = \figuremode {
   r2.. <[6]>8
   <6 5>4 <6 4>8 <5 _+> r2
   <6>4 <5> <6> <5>
@@ -118,10 +118,10 @@ F-VIaBassFigures = \figuremode {
   <7 _+>4 <4>8 <_+> r2 %54 finis
 }
 
-F-VIbOrgano = {
+F-VbOrgano = {
   \relative c {
     \clef bass
-    \key d \minor \time 4/4 \tempoF-VIb
+    \key d \minor \time 4/4 \tempoF-Vb
       \set Score.currentBarNumber = #55
     \mvTr d2\fE-\tuttiE b4. a8
     gis2 a
@@ -153,7 +153,7 @@ F-VIbOrgano = {
   }
 }
 
-F-VIbBassFigures = \figuremode {
+F-VbBassFigures = \figuremode {
   r2.. <2>8 %55
   \bo <7 5 [_!]>4 \bc <6 \t [\t]> <9[!] 4> <8 _+>
   r <\t \t> <4 2[-]> <5>
@@ -183,10 +183,10 @@ F-VIbBassFigures = \figuremode {
   r1 %81 finis
 }
 
-F-VIcOrgano = {
+F-VcOrgano = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \tempoF-VIca
+    \key g \minor \time 4/4 \tempoF-Vca
       \set Score.currentBarNumber = #82
     \mvTr g4\pE-\soloE g' g4. f8
     es c r a'16 g fis4 g8 f?
@@ -219,7 +219,7 @@ F-VIcOrgano = {
     h\fE r8 \hA h c4 r8 c %110
     b4 r8 b a4 r8 a
     g4 c b c8 d
-    g,4 \tempoF-VIcb g'-!-\tuttiE as2~
+    g,4 \tempoF-Vcb g'-!-\tuttiE as2~
     as4 g8 f es4 c
     as2 g4 g'-! %115
     fis8-! d-! f4-! es!-! fis
@@ -245,7 +245,7 @@ F-VIcOrgano = {
   }
 }
 
-F-VIcBassFigures = \figuremode {
+F-VcBassFigures = \figuremode {
   r4 <5>8 <6> <[5]>4 <_!>8 <\t> %82
   <6>4. <[5!] _+>8 <6>4 <_!>8 <\t>
   <6>4 <5>8 <7- 5 [_!]> <_+>2
@@ -302,10 +302,10 @@ F-VIcBassFigures = \figuremode {
   r %135 finis
 }
 
-F-VIdOrgano = {
+F-VdOrgano = {
   \relative c {
     \clef bass
-    \key f \dorian \time 3/4 \tempoF-VId
+    \key f \dorian \time 3/4 \tempoF-Vd
       \set Score.currentBarNumber = #136
     \mvTr f,2.\pE-\soloE
     b2 as4
@@ -388,7 +388,7 @@ F-VIdOrgano = {
   }
 }
 
-F-VIdBassFigures = \figuremode {
+F-VdBassFigures = \figuremode {
   r2. %136
   <6 _->2 <6>4
   <7>2 <_!>4
@@ -469,10 +469,10 @@ F-VIdBassFigures = \figuremode {
   r2. %213 finis
 }
 
-F-VIeOrgano = {
+F-VeOrgano = {
   \relative c {
     \clef bass
-    \key c \dorian \time 4/4 \tempoF-VIea
+    \key c \dorian \time 4/4 \tempoF-Vea
       \set Score.currentBarNumber = #214
     \mvTr c4.-!\fE-\tuttiE c8-! es4-! es-!
     d g2 f4 %215
@@ -488,7 +488,7 @@ F-VIeOrgano = {
     c'8 g c2 h4 %225
     c f, f es8 d
     c4 as' g g,
-    c2 r4 \tempoF-VIeb c
+    c2 r4 \tempoF-Veb c
     b!2 r4 b
     a1 %230
     d4 d c!2
@@ -510,7 +510,7 @@ F-VIeOrgano = {
   }
 }
 
-F-VIeBassFigures = \figuremode {
+F-VeBassFigures = \figuremode {
   r1 %214
   r2 <4>4 <5>8 <6> %215
   <8>4 <10> <5 2> <6>
@@ -541,10 +541,10 @@ F-VIeBassFigures = \figuremode {
   <5 4>4 <\t _+>2. %241 finis
 }
 
-F-VIfOrgano = {
+F-VfOrgano = {
   \relative c {
     \clef bass
-    \key c \dorian \time 4/4 \tempoF-VIf
+    \key c \dorian \time 4/4 \tempoF-Vf
       \set Score.currentBarNumber = #242
     \mvTr c4\fE-\soloE h8 g c4 r8 g
     c4 r8 c b4 r8 b
@@ -601,7 +601,7 @@ F-VIfOrgano = {
   }
 }
 
-F-VIfBassFigures = \figuremode {
+F-VfBassFigures = \figuremode {
   r4 <[6]> <_!>4. q8 %242
   r4. <6->8 \bo <7[-] [4]> \bc <\t 3>4 <6>8
   <7 4> <\t 3>4 \bc <6 [_-]>8 <_!>4. <6 _!>8
@@ -656,10 +656,10 @@ F-VIfBassFigures = \figuremode {
   <6> <[_-]> <4> <_!> r2 %293 finis
 }
 
-F-VIgOrgano = {
+F-VgOrgano = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \tempoF-VIga
+    \key g \minor \time 4/4 \tempoF-Vga
       \set Score.currentBarNumber = #294
     \mvTr es4\fE-\tutti r r es
     es2 b %295
@@ -683,10 +683,10 @@ F-VIgOrgano = {
     g2 r4 g
     c2 d \noBreak
     d g, %315
-    \tempoF-VIgb r4 \mvTr g'\fE-\tutti g2 \noBreak
+    \tempoF-Vgb r4 \mvTr g'\fE-\tutti g2 \noBreak
     fis g4 g,
     R1*4 %321
-    \clef treble \tempoF-VIgc
+    \clef treble \tempoF-Vgc
       g''4.\fE g8 b4. h8 \noBreak
     c4. b16 c a8 h16 cis d4~
     d8 cis16 h \hA cis4 << {
@@ -742,7 +742,7 @@ F-VIgOrgano = {
   }
 }
 
-F-VIgBassFigures = \figuremode {
+F-VgBassFigures = \figuremode {
   r1 %294
   <6 4->4 <5 3> <4> <3> %295
   <4> <_-> <4> <3>

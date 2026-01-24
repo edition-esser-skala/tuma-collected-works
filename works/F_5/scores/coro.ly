@@ -6,7 +6,7 @@
 
 \book {
   \bookpart {
-    \section "F.6" "Stabat mater"
+    \section "F.5" "Stabat mater"
     \addTocEntry
     \paper {
       system-system-spacing.basic-distance = #20
@@ -18,12 +18,12 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \F-VIaTenore }
+            \new Voice = "Tenore" { \dynamicUp \F-VaTenore }
           }
-          \new Lyrics \lyricsto Tenore \F-VIaTenoreLyrics
+          \new Lyrics \lyricsto Tenore \F-VaTenoreLyrics
         >>
-        \new Staff { \F-VIaOrgano }
-        \new FiguredBass { \F-VIaBassFigures }
+        \new Staff { \F-VaOrgano }
+        \new FiguredBass { \F-VaBassFigures }
       >>
     }
   }
@@ -35,30 +35,30 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \F-VIbSoprano }
+            \new Voice = "Soprano" { \dynamicUp \F-VbSoprano }
           }
-          \new Lyrics \lyricsto Soprano \F-VIbSopranoLyrics
+          \new Lyrics \lyricsto Soprano \F-VbSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \F-VIbAlto }
+            \new Voice = "Alto" { \dynamicUp \F-VbAlto }
           }
-          \new Lyrics \lyricsto Alto \F-VIbAltoLyrics
+          \new Lyrics \lyricsto Alto \F-VbAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \F-VIbTenore }
+            \new Voice = "Tenore" { \dynamicUp \F-VbTenore }
           }
-          \new Lyrics \lyricsto Tenore \F-VIbTenoreLyrics
+          \new Lyrics \lyricsto Tenore \F-VbTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \F-VIbBasso }
+            \new Voice = "Basso" { \dynamicUp \F-VbBasso }
           }
-          \new Lyrics \lyricsto Basso \F-VIbBassoLyrics
+          \new Lyrics \lyricsto Basso \F-VbBassoLyrics
         >>
-        \new Staff { \F-VIbOrgano }
-        \new FiguredBass { \F-VIbBassFigures }
+        \new Staff { \F-VbOrgano }
+        \new FiguredBass { \F-VbBassFigures }
       >>
     }
   }
@@ -70,30 +70,30 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \F-VIcSoprano }
+            \new Voice = "Soprano" { \dynamicUp \F-VcSoprano }
           }
-          \new Lyrics \lyricsto Soprano \F-VIcSopranoLyrics
+          \new Lyrics \lyricsto Soprano \F-VcSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \F-VIcAlto }
+            \new Voice = "Alto" { \dynamicUp \F-VcAlto }
           }
-          \new Lyrics \lyricsto Alto \F-VIcAltoLyrics
+          \new Lyrics \lyricsto Alto \F-VcAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \F-VIcTenore }
+            \new Voice = "Tenore" { \dynamicUp \F-VcTenore }
           }
-          \new Lyrics \lyricsto Tenore \F-VIcTenoreLyrics
+          \new Lyrics \lyricsto Tenore \F-VcTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \F-VIcBasso }
+            \new Voice = "Basso" { \dynamicUp \F-VcBasso }
           }
-          \new Lyrics \lyricsto Basso \F-VIcBassoLyrics
+          \new Lyrics \lyricsto Basso \F-VcBassoLyrics
         >>
-        \new Staff { \F-VIcOrgano }
-        \new FiguredBass { \F-VIcBassFigures }
+        \new Staff { \F-VcOrgano }
+        \new FiguredBass { \F-VcBassFigures }
       >>
     }
   }
@@ -111,12 +111,12 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \F-VIdAlto }
+            \new Voice = "Alto" { \dynamicUp \F-VdAlto }
           }
-          \new Lyrics \lyricsto Alto \F-VIdAltoLyrics
+          \new Lyrics \lyricsto Alto \F-VdAltoLyrics
         >>
-        \new Staff { \F-VIdOrgano }
-        \new FiguredBass { \F-VIdBassFigures }
+        \new Staff { \F-VdOrgano }
+        \new FiguredBass { \F-VdBassFigures }
       >>
     }
   }
@@ -128,30 +128,30 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \F-VIeSoprano }
+            \new Voice = "Soprano" { \dynamicUp \F-VeSoprano }
           }
-          \new Lyrics \lyricsto Soprano \F-VIeSopranoLyrics
+          \new Lyrics \lyricsto Soprano \F-VeSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \F-VIeAlto }
+            \new Voice = "Alto" { \dynamicUp \F-VeAlto }
           }
-          \new Lyrics \lyricsto Alto \F-VIeAltoLyrics
+          \new Lyrics \lyricsto Alto \F-VeAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \F-VIeTenore }
+            \new Voice = "Tenore" { \dynamicUp \F-VeTenore }
           }
-          \new Lyrics \lyricsto Tenore \F-VIeTenoreLyrics
+          \new Lyrics \lyricsto Tenore \F-VeTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \F-VIeBasso }
+            \new Voice = "Basso" { \dynamicUp \F-VeBasso }
           }
-          \new Lyrics \lyricsto Basso \F-VIeBassoLyrics
+          \new Lyrics \lyricsto Basso \F-VeBassoLyrics
         >>
-        \new Staff { \F-VIeOrgano }
-        \new FiguredBass { \F-VIeBassFigures }
+        \new Staff { \F-VeOrgano }
+        \new FiguredBass { \F-VeBassFigures }
       >>
     }
   }
@@ -168,18 +168,18 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \F-VIfSoprano }
+            \new Voice = "Soprano" { \dynamicUp \F-VfSoprano }
           }
-          \new Lyrics \lyricsto Soprano \F-VIfSopranoLyrics
+          \new Lyrics \lyricsto Soprano \F-VfSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \F-VIfBasso }
+            \new Voice = "Basso" { \dynamicUp \F-VfBasso }
           }
-          \new Lyrics \lyricsto Basso \F-VIfBassoLyrics
+          \new Lyrics \lyricsto Basso \F-VfBassoLyrics
         >>
-        \new Staff { \F-VIfOrgano }
-        \new FiguredBass { \F-VIfBassFigures }
+        \new Staff { \F-VfOrgano }
+        \new FiguredBass { \F-VfBassFigures }
       >>
     }
   }
@@ -191,30 +191,30 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \F-VIgSoprano }
+            \new Voice = "Soprano" { \dynamicUp \F-VgSoprano }
           }
-          \new Lyrics \lyricsto Soprano \F-VIgSopranoLyrics
+          \new Lyrics \lyricsto Soprano \F-VgSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \F-VIgAlto }
+            \new Voice = "Alto" { \dynamicUp \F-VgAlto }
           }
-          \new Lyrics \lyricsto Alto \F-VIgAltoLyrics
+          \new Lyrics \lyricsto Alto \F-VgAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \F-VIgTenore }
+            \new Voice = "Tenore" { \dynamicUp \F-VgTenore }
           }
-          \new Lyrics \lyricsto Tenore \F-VIgTenoreLyrics
+          \new Lyrics \lyricsto Tenore \F-VgTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \F-VIgBasso }
+            \new Voice = "Basso" { \dynamicUp \F-VgBasso }
           }
-          \new Lyrics \lyricsto Basso \F-VIgBassoLyrics
+          \new Lyrics \lyricsto Basso \F-VgBassoLyrics
         >>
-        \new Staff { \F-VIgOrgano }
-        \new FiguredBass { \F-VIgBassFigures }
+        \new Staff { \F-VgOrgano }
+        \new FiguredBass { \F-VgBassFigures }
       >>
     }
   }

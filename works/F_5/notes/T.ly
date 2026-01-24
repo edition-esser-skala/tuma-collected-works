@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-F-VIaTenore = {
+F-VaTenore = {
   \relative c' {
     \clef "treble_8"
-    \key g \minor \time 4/4 \tempoF-VIa \autoBeamOff
+    \key g \minor \time 4/4 \tempoF-Va \autoBeamOff
     R1*11 %11
     \mvTr g4.\pE^\soloE g8 g4 g
     as4. h8 c[ d] es4~
@@ -37,7 +37,7 @@ F-VIaTenore = {
   }
 }
 
-F-VIaTenoreLyrics = \lyricmode {
+F-VaTenoreLyrics = \lyricmode {
   Sta -- bat ma -- ter %12
   do -- lo -- ro -- _
   _ _ sa,
@@ -67,10 +67,10 @@ F-VIaTenoreLyrics = \lyricmode {
   i -- vit gla -- di -- us. %43 finis
 }
 
-F-VIbTenore = {
+F-VbTenore = {
   \relative c' {
     \clef "treble_8"
-    \key d \minor \time 4/4 \autoBeamOff \tempoF-VIb
+    \key d \minor \time 4/4 \autoBeamOff \tempoF-Vb
       \set Score.currentBarNumber = #55
     \mvTr d4.\fE^\tutti d8 d4. d8
     d4. d8 d4 cis
@@ -102,7 +102,7 @@ F-VIbTenore = {
   }
 }
 
-F-VIbTenoreLyrics = \lyricmode {
+F-VbTenoreLyrics = \lyricmode {
   O quam tri -- stis %55
   et af -- fli -- cta
   fu -- it il -- la,
@@ -132,13 +132,13 @@ F-VIbTenoreLyrics = \lyricmode {
   ti. %81 finis
 }
 
-F-VIcTenore = {
+F-VcTenore = {
   \relative c' {
     \clef "treble_8"
-    \key g \minor \time 4/4 \autoBeamOff \tempoF-VIca
+    \key g \minor \time 4/4 \autoBeamOff \tempoF-Vca
       \set Score.currentBarNumber = #82
       R1*31 %112
-    \after 4 \tempoF-VIcb r2 r4 \mvTr c8\fE^\tutti c
+    \after 4 \tempoF-Vcb r2 r4 \mvTr c8\fE^\tutti c
     d4 d es4. es8
     es4( d8[ c)] d4 r %115
     r2 r4 c8 c
@@ -164,7 +164,7 @@ F-VIcTenore = {
   }
 }
 
-F-VIcTenoreLyrics = \lyricmode {
+F-VcTenoreLyrics = \lyricmode {
   Pro pec -- %113
   ca -- tis su -- ae
   gen -- tis %115
@@ -190,10 +190,10 @@ F-VIcTenoreLyrics = \lyricmode {
   tum. %135 finis
 }
 
-F-VIeTenore = {
+F-VeTenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \dorian \time 4/4 \autoBeamOff \tempoF-VIea
+    \key c \dorian \time 4/4 \autoBeamOff \tempoF-Vea
       \set Score.currentBarNumber = #214
     R1*2 %215
     r2 \mvTr g4.\fE^\tuttiE g8
@@ -208,7 +208,7 @@ F-VIeTenore = {
     es4. c8 d!4. d8 %225
     es4 f8 es d4 c8([ d)]
     es4.( d16[ c] d4.) d8
-    c2 r4 \tempoF-VIeb c8 c
+    c2 r4 \tempoF-Veb c8 c
     c4 c r c8 d
     e4( a,2.) %230
     a4 a8 a a4 a
@@ -225,7 +225,7 @@ F-VIeTenore = {
   }
 }
 
-F-VIeTenoreLyrics = \lyricmode {
+F-VeTenoreLyrics = \lyricmode {
   San -- cta %216
   ma -- ter, i -- stud
   a -- gas, san -- cta
@@ -254,10 +254,10 @@ F-VIeTenoreLyrics = \lyricmode {
   di -- vi -- de. %241 finis
 }
 
-F-VIgTenore = {
+F-VgTenore = {
   \relative c' {
     \clef "treble_8"
-    \key g \minor \time 4/4 \autoBeamOff \tempoF-VIga
+    \key g \minor \time 4/4 \autoBeamOff \tempoF-Vga
       \set Score.currentBarNumber = #294
     r2 r4 \mvTr b8\fE^\tutti b
     c4 b r d8 d %295
@@ -281,13 +281,13 @@ F-VIgTenore = {
     d4 b8 c d([ c)] d g,
     g4 g8 c a4 b8 c \noBreak
     d4. d8 d2 %315
-    \tempoF-VIgb r4 \mvTr d8\fE^\tutti d c4 c \noBreak
+    \tempoF-Vgb r4 \mvTr d8\fE^\tutti d c4 c \noBreak
     c4. c8 b4 b
     r2 d4 c
     b a b a8[ h]
     c2\p b4 a8[ g] \noBreak %320
     a1
-    \tempoF-VIgc R1*5 %326
+    \tempoF-Vgc R1*5 %326
     g4.\fE g8 b4. h8
     c4. b16([ c)] a8[ h16 cis] d4~
     d8[ cis16 h] \hA cis4 d d~
@@ -326,7 +326,7 @@ F-VIgTenore = {
   }
 }
 
-F-VIgTenoreLyrics = \lyricmode {
+F-VgTenoreLyrics = \lyricmode {
   Fac me %294
   pla -- gis vul -- ne -- %295
   ra -- ri, fac me

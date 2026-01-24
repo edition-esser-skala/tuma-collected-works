@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-F-VIaViolino = {
+F-VaViolino = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \tempoF-VIa
+    \key g \minor \time 4/4 \tempoF-Va
     R1*4
     a'4.\fE a8 d4. d8 %5
     e8. f32( g) f8 \hA e f16( \hA e) d8 r16 f \hA e d
@@ -56,10 +56,10 @@ F-VIaViolino = {
   }
 }
 
-F-VIbViolinoI = {
+F-VbViolinoI = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/4 \tempoF-VIb
+    \key d \minor \time 4/4 \tempoF-Vb
       \set Score.currentBarNumber = #55
     f1\fE
     f4 e e2
@@ -91,10 +91,10 @@ F-VIbViolinoI = {
   }
 }
 
-F-VIcViolinoI = {
+F-VcViolinoI = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \tempoF-VIca
+    \key g \minor \time 4/4 \tempoF-Vca
       \set Score.currentBarNumber = #82
     R1*3 %84
     r2 r8 d''\fE h( as16) g-! %85
@@ -124,7 +124,7 @@ F-VIcViolinoI = {
     d8 g, as' g16( f) es( d) c8 r es~ %110
     es16 cis d8 r d~ d16 h c8 r c~
     c16 a b8 as8. g32( fis) g16 d' g,, a a4\trill
-    g \tempoF-VIcb r r c'
+    g \tempoF-Vcb r r c'
     h2 c~
     c h4 r %115
     R1*3
@@ -148,10 +148,10 @@ F-VIcViolinoI = {
   }
 }
 
-F-VIeViolinoI = {
+F-VeViolinoI = {
   \relative c' {
     \clef treble
-    \key c \dorian \time 4/4 \tempoF-VIea
+    \key c \dorian \time 4/4 \tempoF-Vea
       \set Score.currentBarNumber = #214
     R1*4 %217
     g'4.\fE g8 as4 as
@@ -164,7 +164,7 @@ F-VIeViolinoI = {
     g4 r r2 %225
     c4. c8 h4 g
     c8 g c2 h4
-    c2 r4 \tempoF-VIeb es8 es
+    c2 r4 \tempoF-Veb es8 es
     e4 e r \hA e8 d
     cis4 d2 \hA cis4 %230
     d d8 d es!4 es
@@ -180,10 +180,10 @@ F-VIeViolinoI = {
   }
 }
 
-F-VIgViolinoI = {
+F-VgViolinoI = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \tempoF-VIga
+    \key g \minor \time 4/4 \tempoF-Vga
       \set Score.currentBarNumber = #294
     r4 b'\fE c b
     r b8 es es4 d %295
@@ -200,10 +200,10 @@ F-VIgViolinoI = {
     es b as ges
     f2 es4 r
     R1*8 %315
-    \tempoF-VIgb r4 b'\fE a2~ \noBreak
+    \tempoF-Vgb r4 b'\fE a2~ \noBreak
     a2. g4
     R1*4 %321
-    \tempoF-VIgc g4.\fE g8 b4. h8 \noBreak
+    \tempoF-Vgc g4.\fE g8 b4. h8 \noBreak
     c4. b16 c a8 h16 cis d4~
     d8 cis16 h \hA cis4 d d~
     d8 g, c b a b16 c d4~ %325

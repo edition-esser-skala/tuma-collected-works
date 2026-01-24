@@ -7,13 +7,13 @@
 
 \book {
   \bookpart {
-    \section "F.6" "Stabat mater"
+    \section "F.5" "Stabat mater"
     \addTocEntry
     \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \F-VIaOrgano }
-        \new FiguredBass { \F-VIaBassFigures }
+        \new Staff { \F-VaOrgano }
+        \new FiguredBass { \F-VaBassFigures }
       >>
     }
   }
@@ -23,8 +23,8 @@
     \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \F-VIbOrgano }
-        \new FiguredBass { \F-VIbBassFigures }
+        \new Staff { \F-VbOrgano }
+        \new FiguredBass { \F-VbBassFigures }
       >>
     }
   }
@@ -33,8 +33,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \F-VIcOrgano }
-        \new FiguredBass { \F-VIcBassFigures }
+        \new Staff { \F-VcOrgano }
+        \new FiguredBass { \F-VcBassFigures }
       >>
     }
   }
@@ -43,8 +43,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \F-VIdOrgano }
-        \new FiguredBass { \F-VIdBassFigures }
+        \new Staff { \F-VdOrgano }
+        \new FiguredBass { \F-VdBassFigures }
       >>
     }
   }
@@ -54,8 +54,8 @@
     \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \F-VIeOrgano }
-        \new FiguredBass { \F-VIeBassFigures }
+        \new Staff { \F-VeOrgano }
+        \new FiguredBass { \F-VeBassFigures }
       >>
     }
   }
@@ -64,8 +64,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \F-VIfOrgano }
-        \new FiguredBass { \F-VIfBassFigures }
+        \new Staff { \F-VfOrgano }
+        \new FiguredBass { \F-VfBassFigures }
       >>
     }
   }
@@ -75,8 +75,8 @@
     \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \F-VIgOrgano }
-        \new FiguredBass { \F-VIgBassFigures }
+        \new Staff { \F-VgOrgano }
+        \new FiguredBass { \F-VgBassFigures }
       >>
     }
   }

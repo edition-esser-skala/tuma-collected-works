@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-F-VIbAlto = {
+F-VbAlto = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/4 \autoBeamOff \tempoF-VIb
+    \key d \minor \time 4/4 \autoBeamOff \tempoF-Vb
       \set Score.currentBarNumber = #55
     \mvTr f4.\fE^\tuttiE f8 f4. f8
     f4 e e e
@@ -35,7 +35,7 @@ F-VIbAlto = {
   }
 }
 
-F-VIbAltoLyrics = \lyricmode {
+F-VbAltoLyrics = \lyricmode {
   O quam tri -- stis %55
   et af -- fli -- cta
   fu -- it il -- la,
@@ -65,13 +65,13 @@ F-VIbAltoLyrics = \lyricmode {
   ti. %81 finis
 }
 
-F-VIcAlto = {
+F-VcAlto = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoF-VIca
+    \key g \minor \time 4/4 \autoBeamOff \tempoF-Vca
       \set Score.currentBarNumber = #82
     R1*31 %112
-    \after 4 \tempoF-VIcb r2 r4 \mvTr f8\fE^\tutti f
+    \after 4 \tempoF-Vcb r2 r4 \mvTr f8\fE^\tutti f
     f4 g g4. g8
     g4( f) g r %115
     R1*2
@@ -96,7 +96,7 @@ F-VIcAlto = {
   }
 }
 
-F-VIcAltoLyrics = \lyricmode {
+F-VcAltoLyrics = \lyricmode {
   Pro pec -- %113
   ca -- tis su -- ae
   gen -- tis %115
@@ -121,10 +121,10 @@ F-VIcAltoLyrics = \lyricmode {
   tum. %135 finis
 }
 
-F-VIdAlto = {
+F-VdAlto = {
   \relative c' {
     \clef treble
-    \key f \dorian \time 3/4 \autoBeamOff \tempoF-VId
+    \key f \dorian \time 3/4 \autoBeamOff \tempoF-Vd
       \set Score.currentBarNumber = #136
     r4 \mvTr f\pE^\solo as
     g( e) f
@@ -187,7 +187,7 @@ F-VIdAlto = {
   }
 }
 
-F-VIdAltoLyrics = \lyricmode {
+F-VdAltoLyrics = \lyricmode {
   E -- ia, %136
   ma -- ter,
   fons a --
@@ -246,10 +246,10 @@ F-VIdAltoLyrics = \lyricmode {
   am. %203 finis
 }
 
-F-VIeAlto = {
+F-VeAlto = {
   \relative c' {
     \clef treble
-    \key c \dorian \time 4/4 \autoBeamOff \tempoF-VIea
+    \key c \dorian \time 4/4 \autoBeamOff \tempoF-Vea
       \set Score.currentBarNumber = #214
     R1
     r2 \mvTr c4.\fE^\tuttiE d8 %215
@@ -265,7 +265,7 @@ F-VIeAlto = {
     r2 g'4. g8 %225
     es4 as g4. g8
     g8 es4( f8 g4.) g8
-    g2 r4 \tempoF-VIeb g8 g
+    g2 r4 \tempoF-Veb g8 g
     g4 g r g8 g
     g4( f e2) %230
     f4 f8 f fis4 fis
@@ -282,7 +282,7 @@ F-VIeAlto = {
   }
 }
 
-F-VIeAltoLyrics = \lyricmode {
+F-VeAltoLyrics = \lyricmode {
   San -- cta %215
   ma -- ter, san -- cta
   ma -- ter, i -- stud
@@ -312,10 +312,10 @@ F-VIeAltoLyrics = \lyricmode {
   cum di -- vi -- de. %241 finis
 }
 
-F-VIgAlto = {
+F-VgAlto = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoF-VIga
+    \key g \minor \time 4/4 \autoBeamOff \tempoF-Vga
       \set Score.currentBarNumber = #294
     r4 \mvTr g'8\fE^\tutti g as4 g
     r g8 g f4 f %295
@@ -339,13 +339,13 @@ F-VIgAlto = {
     g4 r r g8 f
     es([ d)] es g fis4 g8 g \noBreak
     g4( fis8.) fis16 g2 %315
-    \tempoF-VIgb r4 \mvTr g8\fE^\tuttiE g es4 es \noBreak
+    \tempoF-Vgb r4 \mvTr g8\fE^\tuttiE g es4 es \noBreak
     d4. d8 d4 d
     R1
     r2 g4 f
     es(\p d2 c4) \noBreak %320
     d1
-    \tempoF-VIgc R1*2
+    \tempoF-Vgc R1*2
     r2 d4.\fE d8
     es!4. e8 f4. es16([ f)] %325
     d8[ e16 fis] \once \tieDashed g4~ g8[ fis16 e] \hA fis4
@@ -385,7 +385,7 @@ F-VIgAlto = {
   }
 }
 
-F-VIgAltoLyrics = \lyricmode {
+F-VgAltoLyrics = \lyricmode {
   Fac me pla -- gis %294
   vul -- ne -- ra -- ri, %295
   fac me cru -- ce

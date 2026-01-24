@@ -7,14 +7,14 @@
 
 \book {
   \bookpart {
-    \section "F.6" "Stabat mater"
+    \section "F.5" "Stabat mater"
     \addTocEntry
     \paper { system-count = #14 }
     \score {
       <<
         \new Staff {
           \set Staff.instrumentName = "vla"
-          \F-VIaViola
+          \F-VaViola
         }
       >>
     }
@@ -26,7 +26,7 @@
     \paper { system-count = #13 }
     \score {
       <<
-        \new Staff { \F-VIfViolaI }
+        \new Staff { \F-VfViolaI }
       >>
     }
   }

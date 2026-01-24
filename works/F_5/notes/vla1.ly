@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-F-VIaViola = {
+F-VaViola = {
   \relative c' {
     \clef alto
-    \key g \minor \time 4/4 \tempoF-VIa
+    \key g \minor \time 4/4 \tempoF-Va
     d4.\fE d8 g4. g8
     a8. b32( c) b8 a b16( a) g8 r16 b a g
     a cis, d8 r16 g f es f a, b8 r16 es d c
@@ -61,10 +61,10 @@ F-VIaViola = {
   }
 }
 
-F-VIfViolaI = {
+F-VfViolaI = {
   \relative c' {
     \clef alto
-    \key c \dorian \time 4/4 \tempoF-VIf
+    \key c \dorian \time 4/4 \tempoF-Vf
       \set Score.currentBarNumber = #242
     r2 g'16(\fE as) g( \hA as) g( f) es( d)
     es8 g16 c as( g) \hA as8 r f16( b) g( f) g8

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-F-VIbSoprano = {
+F-VbSoprano = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/4 \autoBeamOff \tempoF-VIb
+    \key d \minor \time 4/4 \autoBeamOff \tempoF-Vb
       \set Score.currentBarNumber = #55
     \mvTr a'4.\fE^\tutti a8 b4.b8
     h4. h8 h4 a r
@@ -35,7 +35,7 @@ F-VIbSoprano = {
   }
 }
 
-F-VIbSopranoLyrics = \lyricmode {
+F-VbSopranoLyrics = \lyricmode {
   O quam tri -- stis %55
   et af -- fli -- cta
   fu -- it il -- la,
@@ -65,10 +65,10 @@ F-VIbSopranoLyrics = \lyricmode {
   ti. %81 finis
 }
 
-F-VIcSoprano = {
+F-VcSoprano = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoF-VIca
+    \key g \minor \time 4/4 \autoBeamOff \tempoF-Vca
       \set Score.currentBarNumber = #82
     r4 \mvTr d'8\pE^\soloE es d16([ b)] g8 h h
     c[ es16 d] cis4 d16[ a d c?] h4
@@ -95,7 +95,7 @@ F-VIcSoprano = {
     c8[ a] b16[ a g8] as[ fis] g8 es'
     a,4. a8 g4 r
     R1*3 %112
-    \after 4 \tempoF-VIcb r2 r4 \mvTr c8\fE^\tuttiE c
+    \after 4 \tempoF-Vcb r2 r4 \mvTr c8\fE^\tuttiE c
     h4 h c4. c8
     c2 h4 r %115
     R1*3
@@ -119,7 +119,7 @@ F-VIcSoprano = {
   }
 }
 
-F-VIcSopranoLyrics = \lyricmode {
+F-VcSopranoLyrics = \lyricmode {
   Quis est ho -- mo, qui non %82
   fle -- _ _ _
   _ _ ret?
@@ -168,10 +168,10 @@ F-VIcSopranoLyrics = \lyricmode {
   tum. %135 finis
 }
 
-F-VIeSoprano = {
+F-VeSoprano = {
   \relative c' {
     \clef treble
-    \key c \dorian \time 4/4 \autoBeamOff \tempoF-VIea
+    \key c \dorian \time 4/4 \autoBeamOff \tempoF-Vea
       \set Score.currentBarNumber = #214
     R1*4 %217
     \mvTr g'4.\fE^\tuttiE g8 as4 as
@@ -184,7 +184,7 @@ F-VIeSoprano = {
     g4 r r2 %225
     c4. c8 h4 g
     c8[ g] c4~ c h8. h16
-    c2 r4 \tempoF-VIeb es8 es
+    c2 r4 \tempoF-Veb es8 es
     e4 e r \hA e8 d
     cis4( d2 \hA cis4) %230
     d d8 d es!4 es
@@ -200,7 +200,7 @@ F-VIeSoprano = {
   }
 }
 
-F-VIeSopranoLyrics = \lyricmode {
+F-VeSopranoLyrics = \lyricmode {
   San -- cta ma -- ter, %218
   i -- stud a --
   gas, i -- stud a -- %220
@@ -226,10 +226,10 @@ F-VIeSopranoLyrics = \lyricmode {
   di -- vi -- de. %241 finis
 }
 
-F-VIfSoprano = {
+F-VfSoprano = {
   \relative c' {
     \clef treble
-    \key c \dorian \time 4/4 \autoBeamOff \tempoF-VIf
+    \key c \dorian \time 4/4 \autoBeamOff \tempoF-Vf
       \set Score.currentBarNumber = #242
     R1*7 %248
     r2 r4 \mvTr g'8\pE^\soloE c
@@ -257,7 +257,7 @@ F-VIfSoprano = {
   }
 }
 
-F-VIfSopranoLyrics = \lyricmode {
+F-VfSopranoLyrics = \lyricmode {
   Fac me %249
   te -- cum pi -- e %250
   fle -- _
@@ -280,10 +280,10 @@ F-VIfSopranoLyrics = \lyricmode {
   si -- de -- ro. %268 finis
 }
 
-F-VIgSoprano = {
+F-VgSoprano = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoF-VIga
+    \key g \minor \time 4/4 \autoBeamOff \tempoF-Vga
       \set Score.currentBarNumber = #294
     r4 \mvTr b'8\fE^\tutti b c4 b
     r b8 es es4 d %295
@@ -307,13 +307,13 @@ F-VIgSoprano = {
     g4 r r h8 h
     c([ h)] c c c4 b?8 b \noBreak
     a4. a8 g2 %315
-    \tempoF-VIgb r4 \mvTr b8\fE^\tuttiE b a4 a \noBreak
+    \tempoF-Vgb r4 \mvTr b8\fE^\tuttiE b a4 a \noBreak
     a4. a8 a4 g
     d' c b4. a8
     b[ c] d4 g, r
     g\p fis g2~ \noBreak %320
     g4 fis8[ e] \hA fis2
-    \tempoF-VIgc g4.\fE g8 b4. h8 \noBreak
+    \tempoF-Vgc g4.\fE g8 b4. h8 \noBreak
     c4. b16([ c)] a8[ h16 cis] d4~
     d8[ cis16 h] \hA cis4 d d~
     d8 g, c b a[ b16 c] d4~ %325
@@ -354,7 +354,7 @@ F-VIgSoprano = {
   }
 }
 
-F-VIgSopranoLyrics = \lyricmode {
+F-VgSopranoLyrics = \lyricmode {
   Fac me pla -- gis %294
   vul -- ne -- ra -- ri, %295
   fac me cru -- ce

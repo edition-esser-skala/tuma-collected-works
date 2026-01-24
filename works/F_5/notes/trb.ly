@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-F-VIdTrombone = {
+F-VdTrombone = {
   \relative c' {
     \clef alto
-    \key f \dorian \time 3/4 \tempoF-VId
+    \key f \dorian \time 3/4 \tempoF-Vd
       \set Score.currentBarNumber = #136
     R2.*3 %138
     r4 r c\fE

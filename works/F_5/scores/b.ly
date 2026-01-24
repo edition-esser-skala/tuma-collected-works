@@ -7,12 +7,12 @@
 
 \book {
   \bookpart {
-    \section "F.6" "Stabat mater"
+    \section "F.5" "Stabat mater"
     \addTocEntry
     \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \F-VIaOrgano }
+        \new Staff { \F-VaOrgano }
       >>
     }
   }
@@ -22,7 +22,7 @@
     \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \F-VIbOrgano }
+        \new Staff { \F-VbOrgano }
       >>
     }
   }
@@ -31,7 +31,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \F-VIcOrgano }
+        \new Staff { \F-VcOrgano }
       >>
     }
   }
@@ -40,7 +40,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \F-VIdOrgano }
+        \new Staff { \F-VdOrgano }
       >>
     }
   }
@@ -50,7 +50,7 @@
     \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \F-VIeOrgano }
+        \new Staff { \F-VeOrgano }
       >>
     }
   }
@@ -59,7 +59,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \F-VIfOrgano }
+        \new Staff { \F-VfOrgano }
       >>
     }
   }
@@ -69,7 +69,7 @@
     \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \F-VIgOrgano }
+        \new Staff { \F-VgOrgano }
       >>
     }
   }

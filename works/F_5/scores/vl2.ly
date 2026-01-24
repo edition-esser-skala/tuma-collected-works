@@ -2,30 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
-  \bookpart {
-    \section "F.6" "Stabat mater"
-    \addTocEntry
-    \paper { system-count = #14 }
-    \score {
-      <<
-        \new Staff {
-          \set Staff.instrumentName = "vl"
-          \F-VIaViolino
-        }
-      >>
-    }
-  }
   \bookpart {
     \subsection "O quam tristis et afflicta"
     \addTocEntry
     \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \F-VIbViolinoI }
+        \new Staff { \F-VbViolinoII }
       >>
     }
   }
@@ -35,7 +22,7 @@
     \paper { system-count = #13 }
     \score {
       <<
-        \new Staff { \F-VIcViolinoI }
+        \new Staff { \F-VcViolinoII }
       >>
     }
     \tacet "subsection" "Eia mater, fons amoris"
@@ -46,7 +33,7 @@
     \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \F-VIeViolinoI }
+        \new Staff { \F-VeViolinoII }
       >>
     }
     \tacet "subsection" "Fac me tecum pie flere"
@@ -57,7 +44,7 @@
     \paper { system-count = #13 }
     \score {
       <<
-        \new Staff { \F-VIgViolinoI }
+        \new Staff { \F-VgViolinoII }
       >>
     }
   }

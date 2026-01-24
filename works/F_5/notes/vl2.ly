@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-F-VIbViolinoII = {
+F-VbViolinoII = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/4 \tempoF-VIb
+    \key d \minor \time 4/4 \tempoF-Vb
       \set Score.currentBarNumber = #55
     d1~\fE
     d2 d4 cis
@@ -35,10 +35,10 @@ F-VIbViolinoII = {
   }
 }
 
-F-VIcViolinoII = {
+F-VcViolinoII = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \tempoF-VIca
+    \key g \minor \time 4/4 \tempoF-Vca
       \set Score.currentBarNumber = #82
     R1*2
     r2 r8 a''\fE fis( es!16) c-!
@@ -69,7 +69,7 @@ F-VIcViolinoII = {
     r2 r8 g16(\f as) as( c) c8 %110
     r fis,16( g) g( b) b8 r e,16( fis) fis( a) a8
     d,4 es d8 g,16 a a4\trill
-    g \tempoF-VIcb r r f'~
+    g \tempoF-Vcb r r f'~
     f g g2~
     g4 f g r %115
     R1*2
@@ -94,10 +94,10 @@ F-VIcViolinoII = {
   }
 }
 
-F-VIeViolinoII = {
+F-VeViolinoII = {
   \relative c' {
     \clef treble
-    \key c \dorian \time 4/4 \tempoF-VIea
+    \key c \dorian \time 4/4 \tempoF-Vea
       \set Score.currentBarNumber = #214
     r1
     r2 c4.\fE d8 %215
@@ -113,7 +113,7 @@ F-VIeViolinoII = {
     r2 g'4. g8 %225
     es4 as g2~
     g8 es4 f8 g2~
-    g r4 \tempoF-VIeb g8 g
+    g r4 \tempoF-Veb g8 g
     g4 g r g8 g
     g4 f e2 %230
     f4 f8 f fis4 fis
@@ -130,10 +130,10 @@ F-VIeViolinoII = {
   }
 }
 
-F-VIgViolinoII = {
+F-VgViolinoII = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \tempoF-VIga
+    \key g \minor \time 4/4 \tempoF-Vga
       \set Score.currentBarNumber = #294
     r4 g'\fE as g
     r g8 g f4 f %295
@@ -150,10 +150,10 @@ F-VIgViolinoII = {
     es4 es es2~
     es4 d es r
     R1*8 %315
-    \tempoF-VIgb r4 g\fE es2
+    \tempoF-Vgb r4 g\fE es2
     d1
     R1*4 %321
-    \tempoF-VIgc R1*2
+    \tempoF-Vgc R1*2
     r2 d4.\fE d8
     es!4. e8 f4. es16 f %325
     d8 e16 fis g4~ g8 fis16 e \hA fis4
