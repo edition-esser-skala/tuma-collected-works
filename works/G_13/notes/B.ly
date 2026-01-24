@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XIBasso = {
+G-XIIIBasso = {
   \relative c {
     \clef bass
-    \key e \minor \time 3/2 \tempoG-XIa \autoBeamOff
+    \key e \minor \time 3/2 \tempoG-XIIIa \autoBeamOff
     R1.*2
     r2 \mvTr h\pE^\solo e
     a, h1
@@ -78,7 +78,7 @@ G-XIBasso = {
     e2 r r
     R1.*3 \noBreak %92
     R1.\fermata \bar "||"
-    \time 4/4 \tempoG-XIb \newSpacingSection
+    \time 4/4 \tempoG-XIIIb \newSpacingSection
       r2 \mvTr a,4\fE^\tutti a \noBreak
     ais ais h h8 h %95
     e8. e16 e4 e e
@@ -87,7 +87,7 @@ G-XIBasso = {
     gis4 gis8 gis gis4 gis8 gis
     a4 a8 a f'4. f8 %100
     e4 e e2
-    \tempoG-XIc a,8 a' a gis a d, e4
+    \tempoG-XIIIc a,8 a' a gis a d, e4
     a,8 a' a gis a d, e4
     a,8 a' a a16 a a8 g fis h
     e, a g fis e a h4 %105
@@ -97,7 +97,7 @@ G-XIBasso = {
     h h e e d4 d8 d
     c4 h8 h a4 a %110
     h h r2\fermata
-    \tempoG-XId e4 e dis8([ h)] d4
+    \tempoG-XIIId e4 e dis8([ h)] d4
     cis( dis) e g8 e
     fis4 cis8([ dis)] e4( \hA cis)
     h gis8 gis a4 a %115
@@ -110,7 +110,7 @@ G-XIBasso = {
   }
 }
 
-G-XIBassoLyrics = \lyricmode {
+G-XIIIBassoLyrics = \lyricmode {
   Chri -- ste %3
   e -- lei --
   son, %5

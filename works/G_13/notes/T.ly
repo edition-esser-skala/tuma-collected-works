@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XITenore = {
+G-XIIITenore = {
   \relative c' {
     \clef "treble_8"
-    \key e \minor \time 3/2 \tempoG-XIa \autoBeamOff
+    \key e \minor \time 3/2 \tempoG-XIIIa \autoBeamOff
     \mvTr e2.\pE^\solo e4 e2
     d \appoggiatura d c1
     h2 r r
@@ -73,7 +73,7 @@ G-XITenore = {
     e r r
     R1.*3 \noBreak %92
     R1.\fermata \bar "||"
-    \time 4/4 \tempoG-XIb \newSpacingSection
+    \time 4/4 \tempoG-XIIIb \newSpacingSection
       r2 \mvTr c4\fE^\tutti c \noBreak
     cis cis fis, fis8 h %95
     h8. h16 h4 ais ais
@@ -82,7 +82,7 @@ G-XITenore = {
     h4 h8 h h4 h8 h
     a a e'2 d4~ %100
     d c h2
-    \tempoG-XIc a8 c c h c a a([ gis)]
+    \tempoG-XIIIc a8 c c h c a a([ gis)]
     a c c h c a a([ gis)]
     a e' e e dis e fis4
     e8 e e a, g c h4 %105
@@ -92,7 +92,7 @@ G-XITenore = {
     dis4 e8 e e4 e8 e
     e4 d8 d e4 e %110
     dis dis r2\fermata
-    \tempoG-XId R1
+    \tempoG-XIIId R1
     r2 h4 h
     ais8([ fis]) a4 gis( ais)
     h e,8 e e4 fis %115
@@ -105,7 +105,7 @@ G-XITenore = {
   }
 }
 
-G-XITenoreLyrics = \lyricmode {
+G-XIIITenoreLyrics = \lyricmode {
   Ky -- ri -- e
   e -- lei --
   son,

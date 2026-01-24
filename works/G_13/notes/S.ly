@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XISoprano = {
+G-XIIISoprano = {
   \relative c' {
     \clef treble
-    \key e \minor \time 3/2 \tempoG-XIa \autoBeamOff
+    \key e \minor \time 3/2 \tempoG-XIIIa \autoBeamOff
     \mvTr h'2.\pE^\solo h4 h2
     h h( a)
     h r r
@@ -78,7 +78,7 @@ G-XISoprano = {
     h2 r r
     R1.*3 \noBreak %92
     R1.\fermata \bar "||"
-    \time 4/4 \tempoG-XIb \newSpacingSection
+    \time 4/4 \tempoG-XIIIb \newSpacingSection
       \mvTr e2.\fE^\tutti e4 \noBreak
     e e dis dis8 dis %95
     d8. d16 d4 cis cis
@@ -87,7 +87,7 @@ G-XISoprano = {
     d4 d8 d d4 c8 h
     c c c2_( b8[ a]) %100
     gis4 a a( gis)
-    \tempoG-XIc a8 e' f e16([ d)] c8 d c([ h)]\trill
+    \tempoG-XIIIc a8 e' f e16([ d)] c8 d c([ h)]\trill
     a e' f e16 d c8 d c([ h)]
     a a c h16([ a)] h8 e e([ dis)]
     e c h dis e e, fis4 %105
@@ -97,7 +97,7 @@ G-XISoprano = {
     h4 h8 h h4 h8 h
     a4 gis8 gis a4 a %110
     fis fis r2\fermata
-    \tempoG-XId R1*4 %115
+    \tempoG-XIIId R1*4 %115
     h4 h ais8([ fis)] a4
     gis( ais) h2
     r4 d!8 d c4 c
@@ -107,7 +107,7 @@ G-XISoprano = {
   }
 }
 
-G-XISopranoLyrics = \lyricmode {
+G-XIIISopranoLyrics = \lyricmode {
   Ky -- ri -- e
   e -- lei --
   son,

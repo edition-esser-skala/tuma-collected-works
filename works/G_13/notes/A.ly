@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XIAlto = {
+G-XIIIAlto = {
   \relative c' {
     \clef treble
-    \key e \minor \time 3/2 \tempoG-XIa \autoBeamOff
+    \key e \minor \time 3/2 \tempoG-XIIIa \autoBeamOff
     \mvTr g'2.\pE^\solo g4 g2
     fis e4( g fis e)
     dis2 r r
@@ -72,7 +72,7 @@ G-XIAlto = {
     e2 r r
     R1.*3 \noBreak %92
     R1.\fermata \bar "||"
-    \time 4/4 \tempoG-XIb \newSpacingSection
+    \time 4/4 \tempoG-XIIIb \newSpacingSection
       r2 \mvTr a4\fE^\tutti a \noBreak
     g g fis fis8 fis %95
     gis8. gis16 gis4 fis fis
@@ -81,7 +81,7 @@ G-XIAlto = {
     f4 f8 f e4 e8 e
     e e a4 a4. a8 %100
     e1
-    \tempoG-XIc e8 e c e16 e e8 f e4
+    \tempoG-XIIIc e8 e c e16 e e8 f e4
     e8 e c e16 e e8 f e8. e16
     e8 e e e16 e fis8 g! a8. h16
     g8 e e fis g e e([ dis)] %105
@@ -91,7 +91,7 @@ G-XIAlto = {
     fis fis g g gis4 gis8 gis
     a4 h8 h c4 c %110
     h h r2\fermata
-    \tempoG-XId R1*2
+    \tempoG-XIIId R1*2
     r2 e,4 e
     dis8([ h)] d4 cis( dis) %115
     e g!8 g fis4 fis
@@ -103,7 +103,7 @@ G-XIAlto = {
   }
 }
 
-G-XIAltoLyrics = \lyricmode {
+G-XIIIAltoLyrics = \lyricmode {
   Ky -- ri -- e
   e -- lei --
   son,

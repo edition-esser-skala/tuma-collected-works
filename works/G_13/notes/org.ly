@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XIOrgano = {
+G-XIIIOrgano = {
   \relative c {
     \clef "treble_8"
-    \key e \minor \time 3/2 \tempoG-XIa
+    \key e \minor \time 3/2 \tempoG-XIIIa
     \mvTr e'1\pE-\solo e2
     d c1
     h2 \clef bass h, e
@@ -97,7 +97,7 @@ G-XIOrgano = {
     h4 gis a fis g? e
     fis dis e c a h \noBreak
     e,1.\fermata \bar "||"
-    \clef treble \time 4/4 \tempoG-XIb \newSpacingSection
+    \clef treble \time 4/4 \tempoG-XIIIb \newSpacingSection
       \mvTr e'''2\fE-\tutti \clef bass a,,, \noBreak
     ais h %95
     e e
@@ -106,7 +106,7 @@ G-XIOrgano = {
     gis gis
     a f' %100
     e1
-    \tempoG-XIc a,8 a' a gis a d, e4
+    \tempoG-XIIIc a,8 a' a gis a d, e4
     a,8 a' a gis a d, e4
     a,8 a' a a a g fis h
     e, a g fis e a, h4 %105
@@ -116,7 +116,7 @@ G-XIOrgano = {
     h e d4. d8
     c4 h a2 %110
     h1\fermata
-    \tempoG-XId e4-! e-! dis8-! h-! d4-!
+    \tempoG-XIIId e4-! e-! dis8-! h-! d4-!
     cis-! dis-! e g8 e
     fis4 cis8 dis e4 \hA cis
     h8. a16 gis4 a2 %115
@@ -129,7 +129,7 @@ G-XIOrgano = {
   }
 }
 
-G-XIBassFigures = \figuremode {
+G-XIIIBassFigures = \figuremode {
   r1.
   <6>2 <7> <6>
   <_+>1.

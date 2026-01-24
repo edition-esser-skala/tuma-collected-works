@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-G-XIViolinoI = {
+G-XIIIViolinoI = {
   \relative c' {
     \clef treble
-    \key e \minor \time 3/2 \tempoG-XIa
+    \key e \minor \time 3/2 \tempoG-XIIIa
     R1.*2
     r2 dis'\pE e
     e e dis
@@ -79,7 +79,7 @@ G-XIViolinoI = {
     dis4 h'8 h, c4 a'8 a, h4 g'8 g,
     a4 fis'8 fis, g4 e8 fis fis2\trillE \noBreak
     e1.\fermata \bar "||"
-    \time 4/4 \tempoG-XIb \newSpacingSection
+    \time 4/4 \tempoG-XIIIb \newSpacingSection
       e'2.\fE a4 \noBreak
     g g fis fis %95
     gis8. a16 h4 ais ais
@@ -88,7 +88,7 @@ G-XIViolinoI = {
     f4 f8 f e4 e8 e
     e4 e2 d4~ %100
     d c8 d e4 e,
-    \tempoG-XIc e8 e' f e16 d c8 d \appoggiatura c h4\trill-\critnote
+    \tempoG-XIIIc e8 e' f e16 d c8 d \appoggiatura c h4\trill-\critnote
     a8 e' f e16 d c8 d \appoggiatura c h4\trill
     a8 a c h16 a h8 e e dis
     e c h dis e e,16 fis fis4 %105
@@ -98,7 +98,7 @@ G-XIViolinoI = {
     dis4 g8 g gis4 gis8 gis
     a4 h8 h c4 e, %110
     dis dis r2
-    \tempoG-XId R1*4 %115
+    \tempoG-XIIId R1*4 %115
     h4 h ais8 fis a4
     gis ais h2
     r4 d!8 d c4 c
