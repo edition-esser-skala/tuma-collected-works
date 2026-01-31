@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026.01.0 – 2026-01-31
+
+### Added
+
+- works: TumW C.2.8, C.3.22/27, C.4.7/8, D.1.1, D.2.3, D.3.4, E.1.4, E.2.1, E.5.S1, F.S1, G.13, I.19, J.1, and K.3
+- ARKs for all works
+
+### Changed
+
+- renumbered TumW D.2.16 → 15, 20 → 19, 21 → 20, F.5/6 → 4/5, G.16 → 9, 17 → 18, 20 → 14, and 22 → 23
+- updated files to EES Tools v2026.01.0
+
+
 ## 2025.11.0 – 2025-11-29
 
 ### Added
