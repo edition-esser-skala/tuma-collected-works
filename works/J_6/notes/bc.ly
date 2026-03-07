@@ -206,7 +206,7 @@ J-VIMenuetContinuo = {
     r4 f g
     r a b
     r g a \noBreak %25
-    r h c \markRep \bar ".|:-|"
+    r h c \markRepeat \bar "||:"
     b\p a g \noBreak
     f b a
     b a g
@@ -231,7 +231,7 @@ J-VIMenuetContinuo = {
     g4 g' g,
     r g' g,
     c c'8 b! a g %50
-    f4^\critnote f f,
+    f4^\critnote f, r
     r f' f,
     b b'8 a g f
     es4 r r
@@ -306,7 +306,7 @@ J-VIMenuetBassFigures = \figuremode {
   <7 _!>
   r4 <\t \t>2
   <_->2. %50
-  r4 <7>2
+  <7>
   r4 <\t>2
   r2.
   <7>

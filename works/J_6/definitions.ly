@@ -4,10 +4,6 @@ markMDC = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark "Menuet da capo"
 }
-markRep = {
-  \once \override Score.RehearsalMark.self-alignment-X = #LEFT
-  \mark \markup \concat { "R. " \remark \critnote }
-}
 sempre = \markup \remark "sempre"
 
 tempoJ-VIIntro = \tempoMarkup "Lento"

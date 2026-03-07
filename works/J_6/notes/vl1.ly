@@ -131,7 +131,7 @@ J-VIMenuetViolinoI = {
     f, a b!
     c8. es,16 es4 d
     g h c \noBreak %25
-    d8. f,16 f4 e! \markRep \bar ".|:-|"
+    d8. f,16 f4 e! \markRepeat \bar "||:"
     \tuplet 3/2 4 { g8\p f e f g a } b!4 \noBreak
     \tuplet 3/2 4 { a8 g f g f e } f4
     \tuplet 3/2 4 { g8 f e f g a } b4
