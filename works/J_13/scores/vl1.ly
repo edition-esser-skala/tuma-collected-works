@@ -9,10 +9,10 @@
   \bookpart {
     \section "1" "Lamento"
     \addTocEntry
-    \paper { systems-per-page = #4 page-count = #1 }
+    \paper { system-count = #4  }
     \score {
       <<
-        \new Staff { \J-XIIILamentoViolinoI }
+        \new Staff { \J-XIIIaViolinoI }
       >>
     }
   }
@@ -21,7 +21,36 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \J-XIIIFugaViolinoI }
+        \new Staff { \J-XIIIbViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Ballo"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \J-XIIIcViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Menuet"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \J-XIIIdViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Staffada"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \J-XIIIeViolinoI }
       >>
     }
   }

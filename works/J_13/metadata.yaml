@@ -7,17 +7,12 @@ license: cc-by-sa-4.0
 sources:
   B1:
     siglum: D-Dl
-    shelfmark: Mus.2968-N-1
-    date: 1725–1745
-    rism: 212003083
-    url: https://digital.slub-dresden.de/id323415369
+    shelfmark: Mus.2968-P-514
+    date: 1890–1900
+    rism: 1001167150
+    url: https://digital.slub-dresden.de/id1898777306
     license: public domain
     principal: true
-  B2:
-    siglum: D-Dl
-    shelfmark: Mus.2968-N-1a
-    date: 1730–1755
-    rism: 212003084
-    url: https://digital.slub-dresden.de/id323412327
-    license: public domain
 imslp: Trio_Sonata_in_C_minor_(Tůma%2C_František_Ignác_Antonín)
+toe:
+  – & b & All bass figures have been added by the editor. \\

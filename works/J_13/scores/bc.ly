@@ -9,21 +9,55 @@
   \bookpart {
     \section "1" "Lamento"
     \addTocEntry
-    \paper { systems-per-page = #4 }
+    \paper { system-count = #4 }
     \score {
       <<
-        \new Staff { \J-XIIILamentoContinuo }
-        \new FiguredBass { \J-XIIILamentoBassFigures }
+        \new Staff { \J-XIIIaContinuo }
+        \new FiguredBass { \J-XIIIaBassFigures }
       >>
     }
   }
   \bookpart {
     \section "2" "Fuga"
     \addTocEntry
+    \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \J-XIIIFugaContinuo }
-        \new FiguredBass { \J-XIIIFugaBassFigures }
+        \new Staff { \J-XIIIbContinuo }
+        \new FiguredBass { \J-XIIIbBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Ballo"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \J-XIIIcContinuo }
+        \new FiguredBass { \J-XIIIcBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Menuet"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \J-XIIIdContinuo }
+        \new FiguredBass { \J-XIIIdBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Staffada"
+    \addTocEntry
+    \paper { system-count = #7 }
+    \score {
+      <<
+        \new Staff { \J-XIIIeContinuo }
+        \new FiguredBass { \J-XIIIeBassFigures }
       >>
     }
   }
