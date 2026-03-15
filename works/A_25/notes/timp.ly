@@ -1,0 +1,102 @@
+\version "2.24.2"
+
+A-XXVKyrieTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XXVKyrie
+    R1*5 \noBreak %5
+    R1\fermata \bar "||"
+    \tempoA-XXVKyrieB R1*2
+    c8\fE c16 c c8 r g g16 g g8 r
+    c c16 c c8 c g4 r %10
+    R1*6 %16
+    c8 c16 c g8 g c4 r
+    c8 c16 c g8 g c4 r
+    R1*18 %36
+    c8 c16 c g8 g c4 r
+    R1*3 %40
+    c8 c16 c c8 c g4 r
+    g8 g16 g g g g g c4 r
+    c8 c16 c g8 g c4 r
+    R1*3 %46
+    r2 c8 c16 c g8 g
+    c c16 c g g g g c4 r\fermata \bar "||" %48 finis
+  }
+}
+
+A-XXVKyrieFugaTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XXVKyrieFuga
+      \set Score.currentBarNumber = #76
+    R1*2 \noBreak %77
+    R1\fermata \bar "||"
+    \tempoA-XXVKyrieFugaB R1*2 %80
+    c4\fE r8 c g c g g16 g
+    c8 r r4 r2
+    R1*10 %92
+    r2 g4 r8 g
+    c4 r8 c g4 r
+    R1*16 %110
+    r2 r4 r8 c
+    g4 r8 g c4 r
+    R1*5 %117
+    r2 r4 r8 c
+    g4 r8 g c4 r
+    R1*2 %121
+    r2 r4 r8 g
+    c4 r8 c g4 r8 c
+    g4 r8 c g g16 g g4
+    R1*5 %129
+    c8 c16 c c8 c g4 r %130
+    R1*2
+    r2 g4 r
+    g8 g16 g g8 g c2\fermata \bar "|." %134 finis
+  }
+}
+
+A-XXVGloriaTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoA-XXVGloria
+    c4\fE r r
+    c r r
+    c r r
+    g r r
+    g r r %5
+    g r r
+    c r r
+    c r r
+    g r r
+    g r r %10
+    g r r
+    g r r
+    c r r
+    c r r
+    R2.*2 %16
+    c4 g2
+    c4 r r
+    c r r
+    c r r %20
+    R2.*10 %30
+    g4\fE r r
+    c g g8 g
+    c4 r r
+    c r r
+    c r r %35
+    r g g8 g
+    c2 c4 \noBreak
+    c2 r4\fermata \bar "||"
+    \time 4/4 \tempoA-XXVLaudamus \newSpacingSection R1*32 %70
+    \tempoA-XXVAdoramus R1*4 \noBreak
+    R1\fermata %75
+    \tempoA-XXVGlorificamus r2 c4\fE g8 g \noBreak
+    c4 r c g8 g
+    c4 r r2
+    R1*2 %80
+    r2 r4 r8 c
+    g4 g8 g c4 r
+    r8 c g c g4 g8 g
+    c1\fermata \bar "||" %84 finis
+  }
+}

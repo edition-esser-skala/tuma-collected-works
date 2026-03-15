@@ -1,0 +1,34 @@
+title: Missa Tibi soli
+id: TumW A.25
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro),\\2 clno (C), 2 tr (C), 2 trb, timp (C–G), 2 vl, b, org
+ark: 68748/e1fita25
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ws
+    shelfmark: E 3/21
+    license: public domain
+    principal: true
+    notes: Kyrie and Gloria
+  B2:
+    siglum: A-Ws
+    shelfmark: E 1/19
+    license: public domain
+    notes: Credo to Agnus
+tocstyle: default
+toe: |
+  1 & 42  & tr 2  & 1st \halfNote\ in \B1: c′8–c′16–c′16–g8–g8 \\
+    & 48  & org   & 2nd \halfNote\ in \B1: c2 \\
+    & 102 & trb 1, A & 6th \eighthNote\ in \B1: c′8 \\
+    & 104 & trb 2 & last \eighthNote\ in \B1: a8 \\
+    & 119 & vl 2  & 5th \eighthNote\ in \B1: a′8 \\
+    & 122 & trb 1, A & 2nd/3rd \eighthNote\ in \B1: a′4 \\
+    & 127 & S     & 6th \eighthNote\ in \B1: a′8 \\
+    & 128 & B     & 2nd \quarterNote\ in \B1: e4 \\
+    & 133 & tr 2  & 3rd \quarterNote\ in \B1: c′4 \\
+  2 & 28  & S     & bar in \B1: c″2–b′4 \\
+    & 30  & A     & 1st \halfNote\ in \B1: g′2 \\
+    & 49  & vl 2  & rhythm of 2nd \quarterNote\ in \B1: 2×\eighthNote \\
+parts:
+  ottoni: Clarino I, II in C\\Tromba I, II in C\\Timpani in C–G
