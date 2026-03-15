@@ -4,7 +4,7 @@ K-IIaContinuo = {
   \relative c {
     \clef bass
     \key a \minor \time 3/4 \tempoK-IIa
-    a'4\p r r
+    a'4\p^\critnote r r
     g r r
     f r r
     e r r
@@ -172,15 +172,11 @@ K-IIbContinuo = {
     e r8 a'
     g!4 f
     e d %40
-    c r8 c
+    c r8 \markRepeat \bar "||:" c
     d4 h
     a8 a16 h c8 d
     e4 e,
-    a r8 \markCritnote c\fE %45
-    d4 h
-    a8 a16 h c8 d
-    e4 e,
-    a r8\fermata \bar ":|." %49 finis
+    a r8\fermata \bar ":|." %45 finis
   }
 }
 
@@ -229,11 +225,7 @@ K-IIbBassFigures = \figuremode {
   <_+>4 <6\\>
   r4 <6>8 <_!>
   <6 4>4 <5 _+>
-  r4. <6>8 %45
-  <_+>4 <6\\>
-  r4 <6>8 <_!>
-  <6 4>4 <5 _+>
-  r4. %49 finis
+  r4. %45 finis
 }
 
 K-IIcContinuo = {

@@ -110,15 +110,11 @@ K-IIbViolinoII = {
     gis r
     r8 g'!( a h)
     r e,( fis gis) %40
-    r e c a-\critnote
+    r e c \markRepeat \bar "||:" a-\critnote
     a'4 h
     r8 c16 a a'8 a,
     a4 gis\trill
-    a r8 \markCritnote a\fE^\critnote %45
-    a4 h
-    r8 c16 a a'8 a,
-    a4 gis\trill
-    a r8\fermata \bar ":|." %49 finis
+    a r8\fermata \bar ":|." %45 finis
   }
 }
 
@@ -206,9 +202,9 @@ K-IIdViolinoII = {
     gis8 h \appoggiatura h a4\trill
     gis16 e g? e h' h dis h
     e4 r %15
-    r-\critnote g!
-    r fis
-    r e
+    g! r
+    fis r
+    e r
     dis r
     h g' %20
     r fis
@@ -247,9 +243,9 @@ K-IIdViolinoII = {
     e' e, d' d,
     h''! h,! a' a, %55
     \appoggiatura a' gis4 r
-    r-\critnote c,\f
-    r h
-    r a
+    c,\f r
+    h r
+    a r
     r16 h c h e d c h %60
     c c d c f e d c
     h h c h e d c h

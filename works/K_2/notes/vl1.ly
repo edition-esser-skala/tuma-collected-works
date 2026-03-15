@@ -110,15 +110,11 @@ K-IIbViolinoI = {
     e4 r8 f'
     h,( e) r d
     g,!( c) r h %40
-    e,( a) r e'
+    e,( a) r \markRepeat \bar "||:" e'
     fis16 a gis fis gis h a gis
     a8 a, r f'
     c4 h\trill
-    a r8 \markCritnote e'\fE %45
-    fis16 a gis fis gis h a gis
-    a8 a, r f'
-    c4 h\trill
-    a r8\fermata \bar ":|." %49 finis
+    a r8\fermata \bar ":|." %45 finis
   }
 }
 
