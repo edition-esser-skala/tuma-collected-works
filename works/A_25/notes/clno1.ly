@@ -122,3 +122,199 @@ A-XXVGloriaClarinoI = {
     g1\fermata \bar "||" %84 finis
   }
 }
+
+A-XXVDomineClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXVDomine
+      \set Score.currentBarNumber = #158
+    g''4\fE g8 g g g r4
+    g g8 g g g g g
+    g4 r r2 %160
+    R1*9 %169
+    r2 \pa r16 e f g a g f e %170
+    f f g a g f e d \pd e4 r
+    \pa r16 g a h c h a g a g f e d8 g \pd
+    e g g4 g r
+    R1*4 %177
+    r2 r4 \pa g~ \noBreak
+    g8 f16 e \pd d4 c r\fermata \bar "||"
+    \tempoA-XXVQuiTollis R1*6 %185
+    r4 e\fE e e
+    f r r f
+    f e f r
+    R1*6 %194
+    r4 \tempoA-XXVQuiSedes g g g8 g %195
+    g4 g8 g g4 g8 g
+    g4 g8 g g4 g8 fis
+    g g16 g g8 g g4 r
+    g8 g16 g g8 g g4 r
+    a a8 a g4 f8 e %200
+    d2 c\fermata \bar "||" %201 finis
+  }
+}
+
+A-XXVQuoniamClarinoSolo = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoA-XXVQuoniam
+      \set Score.currentBarNumber = #202
+    c'8\fE g c d16 e d8 e16 f
+    e8 c e f16 g f8 g16 a
+    g8 f16 g e g f g a g f e
+    f8 e16 f d f e f g f e d %205
+    e8 d16 e c e d e f e d c
+    d4 g, r
+    r8 d'[ d d] d e16 f
+    g4 r r
+    r8 g[ g g] g a16 h %210
+    c8 g a16 f f8 g16 e e8
+    f16 d d8 e16 c c8 \appoggiatura e d4\trill
+    c8 g' e16 c c8 \appoggiatura e d4\trill
+    c r r
+    R2.*6 %220
+    g'8 f16 g e g f g a g f e
+    f8 e16 f d f e f g f e d
+    e4 c r
+    R2.
+    g'~\pE %225
+    g~
+    g
+    r8 d[ d d] d e16 f
+    g4 r r
+    r8 c,[ c c] c d16 e %230
+    f4 r f~
+    f e2~
+    e4 d2~
+    d4 c2
+    R2.*9 %243
+    c8\fE g c d16 e d8 e16 f
+    e8 c e f16 g f8 g16 a %245
+    g4 g2~\pE
+    g2.
+    R2.*3 %250
+    r4 r e
+    f8 e16 f d f e f g f e d
+    e8 d16 e c e d e f e d c
+    d4 e2~
+    e4 r r %255
+    R2.*5 %260
+    c8\fE g c d16 e d8 e16 f
+    e8 c e f16 g f8 g16 a
+    g8 f16 g e g f g a g f e
+    f8 e16 f d f e f g f e d
+    e8 d16 e c e d e f e d c %265
+    d4 g, r
+    r8 d'[\pE d d] d e16 f
+    g8[ g g g] g a16 h
+    c4 r r
+    R2.*7 %276
+    g8\fE f16 g e g f g a g f e
+    f8 e16 f d f e f g f e d
+    e8 d16 e c e d e f e d c
+    d4 g, r %280
+    r8 d'[ d d] d e16 f
+    g4 r r
+    r8 g[ g g] g a16 h
+    c8 g a16 f f8 g16 e e8
+    f16 d d8 e16 c c8 \appoggiatura e d4\trill %285
+    c r c
+    c d2~
+    d4 g2~
+    g4 c2~
+    c4 c,2~ %290
+    c g8 g
+    e2 r4\fermata \bar "||" %292 finis
+  }
+}
+
+A-XXVCumSanctoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXVCumSancto
+      \set Score.currentBarNumber = #293
+    R1
+    R\fermata \bar "||"
+    \time 6/4 \tempoA-XXVInGloria R1.*10 %304
+    \pa g''2.\fE a4 e f %305
+    g d2 e4 d c \pd
+    d2 r4 r2 r4
+    R1.*8 %315
+    \pa g2. a4 e f
+    g d2 e4 d c \pd
+    d e f e f g
+    d e f e f g
+    d2 r4 r2 r4 %320
+    R1.*6 %326
+    g4 g g g2.
+    \pao c,2 r4 \pao c2 r4
+    \pao c2 r4 \pao c2 r4
+    e e e e2.\fermata \bar "|." %330 finis
+  }
+}
+
+A-XXVCredoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXVCredo
+    R1*6 %6
+    g''4\fE g16 f e d e8. e16 e4
+    a8 a g g g4. g8
+    g4 r r2
+    R1*3 %12
+    r2 r8 g g g
+    a4 a r e8 e
+    f4 f8 f d e d4 %15
+    c r r2
+    R1*3
+    r2 r4 r8 g' %20
+    \pa g4 g g2
+    r8 g f16 e f g e8 g \pd f16 e f g
+    e8 g16 f e8 e d e d4
+    c r r2
+    R1*8 %32
+    g'4 g g g8 g
+    g2 g\fermata \bar "||" %34 finis
+  }
+}
+
+A-XXVEtResurrexitClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXVEtResurrexit
+      \set Score.currentBarNumber = #66
+    g''4\fE g8 g g g r4
+    R1
+    r2 g4 g8 g
+    g g r4 g g8 g
+    g4 fis g r %70
+    R1*3
+    r2 e8 e16 e e8 e
+    e4 r r2 %75
+    R1*6 %81
+    r2 r8 e d d
+    c4 r r2
+    R1*7 %90
+    e4 e8 e f4 f
+    r2 r4 r8 g
+    g f16 e g8 f16 e d8 d16 d d8 d
+    d4 r r2
+    r4 d8 d16 d e4 r %95
+    R1*8 %103
+    r2 \tempoA-XXVMortuorum r
+    R1 \noBreak %105
+    R\fermata \bar "||"
+    \tempoA-XXVEtVitam R1*12 %118
+    r2 r4 g~\fE
+    g8 f f e16 d e8 g16 f e4 %120
+    d g2 a4
+    g r8 g~ g f f e16 d
+    e8 g16 f e4 d8 g16 f e4
+    d8 e d4 c r
+    R1*2 %126
+    r2 r4 g'
+    g8 e16 f g8 f16 e d4 e
+    d e d2\trill
+    c1\fermata \bar "|." %130 finis
+  }
+}

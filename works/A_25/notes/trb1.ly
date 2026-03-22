@@ -210,3 +210,219 @@ A-XXVGratiasTromboneI = {
     f r4\fermata \bar "||" %157 finis
   }
 }
+
+A-XXVDomineTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXVDomine
+      \set Score.currentBarNumber = #158
+    g'4\fE g8 g g g r4
+    g g8 g g g g g
+    g g g g g4 a %160
+    a~ a16 a g a fis4~ fis16 fis e \hA fis
+    d8 e fis8. g16 g4 r
+    R1*7 %169
+    e4\fE e8 e e e r4 %170
+    r2 g4 g8 g
+    g g r4 r2
+    g4 g g8 g r4
+    R1*2 %175
+    r2 r8 g4\fE g16 g
+    a4. f8 g4. e8
+    f4. d8 e4 d8 d \noBreak
+    e e d4 e r\fermata \bar "||"
+    \tempoA-XXVQuiTollis e2\fE f \noBreak %180
+    f r4 e
+    e h' a2
+    gis r4 a8 a
+    a2. g4
+    fis?2 e %185
+    r4 g g2
+    a4 a f! f
+    f e f f~
+    f4. f8 fis2
+    R1*3 %192
+    r4 g4. g8 f f
+    e4 es d2
+    c4 \tempoA-XXVQuiSedes g' g2 %195
+    g4 g g4. g8
+    g4 g g g8^\critnote fis
+    g4 g r g8 g
+    g4 g r g8 g
+    g4 f2 e4 %200
+    d2 e\fermata \bar "||" %201 finis
+  }
+}
+
+A-XXVCumSanctoTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXVCumSancto
+      \set Score.currentBarNumber = #293
+    a'2\fE gis4 a
+    a4. a8 gis2\fermata \bar "||"
+    \time 6/4 \tempoA-XXVInGloria g2. a4 e f %295
+    g d2 e4 d c
+    d2. c4 e8 d e f
+    g2.~ g4 fis8 e \hA fis4
+    g2 g4~ g f8 e f4~
+    f e d c g' a %300
+    d, f2 e e4
+    f d2 e fis4
+    g2 g4 a2 a4
+    g g g e f!2
+    d4 e2 c2. %305
+    f e
+    r2 r4 e2.
+    f4 c d e h2
+    c4 a2 e'2.~
+    e4 dis8 cis \hA dis4 e2 a4~ %310
+    a gis8 fis \hA gis4 a e f
+    e d2 c4 e2
+    e c'4 h a fis
+    e g2 g4 f e
+    f2.~ f4 e d %315
+    e2. r2 r4
+    R1.*3
+    g2. a4 e f %320
+    g2. f
+    e g
+    e d
+    c h4 g'2
+    g g4 g f f %325
+    f e2 d2.~
+    d4 c d e g2
+    a4 e f g d e
+    f c f~ f e d
+    e1.\fermata \bar "|." %330 finis
+  }
+}
+
+A-XXVCredoTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXVCredo
+    g'2\fE e4 g
+    a4. g8 f e f f
+    g4 d e e8 e
+    e2 f4 f
+    d d e8 f g g %5
+    g4 fis g g
+    g g8 g g8. g16 g4
+    f!8 f g g g4. g8
+    g g4 a8 f e d g
+    e4 g4. g8 g fis %10
+    g4 e f8 g f d
+    e4 e8 e fis g c,8. d16
+    d8 d d g g4 g
+    r8 a g a g16 g g8 g g
+    a4 a r e~ %15
+    e8 e f e16 d e8 a, a' a
+    a gis a f e4 e
+    d8 e e a a2
+    gis4 g8 g e4. e8
+    f4 f8 f d4. d8 %20
+    e4 e8 e16 e d4. d8
+    e4 r r2
+    R1
+    r4 e f fis8 fis
+    g4 gis a4. e8 %25
+    e4 e a8 g fis4
+    gis8 a h4 a a
+    h2 e,
+    e fis
+    e8 e d d r d c c %30
+    r c h h r h a a16 e'
+    e2 e4 r8 f
+    d h r e c4 d8 e
+    d2 e\fermata \bar "||" %34 finis
+  }
+}
+
+A-XXVEtIncarnatusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key a \minor \time 4/4 \tempoA-XXVEtIncarnatus
+      \set Score.currentBarNumber = #35
+    R1*11 %45
+    r2 \mvTr e4\fE-\solo a~
+    a8 h gis8. gis16 a8 a a16 g f e
+    f4 f r8 d g16 f e d
+    e8 f g4. f16 g e4
+    d r r2 %50
+    R1*2
+    d4.-\tutti d8 cis4 d8 e
+    f4. f8 e4 f
+    e2 d8 d e4 %55
+    e e e e
+    a a fis2
+    d4 a' g2
+    c,4 r r2
+    r4 a'4. g8 g d %60
+    e4 g4. f8 f c
+    d4 d d2
+    c4 r \tempoA-XXVSepultus g'2
+    fis fis4. fis8
+    e1\fermata \bar "||" %65 finis
+  }
+}
+
+A-XXVEtResurrexitTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXVEtResurrexit
+      \set Score.currentBarNumber = #66
+    g'4\fE g8 g g g r4
+    R1
+    r2 g4 g8 g
+    g g r4 g g8 g
+    g4 fis g g %70
+    g a8 g g4 fis
+    g r r2
+    R1
+    r2 g
+    a4. a8 a4 g8 g %75
+    g4 g8 g e8. e16 e8 e
+    e e e a gis8. gis16 gis4
+    g4. g8 e2
+    fis e4 r8 g
+    g4 e fis fis8 fis %80
+    gis4 gis8 gis a a r e
+    f!4 r8 d e4 d
+    e r r2
+    R1*6 %89
+    r2 r4 e8\fE e %90
+    e4 e8 e f8. f16 f4
+    f8 f f f e e r g
+    g g g g g4 g
+    r d8 e e8. e16 f4
+    f8 f d4 e r %95
+    R1*8
+    r2 \tempoA-XXVMortuorum r
+    R1 \noBreak %105
+    R\fermata \bar "||"
+    \tempoA-XXVEtVitam r2 g\fE \noBreak
+    a g4 r8 c
+    c h16 a g8 f e e16 d e8 fis
+    g2. e4 %110
+    f!2 e4 f
+    d e r2
+    r e
+    f e4 a
+    a gis a2~ %115
+    a4 gis8 fis \hA gis4 a
+    a gis a e8 e
+    f! g g4 f4. d8
+    e4 a g g
+    g8 f f e16 d e2 %120
+    d4 r r2
+    R1*2
+    r2 r4 g
+    a g r8 g e fis %125
+    g4. g8 g4 c8 h
+    a2 g
+    g g
+    g1
+    g\fermata \bar "|." %130 finis
+  }
+}

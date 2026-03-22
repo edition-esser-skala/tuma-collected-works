@@ -123,3 +123,125 @@ A-XXVGloriaClarinoII = {
     e1\fermata \bar "||" %84 finis
   }
 }
+
+A-XXVDomineClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXVDomine
+      \set Score.currentBarNumber = #158
+    e'4\fE d8 d e e r4
+    e d8 d e e e e
+    d4 r r2 %160
+    R1*9 %169
+    r2 r4 c %170
+    d g, g r
+    e' e d d
+    c8 e e4 d r
+    R1*4 %177
+    r2 r4 d \noBreak
+    e8 d16 c g4 e r\fermata \bar "||"
+    \tempoA-XXVQuiTollis R1*6 %185
+    r4 c' c c
+    c r r c
+    d g, c r
+    R1*6 %194
+    r4 \tempoA-XXVQuiSedes e d d8 d %195
+    e4 e8 e d4 d8 d
+    e4 e8 e d4 d8 c
+    d d16 d d8 d d4 r
+    e8 e16 e e8 e e4 r
+    f f8 f c4 c %200
+    g2 e\fermata \bar "||" %201 finis
+  }
+}
+
+A-XXVCumSanctoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXVCumSancto
+      \set Score.currentBarNumber = #293
+    R1
+    R\fermata \bar "||"
+    \time 6/4 \tempoA-XXVInGloria R1.*10 %304
+    r2 r4 c'2.\fE %305
+    d4 g,2 g e4
+    g2 r4 r2 r4
+    R1.*8 %315
+    r2 r4 c2.
+    d4 g,2 g e4
+    g c d c d e
+    g, c d c d e
+    g,2 r4 r2 r4 %320
+    R1.*6 %326
+    d'4 d d d2.
+    c2 r4 c2 r4
+    c2 r4 c2 r4
+    c c c c2.\fermata \bar "|." %330 finis
+  }
+}
+
+A-XXVCredoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXVCredo
+    R1*6 %6
+    d'4.\fE d8 c8. c16 c4
+    c8 c c c d4. d8
+    e4 r r2
+    R1*3 %12
+    r2 r8 e e e
+    f4 f r c8 c
+    c4 c8 d g, g g4 %15
+    e r r2
+    R1*3
+    r2 r4 r8 d' %20
+    e4. e8 d4 d
+    e8 r r4 r8 e d16 c d e
+    c8 e16 d c8 c g g g4
+    e r r2
+    R1*8 %32
+    d'4 e e8 e d e
+    d2 e\fermata \bar "||" %34 finis
+  }
+}
+
+A-XXVEtResurrexitClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXVEtResurrexit
+      \set Score.currentBarNumber = #66
+    e'4\fE e8 d e e r4
+    R1
+    r2 e4 e8 d
+    e e r4 d d8 d
+    c4 c d r %70
+    R1*3
+    r2 c8 c16 c c8 c
+    c4 r r2 %75
+    R1*6 %81
+    r2 r8 g g g
+    e4 r r2
+    R1*7 %90
+    c'4 c8 c c4 c
+    r2 r4 r8 e
+    e4 c g8 g16 g g8 g
+    g4 r r2
+    r4 g8 g16 g g4 r %95
+    R1*8 %103
+    r2 \tempoA-XXVMortuorum r
+    R1 \noBreak %105
+    R\fermata \bar "||"
+    \tempoA-XXVEtVitam R1*12 %118
+    r2 r4 \pa d'\fE
+    c d c8 e16 d c8 g %120
+    g4 r r2
+    c d
+    c8 e16 d c8 g g e'16 d c4
+    g g8 g \pd e4 r
+    R1*2 %126
+    r2 r4 d'
+    e8 c16 d e8 d16 c g4 g8 g
+    g4 g8 g g2
+    e1\fermata \bar "|." %130 finis
+  }
+}

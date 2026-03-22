@@ -194,3 +194,282 @@ A-XXVGloriaViolinoI = {
     c1\fermata \bar "||" %84 finis
   }
 }
+
+A-XXVDomineViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXVDomine
+      \set Score.currentBarNumber = #158
+    c''4\fE h r16 c h c d, h' a h
+    c8 c, d h' c e,16 f g8 f16 e
+    d4 d8 g e4~ e16 e d e %160
+    c c' h c a4~ a16 a g a fis8 d
+    d e a, fis' r16 d' c d h a g f?
+    e c' h c a g fis e d \hA h' a h g fis e d
+    c a' g a fis e d c h g' h, g' a, fis' a, \hA fis'
+    g,4 r r2 %165
+    r r4 r8 e'\p
+    e4 r8 a a,4 d
+    r r8 g g,4 c
+    R1
+    a'4\f gis8 gis a a, r4 %170
+    r2 r16 c' h c d, h' a h
+    c8 c, r g' f4 r8 d
+    e c' c4 h r
+    R1*2 %175
+    r2 r16 g\fE f g e d c h
+    a f' e f d c h a g e' d e c h a g
+    f d' c d h a g f e c' e, c' d, h' d, h' \noBreak
+    c c' e, c' d, h' d, h' c,4 r\fermata \bar "||"
+    \tempoA-XXVQuiTollis r8 e\fE e e r f f f \noBreak %180
+    r d d d d4 r8 d
+    c d e h' r a a a
+    gis h h h h4 a
+    r8 a a a a4 g8 e
+    fis2 e8 h h h %185
+    g4 r r8 g' g g
+    a4 r8 f! f f f f
+    f4 e f8 c c c
+    c c c c fis2
+    d4. c8 h!4 b %190
+    a2~ a8 fis g4~
+    g8 fis g a b4 h
+    c cis d a8 h
+    c2 c4( h)
+    c \tempoA-XXVQuiSedes c' h8 g16 a h8 h %195
+    c c, c'4 h g8 h
+    c c, g'4 g16 fis g a g8 c
+    h4 r r g8 g
+    g4 g r g8 g
+    g4 f2 e4 %200
+    d2 e4 r\fermata \bar "||" %201 finis
+  }
+}
+
+A-XXVQuoniamViolinoIeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoA-XXVQuoniam
+      \set Score.currentBarNumber = #202
+    R2.*5 %206
+    r16 \mvTr g''\fE-\unisono fis g d g \hA fis g h, a g fis
+    g4 g, r
+    r16 c'' h c g c h c g f! e d
+    e4 c, r %210
+    R2.*3
+    r16 g'' f g c, g' f g b, g' f g
+    a, a' g a d, a' g a c, a' g a %215
+    h,! d' c d g, d' c d f, d' c d
+    e, g a h c g a h c g a h
+    c g, a h c g a h c g a h
+    c8 c,16 d \appoggiatura e4 d2\trill
+    c4 r r %220
+    R2.*8 %228
+    c'2.\pE
+    c %230
+    d4 r r
+    R2.*3
+    r16 d\p c d g, d' c d f, d' c d %235
+    e, e' d e a, e' d e g, e' d e
+    fis, a' g a d, a' g a c, a' g a
+    h, d e fis g d e \hA fis g d e \hA fis
+    g d, e fis g d e \hA fis g d e \hA fis
+    g4 r r %240
+    R2.
+    g'8\f d g a16 h a8 h16 c
+    h8 h16 c d c h a g8 f!
+    e4 r r
+    R2.*9 %253
+    d8\p c16 d h c d c e d c h
+    c4 a e'~ %255
+    e d c
+    h e,2
+    R2.
+    r16 e'\f d e a, e' d e g,! e' d e
+    f, d' c d g, d' c d f, d' c d %260
+    e,4 r r
+    R2.*7 %268
+    r16 g'\p f g c, g' f g b, g' f g
+    a, a' g a d, a' g a c, a' g a %270
+    h,! d' c d g, d' c d f, d' c d
+    e, g a h c g a h c g a h
+    c g, a h c g a h c g a h
+    c4 r r
+    R2.*2 %276
+    e2\p e4
+    a,2 d4
+    g,2 r4
+    r16 g'\f fis g d g \hA fis g h, a g fis %280
+    g4 r r
+    r16 c' h c g c h c e, d c h
+    c4 c, r
+    R2.*2 %285
+    r16 g'' f g c, g' f g b, g' f g
+    a, a' g a d, a' g a c, a' g a
+    h,! d' c d g, d' c d f, d' c d
+    e, g a h c g a h c g a h
+    c g, a h c g a h c g a h %290
+    c8 c,16 d \appoggiatura e4 d2\trill
+    c r4\fermata \bar "||" %292 finis
+  }
+}
+
+A-XXVCumSanctoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXVCumSancto
+      \set Score.currentBarNumber = #293
+    a''2\fE gis4 a
+    a4. a8 gis2\fermata \bar "||"
+    \time 6/4 \tempoA-XXVInGloria R1.*7 %301
+    r2 r4 c,2.
+    e4 h c d a2
+    h4 a g a2.
+    g2 e4 a g2 %305
+    d'4 h8 c d4 c g c~
+    c h8 a h4~ h a2~
+    a2. r2 r4
+    a2. c4 g! a
+    h fis2 g4 e c' %310
+    h2. a4 a2~
+    a4 gis8 fis \hA gis4 a c h8 a
+    g2. fis4 a2
+    g2. r4 r \once \tieDashed e'~
+    e d8 cis d4 r2 d4~ %315
+    d c8 h c4 r2 r4
+    R1.*5 %321
+    c2. e4 h c
+    r c2~ c4 h8 a h4
+    c d e d2.
+    e4 h c d a h %325
+    c g c c h a
+    h2. c
+    \once \tieDashed c1.~
+    c
+    g\fermata \bar "|." %330 finis
+  }
+}
+
+A-XXVCredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXVCredo
+    R1*2
+    r2 c'\fE
+    a4 c d4. c8
+    h a h4 c c8 c %5
+    \appoggiatura h4 a2 g16 g' g d d h h g
+    g4 r r16 c' c g g e e c
+    c4 r8 c' c4 h
+    c r r2
+    R1*2 %11
+    c,4. e8 c h16 h a8 d
+    h d d d e4 e
+    r8 c c c h h c c
+    c4 c8 d h c c h %15
+    c4 r r2
+    r a8 a c h16 a
+    h8 e, e'2 d4
+    e e8 d cis4. cis8
+    d4 d8 c h4. h8 %20
+    c4 c8 c16 c h4. h8
+    c4 r r2
+    R1*5 %27
+    r2 a
+    c4 cis d dis
+    e4 r8 d h g r c %30
+    a f r h gis e a4~
+    a gis a r8 d
+    h g r c g e g4
+    g2 g\fermata \bar "||" %34 finis
+  }
+}
+
+A-XXVEtIncarnatusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoA-XXVEtIncarnatus
+      \set Score.currentBarNumber = #35
+    R1*19 %53
+    a'4.\fE a8 gis4 a8 h
+    c4. c8 h4 h %55
+    a c h e~
+    e d a2
+    g4 r r2
+    r r4 d'~
+    d8 cis c a b4 h %60
+    c8 h b g a4. c8~
+    c f, d' c b a g f
+    e4 r \tempoA-XXVSepultus e2
+    e dis4. dis8
+    e1\fermata \bar "||" %65 finis
+  }
+}
+
+A-XXVEtResurrexitViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXVEtResurrexit
+      \set Score.currentBarNumber = #66
+    r2 c16\fE d e f g a h c
+    g a h c d e f g c, d e f g a h c
+    h a g a g f e d e d c8 r4
+    c,16 d e f g a h c g a h c d e f g
+    c, d e f g a h c h a g8 r4 %70
+    r2 d,16 e fis g a h c a
+    g, a h c d e fis g d e \hA fis g a h c d
+    g, a h c d e fis g \hA fis e d e d c h a
+    h a g8 r4 c16 d e f g a h c
+    c, d e f g a h c c, d e f g a h c %75
+    h a g8 r4 e,16 fis gis a h c d e
+    c h a8 r4 e16 fis gis a h c d e
+    a, h cis d e f! g! a a, h c d e f g a
+    h, cis dis e fis g a h g \hA fis e d c h a g
+    e fis g a h c d e dis cis h8 r4 %80
+    e,16 fis gis a h c d e a, h c d e fis? gis a
+    d,4 r r2
+    c,16 d e f g a h c g a h c d e f g
+    c, d e f g a h c h a g a g f e d
+    e d c8 r4 g16\pE a h c d e f g %85
+    c,4 r e,16 fis gis a h c d e
+    gis, fis? e8 r4 r2
+    d'16 e f! g! a h cis d f, e d8 r4
+    R1
+    r2 c16\fE d e f g a h c %90
+    c, d e f g a h c a g f8 r4
+    r2 c16 d e f g a h c
+    c,4 r g16 a h c d e fis g
+    h, a g8 r4 r2
+    r c,16 d e f g a h c %95
+    g a h c d e f g e4 r
+    R1*5 %101
+    r2 e~\pE
+    e c8 d16 e f g a h
+    c4 c \tempoA-XXVMortuorum r2
+    R1 %105
+    R\fermata \bar "||"
+    \tempoA-XXVEtVitam c,2\fE d \noBreak
+    c4 r8 f f e e d16 c
+    d2 c4 r8 c~
+    c h16 a h8 c16 d e2 %110
+    d e4 c
+    h! c a8 h h4\trill
+    a2 r
+    a c
+    h4. e8 e4 d %115
+    e2. e4
+    e8 d d c16 h c4 c
+    b4. c8 d4 a
+    g d'2 d4
+    c h8 a g2 %120
+    g4 r r2
+    R1*2
+    r2 c4 d
+    c8 f4 e8 d h c4~ %125
+    c8 h16 a h8 c16 d e2~
+    e8 d16 c d8 c h4 d~
+    d8 c16 h c4 h c
+    h e d2
+    c1\fermata \bar "|." %130 finis
+  }
+}
