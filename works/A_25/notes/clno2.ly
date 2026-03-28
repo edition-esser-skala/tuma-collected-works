@@ -245,3 +245,85 @@ A-XXVEtResurrexitClarinoII = {
     e1\fermata \bar "|." %130 finis
   }
 }
+
+A-XXVSanctusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXVSanctus
+    R1*11 \bar "||" %11
+    \time 3/4 \tempoA-XXVPleni \newSpacingSection
+      r4 e'8\fE f d f \noBreak
+    e d e f d f
+    e d e f d f
+    e d e4 e %15
+    R2.*8 %23
+    e8 f e d c e
+    d4 d g, %25
+    e r r
+    R2.
+    e'4 e8 d e e
+    g,4 g g
+    c g2 \noBreak %30
+    e2.\fermata \bar "||"
+    \time 4/4 \tempoA-XXVOsanna \newSpacingSection
+      R1*4 %35
+    r2 r4 g\fE
+    g8 g g g g4 r
+    r2 r4 g
+    c8 e d c g4 c
+    g2 e4 r %40
+    R1
+    r4 r8 e' d4 c
+    d c g2
+    g g4 g
+    e1\fermata \bar "|." %45 finis
+  }
+}
+
+A-XXVAgnusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXVAgnus
+    R1*18 %18
+    r4 c'\fE d d8 d
+    d4 r r2 %20
+    r4 c8 e16 d c4 r
+    r2 d4 e \noBreak
+    g,2 e\fermata \bar "||"
+    \tempoA-XXVDona R1 \noBreak
+    c'4.\fE d16 e f8 f f4 %25
+    e8 f16 e d8 c g e g4
+    e r r2
+    R1*10 %37
+    r2 g4 g8 g
+    c e c4 g r
+    R1*3 %42
+    r2 e'8 e16 e e e e e
+    e8 e16 e e8 e e4 r
+    R1 %45
+    g,4. d'8 e4 d8 d
+    d4 r r2
+    R1*6 %53
+    r2 c4. d16 e
+    f8 f f4 e d8 g %55
+    r a e fis g e d c
+    d d c g c4 r
+    R1*5 %62
+    r2 r8 e d c
+    d d c g e4 r
+    e8 e16 e e e e e e4 r %65
+    R1
+    r8 e' e4 d8 d g,4
+    e8 e' d c g e' g, c
+    g4 g8 g g2
+    R1*2 %71
+    r2 r4 c8 c
+    c4 d c c8 c
+    g r r4 r2
+    e'8 e,4 g8 g4 r8 g %75
+    g c c4 g r
+    R1
+    r4 c g g
+    g2 e\fermata \bar "|." %79 finis
+  }
+}

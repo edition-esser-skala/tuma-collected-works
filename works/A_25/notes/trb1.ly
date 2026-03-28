@@ -426,3 +426,121 @@ A-XXVEtResurrexitTromboneI = {
     g\fermata \bar "|." %130 finis
   }
 }
+
+A-XXVSanctusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXVSanctus
+    r2 e\fE
+    fis g
+    r f
+    e e
+    r g! %5
+    fis fis
+    r a4 e8 e
+    fis4 fis g d8 d
+    e4 e8 e fis4 e
+    f e8 e dis4 e~ \noBreak %10
+    e dis8 cis \hA dis4. e8
+    \time 3/4 \tempoA-XXVPleni \newSpacingSection
+      e4 g g \noBreak
+    g g g
+    g g g
+    g g r %15
+    R2.*5 %20
+    e2 a8 g
+    f4. f8 f4
+    r d g8 f
+    e4. e8 e4
+    f4. g8 g4 %25
+    g8 a g f e g
+    f g f e d f
+    e4. e8 e4
+    d2 e4
+    e d2 \noBreak %30
+    e2.\fermata \bar "||"
+    \time 4/4 \tempoA-XXVOsanna \newSpacingSection
+      R1 \noBreak
+    r2 r4 c\fE
+    f8 a g f e c r f
+    g4 g8 g fis4 g %35
+    e8 c d4 d d
+    d8 d d d e4 e
+    R1*2
+    r2 c4 f8 a %40
+    g4 e f g
+    g8 g g4 g g
+    g g g g
+    g1
+    g\fermata \bar "|." %45 finis
+  }
+}
+
+A-XXVAgnusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXVAgnus
+    r2 r8 \mvTr e16\pE-\solo f g8 f
+    e4 r r8 e16 f g8 f
+    e4 r r8 f16 g a8 g
+    f4 r r8 g16 a b8 a
+    g4 r g f %5
+    e2 d8 f16 g a8 b
+    g e16 f g8 a f4 r
+    d8 e16 f g f e d cis8 d4 \hA cis8
+    d4 r r2
+    R1*7 %16
+    \mvTr e4\fE-\tutti e e e8 e
+    f4 f r d~
+    d e8 f g2
+    g4 r r2 %20
+    r4 g4. f8 e4
+    f f8 a g4 g \noBreak
+    g2 g\fermata \bar "||"
+    \tempoA-XXVDona R1*9 %32
+    r2 c,4. d16 e
+    f8 f f4 e r8 a
+    e8 f g g d e f f %35
+    f e16 d e4 r8 e a4~
+    a8 g16 fis g4. fis16 e \hA fis8 f
+    f e16 d e8 c d e d g
+    e e a4. g16 fis g4~
+    g4. a8 a g16 fis g4 %40
+    f4. e16 d e4. d16 c
+    f4. e16 d e4. a8
+    fis4 h8 a a g16 fis g8 e~
+    e fis16 g a8 a h4. a16 g
+    a8 fis h4 e,8 e a4 %45
+    d, g g4. fis8
+    g g f e16 d c8 d^\critnote e f
+    g e g4 d8 e f f
+    c d16 e f4 g4. f16 e
+    f4 d8 e16 f g8 g g4 %50
+    f e d e
+    e8 e g a d, g f g
+    c,4 r r8 g' d e
+    f f c d e4 r
+    R1*4 %58
+    r2 c4. d16 e
+    f8 f f4 e a %60
+    a8 d, h'4. a16 gis a4~
+    a8 e e f g g g e
+    f f f d e4 g
+    g2 e4 e
+    e e r8 e a4~ %65
+    a8 g!16 fis g8 \hA fis16 e \hA fis2
+    e8 g4^\critnote a8 f4. g8
+    g1
+    g
+    c,4. d16 e f8 f f4 %70
+    e8 a e f g4. g8
+    d e f4. e16 d e4~
+    e8 d16 c d4 e e
+    d8 g, g'4 f8 g a a
+    e f \once \tieDashed g2.~ %75
+    g2 r8 g d e
+    f f c d e4 d8 fis
+    g f e d16 c d2~
+    d4 f e2\fermata \bar "|." %79 finis
+  }
+}

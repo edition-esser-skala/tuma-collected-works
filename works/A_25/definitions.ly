@@ -1,5 +1,10 @@
 \version "2.24.2"
 
+markOsannaDaCapo = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Osanna da capo"
+}
+
 tempoA-XXVKyrie = \tempoMarkup "Adagio"
   tempoA-XXVKyrieB = \tempoMarkup "Allegro"
 tempoA-XXVChriste = \tempoMarkup "Andante"
@@ -25,14 +30,14 @@ tempoA-XXVEtResurrexit = \tempoMarkup "Allegro"
   tempoA-XXVMortuorum = \tempoMarkup "Largo"
   tempoA-XXVEtVitam = \tempoMarkup "Allegro"
 
-% tempoA-XXVSanctus = \tempoMarkup "Adagio"
-%   twempoA-XXVPleni = \tempoMarkup "Allegro"
+tempoA-XXVSanctus = \tempoMarkup "Largo"
+  tempoA-XXVPleni = \tempoMarkup "[Allegro]"
+  tempoA-XXVOsanna = \tempoTitleMarkup "Osanna" "[Allegro]"
 
-% tempoA-XXVBenedictus = \tempoMarkup "Andante"
-%   tempoA-XXVOsanna = \tempoMarkup "Allegro"
+tempoA-XXVBenedictus = \tempoMarkup "Andante"
 
-% tempoA-XXVAgnus = \tempoMarkup "Adagio"
-%   tempoA-XXVDona = \tempoMarkup "Allegro"
+tempoA-XXVAgnus = \tempoMarkup "Largo"
+  tempoA-XXVDona = \tempoMarkup "Allegro"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"

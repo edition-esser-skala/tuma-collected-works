@@ -809,3 +809,237 @@ A-XXVEtResurrexitBassoLyrics = \lyricmode {
   a -- men, a --
   men. %130 finis
 }
+
+A-XXVSanctusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXVSanctus
+    r2 \mvTr a(\fE^\tutti
+    d) g,
+    r h(
+    gis) a
+    r cis( %5
+    ais) a
+    g( a4.) a8
+    d2 g,(
+    c4.) c8 h2
+    a2. g8([ a)] \noBreak %10
+    h2. h4 \bar "||"
+    \time 3/4 \tempoA-XXVPleni \newSpacingSection
+      e,4 c' g' \noBreak
+    c c, g'
+    c c, g'
+    c c, r %15
+    \mvTr c2.\pE^\soloE
+    a
+    f
+    e
+    R %20
+    \mvTr a'8[\fE^\tuttiE b a g f e]
+    d4. d8 d4
+    g8[ a g f e d]
+    c4. c8 c4
+    d g,2 %25
+    c2.
+    d4 g,2
+    c2.
+    g'2 c,4
+    e g( g,) \noBreak %30
+    c2.\fermata \bar "||"
+    \time 4/4 \tempoA-XXVOsanna \newSpacingSection
+      r4 \mvTr c\fE^\tutti f8 a g f \noBreak
+    e c f2 e4
+    d e c d
+    e c r g %35
+    c8 e d c h g g'4
+    g8 g g g c4 c,
+    R1*3 %40
+    r4 c f8 a g f
+    e c c4 g c
+    g c \once \tieDashed g'2~
+    g1
+    c,\fermata \bar "|." %45 finis
+  }
+}
+
+A-XXVSanctusBassoLyrics = \lyricmode {
+  San --
+  ctus,
+  san --
+  ctus,
+  san -- %5
+  ctus
+  Do -- mi --
+  nus, Do --
+  mi -- nus
+  De -- us %10
+  Sa -- ba --
+  oth. Ple -- ni,
+  ple -- ni sunt
+  coe -- li, sunt
+  coe -- li %15
+  et
+  ter --
+  _
+  ra
+  %20
+  glo --
+  _ ri -- a,
+  glo --
+  _ ri -- a,
+  glo -- ri -- %25
+  a,
+  glo -- ri --
+  a,
+  glo -- ri --
+  a tu -- %30
+  a.
+  O -- san -- na in ex --
+  cel -- sis, in ex --
+  cel -- sis, in ex --
+  cel -- sis, o -- %35
+  san -- na in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- sis,
+
+  o -- san -- na in ex -- %41
+  cel -- sis, o -- san -- na
+  in ex -- cel --
+
+  sis. %45 finis
+}
+
+A-XXVAgnusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXVAgnus
+    \mvTr c'4\pE^\solo g e e
+    r g b b
+    r8 b a e f4 f
+    r f8 a a([ g)] g4
+    r g8 f es4 d %5
+    a2 d,4 r
+    R1*10 %16
+    \mvTr a''4\fE^\tutti a g! g8 g
+    f4 f r f
+    d c g2
+    g4 r r g'8 f %20
+    e([ d)] c4 r c'8 b
+    a([ g)] f4 g c, \noBreak
+    g2 c\fermata \bar "||"
+    \tempoA-XXVDona R1*3 %26
+    c4. d16([ e)] f8 f f4
+    e r8 a( e[ f)] g g(
+    d[ e)] f f( e[ d16 c] d4)
+    c8 a'([ e fis)] g4 r %30
+    r8 e a4. g16[ fis] g4~
+    g8[ fis16 e] \hA fis8 \once \tieDashed f~ f[ e16 d] e4
+    d8( g4 f e16[ d)] e8 c(
+    d8.[ e16] f8[ g)] a4 a~
+    a8 g16([ f)] e8( g4) f16[( e)] d4 %35
+    c r r2
+    R1
+    r2 g4. a16([ h)]
+    c8 c c4 h r
+    R1 %40
+    r2 a4. h16([ c)]
+    d8 d d4 c r
+    r2 e4. fis16([ g)]
+    a8 a a4 g r8 g
+    fis h4 a16[ gis] a4. g16[ fis] %45
+    g8.[ fis16] e8[ d] c a( d4)
+    g,8 g'([ d e)] f f([ c d)]
+    e4 r r2
+    r8 f, f'4. e16[ d] e4~
+    e8[ d16 cis] d4~ d8[ cis16 h] \hA cis4 %50
+    d r8 \once \tieDashed a'~ a[ gis16 fis] \hA gis4
+    a8 a([ e f)] g g([ d e)]
+    f f([ c d)] e g4 f16([ e)]
+    d8 f f([ e16 d)] c4 r
+    R1*4 %58
+    r8 d( g4. f16[ e] f8[ e)]
+    d4 r a4. h16([ c)] %60
+    d8 d d4 c4. h8(
+    a4 c8[ d)] e4 e(
+    d2) c4 c(
+    g2) c4 r8 a(
+    e'2) a,4 r8 c( %65
+    h1)
+    e8 e4 a8 \once \tieDashed d,~ d4 g8
+    c,4. c8 g'4. c,8
+    g'4. c,8 g2
+    R1*2 %71
+    r2 c4. d16([ e)]
+    f8 f f4^\critnote e8 a([ e f)]
+    g4. g8( d[ e)] f f(
+    c[ d)] e c g2~ %75
+    g1~
+    g~
+    g~
+    g2 c\fermata \bar "|." %79 finis
+  }
+}
+
+A-XXVAgnusBassoLyrics = \lyricmode {
+  A -- gnus De -- i,
+  qui tol -- lis
+  pec -- ca -- ta mun -- di:
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re %5
+  no -- bis.
+
+  A -- gnus De -- i, qui %17
+  tol -- lis pec --
+  ca -- ta mun --
+  di: Do -- na %20
+  no -- bis, do -- na
+  no -- bis pa -- cem,
+  pa -- cem.
+
+  Do -- na no -- bis pa -- %27
+  cem, pa -- cem, pa --
+  cem, pa --
+  cem, pa -- cem, %30
+  pa -- _ _ _
+  cem, pa -- cem,
+  pa -- cem, pa --
+  cem, do --
+  na no -- bis pa -- %35
+  cem,
+
+  do -- na
+  no -- bis pa -- cem,
+  %40
+  do -- na
+  no -- bis pa -- cem,
+  do -- na
+  no -- bis pa -- cem, pa --
+  _ _ _ _ _ %45
+  _ _ cem, pa --
+  cem, pa -- cem, pa --
+  cem,
+  pa -- _ _ _
+  _ _ %50
+  cem, pa -- _
+  cem, pa -- cem, pa --
+  cem, pa -- cem, do -- na
+  no -- bis pa -- cem,
+
+  pa -- %59
+  cem, do -- na %60
+  no -- bis pa -- cem, pa --
+  cem, pa --
+  cem, pa --
+  cem, pa --
+  cem, pa -- %65
+
+  cem, do -- na no -- bis
+  pa -- cem, pa -- _
+  _ _ cem,
+
+  do -- na %72
+  no -- bis pa -- cem, pa --
+  cem, pa -- cem, pa --
+  cem, pa -- _ %75
+
+  cem. %79 finis
+}

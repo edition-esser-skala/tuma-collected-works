@@ -355,3 +355,123 @@ A-XXVEtResurrexitTromboneII = {
     c1\fermata \bar "|." %130 finis
   }
 }
+
+A-XXVSanctusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoA-XXVSanctus
+    r2 a~\fE
+    a h
+    r gis
+    h a
+    r ais %5
+    cis h
+    h4 e8 e e4 c
+    a d8 d d4 h
+    c e8 e dis4 e
+    c c8 a fis4 g \noBreak %10
+    fis2. fis4 \bar "||"
+    \time 3/4 \tempoA-XXVPleni \newSpacingSection
+      e e' d \noBreak
+    e e d
+    e e d
+    e e r %15
+    R2.*4
+    e8 f e d c h %20
+    c4. c8 c4
+    d8 e d c h a
+    h4. h8 h4
+    c4. c8 c4
+    a h h %25
+    c2 c4
+    a g g
+    g2 g4
+    h2 c4
+    c c h \noBreak %30
+    c2.\fermata \bar "||"
+    \time 4/4 \tempoA-XXVOsanna \newSpacingSection
+      r2 r4 g\fE \noBreak
+    c8 e d c h g g4
+    a c c h8 a
+    g4 e'8 e a,4 h %35
+    c8 g a4 h g
+    g8 g g g g4 g
+    R1*3 %40
+    g4 c8 e d c h4
+    g8 c c4 h e
+    d e d e
+    d1
+    e\fermata \bar "|." %45 finis
+  }
+}
+
+A-XXVAgnusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoA-XXVAgnus
+    r2 r8 \mvTr c16\pE-\solo d e8 d
+    c4 r r8 cis16 d e8 d
+    cis4 r r8 d16 e f8 e
+    d4 r r8 b16 c d8 c
+    b4 r r d~ %5
+    d cis d d~
+    d8 cis cis4 d8 a d16 c b a
+    b4 r8 g'~ g f e4
+    d r r2
+    R1*7 %16
+    \mvTr a4\fE-\tutti a a a8 a
+    a4 a r f'
+    f e d2
+    d4 r r d8 d %20
+    e4 e r c8 c
+    c4 a d e \noBreak
+    d2 e\fermata \bar "||"
+    \tempoA-XXVDona R1*6 %29
+    r2 g,4. a16 h %30
+    c8 c c4 h r8 e
+    h c d d a h c c
+    c h a4 g r
+    r8 a d4. c16 h c4~
+    c8 h16 a h8 b b a16 g a8 h %35
+    c c4 h8 a8. h16 c8 d
+    e e, e'4. d16 c h8 d~
+    d c16 h a8 a h g r d'
+    d c16 h c8 e d h4 g8
+    e4. fis8 g4 g8 g %40
+    a4 h e, r8 e'
+    d4 h c a
+    h1
+    c2 r8 h e4~
+    e8 d16 cis d4. c16 h c4~ %45
+    c8 h c4 e16 d c h a4
+    h d a8 h c4
+    r8 c g a b b f g
+    a4. c8 d4 c8 g-\critnote
+    a4 f' e2~ %50
+    e8 d c!4 h2
+    c4. c8 g a b4
+    f8 g a4 g8 g h c
+    d d a h c4 r
+    R1*3 %57
+    r2 f,4. g16 a
+    b8 b b4 a r
+    r8 a d4. c16 h c8 e %60
+    f4. e16 d e8 e, e' d
+    c2 h4 g
+    a f g e'
+    d2 c4 c
+    h2 c4 r8 e %65
+    fis4 h,8 h h2
+    h8 e4 e8 d4 d
+    c2 d4. e8
+    d4. c8 d2
+    R1*3 %72
+    r4 g,8 a16 h c8 c c4
+    h8 e h c d d a h
+    c c4 e8 d2 %75
+    r8 c g a h h g4
+    g g4. g8 g c
+    h4 g8 g g2~
+    g g\fermata \bar "|." %79 finis
+  }
+}

@@ -104,7 +104,7 @@ A-XXVGloriaTrombaI = {
 
 A-XXVDomineTrombaI = {
   \relative c' {
-    \clef treble
+    \clef alto
     \key c \major \time 4/4 \tempoA-XXVDomine
       \set Score.currentBarNumber = #158
     g'4\fE g8 g g4 r
@@ -129,7 +129,7 @@ A-XXVDomineTrombaI = {
 
 A-XXVCumSanctoTrombaI = {
   \relative c' {
-    \clef treble
+    \clef alto
     \key c \major \time 4/4 \tempoA-XXVCumSancto
       \set Score.currentBarNumber = #293
     R1
@@ -152,7 +152,7 @@ A-XXVCumSanctoTrombaI = {
 
 A-XXVCredoTrombaI = {
   \relative c' {
-    \clef treble
+    \clef alto
     \key c \major \time 4/4 \tempoA-XXVCredo
     R1*6 %6
     g'4\fE g8 g g g g4
@@ -174,7 +174,7 @@ A-XXVCredoTrombaI = {
 
 A-XXVEtResurrexitTrombaI = {
   \relative c' {
-    \clef treble
+    \clef alto
     \key c \major \time 4/4 \tempoA-XXVEtResurrexit
       \set Score.currentBarNumber = #66
     g'4\fE g8 g g4 r
@@ -204,5 +204,73 @@ A-XXVEtResurrexitTrombaI = {
     g4 g8 g g4 g
     g g g g8 g
     g4 r r2\fermata \bar "|." %130 finis
+  }
+}
+
+A-XXVSanctusTrombaI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXVSanctus
+    R1*11 \bar "||" %11
+    \time 3/4 \tempoA-XXVPleni \newSpacingSection
+      r4 g'\fE g \noBreak
+    g g g
+    g g g
+    g g r %15
+    R2.*8 %23
+    g2 g4
+    r g g %25
+    g2 g4
+    r g g
+    g2 g4
+    g2 g4
+    r g g \noBreak %30
+    g2 r4\fermata \bar "||"
+    \time 4/4 \tempoA-XXVOsanna \newSpacingSection
+      R1*4 %35
+    r2 r4 g\fE
+    g8 g g4 g r
+    R1
+    r2 r8 g g4
+    g g8 g g4 r %40
+    R1
+    r2 r4 g
+    g g g r
+    g r g g8 g
+    g4 r r2\fermata \bar "|." %45 finis
+  }
+}
+
+A-XXVAgnusTrombaI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XXVAgnus
+    R1*18 %18
+    r4 r8 g'\fE g4 g8 g
+    g4 r r2 %20
+    R1
+    r2 g4 g \noBreak
+    g g8 g g2\fermata \bar "||"
+    \tempoA-XXVDona R1*2 %25
+    g4\fE r8 g g g g4
+    g8 r r4 r2
+    R1*10 %37
+    r2 g4 r8 g
+    e4 r8 e g4 r
+    R1*16 %55
+    r2 r4 r8 g
+    g4 r8 g g4 r
+    R1*5 %62
+    r2 r4 r8 g
+    g4 r8 g g4 r
+    R1*2 %66
+    r2 r4 r8 g
+    g4 r8 g g4 r8 g
+    g4 r8 g g g16 g g4
+    R1*5 %74
+    e8 e16 e e8 e g4 r %75
+    R1*2
+    r2 g4 r
+    g8 g16 g g8 g g2\fermata \bar "|." %97 finis
   }
 }

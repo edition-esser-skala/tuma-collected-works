@@ -205,3 +205,71 @@ A-XXVEtResurrexitTimpani = {
     c4 r r2\fermata \bar "|." %130 finis
   }
 }
+
+A-XXVSanctusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XXVSanctus
+    R1*11 \bar "||" %11
+    \time 3/4 \tempoA-XXVPleni \newSpacingSection
+      r4 c\fE g \noBreak
+    c c g
+    c c g
+    c c r %15
+    R2.*8 %23
+    c2 c4
+    r g g %25
+    c2 c4
+    r g g
+    c2 c4
+    g2 c4
+    r g g \noBreak %30
+    c2 r4\fermata \bar "||"
+    \time 4/4 \tempoA-XXVOsanna \newSpacingSection
+      R1*4 %35
+    r2 r4 g\fE
+    g8 g g4 c r
+    R1
+    r2 r8 g c4
+    g g8 g c4 r %40
+    R1
+    r2 r4 c
+    g c g r
+    g r g g8 g
+    c4 r r2\fermata \bar "|." %45 finis
+  }
+}
+
+A-XXVAgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XXVAgnus
+    R1*18 %18
+    r4 r8 c\fE g4 g8 g
+    g4 r r2 %20
+    R1
+    r2 g4 c \noBreak
+    g g8 g c2\fermata \bar "||"
+    \tempoA-XXVDona R1*2 %25
+    c4 r8 c g c g g16 g
+    c8 r r4 r2
+    R1*10 %37
+    r2 g4 r8 g
+    c4 r8 c g4 r
+    R1*16 %55
+    r2 r4 r8 c
+    g4 r8 g c4 r
+    R1*5 %62
+    r2 r4 r8 c
+    g4 r8 g c4 r
+    R1*2 %66
+    r2 r4 r8 g
+    c4 r8 c g4 r8 c
+    g4 r8 c g g16 g g4
+    R1*5 %74
+    c8 c16 c c8 c g4 r %75
+    R1*2
+    r2 g4 r
+    g8 g16 g g8 g c2\fermata \bar "|." %79 finis
+  }
+}

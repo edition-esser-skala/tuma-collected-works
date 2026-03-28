@@ -473,3 +473,162 @@ A-XXVEtResurrexitViolinoI = {
     c1\fermata \bar "|." %130 finis
   }
 }
+
+A-XXVSanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXVSanctus
+    c'2\fE e8 e e e
+    fis fis fis fis g2
+    d d8 d d d
+    e e e e e2
+    e e8 e e e %5
+    fis fis fis fis fis h h h
+    h h, e e e e c a'
+    fis fis fis fis g d d g
+    e e e e dis dis e e
+    f! f e e dis dis e e \noBreak %10
+    e e dis cis \hA dis4. dis8 \bar "||"
+    \time 3/4 \tempoA-XXVPleni \newSpacingSection
+      e4 e d \noBreak
+    e c' h
+    c c h
+    c c r %15
+    R2.*4
+    r4 h, e8 d %20
+    c2.
+    r4 a d8 c
+    h2.
+    c2 e4
+    d2 g4 %25
+    g8 a g f e g
+    f g f e d f
+    e4. e8 e4
+    d h' c
+    c c h \noBreak %30
+    c2.\fermata \bar "||"
+    \time 4/4 \tempoA-XXVOsanna \newSpacingSection
+      R1*2
+    r4 g,\fE c8 e d c
+    h g c2 h4 %35
+    a8 g fis4 g h
+    h h c c
+    f8 a g f e c g'4~
+    g fis g r
+    r g, c8 e d c %40
+    h4 g8 g a4 h
+    c8 e e4 d c
+    h c h c~
+    c h8 a h2
+    c1\fermata \bar "|." %45 finis
+  }
+}
+
+A-XXVBenedictusViolinoIeII = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \tempoA-XXVBenedictus
+    h''16\fE a g fis e e e e h' a g fis e e e e
+    c' h a g fis e dis cis \hA dis h h h \hA dis h h h
+    e h h h fis' h, h h g' e dis e g e ais, e'
+    dis8 h r h' h16 e, dis e d e, e e
+    c'' h a8 r a a16 d, cis d c d, d d %5
+    h'' a g8 r g f16( a) e( g) f( a) e( g)
+    f8 e \slurDashed f,16( a) e( g) \slurSolid f8 e a'16( gis a) a-!
+    a h, c h g' h, c h g' a, h a fis' a, h a
+    fis' g, a g e' g, a g e' fis, g fis dis' fis, g fis
+    e e' c a \tuplet 3/2 8 { g fis e } fis8 e4 r %10
+    r2 h''16\p a g fis e e e e
+    h' a g fis e e e e c' h a g fis e dis cis
+    dis4 r r2
+    r dis16\f h h h \hA dis h h h
+    e8 e, r4 h''16\p e, dis e d e, e e %15
+    c'' h a8 r4 c16 h a gis a a, a a
+    a,4 r a''16 d, cis d c d, d d
+    h'' a g8 r4 r r8 g
+    ais,4 r r2
+    R1 %20
+    r2 fis'16\f e d cis h h h h
+    fis' e d cis h h h h g' fis e d cis h ais gis
+    ais gis fis8 r4 r2
+    fis'16\p e d cis h h h h h'4 r
+    r2 h16 a! g fis e e e e %25
+    e,4 r r2
+    R1
+    fis'16 e dis cis h h h h c8 h r e\f
+    f16( a) e( g) f( a) e( g) f8 e f,16( a) e( g)
+    f8 e r4 r2 %30
+    R1
+    r2 a'16 g a e h' a h e,
+    c' h a8 r4 r2
+    r h16\f a g fis e e e e
+    h' a g fis e e e e c' h a g fis e dis cis %35
+    dis h h h \hA dis h h h e h h h fis' h, h h
+    g' e dis e g e ais, e' dis8 h r h'
+    h16 e, dis e d e, e e c'' h a8 r a
+    a16 d, cis d c d, d d h'' a g8 r g
+    f16 a e g f a e g f8 e f,16 a e g %40
+    f8 e a'16 gis a a a h, c h g' h, c h
+    g' a, h a fis' a, h a fis' g, a g e' g, a g
+    e' fis, g fis dis' fis, g fis e e' c a \appoggiatura g8 fis8. e16
+    e4 r r2\fermata \markOsannaDaCapo \bar "||" %44 finis
+  }
+}
+
+A-XXVAgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XXVAgnus
+    s1*23 \bar "||"
+    \tempoA-XXVDona R1*3 %26
+    r2 r8 a' d4~
+    d8 c16 h c4. h16 a h8 b~
+    b a16 g a4 g8 c4 h8
+    c4. c8~ c h16 a h8 c16 d %30
+    e4. d16 c d4 h
+    e a,8 a d4 g,
+    R1*3 %35
+    g4. a16 h c8 c c4
+    h r8 e h c d d
+    a h c c h c4 h16( a)
+    g4 r r8 g d'4~
+    d8 c16 h c4 h8 h e4~ %40
+    e8 d16 c d4. c16 h c4~
+    c8 h16 a h4. a8 e'4~
+    e8 dis16 cis \hA dis4 e2~
+    e1
+    R %45
+    g,4. a16 h c8 c c4
+    h r r2
+    R1
+    f4. g16 a b8 b b4
+    a r r2 %50
+    a4. h!16 c d8 d d4
+    c e h8 c d d
+    a h c4. h8 h e
+    a, a a d g,4 r
+    R1*2 %56
+    r2 r8 c' b a
+    b b a g a4 r
+    R1*2 %60
+    r2 e,4. fis16 gis
+    a8 a a4 g8 e' h c
+    d d a h c4 c
+    h2 c8 e d c
+    d d c h c4 r8 e %65
+    dis4 e8 e e4 dis
+    e8 g f! e f f e d
+    e g f e d g d e
+    d g d e d2
+    r2 r4 g,8 a16 h %70
+    c8 c c4 h8 e h c
+    d d a h c g c4
+    a8 a h d g, a16 h c8 a
+    h h d e f f c d
+    e4 r h4. c16( d) %75
+    e8 e e4 d d
+    a8 h c c g a h a
+    h g c4~ c h8 a
+    h2 c\fermata \bar "|." %79 finis
+  }
+}

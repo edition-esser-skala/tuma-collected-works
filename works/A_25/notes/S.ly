@@ -767,28 +767,280 @@ A-XXVEtResurrexitSopranoLyrics = \lyricmode {
   men. %130 finis
 }
 
+A-XXVSanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXVSanctus
+    \mvTr c'1~\fE^\tuttiE
+    c2 h
+    \once \tieDashed d1~
+    d2 c
+    e1~ %5
+    e2 dis
+    e4 h8 h c4 c
+    d! a8 a h4 h
+    h a8 a a4 g
+    c c8 c h4 h \noBreak %10
+    h2. h4
+    \time 3/4 \tempoA-XXVPleni \newSpacingSection h c h \noBreak
+    c c h
+    c c h
+    c c r %15
+    \mvTr e,2.\pE^\solo
+    e~
+    e2 d4
+    e2.
+    \mvTr h'2\fE^\tutti e8[ d] %20
+    c4. c8 c4
+    r a d8[ c]
+    h4. h8 h4
+    e4. e8 e4
+    d2 d4 %25
+    e8[ f e d c e]
+    d[ e d c h d]
+    c4. c8 c4
+    h g g
+    g2. \noBreak %39
+    g\fermata \bar "||"
+    \time 4/4 \tempoA-XXVOsanna \newSpacingSection
+      R1*2
+    r4 \mvTr g\fE^\tutti c8 e d c
+    h g c4 c h %35
+    a8 g fis4 g h
+    h8 h h h c4 c
+    R1*2
+    r4 g c8 e d c %40
+    h4 g8 g a4 h
+    c8 e e4 d c
+    h c h c
+    c( h8_[ a] h2)
+    c1\fermata \bar "|." %45 finis
+  }
+}
 
+A-XXVSanctusSopranoLyrics = \lyricmode {
+  San --
+  ctus,
+  san --
+  ctus,
+  san -- %5
+  ctus
+  Do -- mi -- nus De -- us,
+  Do -- mi -- nus De -- us,
+  Do -- mi -- nus De -- us,
+  Do -- mi -- nus De -- us %10
+  Sa -- ba --
+  oth. Ple -- ni,
+  ple -- ni sunt
+  coe -- li, sunt
+  coe -- li %15
+  et
+  ter --
+  _
+  ra
+  glo -- _ %20
+  _ ri -- a,
+  glo -- _
+  _ ri -- a,
+  glo -- ri -- a
+  tu -- a, %25
+  glo --
+  _
+  _ ri -- a,
+  glo -- ri -- a
+  tu -- %30
+  a.
 
+  O -- san -- na in ex -- %34
+  cel -- sis, o -- san -- na %35
+  in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- sis,
 
+  o -- san -- na in ex -- %40
+  cel -- sis, o -- san -- na
+  in ex -- cel -- sis, o --
+  san -- na in ex --
+  cel --
+  sis. %45 finis
+}
 
-% ## Sanctus
+A-XXVBenedictusSoprano = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \autoBeamOff \tempoA-XXVBenedictus
+    R1*9 %9
+    r2 \mvTr h'4.\pE^\solo e8 %10
+    dis4 e8 fis g16([ fis)] e8 r e
+    e1
+    dis8 fis h, a16 h g[ a fis g] a[ h g a]
+    h[ e, c' h] a8. a16 h4 r
+    r8 h h c16 d e2~ %15
+    e8 f16 d h8. a16 a4 r
+    r8 a a h16 c d2~
+    d8 e16 c a8. g16 g8 h e4~
+    e16[ d cis h] ais[ gis fis \hA cis'] d[ e \hA cis d] e[ fis d e]
+    fis[ g e fis] g[ fis e d] e[ d cis h] ais[ fis gis \hA ais] %20
+    h[ g'] fis e cis8. h16 h4 r
+    R1
+    cis4. h8 ais([ \hA cis)] fis e
+    d16([ cis)] h8 r4 fis'4. e8
+    dis4 e8 fis g16([ fis)] e8 r h %25
+    c!16[ h c e] d[ c h a] h[ a h d] c[ h a g]
+    a[ g a c] h[ a g fis] g[ h] cis dis e8. fis16
+    dis4 r8 e f e \hA f e
+    f e r4 r2
+    r8 h a16[ c h a] g[ fis! g h] e[ d c h] %30
+    c[ h c e] a[ g fis e] dis[ cis] h8 r e
+    c a16 g fis8. e16 e4 r
+    r8 e' a16[ g fis e] dis[ e fis e] dis[ c! h a]
+    g8 e'16 fis dis8. e16 e4 r
+    R1*9 %43
+    R1\fermata \markOsannaDaCapo \bar "||" %44 finis
+  }
+}
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
+A-XXVBenedictusSopranoLyrics = \lyricmode {
+  Be -- ne -- %10
+  di -- ctus, qui ve -- nit, qui
+  ve --
+  nit in no -- mi -- ne Do -- _
+  _ _ mi -- ni,
+  qui ve -- nit in no -- %15
+  mi -- ne Do -- mi -- ni,
+  qui ve -- nit in no --
+  mi -- ne Do -- mi -- ni, in no --
+  _ _ _
+  _ _ _ _ %20
+  _ mi -- ne Do -- mi -- ni.
 
+  Be -- ne -- di -- ctus, qui
+  ve -- nit, be -- ne --
+  di -- ctus, qui ve -- nit in %25
+  no -- _ _ _
+  _ _ _ mi -- ne Do -- mi --
+  ni, qui ve -- nit, be -- ne --
+  di -- ctus,
+  qui ve -- _ _ %30
+  _ _ _ nit in
+  no -- mi -- ne Do -- mi -- ni,
+  in no -- _ _
+  _ mi -- ne Do -- mi -- ni. %34 finis
+}
 
-% ## Benedictus
+A-XXVAgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XXVAgnus
+    R1*16 %16
+    \mvTr c'4\fE^\tutti c cis cis8 cis
+    d4 d r a
+    h c c( h8[ a)]
+    h4 r r h8 h %20
+    c4 c r g8 g
+    a4 d h c \noBreak
+    c( h) c2\fermata \bar "||"
+    \tempoA-XXVDona R1*3 %26
+    r2 r8 a d4~
+    d8[ c16 h] c4. h16[ a] h8 b~
+    b[ a16 g] a4 g8 \once \tieDashed c~ c[ h]
+    c4. \once \tieDashed c8~ c[ h16 a] h8[ c16 d] %30
+    e4. d16[ c] d4 h
+    e a,8 a h([ d)] g,4
+    R1*3 % %35
+    g4. a16([ h)] c8 c c4
+    h r8 e( h[ c)] d d(
+    a[ h)] c c h c4( h16[ a)]
+    g4 r r8 g d'4~
+    d8[ c16 h] c4 h8 h e4~ %40
+    e8[ d16 c] d4. c16[ h] c4~
+    c8[ h16 a] h4. a8 e'4
+    e8[( dis16 cis] \hA dis4) e2~
+    e1
+    R %45
+    g,4. a16([ h)] c8 c c4
+    h r r2
+    R1
+    f4. g16([ a)] b8 b b4
+    a r r2 %50
+    a4. h!16([ c)] d8 d d4
+    c r8 e( h[ c)] d d(
+    a[ h)] c4. h4( e8)
+    a, a4( d8) g,4 r
+    R1*6 %60
+    r2 e4. fis16([ gis)]
+    a8 a a4 g8 e'([ h c)]
+    d d([ a h)] c4 c
+    h2 c4.( a8
+    gis2) a4 r8 e' %65
+    dis4 e8 e e4( dis)
+    e8 e4( cis8) d d4( h8)
+    c4 c h4. c8(
+    h4. c8) h2
+    r2 r4 g8 a16([ h)] %70
+    c8 c c4 h8 e([ h c)]
+    d d([ a h]) c r c8. c16
+    a8 a h([ d)] g, a16([ h] c8[ a)]
+    h h([ d e)] f f([ c d)]
+    e4 r h4. c16([ d)] %75
+    e8 e e4 d r8 d(
+    a[ h)] c c( g[ a)] h a(
+    h) g \once \tieDashed c4~ c h8[ a]
+    h2 c\fermata \bar "|." %79 finis
+  }
+}
 
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
+A-XXVAgnusSopranoLyrics = \lyricmode {
+  A -- gnus De -- i, qui %17
+  tol -- lis pec --
+  ca -- ta mun --
+  di: Do -- na %20
+  no -- bis, do -- na,
+  do -- na no -- bis
+  pa -- cem. %23
 
+  Pa -- _ %27
+  _ _ cem, pa --
+  _ cem, pa --
+  cem, pa -- _ %30
+  _ _ cem, pa --
+  cem, pa -- cem, pa -- cem,
 
-% ## Agnus Dei
+  do -- na no -- bis pa -- %36
+  cem, pa -- cem, pa --
+  cem, no -- bis pa --
+  cem, pa -- _
+  _ cem, pa -- _ %40
+  _ _ _
+  cem, no -- bis
+  pa -- cem, __
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+  do -- na no -- bis pa -- %46
+  cem,
+
+  do -- na no -- bis pa --
+  cem, %50
+  do -- na no -- bis pa --
+  cem, pa -- cem, pa --
+  cem, pa --
+  cem, pa -- cem,
+
+  do -- na %61
+  no -- bis pa -- cem, pa --
+  cem, pa -- cem, no --
+  bis pa --
+  cem, do -- %&5
+  na no -- bis pa --
+  cem, do -- na, do --
+  na no -- bis pa --
+  cem,
+  do -- na %70
+  no -- bis pa -- cem, pa --
+  cem, pa -- cem, do -- na
+  no -- bis pa -- cem, pa --
+  cem, pa -- cem, pa --
+  cem, do -- na %75
+  no -- bis pa -- cem, pa --
+  cem, pa -- cem, pa --
+  cem, pa -- _
+  _ cem. %79 finis
+}
