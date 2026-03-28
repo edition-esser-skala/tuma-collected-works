@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026.03.0 – 2026-03-28
+
+### Added
+
+- works: TumW A.25 and and J.13 (movements 3–5)
+- a global macro `\markRepeat` and bar line types `||:` and `:||`
+
+### Changed
+
+- revised TumW J.6 and K.2
+
+### Fixed
+
+- TumW F.S1: ARK
+
+
 ## 2026.01.0 – 2026-01-31
 
 ### Added
