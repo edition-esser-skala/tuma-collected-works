@@ -1,0 +1,27 @@
+title: Vasti per orbem canitur
+id: TumW C.3.24
+genre: motet
+festival: de Omnibus Sanctis Monachis
+scoring: A (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+ark: 68748/e1fitc324
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: D 2/105
+    license: public domain
+    principal: true
+    notes: autograph full score, parts by different hand
+toe: |
+  5  & org   & 4th \quarterNote\ in \A1 (score): A4–\quaverRest–a8 \\
+  77 & trb 1 & rhythm 4th \quarterNote\ in \A1 (parts): 8–16–16 \\
+  77 & trb 2 & rhythm 2nd \quarterNote\ in \A1 (parts): 8–16–16 \\
+lyrics:
+  Vasti per orbem canitur\\
+  sacrum schema certaminis,\\
+  monachorum extollitur\\
+  praecelsi decus ordinis.\\[1ex]
+  Nostri sunt decus ordinis,\\
+  nostri sunt decus agminis,\\
+  nostrique naevos criminis\\
+  absterge Rex certaminis.
