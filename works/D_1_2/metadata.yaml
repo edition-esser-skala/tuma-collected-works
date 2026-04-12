@@ -1,0 +1,31 @@
+title: Vesperæ de Beatissima Maria Virgine
+subtitle: Dixit Dominus · Laudate pueri · Lætatus sum ·\\ Nisi Dominus · Lauda Jerusalem · Magnificat
+id: TumW D.1.2
+genre: vesper
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), [timp (C–G)], 2 vl, b, org
+ark: 68748/e1fitd12
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-GÖ
+    shelfmark: 2118
+    date: 1795
+    url: https://db.klostermusiksammlungen.at/scores/4739
+    license: public domain
+    principal: true
+  B2:
+    siglum: A-KR
+    shelfmark: E 26/172
+    rism: 600178681
+    license: public domain
+  B3:
+    siglum: A-LA
+    shelfmark: 582
+    rism: 603002307
+    license: public domain
+tocstyle: default
+toe: |
+  – & – & timp & only included in \B2 and \B3; thus, they likely have been added by latger hand \\
+  1 & 6 & vl 2 & 1st \quarterNote\ in \B1: tuplet c″16–b′16–a′16 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
