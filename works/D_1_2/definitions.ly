@@ -1,6 +1,12 @@
 \version "2.24.2"
 
 tempoD-I-IIDixit = \tempoMarkup "Allegro"
+tempoD-I-IIPueri = \tempoMarkup "[no tempo]"
+tempoD-I-IILaetatus = \tempoMarkup "[no tempo]"
+tempoD-I-IINisi = \tempoMarkup "[no tempo]"
+tempoD-I-IILauda = \tempoMarkup "Allegro"
+tempoD-I-IIMagnificat = \tempoMarkup "Adagio"
+  tempoD-I-IIMagnificatB = \tempoMarkup "Allegro"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"

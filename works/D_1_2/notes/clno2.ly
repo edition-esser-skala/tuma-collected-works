@@ -26,3 +26,30 @@ D-I-IIDixitClarinoII = {
     c r r2\fermata \bar "|." %28 finis
   }
 }
+
+D-I-IIMagnificatClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoD-I-IIMagnificat
+    r4 e'\fE d4. d8
+    c8. d16 e d e d c4 c8 c
+    d4 d d2 \noBreak
+    d1
+    \tempoD-I-IIMagnificatB r8 e d d c c d d \noBreak %5
+    c4 r8 c c4 d8 d
+    d e d d16 d d4 r
+    R1*4 %11
+    e,8 e16 e e e e e e4 r
+    R1*4 %16
+    r2 r8 c' g g
+    c4 d8 d e d c4
+    d e8. e16 c4 d8 d
+    g,4 c8 c g4 g8 g %20
+    g4 r r2
+    R1*3
+    r4 r8 g c4 r8 c %25
+    f4 r8 c d4 d8 e
+    d4 d8 d c4 r
+    r d c2\fermata \bar "|." %28 finis
+  }
+}
