@@ -18,7 +18,7 @@
 
 \book {
   \bookpart {
-    \section "E.4.1" "Salve Regina"
+    \section "E.4.S1" "Salve Regina"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -28,47 +28,47 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \E-IV-IViolinoI
+              \E-IV-SIViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \E-IV-IViolinoII
+              \E-IV-SIViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \incipitSoprano
-            \new Voice = "Soprano" { \dynamicUp \E-IV-ISoprano }
+            \new Voice = "Soprano" { \dynamicUp \E-IV-SISoprano }
           }
-          \new Lyrics \lyricsto Soprano \E-IV-ISopranoLyrics
+          \new Lyrics \lyricsto Soprano \E-IV-SISopranoLyrics
 
           \new Staff {
             \incipit \markup \center-column { "Alto" "Trombone I" } "alto" #-20.5 #-1.8
-            \new Voice = "Alto" { \dynamicUp \E-IV-IAlto }
+            \new Voice = "Alto" { \dynamicUp \E-IV-SIAlto }
           }
-          \new Lyrics \lyricsto Alto \E-IV-IAltoLyrics
+          \new Lyrics \lyricsto Alto \E-IV-SIAltoLyrics
 
           \new Staff {
             \incipit \markup \center-column { "Tenore" "Trombone II" } "tenor" #-20.9 #-1.8
-            \new Voice = "Tenore" { \dynamicUp \E-IV-ITenore }
+            \new Voice = "Tenore" { \dynamicUp \E-IV-SITenore }
           }
-          \new Lyrics \lyricsto Tenore \E-IV-ITenoreLyrics
+          \new Lyrics \lyricsto Tenore \E-IV-SITenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \E-IV-IBasso }
+            \new Voice = "Basso" { \dynamicUp \E-IV-SIBasso }
           }
-          \new Lyrics \lyricsto Basso \E-IV-IBassoLyrics
+          \new Lyrics \lyricsto Basso \E-IV-SIBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
             % \transpose c c,
-            \E-IV-IOrgano
+            \E-IV-SIOrgano
           }
         >>
-        \new FiguredBass { \E-IV-IBassFigures }
+        \new FiguredBass { \E-IV-SIBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 60 } % 80 – 60 – 72 – 120 – 100

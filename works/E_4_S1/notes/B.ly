@@ -1,17 +1,17 @@
 \version "2.24.2"
 
-E-IV-IBasso = {
+E-IV-SIBasso = {
   \relative c {
     \clef bass
-    \key es \major \time 4/4 \tempoE-IV-Ia \autoBeamOff
+    \key es \major \time 4/4 \tempoE-IV-SIa \autoBeamOff
     R1*23 \noBreak %23
     R1\fermata \bar "||"
-    \tempoE-IV-Ib r8 \mvTr c\fE^\tutti es c g' g, r4 \noBreak %25
+    \tempoE-IV-SIb r8 \mvTr c\fE^\tutti es c g' g, r4 \noBreak %25
     r8 c' c16([ b)] as([ g)] as[( g)] f8 r4
     r8 b b16([ as)] g([ f)] g([ f)] es8 r4
     r8 as as16([ g)] f([ es)] f([ es)] d8 r4
     r g8 f16 f es8 d16 c as'4
-    g r \tempoE-IV-Ibb r2 %30
+    g r \tempoE-IV-SIbb r2 %30
     r r4 r8 g16 g
     g8 g, r4 r2
     r4 r8 d' g4 cis,8 cis
@@ -20,9 +20,9 @@ E-IV-IBasso = {
     r4 g'8 d es2~
     es8 es d c b4 g \noBreak
     d'2 g,\fermata \bar "||"
-    \key b \major \tempoE-IV-Ic R1*36 \noBreak %74
+    \key b \major \tempoE-IV-SIc R1*36 \noBreak %74
     R1\fermata \bar "||" %75
-    \tempoE-IV-Id R1*6 %81
+    \tempoE-IV-SId R1*6 %81
     r2 \mvTr g'\fE^\tutti
     b4. a16([ g)] a4 d,
     e2 fis4 g~
@@ -34,7 +34,7 @@ E-IV-IBasso = {
     b,4 r r d %90
     g8. g16 d8 d g4 g8 c, \noBreak
     d2 g,4 r\fermata \bar "||"
-    \key es \major \time 3/4 \tempoE-IV-Ie \newSpacingSection
+    \key es \major \time 3/4 \tempoE-IV-SIe \newSpacingSection
       R2.*9 %101
     \mvTr es'2.\fE^\tutti
     f4( b,) es
@@ -61,7 +61,7 @@ E-IV-IBasso = {
   }
 }
 
-E-IV-IBassoLyrics = \lyricmode {
+E-IV-SIBassoLyrics = \lyricmode {
   Ad te cla -- ma -- mus, %25
   ad te cla -- ma -- mus,
   ad te cla -- ma -- mus,

@@ -1,17 +1,17 @@
 \version "2.24.2"
 
-E-IV-ITenore = {
+E-IV-SITenore = {
   \relative c' {
     \clef "treble_8"
-    \key es \major \time 4/4 \tempoE-IV-Ia \autoBeamOff
+    \key es \major \time 4/4 \tempoE-IV-SIa \autoBeamOff
     R1*23 \noBreak %23
     R1\fermata \bar "||"
-    \tempoE-IV-Ib r8 \mvTr c\fE^\tutti c c c h r4 \noBreak %25
+    \tempoE-IV-SIb r8 \mvTr c\fE^\tutti c c c h r4 \noBreak %25
     r8 es es es c as r4
     r8 d d d b g r4
     r8 c c c as f r4
     r d'8 d16 d es8 es16 es c4
-    d r \tempoE-IV-Ibb r2 %30
+    d r \tempoE-IV-SIbb r2 %30
     r r4 r8 b!16 b
     b8 b r4 r2
     r4 r8 d d4 b8 b
@@ -20,9 +20,9 @@ E-IV-ITenore = {
     r4 b8 fis g4 g
     a a b b \noBreak
     a2\trill g\fermata \bar "||"
-    \key b \major \tempoE-IV-Ic R1*36 \noBreak %74
+    \key b \major \tempoE-IV-SIc R1*36 \noBreak %74
     R1\fermata \bar "||" %75
-    \tempoE-IV-Id R1*4 %79
+    \tempoE-IV-SId R1*4 %79
     r2 \mvTr d'\fE^\tutti %80
     es4. d16([ c)] d4 g,
     a2\trill g4 r
@@ -36,7 +36,7 @@ E-IV-ITenore = {
     b r r d %90
     d8. d16 d8 d d4 d8 es \noBreak
     d2 d4 r\fermata \bar "||"
-    \key es \major \time 3/4 \tempoE-IV-Ie \newSpacingSection
+    \key es \major \time 3/4 \tempoE-IV-SIe \newSpacingSection
       R2.*9 %101
     r4 \mvTr b4.(\fE^\tutti es8)
     c4( d) es
@@ -63,7 +63,7 @@ E-IV-ITenore = {
   }
 }
 
-E-IV-ITenoreLyrics = \lyricmode {
+E-IV-SITenoreLyrics = \lyricmode {
   Ad te cla -- ma -- mus, %25
   ad te cla -- ma -- mus,
   ad te cla -- ma -- mus,

@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-IV-ISoprano = {
+E-IV-SISoprano = {
   \relative c' {
     \clef treble
-    \key es \major \time 4/4 \tempoE-IV-Ia \autoBeamOff
+    \key es \major \time 4/4 \tempoE-IV-SIa \autoBeamOff
     R1*5 %5
     \mvTr b'4~\pE^\solo b16[ g] f([ es)] c'2
     b4 r b2
@@ -22,12 +22,12 @@ E-IV-ISoprano = {
     g,4( f)\trill es r
     R1*2 \noBreak
     R1\fermata \bar "||"
-    \tempoE-IV-Ib r2 r8 \mvTr g'\fE^\tutti g16([ f)] es([ d)] \noBreak %25
+    \tempoE-IV-SIb r2 r8 \mvTr g'\fE^\tutti g16([ f)] es([ d)] \noBreak %25
     es([ d)] c8 r4 r8 f f16([ es)] d([ c)]
     d([ c)] b8 r4 r8 es es16([ d)] c([ b)]
     c([ b)] as8 r4 r8 d d16([ c)] h([ a)]
     h([ a)] g8 \hA h h16 h c8 c16 c c4
-    h r \tempoE-IV-Ibb \mvTr d\pE^\solo d %30
+    h r \tempoE-IV-SIbb \mvTr d\pE^\solo d %30
     r8 d4 g8 \appoggiatura f es4 d8 \mvTr d16\fE^\tutti d
     d8 d r \mvTr d\pE^\solo \appoggiatura c b4 a8 d
     \appoggiatura c b4 a8 \mvTr a\fE^\tutti b4 g8 g
@@ -36,7 +36,7 @@ E-IV-ISoprano = {
     g4 r r \mvTr c8\fE^\tutti g
     fis4 fis g g \noBreak
     g( fis)\trill g2\fermata \bar "||"
-    \key b \major \tempoE-IV-Ic R1*4 %42
+    \key b \major \tempoE-IV-SIc R1*4 %42
     r2 r4 \mvTr f8\pE^\solo b
     a8. b32([ c)] f,8 es' d8.([ c32 b] g'8) b,
     b a r4 r2 %45
@@ -66,7 +66,7 @@ E-IV-ISoprano = {
     b4 r r2
     R1*3 \noBreak
     R1\fermata \bar "||" %75
-    \tempoE-IV-Id \mvTr d2\fE^\tutti es4. d16([ c)] \noBreak
+    \tempoE-IV-SId \mvTr d2\fE^\tutti es4. d16([ c)] \noBreak
     d4 g, a2\trill
     g4 r r8 d'4 e8
     cis4( d2) cis4
@@ -82,7 +82,7 @@ E-IV-ISoprano = {
     b8 \mvTr d\pE^\solo c b a4 \mvTr a\fE^\tutti %90
     b8. b16 a8 a b4 b8 c \noBreak
     b4( a)\trill g r\fermata \bar "||"
-    \key es \major \time 3/4 \tempoE-IV-Ie \newSpacingSection
+    \key es \major \time 3/4 \tempoE-IV-SIe \newSpacingSection
       r4 \mvTr es'2\pE^\solo \noBreak
     \appoggiatura b8 as2 g4
     es'2. %95
@@ -131,7 +131,7 @@ E-IV-ISoprano = {
   }
 }
 
-E-IV-ISopranoLyrics = \lyricmode {
+E-IV-SISopranoLyrics = \lyricmode {
   Sal -- ve, sal -- %6
   ve, sal --
   _ ve, sal -- ve Re --

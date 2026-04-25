@@ -1,17 +1,17 @@
 \version "2.24.2"
 
-E-IV-IAlto = {
+E-IV-SIAlto = {
   \relative c' {
     \clef treble
-    \key es \major \time 4/4 \tempoE-IV-Ia \autoBeamOff
+    \key es \major \time 4/4 \tempoE-IV-SIa \autoBeamOff
     R1*23 \noBreak %23
     R1\fermata \bar "||"
-    \tempoE-IV-Ib r8 \mvTr es\fE^\tutti g es es d r4 \noBreak %25
+    \tempoE-IV-SIb r8 \mvTr es\fE^\tutti g es es d r4 \noBreak %25
     r8 g g g f f r4
     r8 f f f es es r4
     r8 es es es d d r4
     r4 g8 g16 g g8 g16 g g8([ fis)]\trill
-    g4 r \tempoE-IV-Ibb r2 %30
+    g4 r \tempoE-IV-SIbb r2 %30
     r r4 r8 g16 g
     g8 g r4 r2
     r4 r8 fis g4 e8 e
@@ -20,9 +20,9 @@ E-IV-IAlto = {
     r4 d8 d c4 c
     c c d d \noBreak
     d2 d\fermata \bar "||"
-    \key b \major \tempoE-IV-Ic R1*36 \noBreak %74
+    \key b \major \tempoE-IV-SIc R1*36 \noBreak %74
     R1\fermata \bar "||" %75
-    \tempoE-IV-Id R1*2
+    \tempoE-IV-SId R1*2
     \mvTr g2\fE^\tutti b4. a16([ g)]
     a4 d, e2
     fis4 g2 fis4 %80
@@ -38,7 +38,7 @@ E-IV-IAlto = {
     f8 \mvTr b\pE^\solo a g fis4 \mvTr fis\fE^\tutti %90
     g8. g16 fis8 fis g4 g8 a \noBreak
     g4( fis)\trill g r\fermata \bar "||"
-    \key es \major \time 3/4 \tempoE-IV-Ie \newSpacingSection
+    \key es \major \time 3/4 \tempoE-IV-SIe \newSpacingSection
       R2.*9 %101
     r4 \mvTr g2\fE^\tutti
     \appoggiatura g8 f2 es4
@@ -66,7 +66,7 @@ E-IV-IAlto = {
   }
 }
 
-E-IV-IAltoLyrics = \lyricmode {
+E-IV-SIAltoLyrics = \lyricmode {
   Ad te cla -- ma -- mus, %25
   ad te cla -- ma -- mus,
   ad te cla -- ma -- mus,

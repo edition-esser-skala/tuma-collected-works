@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-IV-IOrgano = {
+E-IV-SIOrgano = {
   \relative c {
     \clef bass
-    \key es \major \time 4/4 \tempoE-IV-Ia
+    \key es \major \time 4/4 \tempoE-IV-SIa
     \mvTr es4\p-\solo r r8 es g as
     b4 r r8 b, d b
     es4\f r b' r
@@ -28,12 +28,12 @@ E-IV-IOrgano = {
     b'\f r es, r
     b'16-! b-! b-! b-! as as as as g8. as16 b8 b, \noBreak
     es b es4 r2\fermata \bar "||"
-    \tempoE-IV-Ib \mvTr c8\fE-\tutti c es c g' g, r4 \noBreak %25
+    \tempoE-IV-SIb \mvTr c8\fE-\tutti c es c g' g, r4 \noBreak %25
     r8 c' c16 b as g as g f8 r4
     r8 b b16 as g f g f es8 r4
     r8 as as16 g f es f es d8 r4
     r g8 f es c as'4
-    g r \tempoE-IV-Ibb r2 %30
+    g r \tempoE-IV-SIbb r2 %30
     r r4 r8 g
     g g, r4 r2
     r4 r8 d' g4 cis,8 cis
@@ -42,7 +42,7 @@ E-IV-IOrgano = {
     r4 g'8 d es2~
     es8 es d c b a g4 \noBreak
     d'2 g,\fermata \bar "||"
-    \key b \major \tempoE-IV-Ic
+    \key b \major \tempoE-IV-SIc
       \mvTr b'8\fE-\solo b,16 c d8 b f' f16 g a8 f
     b d, es e f f16 es d8 b %40
     c a b8. d16 f8 a b8. c,16
@@ -80,7 +80,7 @@ E-IV-IOrgano = {
     c a b d f a b8. es,16
     d8 c d a b es f f, \noBreak
     b8. es16 f8 f, b4 r\fermata \bar "||" %75
-    \clef treble \tempoE-IV-Id
+    \clef treble \tempoE-IV-SId
       \mvTr d''2-!\fE-\tutti es4.-! d16-! c-! \noBreak
     d4-! g,-! a2\trill
     << {
@@ -104,7 +104,7 @@ E-IV-IOrgano = {
     b,4 r r d %90
     g d8 d g4. c,8 \noBreak
     d2 g,4 r\fermata \bar "||"
-    \key es \major \time 3/4 \tempoE-IV-Ie \newSpacingSection
+    \key es \major \time 3/4 \tempoE-IV-SIe \newSpacingSection
       \mvTr es'4\pE-\solo g es \noBreak
     f b, es
     r g es %95
@@ -151,7 +151,7 @@ E-IV-IOrgano = {
   }
 }
 
-E-IV-IBassFigures = \figuremode {
+E-IV-SIBassFigures = \figuremode {
   r2. <6>4
   r2 r8 <7>4.
   r2 q
