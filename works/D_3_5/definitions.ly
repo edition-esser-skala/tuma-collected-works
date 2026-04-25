@@ -1,0 +1,23 @@
+\version "2.24.2"
+
+tempoD-III-Va = \tempoMarkup "Adagio"
+tempoD-III-Vb = \tempoMarkup "Larghetto"
+tempoD-III-Vc = \tempoMarkup "Adagio"
+  tempoD-III-Vcb = \tempoMarkup "Andante"
+tempoD-III-Vd = \tempoMarkup "Andante"
+tempoD-III-Ve = \tempoMarkup "Andante moderato"
+tempoD-III-Vf = \tempoMarkup "[Andante]"
+tempoD-III-Vg = \tempoMarkup "Larghetto"
+tempoD-III-Vh = \tempoMarkup "Grave"
+  tempoD-III-Vhb = \tempoMarkup "Andante"
+
+\include "notes/trb1.ly"
+\include "notes/trb2.ly"
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/vla.ly" % add clef in scores
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"

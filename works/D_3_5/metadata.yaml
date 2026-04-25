@@ -1,0 +1,32 @@
+title: Miserere
+id: TumW D.3.5
+genre: psalm
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, vla, b, org
+ark: 68748/e1fitd35
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: CZ-Pn
+    shelfmark: XVI C 73
+    date: 1773
+    license: public domain
+    principal: true
+  D1:
+    siglum: A-M
+    shelfmark: III/55
+    license: public domain
+parts:
+  vla: Viola solo\\\relax[Flauto solo]
+toe: |
+  –       & –    & \B1 comprises a solo for flute in \textit{Auditui meo},
+                   which is here given as solo for vla in the full score,
+                   as it appears in \D1. (The flue version is still available
+                   as an appendix to the vla part).
+                   Moreover, in \B1, trb 1 only plays the solo in
+                   \textit{Ecce enim}, while in \D1, trb 1 and 2 also play
+                   colla parte with A and T coro, respectively. \\
+  154–158 & vl 2 & In \B1, these bars have been added later via a
+                   \textit{vide} annotation and are thus unison with vl 1.
+                   Here, the supposedly original voice of \D1 is reproduced. \\
+  172     & vla  & grace note added by editor \\
+  239     & vl 1 & 1st 5th \sixteenthNote\ in \B1: g′16 \\
