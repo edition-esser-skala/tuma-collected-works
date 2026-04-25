@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-IV-IIISoprano = {
+E-IV-IISoprano = {
   \relative c' {
     \clef treble
-    \key es \major \time 3/4 \tempoE-IV-IIIa \autoBeamOff
+    \key es \major \time 3/4 \tempoE-IV-IIa \autoBeamOff
     R2.*26 %26
     \mvTr es'4\pE^\solo b r
     es g, r
@@ -70,7 +70,7 @@ E-IV-IIISoprano = {
     es4 r r
     R2.*14 \noBreak %113
     R2.\fermata \bar "||"
-    \time 4/4 \tempoE-IV-IIIb \newSpacingSection
+    \time 4/4 \tempoE-IV-IIb \newSpacingSection
       r8 c' es c g'4 g, \noBreak %115
     r2 r8 f as c
     f4 f, r2
@@ -81,7 +81,7 @@ E-IV-IIISoprano = {
     c'4 c8 c es!4 d!8 c
     h16([ a)] g8 r4 r2 \noBreak
     R1\fermata \bar "||"
-    \tempoE-IV-IIIc c4 d es c8([ b!)] \noBreak %125
+    \tempoE-IV-IIc c4 d es c8([ b!)] \noBreak %125
     \appoggiatura b as4 g r2
     c4 d es c8([ b!)]
     as f r4 c'2
@@ -94,7 +94,7 @@ E-IV-IIISoprano = {
     c1 %135
     c4 r r2 \noBreak
     R1\fermata \bar "||"
-    \key b \major \tempoE-IV-IIId R1*9 %146
+    \key b \major \tempoE-IV-IId R1*9 %146
     r2 b'16([ d c b] f'[ es)] d([ c)]
     b([ a)] b8 d b c8.([ g'16] f[ es)] d([ c)]
     b([ a)] b8 d b c8.([ g'16] f[ es)] d([ c)]
@@ -131,7 +131,7 @@ E-IV-IIISoprano = {
     b r r2
     R1*5 \noBreak %188
     R1\fermata \bar "||"
-    \tempoE-IV-IIIe r4 d \appoggiatura c16 b8 b a g \noBreak %190
+    \tempoE-IV-IIe r4 d \appoggiatura c16 b8 b a g \noBreak %190
     c4 c r2
     r4 c8 d es4 d8([ c)]
     b16([ a)] g8 r4 r8 d' b g
@@ -141,7 +141,7 @@ E-IV-IIISoprano = {
     as4 g fis16 fis fis8 r4
     r g g8 d r4 \noBreak
     R1\fermata \bar "||"
-    \twotwotime \key es \major \time 2/2 \tempoE-IV-IIIf \newSpacingSection
+    \twotwotime \key es \major \time 2/2 \tempoE-IV-IIf \newSpacingSection
       R1*26 %225
     es1
     as
@@ -240,7 +240,7 @@ E-IV-IIISoprano = {
   }
 }
 
-E-IV-IIISopranoLyrics = \lyricmode {
+E-IV-IISopranoLyrics = \lyricmode {
   Sal -- ve, %27
   sal -- ve,
   sal -- ve Re --

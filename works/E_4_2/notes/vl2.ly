@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-IV-IIIViolinoII = {
+E-IV-IIViolinoII = {
   \relative c' {
     \clef treble
-    \key es \major \time 3/4 \tempoE-IV-IIIa
+    \key es \major \time 3/4 \tempoE-IV-IIa
     g'4\fE r r
     g r r
     f2 d4
@@ -114,7 +114,7 @@ E-IV-IIIViolinoII = {
     es r f
     es2 d4\trill \noBreak
     es8 b' es, b \appoggiatura as g4\fermata \bar "||"
-    \time 4/4 \tempoE-IV-IIIb \newSpacingSection
+    \time 4/4 \tempoE-IV-IIb \newSpacingSection
       r2 r16 es''8\fE es16 c( es) es8 \noBreak %115
     r16 es8 c16 c( g) g( c,) c'8 r r4
     r16 as'8 as16 f( c) c8 r16 d8 b16 b( f) f( b,)
@@ -125,7 +125,7 @@ E-IV-IIIViolinoII = {
     as,8 r r4 c'8\p r r4
     r8 h\f c4 g,8 h' h4 \noBreak
     c,8 g' g4 h16 g, g g g4\fermata \bar "||"
-    \tempoE-IV-IIIc es''8\pE r d r c r es r \noBreak %125
+    \tempoE-IV-IIc es''8\pE r d r c r es r \noBreak %125
     es r d r es, r h r
     c r g' r c r c r
     as r g r as r f' r
@@ -138,7 +138,7 @@ E-IV-IIIViolinoII = {
     r as8( f16) r g8( e16) c'8( des c b) %135
     as16 as8([ f16)] r \once \slurDashed g8( e16) r c'8( as16) r b8( g16) \noBreak
     as8\f f f4 r2\fermata \bar "||"
-    \key b \major \tempoE-IV-IIId
+    \key b \major \tempoE-IV-IId
       b16\fE c d es f g a b a( b a) g-! f g a b \noBreak
     a( b a) g-! f( g f) es-! d8 b, r4
     a'8 r r4 d16( c) c( b) d( c) c( b) %140
@@ -191,7 +191,7 @@ E-IV-IIIViolinoII = {
     b8 \tuplet 3/2 8 { b16 a b } g8 \tuplet 3/2 8 { b16 a b } f8 \tuplet 3/2 8 { b'16 a b } es,8 \tuplet 3/2 8 { b'16 a b }
     d,( c) c( b) b( as) as( g) g g' g, es' \appoggiatura d8 c4\trill \noBreak
     b8 f b,4 r2\fermata \bar "||"
-    \tempoE-IV-IIIe b'1\p \noBreak %190
+    \tempoE-IV-IIe b'1\p \noBreak %190
     c~
     c
     b
@@ -201,7 +201,7 @@ E-IV-IIIViolinoII = {
     as,4( g) fis2
     g4 r r a\f\trill \noBreak
     g8 g'16( d) b( g) d( b) g4 r\fermata \bar "||"
-    \twotwotime \key es \major \time 2/2 \tempoE-IV-IIIf \newSpacingSection
+    \twotwotime \key es \major \time 2/2 \tempoE-IV-IIf \newSpacingSection
       es'1\fE \noBreak %200
     as
     g2 es'~

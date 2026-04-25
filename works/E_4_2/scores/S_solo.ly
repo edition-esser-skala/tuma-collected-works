@@ -12,19 +12,19 @@
 
 \book {
   \bookpart {
-    \section "E.4.3" "Salve Regina"
+    \section "E.4.2" "Salve Regina"
     \addTocEntry
     \score {
       <<
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \E-IV-IIISoprano }
+            \new Voice = "Soprano" { \dynamicUp \E-IV-IISoprano }
           }
-          \new Lyrics \lyricsto Soprano \E-IV-IIISopranoLyrics
+          \new Lyrics \lyricsto Soprano \E-IV-IISopranoLyrics
         >>
-        \new Staff { \E-IV-IIIOrgano }
-        \new FiguredBass { \E-IV-IIIBassFigures }
+        \new Staff { \E-IV-IIOrgano }
+        \new FiguredBass { \E-IV-IIBassFigures }
       >>
     }
   }

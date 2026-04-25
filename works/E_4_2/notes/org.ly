@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-IV-IIIOrgano = {
+E-IV-IIOrgano = {
   \relative c {
     \clef bass
-    \key es \major \time 3/4 \tempoE-IV-IIIa
+    \key es \major \time 3/4 \tempoE-IV-IIa
     \mvTr es4\fE-\soloE ^\mvTz^\critnote r8 es es d
     c4 r8 c c b
     as2 b4
@@ -117,7 +117,7 @@ E-IV-IIIOrgano = {
     es r d8 b
     g4 as b \normalsize
     es,2.\fermata \bar "||"
-    \time 4/4 \tempoE-IV-IIIb \newSpacingSection
+    \time 4/4 \tempoE-IV-IIb \newSpacingSection
       c'8\fE r r4 r8 c c c \noBreak %115
     c c c c f, r r4
     r8 f' f f b, b b b
@@ -128,7 +128,7 @@ E-IV-IIIOrgano = {
     f\pE f f f fis fis fis fis
     g r g,\fE r g r g r \noBreak
     g r g r g16 g g g g4\fermata \bar "||"
-    \tempoE-IV-IIIc c8\pE r h r c r c r \noBreak %125
+    \tempoE-IV-IIc c8\pE r h r c r c r \noBreak %125
     c r h r r2
     c8 r h r c r e r
     f r r4 f8 r f r
@@ -140,7 +140,7 @@ E-IV-IIIOrgano = {
     R1*2 %135
     c8\piuP r c r c r c r \noBreak
     f,\f f f4 r2\fermata \bar "||"
-    \key b \major \tempoE-IV-IIId
+    \key b \major \tempoE-IV-IId
       b8\fE b b b f' f b g \noBreak
     f f a a b4 r
     f8 r r4 b r %140
@@ -193,7 +193,7 @@ E-IV-IIIOrgano = {
     d d es es d d c c
     b4 d es8 es f f, \noBreak
     b2 r\fermata \bar "||"
-    \tempoE-IV-IIIe g'1~\p \noBreak %190
+    \tempoE-IV-IIe g'1~\p \noBreak %190
     g2 fis~
     fis1
     g
@@ -203,7 +203,7 @@ E-IV-IIIOrgano = {
     c2 c
     cis4 r r d\f \noBreak
     g,1\fermata \bar "||"
-    \twotwotime \key es \major \time 2/2 \tempoE-IV-IIIf \newSpacingSection
+    \twotwotime \key es \major \time 2/2 \tempoE-IV-IIf \newSpacingSection
       r2 es'\fE \noBreak %200
     c4 b c d
     es d c b
@@ -344,7 +344,7 @@ E-IV-IIIOrgano = {
   }
 }
 
-E-IV-IIIBassFigures = \figuremode {
+E-IV-IIBassFigures = \figuremode {
   r2.
   r
   <6 5>

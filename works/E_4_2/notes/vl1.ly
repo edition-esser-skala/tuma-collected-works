@@ -1,9 +1,9 @@
 \version "2.24.2"
 
-E-IV-IIIViolinoI = {
+E-IV-IIViolinoI = {
   \relative c' {
     \clef treble
-    \key es \major \time 3/4 \tempoE-IV-IIIa
+    \key es \major \time 3/4 \tempoE-IV-IIa
     es'4(\fE b8) r r4
     es( g,8) r r4
     es' f,8( c') b( as)
@@ -116,7 +116,7 @@ E-IV-IIIViolinoI = {
     es'16 g f as g b as c b8. \tuplet 3/2 16 { d,32 c b }
     es16 g, f es \appoggiatura g4 f2\trill \noBreak
     es8 b' es, b \appoggiatura as g4\fermata \bar "||"
-    \time 4/4 \tempoE-IV-IIIb \newSpacingSection
+    \time 4/4 \tempoE-IV-IIb \newSpacingSection
       r2 r16 c''8\fE \once \slurDashed c16( c) g g8 \noBreak %115
     r16 g8 es16 es( c) \once \slurDashed c( c,) as''8 r r4
     r16 c8 c16 c( f,) f8 r16 f8 d16 \slurDashed d( b) b( b,) \slurSolid
@@ -127,7 +127,7 @@ E-IV-IIIViolinoI = {
     f8 r r4 a'8\p r r4
     r16 g8\f g16 g es es c \kneeBeam g, g''8 g16 g d d h \noBreak
     \kneeBeam g, g''8 g16 g es es c h g, g g g4\fermata \bar "||"
-    \tempoE-IV-IIIc r16 g''8(\pE es16) r g8( g,16) r g8( es16) r g8( g,16) \noBreak %125
+    \tempoE-IV-IIc r16 g''8(\pE es16) r g8( g,16) r g8( es16) r g8( g,16) \noBreak %125
     r es''8( as16) r g8( g,16) r g8( es16) r g8( d16)
     r \once \slurDashed es8( c16) r g''8( d16) r g8( es16) r g8( c,16)
     r c'8( as16) r b8( g16) r as8( f16) r as8( f16)
@@ -140,7 +140,7 @@ E-IV-IIIViolinoI = {
     c8 des c b r16 as8( f16) r g8( e16) %135
     r c'8( as16) r b8( g16) r as'8( f16) r g8( e16) \noBreak
     f8\f f, f4 r2\fermata \bar "||"
-    \key b \major \tempoE-IV-IIId
+    \key b \major \tempoE-IV-IId
       b16\fE c d es f g a b a( b a) g-! f g a b \noBreak
     a( b a) g-! f( g f) es-! d8 b, r4
     f''8 r r4 f16( es) es( d) f( es) es( d) %140
@@ -193,7 +193,7 @@ E-IV-IIIViolinoI = {
     b8 \tuplet 3/2 8 { b16 a b } g8 \tuplet 3/2 8 { b16 a b } f8 \tuplet 3/2 8 { b'16 a b } es,8 \tuplet 3/2 8 { b'16 a b }
     d,( c) c( b) b( as) as( g) g g' g, es' \appoggiatura d8 c4\trill \noBreak
     b8 f b,4 r2\fermata \bar "||"
-    \tempoE-IV-IIIe g''1\p \noBreak %190
+    \tempoE-IV-IIe g''1\p \noBreak %190
     a2 a16( fis) es!( c) a( fis) es( c)
     a4 a''2.
     r8 g16 d b g d b g4 r
@@ -203,7 +203,7 @@ E-IV-IIIViolinoI = {
     es2 d8 d'16 a! fis d a d,
     b''4 r r \appoggiatura g8 fis4\trill\f \noBreak
     g8 \slurDashed g16( d) b( g) d( b) \slurSolid g4 r\fermata \bar "||"
-    \twotwotime \key es \major \time 2/2 \tempoE-IV-IIIf \newSpacingSection
+    \twotwotime \key es \major \time 2/2 \tempoE-IV-IIf \newSpacingSection
       R1*4 %203
     b'1\fE
     es %205

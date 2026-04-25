@@ -6,7 +6,7 @@
 
 \book {
   \bookpart {
-    \section "E.4.3" "Salve Regina"
+    \section "E.4.2" "Salve Regina"
     \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
@@ -27,33 +27,33 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \E-IV-IIIViolinoI
+              \E-IV-IIViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \E-IV-IIIViolinoII
+              \E-IV-IIViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "Viola"
-            \E-IV-IIIViola
+            \E-IV-IIViola
           }
         >>
         \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
             \incipit "Soprano" "soprano" #-18.0 #-2.8
-            \new Voice = "Soprano" { \dynamicUp \E-IV-IIISoprano }
+            \new Voice = "Soprano" { \dynamicUp \E-IV-IISoprano }
           }
-          \new Lyrics \lyricsto Soprano \E-IV-IIISopranoLyrics
+          \new Lyrics \lyricsto Soprano \E-IV-IISopranoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
             % \transpose c c,
-            \E-IV-IIIOrgano
+            \E-IV-IIOrgano
           }
         >>
-        \new FiguredBass { \E-IV-IIIBassFigures }
+        \new FiguredBass { \E-IV-IIBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 80 } % 80 – 60 – 100 – 60 – 240
