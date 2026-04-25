@@ -1,12 +1,12 @@
 \version "2.24.2"
 
-E-IV-IIAlto = {
+E-IV-IAlto = {
   \relative c' {
     \clef treble
-    \key a \minor \time 3/4 \autoBeamOff \tempoE-IV-IISalve
+    \key a \minor \time 3/4 \autoBeamOff \tempoE-IV-ISalve
     R2.*56 \noBreak %56
     R2.\fermata \bar "||"
-    \time 4/4 \tempoE-IV-IIAdTe
+    \time 4/4 \tempoE-IV-IAdTe
       r2 r8 \mvTr fis\fE^\tutti fis fis \noBreak
     g2 fis \noBreak
     r8 h, d! h fis'2~ %60
@@ -14,7 +14,7 @@ E-IV-IIAlto = {
     fis2 fis4 fis8 fis
     g4 fis8 fis e2
     dis4 r r2\fermata
-    \tempoE-IV-IIAdTeB f!8\p r f r f r f r %65
+    \tempoE-IV-IAdTeB f!8\p r f r f r f r %65
     e r e r g! r g r
     g r g r fis r fis r
     fis r fis r fis r fis r
@@ -31,7 +31,7 @@ E-IV-IIAlto = {
     e4 r r2
     R1 \noBreak %80
     R\fermata \bar "||"
-    \tempoE-IV-IIEia R1*7 %88
+    \tempoE-IV-IEia R1*7 %88
     r2 r4 \mvTr g8\fE^\tutti g
     g g a h g g g g %90
     g4( f e) a
@@ -51,9 +51,9 @@ E-IV-IIAlto = {
     a8([ g)] h4 h8([ a)] c4 %115
     h4. h8 g4 g \noBreak
     f8 f g4 g8 g g4 \bar "|"
-    \time 3/4 \tempoE-IV-IIEtIesum g r r \noBreak
+    \time 3/4 \tempoE-IV-IEtIesum g r r \noBreak
     R2.*35 \bar "|" %153
-    \time 4/4 \tempoE-IV-IIOClemens R1*6 %159
+    \time 4/4 \tempoE-IV-IOClemens R1*6 %159
     r4 \mvTr a\fE^\tutti c8[ a] gis4 %160
     a8[ g] fis4 g8 g fis4
     e r r2
@@ -83,7 +83,7 @@ E-IV-IIAlto = {
   }
 }
 
-E-IV-IIAltoLyrics = \lyricmode {
+E-IV-IAltoLyrics = \lyricmode {
   Ad te cla -- %58
   ma -- mus,
   ad te cla -- ma -- %60

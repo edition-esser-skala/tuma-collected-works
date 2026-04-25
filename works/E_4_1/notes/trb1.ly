@@ -1,12 +1,12 @@
 \version "2.24.2"
 
-E-IV-IITromboneI = {
+E-IV-ITromboneI = {
   \relative c' {
     \clef alto
-    \key a \minor \time 3/4 \tempoE-IV-IISalve
+    \key a \minor \time 3/4 \tempoE-IV-ISalve
     R2.*56 \noBreak %56
     R2.\fermata \bar "||"
-    \time 4/4 \tempoE-IV-IIAdTe
+    \time 4/4 \tempoE-IV-IAdTe
       r2 r8 \mvTr fis\fE-\tutti fis fis \noBreak
     g2 fis \noBreak
     r8 h, d! h fis'2~ %60
@@ -14,7 +14,7 @@ E-IV-IITromboneI = {
     fis2 fis4 fis8 fis
     g4 fis e2
     dis4 r r2\fermata
-    \tempoE-IV-IIAdTeB f!8\p r f r f r f r %65
+    \tempoE-IV-IAdTeB f!8\p r f r f r f r %65
     e r e r g!^\critnote r g r
     g r g r fis r fis r
     fis r fis r fis r fis r
@@ -31,7 +31,7 @@ E-IV-IITromboneI = {
     e16 h'([-\solo a) g]-! r a( g) fis-! r g( fis) e-! r fis( e) dis-!
     e8 g16( a) h( a) h( a) g h a g fis4\trill \noBreak %80
     e r r2\fermata \bar "||"
-    \tempoE-IV-IIEia R1*7 %88
+    \tempoE-IV-IEia R1*7 %88
     r2 r4 \mvTr g8\fE-\tutti g
     g g a h g g g g %90
     g4 f e a
@@ -51,7 +51,7 @@ E-IV-IITromboneI = {
     a8 g h4 h8 a c4 %115
     h4. h8 g4 g \noBreak
     f8 f g4 g8 g g4 \bar "|"
-    \time 3/4 \tempoE-IV-IIEtIesum g r e^\solo \noBreak
+    \time 3/4 \tempoE-IV-IEtIesum g r e^\solo \noBreak
     c a f'8 f
     f4 e a~ %120
     a gis8( f!) e( d)
@@ -83,7 +83,7 @@ E-IV-IITromboneI = {
     e8( f) e( f16 e) d8( c)
     h e fis gis a4~
     a8 fis gis4.\trill a8
-    \time 4/4 \tempoE-IV-IIOClemens a4 r r2 \noBreak
+    \time 4/4 \tempoE-IV-IOClemens a4 r r2 \noBreak
     R1*5 %159
     r4 \mvTr a\fE-\tutti c8 a gis4 %160
     a8 g fis4 g8 g fis4

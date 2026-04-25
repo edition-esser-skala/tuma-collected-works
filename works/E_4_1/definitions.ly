@@ -1,0 +1,18 @@
+\version "2.24.2"
+
+tempoE-IV-ISalve = \tempoMarkup "Larghetto"
+tempoE-IV-IAdTe = \tempoMarkup "Andante"
+tempoE-IV-IAdTeB = \tempoMarkup "Adagio"
+tempoE-IV-IEia = \tempoMarkup "Vivace"
+tempoE-IV-IEtIesum = \tempoMarkup "Largo"
+tempoE-IV-IOClemens = \tempoMarkup "Andante"
+
+\include "notes/trb1.ly"
+\include "notes/trb2.ly"
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"
