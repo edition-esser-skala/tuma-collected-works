@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026.04.0 – 2026-05-01
+
+### Added
+
+- works: TumW C.3.24, C.5.1/28, C.6.1, D.1.2, and D.3.5
+
+### Changed
+
+- renumbered TumW E.4.1 → S1, 2 → 1, and 3 → 2
+
+
 ## 2026.03.0 – 2026-03-28
 
 ### Added
