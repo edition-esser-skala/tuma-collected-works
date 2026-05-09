@@ -1,0 +1,15 @@
+title: Stabat mater
+id: TumW F.6
+genre: sequence
+scoring: A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+ark: 68748/e1fitf6
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-OB
+    shelfmark: MO 813
+    rism: 450008349
+    license: public domain
+    principal: true
+toe: |
+  19 & trb 2, T & 2nd \quarterNote\ in \B1: \flat a4 \\
