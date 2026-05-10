@@ -1,0 +1,16 @@
+title: Sonata
+id: TumW I.11
+genre: sonata
+scoring: 2 vl, bc
+ark: 68748/e1fiti11
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-M
+    shelfmark: V/1438
+    license: public domain
+    principal: true
+toe: |
+  –   & org  & All bass figures have been added by the editor. \\
+  31  & vl 1 & 1st \quarterNote\ in \B1: f″4 \\
+  140 & vl 1 & last \quarterNote\ in \B1: e″4 \\
