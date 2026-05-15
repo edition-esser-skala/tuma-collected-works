@@ -1,0 +1,25 @@
+title: Sinfonia
+id: TumW J.19
+genre: sinfonia
+scoring: 2 vl, vla, bc
+ark: 68748/e1fitj19
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-KE
+    shelfmark: 0/92
+    rism: 530000667
+    date: ca. 1800
+    license: public domain
+    principal: true
+toe: |
+  –   & bc   & All bass figures have been added by the editor. \\
+  38  & vl 2 & last \eighthNote\ in \B1: \sharp c″8 \\
+  70  & bc   & 2nd \eighthNote\ in \B1: A8 \\
+  73  & vla  & 2nd \quarterNote\ in \B1: e′4 \\
+  75  & vl 1 & 5th \sixteenthNote\ in \B1: d″16 \\
+  75  & vla  & bar in \B1: a′4–g′4 \\
+  88  & vl 2 & 4th \eighthNote\ in \B1: a8 \\
+  99  & bc   & 6th/7th \sixteenthNote\ in \B1: c16–d16 \\
+  108 & vla  & 3rd \eighthNote\ in \B1: \sharp f′8 \\*
+  147 & bc   & 1st \eighthNote\ in \B1: a8 \\
