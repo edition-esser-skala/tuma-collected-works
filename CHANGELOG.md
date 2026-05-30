@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026.05.0 – 2026-05-30
+
+### Added
+
+- works: TumW E.1.5, E.2.4, E.5.S2, G.11, F.6 (unreleased), I.11, J.19, and K.19
+
+
 ## 2026.04.0 – 2026-05-01
 
 ### Added
