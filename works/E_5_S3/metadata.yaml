@@ -1,0 +1,19 @@
+title: Sub tuum præsidium
+id: TumW E.5.S3
+genre: antiphon
+scoring: S, A (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+ark: 68748/e1fite5s3
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-KR
+    shelfmark: E 48/131
+    rism: 600178679
+    license: public domain
+    principal: true
+  B2:
+    siglum: A-Ed
+    shelfmark: G 61
+    rism: 600038463
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/359.html
+    license: public domain
