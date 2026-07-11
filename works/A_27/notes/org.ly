@@ -45,10 +45,10 @@ A-XXVIIKyrieOrgano = {
     \clef "treble_8" d4. d8 \clef bass g,4. g8
     h a16 g fis8 g a g16 fis e8 fis
     g fis e4 d r8 fis-\solo %35
-    g4 r8 a d, \noBeam \clef "treble_8" a'-\tutti d4~
+    g4 r8 a d, \brkBeam \clef "treble_8" a'-\tutti d4~
     d cis4~ cis8 fis, h4~
     h a4~ a8 d, g4~
-    g8 \noBeam \clef bass d g2 fis4~
+    g8 \brkBeam \clef bass d g2 fis4~
     fis8 h, e2 d4~ %40
     d8 g, c4 h8 e h4
     e, r8 g' fis g16 a h a g fis

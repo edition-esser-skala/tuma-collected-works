@@ -95,7 +95,7 @@ F-IIIQuisEstViolinoII = {
     c1
     d %20
     es2 d\trill
-    c8 \noBeam c\pp c4 c8 c c h
+    c8 \brkBeam c\pp c4 c8 c c h
     \tempoF-IIIEiaMater c4 r r2
     R1*7 %30
     R1\fermata \bar "|." %31 finis

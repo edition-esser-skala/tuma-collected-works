@@ -289,12 +289,12 @@ A-XXIVKyrieFugaOrgano = {
     c8 c' a4 f g
     \clef bass c,4. c8 e4. fis8
     g4. a16 h c8 h a4
-    g8 \noBeam \clef treble g g'4~ g8 f!16 e f4~
-    f8 \noBeam \clef "treble_8" c, c'4~ c8 \noBeam \clef bass g, g'4~ %140
+    g8 \brkBeam \clef treble g g'4~ g8 f!16 e f4~
+    f8 \brkBeam \clef "treble_8" c, c'4~ c8 \brkBeam \clef bass g, g'4~ %140
     g8 f16 e f4~ f8 e16 d e8 a
-    g \noBeam \clef treble g g'4~ g8 f16 e f4
+    g \brkBeam \clef treble g g'4~ g8 f16 e f4
     r8 a, a'4~ a8 g16 fis g4
-    fis f e8 \noBeam \clef bass a,, a'4~
+    fis f e8 \brkBeam \clef bass a,, a'4~
     a8 gis16 fis \hA gis4 r8 a, a'4~ %145
     a8 f16 e f4 r8 g, g'4~
     g8 e16 d e8 c f2

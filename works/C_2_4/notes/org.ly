@@ -111,7 +111,7 @@ C-II-IVOrgano = {
     f c' f, \clef "treble_8" f''~
     f es!~ es8 d b4~
     b as~ as8 g es'4~ %105
-    es d es8 \noBeam \clef bass es, as g16 \hA as
+    es d es8 \brkBeam \clef bass es, as g16 \hA as
     f8 es16 f d8 g es d c4
     d r8 g a! g16 a fis8 e16 \hA fis
     g8 f16 g es8 d16 es f8 es16 f d8 c16 d

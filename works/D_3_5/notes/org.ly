@@ -37,8 +37,8 @@ D-III-VaOrgano = {
     r8 ges ges ges f2
     es1
     as,4 as'8 f r4 b8 b,
-    c4 \clef treble r8 g'' c-! des-! c-! \noBeam \clef "treble_8" g,
-    c des c b as4 g8 \noBeam \clef bass c, %30
+    c4 \clef treble r8 g'' c-! des-! c-! \brkBeam \clef "treble_8" g,
+    c des c b as4 g8 \brkBeam \clef bass c, %30
     f ges f es! des b a!4
     b2 c
     f,4 r r2

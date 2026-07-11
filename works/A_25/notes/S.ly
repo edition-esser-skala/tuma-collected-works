@@ -134,7 +134,7 @@ A-XXVKyrieFugaSoprano = {
     \key c \major \time 4/4 \autoBeamOff \tempoA-XXVKyrieFuga
       \set Score.currentBarNumber = #76
     \mvTr e'4.\fE^\tutti e8 d4 d
-    d c8 c a2 \noBeam
+    d c8 c a2 \brkBeam
     gis1\fermata \bar "||"
     \tempoA-XXVKyrieFugaB R1*3 %81
     r2 r8 a d4~

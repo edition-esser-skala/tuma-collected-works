@@ -23,9 +23,9 @@ D-IV-IVOrgano = {
     c4. c8 d4 es \noBreak
     c d g, r\fermata \bar "||"
     \tempoD-IV-IVb \mvTr b'4\fE-\tutti b,8 b' a g f es \noBreak
-    d b4 a8 b \noBeam \clef "treble_8" b'-! d16[-! c-! d-! es]-! %20
+    d b4 a8 b \brkBeam \clef "treble_8" b'-! d16[-! c-! d-! es]-! %20
     f4-! es d b
-    a8 \noBeam \clef bass f g16 f g a b4 b,
+    a8 \brkBeam \clef bass f g16 f g a b4 b,
     es2 f4 e \noBreak
     f f, b2\fermata \bar "||"
     \time 6/4 \tempoD-IV-IVc \newSpacingSection

@@ -31,15 +31,15 @@ K-XIXaCello = {
     a r8 fis gis4 e %25
     a8 d, e e, a e' a gis
     a16 cis e \hA cis a \hA cis e \hA cis d a f a d,8 c
-    h16 dis fis \hA dis h \hA dis \hA fis \hA dis e h g h e,8 \noBeam \clef "treble_8" e''
+    h16 dis fis \hA dis h \hA dis \hA fis \hA dis e h g h e,8 \brkBeam \clef "treble_8" e''
     e16 f g f g8^\critnote f16 e d4 r8 d
     d16 e f e f8 e16 d c4 \clef bass r8 e, %30
     f16 a c f, e g c e, d f h d, c e g c,
     c8 g g'16 f e d c8 d e f
     e d c f e c d g,
-    c'16 g e g c,8 \noBeam \clef "treble_8" e' f16 e e d d8 e16 f
+    c'16 g e g c,8 \brkBeam \clef "treble_8" e' f16 e e d d8 e16 f
     e d d c c8 d16 e d c c h h8 c16 d %35
-    c e d h c e d h c8 \noBeam \clef bass c, e c'
+    c e d h c e d h c8 \brkBeam \clef bass c, e c'
     f, c' fis, d' g,16 d h d g,8 g'
     g,16 e' g e g, e' g e g, d' f d g, d' f d
     g, c e c g c e c g4 r
@@ -50,7 +50,7 @@ K-XIXaCello = {
     \clef "treble_8" c f e8~ e16 d c h c f e8~ e16 d c h
     c e d c h8 a h h16 c^\critnote d8 c16 h %45
     c e d c h8 a h c16 d d8 c16 h
-    c8 \noBeam \clef bass f, g g, c4 r
+    c8 \brkBeam \clef bass f, g g, c4 r
     c8 f g g, c4 r
     c8 f g g, c a' g16( f) e( d)
     c8 f e16 d c h c2\fermata \bar ":|." %50 finis

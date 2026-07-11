@@ -188,7 +188,7 @@ I-XVIIChords = {
     b <a d>
     b4 r8 d g4 f!
     f es es d %60
-    d c8 \noBeam c a4 b
+    d c8 \brkBeam c a4 b
     c d g f
     d c d2
     es4 g <f as>2

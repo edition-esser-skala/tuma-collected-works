@@ -114,8 +114,8 @@ D-II-VIIOrgano = {
     } >> \clef bass c,4. d8
     es4. d16 c d8 g, c4~
     c b! a!2
-    g8 \noBeam \clef "treble_8" es''-! d16-! c-! b-! a-! g4-! a %100
-    b es f8 \noBeam \clef bass b, a16 g f es
+    g8 \brkBeam \clef "treble_8" es''-! d16-! c-! b-! a-! g4-! a %100
+    b es f8 \brkBeam \clef bass b, a16 g f es
     d8 g f16 es d c b8 es d16 c b as
     g4 as b2
     es, g'4-! g-!

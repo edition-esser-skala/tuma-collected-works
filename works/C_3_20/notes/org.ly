@@ -47,7 +47,7 @@ C-III-XXOrgano = {
     c8 as g f es f es d
     c4 \clef "treble_8" r8 c' c c d c16 d
     h c a h c8 b16 c as b g as b8 as16 b
-    g8 \noBeam \clef bass es d c16 b es8 c' b as
+    g8 \brkBeam \clef bass es d c16 b es8 c' b as
     g as g f es4 \clef treble r8 es' %45
     es es f es16 f d es c d es8 d16 es
     c[ d] \clef "treble_8" b8[ b] \clef bass es, es es f es16 f

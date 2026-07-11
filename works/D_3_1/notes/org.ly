@@ -541,7 +541,7 @@ D-III-IDoceboOrgano = {
     a2 g4 g8 f!
     e4 h c8 a f'4
     e \clef "treble_8" e' e2~ %255
-    e8 \noBeam \clef bass cis, d4 \hA cis8 a d4
+    e8 \brkBeam \clef bass cis, d4 \hA cis8 a d4
     cis8 a a' g f4. d8
     e a, e' e, a4 r
     a'2 gis

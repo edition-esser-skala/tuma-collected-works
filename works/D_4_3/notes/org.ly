@@ -43,8 +43,8 @@ D-IV-IIIOrgano = {
     f \clef bass f,4-\tutti f8 e4. e8
     d2 r4 d8 c!
     h4 c d2
-    c8 \noBeam \clef "treble_8" c'-! d h c a b a16 g %40
-    a8 \noBeam \clef bass f a fis g e f? e16 d
+    c8 \brkBeam \clef "treble_8" c'-! d h c a b a16 g %40
+    a8 \brkBeam \clef bass f a fis g e f? e16 d
     e4 f8 g e f d e
     f f, c'4 f, r\fermata \bar "|." %43 finis
   }

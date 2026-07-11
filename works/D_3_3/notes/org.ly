@@ -618,7 +618,7 @@ D-III-IIIeOrgano = {
     a f8 b a4 f8 d
     es4 f g es
     f f, b \clef "treble_8" b'
-    b b8 d c f, f' \noBeam \clef bass f, %290
+    b b8 d c f, f' \brkBeam \clef bass f, %290
     g8. g16 c8 c f,4 b~
     b a as g8 es
     f4 b es, as~
@@ -627,7 +627,7 @@ D-III-IIIeOrgano = {
     c r g' g8 g
     as4 g8 f g8. c,16 c8 c'
     c4 h c r
-    \clef "treble_8" r8 f f f f \noBeam \clef bass b, b b
+    \clef "treble_8" r8 f f f f \brkBeam \clef bass b, b b
     b16 c b as g \hA as g f es4. g8 %300
     as4. f8 b4 es,
     b2 es4 r
@@ -784,7 +784,7 @@ D-III-IIIgOrgano = {
     f e f \clef "treble_8" f
     des' des r8 b g b %365
     c b as4 g c~
-    c8 \noBeam \clef bass g g f16 g es8 es es d16 es
+    c8 \brkBeam \clef bass g g f16 g es8 es es d16 es
     c8 c c b!16 c as8 as' as g16 \hA as
     f8 f f es16 f d8 d d c16 d
     b8 b' b as16 b g8 g g f16 g %370

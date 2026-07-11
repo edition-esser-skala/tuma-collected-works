@@ -125,9 +125,9 @@ C-III-IIIOrgano = {
     g,4 r r8 h c d \noBreak
     g, e' c d g,4 r \bar "S-S"
     \key c \major \tempoC-III-IIIc
-      r8 \mvTr c'\fE-\tutti g4 c,8 \noBeam \clef "treble_8" e' d4 \noBreak %120
-    c8 \noBeam \clef bass c g4 c,8 \noBeam \clef "treble_8" c' h4
-    a8 \noBeam \clef bass a e4 a,8 a' a h
+      r8 \mvTr c'\fE-\tutti g4 c,8 \brkBeam \clef "treble_8" e' d4 \noBreak %120
+    c8 \brkBeam \clef bass c g4 c,8 \brkBeam \clef "treble_8" c' h4
+    a8 \brkBeam \clef bass a e4 a,8 a' a h
     c2 c
     b8 b a g fis8. fis16 fis4
     f8 f es d c4. b?8 %125

@@ -19,8 +19,8 @@ D-II-XIVOrgano = {
     cis4 a8 fis h gis cis cis,
     \mvTr fis2\fE-\tutti cis'4. cis8
     a a16 gis fis8 e! d2 %15
-    cis4 \clef "treble_8" r8 ais' \sbOn \tuplet 3/2 8 { h16 cis h } \hA ais h \sbOff cis8 \noBeam \clef bass fis,
-    h8. h,16 h8 \noBeam \clef "treble_8" gis' \sbOn \tuplet 3/2 8 { a16 h a } gis a \sbOff h8 \noBeam \clef bass e,
+    cis4 \clef "treble_8" r8 ais' \sbOn \tuplet 3/2 8 { h16 cis h } \hA ais h \sbOff cis8 \brkBeam \clef bass fis,
+    h8. h,16 h8 \brkBeam \clef "treble_8" gis' \sbOn \tuplet 3/2 8 { a16 h a } gis a \sbOff h8 \brkBeam \clef bass e,
     a8. a,16 a4 a'8. gis16 fis e d cis
     h8 h'16 a gis fis eis dis cis8 fis cis4
     fis,8 a'-\solo gis16 a32 h cis16 cis, fis8. fis16 e! fis32 gis a16 a, %20
@@ -31,7 +31,7 @@ D-II-XIVOrgano = {
     gis e gis4 a8 cis h4 %25
     a a e fis
     cis cis' r a
-    h cis8 \noBeam \clef bass cis, fis4 e!8 d
+    h cis8 \brkBeam \clef bass cis, fis4 e!8 d
     cis a r4 a'2~
     a4 gis a a, %30
     d d, g r

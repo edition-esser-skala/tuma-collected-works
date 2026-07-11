@@ -133,7 +133,7 @@ C-II-VIIOrgano = {
     d,8 es as, b es,4 r %120
     \clef "treble_8" c''2\p f,4 r
     b2 es,4 g
-    as8 g16 as f4 g8 \noBeam \clef bass g\f as g16 as
+    as8 g16 as f4 g8 \brkBeam \clef bass g\f as g16 as
     h,8 c r c4 b?8 as f'~
     f es16 d c4 d8 es c d %125
     h c as4 \mvTr \once \tieDashed g2~\p-\tasto

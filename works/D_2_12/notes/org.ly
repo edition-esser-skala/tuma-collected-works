@@ -10,7 +10,7 @@ D-II-XIIOrgano = {
     g8 e' c d g,4 r8 \mvTr g'\fE_\tutti
     g4 e c2 %5
     f e4 r8 \clef treble e'-!
-    a-! g!16-! f-! e8-! \noBeam \clef bass e, a g!16 f e d c h
+    a-! g!16-! f-! e8-! \brkBeam \clef bass e, a g!16 f e d c h
     c h a8 a'4 d, e
     a,2 \mvTr h\pE-\solo
     c4. d8 e4 gis %10

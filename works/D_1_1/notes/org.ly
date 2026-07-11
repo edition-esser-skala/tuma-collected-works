@@ -43,7 +43,7 @@ D-I-IDixitOrgano = {
     g, r g c'
     c8 g e g c c, g' g,
     c4 r r8 \clef treble c''-! d16-! e-! c-! d-!
-    e8 \noBeam \clef bass c,, d16 e c d e8 c g' g, %40
+    e8 \brkBeam \clef bass c,, d16 e c d e8 c g' g, %40
     c4 r r2\fermata \bar "|." %41 finis
   }
 }

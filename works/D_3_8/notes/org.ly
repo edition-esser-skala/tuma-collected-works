@@ -1078,7 +1078,7 @@ D-III-VIIImOrgano = {
     as8 g f b16 a b8 a g4
     d'4. \clef bass d,8 es!4. e8
     f!4. fis8 g g, \clef "treble_8" b'[ h]
-    c4. cis8 d \noBeam \clef bass d, es!4~ %25
+    c4. cis8 d \brkBeam \clef bass d, es!4~ %25
     es8 e f!4. fis8 g e
     cis4 d \once \tieDashed a2~
     a d4 r

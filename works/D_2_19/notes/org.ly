@@ -26,7 +26,7 @@ D-II-XIXOrgano = {
     f4. f8 d e f d %10
     e4 a, e' e,
     a8 \clef treble << { r r a'' e'4. d8 c } \\ { e, a4. g!8 f4 e8 } >>
-    \clef "treble_8" a, e' \noBeam \clef bass e, a4. g!8
+    \clef "treble_8" a, e' \brkBeam \clef bass e, a4. g!8
     f4 e8 e a4 f8 d
     e4 f8 d b4 c %15
     f, f'2 e4

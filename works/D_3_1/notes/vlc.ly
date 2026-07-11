@@ -69,7 +69,7 @@ D-III-IAudituiCello = {
     d!2 d4 %185
     g,2 c4
     a h2
-    e,8 \noBeam \clef alto h''\fE e16 f e d e h c d
+    e,8 \brkBeam \clef alto h''\fE e16 f e d e h c d
     c4 cis2\trillE
     d8 a d16 e d c d a h c %190
     h8 d e( d) c( h)

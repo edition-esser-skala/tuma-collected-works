@@ -186,7 +186,7 @@ A-XXVKyrieFugaOrgano = {
     e r8 a e f g g
     d e f f e d16 c d4
     c8 a' e fis g4 \clef "treble_8" g8 a16 h %85
-    c8 \noBeam \clef bass e, a4. g16 fis g4~
+    c8 \brkBeam \clef bass e, a4. g16 fis g4~
     g8 fis16 e \hA fis8 f~ f e16 d e4
     d8 g4 f e16 d e8 c
     d4 f8 g a a, a'4~
@@ -203,8 +203,8 @@ A-XXVKyrieFugaOrgano = {
     fis h4 a16 gis a4. g16 fis %100
     g8. fis16 e8 d c a d4
     g,8 g' d e f f c d
-    e \noBeam \clef "treble_8" c'[ g a] b b f g
-    a \noBeam \clef bass f, f'4. e16 d e4~
+    e \brkBeam \clef "treble_8" c'[ g a] b b f g
+    a \brkBeam \clef bass f, f'4. e16 d e4~
     e8 d16 cis d4. cis16 h \hA cis4 %105
     d a'~ a8 gis16 fis \hA gis4
     a8 a e f g g d e
@@ -214,8 +214,8 @@ A-XXVKyrieFugaOrgano = {
     c c, r d g,4 r8 c
     g4 r8 g c4 r8 f
     d4 r8 e \clef "treble_8" f4.-!-\tutti g16-! a-!
-    b8-! \noBeam \clef bass d, g4. f16 e f8 e
-    d \noBeam \clef "treble_8" a' d4 \clef bass a,4. h16 c %115
+    b8-! \brkBeam \clef bass d, g4. f16 e f8 e
+    d \brkBeam \clef "treble_8" a' d4 \clef bass a,4. h16 c %115
     d8 d d4 c4. h8
     a4 c8 d e2
     d c4 r8 c
@@ -1558,7 +1558,7 @@ A-XXVAgnusOrgano = {
     e r8 a e f g g
     d e f f e d16 c d4
     c8 a' e fis g4 \clef "treble_8" g8 a16 h %30
-    c8 \noBeam \clef bass e, a4. g16 fis g4~
+    c8 \brkBeam \clef bass e, a4. g16 fis g4~
     g8 fis16 e \hA fis8 f~ f e16 d e4
     d8 g4 f e16 d e8 c
     d4 f8 g a a, a'4~
@@ -1575,8 +1575,8 @@ A-XXVAgnusOrgano = {
     fis h4 a16 gis a4. g16 fis %45
     g8. fis16 e8 d c a d4
     g,8 g' d e f f c d
-    e \noBeam \clef "treble_8" c'[ g a] b b f g
-    a \noBeam \clef bass f, f'4. e16 d e4~
+    e \brkBeam \clef "treble_8" c'[ g a] b b f g
+    a \brkBeam \clef bass f, f'4. e16 d e4~
     e8 d16 cis d4. cis16 h \hA cis4 %50
     d a'~ a8 gis16 fis \hA gis4
     a8 a e f g g d e
@@ -1586,8 +1586,8 @@ A-XXVAgnusOrgano = {
     c c, r d g,4 r8 c
     g4 r8 g c4 r8 f
     d4 r8 e \clef "treble_8" f4.-!-\tutti g16-! a-!
-    b8-! \noBeam \clef bass d, g4. f16 e f8 e
-    d \noBeam \clef "treble_8" a' d4 \clef bass a,4. h16 c %60
+    b8-! \brkBeam \clef bass d, g4. f16 e f8 e
+    d \brkBeam \clef "treble_8" a' d4 \clef bass a,4. h16 c %60
     d8 d d4 c4. h8
     a4 c8 d e2
     d c4 r8 c

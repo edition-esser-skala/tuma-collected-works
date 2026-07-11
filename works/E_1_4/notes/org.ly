@@ -12,7 +12,7 @@ E-I-IVOrgano = {
       r4-\tutti g g g8 g
       f b a g a d, g4
       e8[ fis g]
-    } >> \clef "treble_8" g, d'4 d8 \noBeam \clef bass d,
+    } >> \clef "treble_8" g, d'4 d8 \brkBeam \clef bass d,
     g8. f32 es d16 c b a g8 g r g'
     c8. b32 as g16 f es d c8 c r4 %5
     c8 d16 es f8 g16 a b4. b,8

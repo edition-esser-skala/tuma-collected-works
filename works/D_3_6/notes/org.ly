@@ -1246,9 +1246,9 @@ D-III-VIGloriaOrgano = {
     a8 g fis4 g8 d' g f
     \clef bass c,4 c es d8 c %25
     d c h4 c8 \clef "treble_8" c'[ h g]
-    c4 b8 \noBeam \clef bass es, c a! d c
+    c4 b8 \brkBeam \clef bass es, c a! d c
     b g \clef "treble_8" \once \tieDashed g'4~ g f!~
-    f es8 d c4 c'8 \noBeam \clef bass as
+    f es8 d c4 c'8 \brkBeam \clef bass as
     f d g f es c r c' %30
     as f b! \hA as g es r es
     c a! d c b g
@@ -1257,7 +1257,7 @@ D-III-VIGloriaOrgano = {
     g \clef treble << { c'4~ c b~ b as } \\ { r8 es f! d g f e c f4 } >> %35
     \clef bass c, c
     es d8 c d c h4
-    c \clef "treble_8" h'8[^\critnote g] c4 b8 \noBeam \clef bass es,
+    c \clef "treble_8" h'8[^\critnote g] c4 b8 \brkBeam \clef bass es,
     c a! d c b g r g'
     es c f! es d b b'4~ %40
     b a2 g4~
