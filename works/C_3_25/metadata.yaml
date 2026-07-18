@@ -1,0 +1,34 @@
+title: In columbæ specie
+id: TumW C.3.25
+genre: motet
+festival: de Sancta Scholastica
+scoring: S (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+ark: 68748/e1fitc325
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: D 2/106
+    license: public domain
+    principal: true
+toe: |
+  11ff & vl   & In \A1, rhythms like the one appearing on the
+                5th \eighthNote\ in bar~11\newline are typically written
+                as \thirtysecondNote–tuplet:\newline
+                \includegraphics[width=3cm]{snippet_C_3_25.png}\newline
+                Here, they are reproduced as \sixteenthNote-tuplets. \\
+  97   & vl 1 & 2nd to 4th \halfNote\ in \A1: a′2–a′1 \\
+lyrics:
+  In columbae specie\\
+  Scholasticae anima visa est,\\
+  fraterna mens laetata est.\\[1ex]
+  Te beata sponsa Christi,\\
+  te columba virginum\\
+  syderum tollunt coloni\\
+  laudibus Scholastica,\\
+  nostra te laetis salutant\\
+  vocibus praecordia.\\[1ex]
+  Ora sponsum nos salvari maritis\\
+  et illustrari\\
+  et super nivem dealbari,\\[1ex]
+  in coelis collocari.
