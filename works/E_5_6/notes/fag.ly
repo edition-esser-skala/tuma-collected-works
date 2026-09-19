@@ -3,6 +3,7 @@
 E-V-VIFagotto = {
   \relative c {
     \clef bass
+    \key a \minor \time 4/4 \tempoE-V-VI
     R1
     r2 r8 e4 h16 c
     d4 h c r

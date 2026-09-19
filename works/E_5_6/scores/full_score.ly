@@ -40,14 +40,14 @@
           \new Lyrics \lyricsto TenoreII \E-V-VITenoreIILyrics
 
           \new Staff {
-            \set Staff.instrumentName = "Basso"
+            \set Staff.instrumentName = \markup \center-column { "Basso" "Fagotto" }
             \new Voice = "Basso" { \dynamicUp \E-V-VIBasso }
           }
           \new Lyrics \lyricsto Basso \E-V-VIBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Organo," "Fagotto" "e Bassi" }
+            \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
             % \transpose c c,
             \E-V-VIOrgano
           }

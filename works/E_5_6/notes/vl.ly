@@ -3,6 +3,7 @@
 E-V-VIViolino = {
   \relative c' {
     \clef treble
+    \key a \minor \time 4/4 \tempoE-V-VI
     r4 r8 c' h8. h16 a8 a16 h
     c8 c c8. c16 h8 h4 h8
     a a g g16 g g4 g

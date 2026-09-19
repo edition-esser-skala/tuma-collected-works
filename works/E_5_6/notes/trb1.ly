@@ -3,6 +3,7 @@
 E-V-VITromboneI = {
   \relative c' {
     \clef alto
+    \key a \minor \time 4/4 \tempoE-V-VI
     r8 e a4 a8 g f8. f16
     e8 e e8. e16 e4 e8 d16 e
     f8 f d8. d16 c4 r

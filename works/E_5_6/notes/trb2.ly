@@ -3,6 +3,7 @@
 E-V-VITromboneII = {
   \relative c' {
     \clef tenor
+    \key a \minor \time 4/4 \tempoE-V-VI
     R1*2
     d8. d16 d8 d e e c g
     a16 h c8 c h c4 r
