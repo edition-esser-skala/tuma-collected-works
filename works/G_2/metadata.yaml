@@ -1,0 +1,40 @@
+title: Litaniæ lauretanæ
+id: TumW G.2
+genre: litany
+scoring: S, A, T, B (solo), S, A, T, B (coro),\\cnto, fag, 2 clno (D), [timp (D–A)], 2 trb, 2 vl, b, org
+ark: 68748/e1fitg2
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15692:1
+    rism: 600138807
+    date: ca. 1741
+    license: public domain
+    principal: true
+  B2:
+    siglum: A-GÖ
+    shelfmark: 1899
+    date: 1743
+    license: public domain
+toe: |
+  –    & timp   & only appear in \B2 \\
+  14   & vl 1   & 1st \halfNote\ in \B1: d″4–a′4 \\
+  55   & T      & 2nd \eighthNote\ in \B1: \sharp c′8 \\
+  76   & org    & 4th to 6th \eighthNote\ in \B1: g8–\sharp f8–e8 \\
+  92   & trb 2  & bar in \B1: \wholeNoteRest \\
+  126–142 & fag & in \B1 unison with org \\
+  147–150 & fag & in \B1 unison with org \\
+  200  & clno 2 & 3rd \quarterNote\ in \B1: c″8–c″8 \\
+  215f & B      & bars in \B1: a2–\sharp g4 and \sharp g4–a4–a4 \\
+  237  & org    & tempo indication in \B1: “Allegro” \\
+  242  & vl 2   & grace note added by editor \\
+  255  & vl 2   & grace note added by editor \\
+  259  & B      & 4th \quarterNote\ in \B1: e4 \\
+  267  & vl 2   & 2nd \halfNote\ in \B1: b′2 \\
+  275  & vl     & rhythm of 3rd \quarterNote\ in \B1: 8–16–16 \\
+  282  & vl 1   & 4th \eighthNote\ in \B1 \\
+  286–288 & B   & rhythm adapted to lyrics \\
+  296 & vl 1    & 4th \eighthNote\ in \B1: \sharp c″8 \\
+parts:
+  clno: Clarino I, II in D
