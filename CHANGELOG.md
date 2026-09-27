@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026.09.0 – 2026-09-27
+
+### Added
+
+- works: TumW A.19, G.2/3/6, E.1.6/7, E.2.7, and E.5.2/3/6
+
+### Changed
+
+- Template uses “modern” accidental style by default.
+
+### Fixed
+
+- All work metadata is now consistent with information in the catalogue of works.
+
+
 ## 2026.07.0 – 2026-08-01
 
 ### Added
