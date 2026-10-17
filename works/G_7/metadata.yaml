@@ -1,0 +1,22 @@
+title: Litaniæ lauretanæ
+id: TumW G.7
+genre: litany
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1fitg7
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-WIL
+    shelfmark: 1096
+    date: 1740–50
+    rism: 600077635
+    license: public domain
+    principal: true
+  B2:
+    siglum: A-H
+    shelfmark: 876
+    license: public domain
+toe: |
+  13  & B & 4th \quarterNote\ in \B1 and \B2: a8–a8 \\
+  62  & B & 2nd/3rd \eighthNote\ in \B1 and \B2: e8–e8 \\
+  109 & S & 2nd \halfNote\ in \B1: a′4–\sharp g′4 \\
