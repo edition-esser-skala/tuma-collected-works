@@ -1,0 +1,19 @@
+title: Litaniæ lauretanæ
+id: TumW G.8
+genre: litany
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1fitg8
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-H
+    shelfmark: 877
+    license: public domain
+    principal: true
+toe: |
+  1   & –    & tempo indication in S, vlne, and org part of \B1: “Allegro”;
+               \newline in vl~1, vl~2, A, T, and B part: “Allegro un poco” \\
+  121 & –    & tempo indication in B, vl~1, and vl~2 part of \B1: “Allegretto”;
+               \newline in S, A, and vlne part: “Allegro”;
+               in T and org part: missing \\
+  109 & vl 2 & 6th \eighthNote\ in \B1: e″8 \\
