@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 A-XXXVIIIKyrieViolinoI = {
   \relative c' {
@@ -122,7 +122,7 @@ A-XXXVIIIKyrieFugaViolinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/2 \tempoA-XXXVIIIKyrieFuga
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \set Score.currentBarNumber = #103
     c'2.\fE c4 h2. h4
     c2. cis4 d2. a4

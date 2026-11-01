@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoD-III-VIIa = \tempoMarkup "Adagio"
 tempoD-III-VIIb = \tempoTitleMarkup "Amplius" "Andante" % 4 = 70

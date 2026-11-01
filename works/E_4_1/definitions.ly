@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoE-IV-ISalve = \tempoMarkup "Larghetto"
 tempoE-IV-IAdTe = \tempoMarkup "Andante"

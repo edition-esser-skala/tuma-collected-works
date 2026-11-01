@@ -1,10 +1,10 @@
-\version "2.24.2"
+\version "2.26.0"
 
 I-XIXContinuo = {
   \relative c {
     \clef bass
     \key a \major \time 4/4 \tempoI-XIXa
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     a'8 a, a' gis fis fis, fis' e16 d
     cis8 d16. cis32 h8 e, a d16. cis32 h8 e
     a, cis16. e32 a4 a8 a, r a'
@@ -30,7 +30,7 @@ I-XIXContinuo = {
     a4 r e'8 fis d e \noBreak
     a,4 fis e r\fermata \bar "||"
     \pageBreak \time 3/8 \tempoI-XIXb \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R4.*2 %26
     r8 e' e
     cis d16 e fis8

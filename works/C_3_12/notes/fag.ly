@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 C-III-XIIFagotto = {
   \relative c {
@@ -26,7 +26,7 @@ C-III-XIIFagotto = {
       R2.*17 \noBreak %100
     R2.\fermata \bar "||"
     \time 2/1 \tempoC-III-XIIIn \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*6 %107
     e'1\fE fis2. gis4
     a2 a h2. h4

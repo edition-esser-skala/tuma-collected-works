@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-III-VIMiserereSoprano = {
   \relative c' {
@@ -385,7 +385,7 @@ D-III-VIAspergesSoprano = {
   \relative c' {
     \clef treble
     \key g \minor \time 2/1 \autoBeamOff \tempoD-III-VIAsperges
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*8 %8
     d'\breve
     es1( d) %10

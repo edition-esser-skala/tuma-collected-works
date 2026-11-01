@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-I-IIIDixitOrgano = {
   \relative c {
@@ -68,7 +68,7 @@ D-I-IIIConfiteborOrgano = {
   \relative c {
     \clef treble
     \key d \dorian \time 4/2 \tempoD-I-IIIConfitebor
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a''2.-\tutti d4 << { b1 a2 d } \\ { d,2. g4 f1 } >>
     \clef "treble_8" a,
     \clef bass d, c!2. a4

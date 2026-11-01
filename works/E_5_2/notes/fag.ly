@@ -1,10 +1,10 @@
-\version "2.24.2"
+\version "2.26.0"
 
 E-V-IIFagotto = {
   \relative c {
     \clef bass
     \key d \major \time 4/2 \tempoE-V-II
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*2
     d1 fis
     e2 a1 gis2

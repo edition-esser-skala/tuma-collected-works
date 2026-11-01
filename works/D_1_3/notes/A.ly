@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-I-IIIDixitAlto = {
   \relative c' {
@@ -63,7 +63,7 @@ D-I-IIIConfiteborAlto = {
   \relative c' {
     \clef treble
     \key d \dorian \time 4/2 \autoBeamOff \tempoD-I-IIIConfitebor
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r1 d2.^\tutti g4
     f2. f4 e2 e
     f1 e2 e

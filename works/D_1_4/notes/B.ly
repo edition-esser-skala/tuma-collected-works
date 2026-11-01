@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-I-IVDixitBasso = {
   \relative c {
@@ -313,7 +313,7 @@ D-I-IVLaudateBasso = {
   \relative c {
     \clef bass
     \key d \dorian \time 4/2 \autoBeamOff \tempoD-I-IVLaudateDominum
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \markTimeSig #'(4 2)
     \mvTr d1\fE^\tuttiE d4 c d e
     f2 d e2. e4

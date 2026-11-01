@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 B-IIntroitusViolinoII = {
   \relative c' {
@@ -461,7 +461,7 @@ B-IOffertoriumViolinoII = {
     b as8 b c2 \noBreak
     c1\fermata \bar "||"
     \time 2/1 \tempoB-IQuam \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve \noBreak
     r1 f\fE
     as2 e f2. f4 %40
@@ -485,7 +485,7 @@ B-IOffertoriumViolinoII = {
     e f1 e2 \noBreak
     f\breve\fermata \bar "||"
     \time 4/4 \tempoB-IHostias \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       c'2\p as4( g) \noBreak %60
     g es c2
     d1
@@ -616,7 +616,7 @@ B-IAgnusViolinoII = {
     es4 g as2 \noBreak
     h,1\fermata \bar "||"
     \time 2/2 \tempoB-ICumSanctis \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2 R1 \noBreak
+      \set Staff.timeSignature = 2/2 R1 \noBreak
     \time 2/1 \markTwoOneTime R\breve
     r1 g'\fE %35
     as2. g4 f2 e
@@ -633,7 +633,7 @@ B-IAgnusViolinoII = {
     g f4 es f1 \noBreak
     g\breve
     \time 4/4 \tempoB-IQuiaPius \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r4 g as as \noBreak
     r a g2 \noBreak
     g1\fermata

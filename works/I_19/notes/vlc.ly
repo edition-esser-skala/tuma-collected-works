@@ -1,10 +1,10 @@
-\version "2.24.2"
+\version "2.26.0"
 
 I-XIXCello = {
   \relative c' {
     \clef "treble_8"
     \key a \major \time 4/4 \tempoI-XIXa
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     a8 a~ a16. d32 cis16. h32 a8 a~ a16. d32 cis16. h32
     a16. e'32 fis16. a,32 \appoggiatura e'8 d4\trill cis16. e,32 fis16. a,32 \appoggiatura e'8 d4\trill
     cis cis'8 cis~ \tuplet 3/2 8 { \sbOn cis16 e d cis h a e e' d cis h a }
@@ -41,7 +41,7 @@ I-XIXCello = {
     a( fis') e( a) dis,( e) cis( a) e8. a16 \appoggiatura a8 h8. a16 \noBreak
     a8 cis \appoggiatura cis dis8. e16 e4 r\fermata \bar "||"
     \time 3/8 \tempoI-XIXb \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r8 e e \noBreak %25
     cis d16 e fis8
     h, e e

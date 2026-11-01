@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoD-II-Va = \tempoMarkup "[Allegro]"
 tempoD-II-Vb = \tempoMarkup "Adagio"

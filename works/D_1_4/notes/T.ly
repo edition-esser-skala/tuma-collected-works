@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-I-IVDixitTenore = {
   \relative c' {
@@ -364,7 +364,7 @@ D-I-IVLaudateTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \dorian \time 4/2 \autoBeamOff \tempoD-I-IVLaudateDominum
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \markTimeSig #'(4 2)
     R\breve*2
     \mvTr a1\fE^\tuttiE a4 g a h

@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 C-III-XXVTromboneII = {
   \relative c' {
@@ -24,7 +24,7 @@ C-III-XXVTromboneII = {
     R1*2
     R1\fermata \bar "||"
     \key c \major \time 4/2 \tempoC-III-XXVd \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*4 %87
     r1 c
     c2. c4 e2 fis

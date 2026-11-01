@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 C-III-XXVSoprano = {
   \relative c' {
@@ -70,7 +70,7 @@ C-III-XXVSoprano = {
     R1*2 \noBreak
     R1\fermata \bar "||"
     \key c \major \time 4/2 \tempoC-III-XXVd \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       c'1 c2. c4 \noBreak
     e2 fis g g, %85
     r4 e' d c h c d e

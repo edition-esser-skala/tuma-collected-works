@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-II-XIITenore = {
   \relative c' {
@@ -28,7 +28,7 @@ D-II-XIITenore = {
     d4 c c( h8_[ a] \noBreak
     h2) c\fermata \bar "||"
     \time 6/4 \tempoD-II-XIIb \newSpacingSection
-      \set Staff.timeSignatureFraction = 3/4
+      \set Staff.timeSignature = 3/4
        \markTimeSig #'(6 4)
        R1.*2
     r1*3/4 r4 r \mvTr e,\pE^\soloE %35

@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 G-XIVTenore = {
   \relative c' {
@@ -157,7 +157,7 @@ G-XIVTenore = {
     a1 a2 \noBreak %230
     a g1
     \time 2/2 \tempoG-XIVe \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       g2 r r1 \noBreak
     R\breve*4 %236
     r1 g
@@ -185,7 +185,7 @@ G-XIVTenore = {
     d\breve \noBreak
     e\fermata \bar "||"
     \time 4/4 \tempoG-XIVf \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r2 \mvTr c\fE^\tuttiE \noBreak
     c d4 d8 d
     d4 d8 d d4 c8 c %265

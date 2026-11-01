@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoE-IV-IIa = \tempoMarkup "Andante"
 tempoE-IV-IIb = \tempoMarkup "Allegretto mà non presto"

@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 C-III-XXVViolinoI = {
   \relative c' {
@@ -85,7 +85,7 @@ C-III-XXVViolinoI = {
     g16 g' h e, e4 e,8. fis32( g) fis8.\trill g32 a \noBreak
     g8.\trill fis32 e fis4\trill e8 h e4\fermata \bar "||"
     \key c \major \time 4/2 \tempoC-III-XXVd \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       c'1 c \noBreak
     e2 fis\trill g g, %85
     r4 e' d( c) h c d e

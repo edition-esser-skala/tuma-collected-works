@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-II-XIITromboneII = {
   \relative c' {
@@ -20,7 +20,7 @@ D-II-XIITromboneII = {
     d4 c c h8 a \noBreak
     h2 c\fermata \bar "||"
     \time 6/4 \tempoD-II-XIIb \newSpacingSection
-      \set Staff.timeSignatureFraction = 3/4
+      \set Staff.timeSignature = 3/4
       \markTimeSig #'(6 4)
       e2.~-\soloE e4 d2~ \noBreak
     d4 c8( h) c( d) \appoggiatura c h4 h c

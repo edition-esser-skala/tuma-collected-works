@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoG-IXa = \tempoMarkup "Larghetto un poco" % 80
 tempoG-IXb = \tempoMarkup "Allegretto" % 80

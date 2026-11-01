@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 C-III-XIIICornetto = {
   \relative c' {
@@ -17,7 +17,7 @@ C-III-XIIICornetto = {
     b b8 b c4 c \noBreak
     d4. d8 cis2\fermata \bar "||" %100
     \time 2/1 \tempoC-III-XIIIIn \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*6 %106
     f,1 g
     b a2 f

@@ -1,10 +1,10 @@
-\version "2.24.2"
+\version "2.26.0"
 
 E-V-IIAlto = {
   \relative c' {
     \clef treble
     \key d \major \time 4/2 \autoBeamOff \tempoE-V-II
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r1 d
     fis e2 a4( g)
     fis2. fis4 fis2 a

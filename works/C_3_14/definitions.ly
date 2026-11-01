@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 markAriaDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT

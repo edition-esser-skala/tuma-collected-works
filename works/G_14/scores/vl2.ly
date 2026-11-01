@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"

@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 B-IIntroitusCornetto = {
   \relative c' {
@@ -296,7 +296,7 @@ B-IOffertoriumCornetto = {
     \tempoB-ISedSignifer R1*8 \noBreak %36
     R1\fermata \bar "||"
     \time 2/1 \tempoB-IQuam \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       c'1\fE des2 a \noBreak
     b2. b4 f2 as4 b
     c2. b4 as f as b %40
@@ -320,7 +320,7 @@ B-IOffertoriumCornetto = {
     g as g1 \noBreak
     f\breve\fermata \bar "||"
     \time 4/4 \tempoB-IHostias \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*11 \noBreak %70
     R1\fermata \markQuamDaCapo \bar "||" %71 finis
   }
@@ -388,7 +388,7 @@ B-IAgnusCornetto = {
     R1*7 \noBreak %31
     R1\fermata \bar "||"
     \time 2/2 \tempoB-ICumSanctis \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       c1\fE \noBreak
     \time 2/1 \markTwoOneTime es2. d4 c2 h
     c d g, h4 h %35
@@ -406,7 +406,7 @@ B-IAgnusCornetto = {
     c\breve \noBreak
     h
     \time 4/4 \tempoB-IQuiaPius \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r4 c des2 \noBreak
     r4 c h c \noBreak %50
     c h8. h16 c2\fermata \bar "||"

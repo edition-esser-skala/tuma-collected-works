@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-IV-IVViolinoII = {
   \relative c' {
@@ -29,7 +29,7 @@ D-IV-IVViolinoII = {
     b4 b a b \noBreak
     b a b2\fermata \bar "||"
     \time 6/4 \tempoD-IV-IVc \newSpacingSection
-      \set Staff.timeSignatureFraction = 3/4
+      \set Staff.timeSignature = 3/4
       b4. a8 g4 fis g a \noBreak %25
     g2. b8(\p c) a( b) g( fis)
     g4 d'\f d es4. d8 c4~

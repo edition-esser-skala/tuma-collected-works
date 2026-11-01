@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoD-II-XIIa = \tempoMarkup "[no tempo]"
 tempoD-II-XIIb = \tempoMarkup "Largo"

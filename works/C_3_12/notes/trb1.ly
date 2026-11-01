@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 C-III-XIITromboneI = {
   \relative c' {
@@ -29,7 +29,7 @@ C-III-XIITromboneI = {
       R2.*17 \noBreak
     R2.\fermata \bar "||"
     \time 2/1 \tempoC-III-XIIIn \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*2
     e1\fE fis2. gis4
     a2 a h2. h4 %105

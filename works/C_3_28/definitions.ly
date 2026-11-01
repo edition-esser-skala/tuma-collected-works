@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoC-III-XXVIIIa = \tempoTitleMarkup "Recitativo" "Andante ô Larghetto"
 tempoC-III-XXVIIIb = \tempoMarkup "Adagio"

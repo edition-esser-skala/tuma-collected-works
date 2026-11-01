@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 C-III-XIIIOrgano = {
   \relative c {
@@ -107,7 +107,7 @@ C-III-XIIIOrgano = {
     g g a a \noBreak
     b2 a\fermata \bar "||" %100
     \clef "treble_8" \time 2/1 \tempoC-III-XIIIIn \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       f'1-! g-! \noBreak
     b-! a2-! f-!
     g2.-! g4-! f1-!

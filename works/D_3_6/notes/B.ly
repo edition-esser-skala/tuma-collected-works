@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-III-VIMiserereBasso = {
   \relative c {
@@ -397,7 +397,7 @@ D-III-VIAspergesBasso = {
   \relative c {
     \clef bass
     \key g \minor \time 2/1 \autoBeamOff \tempoD-III-VIAsperges
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r1 g'2 b~
     b a4 g fis2 g
     a g fis g

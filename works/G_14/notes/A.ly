@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 G-XIVAlto = {
   \relative c' {
@@ -165,7 +165,7 @@ G-XIVAlto = {
     d1 d2 \noBreak %230
     d d1
     \time 2/2 \tempoG-XIVe \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       e2 r r1 \noBreak
     R\breve
     r1 c
@@ -198,7 +198,7 @@ G-XIVAlto = {
     g\breve \noBreak
     g\fermata \bar "||"
     \time 4/4 \tempoG-XIVf \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r2 \mvTr a\fE^\tutti \noBreak
     a f4 f8 a
     h2 a4 a %265

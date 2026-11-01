@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-IV-IVTenore = {
   \relative c' {
@@ -29,7 +29,7 @@ D-IV-IVTenore = {
     c c c c \noBreak
     c4. c8 d2\fermata \bar "||"
     \time 6/4 \tempoD-IV-IVc \newSpacingSection
-      \set Staff.timeSignatureFraction = 3/4
+      \set Staff.timeSignature = 3/4
       b4. c8 d4 d d a \noBreak %25
     b4. b8 b4 r1*3/4
     r4 h h c4. c8 c4

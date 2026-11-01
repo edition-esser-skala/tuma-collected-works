@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-II-XIISoprano = {
   \relative c' {
@@ -22,7 +22,7 @@ D-II-XIISoprano = {
     g4 g g2~ \noBreak
     g g\fermata \bar "||"
     \time 6/4 \tempoD-II-XIIb \newSpacingSection
-      \set Staff.timeSignatureFraction = 3/4
+      \set Staff.timeSignature = 3/4
        \markTimeSig #'(6 4)
     R1.*17 %49
     r1*3/4 \tempoD-II-XIIc \mvTr c4.\fE^\tuttiE c8 c4 %50

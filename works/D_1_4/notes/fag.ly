@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-I-IVDixitFagotto = {
   \relative c {
@@ -133,7 +133,7 @@ D-I-IVLaudateFagotto = {
   \relative c {
     \clef bass
     \key d \dorian \time 4/2 \tempoD-I-IVLaudateDominum
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \markTimeSig #'(4 2)
     d1\fE d4 c d e
     f2 d e1

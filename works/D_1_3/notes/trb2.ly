@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-I-IIIDixitTromboneII = {
   \relative c' {
@@ -32,7 +32,7 @@ D-I-IIIConfiteborTromboneII = {
   \relative c' {
     \clef tenor
     \key d \dorian \time 4/2 \tempoD-I-IIIConfitebor
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve
     r1 a2. a4
     f e f d a'1~

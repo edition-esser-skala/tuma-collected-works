@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-I-IIIDixitBasso = {
   \relative c {
@@ -65,7 +65,7 @@ D-I-IIIConfiteborBasso = {
   \relative c {
     \clef bass
     \key d \dorian \time 4/2 \autoBeamOff \tempoD-I-IIIConfitebor
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*2
     d2.^\tutti d4 c!2 c4 a
     d2 e f4 e d c

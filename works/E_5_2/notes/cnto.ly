@@ -1,10 +1,10 @@
-\version "2.24.2"
+\version "2.26.0"
 
 E-V-IICornetto = {
   \relative c' {
     \clef soprano
     \key d \major \time 4/2 \tempoE-V-II
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a'1 h2 h4 h
     a2 d d cis
     d e4 fis d2. d4

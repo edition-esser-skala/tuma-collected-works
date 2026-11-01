@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoA-XXIVKyrie = \tempoMarkup "Allegro"
 tempoA-XXIVChriste = \tempoMarkup "Andante"

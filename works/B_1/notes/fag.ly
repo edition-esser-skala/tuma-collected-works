@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 B-IIntroitusFagotto = {
   \relative c {
@@ -295,7 +295,7 @@ B-IOffertoriumFagotto = {
     \tempoB-ISedSignifer R1*8 \noBreak %36
     R1\fermata \bar "||"
     \time 2/1 \tempoB-IQuam \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*5 %42
     f'1\fE as!2 e
     f2. f4 c2 es4 f
@@ -314,7 +314,7 @@ B-IOffertoriumFagotto = {
     c\breve \noBreak
     f,\fermata \bar "||"
     \time 4/4 \tempoB-IHostias \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*11 \noBreak %70
     R1\fermata \markQuamDaCapo \bar "||" %71 finis
   }
@@ -380,7 +380,7 @@ B-IAgnusFagotto = {
     R1*7 \noBreak %31
     R1\fermata \bar "||"
     \time 2/2 \tempoB-ICumSanctis \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2 R1 \noBreak
+      \set Staff.timeSignature = 2/2 R1 \noBreak
     \time 2/1 \markTwoOneTime R\breve*6 %39
     g'1\fE as2. g4 %40
     f2 e f g
@@ -392,7 +392,7 @@ B-IAgnusFagotto = {
     as\breve \noBreak
     g
     \time 4/4 \tempoB-IQuiaPius \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r4 es' f2 \noBreak
     r4 fis g c, \noBreak %50
     g2 c2\fermata \bar "||"

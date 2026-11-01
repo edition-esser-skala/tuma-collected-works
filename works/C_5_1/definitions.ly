@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoC-V-Ia = \tempoMarkup "Allegretto"
 tempoC-V-Ib = \tempoTitleMarkup "Vers solo" "Andante"

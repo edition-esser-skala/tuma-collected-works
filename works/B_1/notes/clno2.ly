@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 B-IIntroitusClarinoII = {
   \relative c' {
@@ -203,7 +203,7 @@ B-IAgnusClarinoII = {
     R1*7 \noBreak %31
     R1\fermata \bar "||"
     \time 2/2 \tempoB-ICumSanctis \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2 R1 \noBreak
+      \set Staff.timeSignature = 2/2 R1 \noBreak
     \time 2/1 \markTwoOneTime R\breve*8 %41
     g2\fE g4 g g g g2
     R\breve
@@ -213,7 +213,7 @@ B-IAgnusClarinoII = {
     c c \noBreak
     d\breve
     \time 4/4 \tempoB-IQuiaPius \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1 \noBreak
     r2 d4 c \noBreak %50
     d d8 d c2\fermata \bar "||"

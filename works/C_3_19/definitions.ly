@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoC-III-XIXa = \tempoMarkup "Andante overo larghetto"
 tempoC-III-XIXb = \tempoMarkup "Andante"

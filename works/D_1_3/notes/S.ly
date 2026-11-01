@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-I-IIIDixitSoprano = {
   \relative c' {
@@ -63,7 +63,7 @@ D-I-IIIConfiteborSoprano = {
   \relative c' {
     \clef treble
     \key d \dorian \time 4/2 \autoBeamOff \tempoD-I-IIIConfitebor
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a'2.^\tutti d4 b2 b
     a d d cis
     d4 d a h! c2. c4

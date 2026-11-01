@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoG-SIa = \tempoMarkup "Andante"
 tempoG-SIb = \tempoMarkup "Andante" %72

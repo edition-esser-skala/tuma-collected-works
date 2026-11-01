@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoD-II-VIIDeProfundis = \tempoMarkup "Adagio"
 tempoD-II-VIIFiant = \tempoMarkup "Andante"

@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 G-XIVSoprano = {
   \relative c' {
@@ -153,7 +153,7 @@ G-XIVSoprano = {
     c1 c2 \noBreak %230
     c c( h)
     \time 2/2 \tempoG-XIVe \newSpacingSection
-     \set Staff.timeSignatureFraction = 2/2
+     \set Staff.timeSignature = 2/2
      c g c1 \noBreak
     h c4( d) e2
     d1 c
@@ -186,7 +186,7 @@ G-XIVSoprano = {
     c( h4 \once \stemDown a h1) \noBreak
     c\breve\fermata \bar "||"
     \time 4/4 \tempoG-XIVf \newSpacingSection
-     \unset Staff.timeSignatureFraction
+     \unset Staff.timeSignature
      \mvTr e2\fE^\tutti e \noBreak
     f1
     f4 e e e8 e %265

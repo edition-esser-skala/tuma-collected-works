@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-I-IIIDixitFagotto = {
   \relative c {
@@ -33,7 +33,7 @@ D-I-IIIConfiteborFagotto = {
   \relative c {
     \clef bass
     \key d \dorian \time 4/2 \tempoD-I-IIIConfitebor
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*2
     d1 c!2. a4
     d2 e f4 e d c

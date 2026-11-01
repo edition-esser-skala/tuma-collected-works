@@ -1,10 +1,10 @@
-\version "2.24.2"
+\version "2.26.0"
 
 SecundaBasso = {
   \relative c {
     \clef bass
     \key f \major \time 2/1 \autoBeamOff \tempoH-ISecunda
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     f\breve
     c
     g'
@@ -303,7 +303,7 @@ TertiaBasso = {
   \relative c {
     \clef bass
     \key f \major \time 2/1 \autoBeamOff \tempoH-ITertia
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a'\breve
     g1 f~
     f g

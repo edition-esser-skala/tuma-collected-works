@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoC-IV-VIa = \tempoMarkup "Largo"
 tempoC-IV-VIb = \tempoMarkup "Allegro moderato"

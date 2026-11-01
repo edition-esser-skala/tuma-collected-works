@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 C-III-XXVOrgano = {
   \relative c {
@@ -89,7 +89,7 @@ C-III-XXVOrgano = {
     e4 r16 g( fis g) g8 e dis h \noBreak
     e c a h e,2\fermata \bar "||"
     \clef treble \key c \major \time 4/2 \tempoC-III-XXVd \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       c'''1-! c-! \noBreak
     e2-! fis-! g-! g,-! %85
     << {

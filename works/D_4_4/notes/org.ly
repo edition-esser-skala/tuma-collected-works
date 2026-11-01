@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-IV-IVOrgano = {
   \relative c {
@@ -29,7 +29,7 @@ D-IV-IVOrgano = {
     es2 f4 e \noBreak
     f f, b2\fermata \bar "||"
     \time 6/4 \tempoD-IV-IVc \newSpacingSection
-      \set Staff.timeSignatureFraction = 3/4
+      \set Staff.timeSignature = 3/4
       g2. d' \noBreak %25
     g, r1*3/4
     r4 g2 c as'4

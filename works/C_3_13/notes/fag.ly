@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 C-III-XIIIFagotto = {
   \relative c {
@@ -17,7 +17,7 @@ C-III-XIIIFagotto = {
     g g a a
     b2 a\fermata \bar "||" %100
     \time 2/1 \tempoC-III-XIIIIn \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*3
     c1 d
     f e2 c %105

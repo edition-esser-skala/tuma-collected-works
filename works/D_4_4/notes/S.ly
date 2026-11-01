@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-IV-IVSoprano = {
   \relative c' {
@@ -17,7 +17,7 @@ D-IV-IVSoprano = {
     b4 b a b \noBreak
     b a b2\fermata \bar "||"
     \time 6/4 \tempoD-IV-IVc \newSpacingSection
-      \set Staff.timeSignatureFraction = 3/4
+      \set Staff.timeSignature = 3/4
       d4. c8 b4 a b c \noBreak %25
     b4. a8 g4 r1*3/4
     r4 d' d es4. d8 c4~

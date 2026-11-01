@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 B-IIntroitusOrgano = {
   \relative c {
@@ -1243,7 +1243,7 @@ B-IOffertoriumOrgano = {
     c1 \noBreak
     f,\fermata \bar "||"
     \clef treble \time 2/1 \tempoB-IQuam \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr c'''1\fE-\tutti des2 a \noBreak
     << {
       b2. b4 f2 as4 b
@@ -1278,7 +1278,7 @@ B-IOffertoriumOrgano = {
     c\breve \noBreak
     f,\fermata \bar "||"
     \time 4/4 \tempoB-IHostias \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr c'2\pE-\solo c4 h \noBreak %60
     c2 as
     g1
@@ -1597,7 +1597,7 @@ B-IAgnusOrgano = {
     c4 b! as2 \noBreak
     g1\fermata \bar "||"
     \clef treble \time 2/2 \tempoB-ICumSanctis \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr c''1\fE-\tutti \noBreak
     \time 2/1 \markTwoOneTime es2. d4 c2 h
     c d << {
@@ -1621,7 +1621,7 @@ B-IAgnusOrgano = {
     as\breve \noBreak
     g
     \time 4/4 \tempoB-IQuiaPius \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
     r4 es' f2 \noBreak
     r4 fis g c, \noBreak %50
     g2 c\fermata \bar "||"

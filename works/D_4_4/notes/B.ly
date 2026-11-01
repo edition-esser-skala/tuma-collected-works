@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-IV-IVBasso = {
   \relative c {
@@ -17,7 +17,7 @@ D-IV-IVBasso = {
     es es f e \noBreak
     f4. f8 b,2\fermata \bar "||"
     \time 6/4 \tempoD-IV-IVc \newSpacingSection
-      \set Staff.timeSignatureFraction = 3/4
+      \set Staff.timeSignature = 3/4
       g4. g8 g4 d' d d \noBreak %25
     g,4. g8 g4 r1*3/4
     r4 g g c2 as'4

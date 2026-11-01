@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoF-IIStabat = \tempoMarkup "Adagio"
   tempoF-IIPerTransivit = \tempoMarkup "Andante"

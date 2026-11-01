@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 C-III-XIIIBasso = {
   \relative c {
@@ -49,7 +49,7 @@ C-III-XIIIBasso = {
     g g8 g a4 a \noBreak
     b4. b8 a2\fermata \bar "||" %100
     \time 2/1 \tempoC-III-XIIIIn \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*3
     c1 d
     f e2 c %105

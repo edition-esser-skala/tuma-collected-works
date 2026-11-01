@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoC-III-XXIVa = \tempoMarkup "Allegro moderato"
 tempoC-III-XXIVb = \tempoTitleMarkup "Chorus" "Andante"

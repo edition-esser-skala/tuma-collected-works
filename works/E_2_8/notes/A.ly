@@ -1,10 +1,10 @@
-\version "2.24.2"
+\version "2.26.0"
 
 E-II-VIIIAlto = {
   \relative c' {
     \clef treble
     \key f \major \time 4/2 \tempoE-II-VIII \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r1 c
     d f
     e2 e f1

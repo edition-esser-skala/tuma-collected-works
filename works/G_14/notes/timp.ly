@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 G-XIVTimpani = {
   \relative c {
@@ -55,7 +55,7 @@ G-XIVTimpani = {
     c1 r2 \noBreak %230
     r g g
     \time 2/2 \tempoG-XIVe \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       c r r1
     R\breve*7 %239
     c2 c g g %240
@@ -69,7 +69,7 @@ G-XIVTimpani = {
     g g g g4 g \noBreak
     c\breve\fermata \bar "||"
     \time 4/4 \tempoG-XIVf \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*11 %273
     r4 c8\fE c g g16 g g8 g
     c c c g c4 r %275

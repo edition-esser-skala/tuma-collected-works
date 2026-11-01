@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-I-IIIDixitCornetto = {
   \relative c' {
@@ -32,7 +32,7 @@ D-I-IIIConfiteborCornetto = {
   \relative c' {
     \clef soprano
     \key d \dorian \time 4/2 \tempoD-I-IIIConfitebor
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a'2. d4 b2 b
     a d d cis
     d4 d a h! c2. c4

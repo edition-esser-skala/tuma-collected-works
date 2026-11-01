@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 B-IIntroitusAlto = {
   \relative c' {
@@ -731,7 +731,7 @@ B-IOffertoriumAlto = {
     \tempoB-ISedSignifer R1*8 \noBreak %36
     R1\fermata \bar "||"
     \time 2/1 \tempoB-IQuam \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve \noBreak
     r1 \mvTr f\fE^\tuttiE
     as2 e f2. f4 %40
@@ -755,7 +755,7 @@ B-IOffertoriumAlto = {
     e2( f1 e2) \noBreak
     f\breve\fermata \bar "||"
     \time 4/4 \tempoB-IHostias \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr g8.\pE^\solo g16 g8 g f f f f \noBreak %60
     es8. f16 g8 g g4 f
     g8. g16 g4 r d
@@ -949,7 +949,7 @@ B-IAgnusAlto = {
     es8([ f)] g4 g f \noBreak
     g1\fermata \bar "||"
     \time 2/2 \tempoB-ICumSanctis \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R1 \noBreak
     \time 2/1 \markTwoOneTime R\breve
     r1 \mvTr g\fE^\tutti %35
@@ -967,7 +967,7 @@ B-IAgnusAlto = {
     g2 f4 es f1 \noBreak
     g\breve
     \time 4/4 \tempoB-IQuiaPius \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r4 g8 g as4 as \noBreak
     r a8 a g4 g \noBreak %50
     g4. g8 g2\fermata \bar "||"

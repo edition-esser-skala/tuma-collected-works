@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoD-II-XXa = \tempoMarkup "Alla capella · Vivace"
 tempoD-II-XXb = \tempoMarkup "Adagio"

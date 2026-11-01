@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-I-IIIDixitTenore = {
   \relative c' {
@@ -68,7 +68,7 @@ D-I-IIIConfiteborTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \dorian \time 4/2 \autoBeamOff \tempoD-I-IIIConfitebor
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve
     r1 a2.^\tutti a4
     f( e) f d a'1~

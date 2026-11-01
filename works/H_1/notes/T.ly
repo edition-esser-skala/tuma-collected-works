@@ -1,10 +1,10 @@
-\version "2.24.2"
+\version "2.26.0"
 
 PrimaTenore = {
   \relative c' {
     \clef "treble_8"
     \key g \dorian \time 2/1 \autoBeamOff \tempoH-IPrima
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     g1. g2
     g1 es~
     es2 d f2. f4
@@ -201,7 +201,7 @@ SecundaTenore = {
   \relative c' {
     \clef "treble_8"
     \key f \major \time 2/1 \autoBeamOff \tempoH-ISecunda
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c\breve
     c1 r2 c~
     c b4 a b1
@@ -518,7 +518,7 @@ TertiaTenore = {
   \relative c' {
     \clef "treble_8"
     \key f \major \time 2/1 \autoBeamOff \tempoH-ITertia
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve
     d
     c1 b

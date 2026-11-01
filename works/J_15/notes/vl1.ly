@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 J-XVViolinoI = {
   \relative c' {
@@ -63,7 +63,7 @@ J-XVViolinoI = {
     g8^\critnote g g g cis, cis cis cis \noBreak %60
     d1\fermata \bar ".|:-||"
     \time 3/4 \tempoJ-XVda \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       f!8. b16 d,4 es \noBreak
     f8. g16 a,4 b
     c8. d16 f,4 es

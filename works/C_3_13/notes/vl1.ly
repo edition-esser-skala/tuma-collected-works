@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 C-III-XIIIViolinoI = {
   \relative c' {
@@ -73,7 +73,7 @@ C-III-XIIIViolinoI = {
     g8 g' g g r f f a \noBreak
     a a g g a2\fermata \bar "||" %100
     \time 2/1 \tempoC-III-XIIIIn \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*6 %106
     f,1 g
     b a2 f

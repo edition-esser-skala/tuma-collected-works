@@ -1,10 +1,10 @@
-\version "2.24.2"
+\version "2.26.0"
 
 PrimaAlto = {
   \relative c' {
     \clef treble
     \key g \dorian \time 2/1 \autoBeamOff \tempoH-IPrima
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     g'1. g2
     g1. es2~
     es f f2. f4
@@ -212,7 +212,7 @@ SecundaAlto = {
   \relative c' {
     \clef treble
     \key f \major \time 2/1 \autoBeamOff \tempoH-ISecunda
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r1 f~
     f2 e4 d es1
     d d~
@@ -519,7 +519,7 @@ TertiaAlto = {
   \relative c' {
     \clef treble
     \key f \major \time 2/1 \autoBeamOff \tempoH-ITertia
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve
     r1 a'~
     a g

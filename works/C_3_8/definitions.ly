@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoC-III-VIIIVilescit = \tempoTitleMarkup "Recitativo" "Adagio"
 tempoC-III-VIIIOter = \tempoTitleMarkup "Aria" "Allegretto"

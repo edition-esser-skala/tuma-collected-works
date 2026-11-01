@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 K-IXIntrataContinuo = {
   \relative c {
@@ -156,7 +156,7 @@ K-IXMenuetteContinuo = {
   \relative c {
     \clef bass
     \key a \major \time 3/4 \tempoK-IXMenuette
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     a2\fE cis4
     d e a,
     e' h' a

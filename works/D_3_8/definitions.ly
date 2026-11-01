@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 pianoOForte = \markup { \larger \bold p \remark "o" \larger \bold f }
 voci = \markup \remark "voci"

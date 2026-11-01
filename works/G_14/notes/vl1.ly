@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 G-XIVViolinoI = {
   \relative c' {
@@ -202,7 +202,7 @@ G-XIVViolinoI = {
     c1 c2 \noBreak %230
     c c h
     \time 2/2 \tempoG-XIVe \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       c g c1 \noBreak
     h c4 d e2
     d1 c
@@ -235,7 +235,7 @@ G-XIVViolinoI = {
     c h4 a h1 \noBreak
     c\breve\fermata \bar "||"
     \time 4/4 \tempoG-XIVf \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       e1\fE \noBreak
     f
     f4 e e2~ %265

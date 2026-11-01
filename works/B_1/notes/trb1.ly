@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 B-IIntroitusTromboneI = {
   \relative c' {
@@ -373,7 +373,7 @@ B-IOffertoriumTromboneI = {
     \tempoB-ISedSignifer R1*8 \noBreak %36
     R1\fermata \bar "||"
     \time 2/1 \tempoB-IQuam \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve \noBreak
     r1 f\fE
     as2 e f2. f4 %40
@@ -397,7 +397,7 @@ B-IOffertoriumTromboneI = {
     e2 f1 e2 \noBreak
     f\breve\fermata \bar "||"
     \time 4/4 \tempoB-IHostias \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*11 \noBreak %70
     R1\fermata \markQuamDaCapo \bar "||" %71 finis
   }
@@ -475,7 +475,7 @@ B-IAgnusTromboneI = {
     R1*7 \noBreak %31
     R1\fermata \bar "||"
     \time 2/2 \tempoB-ICumSanctis \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R1 \noBreak
     \time 2/1 \markTwoOneTime R\breve
     r1 g\fE %35
@@ -493,7 +493,7 @@ B-IAgnusTromboneI = {
     g2 f4 es f1 \noBreak
     g\breve
     \time 4/4 \tempoB-IQuiaPius \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r4 g8 g as4 as \noBreak
     r a8 a g4 g \noBreak %50
     g4. g8 g2\fermata \bar "||"

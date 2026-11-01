@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-I-IVDixitAlto = {
   \relative c' {
@@ -336,7 +336,7 @@ D-I-IVLaudateAlto = {
   \relative c' {
     \clef treble
     \key d \dorian \time 4/2 \autoBeamOff \tempoD-I-IVLaudateDominum
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \markTimeSig #'(4 2)
     R\breve*3
     r1 \mvTr d\fE^\tuttiE

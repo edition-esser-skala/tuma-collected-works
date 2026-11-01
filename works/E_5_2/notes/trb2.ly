@@ -1,10 +1,10 @@
-\version "2.24.2"
+\version "2.26.0"
 
 E-V-IITromboneII = {
   \relative c' {
     \clef tenor
     \key d \major \time 4/2 \tempoE-V-II
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve
     r1 a2 a
     h2. h4 a1

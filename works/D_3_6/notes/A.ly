@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-III-VIMiserereAlto = {
   \relative c' {
@@ -398,7 +398,7 @@ D-III-VIAspergesAlto = {
   \relative c' {
     \clef treble
     \key g \minor \time 2/1 \autoBeamOff \tempoD-III-VIAsperges
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*4
     a'1 b( %5
     a) g

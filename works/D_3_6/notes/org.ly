@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-III-VIMiserereOrgano = {
   \relative c {
@@ -414,7 +414,7 @@ D-III-VIAspergesOrgano = {
   \relative c {
     \clef bass
     \key g \minor \time 2/1 \tempoD-III-VIAsperges
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << {
       d'\breve
       es1 d

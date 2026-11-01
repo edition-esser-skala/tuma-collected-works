@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 K-IXIntrataViolinoI = {
   \relative c' {
@@ -87,7 +87,7 @@ K-IXMenuetteViolinoI = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \tempoK-IXMenuette
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     e'4\fE cis a
     \appoggiatura a gis2 a4
     h8 cis d4 d

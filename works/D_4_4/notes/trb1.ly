@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-IV-IVTromboneI = {
   \relative c' {
@@ -17,7 +17,7 @@ D-IV-IVTromboneI = {
     g g f g
     f4. f8 f2\fermata \bar "||"
     \time 6/4 \tempoD-IV-IVc \newSpacingSection
-      \set Staff.timeSignatureFraction = 3/4
+      \set Staff.timeSignature = 3/4
       g4. g8 g4 fis g a \noBreak %25
     g4. d8 d4 r1*3/4
     r4 g g g4. f!8 es4

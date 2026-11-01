@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 G-XIVOrgano = {
   \relative c {
@@ -238,7 +238,7 @@ G-XIVOrgano = {
     f1 fis2~ \noBreak %230
     fis g1
     \time 4/2 \tempoG-XIVe \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       c,2-! \clef treble g''-! c1-! \noBreak
     h-! \parOn c4-\parenthesize-! d-! e2-!
     \parOff d1-\parenthesize-! << {
@@ -285,7 +285,7 @@ G-XIVOrgano = {
     g\breve
     c\fermata \bar "||"
     \time 4/4 \tempoG-XIVf \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r2 \mvTr a'\fE-\tuttiE \noBreak
     a b4. a8
     gis2 a %265

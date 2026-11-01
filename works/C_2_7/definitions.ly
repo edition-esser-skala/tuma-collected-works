@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoC-II-VIIPlacare = \tempoMarkup "Larghetto"
 tempoC-II-VIIEtVos = \tempoMarkup "Andante"

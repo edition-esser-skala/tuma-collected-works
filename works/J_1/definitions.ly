@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoJ-Ia = \tempoMarkup "Allegro assai"
 tempoJ-Ib = \tempoMarkup "Andante"

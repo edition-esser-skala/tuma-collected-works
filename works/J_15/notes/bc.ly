@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 J-XVContinuo = {
   \relative c {
@@ -64,7 +64,7 @@ J-XVContinuo = {
     g16 a b c d e fis g es?8 es es es \noBreak %60
     d1\fermata \bar ".|:-||"
     \time 3/4 \tempoJ-XVda \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 b c \noBreak
     r f g
     a2 f4

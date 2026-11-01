@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 D-II-XIIOrgano = {
   \relative c {
@@ -37,7 +37,7 @@ D-II-XIIOrgano = {
     h c g2~ \noBreak
     g c\fermata \bar "||"
     \time 6/4 \tempoD-II-XIIb \newSpacingSection
-      \set Staff.timeSignatureFraction = 3/4
+      \set Staff.timeSignature = 3/4
       \markTimeSig #'(6 4)
       \mvTr a4\pE-\soloE c a d f d \noBreak
     a'2 a,4 e' d c

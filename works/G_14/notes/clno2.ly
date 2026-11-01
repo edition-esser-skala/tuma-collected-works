@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 G-XIVClarinoII = {
   \relative c' {
@@ -84,7 +84,7 @@ G-XIVClarinoII = {
     c c c \noBreak %230
     c g1
     \time 2/2 \tempoG-XIVe \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       g2 r r1 \noBreak
     R\breve*7 %239
     e'1 d %240
@@ -102,7 +102,7 @@ G-XIVClarinoII = {
     d\breve \noBreak
     e\fermata \bar "||"
     \time 4/4 \tempoG-XIVf \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*11 %273
     r4 e8\fE d16 c g4 g8 g
     c c e-\critnote d c4 d %275

@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 A-XXXVIIIKyrieTenore = {
   \relative c' {
@@ -121,7 +121,7 @@ A-XXXVIIIKyrieFugaTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/2 \tempoA-XXXVIIIKyrieFuga \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \set Score.currentBarNumber = #103
     R\breve*4 %106
     r1 \mvTr c2.\fE^\tuttiE c4

@@ -1,10 +1,10 @@
-\version "2.24.2"
+\version "2.26.0"
 
 PrimaSopranoI = {
   \relative c' {
     \clef treble
     \key g \dorian \time 2/1 \autoBeamOff \tempoH-IPrima
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d'1. d2
     d d1( c4 b
     c2) d c2. c4
@@ -211,7 +211,7 @@ SecundaSoprano = {
   \relative c' {
     \clef treble
     \key f \major \time 2/1 \autoBeamOff \tempoH-ISecunda
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a'\breve
     \once \tieDashed g~^\critnote
     g
@@ -518,7 +518,7 @@ TertiaSoprano = {
   \relative c' {
     \clef treble
     \key f \major \time 2/1 \autoBeamOff \tempoH-ITertia
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*3
     a'\breve
     g1 f %5

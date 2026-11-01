@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.26.0"
 
 tempoC-III-XVa = \tempoMarkup "Recitativo"
 tempoC-III-XVb = \tempoTitleMarkup "Salve virgo" "Andante"

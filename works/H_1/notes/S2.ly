@@ -1,10 +1,10 @@
-\version "2.24.2"
+\version "2.26.0"
 
 PrimaSopranoII = {
   \relative c' {
     \clef treble
     \key g \dorian \time 2/1 \autoBeamOff \tempoH-IPrima
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     b'1. b2
     b b1( a4 g)
     a2 b1 a2
