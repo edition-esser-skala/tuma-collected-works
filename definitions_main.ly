@@ -8,7 +8,6 @@
 \include "ees.ly"
 
 
-brkBeam = #(make-music 'BeamForbidEvent)
 markRepeat = {
   \once \override Score.RehearsalMark.self-alignment-X = #CENTER
   \mark \markup \larger "R"
