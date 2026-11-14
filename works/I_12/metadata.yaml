@@ -1,0 +1,17 @@
+title: Sonata
+id: TumW I.12
+genre: sonata
+scoring: 2 vl, bc
+ark: 68748/e1fiti12
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wst
+    shelfmark: ZPM-823/2:2
+    license: public domain
+    principal: true
+toe: |
+  –     & bc   & All bass figures have been added by the editor. \\
+  26–34 & bc   & bars in \B1: 8 × \wholeNoteRest \\
+  39    & vl 1 & rhythm of last \quarterNote\ in \B1: 16–16–8 \\
+  50    & bc   & 6th \eighthNote\ in \B1: f8 \\
