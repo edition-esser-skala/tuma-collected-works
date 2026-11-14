@@ -1,0 +1,17 @@
+title: Sinfonia
+id: TumW J.4
+genre: sinfonia
+scoring: 2 vl, bc
+ark: 68748/e1fitj4
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-LA
+    shelfmark: 253
+    rism: 603000429
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 21 & vl 1 & 1st to 3rd \eighthNote\ in \B1: d″4. \\
+  4 & 50 & vl 1 & 4th \eighthNote\ in \B1: \sharp c′8 \\
