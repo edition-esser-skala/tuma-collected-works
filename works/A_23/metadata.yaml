@@ -1,0 +1,14 @@
+title: Missa Sancti Thomae
+id: TumW A.23
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+ark: 68748/e1fit
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ws
+    shelfmark: E 3/17
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
