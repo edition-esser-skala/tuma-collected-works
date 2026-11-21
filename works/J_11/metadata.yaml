@@ -1,0 +1,19 @@
+title: Sinfonia
+id: TumW J.11
+genre: sinfonia
+scoring: 2 vl, bc
+ark: 68748/e1fitj11
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-LA
+    shelfmark: 252
+    rism: 603000428
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  2 & – & – & In the sonata TumW I.15 (which lacks repeats in this movement),
+              \newline bars 14–15 have been replaced with two novel measures. \\
+  4 & 17 & vl 1 & 2nd \sixteenthNote\ in \B1: f″16 \\
+    & 24 & vl 1 & 4th \sixteenthNote\ in \B1: a″16 \\
