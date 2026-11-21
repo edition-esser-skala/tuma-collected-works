@@ -784,7 +784,7 @@ A-XXIIICredoTenore = {
     R1*2 %105
     r4 \mvTr a\pE^\solo a8. a16 h8 c
     d d c h c8. c16 c4
-    \mvTr a2\fE^\tutti a
+    \mvDl a2\fE^\tutti a
     a gis
     a8 a r h a4. a8 %110
     gis4 e'8 e e4 e
@@ -809,7 +809,7 @@ A-XXIIICredoTenore = {
     c c \noBreak
     h1\fermata \bar "||"
     \tempoA-XXIIIEtVitam R1*3 %135
-    r2 \mvTr d\fE^\tutti
+    r2 d
     h4 g r8 e' e e
     c8. h16 c4 r8 d d d
     h8. a16 h4 r8 c4 c8
@@ -964,4 +964,227 @@ A-XXIIICredoTenoreLyrics = \lyricmode {
   men, a -- _ %150
   _ _
   _ men. %152 finis
+}
+
+A-XXIIISanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \autoBeamOff \tempoA-XXIIISanctus
+    r2 \mvTr h4\fE^\tutti h
+    h( e) e r
+    r2 c4 a
+    a( d) d r
+    r2 d4 es %5
+    e2~ e4 d
+    d d8 d d4 d
+    h! d8 d e4 a,
+    a( fis!8.) fis16 fis4 d'8 dis \noBreak
+    e4. e8 dis2\fermata \bar "||" %10
+    \time 3/4 \tempoA-XXIIIPleni
+      \mvTr h2.\fE^\tutti \noBreak
+    a2 a4
+    h2.
+    a2 a4
+    g2. %15
+    h
+    c
+    c
+    h
+    R2.*2 %21
+    r4 g8([ a h c]
+    d4) a h
+    c2 c4
+    e2. %25
+    d2 d4
+    e d2
+    d d4
+    c h d
+    d c2 %30
+    h2.\fermata \bar "|." %31 finis
+  }
+}
+
+A-XXIIISanctusTenoreLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- ctus, %5
+  san -- ctus
+  Do -- mi -- nus De -- us,
+  Do -- mi -- nus De -- us
+  Sa -- ba -- oth, De -- us
+  Sa -- ba -- oth. %10
+  Ple --
+  ni sunt
+  coe --
+  li, sunt
+  coe -- %15
+  li
+  et
+  ter --
+  ra
+
+  glo -- %22
+  ri -- a,
+  glo -- ri --
+  a, %25
+  glo -- ri --
+  a tu --
+  a. O --
+  san -- na in
+  ex -- cel -- %30
+  sis. %31 finis
+}
+
+A-XXIIIBenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \minor \time 4/4 \autoBeamOff \tempoA-XXIIIBenedictus
+    R1*30 \noBreak %30
+    R1\fermata \bar "||"
+    \tempoA-XXIIIOsanna R1*7 %38
+    \mvTr g2\fE^\tutti c
+    h4 r8 e fis,4 d' %40
+    e, c' d, d
+    g8 d' d([ cis)] d4 r
+    r8 h e4~ e8[ d16 cis] d4
+    r8 e16([ d)] cis([ d h cis] d8[ d16 cis] h[ cis)] a([ h)]
+    cis8 d d([ cis)] d4 d~ %45
+    d c2 h4~
+    h a~ a8 g g4
+    fis8 d'16([ c)] h[ c a h] c8[ c16 h] a[ h g a]
+    h8[ h16 a] g[ a fis g] a4 h8 h
+    a2 h4 r\fermata \bar "|." %50 finis
+  }
+}
+
+A-XXIIIBenedictusTenoreLyrics = \lyricmode {
+  O -- san -- %39
+  na, o -- san -- na %40
+  in ex -- cel -- sis,
+  in ex -- cel -- sis,
+  o -- san -- na,
+  o -- san -- na
+  in ex -- cel -- sis, o -- %45
+  san -- na __
+  in __ ex -- cel --
+  sis, o -- san -- _ _
+  _ _ na in ex --
+  cel -- sis. %50 finis
+}
+
+A-XXIIIAgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \autoBeamOff \tempoA-XXIIIAgnus
+    R1*5 %5
+    \mvTr e4.\pE^\solo e8 c4 c
+    e2 e8 e16 e d8 cis
+    d4 d d4. fis8
+    fis([ e)] e4 e4. d8
+    c!4 h h( ais) %10
+    h \mvDl h8\fE^\tutti h h4 h8 h
+    a!4 a r8 a a a
+    a2~ a4 g8 g
+    e'4 e e( d) \noBreak
+    d1\fermata \bar "||" %15
+    \tempoA-XXIIIDona R1*8 %23
+    r2 g,4. a16([ h)]
+    c([ h)] c8 c4 h g8 a16([ h)] %25
+    c([ h)] c8 c4 h r8 e
+    a,[ h16 c] d[ c d8] g,[ a16 h] c[ h c8]~
+    c h cis4 d r
+    r8 e( h16[ a h cis] d4) d,
+    r8 h' e4~ e8[ d16 cis] d4 %30
+    d cis cis h
+    a8 d4 c8 h e4 d8
+    c4. a8 h([ g16 a] h8) c16([ d)]
+    e8 e e4 d8 g,16([ a h8)] c16([ d)]
+    e8 e e4 d h %35
+    c a h g
+    a r r2
+    R1
+    r2 g4. a16([ h)]
+    c([ h)] c8 c4 h r8 e %40
+    a,[ h16 c] d[ c d8] g,[ a16 h] c[ h c8]
+    h2 a
+    r8 e'( h16[ a h cis] d4) d,
+    r8 h' e4~ e8[ d16 cis] d4~
+    d cis cis h %45
+    a8( d4 cis8) d4 r
+    r d2 c!4
+    c h r8 e a,[ h16 c]
+    d[ c d8] g,[ a16 h] c[ h c8] fis,[ g16 a]
+    h4 c c8([ h)] h4 %50
+    h2 h
+    h h
+    R1*2
+    r2 g4. a16([ h)] %55
+    c([ h)] c8 c4 ( h) a
+    r8 h e4~ e8[ d16 cis] d4
+    e2 d
+    c!4( e) d r
+    r h2 a4~ %60
+    a g2 fis4
+    a( h a2)
+    h e~
+    e4 d8[ c] d2~
+    d1\fermata \bar "|." %65 finis
+  }
+}
+
+A-XXIIIAgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i, %6
+  qui tol -- lis pec -- ca -- ta
+  mun -- di: Mi -- se --
+  re -- re, mi -- se --
+  re -- re no -- %10
+  bis. A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di, pec --
+  ca -- ta mun --
+  di: %15
+
+  Do -- na %24
+  no -- bis pa -- cem, do -- na %25
+  no -- bis pa -- cem, pa --
+  _ _ _ _
+  cem, pa -- cem,
+  pa -- cem,
+  pa -- _ cem, %30
+  do -- na no -- bis
+  pa -- _ _ _ _ _
+  _ cem, do -- na
+  no -- bis pa -- cem, do -- na
+  no -- bis pa -- cem, pa -- %35
+  _ _ _ _
+  cem,
+
+  do -- na
+  no -- bis pa -- cem, pa -- %40
+  _ _ _ _
+  _ cem,
+  pa -- cem,
+  pa -- _ _
+  cem, no -- bis %45
+  pa -- cem,
+  do -- na
+  no -- bis pa -- _
+  _ _ _ _
+  _ cem, pa -- cem, %50
+  no -- bis
+  pa -- cem,
+
+  do -- na %55
+  no -- bis pa -- cem,
+  pa -- _ cem,
+  no -- bis
+  pa -- cem,
+  do -- na __ %60
+  no -- bis
+  pa --
+  cem, pa --
+  _ cem. __
+  %65 finis
 }

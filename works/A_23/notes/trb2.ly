@@ -454,7 +454,7 @@ A-XXIIICredoTromboneII = {
     c c \noBreak
     h1\fermata \bar "||"
     \tempoA-XXIIIEtVitam R1*3 %135
-    r2 d\fE
+    r2 d
     h4 g r8 e' e e
     c8. h16 c4 r8 d d d
     h8. a16 h4 r8 c4 c8
@@ -471,5 +471,125 @@ A-XXIIICredoTromboneII = {
     d r8 d16 c h c d h %150
     c4~ c16 h a c h4~ h16 a g h
     a2 h\fermata \bar "|." %152 finis
+  }
+}
+
+A-XXIIISanctusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key g \major \time 4/4 \tempoA-XXIIISanctus
+    r2 h4\fE h
+    h( e) e r
+    r2 c4 a
+    a( d) d r
+    r2 d4 es %5
+    e2~ e4 d
+    d \once \tieDashed d8~ d d4 d
+    h! \once \tieDashed d8~ d e4 a,
+    a fis!8. fis16 fis4 d'8 dis \noBreak
+    e4. e8 dis2\fermata \bar "||" %10
+    \time 3/4 \tempoA-XXIIIPleni
+      h2.\fE \noBreak
+    a
+    h
+    a
+    g %15
+    h
+    c
+    c
+    h
+    R2.*2 %21
+    r4 g8 a h c
+    d4 a h
+    c2 c4
+    e2. %25
+    d
+    e4 d2
+    d d4
+    c h d
+    d c2 %30
+    h2.\fermata \bar "|." %31 finis
+  }
+}
+
+A-XXIIIBenedictusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key e \minor \time 4/4 \tempoA-XXIIIBenedictus
+    R1*30 \noBreak %30
+    R1\fermata \bar "||"
+    \tempoA-XXIIIOsanna R1*7 %38
+    g2\fE c
+    h4 r8 e fis,4 d' %40
+    e, c' d, d
+    g8 d' d cis d4 r
+    r8 h e4~ e8 d16 cis d4
+    r8 e16 d cis d h cis d8 d16 cis h cis a h
+    cis8 d d cis d4 d~ %45
+    d c2 h4~
+    h a~ a8 g g4
+    fis8 d'16 c h c a h c8 c16 h a h g a
+    h8 h16 a g a fis g a4 h8 h
+    a2 h4 r\fermata \bar "|." %50 finis
+  }
+}
+
+A-XXIIIAgnusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key g \major \time 4/4 \tempoA-XXIIIAgnus
+    R1*5 %5
+    r8 \mvTr c\pE-\solo c c r e e e
+    r cis cis cis r cis cis cis
+    r d fis fis r d d d
+    r h h h r g g g
+    r g gis gis r fis fis fis %10
+    fis4 \mvTr h8\fE-\tutti h h4 h8 h
+    \once \tieDashed a!~ a a4 r8 a a a
+    a2~ a4 g8 g
+    e'4 e e d \noBreak
+    d1\fermata \bar "||" %15
+    \tempoA-XXIIIDona R1*8 %23
+    r2 g,4. a16 h
+    c h c8 c4 h g8 a16 h %25
+    c h c8 c4 h r8 e
+    a, h16 c d c d8 g, a16 h c h c8~
+    c h cis4 d r
+    r8 e h16 a h cis d4 d,
+    r8 h' e4~ e8 d16 cis d4 %30
+    d cis cis h
+    a8 d4 c8 h e4 d8
+    c4. a8 h g16 a h8 c16 d
+    e8 e e4 d8 g,16 a h8 c16 d
+    e8 e e4 d h %35
+    c a h g
+    a r r2
+    R1
+    r2 g4. a16 h
+    c h c8 c4 h r8 e %40
+    a, h16 c d c d8 g, a16 h c h c8
+    h2 a
+    r8 e' h16 a h cis d4 d,
+    r8 h' e4~ e8 d16 cis d4~
+    d cis cis h %45
+    a8 d4 cis8 d4 r
+    r d2 c!4
+    c h r8 e a, h16 c
+    d c d8 g, a16 h c h c8 fis, g16 a
+    h4 c c8 h h4 %50
+    h2 h
+    h h
+    R1*2
+    r2 g4. a16 h %55
+    c h c8 c4  h a
+    r8 h e4~ e8 d16 cis d4
+    e2 d
+    c!4 e d r
+    r h2 a4~ %60
+    a g2 fis4
+    a h a2
+    h e~
+    e4 d8 c d2~
+    d1\fermata \bar "|." %65 finis
   }
 }

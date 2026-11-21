@@ -444,7 +444,7 @@ A-XXIIICredoTromboneI = {
     r2 e\fE %130
     e c \noBreak
     d1\fermata \bar "||"
-    \tempoA-XXIIIEtVitam r2 g\fE \noBreak
+    \tempoA-XXIIIEtVitam r2 g \noBreak
     e4 c r8 a' a a
     fis8. e16 fis4 r8 g g g %135
     e8. fis16 g4 g fis
@@ -464,5 +464,137 @@ A-XXIIICredoTromboneI = {
     fis8 a16 g fis g a fis h2~ %150
     h8 a16 g a4~ a8 g16 fis g4~
     g fis g2\fermata \bar "|." %152 finis
+  }
+}
+
+A-XXIIISanctusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 4/4 \tempoA-XXIIISanctus
+    r2 g'4\fE g
+    gis2 a4 r
+    r2 e4 fis
+    fis2 g4 r
+    r2 g4 g %5
+    g2 fis
+    fis4 fis g g
+    gis gis g f
+    e4. e8 d4 fis8 h \noBreak
+    g4 e fis2\fermata \bar "||" %10
+    \time 3/4 \tempoA-XXIIIPleni
+      g2.\fE \noBreak
+    \once \tieDashed a2~ a4
+    g2.
+    \once \tieDashed fis2~ fis4
+    d2. %15
+    e
+    e
+    e2 c4
+    d2.
+    r4 d8 e fis g %20
+    a4 e fis
+    g2 g4
+    f2 g4
+    g g2
+    g2. %25
+    fis!4 a g~
+    g fis2
+    g g4
+    g g g
+    g g2 %30
+    g2.\fermata \bar "|." %31 finis
+  }
+}
+
+A-XXIIIBenedictusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key e \minor \time 4/4 \tempoA-XXIIIBenedictus
+    R1*30 \noBreak %30
+    R1\fermata \bar "||"
+    \tempoA-XXIIIOsanna r2 r8 e\fE a4~ \noBreak
+    a8 g16 fis g4 r8 d16 c h c a h
+    c8 c16 h a8 h16 c d8 g g fis
+    g4 r d2 %35
+    g fis4 r8 h
+    cis,4 a' h, g'
+    g8 fis e4 d8 e fis4
+    g8 g r4 r8 e a4~
+    a8 g16 fis g4 r8 a16 g fis g e fis %40
+    g8 g16 fis e fis d e fis8 g g fis
+    g fis e4 fis8 a16 g fis8 e
+    d e16 fis g a h8 a4 h
+    h e,8 a a d, d g
+    a4 g fis d %45
+    e2 d
+    c4 c h d
+    d h' e, fis
+    g g g8 fis g g
+    g4 fis g r\fermata \bar "|." %50 finis
+  }
+}
+
+A-XXIIIAgnusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 4/4 \tempoA-XXIIIAgnus
+    R1*5 %5
+    r8 \mvTr a'\pE-\solo a a r a a a
+    r a a a r ais ais ais
+    r h h h r fis fis fis
+    r g g g r e e e
+    r e d d r d cis cis %10
+    h4 \mvTr fis'8\fE-\tutti fis e4 e8 e
+    e4 e r8 e e e
+    d2 d4 g
+    g g g fis8 e \noBreak
+    fis1\fermata \bar "||" %15
+    \tempoA-XXIIIDona R1*4
+    r2 d4. e16 fis %20
+    g fis g8 g4 fis d8 e16 fis
+    g fis g8 g4 fis r8 h
+    e, fis16 g a g a8 d, e16 fis g fis g8~
+    g fis e fis g4 r
+    r8 a e16 d e fis g4 g, %25
+    r8 e' a4~ a8 g16 fis g4~
+    g fis2 e4
+    d e fis8 d16 e fis8 a
+    h g e4 fis8 d16 e fis8 a
+    h16 a h8 h4 a fis %30
+    g8 fis e4 fis8 e d4
+    e8 fis g fis16 e d8 h' a g16 fis
+    g8 a g fis16 e d4 g~
+    g2 g
+    g4 c, d r %35
+    R1
+    r2 d4. e16 fis
+    g fis g8 g4 fis r8 h
+    e, fis16 g a g a8 d, e16 fis g fis g8
+    e4 a~ a8 g16 fis g4 %40
+    g fis fis e8 a~
+    a g16 fis g4. fis8 fis g16 a
+    h8 g e4 fis fis8 g16 a
+    h a h8 h4 a fis
+    g8 fis e4 fis8 e d4 %45
+    e8 fis g4 fis r
+    R1
+    r4 g2 fis4~
+    fis e2 dis4
+    e2 dis4 r8 dis %50
+    cis dis16 e fis e fis8 h, cis16 dis e dis \once \tieDashed e8~
+    e4 dis e2
+    R1
+    d!4. e16 fis g fis g8 \once \tieDashed g~ g
+    fis a e16 d e fis g8 d d4 %55
+    r8 a' e16 d e fis g4 fis8 a
+    h16 a h8 h4 a fis
+    g8 fis e4 fis8 e d g
+    g2. fis4~
+    fis d2 d4 %60
+    d2 d
+    d1
+    d4 g2 g4
+    g1
+    g\fermata \bar "|." %65 finis
   }
 }

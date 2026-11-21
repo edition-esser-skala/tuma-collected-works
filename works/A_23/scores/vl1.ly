@@ -8,11 +8,99 @@
 
 \book {
   \bookpart {
-    \section "A-XXIIIKyrie" ""
+    \section "1" "Kyrie"
     \addTocEntry
     \score {
       <<
         \new Staff { \A-XXIIIKyrieViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Gloria"
+    \addTocEntry
+    \paper { system-count = #13 }
+    \score {
+      <<
+        \new Staff { \A-XXIIIGloriaViolinoI }
+      >>
+    }
+    \tacet "subsection" "Gratias agimus tibi"
+  }
+  \bookpart {
+    \subsection "Domine Deus"
+    \addTocEntry
+    \paper { system-count = #15 }
+    \score {
+      <<
+        \new Staff { \A-XXIIIDomineViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Qui tollis"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \A-XXIIIQuiTollisViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Quoniam"
+    \addTocEntry
+    \paper { page-count = #1 }
+    \score {
+      <<
+        \new Staff { \A-XXIIIQuoniamViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Cum Sancto Spiritu"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \A-XXIIICumSanctoViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Credo"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \A-XXIIICredoViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Sanctus"
+    \addTocEntry
+    \paper { system-count = #5 }
+    \score {
+      <<
+        \new Staff { \A-XXIIISanctusViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Benedictus"
+    \addTocEntry
+    \paper { system-count = #15 }
+    \score {
+      <<
+        \new Staff { \A-XXIIIBenedictusViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Agnus Dei"
+    \addTocEntry
+    \paper { system-count = #15 }
+    \score {
+      <<
+        \new Staff { \A-XXIIIAgnusViolinoI }
       >>
     }
   }

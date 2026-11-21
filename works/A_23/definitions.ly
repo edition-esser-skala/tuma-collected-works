@@ -25,6 +25,15 @@ tempoA-XXIIICredo = \tempoMarkup "[Allegro]"
   tempoA-XXIIIEtResurrexit = \tempoMarkup "Allegro" %200
   tempoA-XXIIIEtVitam = \tempoTitle "Et vitam" %110
 
+tempoA-XXIIISanctus = \tempoMarkup "Adagio"
+  tempoA-XXIIIPleni = \tempoMarkup "[Allegro]"
+
+tempoA-XXIIIBenedictus = \tempoMarkup "[Andante]"
+  tempoA-XXIIIOsanna = \tempoMarkup "[Allegro]"
+
+tempoA-XXIIIAgnus = \tempoMarkup "Adagio"
+  tempoA-XXIIIDona = \tempoMarkup "[Allegro]"
+
 \include "notes/trb1.ly"
 \include "notes/trb2.ly"
 \include "notes/vl1.ly"

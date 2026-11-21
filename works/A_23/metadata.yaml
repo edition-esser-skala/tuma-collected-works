@@ -1,8 +1,8 @@
-title: Missa Sancti Thomae
+title: Missa Sancti Thomæ
 id: TumW A.23
 genre: mass
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
-ark: 68748/e1fit
+ark: 68748/e1fita23
 license: cc-by-sa-4.0
 sources:
   B1:
@@ -14,3 +14,9 @@ tocstyle: default
 toe: |
   3 & 22  & vl, S & 1st \halfNote\ in \B1: \flat e″2 \\
     & 101 & trb 1 & last \eighthNote\ in \B1: g′8 \\
+  5 & 12  & vl    & 7th \sixteenthNote\ in \B1: e″16 \\
+  6 & 39  & vl, S & 2nd/3rd \quarterNote\ in \B1:
+                    \sharp c″4–\natural c″4 \\*
+    & 41  & vl, S & 1st \eighthNote\ in \B1: d″8;
+                    last \eighthNote\ d″8 \\
+enlargefirstpage: true
