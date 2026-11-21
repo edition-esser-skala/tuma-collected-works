@@ -143,3 +143,341 @@ A-XXIIIKyrieViolinoII = {
     g\breve*1/2\fermata \bar "|." %152 finis
   }
 }
+
+A-XXIIIGloriaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoA-XXIIIGloria
+    R1
+    r2 r4 r16 g'\fE e' e
+    e,4 r16 g d' d d,4 r16 e c' c
+    d,4 r8 h' e, d4 cis8
+    d4 r r2 %5
+    r r16 a'' a fis fis a a d,
+    d a a fis fis a a d, d a' a fis fis fis e d
+    \kneeBeam g d'' d h h d d g, g d d h h d d g,
+    g d' d h h h a g c g' g e e g g c,
+    c4 r r2 %10
+    R1*2
+    r2 r16 g' g e e g g c,
+    c4 r r16 d d h h d d g,
+    g4 r a2 %15
+    h4 r r r16 g e' e
+    e,4 r16 g d' d d,4 r16 e c' c
+    d,4 r16 d h' h g4 r
+    r2 r4 r16 h e d
+    cis8 d4 cis8 d4 r %20
+    R1*4
+    r16 a' a a, g a' g8 r16 g g g, fis g' fis8 %25
+    r16 fis\p fis d d fis fis h, h4 r
+    r16 e e cis cis e e a, a4 r
+    R1
+    r16 e'\fE e cis cis e e a, a e e cis cis e e a,
+    a4 \tempoA-XXIIIAdoramus e''2 e4 %30
+    e2 e16 cis' cis ais ais cis cis fis,
+    fis4 e d2
+    c! h
+    cis4 dis e2~
+    e8 a, d2 cis8 h %35
+    ais4 r \tempoA-XXIIIGlorificamus r2
+    R1*3
+    r2 r8 d\fE h h %40
+    g g e'4 r8 e c!4~
+    c8 h a8. g16 g4 r16 g e' e
+    e,4 r16 g d' d d,4 r16 e c' c
+    d,4 r16 d h' h a4 a8. g16
+    g4 r r2\fermata \bar "||" %45 finis
+  }
+}
+
+A-XXIIIDomineViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoA-XXIIIDomine
+      \set Score.currentBarNumber = #116
+    a'4.\fE h8 c4 r8 c
+    fis, fis gis a16 h e,4. a8~
+    a gis e4 f16. g32 a16. b?32 e,16. f32 g16. a32
+    f4 d e16. f32 g16. a32 d,16. e32 f16. g32
+    e4 r16 c'' c e, d h' h d, c a' a c, %120
+    h g' g h, a f' f a, gis( f') e8 gis,16( f') e8
+    d4 dis e16. e,32 c'16. a32 h4
+    a8 a, r4 r2
+    r16 c'' c e, d h' h d, c a' a c, h8 gis'
+    a4 r r2 %125
+    R1
+    r4 r8 e4\p d cis8
+    d16. d,32 d'8 r d4 c h8
+    c16. c,32 c'8 r4 r2
+    r16 g' g b, a f' f a, g e' e g, f d' d f, %130
+    e4 r r16 g'\p g c, b g' g b,
+    a4 r r2
+    r2 r4 h!8\pE c
+    c8. h16 h4 g16( f') e8 g,16( f') e8
+    f4 fis g16. d32 e16. a,32 h4 %135
+    c16.\fE d32 e16. f32 g16. a32 h16. g32 c8 c, r4
+    R1*2
+    r2 r16 h'\fE h d, c a' a c,
+    h g' g h, a fis' fis a, g4 r %140
+    r16 a' a a, a a' a a, a4 r
+    r16 h'\pE h h, h h' c fis, fis h h e, e a a dis,
+    dis4 r r2
+    e,4.\f fis8 g4 r8 g
+    cis, cis dis e16 fis h,4. e8 %145
+    e dis h'4 c16. d32 e16. f32 h,16. c32 d16. e32
+    c4 a h16. c32 d16. e32 a,16. h32 c16. d32
+    h4 r16 g' g h, a fis' fis a, g e' e g,
+    fis d' d fis, e c' c e, dis( c') h8 dis,16( c') h8
+    a4 ais h16. h,32 g'16. e32 fis4 %150
+    e r r2
+    r r16 fis'\p fis dis dis fis fis h,
+    h4 r r16 e e c c e e a,
+    a4 r r16 d d a a d d d,
+    d4 r r16 g' g e e g g c, %155
+    c4 r r16 d d b b d d g,
+    g4 r r16 e' e cis cis e e a,
+    a4 r d16.\fE e32 f16. g32 a16. h32 cis16. a32
+    d8 d, r4 g,16.\pE a32 h!16. c32 d16. e32 fis16. d32
+    g8 g, r4 c16. d32 e16. f32 g16. a32 h16. g32 %160
+    c8 c, r4 r2
+    r4 r8 e4 d cis8
+    d16. d,32 d'8 r d4 c h8
+    c16. c,32 c'8 r4 r2
+    a4.\fE h8 c4 r8 c %165
+    fis, fis gis a16 h e,4. a8
+    a gis r16 c' c e, d h' h d, c a' a c,
+    h g' g h, a f' f a, gis( f') e8 gis,16( f') e8
+    d4 dis e16. e,32 c'16. a32 h4
+    a8 a, r4 r2\fermata \bar "||" %170 finis
+  }
+}
+
+A-XXIIIQuiTollisViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \tempoA-XXIIIQuiTollis
+      \set Score.currentBarNumber = #171
+    r4 e'\fE a, a
+    r8 a a a a4 g8 g \noBreak
+    g g g4 fis2\fermata \bar "||"
+    \time 3/2 \tempoA-XXIIIMiserere \newSpacingSection
+      h2 c h \noBreak
+    a4( g) a( fis) g( a) %175
+    h2 fis h
+    g4( a) g( fis) e2
+    r d'! d
+    e1.~
+    e1 cis2 %180
+    d1 dis2
+    e r r
+    R1.*4 %186
+    h1.
+    cis
+    ais
+    h2 h h %190
+    h1 a!2~
+    a g1
+    fis2 h h
+    a4( g) a( fis) g( a)
+    h2 fis h %195
+    g4 fis g e fis g
+    fis1 g2~
+    g fis1 \noBreak
+    e1.\fermata \bar "||"
+    \time 4/4 \tempoA-XXIIIQuiTollisB \newSpacingSection
+      r4 e' e e \noBreak %200
+    r8 e e e f4 f8 f
+    f4 e e d
+    e1\fermata \bar "||"
+    \tempoA-XXIIISuscipe R1*7 \noBreak %210
+    R1\fermata \bar "||"
+    \time 3/2 \tempoA-XXIIIQuiSedes \newSpacingSection
+      h2\fE c h \noBreak
+    a4 g a fis g a
+    h2 fis h
+    g4 a g fis e2 %215
+    r d'! d
+    e1.~
+    e1 cis2
+    d1 dis2
+    e r r %220
+    R1.*4
+    h1. %225
+    cis
+    ais
+    h2 h h
+    h1 a!2~
+    a g1 %230
+    fis2 h h
+    a4 g a fis g a
+    h2 fis h
+    g4 fis g e fis g
+    fis1 g2~ %235
+    g fis1
+    e1.\fermata \bar "||" %237 finis
+  }
+}
+
+A-XXIIIQuoniamViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoA-XXIIIQuoniam
+      \set Score.currentBarNumber = #238
+    d'4.\fE g,8 g4~
+    g8. e'16 fis,8. d'16 e,8. c'16
+    d,4. c'8 h4~ %240
+    h8 c16 d e8 c a g
+    fis4 d fis
+    g16 d e fis g fis g a h a h g
+    a d, fis g a g a h c h c a
+    h d, g a h a h c d c d h %245
+    c4 g'2~
+    g2.~
+    g2 cis,4
+    d2 c8 a
+    h4 a2 %250
+    g4 g fis
+    g r r
+    R2.*4 %256
+    g16\p d e fis g fis g a h a h g
+    a4 r r
+    h16 d, g a h a h c d c d h
+    \appoggiatura h8 a2 r4 %260
+    R2.*7 %267
+    e'16 a, cis d e d e fis g fis g e
+    fis4 r r
+    R2.*5 %274
+    a4.\f d,8 d4~ %275
+    d8. h'16 cis,8. a'16 h,8. g'16
+    a,4. g'8 fis4~
+    fis8 g16 a h8 g e d
+    cis4 a r
+    R2.*8 %287
+    a16\p d, e fis g a h c! d c d a
+    h4 r r
+    g16 c, d e fis g a h c h c g %290
+    a4 r r
+    fis16 h, cis dis e fis g a h a h fis
+    g4 r r
+    R2.*2 %295
+    e'4\f dis e~
+    e2 dis4
+    e e, r
+    R2.*4 %302
+    r4 r fis\p
+    g16 d e fis g fis g a h a h g
+    a d, fis g a g a h c h c a %305
+    h d, g a h a h c d c d h
+    c4 \tieDashed g'2~
+    g2.~\tieSolid
+    g2 cis,4
+    c2 c8 a
+    g4 r r
+    R2.*3
+    d'4.\f g,8 g4~ %315
+    g8. e'16 fis,8. d'16 e,8. c'16
+    d,4. h'8 c,8. a'16
+    h,8. g'16 a,4 fis'
+    g g, r\fermata \bar "||" %319 finis
+  }
+}
+
+A-XXIIICumSanctoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoA-XXIIICumSancto
+      \set Score.currentBarNumber = #320
+    h'2\fE h
+    c c
+    d4 d d cis \noBreak
+    d1\fermata \bar "||"
+    \time 2/2 \tempoA-XXIIIInGloria
+      R1*20 %343
+    d1
+    fis,2. fis4 %345
+    g1
+    e'2. e4
+    cis a d2
+    d c
+    h g~ %350
+    g4 f e d
+    e c c'2~
+    c4 h a c
+    d2 h
+    a1 %355
+    a2 d~
+    d4 c h a
+    h g e'2~
+    e4 d c h
+    a2 d %360
+    d1
+    r2 g,~
+    g4 f e d
+    e1
+    a2 d, %365
+    R1*2
+    d'1
+    fis,2. fis4
+    g1 %370
+    e'2. e4
+    e a, d2
+    d cis4 h
+    cis1
+    d %375
+    r2 d~
+    d4 c! h a
+    h g h2
+    c4 h a gis
+    a gis a2 %380
+    h4 a gis fis!
+    gis e c'2
+    h1
+    a2 e'4 d
+    c h a2~ %385
+    a d4 c
+    h a g2~
+    g c4 h
+    a2. h8 c
+    d1~ %390
+    d2 c4 h
+    c d e2~
+    e dis4 cis
+    dis2. fis4~
+    fis h, e2~ %395
+    e dis
+    e1
+    r2 g,~
+    g4 f e d
+    e c \once \tieDashed c'2~ %400
+    c4 h a c
+    d2 c4 h
+    a1
+    a2 r
+    R1*3 %407
+    d1
+    fis,2. fis4
+    g1 %410
+    e'2. e4
+    c2 c
+    c h
+    a1
+    a %415
+    d
+    fis,2. fis4
+    g1
+    d'2 d
+    d4 c h a %420
+    h g a h
+    a d, h'2
+    a1~
+    a
+    h2 g' %425
+    h,2. h4
+    c1
+    d2 d
+    d c4 h
+    c1~ %430
+    c2 h4 a
+    h\breve*1/2\fermata \bar "|." %432 finis
+  }
+}

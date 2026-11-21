@@ -256,3 +256,585 @@ A-XXIIIKyrieSopranoLyrics = \lyricmode {
   _ lei --
   son. __ %150 finis
 }
+
+A-XXIIIGloriaSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoA-XXIIIGloria
+    \mvTr g'8\pE^\solo a16 h c8 h16([ a)] h8 g d' e16([ fis)]
+    g8 e c4 h r
+    R1*4 %6
+    \mvTr a4.\fE^\tutti a8 a4. a8
+    h4 r h4. h8
+    h4. h8 c4 r
+    R1*3 %12
+    \mvTr d4\fE^\tuttiE c8([ d)] e4. d16([ e)]
+    c4 h8[ c] d4. c16[ h]
+    c8 c h a a2 %15
+    g4 a h r
+    R1
+    r4 h8 h h a a4
+    h a h r
+    R1*10 %29
+    r4 \tempoA-XXIIIAdoramus \mvTr e2\fE^\tutti e4 %30
+    e e e2
+    r4 e8 e d2(
+    c!) h
+    cis4 dis e2~
+    e8[ a,] d2 cis8([ h)] %35
+    ais4 r \tempoA-XXIIIGlorificamus r8 \mvTr fis\pE^\solo gis ais!
+    h16([ cis d h] cis[ d e cis] d4) h8 h
+    h e dis16([ e cis dis] e4) d
+    c8 c h h a4. e'8~
+    e d4 cis8 d \mvTr d\fE^\tutti h h %40
+    g g e'4 r8 e c4~
+    c8 h a8. g16 g4 r
+    R1*2
+    R1\fermata \bar "||" %45 finis
+  }
+}
+
+A-XXIIIGloriaSopranoLyrics = \lyricmode {
+  Glo -- ri -- a in ex -- cel -- sis, in ex --
+  cel -- sis De -- o.
+
+  Et in ter -- ra %7
+  pax, pax ho --
+  mi -- ni -- bus
+
+  bo -- nae vo -- lun -- %13
+  ta -- _ _ _
+  _ tis, vo -- lun -- ta -- %15
+  tis, pax, pax,
+
+  bo -- nae vo -- lun -- ta --
+  tis, pax, pax.
+
+  ad -- o -- %30
+  ra -- mus te,
+  ad -- o -- ra --
+  mus,
+  ad -- o -- ra --
+  _ mus %35
+  te, glo -- ri -- fi --
+  ca -- mus, glo --
+  ri -- fi -- ca -- mus
+  te, glo -- ri -- fi -- ca -- _
+  _ mus te, glo -- ri -- fi -- %40
+  ca -- mus te, glo -- ri --
+  fi -- ca -- mus te. %42 finis
+}
+
+A-XXIIIQuiTollisSoprano = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \autoBeamOff \tempoA-XXIIIQuiTollis
+      \set Score.currentBarNumber = #171
+    r4 \mvTr e'\fE^\tutti a, a
+    r8 a a a a4 g8 g \noBreak
+    g g g4 fis2\fermata \bar "||"
+    \time 3/2 \tempoA-XXIIIMiserere \newSpacingSection
+      h2( c) h \noBreak
+    a4( g) a( fis) g( a) %175
+    h2 fis h
+    g4( a) g( fis) e2
+    r d'! d
+    e1.~
+    e1 cis2 %180
+    d1( dis2)
+    e r r
+    R1.*4 %186
+    h1.
+    cis
+    ais
+    h2 h h %190
+    h1 a!2~
+    a g1
+    fis2 h h
+    a4 g a fis g a
+    h2 fis h %195
+    g4 fis g e fis g
+    fis1 g2~
+    g fis1 \noBreak
+    e1.\fermata \bar "||"
+    \time 4/4 \tempoA-XXIIIQuiTollisB \newSpacingSection
+      r4 e' e e \noBreak %200
+    r8 e e e f4 f8 f
+    f4 e e( d)
+    e1\fermata \bar "||"
+    \tempoA-XXIIISuscipe R1*7 \noBreak %210
+    R1\fermata \bar "||"
+    \time 3/2 \tempoA-XXIIIQuiSedes \newSpacingSection
+      \mvTr h2(\fE^\tutti c) h \noBreak
+    a4( g) a( fis) g( a)
+    h2 fis h
+    g4( a) g( fis) e2 %215
+    r d'! d
+    e1.~
+    e1 cis2
+    d1( dis2)
+    e r r %220
+    R1.*4
+    h1. %225
+    cis
+    ais
+    h2 h h
+    h1 a!2~
+    a g1 %230
+    fis2 h h
+    a4 g a fis g a
+    h2 fis h
+    g4 fis g e fis g
+    fis1 g2~ %235
+    g fis1
+    e1.\fermata \bar "||" %237 finis
+  }
+}
+
+A-XXIIIQuiTollisSopranoLyrics = \lyricmode {
+  Qui tol -- lis %171
+  pec -- ca -- ta mun -- di, pec --
+  ca -- ta mun -- di:
+  Mi -- se --
+  re -- _ _ %175
+  _ _ re
+  no -- _ bis,
+  mi -- se --
+  re --
+  re %180
+  no --
+  bis,
+
+  mi -- %187
+  se --
+  re --
+  re, mi -- se -- %190
+  re -- re __
+  no --
+  bis, mi -- se --
+  re -- _ _ _ _ _
+  _ _ re %195
+  no -- _ _ _ _ _
+  _ _
+  _
+  bis.
+  Qui tol -- lis %200
+  pec -- ca -- ta mun -- di, pec --
+  ca -- ta mun --
+  di:
+
+  Mi -- se -- %212
+  re -- _ _
+  _ _ re
+  no -- _ bis, %215
+  mi -- se --
+  re --
+  re
+  no --
+  bis, %220
+
+  mi -- %225
+  se --
+  re --
+  re, mi -- se --
+  re -- re __
+  no -- %230
+  bis, mi -- se --
+  re -- _ _ _ _ _
+  _ _ re
+  no -- _ _ _ _ _
+  _ _ %235
+  _
+  bis. %237 finis
+}
+
+A-XXIIIQuoniamSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoA-XXIIIQuoniam
+      \set Score.currentBarNumber = #238
+    R2.*14 %251
+    \mvTr d'4.\pE^\solo g,8 g4
+    e' d8([ c)] h([ a)]
+    h4 g r
+    e' d8([ c)] h([ a)] %255
+    h4 g d'
+    d2.
+    d
+    d2 d4
+    d2 a4 %260
+    h8([ e)] \appoggiatura d cis2
+    d4. a8 a4
+    h8([ e)] cis2
+    d8([ g)] \appoggiatura fis e2
+    fis4 e d %265
+    a'4. a,8 a4
+    a2.
+    a4 a a
+    a2 a4
+    a2 a4 %270
+    \once \tieDashed h~ h8[ cis16 d] cis8[ d16 e]
+    d4~ d8[ e16 fis] e8[ fis16 g]
+    fis8[ e d cis] d4
+    e8[( h]) cis2
+    d4 r r %275
+    R2.*3
+    e4. a,8 a4
+    e' e g, %280
+    g fis d'
+    d c!2
+    c4. h8 h4
+    e8([ g)] fis4 e
+    dis4. cis8 h4 %285
+    e2 d4
+    c!8([ h)] c4 r
+    d2 c4
+    h8([ a)] h4 r
+    c2 h4 %290
+    a8 g a4 r
+    h2 a4
+    g8[ a16 h] a8[ h16 c] h8[ cis16 dis?]
+    cis8[ dis16 e] dis8[ e16 fis] e4~
+    e8 a, fis2 %295
+    e4 r r
+    R2.*2
+    d'!4. g,8 g4
+    e' d8([ c)] h([ a)] %300
+    h4( c) d
+    g, c8([ h)] a([ g)]
+    fis4. e8 d4
+    g2.
+    a %305
+    h
+    c
+    d
+    e
+    d %310
+    d4 e8[ fis g e]
+    c[ h c e d c]
+    h[ a h c d h]
+    g([ c)] a2
+    g r4 %315
+    R2.*3
+    R2.\fermata \bar "||" %319 finis
+  }
+}
+
+A-XXIIIQuoniamSopranoLyrics = \lyricmode {
+  Quo -- ni -- am %252
+  tu so -- lus
+  san -- ctus,
+  tu so -- lus %255
+  san -- ctus, tu
+  so --
+  lus
+  Do -- mi --
+  nus, tu %260
+  so -- lus
+  Do -- mi -- nus,
+  so -- lus
+  san -- ctus,
+  so -- lus al -- %265
+  tis -- si -- mus,
+  tu
+  so -- lus al --
+  tis -- si --
+  mus, Je -- %270
+  _ _
+  _ _
+  _ _
+  su Chri --
+  ste. %275
+
+  Quo -- ni -- am %279
+  tu so -- lus %280
+  san -- ctus, tu
+  so -- lus
+  Do -- mi -- nus,
+  so -- lus al --
+  tis -- si -- mus, %285
+  Je -- su
+  Chri -- ste,
+  so -- lus
+  san -- ctus,
+  so -- lus %290
+  Do -- mi -- nus,
+  Je -- _
+  _ _ _
+  _ _ _
+  su Chri -- %295
+  ste.
+
+  Quo -- ni -- am %299
+  tu so -- lus %300
+  san -- ctus,
+  tu so -- lus
+  Do -- mi -- nus,
+  quo -- ni -- am
+  tu so -- lus %305
+  san -- ctus,
+  tu so -- lus
+  Do -- mi -- nus,
+  Je --
+  _ %310
+  _
+  _
+  _
+  _
+  su, %315
+  Je -- _
+  _
+  _
+  su Chri --
+  ste. %320 finis
+}
+
+A-XXIIICumSanctoSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoA-XXIIICumSancto
+      \set Score.currentBarNumber = #320
+    \mvTr h'2\fE^\tutti h
+    c c
+    d4 d d cis \noBreak
+    d1\fermata \bar "||"
+    \time 2/2 \tempoA-XXIIIInGloria
+      R1*20 %343
+    d1
+    fis,2. fis4 %345
+    g1
+    e'2. e4
+    cis( a) d2
+    d( c)
+    h g~ %350
+    g4 f e d
+    e c c'2~
+    c4 h a c
+    d2 h
+    a1 %355
+    a2 d~
+    d4 c h a
+    h g e'2~
+    e4 d c h
+    a2 d %360
+    d1
+    r2 g,~
+    g4 f e d
+    e1
+    a2 d, %365
+    R1*2
+    d'1
+    fis,2. fis4
+    g1 %370
+    e'2. e4
+    e( a,) d2
+    d cis4 h
+    cis1
+    d %375
+    r2 d~
+    d4 c! h a
+    h g h2
+    c4 h a gis
+    a gis a2 %380
+    h4 a gis fis!
+    gis e c'2
+    h1
+    a2 e'4 d
+    c h a2~ %385
+    a d4 c
+    h a g2~
+    g c4 h
+    a2. h8[ c]
+    d1~ %390
+    d2 c4 h
+    c d e2~
+    e dis4 cis
+    dis2. fis4~
+    fis h, e2~ %395
+    e dis
+    e1
+    R1*10 %407
+    d1
+    fis,2. fis4
+    g1 %410
+    e'2. e4
+    c2 c
+    c h
+    a1
+    a %415
+    d
+    fis,2. fis4
+    g1
+    d'2 d
+    d4( c) h( a) %420
+    h g a h
+    a d, h'2
+    a1~
+    a
+    h2 g' %425
+    h,2. h4
+    c1
+    d2 d
+    d c4( h)
+    c1~ %430
+    c2 h4 a
+    h\breve*1/2\fermata \bar "|." %432 finis
+  }
+}
+
+A-XXIIICumSanctoSopranoLyrics = \lyricmode {
+  Cum San -- %320
+  cto, cum
+  San -- cto Spi -- ri --
+  tu
+
+  in %344
+  glo -- ri -- %345
+  a
+  De -- i
+  Pa -- tris,
+  a --
+  men, a -- %350
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _
+  men, %355
+  a -- _
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ %360
+  men,
+  a --
+  _ _ _
+  _
+  _ men, %365
+
+  in %368
+  glo -- ri --
+  a %370
+  De -- i
+  Pa -- tris,
+  a -- _ _
+  _
+  men, %375
+  a --
+  _ _ _
+  _ _ _
+  _ _ _ _
+  _ _ _ %380
+  _ _ _ _
+  _ _ men,
+  a --
+  men, a -- _
+  _ _ _ %385
+  _ _
+  _ _ _
+  _ _
+  _ _
+  _ %390
+  _ _
+  _ _ _
+  _ _
+  _ _
+  _ _ %395
+  _
+  men,
+
+  in %408
+  glo -- ri --
+  a %410
+  De -- i
+  Pa -- tris,
+  a -- men,
+  a --
+  men, %415
+  in
+  glo -- ri --
+  a
+  De -- i
+  Pa -- tris, %420
+  a -- _ _ _
+  _ _ _
+  _
+
+  men, in %425
+  glo -- ri --
+  a
+  De -- i
+  Pa -- tris,
+  a -- %430
+  _ _
+  men. %432 finis
+}
+
+
+
+
+% Cre -- do in u -- num De -- um,
+% Pa -- trem o -- mni -- po -- ten -- tem,
+% fa -- cto -- rem coe -- li et ter -- rae,
+% vi -- si -- bi -- li -- um o -- mni -- um
+% et in -- vi -- si -- bi -- li -- um.
+% Et in u -- num Do -- mi -- num Je -- sum Chri -- stum,
+% Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum,
+% et ex Pa -- tre na -- tum an -- te o -- mni -- a sae -- cu -- la.
+% De -- um de De -- o, lu -- men de lu -- mi -- ne,
+% De -- um ve -- rum de De -- o ve -- ro,
+% ge -- ni -- tum non fa -- ctum,
+% con -- sub -- stan -- ti -- a -- lem Pa -- tri,
+% per quem o -- mni -- a fa -- cta sunt.
+% Qui pro -- pter nos ho -- mi -- nes
+% et pro -- pter no -- stram sa -- lu -- tem
+% de -- scen -- dit de coe -- lis.
+
+% Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto
+% ex Ma -- ri -- a Vir -- gi -- ne, et ho -- mo fa -- ctus est.
+
+% Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis
+% sub Pon -- ti -- o Pi -- la -- to, pas -- sus et se -- pul -- tus est.
+
+% Et re -- sur -- re -- xit ter -- ti -- a di -- e
+% se -- cun -- dum Scri -- ptu -- ras,
+% et a -- scen -- dit in coe -- lum,
+% se -- det ad dex -- te -- ram Pa -- tris.
+% Et i -- te -- rum ven -- tu -- rus est cum glo -- ri -- a
+% iu -- di -- ca -- re vi -- vos et mor -- tu -- os,
+% cu -- ius re -- gni non e -- rit fi -- nis.
+% Et in Spi -- ri -- tum San -- ctum,
+% Do -- mi -- num et vi -- vi -- fi -- can -- tem,
+% qui ex Pa -- tre Fi -- li -- o -- que pro -- ce -- dit.
+% Qui cum Pa -- tre et Fi -- li -- o
+% si -- mul ad -- o -- ra -- tur et con -- glo -- ri -- fi -- ca -- tur:
+% qui lo -- cu -- tus est per Pro -- phe -- tas.
+% Et u -- nam san -- ctam ca -- tho -- li -- cam
+% et a -- po -- sto -- li -- cam Ec -- cle -- si -- am.
+% Con -- fi -- te -- or u -- num ba -- ptis -- ma
+% in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
+% Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o -- rum,
+% et vi -- tam ven -- tu -- ri sae -- cu -- li.
+% A -- men.
+
+
+% ## Sanctus
+
+% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
+% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
+% O -- san -- na in ex -- cel -- sis.
+
+
+% ## Benedictus
+
+% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
+% O -- san -- na in ex -- cel -- sis.
+
+
+% ## Agnus Dei
+
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Do -- na no -- bis pa -- cem.
