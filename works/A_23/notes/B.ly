@@ -644,3 +644,234 @@ A-XXIIICumSanctoBassoLyrics = \lyricmode {
   men. __ %431
   %432 finis
 }
+
+A-XXIIICredoBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoA-XXIIICredo
+    R1*2
+    r4 \mvTr a'8\pE^\solo a d,4 e8 fis
+    g8. g16 g4 g4. a8
+    fis g g fis g4 r %5
+    R1*3
+    r4 a8 a fis4 gis
+    a8 a a a g4 g8 a %10
+    h8. h,16 h4 r8 fis' fis e
+    d4 h r e8 gis
+    a4 a,8 fis' dis e h4
+    e \mvTr c8.\fE^\tutti c16 h8 c a4
+    g fis'8 fis g4 fis %15
+    g8 d d([ cis)] d4 r
+    r2 r4 g8 f
+    e4 d8 c d4. d8
+    g,4 g' g g8 g
+    cis,4. cis8 d2 %20
+    r4 c c c
+    h2 e4 e
+    f f gis,2
+    a4 a d( e)
+    f r r r8 d %25
+    d([ b)] b g g g r e'
+    e([ c)] c a a f b4 \noBreak
+    c2 f,\fermata \bar "||"
+    \key d \minor \tempoA-XXIIIEtIncarnatus
+      R1*26 \noBreak %54
+    R1\fermata \bar "||" %55
+    \time 2/2 \tempoA-XXIIICrucifixus \newSpacingSection
+      \mvTr d'1\fE^\tutti \noBreak
+    b'
+    cis,2. d4
+    e a, a' g
+    f( e) d2 %60
+    d e4( f)
+    e( d) c!( a)
+    gis1
+    a2 a'~
+    a4 d, g2~ %65
+    g f
+    g4 a b2
+    a4 g f e8[ d]
+    cis1
+    d %70
+    R1*3
+    r2 a'
+    fis2. fis4 %75
+    g2 g
+    e2. e4
+    f!2 f
+    d4 e f2~
+    f e %80
+    f1
+    r2 a,(
+    b) b
+    r h(
+    c) c %85
+    r cis(
+    d) d
+    b!1
+    a
+    gis %90
+    gis
+    a2 a
+    a a
+    d1
+    d %95
+    d2 d \noBreak
+    d\breve*1/2\fermata \bar "||"
+    \key g \major \time 4/4 \tempoA-XXIIIEtResurrexit \newSpacingSection
+      R1*2
+    r2 \mvTr g,4\fE^\tutti h8 d %100
+    g g r4 g d8 d
+    e e h'4 c g
+    r8 g d4 g, r
+    R1
+    \mvTr a'4\pE^\solo a8 g fis4 h8 g %105
+    a2 d,4 r
+    R1
+    \mvTr a'2\fE^\tutti f
+    dis e
+    a,8 a r g f4. f8 %110
+    e4 e'8 d cis4 cis
+    r d8 c h4 h8 h
+    c f g4 c, r
+    R1*5 %118
+    r2 r4 \mvTr d8\pE^\solo d
+    h8. h16 h4 c8 e d4 %120
+    g, \mvTr e'\fE^\tutti h' e,
+    h' e,8 e h8. h16 h4
+    r8 h cis dis e8. e16 d8 d
+    c4. c8 h4 r
+    R1*5 %129
+    r2 \mvTr c\fE^\tutti %130
+    c a \noBreak
+    g1\fermata \bar "||"
+    \tempoA-XXIIIEtVitam R1*4 %136
+    \mvTr g'2\fE^\tutti e4 c
+    r8 a' a a fis8. e16 fis4
+    r8 g g g e8. e16 c4
+    d8 g, d'4 g,8 g16([ a] h[ g a h] %140
+    c4) c r8 a'16([ g] fis[ g fis e]
+    d4) d r8 g16([ f] e[ f e d]
+    c4) c r8 d g g
+    g fis16 g a4 d,2
+    r8 d16([ c] h[ c d h] e4) e %145
+    r8 e16([ d] c[ d e c] f4) f
+    r8 f16([ e] d[ e f d] g4) g
+    r8 g16([ f] e[ f g e]) a4 a8[ g]
+    fis4 g8[ e] c2
+    d2 d~ %150
+    d1~
+    d2 g,\fermata \bar "|." %152 finis
+  }
+}
+
+A-XXIIICredoBassoLyrics = \lyricmode {
+  vi -- si -- bi -- li -- um %3
+  o -- mni -- um et in --
+  vi -- si -- bi -- li -- um, %5
+
+  et ex Pa -- tre %9
+  na -- tum an -- te o -- mni -- a %10
+  sae -- cu -- la, De -- um de
+  De -- o, De -- um
+  ve -- rum de De -- o ve --
+  ro. Ge -- ni -- tum non fa --
+  ctum, con -- sub -- stan -- ti -- %15
+  a -- lem Pa -- tri,
+  per quem
+  o -- mni -- a fa -- cta
+  sunt, qui pro -- pter nos
+  ho -- mi -- nes %20
+  et pro -- pter
+  no -- stram sa --
+  lu -- tem, no --
+  stram sa -- lu --
+  tem de -- %25
+  scen -- dit, de -- scen -- dit, de --
+  scen -- dit, de -- scen -- dit de
+  coe -- lis.
+
+  Cru -- %56
+  ci --
+  fi -- xus
+  e -- ti -- am pro
+  no -- bis, %60
+  e -- ti --
+  am pro
+  no --
+  bis, e --
+  ti -- am __ %65
+  pro
+  no -- _ _
+  _ _ _ _
+  _
+  bis, %70
+
+  sub %74
+  Pon -- ti -- %75
+  o, sub
+  Pon -- ti --
+  o Pi --
+  la -- _ _
+  _ %80
+  to
+  pas --
+  sus,
+  pas --
+  sus, %85
+  pas --
+  sus
+  et
+  se --
+  pul -- %90
+  tus
+  est, se --
+  pul -- tus
+  est,
+  se -- %95
+  pul -- tus
+  est.
+
+  Et re -- sur -- %100
+  re -- xit ter -- ti -- a
+  di -- e se -- cun -- dum
+  Scri -- ptu -- ras.
+
+  se -- det ad dex -- te -- ram %105
+  Pa -- tris,
+
+  iu -- di --
+  ca -- re
+  vi -- vos et mor -- tu -- %110
+  os, cu -- ius re -- gni,
+  cu -- ius re -- gni non
+  e -- rit fi -- nis.
+
+  qui lo -- %119
+  cu -- tus est per Pro -- phe -- %120
+  tas. Et u -- nam
+  san -- ctam ca -- tho -- li -- cam
+  et a -- po -- sto -- li -- cam Ec --
+  cle -- si -- am.
+
+  mor -- tu -- %130
+  o --
+  rum,
+
+  et vi -- tam %137
+  ven -- tu -- ri sae -- cu -- li,
+  ven -- tu -- ri sae -- cu -- li,
+  a -- men, a -- men, a -- %140
+  men, a --
+  men, a --
+  men, ven -- tu -- ri
+  sae -- cu -- li, a -- men,
+  a -- men, %145
+  a -- men,
+  a -- men,
+  a -- men, a --
+  _ _ _
+  men, a -- %150
+
+  men. %152 finis
+}

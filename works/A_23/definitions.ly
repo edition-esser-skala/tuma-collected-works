@@ -14,10 +14,16 @@ tempoA-XXIIIQuiTollis = \tempoMarkup "[Grave]"
   tempoA-XXIIIMiserere = \tempoMarkup "Andante" %240
   tempoA-XXIIIQuiTollisB = \tempoMarkup "Grave" %60
   tempoA-XXIIISuscipe = \tempoMarkup "Andante" %80
-  tempoA-XXIIIQuiSedes = \tempoMarkup "[Anddante]" %240
+  tempoA-XXIIIQuiSedes = \tempoMarkup "[Andante]" %240
 tempoA-XXIIIQuoniam = \tempoMarkup "Spiritoso"
 tempoA-XXIIICumSancto = \tempoMarkup "[Adagio]"
   tempoA-XXIIIInGloria = \tempoMarkup "[Alla breve]"
+
+tempoA-XXIIICredo = \tempoMarkup "[Allegro]"
+  tempoA-XXIIIEtIncarnatus = \tempoMarkup "Largo" %50
+  tempoA-XXIIICrucifixus = \tempoMarkup "[Alla breve]" %100
+  tempoA-XXIIIEtResurrexit = \tempoMarkup "Allegro" %200
+  tempoA-XXIIIEtVitam = \tempoTitle "Et vitam" %110
 
 \include "notes/trb1.ly"
 \include "notes/trb2.ly"

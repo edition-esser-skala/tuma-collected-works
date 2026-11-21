@@ -481,3 +481,110 @@ A-XXIIICumSanctoViolinoII = {
     h\breve*1/2\fermata \bar "|." %432 finis
   }
 }
+
+A-XXIIICredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoA-XXIIICredo
+    R1*13 %13
+    r4 e'8.\fE e16 d8 e c4
+    h a8 d h4 d %15
+    h8 a g4 fis r
+    r2 r4 h8 a
+    g4 g8 g g4 fis
+    g h b b8 b
+    b4. b8 a2 %20
+    r4 es' es es
+    dis2^\critnote e4 e
+    e d d2
+    d4 c b2
+    a4 r8 c c a a f %25
+    d d r d' d b b g
+    e e r c' c4 b8 a \noBreak
+    g2 a\fermata \bar "||"
+    \key d \minor \tempoA-XXIIIEtIncarnatus
+      R1*26 \noBreak %54
+    R1\fermata \bar "||" %55
+    \time 2/2 \tempoA-XXIIICrucifixus \newSpacingSection
+      R1*14 \noBreak %69
+    a1\fE %70
+    f'
+    gis,2 a
+    h4 e, e' d
+    c h a2
+    r d %75
+    h2. h4
+    c2 c
+    a2. a4
+    b!2 a
+    g1 %80
+    f
+    r2 es'~
+    es d
+    r f~
+    f e! %85
+    r g~
+    g f
+    f1
+    f
+    f %90
+    e
+    e2 f
+    e e
+    d1
+    a %95
+    b2 b \noBreak
+    a\breve*1/2\fermata \bar "||"
+    \key g \major \time 4/4 \tempoA-XXIIIEtResurrexit \newSpacingSection
+      d16\fE g, a h c d e fis g4 fis \noBreak
+    e d c h
+    a8 g4 fis8 g4 r %100
+    d'16 g, a h c d e fis g4 fis
+    e d c h
+    a8 g4 fis8 g4 r
+    R1
+    cis4.\p cis8 d4. h8 %105
+    e, d4 cis8 d4 r
+    r2 e'16\fE a, h c! d e fis gis
+    a8 a, a a r a a a
+    r a a a r gis gis gis
+    a a r h, c4 a %110
+    h r a'16\f h cis d e f g e
+    f8 f r4 g,16 a h c d e f! d
+    e16. c32 d16. a32 h4 c8 c, r4
+    R1
+    h'16.\p g32 a16. e32 fis4 g8 g, r4 %115
+    R1
+    e''16 a, cis d e f g e f8 d, r4
+    d'16 d, e f g a h g e'8 c, r4
+    r2 a'16 d, e fis g a h cis
+    d8 d, r4 g8 g4 fis8 %120
+    g4 g'16\f e fis g fis dis cis h g' e fis g
+    fis dis cis h g' e fis g fis h, cis! dis! e fis g a
+    h8 h, r4 h'16 g fis g h fis e fis
+    h e, dis e a e dis e dis h cis dis e fis g a
+    h e,,\p fis gis a h c d e8 e, r4 %125
+    R1*6 %131
+    R1\fermata \bar "||"
+    \tempoA-XXIIIEtVitam d'2\fE h4 g \noBreak
+    r8 e' e e c8. h16 c4
+    r8 d d d h8. a16 h4 %135
+    c h a2
+    g8 g16 a h c d h c8 c, r4
+    r8 e'16 d c d c h a4 a
+    r8 d16 c h c h a g4 r
+    d'2 h4 g %140
+    r8 e' e e c8. h16 c4
+    r8 a d d h8. a16 h4
+    r8 g c c c8. c16 h4
+    cis8 d d cis d a16 g fis g a fis
+    h4 h r8 h16 a g a h g %145
+    c4 c r8 c16 h a h c a
+    d4 d r8 d16 c h c d h
+    e4 e e8 d c4
+    d8 c h4 a2~
+    a d~ %150
+    d1~
+    d2 d\fermata \bar "|." %152 finis
+  }
+}

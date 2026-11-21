@@ -483,3 +483,112 @@ A-XXIIICumSanctoViolinoI = {
     h\breve*1/2\fermata \bar "|." %432 finis
   }
 }
+
+A-XXIIICredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoA-XXIIICredo
+    R1*13 %13
+    r4 e'8.\fE e16 d8 e c4
+    h a8 d h4 d %15
+    h8 a g4 fis r
+    r2 r4 h8 a
+    g4 g8 g g4 fis
+    g h b b8 b
+    b4. b8 a2 %20
+    r4 es' es es
+    dis2^\critnote e4 e
+    e d d2
+    d4 c b2
+    a4 r8 c c a a f %25
+    d d r d' d b b g
+    e e r c' c4 b8 a \noBreak
+    g2 a\fermata \bar "||"
+    \key d \minor \tempoA-XXIIIEtIncarnatus
+      R1*26 \noBreak %54
+    R1\fermata \bar "||" %55
+    \time 2/2 \tempoA-XXIIICrucifixus \newSpacingSection
+      R1*14 \noBreak %69
+    a1\fE %70
+    f'
+    gis,2 a
+    h4 e, e' d
+    c h a2
+    r d %75
+    h2. h4
+    c2 c
+    a2. a4
+    b!2 a
+    g1 %80
+    f
+    r2 es'~
+    es d
+    r f~
+    f e! %85
+    r g~
+    g f
+    f1
+    f
+    f %90
+    e
+    e2 f
+    e e
+    d1
+    a %95
+    b2 b \noBreak
+    a\breve*1/2\fermata \bar "||"
+    \key g \major \time 4/4 \tempoA-XXIIIEtResurrexit \newSpacingSection
+      d16\fE g, a h c d e fis g a h g a fis e d \noBreak
+    g e dis e fis d c h e c h c d h a g
+    c16. a32 h16. g32 a4 g r %100
+    d'16 g, a h c d e fis g a h g a fis e d
+    g e dis e fis d c h e c h c d h a g
+    c16. a32 h16. g32 a4 g r
+    R1
+    a'16\p a, h cis d e fis g a fis e d g h, cis! d %105
+    cis16. a32 d16. d,32 e4 d r
+    r2 e'16\fE a, h c! d e fis gis
+    a8 c, c c r c c c
+    r c c c r h h h
+    c c r e, e4( d8.) e16 %110
+    e\f fis gis a h c d h e8 e r4
+    d16 e f g a h c a d8 d r4
+    e,16. c32 d16. a32 h4 c8 c, r4
+    r2 c'16\p g a h c d e fis!
+    g8 g, r4 r2 %115
+    r h16 e, gis a h c d h
+    e8 e, r4 a16 d, e f g a h cis
+    d8 d, r4 g'16 c, d e f g a h
+    c8 c, r4 r2
+    g'16 g, h c d e f g e8 c a4 %120
+    g g'16\f e fis g fis dis cis h g' e fis g
+    fis dis cis h g' e fis g fis h, cis! dis! e fis g a
+    h8 h, r4 h'16 g fis g h fis e fis
+    h e, dis e a e dis e dis h cis dis e fis g a
+    h8 e, r4 r2 %125
+    e16\p a, h c! d! e fis gis a8 a, r4
+    a'16 d, e f g a h cis d8 d, r4
+    R1*4
+    R1\fermata \bar "||"
+    \tempoA-XXIIIEtVitam d2\fE h4 g \noBreak
+    r8 e' e e c8. h16 c4
+    r8 d d d h8. a16 h4 %135
+    c h a2
+    g8 g16 a h c d h c8 c, r4
+    r8 e'16 d c d c h a4 a
+    r8 d16 c h c h a g4 r
+    d'2 h4 g %140
+    r8 e' e e c8. h16 c4
+    r8 a d d h8. a16 h4
+    r8 g c c c8. c16 h4
+    cis8 d d cis d a16 g fis g a fis
+    h4 h r8 h16 a g a h g %145
+    c4 c r8 c16 h a h c a
+    d4 d r8 d16 c h c d h
+    e4 e e8 d c4
+    d8 c h4 a2~
+    a d~ %150
+    d1~
+    d2 d\fermata \bar "|." %152 finis
+  }
+}

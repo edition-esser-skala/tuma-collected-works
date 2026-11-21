@@ -348,3 +348,128 @@ A-XXIIICumSanctoTromboneII = {
     d\breve*1/2\fermata \bar "|." %432 finis
   }
 }
+
+A-XXIIICredoTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key g \major \time 4/4 \tempoA-XXIIICredo
+    R1*13 %13
+    r4 \mvTr c8.\fE-\tutti c16 d8 c e a,
+    h4 d8 d d4 d %15
+    d8 d e4 a, r
+    r d8 c h4. c16 d
+    e8 e a, a16 a a4. a8
+    h4 d d d8 d
+    e4. e8 d2 %20
+    r4 a a a
+    a h!2 e4
+    c a h2
+    c4 a a g
+    f r8 a a f f d %25
+    d d r b' b g g e
+    e e r a f4 d'8 d \noBreak
+    c2 c\fermata \bar "||"
+    \key d \minor \tempoA-XXIIIEtIncarnatus
+      r8 \mvTr f\pE-\solo g16( f) g( f) r8 e f16( e) f( e) \noBreak
+    r8 d e16( d) e( d) d8 cis d16( cis) d d-! %30
+    d8 cis r d d16 c b8 a4
+    b16 a g4 f8 e f16 g a8 cis
+    d f g16( f) g( f) r8 e f16( e) f( e)
+    d4 r r2
+    R1*4 %38
+    r8 c16( d) e( c) d( e) f( e) f f-! f4\trill
+    e r r2 %40
+    R1*4
+    r2 r8 c d16( c) d( c) %45
+    r8 h c16( h) c( h) r8 a h16( a) h( a)
+    a8 gis a16( gis) a a-! a8 gis r4
+    r2 r8 a d16( c) d( c)
+    b!4 r r8 g c16( b) c( b)
+    a4 r r2 %50
+    R1
+    r8 f' g16( f) g( f) r8 e f16( e) f( e)~
+    e8 d16 cis d c b a b4. g'8
+    g f e4 d f8 e \noBreak
+    d2 cis\fermata \bar "||" %55
+    \time 2/2 \tempoA-XXIIICrucifixus \newSpacingSection
+      R1*4
+    \mvTr a1\fE-\tutti %60
+    f'
+    gis,2 a
+    h?4 e, e' d
+    c h a c
+    b1 %65
+    a2 d~
+    d d
+    e a,
+    a1
+    a2 r %70
+    d d
+    d c!4 a
+    e'1
+    a,
+    r2 a %75
+    d2. d4
+    g,2 c
+    c2. c4
+    d2 c
+    b c %80
+    a1
+    r2 c~
+    c b
+    r d~
+    d c %85
+    r e~
+    e d
+    d1
+    d
+    d %90
+    d
+    cis2 d
+    d cis
+    d1
+    d %95
+    d2 d \noBreak
+    d\breve*1/2\fermata \bar "||"
+    \key g \major \time 4/4 \tempoA-XXIIIEtResurrexit \newSpacingSection
+      R1*2
+    r2 d4\fE d8 d %100
+    d d r4 d d8 c
+    h h h4 g h
+    r8 d d4 d r
+    R1*4 %107
+    a2\fE a
+    a gis
+    a8 a r h a4. a8 %110
+    gis4 e'8 e e4 e
+    r d8 d d4 d8 d
+    e e d4 c r
+    R1*7 %120
+    r4 e\fE dis e
+    dis h8 h h8. h16 h4
+    r8 dis dis dis h8. h16 d8 d
+    e4. e8 dis4 r
+    R1*5
+    r2 c\fE %130
+    c c \noBreak
+    h1\fermata \bar "||"
+    \tempoA-XXIIIEtVitam R1*3 %135
+    r2 d\fE
+    h4 g r8 e' e e
+    c8. h16 c4 r8 d d d
+    h8. a16 h4 r8 c4 c8
+    c h a4 g r %140
+    r8 c,16 d e8 fis16 g a4 a
+    r8 d16 c h c h a g4 g
+    r2 a4 h8 h
+    e a, a4 a2
+    r4 h g g %145
+    r c a a
+    r d h h
+    r h c2
+    a4 h e2
+    d r8 d16 c h c d h %150
+    c4~ c16 h a c h4~ h16 a g h
+    a2 h\fermata \bar "|." %152 finis
+  }
+}

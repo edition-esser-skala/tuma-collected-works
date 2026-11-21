@@ -12,5 +12,5 @@ sources:
     principal: true
 tocstyle: default
 toe: |
- 25 vl 1 ?
- 36 tempo?
+  3 & 22  & vl, S & 1st \halfNote\ in \B1: \flat e″2 \\
+    & 101 & trb 1 & last \eighthNote\ in \B1: g′8 \\
